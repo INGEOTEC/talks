@@ -15,12 +15,9 @@ author:
       affiliation: INFOTEC
 
 format:
-  revealjs:
+  revealjs
   #  html:
   #    page-layout: full
-    site-url: https://ingeotec.github.io/IberLEF2023
-    repo-url: https://github.com/INGEOTEC/IberLEF2023
-    downloads: pdf
 bibliography: references.bib
 ---
 
@@ -173,16 +170,16 @@ The list of configurations
 - `bow`: Pre-trained BoW where the tokens are selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.
 - `bow_voc_selection`: Pre-trained BoW where the tokens correspond to the most frequent ones.
 - `bow_training_set`: BoW trained with the training set; the number of tokens corresponds to all the tokens in the set. 
-- `stack_bow_keywords_emojis`: Stack generalization approach where the base classifiers are the BoW,  the emojis, and the keywords dense BoW.  
-- `stack_bow_keywords_emojis_voc_selection`: Stack generalization approach where the base classifiers are the BoW,  the emojis, and the keywords dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.
+- `stack_bow_keywords_emojis`: Stack generalization approach where the base classifiers are the BoW,  the _emojis_, and the _keywords_ dense BoW.  
+- `stack_bow_keywords_emojis_voc_selection`: Stack generalization approach where the base classifiers are the BoW, the _emojis_, and the _keywords_ dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.
 :::
 
 ## Configurations (continued...)
 
 ::: {style="font-size: 70%;"}
-- `stack_bows`: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection).
-- `stack_2_bow_keywords`: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. 
-- `stack_2_bow_tailored_keywords`: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as _tailored keywords_. 
+- `stack_bows`: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., `bow` and `bow_voc_selection`).
+- `stack_2_bow_keywords`: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (_emojis_ and _keywords_), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. 
+- `stack_2_bow_tailored_keywords`: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (_emojis_ and _keywords_), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as _tailored keywords_. 
 :::
 
 ## Configurations (continued...)
@@ -251,11 +248,11 @@ We have presented our system solution and results for detecting violent incident
 ## Conclusions (continued...)
 Our results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models. This is important because it means that we can use similar methodologies for languages without large language models or when it is impossible to afford the prediction costs of transformer-based solutions.
 
+# Thanks
+
+gracias y promoción evomsa
+
 # References
 
 ::: {#refs}
 :::
-
-# Thanks
-
-gracias y promoción evomsa
