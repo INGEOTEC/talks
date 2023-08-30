@@ -7,6 +7,7 @@ author:
       url: https://mgraffg.github.io
       affiliation: INFOTEC
     - name: "Daniela Moctezuma"
+      url: https://dmocteo.github.io/
       affiliation: "CentroGEO"
     - name: "Eric S. Téllez"
       url: https://sadit.github.io
@@ -26,13 +27,16 @@ bibliography: references.bib
 
 Violence is a serious problem that can have a devastating impact on individuals and communities. In some cases, the virtual world is prone to aggressive expressions and insults, among other violent expressions.
 
+
+
+
 ## The DA-VINCIS Task at IberLEF 2023
-An open challenge to develop multimodal models to detect violent incidents on Twitter. The task has two tracks:
+An open challenge to develop multimodal models to detect violent incidents on Twitter. The task has two tracks:  
 
 i. violent event identification and
 ii. violent event category recognition. 
 
-This presentation describes our solution system for the (i) track using **only text-based features**. More particularly, we used our **EvoMSA** framework. We achieved an F1 score of 0.89, just 3 hundredths behind the best model in the final ranking.
+This presentation describes our solution system for the (i) track using **only text-based features**. More particularly, we used our **EvoMSA** framework [@graff2020evomsa]. We achieved an F1 score of 0.89, just 3 hundredths behind the best model in the final ranking.
 
 
 # Our appproach
