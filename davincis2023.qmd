@@ -13,10 +13,14 @@ author:
       affiliation: INFOTEC    
     - name: "Sabino Miranda-Jiménez"
       affiliation: INFOTEC
+
 format:
-  revealjs
+  revealjs:
   #  html:
   #    page-layout: full
+    site-url: https://ingeotec.github.io/IberLEF2023
+    repo-url: https://github.com/INGEOTEC/IberLEF2023
+    downloads: pdf
 bibliography: references.bib
 ---
 
