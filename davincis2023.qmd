@@ -10,7 +10,7 @@ author:
       affiliation: "CentroGEO"
     - name: "Eric S. Téllez"
       url: https://sadit.github.io
-      affiliation: INFOTEC    
+      affiliation: INFOTEC 
     - name: "Sabino Miranda-Jiménez"
       affiliation: INFOTEC
 
@@ -45,6 +45,7 @@ Since we focus on text messages, violent event identification can be seen as a t
 - Dense bag of words (DBOW)
 
 ## Sparse bag of words
+
 The text is preprocessed and tokenized, then each token $t$ is associated with a vector $\mathbf{v_t} \in \mathbb R^d$ where the $i$-th component, i.e., $\mathbf{v_t}_i$, contains the Inverse-Document-Frequency (IDF) value of the token $t$ and $\forall_{j \neq i} \mathbf{v_t}_j=0$. 
 
 The set of vectors $\mathbf V = \{ \mathbf v_t \}$ corresponds to the vocabulary, and there are $|\mathbf V| = d$ different tokens in the vocabulary.
@@ -221,7 +222,7 @@ Performance, in terms of F1, of different configurations on a five fold cross-va
 :::
 
 ::: {.notes}
-The Table presents the performance, in terms of F1, of the different configurations in the k-fold cross-validation ($k=5$). It also includes the performance of our submission in the competition and the competition's winner. The table includes two columns {\em Tailored} and {\em Dense}; these provide an overview of the systems. The tailored column indicates whether the training set was used to define the words in the self-supervised datasets or the BoW vocabulary was obtained from it. The dense column indicates the use of a dense representation. 
+The Table presents the performance, in terms of F1, of the different configurations in the k-fold cross-validation ($k=5$). It also includes the performance of our submission in the competition and the competition's winner. The table includes two columns _Tailored_ and _Dense_; these provide an overview of the systems. The tailored column indicates whether the training set was used to define the words in the self-supervised datasets or the BoW vocabulary was obtained from it. The dense column indicates the use of a dense representation. 
 
 It can be observed that, for edition 2023, the best configuration is a stack generalization algorithm with four base classifiers; two BoW and two dense representations. One of the dense models also includes tailored keywords. The best configuration for edition 2022 is quite similar to the one for 2023; the difference is that the 2022 configuration does not use tailored keywords. The configuration used in 2023 is the second-best configuration of 2022, according to the performance obtained in the k-fold cross-validation approach.
 
@@ -241,12 +242,20 @@ Another comparison that one can make with the Table's data is computing the diff
 :::
 
 
-# Conclusions
+# Conclusions {.smaller}
 
-We have presented our system solution and results for detecting violent incidents on Twitter using only text-based features in the context of the DA-VINCIS 2023 challenge. Our system is based on the ensemble of multiple models using stacked generalization, more precisely with our EvoMSA framework. Our approach uses lexical and semantic features, all computed as bags of words. We achieved an F1 score of 0.89, just 3 hundredths behind the best model in the final ranking.
+We have presented our system solution and results for detecting violent incidents on Twitter using only text-based features in the context of the DA-VINCIS 2023 challenge. 
 
-## Conclusions (continued...)
-Our results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models. This is important because it means that we can use similar methodologies for languages without large language models or when it is impossible to afford the prediction costs of transformer-based solutions.
+- Our system is based on the ensemble of multiple models using stacked generalization, more precisely with our EvoMSA framework.
+- Our approach uses lexical and semantic features, all computed as bags of words.
+- We achieved an F1 score of 0.89, just 3 hundredths behind the best model in the final ranking.
+- Our results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.
+
+::: {.notes}
+This is important when:
+- it is impossible to afford the prediction costs of transformer-based solutions.
+- some degree of explainability is required, we can always retrieve the words involved in the decision model
+:::
 
 # Thanks
 
