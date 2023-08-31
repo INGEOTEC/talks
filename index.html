@@ -362,7 +362,7 @@
     </div>
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Daniela Moctezuma 
+<a href="https://dmocteo.github.io/">Daniela Moctezuma</a> 
 </div>
         <p class="quarto-title-affiliation">
             CentroGEO
@@ -399,7 +399,7 @@ Sabino Miranda-Jiménez
 <li>violent event identification and</li>
 <li>violent event category recognition.</li>
 </ol>
-<p>This presentation describes our solution system for the (i) track using <strong>only text-based features</strong>. More particularly, we used our <strong>EvoMSA</strong> framework. We achieved an F1 score of 0.89, just 3 hundredths behind the best model in the final ranking.</p>
+<p>This presentation describes our solution system for the (i) track using <strong>only text-based features</strong>. More particularly, we used our <strong>EvoMSA</strong> framework <span class="citation" data-cites="graff2020evomsa">(<a href="#/references" role="doc-biblioref" onclick="">Graff et&nbsp;al. 2020</a>)</span>. We achieved an F1 score of 0.89, just 3 hundredths behind the best model in the final ranking.</p>
 </section></section>
 <section>
 <section id="our-appproach" class="title-slide slide level1 center">
@@ -756,7 +756,102 @@ Sabino Miranda-Jiménez
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="other-competitions-performance" class="slide level2 smaller">
+<h2>Other competitions performance</h2>
+<table>
+<caption>Performance comparison . <a href="https://evomsa.readthedocs.io/en/docs/competition.html">EvoMSA’ results</a></caption>
+<thead>
+<tr class="header">
+<th>Competition</th>
+<th>Winner</th>
+<th>EvoMSA 2.0</th>
+<th>Difference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PoliticEs (Gender)</td>
+<td>0.8296</td>
+<td>0.7115</td>
+<td>16.6%</td>
+</tr>
+<tr class="even">
+<td><strong>PoliticEs (Profession)</strong></td>
+<td><strong>0.8608</strong></td>
+<td><strong>0.8379</strong></td>
+<td><strong>2.7%</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>PoliticEs (Ideology Binary)</strong></td>
+<td><strong>0.8967</strong></td>
+<td><strong>0.8913</strong></td>
+<td><strong>0.6%</strong></td>
+</tr>
+<tr class="even">
+<td><strong>PoliticEs (Ideology Multiclass)</strong></td>
+<td><strong>0.6913</strong></td>
+<td><strong>0.6694</strong></td>
+<td><strong>3.3%</strong></td>
+</tr>
+<tr class="odd">
+<td>REST-MEX (Polarity)</td>
+<td>0.6216</td>
+<td>0.5548</td>
+<td>12.0%</td>
+</tr>
+<tr class="even">
+<td><strong>REST-MEX (Type)</strong></td>
+<td><strong>0.9903</strong></td>
+<td><strong>0.9805</strong></td>
+<td><strong>1.0%</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>REST-MEX (Country)</strong></td>
+<td><strong>0.9420</strong></td>
+<td><strong>0.9270</strong></td>
+<td><strong>1.6%</strong></td>
+</tr>
+<tr class="even">
+<td>HOMO-MEX</td>
+<td>0.8847</td>
+<td>0.8050</td>
+<td>9.9%</td>
+</tr>
+<tr class="odd">
+<td>HOPE (ES)</td>
+<td>0.9161</td>
+<td>0.4198</td>
+<td>118.2%</td>
+</tr>
+<tr class="even">
+<td>HOPE (EN)</td>
+<td>0.5012</td>
+<td>0.4429</td>
+<td>13.2%</td>
+</tr>
+<tr class="odd">
+<td>DIPROMATS (ES)</td>
+<td>0.8089</td>
+<td>0.7485</td>
+<td>8.1%</td>
+</tr>
+<tr class="even">
+<td>DIPROMATS (EN)</td>
+<td>0.8090</td>
+<td>0.7255</td>
+<td>11.5%</td>
+</tr>
+<tr class="odd">
+<td>HUHU</td>
+<td>0.820</td>
+<td>0.775</td>
+<td>5.8%</td>
+</tr>
+</tbody>
+</table>
 </section></section>
+<section>
 <section id="conclusions" class="title-slide slide level1 smaller center">
 <h1>Conclusions</h1>
 <p>We have presented our system solution and results for detecting violent incidents on Twitter using only text-based features in the context of the DA-VINCIS 2023 challenge.</p>
@@ -780,15 +875,26 @@ Sabino Miranda-Jiménez
           display:block!important;
       }</style></aside>
 </section>
-
+<section id="conclusions-continued" class="slide level2">
+<h2>Conclusions (continued…)</h2>
+<p>Explainability of the model (with a simple bow outstanding results). Simplest solution Fast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.</p>
+</section></section>
 <section id="thanks" class="title-slide slide level1 center">
 <h1>Thanks</h1>
-<p>gracias y promoción evomsa</p>
+<p>Questions?</p>
+<p>Also, we want to promote the usage of our EvoMSA library.</p>
+<p>For EvoMSA documentation see:<br>
+<strong>https://evomsa.readthedocs.io/en/docs/</strong><br>
+EvoMSA Github repository<br>
+<strong>https://github.com/INGEOTEC/EvoMSA</strong></p>
 </section>
 
 <section id="references" class="title-slide slide level1 smaller scrollable">
 <h1>References</h1>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-graff2020evomsa" class="csl-entry" role="listitem">
+Graff, Mario, Sabino Miranda-Jimenez, Eric S Tellez, y Daniela Moctezuma. 2020. <span>«Evomsa: A multilingual evolutionary approach for sentiment analysis [application notes]»</span>. <em>IEEE Computational Intelligence Magazine</em> 15 (1): 76-88.
+</div>
 <div id="ref-Tellez2017ATwitter" class="csl-entry" role="listitem">
 Tellez, Eric S., Sabino Miranda-Jiménez, Mario Graff, Daniela Moctezuma, Ranyart R. Suárez, y Oscar S. Siordia. 2017. <span>«<span>A simple approach to multilingual polarity classification in Twitter</span>»</span>. <em>Pattern Recognition Letters</em> 94: 68-74. <a href="https://doi.org/10.1016/j.patrec.2017.05.024">https://doi.org/10.1016/j.patrec.2017.05.024</a>.
 </div>
