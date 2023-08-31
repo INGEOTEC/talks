@@ -254,7 +254,14 @@ Our results show that developing competitive models for violent event identifica
 
 # Thanks
 
-gracias y promoción evomsa
+Questions?
+
+Also, we want to promote the usage of our EvoMSA library.
+
+For EvoMSA documentation see:  
+**https://evomsa.readthedocs.io/en/docs/**  
+EvoMSA Github repository  
+**https://github.com/INGEOTEC/EvoMSA**
 
 # References
 
