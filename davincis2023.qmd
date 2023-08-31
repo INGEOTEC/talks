@@ -244,6 +244,27 @@ Another comparison that one can make with the Table's data is computing the diff
 
 :::
 
+## Other competitions performance {.smaller}
+
+|  Competition      |  Winner | EvoMSA 2.0 | Difference |
+|--------|----------------|----------------| -----------|
+| PoliticEs (Gender) |  0.8296   | 0.7115     |16.6% |
+| **PoliticEs (Profession)** |  **0.8608**   | **0.8379**    |**2.7%** |
+| **PoliticEs  (Ideology Binary)** |  **0.8967**   | **0.8913**    |**0.6%** |
+| **PoliticEs  (Ideology Multiclass)** | **0.6913** | **0.6694**   |**3.3%** |
+| REST-MEX (Polarity)  | 0.6216 | 0.5548   |12.0% |
+| **REST-MEX (Type)**  | **0.9903** | **0.9805**   |**1.0%** |
+| **REST-MEX (Country)** |**0.9420** | **0.9270** |**1.6%** |
+| HOMO-MEX |0.8847 | 0.8050 |9.9% |
+| HOPE (ES) |0.9161 |0.4198 |118.2% |
+| HOPE (EN) |0.5012 |0.4429 |13.2% |
+| DIPROMATS (ES) |0.8089|0.7485 |8.1% |
+| DIPROMATS (EN) |0.8090|0.7255 |11.5% |
+| HUHU |0.820|0.775  |5.8% |
+: Performance comparison .
+[EvoMSA' results](https://evomsa.readthedocs.io/en/docs/competition.html)
+
+
 
 # Conclusions
 
@@ -251,6 +272,18 @@ We have presented our system solution and results for detecting violent incident
 
 ## Conclusions (continued...)
 Our results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models. This is important because it means that we can use similar methodologies for languages without large language models or when it is impossible to afford the prediction costs of transformer-based solutions.
+
+
+##  Conclusions (continued...)
+Explainability of the model (with a simple bow outstanding results).
+Simplest solution
+Fast solution (in training and test), low computational resources.
+Dense representation using at most 100 million tweets.
+
+
+
+
+
 
 # Thanks
 
