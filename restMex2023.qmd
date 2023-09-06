@@ -313,8 +313,8 @@ It can be observed that, for edition 2023, the best configuration is a stack gen
 
 |        |  Type | Country | Polarity  |
 |--------|----------------|----------------|---------|
-| Winner |  **0.9903**    | **0.9260**     | 0.5179 |
-| INGEOTEC   |  0.8903    | 0.7510         | 0.5549 |
+| Winner |  **0.9903**    | **0.9420**     | 0.6217 |
+| INGEOTEC   |  0.9805    | 0.9271         | 0.5549 |
 | Difference |  1%      | 1.6%           | 12.0%|
 
 : Performance comparison of our submission (INGEOTEC) and the competition's winner. The best performance is in boldface. {performance-best}
