@@ -361,7 +361,7 @@ We used our EvoMSA framework to merge different internal model outputs to solve 
 - Our system is based on the ensemble of multiple models using stacked generalization, more precisely with our EvoMSA framework.
 - We obtained competitive models compared with more complex and expensive deep learning approaches.
 - Our approach uses lexical and semantic features, all computed as bags of words (dense and sparse).
-- We achieved an F1 score of **0.9805**, **0.9420**, and **0.6217**, for type, county and polarity, respectively.
+- We achieved an F1 score of **0.9805**, **0.9271**, and **0.5549**, for type, county and polarity, respectively.
 - Results with a low difference from 1% to 12% to the winner solution. 
 
 
