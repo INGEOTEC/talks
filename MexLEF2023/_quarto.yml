@@ -1,0 +1,64 @@
+project:
+  type: default
+  
+  #lang: es
+    
+  #render:
+  #  - index.qmd
+  #  - _1corpus.qmd
+  #  - _2semanticos.qmd
+  #  - _3semanticos.qmd
+  #  - _4emoji15.qmd
+  #  - _5modelos-lenguaje.qmd
+  
+  #jupyter: julia-1.10
+
+#
+format:
+  revealjs:
+    lang: es
+    title: "Recursos regionalizados"
+    subtitle: "MexLEF, Puebla, México"
+    date: "Octubre 2023"
+    width: 1050
+    hegiht: 772
+
+    author:
+      - name: "Eric S. Téllez"
+        url: https://sadit.github.io
+        affiliation: INFOTEC
+
+      - name: "Mario Graff"
+        url: https://mgraffg.github.io
+        affiliation: INFOTEC
+
+      - name: "Daniela Moctezuma"
+        url: https://dmocteo.github.io/
+        affiliation: "CentroGEO"
+  
+      - name: "Sabino Miranda-Jiménez"
+        affiliation: sin afiliación
+
+      - name: "Guillermo Ruiz"
+        affiliation: sin afiliación
+
+
+    navigation-mode: linear
+    title-slide-attributes:
+      data-background-image: https://raw.githubusercontent.com/INGEOTEC/regional-spanish-models/main/figs/fig-colormap-lexical-4.png
+      data-background-size: 100%
+      data-background-opacity: "0.4"
+      data-background-position: 0% 0%
+      data-font-size: 80%
+
+    embed-resources: true
+    slide-number: true
+    show-slide-number: print
+    menu:
+      side: right
+      width: wide
+    html:
+      code-fold: true
+      theme: dark
+      css: styles.css
+      toc: false

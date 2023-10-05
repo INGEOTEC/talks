@@ -1,6 +1,6 @@
 ---
 lang: es
-title: "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+title: "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
 subtitle: "IberLEF 2023, September 2023, Jaén, Spain"
 author:
     - name: "Mario Graff"
@@ -16,43 +16,85 @@ author:
       affiliation: INFOTEC
 
 format:
-  revealjs
+  revealjs:
+    theme: simple
   #  html:
   #    page-layout: full
 bibliography: references.bib
 ---
 
+## INGEOTEC research group
+<br/>
+
+![](ingeotec-cuatro.png){width=200}
+
+<center>
+::: {style="font-size: 70%;"}  
+GitHub: <https://github.com/INGEOTEC>  
+WebPage: <https://ingeotec.github.io/>
+:::
+</center>
 
 # Introduction
+<br>
 
-Violence is a serious problem that can have a devastating impact on individuals and communities. In some cases, the virtual world is prone to aggressive expressions and insults, among other violent expressions.
+::: {style="font-size: 85%;"}
 
+**Sentiment analysis** is a powerful tool that can assist businesses and governments in understanding people's opinions and emotions about various topics.
 
+In the **tourism industry**, Sentiment Analysis can track customer satisfaction, identify trends, and improve marketing campaigns \cite{alvarez2021overview,alvarez2022overview}. For example, a tourism business could use Sentiment Analysis to identify which aspects of its products and services are most popular with customers and which areas could be improved or to track the popularity of different destinations, activities, and attractions.
 
+:::
 
-## The DA-VINCIS Task at IberLEF 2023
-An open challenge to develop multimodal models to detect violent incidents on Twitter. The task has two tracks:  
+## The Rest-Mex Task at IberLEF 2023
 
-i. violent event identification and
-ii. violent event category recognition. 
+<br>
 
-This presentation describes our solution system for the (i) track using **only text-based features**. More particularly, we used our **EvoMSA** framework [@graff2020evomsa]. We achieved an F1 score of 0.89, just 3 hundredths behind the best model in the final ranking.
+::: {style="font-size: 85%;"}
 
+**For the sentiment analysis, the problem is resume as:**
+:::
+::: {style="font-size: 70%;"}
+_"Given an opinion about a Mexican tourist place, the goal is to determine the polarity, between 1 and 5, of the text, the type of opinion (hotel, restaurant or attraction) and, the country of the place of which the opinion is being given **(Mexico, Cuba, Colombia)** "_
+:::
+<center>
 
-# Our appproach
+![](turismo.png){width=500}
 
-Since we focus on text messages, violent event identification can be seen as a text classification task. _Given the content of a tweet written in natural language, our model must identify whenever a violent event is mentioned_.
+</center>
+
+## Our appproach
+<br>
+Our solution system uses **only text-based features**. 
+More particularly, we used our **EvoMSA** framework [@graff2020evomsa]. 
+ 
+## Our approach: EvoMSA 2.0
+
+<br/>
+<br/>
+<center>
+![](Evomsa2.0.png){fig-align="center"}
+<center/>
 
 ## Our representations
+
+<br>
 
 - Sparse bag of words (SBOW)
 - Dense bag of words (DBOW)
 
+
+
 ## Sparse bag of words
+::: {style="font-size: 85%;"}
 
 The text is preprocessed and tokenized, then each token $t$ is associated with a vector $\mathbf{v_t} \in \mathbb R^d$ where the $i$-th component, i.e., $\mathbf{v_t}_i$, contains the Inverse-Document-Frequency (IDF) value of the token $t$ and $\forall_{j \neq i} \mathbf{v_t}_j=0$. 
 
+<br>
+
 The set of vectors $\mathbf V = \{ \mathbf v_t \}$ corresponds to the vocabulary, and there are $|\mathbf V| = d$ different tokens in the vocabulary.
+:::
+
 
 ## 
 A text is represented by the sequence of its tokens, i.e., $(t_1, t_2, \ldots)$. The text is then vectorized as: 
@@ -61,28 +103,46 @@ $$
     \textsf{sbow}(\text{some text}) = \textsf{sbow}((t_1, t_2, \ldots)) = \frac{\sum_t \mathbf{v_t}}{\lVert \sum_t \mathbf{v_t} \rVert}
 $$
 
-Note that it repeated terms are smoothly handled.
+## SBoW 
+
+<br/>
+<br/>
+<br/>
+<center>
+![](bow.png){fig-align="center" width=140%}
+<center/>
+
 
 ## Dense bag of words
-In contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) pre-trained on a different collection of tweets.
+<br>
+
+::: {style="font-size: 85%;"}
+In contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) **pre-trained on a different collection of tweets**.
+<br>
 
 Without loss of generality, it is assumed that there are $M$ labeled datasets, each one contains a binary text classification problem.
-
+:::
 ::: {.notes}
 noting that if a dataset has $K$ labels, then this dataset can be represented as $K$ binary classification problems following the one versus the rest approach, i.e., it is transformed to $K$ datasets.
 :::
 
 ## Construction of the DBOW
+<br>
 
-
+::: {style="font-size: 85%;"}
 For each of these $M$ binary text classification problems, a _SBOW-based_ classifier is built using a pre-trained SBOW representation and a linear Support Vector Machine (SVM) as the classifier. Consequently, there are $M$ binary text classifiers, i.e., $(c_1, c_2, \ldots, c_M)$. Additionally, the decision function of $c_i$ is a value where the **sign indicates the class**.
-
+<br>
+<br>
 The text representation is the vector obtained by **concatenating the decision functions** of the $M$ classifiers and then normalizing the vector to have unitary norm. 
-
+:::
 
 ## Construction (continued...)
-A text $x$ is represented with vector $\mathbf{x^{'}} \in \mathbb R^M$ where the value $\mathbf{x^{'}}_i$ corresponds to the decision function of $c_i$. Given that the classifier $c_i$ is a linear SVM, the decision function corresponds to the dot product between the input vector and the weight vector $\mathbf w_i$ plus the bias $\mathbf w_{i_0}$, where the weight vector and the bias are the parameters of the classifier.
+<br>
 
+::: {style="font-size: 85%;"}
+
+A text $x$ is represented with vector $\mathbf{x^{'}} \in \mathbb R^M$ where the value $\mathbf{x^{'}}_i$ corresponds to the decision function of $c_i$. Given that the classifier $c_i$ is a linear SVM, the decision function corresponds to the dot product between the input vector and the weight vector $\mathbf w_i$ plus the bias $\mathbf w_{i_0}$, where the weight vector and the bias are the parameters of the classifier.
+:::
 ## Construction (continued...)
 That is, the value $\mathbf{x^{'}}_i$ corresponds to
 
@@ -112,12 +172,26 @@ vectors $\mathbf{u} \in \mathbb R^M$ correspond to the tokens. _This is the reas
 
 Finally, the vector representing the text $x$ is the normalized $\mathbf{x^{'}}$, i.e., $\mathbf x = \frac{\mathbf{x^{'}}}{\lVert \mathbf{x^{'}} \rVert}.$
 
+## Dense BoW (stacking)
+
+
+<center>
+![](densebow.png){fig-align="center" width=80%}
+<center/>
+
+::: {style="font-size: 55%;"}
+**Stacking**: All models aggregated are used according to their **weights** for producing an output, the **final classification**.
+:::
 
 # SBOW parameters
-
+::: {style="font-size: 85%;"}
 Different BoW representations were created and implemented following the approach described in [@Tellez2017ATwitter]. The first step was to set all the characters to lowercase and remove diacritics and punctuation symbols. Additionally, the users and the URLs were removed from the text. Once the text is normalized, it is split into bigrams, words, and q-grams of characters with $q=\{2, 3, 4\}.$ 
 
+:::
+
 ## SBOW parameters (continued...)
+<br>
+
 The pre-trained BoW is estimated from 4,194,304 ($2^{22}$) tweets randomly selected in a larger collection of messages.
 
 The IDF values were estimated from the collections, and some tokens were selected from all the available ones found in the collection.
@@ -129,6 +203,8 @@ Two procedures were used to select the tokens:
 2. The value of $d$ is $2^{17}$; however, one can also find in the library models for $2^{13}, 2^{14}, \ldots, 2^{17}.$ 
 
 ## SBOW parameters (continued...)
+<br>
+
 It is also possible to train the BoW model using the training set; in this case, we used the default parameters. The only difference is that vocabulary size $d$ is bounded by the training set tokens. 
 
 # DBOW parameters
@@ -142,7 +218,7 @@ The dense representations start by defining the labeled datasets used to create 
 :::
 
 ::: {style="font-size: 85%;"}
-The _keyword_ group includes a set of dense representations where the words were selected from the training set; we refer to these representations as _tailored_.
+The _keyword_ group includes a set of dense representations where the words were selected from the training set; we refer to these representations as **_tailored_**.
 
 :::
 
@@ -166,7 +242,7 @@ We tested 13 different algorithms for each task. The configuration having the be
 
 ## Configurations (continued...)
 
-The different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in [EvoMSA's documentation](https://evomsa.readthedocs.io/en/docs/competition.html#davincis).
+The different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a _Naive Bayes algorithm_. The specific implementation of this configuration can be seen in [EvoMSA's documentation](https://evomsa.readthedocs.io/en/docs/competition.html#davincis).
 
 ## Configurations (continued...)
 The list of configurations
@@ -206,21 +282,21 @@ The list of configurations
 
 
 ::: {style="font-size: 16pt;"}
-| Configuration | Tailored | Dense | DAVINCIS 2023 | DAVINCIS 2022 |
-|---------------|----------|-------|---------------|---------------|
-| `stack_2_bow_tailored_all_keywords` | X | X | **0.8984** | 0.8361|
-| `stack_2_bow_all_keywords` | | X | 0.8951 | **0.8447**|        
-| `stack_3_bows_tailored_keywords` | X | X | 0.8971 | 0.7555|
-| `stack_3_bow_tailored_all_keywords` | X | X | 0.8968 | 0.8219 |
-| `stack_2_bow_tailored_keywords` | X | X | 0.8966 | 0.7572|
-| `stack_2_bow_keywords` | | X | 0.8955 | 0.7525|
-| `stack_3_bows` | X | | 0.8931 | 0.7329|
-| `bow_voc_selection` |  | | 0.8907 | 0.7342|
-| `bow` | | | 0.8894 | 0.7324|
-| `bow_training_set` | X | | 0.8892 | 0.7337|
-| `stack_bows` | | | 0.8879 | 0.7329|
-| `stack_bow_keywords_emojis` | | X | 0.8863 | 0.7595|
-| `stack_bow_keywords_emojis_voc_selection` | | X | 0.8859 | 0.7588|
+| Configuration | Type | Country | Polarity |
+|---------------|----------|-------|---------------|
+|**`bow_training_set`** |  **0.9802** |  **0.9260** | 0.5179 |
+| `bow` | 0.9793 | 0.9194 | 0.5167|
+| `stack_3_bows` | 0.9793 | 0.9225 | 0.5603|
+| `bow_voc_selection` | 0.9792 | 0.9200 | 0.5152|
+| `stack_3_bow_tailored_all_keywords` | 0.9783 | 0.9166 | 0.5467|
+| `stack_3_bows_tailored_keywords` | 0.9783 | 0.9164 | 0.5448 |
+| `stack_bows` | 0.9782 | 0.9167 |  **0.5605** |
+| `stack_2_bow_tailored_keywords` | 0.9773 | 0.9097 | 0.5448|
+| `stack_2_bow_tailored_all_keywords` | 0.9773 | 0.9101 | 0.5446|
+| `stack_2_bow_keywords` | 0.9769 | 0.9076 | 0.5420|
+| `stack_2_bow_all_keywords` | 0.9768 |0.9076 | 0.5431|
+| `stack_bow_keywords_emojis` | 0.9743 | 0.8951 | 0.5310|
+| `stack_bow_keywords_emojis_voc_selection` | 0.9742 | 0.8949 | 0.5346 |
 
 Performance, in terms of F1, of different configurations on a five fold cross-validation. The best performance is in boldface.
 :::
@@ -232,14 +308,17 @@ It can be observed that, for edition 2023, the best configuration is a stack gen
 
 :::
 ## Competition
+::: {style="font-size: 24pt;"}
+<br>
 
-|        |  DAVINCIS 2023 | DAVINCIS 20222 |
-|--------|----------------|----------------|
-| Winner |  **0.9264**    | **0.7817**     |
-| INGEOTEC   |  0.8903    | 0.7510         |
-| Difference |  4.1%      | 4.1%           |
-: Performance comparison of our submission (INGEOTEC) and the competition's winner in each edition. The best performance is in boldface. {performance-best}
+|        |  Type | Country | Polarity  |
+|--------|----------------|----------------|---------|
+| Winner |  **0.9903**    | **0.9420**     | 0.6217 |
+| INGEOTEC   |  0.9805    | 0.9271         | 0.5549 |
+| Difference |  1%      | 1.6%           | 12.0%|
 
+: Performance comparison of our submission (INGEOTEC) and the competition's winner. The best performance is in boldface. {performance-best}
+:::
 ::: {.notes}
 Another comparison that one can make with the Table's data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4\%, and for 2022 is 13.3\%. The difference of 1.4\% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach. 
 
@@ -256,25 +335,35 @@ Another comparison that one can make with the Table's data is computing the diff
 | REST-MEX (Polarity)  | 0.6216 | 0.5548   |12.0% |
 | **REST-MEX (Type)**  | **0.9903** | **0.9805**   |**1.0%** |
 | **REST-MEX (Country)** |**0.9420** | **0.9270** |**1.6%** |
+: Performance comparison.
+[EvoMSA' results](https://evomsa.readthedocs.io/en/docs/competition.html)
+
+
+## Other competitions performance (Continued...) {.smaller}
+
+|  Competition      |  Winner | EvoMSA 2.0 | Difference |
+|--------|----------------|----------------| -----------|
 | HOMO-MEX |0.8847 | 0.8050 |9.9% |
 | HOPE (ES) |0.9161 |0.4198 |118.2% |
 | HOPE (EN) |0.5012 |0.4429 |13.2% |
 | DIPROMATS (ES) |0.8089|0.7485 |8.1% |
 | DIPROMATS (EN) |0.8090|0.7255 |11.5% |
 | HUHU |0.820|0.775  |5.8% |
-: Performance comparison .
+: Performance comparison.
 [EvoMSA' results](https://evomsa.readthedocs.io/en/docs/competition.html)
 
 
 
 # Conclusions {.smaller}
 
-We have presented our system solution and results for detecting violent incidents on Twitter using only text-based features in the context of the DA-VINCIS 2023 challenge. 
+We used our EvoMSA framework to merge different internal model outputs to solve the Rest-Mex 2023 challenge; these models are primarily large pre-trained and locally trained vocabularies capturing lexical and semantic features along with linear SVM.
 
 - Our system is based on the ensemble of multiple models using stacked generalization, more precisely with our EvoMSA framework.
-- Our approach uses lexical and semantic features, all computed as bags of words.
-- We achieved an F1 score of 0.89, just 3 hundredths behind the best model in the final ranking.
-- Our results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.
+- We obtained competitive models compared with more complex and expensive deep learning approaches.
+- Our approach uses lexical and semantic features, all computed as bags of words (dense and sparse).
+- We achieved an F1 score of **0.9805**, **0.9271**, and **0.5549**, for type, county and polarity, respectively.
+- Results with a low difference from 1% to 12% to the winner solution. 
+
 
 ::: {.notes}
 This is important when:
@@ -284,19 +373,29 @@ This is important when:
 
 
 ##  Conclusions (continued...)
-Explainability of the model (with a simple bow outstanding results).
+
+<br>
+
+::: {style="font-size: 24pt;"}
+- Our results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.
+- Explainability of the model (with a simple bow outstanding results).
 Simplest solution
-Fast solution (in training and test), low computational resources.
+- Fast solution (in training and test), low computational resources.
 Dense representation using at most 100 million tweets.
 
+:::
 
-
+![](broma.png){fig-align="center" width=25%}
 
 
 
 # Thanks
 
 Questions?
+<br>
+
+::: {style="font-size: 18pt;"}
+<br>
 
 Also, we want to promote the usage of our EvoMSA library.
 
@@ -304,6 +403,7 @@ For EvoMSA documentation see:
 **https://evomsa.readthedocs.io/en/docs/**  
 EvoMSA Github repository  
 **https://github.com/INGEOTEC/EvoMSA**
+:::
 
 # References
 

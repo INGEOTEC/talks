@@ -1,0 +1,41 @@
+# Modelos de lenguaje
+
+## BERT
+::: {.r-fit-text}
+Los modelos de lenguaje, _Language Models (LM)_ utilizan el contexto de cada palabra para determinar su representación.
+
+**BERT** es un modelo de lenguaje que en su momomento rompió el paradigma. Consiste en una serie de _encoders_ que generan representaciones para cada palabra dependiendo de su contexto. El entrenamiento usa un lenguaje de enmascarado, Masked Language Model (MLM). Cada sentencia enmascará tokens de manera aleatoría (se enmascaran 15% de los tokens). También se entrena para predicción de la siguiente frase.
+:::
+
+## Recursos computacionales y necesidad de datos
+:::  {.r-fit-text}
+- Los modelos de lenguaje requieren una gran cantidad de datos, solo generamos recursos con MLM sobre AR, CL, CO, MX, ES, UY, VE, y US, i.e., los más grandes.
+- Todos los modelos tienen series de dos encoders con cuatro cabezas de atención cada una y una salida de 512 dimensiones por embedding
+- Corresponde al _small-size_ del BERT original, y es lo que actualmente podemos con los recursos que contamos en un tiempo _pagable_ (usamos una estanción de trabajo con dos NVIDIA TITAN RTX con 24 GB cada una).
+- Nombramos a nuestro modelo BILMA por _Bert In Latin America_.
+- Usamos un _learning rate_ de $10^{-5}$ con el optimizador Adam (usamos tensorflow 2 y Keras).
+- Los modelos para CL, UY, VE, y US se entrenaron con 3 epocas y AR, CO, MX, y ES con solo una, dado los tamaños de los corpus.
+:::
+
+# Emoji-15 con BILMA
+
+## Como se compara BILMA con los word-embeddings
+![_Accuracy_ en predicción de Emoji-15 -- _tuneado_](https://github.com/sadit/regional-spanish-models-talk-2022/raw/main/src/figs/fig-bilma-cls.png)
+
+
+##
+- Se _tuneó_ el modelo BILMA para predecir emoticones añadiendo dos capas lineales a los embeddings de inicio, por lo que se puede ver que se predice independiente de la posición. 
+- _Tuneado_ con 90%-10% del training set de la región hasta que el _accuracy_ converge.
+- Se evaluó con test regional.
+- Observe que es una matriz de modelos pre-entrenados y _tuneos_.
+- Los resultados en general son muy similares a los modelos de fastText, pero, los modelos BILMA pueden hacer más cosas...
+
+## Usando BILMA para completar frases (mediante máscaras)
+![_Accuracy_ en la tarea MLM para el test](https://github.com/sadit/regional-spanish-models-talk-2022/raw/main/src/figs/fig-bilma-mlm.png)
+
+
+## {background-image=https://github.com/sadit/regional-spanish-models-talk-2022/raw/main/src/figs/bilma-mlm-table.png background-size=contain}
+MLM regional
+<!-- ![](https://github.com/sadit/regional-spanish-models-talk-2022/raw/main/src/figs/bilma-mlm-table.png){.absolute left=0 top=0 width=1200 height=2400 }
+-->
+
