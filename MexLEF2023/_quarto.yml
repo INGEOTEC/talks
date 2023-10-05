@@ -45,7 +45,7 @@ format:
 
     navigation-mode: linear
     title-slide-attributes:
-      data-background-image: https://raw.githubusercontent.com/INGEOTEC/regional-spanish-models/main/figs/fig-colormap-lexical-4.png
+      data-background-image: figs/fig-colormap-lexical-4.png
       data-background-size: 100%
       data-background-opacity: "0.4"
       data-background-position: 0% 0%
