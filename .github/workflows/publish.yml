@@ -37,8 +37,10 @@ jobs:
       #     python -c "import nltk; nltk.download('stopwords')"
       - name: Render and Publish
         run: |
-          git config --global user.email "mgraffg@ieee.org"
-          git config --global user.name "mgraffg"
-          quarto publish gh-pages .  --no-browser          
+          #git config --global user.email "mgraffg@ieee.org"
+          #git config --global user.name "mgraffg"
+          #quarto publish gh-pages .  --no-browser          
+          cd MexLEF2023
+          quarto render
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
