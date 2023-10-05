@@ -1,0 +1,96 @@
+# Recursos regionalizados para el procesamiento automático de datos de redes sociales
+
+
+## Sobre esta charla
+Tellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regionalized models for Spanish language variations based on Twitter. Language Resources and Evaluation, 1-31.
+
+```bibtex 
+@article{regionalized2023,
+  title={Regionalized models for Spanish language variations based on Twitter},
+  author={Tellez, Eric S and Moctezuma, Daniela and Miranda, Sabino and Graff, Mario and Ruiz, Guillermo},
+  journal={Language Resources and Evaluation},
+  pages={1--31},
+  year={2023},
+  publisher={Springer}
+}
+```
+
+- [ArXiv](https://arxiv.org/abs/2110.06128) preprint.
+
+## Aplicaciones de Procesamiento de Lenguaje Natural (1/2)
+- **Minería de opinión**
+  - <span style="color: rgb(0, 0, 255);">positivo :) </span> ---  <span style="color: rgb(130, 130, 130);">neutro :| </span> --- <span style="color: rgb(255, 0, 0);">negativo :( </span>
+- **Análisis de tópicos**
+- **Carga emotiva de un mensaje**: _enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza_.
+- **Identificación de humor**
+- **Identificación de lenguaje de odio**
+- Etc.
+
+## Aplicaciones de Procesamiento de Lenguaje Natural (2/2) {style='font-size: 80%;'}
+- **Predicción indicadores socio-demográficos de usuarios de redes**, e.g., edad, sexo, lugar de procedencia, ocupación
+- **Identificación de autoría**: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?
+- **Entender como se comportan usuarios**, ¿qué desean?, ¿por qué?
+- **Medición de discurso de odio en redes sociales**, e.g., xenofobia, racismo, misoginia, cyberbulling.
+- **Identificación de posibles trastornos mentales**, e.g., ansiedad, depresión, adicciones.
+- **Aplicaciones** a seguridad, salud, políticas públicas, economía y finanzas.
+
+## Algunos retos
+
+- Escritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.
+- Contextos cortos, conocimiento del mundo.
+- Negación, sarcasmo, ironía, humor.
+- Semántica.
+- Recursos lingüísticos reducidos para lenguajes diferentes del inglés.
+- Multimedios.
+
+## Regionalización
+::: {style='background-color: rgb(200,250,250);'}
+Todo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.
+:::
+
+La mayoría de los recursos se encuentran para el inglés y los recursos en español suelen encontrarse en una forma _aglutinada_.
+
+::: {style='background-color: rgb(250,200,250);'}
+Pero para tareas dónde haya una fuerte carga cultura o de idiosincrasia el uso de recursos regionalizados es provechoso.
+:::
+
+## Regionalización como herramienta
+Entender las variaciones del lenguaje en las redes sociales es primordial ya que los mensajes suelen ser informales, y es común que los usuarios solo quieran ser leídos por su _círculo_ de personas cercanas.
+
+# ¿Cómo se ven los mensajes en diferentes regiones?
+
+## España 🇪🇸
+::: {style='background-color: red; color: yellow;'}
+- me dais ascooooikiiikioooooooooooooooooooooooooo
+- kina ñefla
+- ns cmo s exribe
+- o indeciso, nse ya x dnde cogerte colega
+- q os follennjajabya quisieran
+- en el metro q voy esta potando uno
+- _USR 😂😭💔☹️😰 pero por qué churra
+:::
+
+## Argentina 🇦🇷
+::: {style='background-color: rgb(117,170,219); color: white;'}
+- pofr suerxte m8ís amigo mo son psicópatassa
+- pal pinnngooo
+- _USR estos rompen todo! y la esposa del chorro me tiró en la cara q era planera, 5 hijos tiene. me grita: vos seguí alquilando! decí q no la agarro de los pelos x mi hijo q no le gusta el bardo.
+- y dsp se comió un asado, moooy booeno👌👌🤣😂
+- mi hno se pone re denso no lo banco
+:::
+
+## México 🇲🇽
+::: {style='background-color: lightgreen; color: red;'}
+- _USR ahora si! #achingarasumadre nefasto, corrupto y ratero, por mucho eres el peor alcalde que ha tenido _USR 
+- ya me ando echando la primera ca** del año
+- _USR acá ya andaban con "la chica que soñé"
+- _USR ¿no se te olvidó ponerte calzones rojos hoy, verdad?
+- un minuto de silencio por los que se estan reventando los dedos y las manos con los cohetes !!!
+:::
+
+{{< include _1corpus.qmd >}}
+{{< include _2lexicos.qmd >}}
+{{< include _3semanticos.qmd >}}
+{{< include _4emoji15.qmd >}}
+{{< include _5modelos-lenguaje.qmd >}}
+{{< include _6conclusiones.qmd >}}
