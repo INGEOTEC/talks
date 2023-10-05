@@ -4,7 +4,7 @@
 Predicción emojis que podrían estar asociados a un mensaje
 
 
-::: {style="font-size: 16pt;"}
+::: {style="font-size: 20pt;"}
 - Tomamos mensajes georeferenciados enero-febrero 2020.
 - Seleccionamos los emoji objetivos entre los más populares en español: 🥺, ❤, 👌, 👏, 💔, 😄, 😊, 😌, 😍, 😒, 😘, 😡, 😢, 😭, 🤔.
 - Para cada región seleccionamos mensajes con solo uno de estos emoji.
@@ -15,7 +15,7 @@ Predicción emojis que podrían estar asociados a un mensaje
 
 ## 
 
-::: {.absolute left=-50 style='font-size: 14pt;'}
+::: {.absolute left=-50 style='font-size: 12pt;'}
 | emoji | AR | BR | CA | CL | CO | CR | CU | DO | EC | ES | FR | GB | GT | HN | MX | NI | PA | PE | PY | SV | US | UY | VE |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 🥺 | 3749 | 275 | 158 | 1263 | 4760 | 425 | 26 | 458 | 745 | 2640 | 53 | 95 | 666 | 708 | 10160 | 736 | 827 | 739 | 684 | 278 | 2536 | 446 | 359 |
@@ -71,7 +71,11 @@ Predicción emojis que podrían estar asociados a un mensaje
 
 ::::
 
-## Cuantiles de la variable _localrank_
+## 
+:::: {.columns}
+::: {.column}
+**Cuantiles de la variable _localrank_**
+
 | quantile | rank |
 |---|---|
 |0.00 | 1.0 |
@@ -79,10 +83,12 @@ Predicción emojis que podrían estar asociados a un mensaje
 |0.50 | 6.5 |
 |0.75 | 13  |
 |1.00 | 23  |
+:::
 
-## ¿Qué tan bueno es cada modelo?
+::: {.column}
+** ¿Qué tan bueno es cada modelo? **
 
-::: {style='font-size: 20pt;'}
+::::: {style='font-size: 20pt;'}
 | cc  | freq |
 |-----|----|
 |  US | 17 |
@@ -95,9 +101,11 @@ Predicción emojis que podrían estar asociados a un mensaje
 |  AR | 5 |
 |...  | ...|
 : Apariciones en el top-5
+:::::
+
 :::
 
-
+::::
 ## average rank de modelos
 
 :::: {.columns}

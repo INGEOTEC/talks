@@ -91,4 +91,3 @@ Entender las **variaciones del lenguaje** en las redes sociales es primordial ya
 {{< include _3semanticos.qmd >}}
 {{< include _4emoji15.qmd >}}
 {{< include _5modelos-lenguaje.qmd >}}
-{{< include _6conclusiones.qmd >}}

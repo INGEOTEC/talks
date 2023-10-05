@@ -31,10 +31,10 @@ Para calcular la similitud usamos una representación que extrae información se
 
 <!--## Matriz de afinidad por embeddings
 
-![](https://github.com/INGEOTEC/regional-spanish-models/raw/main/figs/fig-common-words-semantic-affinity-matrix.png) 
+![](figs/fig-common-words-semantic-affinity-matrix.png) 
 -->
 ##
-![](https://github.com/INGEOTEC/regional-spanish-models/raw/main/figs/fig-colormap-common-voc-semantic-4.png){.absolute top=0 left=400}   ![](https://raw.githubusercontent.com/sadit/RegionalSpanish/main/figs/fig-voc-semantic-umap-4.png){.absolute top=250 left=10}  
+![](figs/fig-colormap-common-voc-semantic-4.png){.absolute top=0 left=400}   ![](figs/fig-voc-semantic-umap-4.png){.absolute top=250 left=10}  
 
 ## Ejemplos de $k$ vecinos (_violencia_)
 

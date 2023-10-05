@@ -23,12 +23,12 @@
 ![Ley de Heaps para diferentes regiones (Twitter)](figs/heaps-es.png)
 
 ## Tokens comunes 
-![Tokens comunes: ¿En cuántas regiones aparece un token?](https://raw.githubusercontent.com/sadit/RegionalSpanish/main/figs/fig-common-tokens-per-region.png){.center}
+![Tokens comunes: ¿En cuántas regiones aparece un token?](figs/fig-common-tokens-per-region.png){.center}
 
 <!--## {background-image=figs/fig-lexheatmap-flow.png background-size=contain}-->
 
 ## Similitud léxica entre regiones (1/2)
-![](https://raw.githubusercontent.com/INGEOTEC/regional-spanish-models/main/figs/fig-lexical-umap-4.png)
+![](figs/fig-lexical-umap-4.png)
 
 ## Similitud léxica entre regiones (2/2)
-![](https://raw.githubusercontent.com/INGEOTEC/regional-spanish-models/main/figs/fig-colormap-lexical-4.png)
+![](figs/fig-colormap-lexical-4.png)

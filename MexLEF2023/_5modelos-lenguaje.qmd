@@ -22,7 +22,7 @@ Los modelos de lenguaje, _Language Models (LM)_ utilizan el contexto de cada pal
 ## Como se compara BILMA con los word-embeddings
 :::: {.columns}
 ::: {.column}
-![_Accuracy_ en predicción de Emoji-15 -- _tuneado_](https://github.com/sadit/regional-spanish-models-talk-2022/raw/main/src/figs/fig-bilma-cls.png)
+![_Accuracy_ en predicción de Emoji-15 -- _tuneado_](figs/fig-bilma-cls.png)
 :::
 
 ::: {.column}
@@ -52,11 +52,11 @@ Con word-embeddings
 - Los resultados en general son muy similares a los modelos de fastText, pero, los modelos BILMA pueden hacer más cosas...
 
 ## Usando BILMA para completar frases (mediante máscaras)
-![_Accuracy_ en la tarea MLM para el test](https://github.com/sadit/regional-spanish-models-talk-2022/raw/main/src/figs/fig-bilma-mlm.png)
+![_Accuracy_ en la tarea MLM para el test](figs/fig-bilma-mlm.png)
 
 
-## {background-image=https://github.com/sadit/regional-spanish-models-talk-2022/raw/main/src/figs/bilma-mlm-table.png background-size=contain}
+## {background-image=figs/bilma-mlm-table.png background-size=contain}
 MLM regional
-<!-- ![](https://github.com/sadit/regional-spanish-models-talk-2022/raw/main/src/figs/bilma-mlm-table.png){.absolute left=0 top=0 width=1200 height=2400 }
+<!-- ![](figs/bilma-mlm-table.png){.absolute left=0 top=0 width=1200 height=2400 }
 -->
 
