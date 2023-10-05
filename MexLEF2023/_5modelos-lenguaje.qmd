@@ -20,8 +20,29 @@ Los modelos de lenguaje, _Language Models (LM)_ utilizan el contexto de cada pal
 # Emoji-15 con BILMA
 
 ## Como se compara BILMA con los word-embeddings
+:::: {.columns}
+::: {.column}
 ![_Accuracy_ en predicción de Emoji-15 -- _tuneado_](https://github.com/sadit/regional-spanish-models-talk-2022/raw/main/src/figs/fig-bilma-cls.png)
+:::
 
+::: {.column}
+
+::::: {style="font-size: 16pt;"} 
+| cc |	minrecall	| maxrecall |	localrank |	top5 |
+|---|---|---|---|---|
+| AR |	0.4777 |	0.49   |	3	| UY,PY,AR,PE,CO  |
+| CL |	0.4257 |	0.4494 |	1	| CL,US,MX,AR,ES  |
+| CO |	0.4247 |	0.4365 |	2	| US,CO,VE,EC,GT  |
+| ES |	0.4754 |	0.4855 |	1	| ES,AR,MX,US,VE  |
+| MX |	0.4233 |	0.4335 |	1	| MX,GT,CR,US,CO  |
+| US |	0.4041 |	0.4244 |	1	| US,MX,CO,ES,CL  |
+| UY |	0.4351 |	0.4572 |	1	| UY,US,CO,CL,VE  |
+| VE |	0.3848 |	0.4338 |	4	| MX,CO,ES,VE,US  |
+:::::
+
+Con word-embeddings
+:::
+::::
 
 ##
 - Se _tuneó_ el modelo BILMA para predecir emoticones añadiendo dos capas lineales a los embeddings de inicio, por lo que se puede ver que se predice independiente de la posición. 

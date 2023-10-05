@@ -4,7 +4,7 @@
 Predicción emojis que podrían estar asociados a un mensaje
 
 
-::: {.r-fit-text}
+::: {style="font-size: 16pt;"}
 - Tomamos mensajes georeferenciados enero-febrero 2020.
 - Seleccionamos los emoji objetivos entre los más populares en español: 🥺, ❤, 👌, 👏, 💔, 😄, 😊, 😌, 😍, 😒, 😘, 😡, 😢, 😭, 🤔.
 - Para cada región seleccionamos mensajes con solo uno de estos emoji.
@@ -15,7 +15,7 @@ Predicción emojis que podrían estar asociados a un mensaje
 
 ## 
 
-::: {style='font-size: 16pt;'}
+::: {.absolute left=-50 style='font-size: 14pt;'}
 | emoji | AR | BR | CA | CL | CO | CR | CU | DO | EC | ES | FR | GB | GT | HN | MX | NI | PA | PE | PY | SV | US | UY | VE |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 🥺 | 3749 | 275 | 158 | 1263 | 4760 | 425 | 26 | 458 | 745 | 2640 | 53 | 95 | 666 | 708 | 10160 | 736 | 827 | 739 | 684 | 278 | 2536 | 446 | 359 |
@@ -72,7 +72,7 @@ Predicción emojis que podrían estar asociados a un mensaje
 ::::
 
 ## Cuantiles de la variable _localrank_
-| quantile | values |
+| quantile | rank |
 |---|---|
 |0.00 | 1.0 |
 |0.25 | 1.0 |

@@ -1,6 +1,5 @@
 # Recursos regionalizados para el procesamiento automático de datos de redes sociales
 
-
 ## Sobre esta charla
 Tellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regionalized models for Spanish language variations based on Twitter. Language Resources and Evaluation, 1-31.
 
@@ -16,6 +15,7 @@ Tellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regiona
 ```
 
 - [ArXiv](https://arxiv.org/abs/2110.06128) preprint.
+
 
 ## Aplicaciones de Procesamiento de Lenguaje Natural (1/2)
 - **Minería de opinión**
@@ -48,14 +48,12 @@ Tellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regiona
 Todo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.
 :::
 
-La mayoría de los recursos se encuentran para el inglés y los recursos en español suelen encontrarse en una forma _aglutinada_.
-
 ::: {style='background-color: rgb(250,200,250);'}
-Pero para tareas dónde haya una fuerte carga cultura o de idiosincrasia el uso de recursos regionalizados es provechoso.
+Para tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso.
 :::
 
 ## Regionalización como herramienta
-Entender las variaciones del lenguaje en las redes sociales es primordial ya que los mensajes suelen ser informales, y es común que los usuarios solo quieran ser leídos por su _círculo_ de personas cercanas.
+Entender las **variaciones del lenguaje** en las redes sociales es primordial ya que los mensajes suelen ser **informales**, y es común que los usuarios solo quieran ser leídos por su _círculo_ de personas cercanas.
 
 # ¿Cómo se ven los mensajes en diferentes regiones?
 

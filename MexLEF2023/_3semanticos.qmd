@@ -1,14 +1,15 @@
 # Word embeddings (recursos semánticos)
-
+ 
 ##
-Creados con fast text sobre nuestra corpora regionalizada de Twitter. Disponibles desde el **sitio** del proyecto en diferentes dimensiones, e.g, 300, 32, 16 y 8 dimensiones.
+Creados con fastText sobre nuestra corpora regionalizada de Twitter. Disponibles desde el **sitio** del proyecto en diferentes dimensiones, e.g, 300, 32, 16 y 8 dimensiones.
 
 Modelos para las 27 regiones (26 países + un modelo aglutinado)
 
-## Modelos semanticos: _word-embeddings_ regionales (fastText)
+<!--## Modelos semanticos: _word-embeddings_ regionales (fastText)
 
 Podemos realizar codificaciones para clustering  clasificación, o realizar búsquedas semánticas.
 Pero caben preguntas sobre la bondad de los modelos regionales, o si es mejor usar modelos que aglutinan datos.
+-->
 
 ## Similitud entre regiones
 ::: {style="font-size:24pt;"}
@@ -17,7 +18,7 @@ Necesitamos una matriz de afinidad, como lo hicimos con el caso léxico, pero **
 Para calcular la similitud usamos una representación que extrae información semántica basada en el grafo de los $k$ vecinos cercanos. Esto soluciona el problema de comparación, pero aumenta los requerimientos de computo.
 :::
 
-## 
+## Notas para el modelado de regiones con word embeddings
 
 ::: {style="font-size:20pt;"}
 - Recordando, cada palabra es un punto en $300$ dimensiones.
@@ -28,10 +29,10 @@ Para calcular la similitud usamos una representación que extrae información se
 - Cada región se representa en un vector disperso de muy alta dimensión, i.e., $10^{10}$ componentes con $\approx{}3.8$ millones de componentes diferentes de zero. Se mide nuevamente con distancia coseno, pero con los vectores resultantes.
 :::
 
-## Matriz de afinidad por embeddings
+<!--## Matriz de afinidad por embeddings
 
 ![](https://github.com/INGEOTEC/regional-spanish-models/raw/main/figs/fig-common-words-semantic-affinity-matrix.png) 
-
+-->
 ##
 ![](https://github.com/INGEOTEC/regional-spanish-models/raw/main/figs/fig-colormap-common-voc-semantic-4.png){.absolute top=0 left=400}   ![](https://raw.githubusercontent.com/sadit/RegionalSpanish/main/figs/fig-voc-semantic-umap-4.png){.absolute top=250 left=10}  
 

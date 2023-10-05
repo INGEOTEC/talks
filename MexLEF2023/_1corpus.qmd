@@ -59,6 +59,7 @@
 Se colectaron mensajes georeferenciados de 2016 a 2019 usando el API de _stream_ público de Twitter.
 :::
 
+<!--
 ## Preprocesamiento
 
 ::: {style="font-size: 24pt;"}
@@ -81,3 +82,11 @@ Los mensajes restantes se procesan como sigue:
 :::: 
 
 :::
+
+-->
+
+# Recursos
+## 
+- Vocabularios 
+- Word embeddings
+- Modelos de lenguaje

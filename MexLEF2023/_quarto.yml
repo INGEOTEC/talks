@@ -59,6 +59,6 @@ format:
       width: wide
     html:
       code-fold: true
-      theme: dark
-      css: styles.css
+      theme: moon
+      css: [styles.css, inlinecolors.css]
       toc: false
