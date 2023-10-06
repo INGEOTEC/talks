@@ -18,6 +18,7 @@ author:
 format:
   revealjs:
     theme: simple
+    embed-resources: true
   #  html:
   #    page-layout: full
 bibliography: references.bib

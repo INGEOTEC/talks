@@ -1,7 +1,7 @@
 # Recursos léxicos
 
 ## Vocabularios
-::: {.r-fit-text}
+::: {style="font-size: 14pt;"}
 |        token |        occs |       ndocs |    weight | n_regions |                                                                 country_codes |
 | ------------:| -----------:| -----------:| ---------:| ---------:| -----------------------------------------------------------------------------:|
 |         chau |     409,398 |     387,910 | 10.001527 |        25 |    AR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE |
@@ -11,8 +11,11 @@
 |        huevo |     540,941 |     527,792 |   9.55728 |        25 |   AR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE |
 |        ... |     ... |     ... |   ... |       ... |  ... |
 :::
+<center>
+![](figs/fig-common-tokens-per-region.png){.center height="300"}
+</center>
 
-## {background-image=figs/emojis-populares.png background-size=contain}
+## {background-image=figs/emojis-populares.png background-size=contain }
 
 ## Propiedades de los vocabularios (1/2)
 ### Ley de Zipf
@@ -22,8 +25,6 @@
 ### Ley de Heaps
 ![Ley de Heaps para diferentes regiones (Twitter)](figs/heaps-es.png)
 
-## Tokens comunes 
-![Tokens comunes: ¿En cuántas regiones aparece un token?](figs/fig-common-tokens-per-region.png){.center}
 
 <!--## {background-image=figs/fig-lexheatmap-flow.png background-size=contain}-->
 

@@ -34,7 +34,7 @@ Para calcular la similitud usamos una representación que extrae información se
 ![](figs/fig-common-words-semantic-affinity-matrix.png) 
 -->
 ##
-![](figs/fig-colormap-common-voc-semantic-4.png){.absolute top=0 left=400}   ![](figs/fig-voc-semantic-umap-4.png){.absolute top=250 left=10}  
+![](figs/fig-colormap-common-voc-semantic-4.png){.absolute top=-50 left=400}   ![](figs/fig-voc-semantic-umap-4.png){.absolute top=250 left=-100}  
 
 ## Ejemplos de $k$ vecinos (_violencia_)
 

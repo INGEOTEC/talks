@@ -86,7 +86,7 @@ Predicción emojis que podrían estar asociados a un mensaje
 :::
 
 ::: {.column}
-** ¿Qué tan bueno es cada modelo? **
+**¿Qué tan bueno es cada modelo?** Apariciones en el top-5
 
 ::::: {style='font-size: 20pt;'}
 | cc  | freq |
@@ -100,7 +100,7 @@ Predicción emojis que podrían estar asociados a un mensaje
 |  ES | 6 |
 |  AR | 5 |
 |...  | ...|
-: Apariciones en el top-5
+
 :::::
 
 :::
