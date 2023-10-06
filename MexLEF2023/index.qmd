@@ -85,9 +85,453 @@ Entender las **variaciones del lenguaje** en las redes sociales es primordial ya
 - un minuto de silencio por los que se estan reventando los dedos y las manos con los cohetes !!!
 :::
 
-{{< include _1corpus.qmd >}}
-{{< include _2lexicos.qmd >}}
-{{< include _3semanticos.qmd >}}
-{{< include _4emoji15.qmd >}}
-{{< include _5modelos-lenguaje.qmd >}}
-{{< include _6conclusiones.qmd >}}
+
+<!-- CORPUS -->
+
+
+# El corpus
+
+## 
+
+![Tuits por región (es)](figs/fig-tweets-by-country-2016-2019.png){.absolute top=30 left=0 width="800"}
+![Usuarios por región (es)](figs/fig-users-by-country-2016-2019.png){.absolute top=350 left=300 width="800" }
+
+
+##  
+::: {.absolute top=-40 left=400}
+  Twitter corpora
+:::
+
+:::: {.columns}
+
+::: {.column width="50%" style="font-size: 16pt;"}
+| country            | code   | \#users | \#tweets | \#tokens |
+|:----------         | ------ |          ------:|          -------:|        ---------:|
+| Argentina          | AR | 1,376K | 234.22M | 2,887.92M |
+| Bolivia            | BO | 36K    |  1.15M  |    20.99M |
+| Chile              | CL | 415K   | 45.29M  |   719.24M |
+| Colombia           | CO | 701K   | 61.54M  |   918.51M |
+| Costa Rica         | CR | 79K    |  7.51M  |   101.67M |
+| Cuba               | CU | 32K    |  0.37M  |     6.30M |
+| Dominican Republic | DO | 112K   |  7.65M  |   122.06M |
+| Ecuador            | EC | 207K   | 13.76M  |   226.03M |
+| El Salvador        | SV | 49K    | 2.71M   |    44.46M |
+| Equatorial Guinea  | GQ | 1K     | 8.93K   |     0.14M |
+| Guatemala          | GT | 74K    | 5.22M   |    75.79M |
+| Honduras           | HN | 35K    | 2.14M   |    31.26M |
+| Mexico             | MX | 1,517K | 115.53M | 1,635.69M |
+
+:::
+
+::: {.column width="50%" style="font-size: 16pt;"}
+| country            | code   | \#users | \#tweets | \#tokens |
+|:----------         | ------ |          ------:|          -------:|        ---------:|
+| Nicaragua          | NI | 35K    | 3.34M   |    42.47M |
+| Panama             | PA | 83K    | 6.62M   |    108.74M|
+| Paraguay           | PY | 106K   |  10.28M |   141.75M |
+| Peru               | PE | 271K   | 15.38M  |   241.60M |
+| Puerto Rico        | PR | 18K    | 0.58M   |     7.64M |
+| Spain              | ES | 1,278K | 121.42M | 1,908.07M |
+| Uruguay            | UY | 157K   | 30.83M  |   351.81M |
+| Venezuela          | VE | 421K   | 35.48M  |   556.12M |
+|- | - | - | - | - | 
+| Brazil                   | BR | 1,604K |  27.20M |  142.22M |
+| Canada                   | CA | 149K   |  1.55M  |  21.58M  |
+| France                   | FR | 292K   |  2.43M  |  27.73M  |
+| Great Britain            | GB | 380K   |  2.68M  |  34.62M  |
+| United States of America | US | 2,652K | 40.83M  | 501.86M  |
+| **Total**                    |    | 12M   |   795.74M |   10,876.25M |
+:::
+
+::::
+
+::: {style="font-size: 20pt; text-align: center; "}
+Se colectaron mensajes georeferenciados de 2016 a 2019 usando el API de _stream_ público de Twitter.
+:::
+
+<!--
+## Preprocesamiento
+
+::: {style="font-size: 24pt;"}
+- Solo se considera Twitter como fuente de datos.
+- Los mensajes con URLs se descartan, lo mismo se hace con retweets y mensajes generados por aplicaciones (e.g., fourth square).
+- Mensajes muy cortos también se descartan.
+- Los tokens pueden ser palabras, puntuaciones o emojis.
+
+:::: {.callout-important style="font-size: 20pt;"}
+
+Los mensajes restantes se procesan como sigue:
+
+- minúsculas
+- se remueven las marcas de diacríticos
+- se agrupan hashtags, usuarios y números
+  - números del $1-9$ se mantienen, el resto se representa como $0$
+- se normalizan repeticiones de símbolos (max. 2)
+- las risas se normalizan (4 letras)
+- las cadenas de puntuaciones se cortan a 3 símbolos
+:::: 
+
+:::
+
+-->
+
+# Recursos
+## 
+- Vocabularios 
+- Word embeddings
+- Modelos de lenguaje
+
+
+<!-- RECURSOS LEXICOS -->
+
+# Recursos léxicos
+
+## Vocabularios
+::: {style="font-size: 14pt;"}
+|        token |        occs |       ndocs |    weight | n_regions |                                                                 country_codes |
+| ------------:| -----------:| -----------:| ---------:| ---------:| -----------------------------------------------------------------------------:|
+|         chau |     409,398 |     387,910 | 10.001527 |        25 |    AR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE |
+|       siento |   2,830,971 |   2,764,088 |  7.168519 |        26 | AR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE |
+|        adios |     341,841 |     327,723 | 10.244771 |        25 |    AR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE |
+|     personas |   3,720,458 |   3,620,029 |  6.779321 |        26 | AR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE |
+|        huevo |     540,941 |     527,792 |   9.55728 |        25 |   AR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE |
+|        ... |     ... |     ... |   ... |       ... |  ... |
+:::
+<center>
+![](figs/fig-common-tokens-per-region.png){.center height="300"}
+</center>
+
+## {background-image=figs/emojis-populares.png background-size=contain }
+
+## Propiedades de los vocabularios (1/2)
+### Ley de Zipf
+![Ley de Zipf para diferentes regiones (Twitter)](figs/zipf-es.png)
+
+## Propiedades de los vocabularios (2/2)
+### Ley de Heaps
+![Ley de Heaps para diferentes regiones (Twitter)](figs/heaps-es.png)
+
+
+<!--## {background-image=figs/fig-lexheatmap-flow.png background-size=contain}-->
+
+## Similitud léxica entre regiones (1/2)
+![](figs/fig-lexical-umap-4.png)
+
+## Similitud léxica entre regiones (2/2)
+![](figs/fig-colormap-lexical-4.png)
+
+
+<!-- RECURSOS SEMANTICOS -->
+# Word embeddings (recursos semánticos)
+ 
+##
+Creados con fastText sobre nuestra corpora regionalizada de Twitter. Disponibles desde el **sitio** del proyecto en diferentes dimensiones, e.g, 300, 32, 16 y 8 dimensiones.
+
+Modelos para las 27 regiones (26 países + un modelo aglutinado)
+
+<!--## Modelos semanticos: _word-embeddings_ regionales (fastText)
+
+Podemos realizar codificaciones para clustering  clasificación, o realizar búsquedas semánticas.
+Pero caben preguntas sobre la bondad de los modelos regionales, o si es mejor usar modelos que aglutinan datos.
+-->
+
+## Similitud entre regiones
+::: {style="font-size:24pt;"}
+Necesitamos una matriz de afinidad, como lo hicimos con el caso léxico, pero **los embeddings de diferentes regiones no son comparables entre sí.**
+
+Para calcular la similitud usamos una representación que extrae información semántica basada en el grafo de los $k$ vecinos cercanos. Esto soluciona el problema de comparación, pero aumenta los requerimientos de computo.
+:::
+
+## Notas para el modelado de regiones con word embeddings
+
+::: {style="font-size:20pt;"}
+- Recordando, cada palabra es un punto en $300$ dimensiones.
+- La distancia entre puntos se mide usando $1 - cos(u, v)$.
+- Cada región es una nube de puntos (palabras).
+- Uso de un vocabulario restringuido (preservar tokens que aparecen en al menos 10 regiones); esto también reduce el problema de la disparidad de datos entre diferentes corpus.
+- Uso de herramientas especiales para la construcción de la gráfica de $k$ vecinos ($k=33$).
+- Cada región se representa en un vector disperso de muy alta dimensión, i.e., $10^{10}$ componentes con $\approx{}3.8$ millones de componentes diferentes de zero. Se mide nuevamente con distancia coseno, pero con los vectores resultantes.
+:::
+
+<!--## Matriz de afinidad por embeddings
+
+![](figs/fig-common-words-semantic-affinity-matrix.png) 
+-->
+##
+![](figs/fig-colormap-common-voc-semantic-4.png){.absolute top=-50 left=400}   ![](figs/fig-voc-semantic-umap-4.png){.absolute top=250 left=-100}  
+
+## Ejemplos de $k$ vecinos (_violencia_)
+
+::: {style='font-size: 16pt;'}
+{{< include _ejemplos-knn-violencia.qmd >}}
+:::
+
+## Ejemplos de $k$ vecinos (_chile_)
+
+::: {style='font-size: 16pt;'}
+{{< include _ejemplos-knn-chile.qmd >}}
+:::
+
+## UMAP projection (MX)
+![](figs/fig-umap-common-voc-MX.png)
+
+## UMAP projection (ALL)
+![](figs/fig-umap-common-voc-ALL.png)
+
+
+<!-- EMOJI15 -->
+
+# Emoji-15: predicción de emojis, ejemplo de clasificación regional
+
+##
+Predicción emojis que podrían estar asociados a un mensaje
+
+
+::: {style="font-size: 20pt;"}
+- Tomamos mensajes georeferenciados enero-febrero 2020.
+- Seleccionamos los emoji objetivos entre los más populares en español: 🥺, ❤, 👌, 👏, 💔, 😄, 😊, 😌, 😍, 😒, 😘, 😡, 😢, 😭, 🤔.
+- Para cada región seleccionamos mensajes con solo uno de estos emoji.
+- El emoji en cuestión se reemplaza por la cadena `_emo` y se usa como etiqueta.
+- Partición 50-50 por cada región, se reporta micro recall.
+- Usamos fastText supevisado con cada uno de los modelos regionales como preentrenados -- all vs all.
+:::
+
+## 
+
+::: {.absolute left=-50 style='font-size: 12pt;'}
+| emoji | AR | BR | CA | CL | CO | CR | CU | DO | EC | ES | FR | GB | GT | HN | MX | NI | PA | PE | PY | SV | US | UY | VE |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 🥺 | 3749 | 275 | 158 | 1263 | 4760 | 425 | 26 | 458 | 745 | 2640 | 53 | 95 | 666 | 708 | 10160 | 736 | 827 | 739 | 684 | 278 | 2536 | 446 | 359 |
+| ❤ | 18454 | 1775 | 124 | 2911 | 6237 | 821 | 41 | 348 | 1123 | 8394 | 153 | 255 | 653 | 609 | 9508 | 491 | 880 | 968 | 1800 | 219 | 3216 | 1478 | 784 |
+| 👌 | 2114 | 92 | 34 | 1016 | 1455 | 242 | 20 | 167 | 253 | 1825 | 41 | 58 | 376 | 157 | 2754 | 159 | 313 | 160 | 666 | 124 | 597 | 190 | 71 |
+| 👏 | 6785 | 433 | 80 | 2995 | 2486 | 159 | 33 | 369 | 886 | 7061 | 64 | 105 | 197 | 159 | 4175 | 52 | 388 | 577 | 761 | 222 | 1281 | 1248 | 530 |
+| 💔 | 4278 | 100 | 28 | 390 | 1407 | 161 | 7 | 123 | 200 | 1164 | 26 | 37 | 134 | 91 | 1438 | 105 | 260 | 115 | 428 | 31 | 667 | 283 | 142 |
+| 😄 | 798 | 26 | 8 | 301 | 300 | 42 | 3 | 56 | 83 | 776 | 4 | 18 | 48 | 48 | 549 | 17 | 58 | 115 | 92 | 53 | 192 | 85 | 120 |
+| 😊 | 3609 | 105 | 35 | 1803 | 1475 | 171 | 32 | 175 | 364 | 3827 | 74 | 56 | 257 | 129 | 3395 | 115 | 236 | 817 | 369 | 192 | 829 | 377 | 293 |
+| 😌 | 1184 | 70 | 30 | 827 | 986 | 132 | 44 | 280 | 238 | 1017 | 23 | 23 | 123 | 163 | 2011 | 151 | 293 | 248 | 377 | 78 | 608 | 167 | 110 |
+| 😍 | 15999 | 932 | 111 | 2190 | 6824 | 510 | 28 | 509 | 837 | 8000 | 107 | 136 | 491 | 514 | 8711 | 341 | 1010 | 999 | 1996 | 268 | 2232 | 1194 | 686 |
+| 😒 | 3081 | 89 | 24 | 920 | 1718 | 155 | 50 | 316 | 291 | 780 | 18 | 22 | 163 | 124 | 2185 | 175 | 322 | 213 | 259 | 127 | 738 | 359 | 236 |
+| 😘 | 5935 | 211 | 70 | 1764 | 1482 | 98 | 29 | 119 | 347 | 10785 | 203 | 99 | 171 | 72 | 4290 | 63 | 136 | 374 | 190 | 181 | 1808 | 719 | 493 |
+| 😡 | 2777 | 136 | 60 | 1098 | 1412 | 150 | 5 | 110 | 291 | 1320 | 12 | 25 | 158 | 52 | 2428 | 59 | 155 | 227 | 250 | 90 | 769 | 301 | 252 |
+| 😢 | 2144 | 89 | 38 | 699 | 1039 | 153 | 8 | 102 | 296 | 1507 | 31 | 39 | 151 | 129 | 2646 | 131 | 204 | 271 | 239 | 69 | 781 | 227 | 135 |
+| 😭 | 13873 | 436 | 125 | 1967 | 4461 | 581 | 25 | 604 | 787 | 3935 | 157 | 135 | 388 | 364 | 6752 | 321 | 1057 | 979 | 1832 | 200 | 2799 | 939 | 530 |
+| 🤔 | 6751 | 275 | 154 | 2756 | 4173 | 440 | 47 | 614 | 771 | 4781 | 99 | 111 | 421 | 339 | 7380 | 211 | 741 | 1135 | 937 | 384 | 1941 | 951 | 734 |
+:::
+
+## Resultados experimentales
+:::: {.columns width="120%"}
+::: {.column width="50%" style='font-size: 14pt;'}
+| cc |	minrecall	| maxrecall |	localrank |	top5 |
+|---|---|---|---|---|
+| AR |	0.4777 |	0.49   |	3	| UY,PY,AR,PE,CO  |
+| BR |	0.4611 |	0.4879 |	1	| BR,ALL,DO,PY,CR  |
+| CA |	0.2934 |	0.3533 |	18	| CL,ALL,CO,MX,US  |
+| CL |	0.4257 |	0.4494 |	1	| CL,US,MX,AR,ES  |
+| CO |	0.4247 |	0.4365 |	2	| US,CO,VE,EC,GT  |
+| CR |	0.3689 |	0.388  |	9	| US,VE,ALL,MX,CO  |
+| DO |	0.3383 |	0.3813 |	13	| US,CO,VE,CL,ALL  |
+| EC |	0.3797 |	0.4138 |	9	| MX,US,CL,ALL,CO  |
+| ES |	0.4754 |	0.4855 |	1	| ES,AR,MX,US,VE  |
+| FR |	0.4187 |	0.4424 |	4	| ALL,GT,EC,FR,PA  |
+:::
+
+::: {.column width="50%" style='font-size: 14pt;'}
+| cc |	minrecall	| maxrecall |	localrank |	top5 |
+|---|---|---|---|---|
+| GB |	0.3467 |	0.3756 |	23	| ALL,AR,ES,VE,MX  |
+| GT |	0.3489 |	0.3882 |	13	| MX,US,ALL,CO,ES  |
+| HN |	0.3354 |	0.3671 |	18	| PE,EC,BR,CR,UY  |
+| MX |	0.4233 |	0.4335 |	1	| MX,GT,CR,US,CO  |
+| NI |	0.3372 |	0.3718 |	18	| VE,CO,CL,MX,US  |
+| PA |	0.3658 |	0.3927 |	10	| US,CL,VE,CO,PE  |
+| PE |	0.3799 |	0.4196 |	9	| MX,ALL,US,AR,CO  |
+| PY |	0.4244 |	0.4417 |	1	| PY,US,BR,PE,UY  |
+| SV |	0.3226 |	0.3954 |	18	| US,CO,MX,CL,VE  |
+| US |	0.4041 |	0.4244 |	1	| US,MX,CO,ES,CL  |
+| UY |	0.4351 |	0.4572 |	1	| UY,US,CO,CL,VE  |
+| VE |	0.3848 |	0.4338 |	4	| MX,CO,ES,VE,US  |
+:::
+
+::::
+
+## 
+:::: {.columns}
+::: {.column}
+**Cuantiles de la variable _localrank_**
+
+| quantile | rank |
+|---|---|
+|0.00 | 1.0 |
+|0.25 | 1.0 |
+|0.50 | 6.5 |
+|0.75 | 13  |
+|1.00 | 23  |
+:::
+
+::: {.column}
+**¿Qué tan bueno es cada modelo?** Apariciones en el top-5
+
+::::: {style='font-size: 20pt;'}
+| cc  | freq |
+|-----|----|
+|  US | 17 |
+|  CO | 15 |
+|  MX | 13 |
+|  VE | 10 |
+| ALL | 9 |
+|  CL | 9 |
+|  ES | 6 |
+|  AR | 5 |
+|...  | ...|
+
+:::::
+
+:::
+
+::::
+## average rank de modelos
+
+:::: {.columns}
+
+::: {.column width="50%" style='font-size: 20pt;'} 
+| model | voc-size | avg. model rank |
+| :---: | -------: | --------------: |
+| US | 292,465 | 4.23 |
+| CO | 324,635 | 6.05 |
+| MX | 438,136 | 6.27 |
+| CL | 282,737 | 6.91 |
+| VE | 271,924 | 7.0 |
+| ALL | 1,696,232 | 8.45 |
+| PE | 178,113 | 8.64 |
+| UY | 200,032 | 8.73 |
+| EC | 147,560 | 8.95 |
+| AR | 673,424 | 9.41 |
+| ES | 571,196 | 10.95 |
+| PY | 124,162 | 11.14 |
+:::
+
+::: {.column width="50%" style='font-size: 20pt;'}
+| model | voc-size | avg. model rank |
+| :---: | -------: | --------------: |
+| BR | 127,205 | 11.27 |
+| CR | 103,086 | 12.5 |
+| PA | 111,635 | 13.36 |
+| GT | 95,252 | 13.64 |
+| DO | 108,655 | 14.91 |
+| GB | 82,418 | 18.0 |
+| NI | 68,605 | 18.18 |
+| FR | 69,843 | 18.91 |
+| CA | 63,161 | 19.0 |
+| SV | 73,833 | 19.14 |
+| HN | 60,580 | 20.36 |
+:::
+::::
+
+
+<!-- MODELOS DE LENGUAJE BILMA -->
+
+# Modelos de lenguaje
+
+## BERT
+::: {.r-fit-text}
+Los modelos de lenguaje, _Language Models (LM)_ utilizan el contexto de cada palabra para determinar su representación.
+
+**BERT** es un modelo de lenguaje que en su momomento rompió el paradigma. Consiste en una serie de _encoders_ que generan representaciones para cada palabra dependiendo de su contexto. El entrenamiento usa un lenguaje de enmascarado, Masked Language Model (MLM). Cada sentencia enmascará tokens de manera aleatoría (se enmascaran 15% de los tokens). También se entrena para predicción de la siguiente frase.
+:::
+
+## Recursos computacionales y necesidad de datos
+:::  {.r-fit-text}
+- Los modelos de lenguaje requieren una gran cantidad de datos, solo generamos recursos con MLM sobre AR, CL, CO, MX, ES, UY, VE, y US, i.e., los más grandes.
+- Todos los modelos tienen series de dos encoders con cuatro cabezas de atención cada una y una salida de 512 dimensiones por embedding
+- Corresponde al _small-size_ del BERT original, y es lo que actualmente podemos con los recursos que contamos en un tiempo _pagable_ (usamos una estanción de trabajo con dos NVIDIA TITAN RTX con 24 GB cada una).
+- Nombramos a nuestro modelo BILMA por _Bert In Latin America_.
+- Usamos un _learning rate_ de $10^{-5}$ con el optimizador Adam (usamos tensorflow 2 y Keras).
+- Los modelos para CL, UY, VE, y US se entrenaron con 3 epocas y AR, CO, MX, y ES con solo una, dado los tamaños de los corpus.
+:::
+
+# Emoji-15 con BILMA
+
+## BILMA vs word-embeddings
+:::: {.columns}
+::: {.column}
+![_Accuracy_ en predicción de Emoji-15 - _tuneado_](figs/fig-bilma-cls.png)
+:::
+
+::: {.column}
+
+::::: {style="font-size: 16pt;"} 
+| cc |	minrecall	| maxrecall |	localrank |	top5 |
+|---|---|---|---|---|
+| AR |	0.4777 |	0.49   |	3	| UY,PY,AR,PE,CO  |
+| CL |	0.4257 |	0.4494 |	1	| CL,US,MX,AR,ES  |
+| CO |	0.4247 |	0.4365 |	2	| US,CO,VE,EC,GT  |
+| ES |	0.4754 |	0.4855 |	1	| ES,AR,MX,US,VE  |
+| MX |	0.4233 |	0.4335 |	1	| MX,GT,CR,US,CO  |
+| US |	0.4041 |	0.4244 |	1	| US,MX,CO,ES,CL  |
+| UY |	0.4351 |	0.4572 |	1	| UY,US,CO,CL,VE  |
+| VE |	0.3848 |	0.4338 |	4	| MX,CO,ES,VE,US  |
+
+Con word-embeddings
+
+:::::
+
+:::
+::::
+
+##
+- Se _tuneó_ el modelo BILMA para predecir emoticones añadiendo dos capas lineales a los embeddings de inicio, por lo que se puede ver que se predice independiente de la posición. 
+- _Tuneado_ con 90%-10% del training set de la región hasta que el _accuracy_ converge.
+- Se evaluó con test regional.
+- Observe que es una matriz de modelos pre-entrenados y _tuneos_.
+- Los resultados en general son muy similares a los modelos de fastText, pero, los modelos BILMA pueden hacer más cosas...
+
+## Usando BILMA para completar frases (mediante máscaras)
+![_Accuracy_ en la tarea MLM para el test](figs/fig-bilma-mlm.png)
+
+
+## {background-image=figs/bilma-mlm-table.png background-size=contain}
+MLM regional
+<!-- ![](figs/bilma-mlm-table.png){.absolute left=0 top=0 width=1200 height=2400 } -->
+
+<!-- CONCLUSIONES -->
+
+
+# Conclusiones y trabajo a futuro
+
+- Recursos generados
+- Importancia
+- Beneficios de los recursos regionalizados
+
+## Trabajo a futuro
+::: {style="font-size: 24pt;"}
+- Aplicaciones y medir impacto.
+- Modelos robustos para identificación de regiones.
+- Reducir recursos computacionales.
+   - Uso de un solo modelo con diferentes niveles de abstracción.
+   - Creación de modelos menos costoso.
+- Enriquecer los corpus más pequeños.
+- Otros lenguajes (inglés, ruso, árabe, etc... o regionales con pocos datos).
+- ¿Se puede usar Hausdorff u otras distancias para nubes de puntos para la comparación de regiones?.
+:::
+
+## ¿Preguntas? 
+<span style="font-size: 200%; color: rgb(120,60,60);">¡Gracias por su atención!</span>
+
+:::: {.columns style="font-size: 20pt;"}
+::: {.column width="60%"}
+**Modelos regionales del Español:**
+
+- <https://ingeotec.github.io/regional-spanish-models/>
+- <https://github.com/INGEOTEC/regional-spanish-models/>
+:::
+
+::: {.column width="40%"}
+**INGEOTEC:**
+
+- <https://github.com/INGEOTEC/>
+- <https://ingeotec.github.io/>
+:::
+
+![](ingeotec-cuatro.png){.r-stretch}
+::::
+
