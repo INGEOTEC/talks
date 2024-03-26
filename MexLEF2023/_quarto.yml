@@ -37,10 +37,10 @@ format:
         affiliation: "CentroGEO"
   
       - name: "Sabino Miranda-Jiménez"
-        affiliation: sin afiliación
+        affiliation: UACM 
 
       - name: "Guillermo Ruiz"
-        affiliation: sin afiliación
+        affiliation: INFOTEC
 
 
     navigation-mode: linear
