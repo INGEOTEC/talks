@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "INGEOTEC"
+  navbar:
+    left:
+      - text: IberLEF2023
+        menu: 
+          - sidebar:RestMex2023f
+          - sidebar:RestMex2023
+          - sidebar:Davincis2023
+      - text: MexLEF2023
+        href: MexLEF2023/index.qmd
+
+  sidebar:
+    - id: RestMex2023f
+      title: RestMex2023
+      contents:
+        - IberLEF2023/restMex2023.qmd
+    - id: RestMex2023
+      title: RestMex2023 (10min)
+      contents: 
+        - IberLEF2023/RestMex2023-10mins.qmd
+    - id: Davincis2023
+      title: DA-VINCIS2023
+      contents:
+        - IberLEF2023/short-davincis2023.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+
+
