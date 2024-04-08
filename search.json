@@ -1,255 +1,663 @@
 [
   {
-    "objectID": "MexLEF2023/index.html#sobre-esta-charla",
-    "href": "MexLEF2023/index.html#sobre-esta-charla",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Sobre esta charla",
-    "text": "Sobre esta charla\nTellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regionalized models for Spanish language variations based on Twitter. Language Resources and Evaluation, 1-31.\n@article{regionalized2023,\n  title={Regionalized models for Spanish language variations based on Twitter},\n  author={Tellez, Eric S and Moctezuma, Daniela and Miranda, Sabino and Graff, Mario and Ruiz, Guillermo},\n  journal={Language Resources and Evaluation},\n  pages={1--31},\n  year={2023},\n  publisher={Springer}\n}\n\nArXiv preprint."
+    "objectID": "TextClassification/poornima.html#ingeotec-research-group",
+    "href": "TextClassification/poornima.html#ingeotec-research-group",
+    "title": "Sentiment Analysis",
+    "section": "INGEOTEC research group",
+    "text": "INGEOTEC research group\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
-    "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)",
-    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)\n\nMinería de opinión\n\npositivo :)  — neutro :|  — negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio\nEtc."
+    "objectID": "IberLEF2023/restMex2023.html#ingeotec-research-group",
+    "href": "IberLEF2023/restMex2023.html#ingeotec-research-group",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "INGEOTEC research group",
+    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
-    "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)",
-    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas."
+    "objectID": "IberLEF2023/restMex2023.html#the-rest-mex-task-at-iberlef-2023",
+    "href": "IberLEF2023/restMex2023.html#the-rest-mex-task-at-iberlef-2023",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "The Rest-Mex Task at IberLEF 2023",
+    "text": "The Rest-Mex Task at IberLEF 2023\n\n\nFor the sentiment analysis, the problem is resume as:\n\n\n“Given an opinion about a Mexican tourist place, the goal is to determine the polarity, between 1 and 5, of the text, the type of opinion (hotel, restaurant or attraction) and, the country of the place of which the opinion is being given (Mexico, Cuba, Colombia)”",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#algunos-retos",
-    "href": "MexLEF2023/index.html#algunos-retos",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Algunos retos",
-    "text": "Algunos retos\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios."
+    "objectID": "IberLEF2023/restMex2023.html#our-appproach",
+    "href": "IberLEF2023/restMex2023.html#our-appproach",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our appproach",
+    "text": "Our appproach\n Our solution system uses only text-based features. More particularly, we used our EvoMSA framework (Graff et al. 2020).",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#regionalización",
-    "href": "MexLEF2023/index.html#regionalización",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Regionalización",
-    "text": "Regionalización\n\nTodo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.\n\n\nPara tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso."
+    "objectID": "IberLEF2023/restMex2023.html#our-approach-evomsa-2.0",
+    "href": "IberLEF2023/restMex2023.html#our-approach-evomsa-2.0",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our approach: EvoMSA 2.0",
+    "text": "Our approach: EvoMSA 2.0",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#regionalización-como-herramienta",
-    "href": "MexLEF2023/index.html#regionalización-como-herramienta",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Regionalización como herramienta",
-    "text": "Regionalización como herramienta\nEntender las variaciones del lenguaje en las redes sociales es primordial ya que los mensajes suelen ser informales, y es común que los usuarios solo quieran ser leídos por su círculo de personas cercanas."
+    "objectID": "IberLEF2023/restMex2023.html#our-representations",
+    "href": "IberLEF2023/restMex2023.html#our-representations",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our representations",
+    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#españa",
-    "href": "MexLEF2023/index.html#españa",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "España 🇪🇸",
-    "text": "España 🇪🇸\n\n\nme dais ascooooikiiikioooooooooooooooooooooooooo\nkina ñefla\nns cmo s exribe\no indeciso, nse ya x dnde cogerte colega\nq os follennjajabya quisieran\nen el metro q voy esta potando uno\n_USR 😂😭💔☹️😰 pero por qué churra"
+    "objectID": "IberLEF2023/restMex2023.html#sparse-bag-of-words",
+    "href": "IberLEF2023/restMex2023.html#sparse-bag-of-words",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Sparse bag of words",
+    "text": "Sparse bag of words\n\nThe text is preprocessed and tokenized, then each token \\(t\\) is associated with a vector \\(\\mathbf{v_t} \\in \\mathbb R^d\\) where the \\(i\\)-th component, i.e., \\(\\mathbf{v_t}_i\\), contains the Inverse-Document-Frequency (IDF) value of the token \\(t\\) and \\(\\forall_{j \\neq i} \\mathbf{v_t}_j=0\\).\n\nThe set of vectors \\(\\mathbf V = \\{ \\mathbf v_t \\}\\) corresponds to the vocabulary, and there are \\(|\\mathbf V| = d\\) different tokens in the vocabulary.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#argentina",
-    "href": "MexLEF2023/index.html#argentina",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Argentina 🇦🇷",
-    "text": "Argentina 🇦🇷\n\n\npofr suerxte m8ís amigo mo son psicópatassa\npal pinnngooo\n_USR estos rompen todo! y la esposa del chorro me tiró en la cara q era planera, 5 hijos tiene. me grita: vos seguí alquilando! decí q no la agarro de los pelos x mi hijo q no le gusta el bardo.\ny dsp se comió un asado, moooy booeno👌👌🤣😂\nmi hno se pone re denso no lo banco"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#méxico",
-    "href": "MexLEF2023/index.html#méxico",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "México 🇲🇽",
-    "text": "México 🇲🇽\n\n\n_USR ahora si! #achingarasumadre nefasto, corrupto y ratero, por mucho eres el peor alcalde que ha tenido _USR\nya me ando echando la primera ca** del año\n_USR acá ya andaban con “la chica que soñé”\n_USR ¿no se te olvidó ponerte calzones rojos hoy, verdad?\nun minuto de silencio por los que se estan reventando los dedos y las manos con los cohetes !!!"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-1",
-    "href": "MexLEF2023/index.html#section-1",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "objectID": "IberLEF2023/restMex2023.html#section",
+    "href": "IberLEF2023/restMex2023.html#section",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
     "section": "",
-    "text": "Twitter corpora\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nArgentina\nAR\n1,376K\n234.22M\n2,887.92M\n\n\nBolivia\nBO\n36K\n1.15M\n20.99M\n\n\nChile\nCL\n415K\n45.29M\n719.24M\n\n\nColombia\nCO\n701K\n61.54M\n918.51M\n\n\nCosta Rica\nCR\n79K\n7.51M\n101.67M\n\n\nCuba\nCU\n32K\n0.37M\n6.30M\n\n\nDominican Republic\nDO\n112K\n7.65M\n122.06M\n\n\nEcuador\nEC\n207K\n13.76M\n226.03M\n\n\nEl Salvador\nSV\n49K\n2.71M\n44.46M\n\n\nEquatorial Guinea\nGQ\n1K\n8.93K\n0.14M\n\n\nGuatemala\nGT\n74K\n5.22M\n75.79M\n\n\nHonduras\nHN\n35K\n2.14M\n31.26M\n\n\nMexico\nMX\n1,517K\n115.53M\n1,635.69M\n\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nNicaragua\nNI\n35K\n3.34M\n42.47M\n\n\nPanama\nPA\n83K\n6.62M\n108.74M\n\n\nParaguay\nPY\n106K\n10.28M\n141.75M\n\n\nPeru\nPE\n271K\n15.38M\n241.60M\n\n\nPuerto Rico\nPR\n18K\n0.58M\n7.64M\n\n\nSpain\nES\n1,278K\n121.42M\n1,908.07M\n\n\nUruguay\nUY\n157K\n30.83M\n351.81M\n\n\nVenezuela\nVE\n421K\n35.48M\n556.12M\n\n\n-\n-\n-\n-\n-\n\n\nBrazil\nBR\n1,604K\n27.20M\n142.22M\n\n\nCanada\nCA\n149K\n1.55M\n21.58M\n\n\nFrance\nFR\n292K\n2.43M\n27.73M\n\n\nGreat Britain\nGB\n380K\n2.68M\n34.62M\n\n\nUnited States of America\nUS\n2,652K\n40.83M\n501.86M\n\n\nTotal\n\n12M\n795.74M\n10,876.25M\n\n\n\n\n\n\nSe colectaron mensajes georeferenciados de 2016 a 2019 usando el API de stream público de Twitter."
+    "text": "A text is represented by the sequence of its tokens, i.e., \\((t_1, t_2, \\ldots)\\). The text is then vectorized as:\n\\[\n    \\textsf{sbow}(\\text{some text}) = \\textsf{sbow}((t_1, t_2, \\ldots)) = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#section-2",
-    "href": "MexLEF2023/index.html#section-2",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "objectID": "IberLEF2023/restMex2023.html#sbow",
+    "href": "IberLEF2023/restMex2023.html#sbow",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBoW",
+    "text": "SBoW",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#dense-bag-of-words",
+    "href": "IberLEF2023/restMex2023.html#dense-bag-of-words",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Dense bag of words",
+    "text": "Dense bag of words\n\n\nIn contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) pre-trained on a different collection of tweets. \nWithout loss of generality, it is assumed that there are \\(M\\) labeled datasets, each one contains a binary text classification problem.\n\n\nnoting that if a dataset has \\(K\\) labels, then this dataset can be represented as \\(K\\) binary classification problems following the one versus the rest approach, i.e., it is transformed to \\(K\\) datasets.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#construction-of-the-dbow",
+    "href": "IberLEF2023/restMex2023.html#construction-of-the-dbow",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction of the DBOW",
+    "text": "Construction of the DBOW\n\n\nFor each of these \\(M\\) binary text classification problems, a SBOW-based classifier is built using a pre-trained SBOW representation and a linear Support Vector Machine (SVM) as the classifier. Consequently, there are \\(M\\) binary text classifiers, i.e., \\((c_1, c_2, \\ldots, c_M)\\). Additionally, the decision function of \\(c_i\\) is a value where the sign indicates the class.   The text representation is the vector obtained by concatenating the decision functions of the \\(M\\) classifiers and then normalizing the vector to have unitary norm.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#construction-continued",
+    "href": "IberLEF2023/restMex2023.html#construction-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction (continued…)",
+    "text": "Construction (continued…)\n\n\nA text \\(x\\) is represented with vector \\(\\mathbf{x^{'}} \\in \\mathbb R^M\\) where the value \\(\\mathbf{x^{'}}_i\\) corresponds to the decision function of \\(c_i\\). Given that the classifier \\(c_i\\) is a linear SVM, the decision function corresponds to the dot product between the input vector and the weight vector \\(\\mathbf w_i\\) plus the bias \\(\\mathbf w_{i_0}\\), where the weight vector and the bias are the parameters of the classifier.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#construction-continued-1",
+    "href": "IberLEF2023/restMex2023.html#construction-continued-1",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction (continued…)",
+    "text": "Construction (continued…)\nThat is, the value \\(\\mathbf{x^{'}}_i\\) corresponds to\n\\[\n    \\mathbf{x^{'}}_i = \\mathbf w_i \\cdot \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_k \\mathbf{v_k} \\rVert} + \\mathbf w_{i_0},    \n\\]\nwhere \\(\\mathbf{v_t}\\) is the IDF vector associated to the token \\(t\\) of the text \\(x\\)",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#construction-continued-2",
+    "href": "IberLEF2023/restMex2023.html#construction-continued-2",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction (continued…)",
+    "text": "Construction (continued…)\nIn matrix notation, vector \\(\\mathbf{x'}\\) is\n\\[    \\mathbf{x^{'}} = \\mathbf W \\cdot \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_k \\mathbf{v_k} \\rVert} + \\mathbf{w_0},\n\\]\nwhere matrix \\(\\mathbf W \\in \\mathbb R^{M \\times d}\\) contains the weights, and \\(\\mathbf{w_0} \\in \\mathbb R^M\\) is the bias. Another way to see the previous formulation is by defining a vector \\(\\mathbf{u_t} = \\frac{1}{\\lVert \\mathbf{v_t} \\rVert} \\mathbf W \\mathbf{v_t}\\).",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#construction-continued-3",
+    "href": "IberLEF2023/restMex2023.html#construction-continued-3",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction (continued…)",
+    "text": "Construction (continued…)\nConsequently, \\(\\mathbf{x'}\\) is defined as:\n\\[\n    \\label{eq:denseBoW}\n    \\mathbf{x'} = \\sum_t \\mathbf{u_t} + \\mathbf{w_0},\n\\] vectors \\(\\mathbf{u} \\in \\mathbb R^M\\) correspond to the tokens. This is the reason we refer to this model as a dense BoW.\nFinally, the vector representing the text \\(x\\) is the normalized \\(\\mathbf{x^{'}}\\), i.e., \\(\\mathbf x = \\frac{\\mathbf{x^{'}}}{\\lVert \\mathbf{x^{'}} \\rVert}.\\)",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#dense-bow-stacking",
+    "href": "IberLEF2023/restMex2023.html#dense-bow-stacking",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Dense BoW (stacking)",
+    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued",
+    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\n\nThe pre-trained BoW is estimated from 4,194,304 (\\(2^{22}\\)) tweets randomly selected in a larger collection of messages.\nThe IDF values were estimated from the collections, and some tokens were selected from all the available ones found in the collection.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued-1",
+    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued-1",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\nTwo procedures were used to select the tokens:\n\nthe first corresponds to selecting the \\(d\\) tokens with the highest frequency, and the other to normalize the frequency w.r.t. their type, i.e., bigrams, words, and q-grams of characters. Once the frequency is normalized, one selects the \\(d\\) tokens with the highest normalized frequency.\nThe value of \\(d\\) is \\(2^{17}\\); however, one can also find in the library models for \\(2^{13}, 2^{14}, \\ldots, 2^{17}.\\)",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued-2",
+    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued-2",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\n\nIt is also possible to train the BoW model using the training set; in this case, we used the default parameters. The only difference is that vocabulary size \\(d\\) is bounded by the training set tokens.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#dbow-parameters-continued",
+    "href": "IberLEF2023/restMex2023.html#dbow-parameters-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "DBOW parameters (continued…)",
+    "text": "DBOW parameters (continued…)\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-1",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued-1",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\nThe list of configurations\n\n\nbow: Pre-trained BoW where the tokens are selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.\nbow_voc_selection: Pre-trained BoW where the tokens correspond to the most frequent ones.\nbow_training_set: BoW trained with the training set; the number of tokens corresponds to all the tokens in the set.\nstack_bow_keywords_emojis: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW.\n\nstack_bow_keywords_emojis_voc_selection: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-2",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued-2",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_bows: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection).\nstack_2_bow_keywords: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency.\nstack_2_bow_tailored_keywords: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as tailored keywords.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-3",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued-3",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_2_bow_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_keywords where the difference is that the dense representations include the models created with the human-annotated datasets.\nstack_2_bow_tailored_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_all_keywords, where the difference is that the dense representation with normalized frequency also includes the tailored keywords.\nstack_3_bows: Stack generalization approach with three base classifiers. All of them are BoW; the first two correspond pre-trained BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection), and the latest is a BoW trained on the training set (i.e., bow_training_set).",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-4",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued-4",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_3_bows_tailored_keywords: Stack generalization approach with five base classifiers. The first corresponds to a BoW trained on the training set, and the rest are used in stack_2_bow_tailored_keywords.\nstack_3_bow_tailored_all_keywords: Stack generalization approach with five base classifiers. It is comparable to stack_3_bows_tailored_keywords being the difference in the use of the tailored keywords.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#competition",
+    "href": "IberLEF2023/restMex2023.html#competition",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Competition",
+    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#other-competitions-performance",
+    "href": "IberLEF2023/restMex2023.html#other-competitions-performance",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance",
+    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#other-competitions-performance-continued",
+    "href": "IberLEF2023/restMex2023.html#other-competitions-performance-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance (Continued…)",
+    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/restMex2023.html#conclusions-continued",
+    "href": "IberLEF2023/restMex2023.html#conclusions-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Conclusions (continued…)",
+    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
+    "href": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "INGEOTEC research group",
+    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
+    "href": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our approach: EvoMSA 2.0",
+    "text": "Our approach: EvoMSA 2.0\n \n\n\n\nEvoMSA’s documentation (https://evomsa.readthedocs) Papers (Graff et al. 2020) (Tellez et al. 2017)",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-representations",
+    "href": "IberLEF2023/RestMex2023-10mins.html#our-representations",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our representations",
+    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#sbow",
+    "href": "IberLEF2023/RestMex2023-10mins.html#sbow",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBoW",
+    "text": "SBoW",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
+    "href": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Dense BoW (stacking)",
+    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
+    "href": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "DBOW parameters",
+    "text": "DBOW parameters\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
+    "href": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations",
+    "text": "Configurations\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#competition",
+    "href": "IberLEF2023/RestMex2023-10mins.html#competition",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Competition",
+    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
+    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance",
+    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
+    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance (Continued…)",
+    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
+    "href": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Conclusions (continued…)",
+    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
+    "href": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "INGEOTEC research group",
+    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#the-da-vincis-task-at-iberlef-2023",
+    "href": "IberLEF2023/short-davincis2023.html#the-da-vincis-task-at-iberlef-2023",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "The DA-VINCIS Task at IberLEF 2023",
+    "text": "The DA-VINCIS Task at IberLEF 2023\n\n\nAn open challenge to develop multimodal models to detect violent incidents on Twitter. The task has two tracks:\n\nviolent event identification and\nviolent event category recognition.\n\nThis presentation describes our solution system for the (i) track using only text-based features. More particularly, we used our EvoMSA framework (Graff et al. 2020).",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#our-approach-evomsa-2.0",
+    "href": "IberLEF2023/short-davincis2023.html#our-approach-evomsa-2.0",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Our approach: EvoMSA 2.0",
+    "text": "Our approach: EvoMSA 2.0",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#our-text-representations",
+    "href": "IberLEF2023/short-davincis2023.html#our-text-representations",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Our text representations",
+    "text": "Our text representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#sparse-bag-of-words",
+    "href": "IberLEF2023/short-davincis2023.html#sparse-bag-of-words",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Sparse bag of words",
+    "text": "Sparse bag of words\n\nThe text is preprocessed and tokenized, then each token \\(t\\) is associated with a vector \\(\\mathbf{v_t} \\in \\mathbb R^d\\) where the \\(i\\)-th component, i.e., \\(\\mathbf{v_t}_i\\), contains the Inverse-Document-Frequency (IDF) value of the token \\(t\\) and \\(\\forall_{j \\neq i} \\mathbf{v_t}_j=0\\).\n\nThe set of vectors \\(\\mathbf V = \\{ \\mathbf v_t \\}\\) corresponds to the vocabulary, and there are \\(|\\mathbf V| = d\\) different tokens in the vocabulary.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#section",
+    "href": "IberLEF2023/short-davincis2023.html#section",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
     "section": "",
-    "text": "Vocabularios\nWord embeddings\nModelos de lenguaje"
+    "text": "A text is represented by the sequence of its tokens, i.e., \\((t_1, t_2, \\ldots)\\). The text is then vectorized as:\n\\[\n    \\textsf{sbow}(\\text{some text}) = \\textsf{sbow}((t_1, t_2, \\ldots)) = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#vocabularios",
-    "href": "MexLEF2023/index.html#vocabularios",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Vocabularios",
-    "text": "Vocabularios\n\n\n\n\n\n\n\n\n\n\n\n\ntoken\noccs\nndocs\nweight\nn_regions\ncountry_codes\n\n\n\n\nchau\n409,398\n387,910\n10.001527\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nsiento\n2,830,971\n2,764,088\n7.168519\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nadios\n341,841\n327,723\n10.244771\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\npersonas\n3,720,458\n3,620,029\n6.779321\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nhuevo\n540,941\n527,792\n9.55728\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\n…\n…\n…\n…\n…\n…"
+    "objectID": "IberLEF2023/short-davincis2023.html#sbow",
+    "href": "IberLEF2023/short-davincis2023.html#sbow",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "SBoW",
+    "text": "SBoW",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
-    "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Propiedades de los vocabularios (1/2)",
-    "text": "Propiedades de los vocabularios (1/2)\nLey de Zipf\n\nLey de Zipf para diferentes regiones (Twitter)"
+    "objectID": "IberLEF2023/short-davincis2023.html#dense-bag-of-words",
+    "href": "IberLEF2023/short-davincis2023.html#dense-bag-of-words",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Dense bag of words",
+    "text": "Dense bag of words\n\n\nIn contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) pre-trained on a different collection of tweets. \nWithout loss of generality, it is assumed that there are \\(M\\) labeled datasets, each one contains a binary text classification problem.\n\n\nnoting that if a dataset has \\(K\\) labels, then this dataset can be represented as \\(K\\) binary classification problems following the one versus the rest approach, i.e., it is transformed to \\(K\\) datasets.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
-    "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Propiedades de los vocabularios (2/2)",
-    "text": "Propiedades de los vocabularios (2/2)\nLey de Heaps\n\n\nLey de Heaps para diferentes regiones (Twitter)"
+    "objectID": "IberLEF2023/short-davincis2023.html#construction-of-the-dbow",
+    "href": "IberLEF2023/short-davincis2023.html#construction-of-the-dbow",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Construction of the DBOW",
+    "text": "Construction of the DBOW\n\n\nFor each of these \\(M\\) binary text classification problems, a SBOW-based classifier is built using a pre-trained SBOW representation and a linear Support Vector Machine (SVM) as the classifier. Consequently, there are \\(M\\) binary text classifiers, i.e., \\((c_1, c_2, \\ldots, c_M)\\). Additionally, the decision function of \\(c_i\\) is a value where the sign indicates the class.   The text representation is the vector obtained by concatenating the decision functions of the \\(M\\) classifiers and then normalizing the vector to have unitary norm.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
-    "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Similitud léxica entre regiones (1/2)",
-    "text": "Similitud léxica entre regiones (1/2)"
+    "objectID": "IberLEF2023/short-davincis2023.html#dense-bow-stacking",
+    "href": "IberLEF2023/short-davincis2023.html#dense-bow-stacking",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Dense BoW (stacking)",
+    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
-    "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Similitud léxica entre regiones (2/2)",
-    "text": "Similitud léxica entre regiones (2/2)"
+    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued",
+    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\n\nThe pre-trained BoW is estimated from 4,194,304 (\\(2^{22}\\)) tweets randomly selected in a larger collection of messages.\nThe IDF values were estimated from the collections, and some tokens were selected from all the available ones found in the collection.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#section-4",
-    "href": "MexLEF2023/index.html#section-4",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Creados con fastText sobre nuestra corpora regionalizada de Twitter. Disponibles desde el sitio del proyecto en diferentes dimensiones, e.g, 300, 32, 16 y 8 dimensiones.\nModelos para las 27 regiones (26 países + un modelo aglutinado)"
+    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-1",
+    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-1",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\nTwo procedures were used to select the tokens:\n\nthe first corresponds to selecting the \\(d\\) tokens with the highest frequency, and the other to normalize the frequency w.r.t. their type, i.e., bigrams, words, and q-grams of characters. Once the frequency is normalized, one selects the \\(d\\) tokens with the highest normalized frequency.\nThe value of \\(d\\) is \\(2^{17}\\); however, one can also find in the library models for \\(2^{13}, 2^{14}, \\ldots, 2^{17}.\\)",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#similitud-entre-regiones",
-    "href": "MexLEF2023/index.html#similitud-entre-regiones",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Similitud entre regiones",
-    "text": "Similitud entre regiones\n\nNecesitamos una matriz de afinidad, como lo hicimos con el caso léxico, pero los embeddings de diferentes regiones no son comparables entre sí.\nPara calcular la similitud usamos una representación que extrae información semántica basada en el grafo de los \\(k\\) vecinos cercanos. Esto soluciona el problema de comparación, pero aumenta los requerimientos de computo."
+    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-2",
+    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-2",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\n\nIt is also possible to train the BoW model using the training set; in this case, we used the default parameters. The only difference is that vocabulary size \\(d\\) is bounded by the training set tokens.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
-    "href": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Notas para el modelado de regiones con word embeddings",
-    "text": "Notas para el modelado de regiones con word embeddings\n\n\nRecordando, cada palabra es un punto en \\(300\\) dimensiones.\nLa distancia entre puntos se mide usando \\(1 - cos(u, v)\\).\nCada región es una nube de puntos (palabras).\nUso de un vocabulario restringuido (preservar tokens que aparecen en al menos 10 regiones); esto también reduce el problema de la disparidad de datos entre diferentes corpus.\nUso de herramientas especiales para la construcción de la gráfica de \\(k\\) vecinos (\\(k=33\\)).\nCada región se representa en un vector disperso de muy alta dimensión, i.e., \\(10^{10}\\) componentes con \\(\\approx{}3.8\\) millones de componentes diferentes de zero. Se mide nuevamente con distancia coseno, pero con los vectores resultantes."
+    "objectID": "IberLEF2023/short-davincis2023.html#dbow-parameters-continued",
+    "href": "IberLEF2023/short-davincis2023.html#dbow-parameters-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "DBOW parameters (continued…)",
+    "text": "DBOW parameters (continued…)\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
-    "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Ejemplos de \\(k\\) vecinos (violencia)",
-    "text": "Ejemplos de \\(k\\) vecinos (violencia)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\n\n\nagresion\n\n\nvandalismo\n\n\nviolentos\n\n\nviolente\n\n\nfeminicidios\n\n\nviolenten\n\n\nviolentos\n\n\n\n\ndenigracion\n\n\nagresion\n\n\nestigmatizacion\n\n\nintrafamiliar\n\n\nfemicidios\n\n\nviolente\n\n\nviolenten\n\n\n\n\nagresiones\n\n\nrepresion\n\n\nviolente\n\n\nrepresion\n\n\nviolentas\n\n\nviolentos\n\n\nviolente\n\n\n\n\nverbal\n\n\nbandalismo\n\n\nintrafamiliar\n\n\nviolenten\n\n\nvandalismo\n\n\nviolentas\n\n\nviolenta\n\n\n\n\nviolecia\n\n\nagresiones\n\n\nviolenten\n\n\nviolecia\n\n\nfemicidio\n\n\nviolentar\n\n\nconfrontacion\n\n\n\n\ndiscriminacion\n\n\nviolenten\n\n\nbandalismo\n\n\nviolentos\n\n\nviolente\n\n\nviolentan\n\n\nviolentas\n\n\n\n\nviolentos\n\n\nviolente\n\n\nagresiones\n\n\nviolentas\n\n\nbandalismo\n\n\ndelincuencia\n\n\nterrorismo\n\n\n\n\nmisoginia\n\n\nvandalismos\n\n\nviolentas\n\n\nviolenta\n\n\nfeminicidio\n\n\nviolentada\n\n\nintolerancia\n\n\n\n\nvandalismo\n\n\nviolentos\n\n\nrepresion\n\n\nviolentar\n\n\nagresion\n\n\nviolenta\n\n\nviolecia\n\n\n\n\nrevictimizacion\n\n\nviolenta\n\n\nvandalismo\n\n\nterrorismo\n\n\nintrafamiliar\n\n\nfeminicidios\n\n\nvandalismos\n\n\n\n\namedrentamiento\n\n\nviolentas\n\n\nintolerancia\n\n\ncriminalizacion\n\n\nasesinatos\n\n\nviolentado\n\n\nrepresion\n\n\n\n\ngenero\n\n\nincitacion\n\n\nincitacion\n\n\nviolentada\n\n\nagresiones\n\n\nvandalismo\n\n\nconfrontaciones\n\n\n\n\nintolerancia\n\n\nintrafamiliar\n\n\nintimidacion\n\n\nagresiones\n\n\ndelincuencia\n\n\nviolentando\n\n\nvandalismo"
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
-    "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Ejemplos de \\(k\\) vecinos (chile)",
-    "text": "Ejemplos de \\(k\\) vecinos (chile)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\necuador\n\n\nchiles\n\n\nuruguay\n\n\nchile0\n\n\nchile0\n\n\nchilen\n\n\nargentina\n\n\n\n\nperu\n\n\nchilee\n\n\nargentina\n\n\nargentina\n\n\nchilee\n\n\nchilee\n\n\nperu\n\n\n\n\nchile0\n\n\nchilito\n\n\nperu\n\n\nparaguay\n\n\npiquin\n\n\nchilenos\n\n\necuador\n\n\n\n\nuruguay\n\n\npais\n\n\nbolivia\n\n\nmexico\n\n\nchilito\n\n\nchile0\n\n\nchile0\n\n\n\n\nmexico\n\n\nlatinoamerica\n\n\nchilen\n\n\nuruguay\n\n\nchilensis\n\n\nchileno\n\n\nchiles\n\n\n\n\nchilen\n\n\nchile0\n\n\necuador\n\n\nperu\n\n\nhabanero\n\n\nchilena\n\n\nparaguay\n\n\n\n\nbrasil\n\n\nchil\n\n\nparaguay\n\n\nbolivia\n\n\nmorron\n\n\nuchile\n\n\nchilena\n\n\n\n\nbolivia\n\n\namerica0\n\n\nbrasil\n\n\ncolombia\n\n\nuchile\n\n\nshile\n\n\nbolivia\n\n\n\n\ncolombia\n\n\n🇨\n\n\nchilenos\n\n\nbrasil\n\n\nchiles\n\n\nchilito\n\n\nuruguay\n\n\n\n\nparaguay\n\n\nsuramerica\n\n\nmexico\n\n\nchilenos\n\n\nverdolagas\n\n\nchilenito\n\n\nbrasil\n\n\n\n\nchiles\n\n\nsudamerica\n\n\nchiles\n\n\nchilen\n\n\njalapeno\n\n\nargentina\n\n\nchilen\n\n\n\n\nchilee\n\n\n🇱\n\n\nhonduras\n\n\necuador\n\n\npimiento\n\n\nchilenas\n\n\nchilenos\n\n\n\n\nrusia\n\n\nargentina\n\n\nchile0\n\n\nchileno\n\n\nchil\n\n\nchiles\n\n\nchilensis"
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-1",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-1",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\nThe list of configurations\n\n\nbow: Pre-trained BoW where the tokens are selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.\nbow_voc_selection: Pre-trained BoW where the tokens correspond to the most frequent ones.\nbow_training_set: BoW trained with the training set; the number of tokens corresponds to all the tokens in the set.\nstack_bow_keywords_emojis: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW.\n\nstack_bow_keywords_emojis_voc_selection: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#umap-projection-mx",
-    "href": "MexLEF2023/index.html#umap-projection-mx",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "UMAP projection (MX)",
-    "text": "UMAP projection (MX)"
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-2",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-2",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_bows: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection).\nstack_2_bow_keywords: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency.\nstack_2_bow_tailored_keywords: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as tailored keywords.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#umap-projection-all",
-    "href": "MexLEF2023/index.html#umap-projection-all",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "UMAP projection (ALL)",
-    "text": "UMAP projection (ALL)"
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-3",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-3",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_2_bow_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_keywords where the difference is that the dense representations include the models created with the human-annotated datasets.\nstack_2_bow_tailored_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_all_keywords, where the difference is that the dense representation with normalized frequency also includes the tailored keywords.\nstack_3_bows: Stack generalization approach with three base classifiers. All of them are BoW; the first two correspond pre-trained BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection), and the latest is a BoW trained on the training set (i.e., bow_training_set).",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#section-6",
-    "href": "MexLEF2023/index.html#section-6",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Predicción emojis que podrían estar asociados a un mensaje\n\n\nTomamos mensajes georeferenciados enero-febrero 2020.\nSeleccionamos los emoji objetivos entre los más populares en español: 🥺, ❤, 👌, 👏, 💔, 😄, 😊, 😌, 😍, 😒, 😘, 😡, 😢, 😭, 🤔.\nPara cada región seleccionamos mensajes con solo uno de estos emoji.\nEl emoji en cuestión se reemplaza por la cadena _emo y se usa como etiqueta.\nPartición 50-50 por cada región, se reporta micro recall.\nUsamos fastText supevisado con cada uno de los modelos regionales como preentrenados – all vs all."
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-4",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-4",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_3_bows_tailored_keywords: Stack generalization approach with five base classifiers. The first corresponds to a BoW trained on the training set, and the rest are used in stack_2_bow_tailored_keywords.\nstack_3_bow_tailored_all_keywords: Stack generalization approach with five base classifiers. It is comparable to stack_3_bows_tailored_keywords being the difference in the use of the tailored keywords.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#section-7",
-    "href": "MexLEF2023/index.html#section-7",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "emoji\nAR\nBR\nCA\nCL\nCO\nCR\nCU\nDO\nEC\nES\nFR\nGB\nGT\nHN\nMX\nNI\nPA\nPE\nPY\nSV\nUS\nUY\nVE\n\n\n\n\n🥺\n3749\n275\n158\n1263\n4760\n425\n26\n458\n745\n2640\n53\n95\n666\n708\n10160\n736\n827\n739\n684\n278\n2536\n446\n359\n\n\n❤\n18454\n1775\n124\n2911\n6237\n821\n41\n348\n1123\n8394\n153\n255\n653\n609\n9508\n491\n880\n968\n1800\n219\n3216\n1478\n784\n\n\n👌\n2114\n92\n34\n1016\n1455\n242\n20\n167\n253\n1825\n41\n58\n376\n157\n2754\n159\n313\n160\n666\n124\n597\n190\n71\n\n\n👏\n6785\n433\n80\n2995\n2486\n159\n33\n369\n886\n7061\n64\n105\n197\n159\n4175\n52\n388\n577\n761\n222\n1281\n1248\n530\n\n\n💔\n4278\n100\n28\n390\n1407\n161\n7\n123\n200\n1164\n26\n37\n134\n91\n1438\n105\n260\n115\n428\n31\n667\n283\n142\n\n\n😄\n798\n26\n8\n301\n300\n42\n3\n56\n83\n776\n4\n18\n48\n48\n549\n17\n58\n115\n92\n53\n192\n85\n120\n\n\n😊\n3609\n105\n35\n1803\n1475\n171\n32\n175\n364\n3827\n74\n56\n257\n129\n3395\n115\n236\n817\n369\n192\n829\n377\n293\n\n\n😌\n1184\n70\n30\n827\n986\n132\n44\n280\n238\n1017\n23\n23\n123\n163\n2011\n151\n293\n248\n377\n78\n608\n167\n110\n\n\n😍\n15999\n932\n111\n2190\n6824\n510\n28\n509\n837\n8000\n107\n136\n491\n514\n8711\n341\n1010\n999\n1996\n268\n2232\n1194\n686\n\n\n😒\n3081\n89\n24\n920\n1718\n155\n50\n316\n291\n780\n18\n22\n163\n124\n2185\n175\n322\n213\n259\n127\n738\n359\n236\n\n\n😘\n5935\n211\n70\n1764\n1482\n98\n29\n119\n347\n10785\n203\n99\n171\n72\n4290\n63\n136\n374\n190\n181\n1808\n719\n493\n\n\n😡\n2777\n136\n60\n1098\n1412\n150\n5\n110\n291\n1320\n12\n25\n158\n52\n2428\n59\n155\n227\n250\n90\n769\n301\n252\n\n\n😢\n2144\n89\n38\n699\n1039\n153\n8\n102\n296\n1507\n31\n39\n151\n129\n2646\n131\n204\n271\n239\n69\n781\n227\n135\n\n\n😭\n13873\n436\n125\n1967\n4461\n581\n25\n604\n787\n3935\n157\n135\n388\n364\n6752\n321\n1057\n979\n1832\n200\n2799\n939\n530\n\n\n🤔\n6751\n275\n154\n2756\n4173\n440\n47\n614\n771\n4781\n99\n111\n421\n339\n7380\n211\n741\n1135\n937\n384\n1941\n951\n734"
+    "objectID": "IberLEF2023/short-davincis2023.html#competition",
+    "href": "IberLEF2023/short-davincis2023.html#competition",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Competition",
+    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner in each edition. The best performance is in boldface.\n\n\n\nDA-VINCIS 2023\nDA-VINCIS 20222\n\n\n\n\nWinner\n0.9264\n0.7817\n\n\nINGEOTEC\n0.8903\n0.7510\n\n\nDifference\n4.1%\n4.1%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#resultados-experimentales",
-    "href": "MexLEF2023/index.html#resultados-experimentales",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Resultados experimentales",
-    "text": "Resultados experimentales\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nBR\n0.4611\n0.4879\n1\nBR,ALL,DO,PY,CR\n\n\nCA\n0.2934\n0.3533\n18\nCL,ALL,CO,MX,US\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nCR\n0.3689\n0.388\n9\nUS,VE,ALL,MX,CO\n\n\nDO\n0.3383\n0.3813\n13\nUS,CO,VE,CL,ALL\n\n\nEC\n0.3797\n0.4138\n9\nMX,US,CL,ALL,CO\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nFR\n0.4187\n0.4424\n4\nALL,GT,EC,FR,PA\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nGB\n0.3467\n0.3756\n23\nALL,AR,ES,VE,MX\n\n\nGT\n0.3489\n0.3882\n13\nMX,US,ALL,CO,ES\n\n\nHN\n0.3354\n0.3671\n18\nPE,EC,BR,CR,UY\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nNI\n0.3372\n0.3718\n18\nVE,CO,CL,MX,US\n\n\nPA\n0.3658\n0.3927\n10\nUS,CL,VE,CO,PE\n\n\nPE\n0.3799\n0.4196\n9\nMX,ALL,US,AR,CO\n\n\nPY\n0.4244\n0.4417\n1\nPY,US,BR,PE,UY\n\n\nSV\n0.3226\n0.3954\n18\nUS,CO,MX,CL,VE\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US"
+    "objectID": "IberLEF2023/short-davincis2023.html#other-competitions-performance",
+    "href": "IberLEF2023/short-davincis2023.html#other-competitions-performance",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Other competitions performance",
+    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#section-8",
-    "href": "MexLEF2023/index.html#section-8",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Cuantiles de la variable localrank\n\n\n\nquantile\nrank\n\n\n\n\n0.00\n1.0\n\n\n0.25\n1.0\n\n\n0.50\n6.5\n\n\n0.75\n13\n\n\n1.00\n23\n\n\n\n\n¿Qué tan bueno es cada modelo? Apariciones en el top-5\n\n\n\n\ncc\nfreq\n\n\n\n\nUS\n17\n\n\nCO\n15\n\n\nMX\n13\n\n\nVE\n10\n\n\nALL\n9\n\n\nCL\n9\n\n\nES\n6\n\n\nAR\n5\n\n\n…\n…"
+    "objectID": "IberLEF2023/short-davincis2023.html#other-competitions-performance-continued",
+    "href": "IberLEF2023/short-davincis2023.html#other-competitions-performance-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Other competitions performance (Continued…)",
+    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#average-rank-de-modelos",
-    "href": "MexLEF2023/index.html#average-rank-de-modelos",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "average rank de modelos",
-    "text": "average rank de modelos\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nUS\n292,465\n4.23\n\n\nCO\n324,635\n6.05\n\n\nMX\n438,136\n6.27\n\n\nCL\n282,737\n6.91\n\n\nVE\n271,924\n7.0\n\n\nALL\n1,696,232\n8.45\n\n\nPE\n178,113\n8.64\n\n\nUY\n200,032\n8.73\n\n\nEC\n147,560\n8.95\n\n\nAR\n673,424\n9.41\n\n\nES\n571,196\n10.95\n\n\nPY\n124,162\n11.14\n\n\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nBR\n127,205\n11.27\n\n\nCR\n103,086\n12.5\n\n\nPA\n111,635\n13.36\n\n\nGT\n95,252\n13.64\n\n\nDO\n108,655\n14.91\n\n\nGB\n82,418\n18.0\n\n\nNI\n68,605\n18.18\n\n\nFR\n69,843\n18.91\n\n\nCA\n63,161\n19.0\n\n\nSV\n73,833\n19.14\n\n\nHN\n60,580\n20.36"
+    "objectID": "IberLEF2023/short-davincis2023.html#example",
+    "href": "IberLEF2023/short-davincis2023.html#example",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Example",
+    "text": "Example\n\nUsing a tailored dense model with the DA-VINCIS 2023 dataset, we can see:",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#bert",
-    "href": "MexLEF2023/index.html#bert",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "BERT",
-    "text": "BERT\n\nLos modelos de lenguaje, Language Models (LM) utilizan el contexto de cada palabra para determinar su representación.\nBERT es un modelo de lenguaje que en su momomento rompió el paradigma. Consiste en una serie de encoders que generan representaciones para cada palabra dependiendo de su contexto. El entrenamiento usa un lenguaje de enmascarado, Masked Language Model (MLM). Cada sentencia enmascará tokens de manera aleatoría (se enmascaran 15% de los tokens). También se entrena para predicción de la siguiente frase."
+    "objectID": "IberLEF2023/short-davincis2023.html#example-1",
+    "href": "IberLEF2023/short-davincis2023.html#example-1",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Example",
+    "text": "Example\n\nUsing a dense model with the DA-VINCIS 2023 dataset, we can see:",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
-    "href": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Recursos computacionales y necesidad de datos",
-    "text": "Recursos computacionales y necesidad de datos\n\n\nLos modelos de lenguaje requieren una gran cantidad de datos, solo generamos recursos con MLM sobre AR, CL, CO, MX, ES, UY, VE, y US, i.e., los más grandes.\nTodos los modelos tienen series de dos encoders con cuatro cabezas de atención cada una y una salida de 512 dimensiones por embedding\nCorresponde al small-size del BERT original, y es lo que actualmente podemos con los recursos que contamos en un tiempo pagable (usamos una estanción de trabajo con dos NVIDIA TITAN RTX con 24 GB cada una).\nNombramos a nuestro modelo BILMA por Bert In Latin America.\nUsamos un learning rate de \\(10^{-5}\\) con el optimizador Adam (usamos tensorflow 2 y Keras).\nLos modelos para CL, UY, VE, y US se entrenaron con 3 epocas y AR, CO, MX, y ES con solo una, dado los tamaños de los corpus."
+    "objectID": "IberLEF2023/short-davincis2023.html#example---performance-varying-d",
+    "href": "IberLEF2023/short-davincis2023.html#example---performance-varying-d",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Example - performance varying \\(d\\)",
+    "text": "Example - performance varying \\(d\\)\n\n\n\n\n\n\n\nMore details",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
-    "objectID": "MexLEF2023/index.html#bilma-vs-word-embeddings",
-    "href": "MexLEF2023/index.html#bilma-vs-word-embeddings",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "BILMA vs word-embeddings",
-    "text": "BILMA vs word-embeddings\n\n\n\n\n\nAccuracy en predicción de Emoji-15 - tuneado\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US\n\n\n\nCon word-embeddings"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-9",
-    "href": "MexLEF2023/index.html#section-9",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Se tuneó el modelo BILMA para predecir emoticones añadiendo dos capas lineales a los embeddings de inicio, por lo que se puede ver que se predice independiente de la posición.\nTuneado con 90%-10% del training set de la región hasta que el accuracy converge.\nSe evaluó con test regional.\nObserve que es una matriz de modelos pre-entrenados y tuneos.\nLos resultados en general son muy similares a los modelos de fastText, pero, los modelos BILMA pueden hacer más cosas…"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
-    "href": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Usando BILMA para completar frases (mediante máscaras)",
-    "text": "Usando BILMA para completar frases (mediante máscaras)\n\nAccuracy en la tarea MLM para el test"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-10",
-    "href": "MexLEF2023/index.html#section-10",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "MLM regional"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#trabajo-a-futuro",
-    "href": "MexLEF2023/index.html#trabajo-a-futuro",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Trabajo a futuro",
-    "text": "Trabajo a futuro\n\n\nAplicaciones y medir impacto.\nModelos robustos para identificación de regiones.\nReducir recursos computacionales.\n\nUso de un solo modelo con diferentes niveles de abstracción.\nCreación de modelos menos costoso.\n\nEnriquecer los corpus más pequeños.\nOtros lenguajes (inglés, ruso, árabe, etc… o regionales con pocos datos).\n¿Se puede usar Hausdorff u otras distancias para nubes de puntos para la comparación de regiones?."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#preguntas",
-    "href": "MexLEF2023/index.html#preguntas",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "¿Preguntas?",
-    "text": "¿Preguntas?\n¡Gracias por su atención!\n\n\nModelos regionales del Español:\n\nhttps://ingeotec.github.io/regional-spanish-models/\nhttps://github.com/INGEOTEC/regional-spanish-models/\n\n\nINGEOTEC:\n\nhttps://github.com/INGEOTEC/\nhttps://ingeotec.github.io/"
+    "objectID": "IberLEF2023/short-davincis2023.html#conclusions-continued",
+    "href": "IberLEF2023/short-davincis2023.html#conclusions-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Conclusions (continued…)",
+    "text": "Conclusions (continued…)\n\n\nExplainability of the model (with a simple bow outstanding results). Simplest solution Fast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
     "objectID": "IberLEF2023/davincis2023.html#ingeotec-research-group",
@@ -542,653 +950,255 @@
     ]
   },
   {
-    "objectID": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
-    "href": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "INGEOTEC research group",
-    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#sobre-esta-charla",
+    "href": "MexLEF2023/index.html#sobre-esta-charla",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Sobre esta charla",
+    "text": "Sobre esta charla\nTellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regionalized models for Spanish language variations based on Twitter. Language Resources and Evaluation, 1-31.\n@article{regionalized2023,\n  title={Regionalized models for Spanish language variations based on Twitter},\n  author={Tellez, Eric S and Moctezuma, Daniela and Miranda, Sabino and Graff, Mario and Ruiz, Guillermo},\n  journal={Language Resources and Evaluation},\n  pages={1--31},\n  year={2023},\n  publisher={Springer}\n}\n\nArXiv preprint."
   },
   {
-    "objectID": "IberLEF2023/short-davincis2023.html#the-da-vincis-task-at-iberlef-2023",
-    "href": "IberLEF2023/short-davincis2023.html#the-da-vincis-task-at-iberlef-2023",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "The DA-VINCIS Task at IberLEF 2023",
-    "text": "The DA-VINCIS Task at IberLEF 2023\n\n\nAn open challenge to develop multimodal models to detect violent incidents on Twitter. The task has two tracks:\n\nviolent event identification and\nviolent event category recognition.\n\nThis presentation describes our solution system for the (i) track using only text-based features. More particularly, we used our EvoMSA framework (Graff et al. 2020).",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
+    "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)",
+    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)\n\nMinería de opinión\n\npositivo :)  — neutro :|  — negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio\nEtc."
   },
   {
-    "objectID": "IberLEF2023/short-davincis2023.html#our-approach-evomsa-2.0",
-    "href": "IberLEF2023/short-davincis2023.html#our-approach-evomsa-2.0",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Our approach: EvoMSA 2.0",
-    "text": "Our approach: EvoMSA 2.0",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
+    "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)",
+    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas."
   },
   {
-    "objectID": "IberLEF2023/short-davincis2023.html#our-text-representations",
-    "href": "IberLEF2023/short-davincis2023.html#our-text-representations",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Our text representations",
-    "text": "Our text representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#algunos-retos",
+    "href": "MexLEF2023/index.html#algunos-retos",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Algunos retos",
+    "text": "Algunos retos\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios."
   },
   {
-    "objectID": "IberLEF2023/short-davincis2023.html#sparse-bag-of-words",
-    "href": "IberLEF2023/short-davincis2023.html#sparse-bag-of-words",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Sparse bag of words",
-    "text": "Sparse bag of words\n\nThe text is preprocessed and tokenized, then each token \\(t\\) is associated with a vector \\(\\mathbf{v_t} \\in \\mathbb R^d\\) where the \\(i\\)-th component, i.e., \\(\\mathbf{v_t}_i\\), contains the Inverse-Document-Frequency (IDF) value of the token \\(t\\) and \\(\\forall_{j \\neq i} \\mathbf{v_t}_j=0\\).\n\nThe set of vectors \\(\\mathbf V = \\{ \\mathbf v_t \\}\\) corresponds to the vocabulary, and there are \\(|\\mathbf V| = d\\) different tokens in the vocabulary.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#regionalización",
+    "href": "MexLEF2023/index.html#regionalización",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Regionalización",
+    "text": "Regionalización\n\nTodo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.\n\n\nPara tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso."
   },
   {
-    "objectID": "IberLEF2023/short-davincis2023.html#section",
-    "href": "IberLEF2023/short-davincis2023.html#section",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "objectID": "MexLEF2023/index.html#regionalización-como-herramienta",
+    "href": "MexLEF2023/index.html#regionalización-como-herramienta",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Regionalización como herramienta",
+    "text": "Regionalización como herramienta\nEntender las variaciones del lenguaje en las redes sociales es primordial ya que los mensajes suelen ser informales, y es común que los usuarios solo quieran ser leídos por su círculo de personas cercanas."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#españa",
+    "href": "MexLEF2023/index.html#españa",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "España 🇪🇸",
+    "text": "España 🇪🇸\n\n\nme dais ascooooikiiikioooooooooooooooooooooooooo\nkina ñefla\nns cmo s exribe\no indeciso, nse ya x dnde cogerte colega\nq os follennjajabya quisieran\nen el metro q voy esta potando uno\n_USR 😂😭💔☹️😰 pero por qué churra"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#argentina",
+    "href": "MexLEF2023/index.html#argentina",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Argentina 🇦🇷",
+    "text": "Argentina 🇦🇷\n\n\npofr suerxte m8ís amigo mo son psicópatassa\npal pinnngooo\n_USR estos rompen todo! y la esposa del chorro me tiró en la cara q era planera, 5 hijos tiene. me grita: vos seguí alquilando! decí q no la agarro de los pelos x mi hijo q no le gusta el bardo.\ny dsp se comió un asado, moooy booeno👌👌🤣😂\nmi hno se pone re denso no lo banco"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#méxico",
+    "href": "MexLEF2023/index.html#méxico",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "México 🇲🇽",
+    "text": "México 🇲🇽\n\n\n_USR ahora si! #achingarasumadre nefasto, corrupto y ratero, por mucho eres el peor alcalde que ha tenido _USR\nya me ando echando la primera ca** del año\n_USR acá ya andaban con “la chica que soñé”\n_USR ¿no se te olvidó ponerte calzones rojos hoy, verdad?\nun minuto de silencio por los que se estan reventando los dedos y las manos con los cohetes !!!"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-1",
+    "href": "MexLEF2023/index.html#section-1",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "A text is represented by the sequence of its tokens, i.e., \\((t_1, t_2, \\ldots)\\). The text is then vectorized as:\n\\[\n    \\textsf{sbow}(\\text{some text}) = \\textsf{sbow}((t_1, t_2, \\ldots)) = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
+    "text": "Twitter corpora\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nArgentina\nAR\n1,376K\n234.22M\n2,887.92M\n\n\nBolivia\nBO\n36K\n1.15M\n20.99M\n\n\nChile\nCL\n415K\n45.29M\n719.24M\n\n\nColombia\nCO\n701K\n61.54M\n918.51M\n\n\nCosta Rica\nCR\n79K\n7.51M\n101.67M\n\n\nCuba\nCU\n32K\n0.37M\n6.30M\n\n\nDominican Republic\nDO\n112K\n7.65M\n122.06M\n\n\nEcuador\nEC\n207K\n13.76M\n226.03M\n\n\nEl Salvador\nSV\n49K\n2.71M\n44.46M\n\n\nEquatorial Guinea\nGQ\n1K\n8.93K\n0.14M\n\n\nGuatemala\nGT\n74K\n5.22M\n75.79M\n\n\nHonduras\nHN\n35K\n2.14M\n31.26M\n\n\nMexico\nMX\n1,517K\n115.53M\n1,635.69M\n\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nNicaragua\nNI\n35K\n3.34M\n42.47M\n\n\nPanama\nPA\n83K\n6.62M\n108.74M\n\n\nParaguay\nPY\n106K\n10.28M\n141.75M\n\n\nPeru\nPE\n271K\n15.38M\n241.60M\n\n\nPuerto Rico\nPR\n18K\n0.58M\n7.64M\n\n\nSpain\nES\n1,278K\n121.42M\n1,908.07M\n\n\nUruguay\nUY\n157K\n30.83M\n351.81M\n\n\nVenezuela\nVE\n421K\n35.48M\n556.12M\n\n\n-\n-\n-\n-\n-\n\n\nBrazil\nBR\n1,604K\n27.20M\n142.22M\n\n\nCanada\nCA\n149K\n1.55M\n21.58M\n\n\nFrance\nFR\n292K\n2.43M\n27.73M\n\n\nGreat Britain\nGB\n380K\n2.68M\n34.62M\n\n\nUnited States of America\nUS\n2,652K\n40.83M\n501.86M\n\n\nTotal\n\n12M\n795.74M\n10,876.25M\n\n\n\n\n\n\nSe colectaron mensajes georeferenciados de 2016 a 2019 usando el API de stream público de Twitter."
   },
   {
-    "objectID": "IberLEF2023/short-davincis2023.html#sbow",
-    "href": "IberLEF2023/short-davincis2023.html#sbow",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "SBoW",
-    "text": "SBoW",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#dense-bag-of-words",
-    "href": "IberLEF2023/short-davincis2023.html#dense-bag-of-words",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Dense bag of words",
-    "text": "Dense bag of words\n\n\nIn contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) pre-trained on a different collection of tweets. \nWithout loss of generality, it is assumed that there are \\(M\\) labeled datasets, each one contains a binary text classification problem.\n\n\nnoting that if a dataset has \\(K\\) labels, then this dataset can be represented as \\(K\\) binary classification problems following the one versus the rest approach, i.e., it is transformed to \\(K\\) datasets.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#construction-of-the-dbow",
-    "href": "IberLEF2023/short-davincis2023.html#construction-of-the-dbow",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Construction of the DBOW",
-    "text": "Construction of the DBOW\n\n\nFor each of these \\(M\\) binary text classification problems, a SBOW-based classifier is built using a pre-trained SBOW representation and a linear Support Vector Machine (SVM) as the classifier. Consequently, there are \\(M\\) binary text classifiers, i.e., \\((c_1, c_2, \\ldots, c_M)\\). Additionally, the decision function of \\(c_i\\) is a value where the sign indicates the class.   The text representation is the vector obtained by concatenating the decision functions of the \\(M\\) classifiers and then normalizing the vector to have unitary norm.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#dense-bow-stacking",
-    "href": "IberLEF2023/short-davincis2023.html#dense-bow-stacking",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Dense BoW (stacking)",
-    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued",
-    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\n\nThe pre-trained BoW is estimated from 4,194,304 (\\(2^{22}\\)) tweets randomly selected in a larger collection of messages.\nThe IDF values were estimated from the collections, and some tokens were selected from all the available ones found in the collection.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-1",
-    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-1",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\nTwo procedures were used to select the tokens:\n\nthe first corresponds to selecting the \\(d\\) tokens with the highest frequency, and the other to normalize the frequency w.r.t. their type, i.e., bigrams, words, and q-grams of characters. Once the frequency is normalized, one selects the \\(d\\) tokens with the highest normalized frequency.\nThe value of \\(d\\) is \\(2^{17}\\); however, one can also find in the library models for \\(2^{13}, 2^{14}, \\ldots, 2^{17}.\\)",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-2",
-    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-2",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\n\nIt is also possible to train the BoW model using the training set; in this case, we used the default parameters. The only difference is that vocabulary size \\(d\\) is bounded by the training set tokens.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#dbow-parameters-continued",
-    "href": "IberLEF2023/short-davincis2023.html#dbow-parameters-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "DBOW parameters (continued…)",
-    "text": "DBOW parameters (continued…)\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-1",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-1",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\nThe list of configurations\n\n\nbow: Pre-trained BoW where the tokens are selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.\nbow_voc_selection: Pre-trained BoW where the tokens correspond to the most frequent ones.\nbow_training_set: BoW trained with the training set; the number of tokens corresponds to all the tokens in the set.\nstack_bow_keywords_emojis: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW.\n\nstack_bow_keywords_emojis_voc_selection: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-2",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-2",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_bows: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection).\nstack_2_bow_keywords: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency.\nstack_2_bow_tailored_keywords: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as tailored keywords.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-3",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-3",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_2_bow_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_keywords where the difference is that the dense representations include the models created with the human-annotated datasets.\nstack_2_bow_tailored_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_all_keywords, where the difference is that the dense representation with normalized frequency also includes the tailored keywords.\nstack_3_bows: Stack generalization approach with three base classifiers. All of them are BoW; the first two correspond pre-trained BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection), and the latest is a BoW trained on the training set (i.e., bow_training_set).",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-4",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-4",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_3_bows_tailored_keywords: Stack generalization approach with five base classifiers. The first corresponds to a BoW trained on the training set, and the rest are used in stack_2_bow_tailored_keywords.\nstack_3_bow_tailored_all_keywords: Stack generalization approach with five base classifiers. It is comparable to stack_3_bows_tailored_keywords being the difference in the use of the tailored keywords.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#competition",
-    "href": "IberLEF2023/short-davincis2023.html#competition",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Competition",
-    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner in each edition. The best performance is in boldface.\n\n\n\nDA-VINCIS 2023\nDA-VINCIS 20222\n\n\n\n\nWinner\n0.9264\n0.7817\n\n\nINGEOTEC\n0.8903\n0.7510\n\n\nDifference\n4.1%\n4.1%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#other-competitions-performance",
-    "href": "IberLEF2023/short-davincis2023.html#other-competitions-performance",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Other competitions performance",
-    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#other-competitions-performance-continued",
-    "href": "IberLEF2023/short-davincis2023.html#other-competitions-performance-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Other competitions performance (Continued…)",
-    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#example",
-    "href": "IberLEF2023/short-davincis2023.html#example",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Example",
-    "text": "Example\n\nUsing a tailored dense model with the DA-VINCIS 2023 dataset, we can see:",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#example-1",
-    "href": "IberLEF2023/short-davincis2023.html#example-1",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Example",
-    "text": "Example\n\nUsing a dense model with the DA-VINCIS 2023 dataset, we can see:",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#example---performance-varying-d",
-    "href": "IberLEF2023/short-davincis2023.html#example---performance-varying-d",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Example - performance varying \\(d\\)",
-    "text": "Example - performance varying \\(d\\)\n\n\n\n\n\n\n\nMore details",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#conclusions-continued",
-    "href": "IberLEF2023/short-davincis2023.html#conclusions-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Conclusions (continued…)",
-    "text": "Conclusions (continued…)\n\n\nExplainability of the model (with a simple bow outstanding results). Simplest solution Fast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
-    "href": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "INGEOTEC research group",
-    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
-    "href": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our approach: EvoMSA 2.0",
-    "text": "Our approach: EvoMSA 2.0\n \n\n\n\nEvoMSA’s documentation (https://evomsa.readthedocs) Papers (Graff et al. 2020) (Tellez et al. 2017)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-representations",
-    "href": "IberLEF2023/RestMex2023-10mins.html#our-representations",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our representations",
-    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#sbow",
-    "href": "IberLEF2023/RestMex2023-10mins.html#sbow",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBoW",
-    "text": "SBoW",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
-    "href": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Dense BoW (stacking)",
-    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
-    "href": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "DBOW parameters",
-    "text": "DBOW parameters\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
-    "href": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations",
-    "text": "Configurations\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#competition",
-    "href": "IberLEF2023/RestMex2023-10mins.html#competition",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Competition",
-    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
-    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance",
-    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
-    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance (Continued…)",
-    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
-    "href": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Conclusions (continued…)",
-    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#ingeotec-research-group",
-    "href": "IberLEF2023/restMex2023.html#ingeotec-research-group",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "INGEOTEC research group",
-    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#the-rest-mex-task-at-iberlef-2023",
-    "href": "IberLEF2023/restMex2023.html#the-rest-mex-task-at-iberlef-2023",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "The Rest-Mex Task at IberLEF 2023",
-    "text": "The Rest-Mex Task at IberLEF 2023\n\n\nFor the sentiment analysis, the problem is resume as:\n\n\n“Given an opinion about a Mexican tourist place, the goal is to determine the polarity, between 1 and 5, of the text, the type of opinion (hotel, restaurant or attraction) and, the country of the place of which the opinion is being given (Mexico, Cuba, Colombia)”",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#our-appproach",
-    "href": "IberLEF2023/restMex2023.html#our-appproach",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our appproach",
-    "text": "Our appproach\n Our solution system uses only text-based features. More particularly, we used our EvoMSA framework (Graff et al. 2020).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#our-approach-evomsa-2.0",
-    "href": "IberLEF2023/restMex2023.html#our-approach-evomsa-2.0",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our approach: EvoMSA 2.0",
-    "text": "Our approach: EvoMSA 2.0",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#our-representations",
-    "href": "IberLEF2023/restMex2023.html#our-representations",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our representations",
-    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#sparse-bag-of-words",
-    "href": "IberLEF2023/restMex2023.html#sparse-bag-of-words",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Sparse bag of words",
-    "text": "Sparse bag of words\n\nThe text is preprocessed and tokenized, then each token \\(t\\) is associated with a vector \\(\\mathbf{v_t} \\in \\mathbb R^d\\) where the \\(i\\)-th component, i.e., \\(\\mathbf{v_t}_i\\), contains the Inverse-Document-Frequency (IDF) value of the token \\(t\\) and \\(\\forall_{j \\neq i} \\mathbf{v_t}_j=0\\).\n\nThe set of vectors \\(\\mathbf V = \\{ \\mathbf v_t \\}\\) corresponds to the vocabulary, and there are \\(|\\mathbf V| = d\\) different tokens in the vocabulary.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#section",
-    "href": "IberLEF2023/restMex2023.html#section",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "objectID": "MexLEF2023/index.html#section-2",
+    "href": "MexLEF2023/index.html#section-2",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "A text is represented by the sequence of its tokens, i.e., \\((t_1, t_2, \\ldots)\\). The text is then vectorized as:\n\\[\n    \\textsf{sbow}(\\text{some text}) = \\textsf{sbow}((t_1, t_2, \\ldots)) = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "text": "Vocabularios\nWord embeddings\nModelos de lenguaje"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#sbow",
-    "href": "IberLEF2023/restMex2023.html#sbow",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBoW",
-    "text": "SBoW",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#vocabularios",
+    "href": "MexLEF2023/index.html#vocabularios",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Vocabularios",
+    "text": "Vocabularios\n\n\n\n\n\n\n\n\n\n\n\n\ntoken\noccs\nndocs\nweight\nn_regions\ncountry_codes\n\n\n\n\nchau\n409,398\n387,910\n10.001527\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nsiento\n2,830,971\n2,764,088\n7.168519\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nadios\n341,841\n327,723\n10.244771\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\npersonas\n3,720,458\n3,620,029\n6.779321\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nhuevo\n540,941\n527,792\n9.55728\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\n…\n…\n…\n…\n…\n…"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#dense-bag-of-words",
-    "href": "IberLEF2023/restMex2023.html#dense-bag-of-words",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Dense bag of words",
-    "text": "Dense bag of words\n\n\nIn contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) pre-trained on a different collection of tweets. \nWithout loss of generality, it is assumed that there are \\(M\\) labeled datasets, each one contains a binary text classification problem.\n\n\nnoting that if a dataset has \\(K\\) labels, then this dataset can be represented as \\(K\\) binary classification problems following the one versus the rest approach, i.e., it is transformed to \\(K\\) datasets.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
+    "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Propiedades de los vocabularios (1/2)",
+    "text": "Propiedades de los vocabularios (1/2)\nLey de Zipf\n\nLey de Zipf para diferentes regiones (Twitter)"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#construction-of-the-dbow",
-    "href": "IberLEF2023/restMex2023.html#construction-of-the-dbow",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction of the DBOW",
-    "text": "Construction of the DBOW\n\n\nFor each of these \\(M\\) binary text classification problems, a SBOW-based classifier is built using a pre-trained SBOW representation and a linear Support Vector Machine (SVM) as the classifier. Consequently, there are \\(M\\) binary text classifiers, i.e., \\((c_1, c_2, \\ldots, c_M)\\). Additionally, the decision function of \\(c_i\\) is a value where the sign indicates the class.   The text representation is the vector obtained by concatenating the decision functions of the \\(M\\) classifiers and then normalizing the vector to have unitary norm.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
+    "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Propiedades de los vocabularios (2/2)",
+    "text": "Propiedades de los vocabularios (2/2)\nLey de Heaps\n\n\nLey de Heaps para diferentes regiones (Twitter)"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#construction-continued",
-    "href": "IberLEF2023/restMex2023.html#construction-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction (continued…)",
-    "text": "Construction (continued…)\n\n\nA text \\(x\\) is represented with vector \\(\\mathbf{x^{'}} \\in \\mathbb R^M\\) where the value \\(\\mathbf{x^{'}}_i\\) corresponds to the decision function of \\(c_i\\). Given that the classifier \\(c_i\\) is a linear SVM, the decision function corresponds to the dot product between the input vector and the weight vector \\(\\mathbf w_i\\) plus the bias \\(\\mathbf w_{i_0}\\), where the weight vector and the bias are the parameters of the classifier.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
+    "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Similitud léxica entre regiones (1/2)",
+    "text": "Similitud léxica entre regiones (1/2)"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#construction-continued-1",
-    "href": "IberLEF2023/restMex2023.html#construction-continued-1",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction (continued…)",
-    "text": "Construction (continued…)\nThat is, the value \\(\\mathbf{x^{'}}_i\\) corresponds to\n\\[\n    \\mathbf{x^{'}}_i = \\mathbf w_i \\cdot \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_k \\mathbf{v_k} \\rVert} + \\mathbf w_{i_0},    \n\\]\nwhere \\(\\mathbf{v_t}\\) is the IDF vector associated to the token \\(t\\) of the text \\(x\\)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
+    "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Similitud léxica entre regiones (2/2)",
+    "text": "Similitud léxica entre regiones (2/2)"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#construction-continued-2",
-    "href": "IberLEF2023/restMex2023.html#construction-continued-2",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction (continued…)",
-    "text": "Construction (continued…)\nIn matrix notation, vector \\(\\mathbf{x'}\\) is\n\\[    \\mathbf{x^{'}} = \\mathbf W \\cdot \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_k \\mathbf{v_k} \\rVert} + \\mathbf{w_0},\n\\]\nwhere matrix \\(\\mathbf W \\in \\mathbb R^{M \\times d}\\) contains the weights, and \\(\\mathbf{w_0} \\in \\mathbb R^M\\) is the bias. Another way to see the previous formulation is by defining a vector \\(\\mathbf{u_t} = \\frac{1}{\\lVert \\mathbf{v_t} \\rVert} \\mathbf W \\mathbf{v_t}\\).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#section-4",
+    "href": "MexLEF2023/index.html#section-4",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Creados con fastText sobre nuestra corpora regionalizada de Twitter. Disponibles desde el sitio del proyecto en diferentes dimensiones, e.g, 300, 32, 16 y 8 dimensiones.\nModelos para las 27 regiones (26 países + un modelo aglutinado)"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#construction-continued-3",
-    "href": "IberLEF2023/restMex2023.html#construction-continued-3",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction (continued…)",
-    "text": "Construction (continued…)\nConsequently, \\(\\mathbf{x'}\\) is defined as:\n\\[\n    \\label{eq:denseBoW}\n    \\mathbf{x'} = \\sum_t \\mathbf{u_t} + \\mathbf{w_0},\n\\] vectors \\(\\mathbf{u} \\in \\mathbb R^M\\) correspond to the tokens. This is the reason we refer to this model as a dense BoW.\nFinally, the vector representing the text \\(x\\) is the normalized \\(\\mathbf{x^{'}}\\), i.e., \\(\\mathbf x = \\frac{\\mathbf{x^{'}}}{\\lVert \\mathbf{x^{'}} \\rVert}.\\)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#similitud-entre-regiones",
+    "href": "MexLEF2023/index.html#similitud-entre-regiones",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Similitud entre regiones",
+    "text": "Similitud entre regiones\n\nNecesitamos una matriz de afinidad, como lo hicimos con el caso léxico, pero los embeddings de diferentes regiones no son comparables entre sí.\nPara calcular la similitud usamos una representación que extrae información semántica basada en el grafo de los \\(k\\) vecinos cercanos. Esto soluciona el problema de comparación, pero aumenta los requerimientos de computo."
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#dense-bow-stacking",
-    "href": "IberLEF2023/restMex2023.html#dense-bow-stacking",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Dense BoW (stacking)",
-    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
+    "href": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Notas para el modelado de regiones con word embeddings",
+    "text": "Notas para el modelado de regiones con word embeddings\n\n\nRecordando, cada palabra es un punto en \\(300\\) dimensiones.\nLa distancia entre puntos se mide usando \\(1 - cos(u, v)\\).\nCada región es una nube de puntos (palabras).\nUso de un vocabulario restringuido (preservar tokens que aparecen en al menos 10 regiones); esto también reduce el problema de la disparidad de datos entre diferentes corpus.\nUso de herramientas especiales para la construcción de la gráfica de \\(k\\) vecinos (\\(k=33\\)).\nCada región se representa en un vector disperso de muy alta dimensión, i.e., \\(10^{10}\\) componentes con \\(\\approx{}3.8\\) millones de componentes diferentes de zero. Se mide nuevamente con distancia coseno, pero con los vectores resultantes."
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued",
-    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\n\nThe pre-trained BoW is estimated from 4,194,304 (\\(2^{22}\\)) tweets randomly selected in a larger collection of messages.\nThe IDF values were estimated from the collections, and some tokens were selected from all the available ones found in the collection.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
+    "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Ejemplos de \\(k\\) vecinos (violencia)",
+    "text": "Ejemplos de \\(k\\) vecinos (violencia)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\n\n\nagresion\n\n\nvandalismo\n\n\nviolentos\n\n\nviolente\n\n\nfeminicidios\n\n\nviolenten\n\n\nviolentos\n\n\n\n\ndenigracion\n\n\nagresion\n\n\nestigmatizacion\n\n\nintrafamiliar\n\n\nfemicidios\n\n\nviolente\n\n\nviolenten\n\n\n\n\nagresiones\n\n\nrepresion\n\n\nviolente\n\n\nrepresion\n\n\nviolentas\n\n\nviolentos\n\n\nviolente\n\n\n\n\nverbal\n\n\nbandalismo\n\n\nintrafamiliar\n\n\nviolenten\n\n\nvandalismo\n\n\nviolentas\n\n\nviolenta\n\n\n\n\nviolecia\n\n\nagresiones\n\n\nviolenten\n\n\nviolecia\n\n\nfemicidio\n\n\nviolentar\n\n\nconfrontacion\n\n\n\n\ndiscriminacion\n\n\nviolenten\n\n\nbandalismo\n\n\nviolentos\n\n\nviolente\n\n\nviolentan\n\n\nviolentas\n\n\n\n\nviolentos\n\n\nviolente\n\n\nagresiones\n\n\nviolentas\n\n\nbandalismo\n\n\ndelincuencia\n\n\nterrorismo\n\n\n\n\nmisoginia\n\n\nvandalismos\n\n\nviolentas\n\n\nviolenta\n\n\nfeminicidio\n\n\nviolentada\n\n\nintolerancia\n\n\n\n\nvandalismo\n\n\nviolentos\n\n\nrepresion\n\n\nviolentar\n\n\nagresion\n\n\nviolenta\n\n\nviolecia\n\n\n\n\nrevictimizacion\n\n\nviolenta\n\n\nvandalismo\n\n\nterrorismo\n\n\nintrafamiliar\n\n\nfeminicidios\n\n\nvandalismos\n\n\n\n\namedrentamiento\n\n\nviolentas\n\n\nintolerancia\n\n\ncriminalizacion\n\n\nasesinatos\n\n\nviolentado\n\n\nrepresion\n\n\n\n\ngenero\n\n\nincitacion\n\n\nincitacion\n\n\nviolentada\n\n\nagresiones\n\n\nvandalismo\n\n\nconfrontaciones\n\n\n\n\nintolerancia\n\n\nintrafamiliar\n\n\nintimidacion\n\n\nagresiones\n\n\ndelincuencia\n\n\nviolentando\n\n\nvandalismo"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued-1",
-    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued-1",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\nTwo procedures were used to select the tokens:\n\nthe first corresponds to selecting the \\(d\\) tokens with the highest frequency, and the other to normalize the frequency w.r.t. their type, i.e., bigrams, words, and q-grams of characters. Once the frequency is normalized, one selects the \\(d\\) tokens with the highest normalized frequency.\nThe value of \\(d\\) is \\(2^{17}\\); however, one can also find in the library models for \\(2^{13}, 2^{14}, \\ldots, 2^{17}.\\)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
+    "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Ejemplos de \\(k\\) vecinos (chile)",
+    "text": "Ejemplos de \\(k\\) vecinos (chile)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\necuador\n\n\nchiles\n\n\nuruguay\n\n\nchile0\n\n\nchile0\n\n\nchilen\n\n\nargentina\n\n\n\n\nperu\n\n\nchilee\n\n\nargentina\n\n\nargentina\n\n\nchilee\n\n\nchilee\n\n\nperu\n\n\n\n\nchile0\n\n\nchilito\n\n\nperu\n\n\nparaguay\n\n\npiquin\n\n\nchilenos\n\n\necuador\n\n\n\n\nuruguay\n\n\npais\n\n\nbolivia\n\n\nmexico\n\n\nchilito\n\n\nchile0\n\n\nchile0\n\n\n\n\nmexico\n\n\nlatinoamerica\n\n\nchilen\n\n\nuruguay\n\n\nchilensis\n\n\nchileno\n\n\nchiles\n\n\n\n\nchilen\n\n\nchile0\n\n\necuador\n\n\nperu\n\n\nhabanero\n\n\nchilena\n\n\nparaguay\n\n\n\n\nbrasil\n\n\nchil\n\n\nparaguay\n\n\nbolivia\n\n\nmorron\n\n\nuchile\n\n\nchilena\n\n\n\n\nbolivia\n\n\namerica0\n\n\nbrasil\n\n\ncolombia\n\n\nuchile\n\n\nshile\n\n\nbolivia\n\n\n\n\ncolombia\n\n\n🇨\n\n\nchilenos\n\n\nbrasil\n\n\nchiles\n\n\nchilito\n\n\nuruguay\n\n\n\n\nparaguay\n\n\nsuramerica\n\n\nmexico\n\n\nchilenos\n\n\nverdolagas\n\n\nchilenito\n\n\nbrasil\n\n\n\n\nchiles\n\n\nsudamerica\n\n\nchiles\n\n\nchilen\n\n\njalapeno\n\n\nargentina\n\n\nchilen\n\n\n\n\nchilee\n\n\n🇱\n\n\nhonduras\n\n\necuador\n\n\npimiento\n\n\nchilenas\n\n\nchilenos\n\n\n\n\nrusia\n\n\nargentina\n\n\nchile0\n\n\nchileno\n\n\nchil\n\n\nchiles\n\n\nchilensis"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued-2",
-    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued-2",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\n\nIt is also possible to train the BoW model using the training set; in this case, we used the default parameters. The only difference is that vocabulary size \\(d\\) is bounded by the training set tokens.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#umap-projection-mx",
+    "href": "MexLEF2023/index.html#umap-projection-mx",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "UMAP projection (MX)",
+    "text": "UMAP projection (MX)"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#dbow-parameters-continued",
-    "href": "IberLEF2023/restMex2023.html#dbow-parameters-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "DBOW parameters (continued…)",
-    "text": "DBOW parameters (continued…)\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#umap-projection-all",
+    "href": "MexLEF2023/index.html#umap-projection-all",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "UMAP projection (ALL)",
+    "text": "UMAP projection (ALL)"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#section-6",
+    "href": "MexLEF2023/index.html#section-6",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Predicción emojis que podrían estar asociados a un mensaje\n\n\nTomamos mensajes georeferenciados enero-febrero 2020.\nSeleccionamos los emoji objetivos entre los más populares en español: 🥺, ❤, 👌, 👏, 💔, 😄, 😊, 😌, 😍, 😒, 😘, 😡, 😢, 😭, 🤔.\nPara cada región seleccionamos mensajes con solo uno de estos emoji.\nEl emoji en cuestión se reemplaza por la cadena _emo y se usa como etiqueta.\nPartición 50-50 por cada región, se reporta micro recall.\nUsamos fastText supevisado con cada uno de los modelos regionales como preentrenados – all vs all."
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-1",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued-1",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\nThe list of configurations\n\n\nbow: Pre-trained BoW where the tokens are selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.\nbow_voc_selection: Pre-trained BoW where the tokens correspond to the most frequent ones.\nbow_training_set: BoW trained with the training set; the number of tokens corresponds to all the tokens in the set.\nstack_bow_keywords_emojis: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW.\n\nstack_bow_keywords_emojis_voc_selection: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#section-7",
+    "href": "MexLEF2023/index.html#section-7",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "emoji\nAR\nBR\nCA\nCL\nCO\nCR\nCU\nDO\nEC\nES\nFR\nGB\nGT\nHN\nMX\nNI\nPA\nPE\nPY\nSV\nUS\nUY\nVE\n\n\n\n\n🥺\n3749\n275\n158\n1263\n4760\n425\n26\n458\n745\n2640\n53\n95\n666\n708\n10160\n736\n827\n739\n684\n278\n2536\n446\n359\n\n\n❤\n18454\n1775\n124\n2911\n6237\n821\n41\n348\n1123\n8394\n153\n255\n653\n609\n9508\n491\n880\n968\n1800\n219\n3216\n1478\n784\n\n\n👌\n2114\n92\n34\n1016\n1455\n242\n20\n167\n253\n1825\n41\n58\n376\n157\n2754\n159\n313\n160\n666\n124\n597\n190\n71\n\n\n👏\n6785\n433\n80\n2995\n2486\n159\n33\n369\n886\n7061\n64\n105\n197\n159\n4175\n52\n388\n577\n761\n222\n1281\n1248\n530\n\n\n💔\n4278\n100\n28\n390\n1407\n161\n7\n123\n200\n1164\n26\n37\n134\n91\n1438\n105\n260\n115\n428\n31\n667\n283\n142\n\n\n😄\n798\n26\n8\n301\n300\n42\n3\n56\n83\n776\n4\n18\n48\n48\n549\n17\n58\n115\n92\n53\n192\n85\n120\n\n\n😊\n3609\n105\n35\n1803\n1475\n171\n32\n175\n364\n3827\n74\n56\n257\n129\n3395\n115\n236\n817\n369\n192\n829\n377\n293\n\n\n😌\n1184\n70\n30\n827\n986\n132\n44\n280\n238\n1017\n23\n23\n123\n163\n2011\n151\n293\n248\n377\n78\n608\n167\n110\n\n\n😍\n15999\n932\n111\n2190\n6824\n510\n28\n509\n837\n8000\n107\n136\n491\n514\n8711\n341\n1010\n999\n1996\n268\n2232\n1194\n686\n\n\n😒\n3081\n89\n24\n920\n1718\n155\n50\n316\n291\n780\n18\n22\n163\n124\n2185\n175\n322\n213\n259\n127\n738\n359\n236\n\n\n😘\n5935\n211\n70\n1764\n1482\n98\n29\n119\n347\n10785\n203\n99\n171\n72\n4290\n63\n136\n374\n190\n181\n1808\n719\n493\n\n\n😡\n2777\n136\n60\n1098\n1412\n150\n5\n110\n291\n1320\n12\n25\n158\n52\n2428\n59\n155\n227\n250\n90\n769\n301\n252\n\n\n😢\n2144\n89\n38\n699\n1039\n153\n8\n102\n296\n1507\n31\n39\n151\n129\n2646\n131\n204\n271\n239\n69\n781\n227\n135\n\n\n😭\n13873\n436\n125\n1967\n4461\n581\n25\n604\n787\n3935\n157\n135\n388\n364\n6752\n321\n1057\n979\n1832\n200\n2799\n939\n530\n\n\n🤔\n6751\n275\n154\n2756\n4173\n440\n47\n614\n771\n4781\n99\n111\n421\n339\n7380\n211\n741\n1135\n937\n384\n1941\n951\n734"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-2",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued-2",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_bows: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection).\nstack_2_bow_keywords: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency.\nstack_2_bow_tailored_keywords: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as tailored keywords.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#resultados-experimentales",
+    "href": "MexLEF2023/index.html#resultados-experimentales",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Resultados experimentales",
+    "text": "Resultados experimentales\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nBR\n0.4611\n0.4879\n1\nBR,ALL,DO,PY,CR\n\n\nCA\n0.2934\n0.3533\n18\nCL,ALL,CO,MX,US\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nCR\n0.3689\n0.388\n9\nUS,VE,ALL,MX,CO\n\n\nDO\n0.3383\n0.3813\n13\nUS,CO,VE,CL,ALL\n\n\nEC\n0.3797\n0.4138\n9\nMX,US,CL,ALL,CO\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nFR\n0.4187\n0.4424\n4\nALL,GT,EC,FR,PA\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nGB\n0.3467\n0.3756\n23\nALL,AR,ES,VE,MX\n\n\nGT\n0.3489\n0.3882\n13\nMX,US,ALL,CO,ES\n\n\nHN\n0.3354\n0.3671\n18\nPE,EC,BR,CR,UY\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nNI\n0.3372\n0.3718\n18\nVE,CO,CL,MX,US\n\n\nPA\n0.3658\n0.3927\n10\nUS,CL,VE,CO,PE\n\n\nPE\n0.3799\n0.4196\n9\nMX,ALL,US,AR,CO\n\n\nPY\n0.4244\n0.4417\n1\nPY,US,BR,PE,UY\n\n\nSV\n0.3226\n0.3954\n18\nUS,CO,MX,CL,VE\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-3",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued-3",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_2_bow_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_keywords where the difference is that the dense representations include the models created with the human-annotated datasets.\nstack_2_bow_tailored_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_all_keywords, where the difference is that the dense representation with normalized frequency also includes the tailored keywords.\nstack_3_bows: Stack generalization approach with three base classifiers. All of them are BoW; the first two correspond pre-trained BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection), and the latest is a BoW trained on the training set (i.e., bow_training_set).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#section-8",
+    "href": "MexLEF2023/index.html#section-8",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Cuantiles de la variable localrank\n\n\n\nquantile\nrank\n\n\n\n\n0.00\n1.0\n\n\n0.25\n1.0\n\n\n0.50\n6.5\n\n\n0.75\n13\n\n\n1.00\n23\n\n\n\n\n¿Qué tan bueno es cada modelo? Apariciones en el top-5\n\n\n\n\ncc\nfreq\n\n\n\n\nUS\n17\n\n\nCO\n15\n\n\nMX\n13\n\n\nVE\n10\n\n\nALL\n9\n\n\nCL\n9\n\n\nES\n6\n\n\nAR\n5\n\n\n…\n…"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-4",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued-4",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_3_bows_tailored_keywords: Stack generalization approach with five base classifiers. The first corresponds to a BoW trained on the training set, and the rest are used in stack_2_bow_tailored_keywords.\nstack_3_bow_tailored_all_keywords: Stack generalization approach with five base classifiers. It is comparable to stack_3_bows_tailored_keywords being the difference in the use of the tailored keywords.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#average-rank-de-modelos",
+    "href": "MexLEF2023/index.html#average-rank-de-modelos",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "average rank de modelos",
+    "text": "average rank de modelos\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nUS\n292,465\n4.23\n\n\nCO\n324,635\n6.05\n\n\nMX\n438,136\n6.27\n\n\nCL\n282,737\n6.91\n\n\nVE\n271,924\n7.0\n\n\nALL\n1,696,232\n8.45\n\n\nPE\n178,113\n8.64\n\n\nUY\n200,032\n8.73\n\n\nEC\n147,560\n8.95\n\n\nAR\n673,424\n9.41\n\n\nES\n571,196\n10.95\n\n\nPY\n124,162\n11.14\n\n\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nBR\n127,205\n11.27\n\n\nCR\n103,086\n12.5\n\n\nPA\n111,635\n13.36\n\n\nGT\n95,252\n13.64\n\n\nDO\n108,655\n14.91\n\n\nGB\n82,418\n18.0\n\n\nNI\n68,605\n18.18\n\n\nFR\n69,843\n18.91\n\n\nCA\n63,161\n19.0\n\n\nSV\n73,833\n19.14\n\n\nHN\n60,580\n20.36"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#competition",
-    "href": "IberLEF2023/restMex2023.html#competition",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Competition",
-    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#bert",
+    "href": "MexLEF2023/index.html#bert",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "BERT",
+    "text": "BERT\n\nLos modelos de lenguaje, Language Models (LM) utilizan el contexto de cada palabra para determinar su representación.\nBERT es un modelo de lenguaje que en su momomento rompió el paradigma. Consiste en una serie de encoders que generan representaciones para cada palabra dependiendo de su contexto. El entrenamiento usa un lenguaje de enmascarado, Masked Language Model (MLM). Cada sentencia enmascará tokens de manera aleatoría (se enmascaran 15% de los tokens). También se entrena para predicción de la siguiente frase."
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#other-competitions-performance",
-    "href": "IberLEF2023/restMex2023.html#other-competitions-performance",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance",
-    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
+    "href": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Recursos computacionales y necesidad de datos",
+    "text": "Recursos computacionales y necesidad de datos\n\n\nLos modelos de lenguaje requieren una gran cantidad de datos, solo generamos recursos con MLM sobre AR, CL, CO, MX, ES, UY, VE, y US, i.e., los más grandes.\nTodos los modelos tienen series de dos encoders con cuatro cabezas de atención cada una y una salida de 512 dimensiones por embedding\nCorresponde al small-size del BERT original, y es lo que actualmente podemos con los recursos que contamos en un tiempo pagable (usamos una estanción de trabajo con dos NVIDIA TITAN RTX con 24 GB cada una).\nNombramos a nuestro modelo BILMA por Bert In Latin America.\nUsamos un learning rate de \\(10^{-5}\\) con el optimizador Adam (usamos tensorflow 2 y Keras).\nLos modelos para CL, UY, VE, y US se entrenaron con 3 epocas y AR, CO, MX, y ES con solo una, dado los tamaños de los corpus."
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#other-competitions-performance-continued",
-    "href": "IberLEF2023/restMex2023.html#other-competitions-performance-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance (Continued…)",
-    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#bilma-vs-word-embeddings",
+    "href": "MexLEF2023/index.html#bilma-vs-word-embeddings",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "BILMA vs word-embeddings",
+    "text": "BILMA vs word-embeddings\n\n\n\n\n\nAccuracy en predicción de Emoji-15 - tuneado\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US\n\n\n\nCon word-embeddings"
   },
   {
-    "objectID": "IberLEF2023/restMex2023.html#conclusions-continued",
-    "href": "IberLEF2023/restMex2023.html#conclusions-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Conclusions (continued…)",
-    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
+    "objectID": "MexLEF2023/index.html#section-9",
+    "href": "MexLEF2023/index.html#section-9",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Se tuneó el modelo BILMA para predecir emoticones añadiendo dos capas lineales a los embeddings de inicio, por lo que se puede ver que se predice independiente de la posición.\nTuneado con 90%-10% del training set de la región hasta que el accuracy converge.\nSe evaluó con test regional.\nObserve que es una matriz de modelos pre-entrenados y tuneos.\nLos resultados en general son muy similares a los modelos de fastText, pero, los modelos BILMA pueden hacer más cosas…"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
+    "href": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Usando BILMA para completar frases (mediante máscaras)",
+    "text": "Usando BILMA para completar frases (mediante máscaras)\n\nAccuracy en la tarea MLM para el test"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-10",
+    "href": "MexLEF2023/index.html#section-10",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "MLM regional"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#trabajo-a-futuro",
+    "href": "MexLEF2023/index.html#trabajo-a-futuro",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Trabajo a futuro",
+    "text": "Trabajo a futuro\n\n\nAplicaciones y medir impacto.\nModelos robustos para identificación de regiones.\nReducir recursos computacionales.\n\nUso de un solo modelo con diferentes niveles de abstracción.\nCreación de modelos menos costoso.\n\nEnriquecer los corpus más pequeños.\nOtros lenguajes (inglés, ruso, árabe, etc… o regionales con pocos datos).\n¿Se puede usar Hausdorff u otras distancias para nubes de puntos para la comparación de regiones?."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#preguntas",
+    "href": "MexLEF2023/index.html#preguntas",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "¿Preguntas?",
+    "text": "¿Preguntas?\n¡Gracias por su atención!\n\n\nModelos regionales del Español:\n\nhttps://ingeotec.github.io/regional-spanish-models/\nhttps://github.com/INGEOTEC/regional-spanish-models/\n\n\nINGEOTEC:\n\nhttps://github.com/INGEOTEC/\nhttps://ingeotec.github.io/"
   }
 ]
