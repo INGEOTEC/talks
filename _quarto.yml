@@ -1,5 +1,7 @@
 project:
   type: website
+  render:
+    - index.qmd
 
 website:
   title: "INGEOTEC"
@@ -36,6 +38,9 @@ format:
   html:
     theme: cosmo
     toc: true
+
+execute:
+  freeze: auto    
 
 
 
