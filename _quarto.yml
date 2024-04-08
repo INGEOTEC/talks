@@ -9,6 +9,7 @@ website:
         menu: 
           - sidebar:RestMex2023f
           - sidebar:RestMex2023
+          - sidebar:Davincis2023f
           - sidebar:Davincis2023
       - text: MexLEF2023
         href: MexLEF2023/index.qmd
@@ -22,8 +23,12 @@ website:
       title: RestMex2023 (10min)
       contents: 
         - IberLEF2023/RestMex2023-10mins.qmd
-    - id: Davincis2023
+    - id: Davincis2023f
       title: DA-VINCIS2023
+      contents:
+        - IberLEF2023/davincis2023.qmd
+    - id: Davincis2023
+      title: DA-VINCIS2023 (10min)
       contents:
         - IberLEF2023/short-davincis2023.qmd
 
