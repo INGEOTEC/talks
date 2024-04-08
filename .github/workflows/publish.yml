@@ -37,8 +37,9 @@ jobs:
       #     python -c "import nltk; nltk.download('stopwords')"
       - name: Render and Publish
         run: |
-          # git config --global user.email "mgraffg@ieee.org"
-          # git config --global user.name "mgraffg"
+          git config --global user.email "mgraffg@ieee.org"
+          git config --global user.name "mgraffg"
+          sh render.sh
           # quarto publish gh-pages .  --no-browser          
           # cd MexLEF2023
           # quarto render
