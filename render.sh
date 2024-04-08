@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for dirname in MexLEF2023 IberLEF2023 TextCategorization;
+for dirname in MexLEF2023 IberLEF2023 TextClassification;
 do 
     for fname in $dirname/*.qmd; 
     do 
