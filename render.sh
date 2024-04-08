@@ -1,11 +1,11 @@
 #!/bin/sh
 
-for fname in MexLEF2023/*.qmd; 
-    do quarto render $fname; 
-done
-
-for fname in IberLEF2023/*.qmd; 
-    do quarto render $fname; 
+for dirname in MexLEF2023 IberLEF2023 TextCategorization;
+do 
+    for fname in $dirname/*.qmd; 
+    do 
+        quarto render $fname; 
+    done
 done
 
 quarto render .

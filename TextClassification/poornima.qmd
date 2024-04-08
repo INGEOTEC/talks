@@ -1,0 +1,31 @@
+---
+lang: en
+title: "Sentiment Analysis"
+subtitle: "Poornima Institute of Engineering & Technology"
+author:
+    - name: "Mario Graff"
+      url: https://mgraffg.github.io
+      affiliation: INFOTEC
+    # - name: "Daniela Moctezuma"
+    #   url: https://dmocteo.github.io/
+    #   affiliation: "CentroGEO"
+    # - name: "Eric S. Téllez"
+    #   url: https://sadit.github.io
+    #   affiliation: INFOTEC 
+    # - name: "Sabino Miranda-Jiménez"
+    #   affiliation: INFOTEC
+
+format:
+  revealjs:
+    theme: simple
+bibliography: references.bib
+---
+
+## INGEOTEC research group
+
+![](img/ingeotec-cuatro.png){width=200}
+
+::: {style="font-size: 70%; text-align: center;"}  
+GitHub: <https://github.com/INGEOTEC>  
+WebPage: <https://ingeotec.github.io/>
+:::

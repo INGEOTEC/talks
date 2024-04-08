@@ -13,6 +13,9 @@ website:
           - sidebar:Davincis2023
       - text: MexLEF2023
         href: MexLEF2023/index.qmd
+      - text: Text Classification
+        menu:
+          - sidebar:poornima
 
   sidebar:
     - id: RestMex2023f
@@ -31,6 +34,10 @@ website:
       title: DA-VINCIS2023 (10min)
       contents:
         - IberLEF2023/short-davincis2023.qmd
+    - id: poornima
+      title: Sentiment Analysis
+      contents:
+        - TextClassification/poornima.qmd
 
 format:
   html:
