@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/restMex2023.html</loc>
-    <lastmod>2024-04-08T15:59:33.269Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/short-davincis2023.html</loc>
-    <lastmod>2024-04-08T15:59:33.270Z</lastmod>
-  </url>
-  <url>
     <loc>https://INGEOTEC.github.io/talks/MexLEF2023/index.html</loc>
-    <lastmod>2024-04-08T16:37:31.712Z</lastmod>
+    <lastmod>2024-04-08T16:54:16.988Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/IberLEF2023/davincis2023.html</loc>
-    <lastmod>2024-04-08T15:59:33.263Z</lastmod>
+    <lastmod>2024-04-08T16:54:16.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/short-davincis2023.html</loc>
+    <lastmod>2024-04-08T16:54:16.956Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/IberLEF2023/RestMex2023-10mins.html</loc>
-    <lastmod>2024-04-08T15:59:33.260Z</lastmod>
+    <lastmod>2024-04-08T16:54:16.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/restMex2023.html</loc>
+    <lastmod>2024-04-08T16:54:16.956Z</lastmod>
   </url>
 </urlset>
