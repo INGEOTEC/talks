@@ -18,12 +18,11 @@ author:
 format:
   revealjs:
     theme: simple
-bibliography: references.bib
 ---
 
 ## INGEOTEC research group
 
-![](img/ingeotec-cuatro.png){width=200}
+![](../../IberLEF2023/ingeotec-cuatro.png){width=200}
 
 ::: {style="font-size: 70%; text-align: center;"}  
 GitHub: <https://github.com/INGEOTEC>  
