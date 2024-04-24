@@ -36,7 +36,7 @@ WebPage: <https://ingeotec.github.io/>
 
 ## Aguascalientes, México
 
-![](../image/aguascalientes_edo.jpg){width=200}
+![](../../image/aguascalientes_edo.jpg){width=200}
 
 
 # Introduction 
