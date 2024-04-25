@@ -26,7 +26,7 @@ format:
 
 ## INGEOTEC
 
-![](../../IberLEF2023/ingeotec-cuatro.png){width=200}
+![](../IberLEF2023/ingeotec-cuatro.png){width=200}
 
 ::: {style="font-size: 70%; text-align: center;"}  
 GitHub: <https://github.com/INGEOTEC>  
@@ -36,7 +36,7 @@ WebPage: <https://ingeotec.github.io/>
 
 ## Aguascalientes, México
 
-![](../../image/aguascalientes_edo.jpg){width=200}
+![](aguascalientes_edo.jpg){width=200}
 
 
 # Introduction 
