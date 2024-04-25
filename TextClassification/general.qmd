@@ -38,18 +38,17 @@ WebPage: <https://ingeotec.github.io/>
 
 ![](aguascalientes_edo.jpg){width=200}
 
-
 # Introduction 
 
 ## Text Classification
 
 ::: {.callout-note icon=false}
-# Definition
+## Definition
 The aim is the **classification** of **documents** into a fixed number of predefined categories. 
 ::: 
 
 ::: {.callout-tip icon=false}
-# Polarity
+## Polarity
 El día de mañana no podré ir con ustedes a la librería
 :::
 
@@ -61,18 +60,18 @@ El día de mañana no podré ir con ustedes a la librería
 ## Text Classification Tasks
 
 ::: {.callout-tip icon=false}
-# Polarity
+## Polarity
 Positive, Negative, Neutral
 :::
 
 ::: {.callout-tip icon=false}
-# Emotion (Multiclass)
+## Emotion (Multiclass)
 * Anger, Joy, ...
 * Intensity of an emotion
 :::
 
 ::: {.callout-tip icon=false}
-# Event (Binary)
+## Event (Binary)
 * Violent
 * Crime
 :::
@@ -81,17 +80,17 @@ Positive, Negative, Neutral
 ## Profiling
 
 ::: {.callout-tip icon=false}
-# Gender
+## Gender
 Man, Woman, Nonbinary, ...   
 :::
 
 ::: {.callout-tip icon=false}
-# Age
+## Age
 Child, Teen, Adult
 :::
 
 ::: {.callout-tip icon=false}
-# Language Variety
+## Language Variety
 * Spanish: Spain, Cuba, Argentine, México, ...
 * English: United States, England, ...
 :::
@@ -182,3 +181,11 @@ fig.add_trace(line)
 fig.show()
 ```
 
+::: {.fragment .callout-tip icon="false"}
+## Decision function
+```{python}
+#| echo: false
+from IPython.display import Markdown
+Markdown(f'$g(\mathbf x) = {w_1:0.2f} x_1 + {w_2:0.2f} x_2 + {w_0:0.2f}$')
+```
+:::
