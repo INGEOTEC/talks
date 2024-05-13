@@ -116,8 +116,10 @@ Machine learning (ML) is a subfield of artificial intelligence that focuses on t
 ```{python}
 #| echo: false
 import plotly.express as px
+import plotly.graph_objects as go
 from sklearn import decomposition
 from sklearn.datasets import load_iris
+from sklearn.svm import LinearSVC
 import pandas as pd
 import numpy as np
 
@@ -137,11 +139,6 @@ fig.show()
 
 ```{python}
 #| echo: false
-import plotly.express as px
-from sklearn import decomposition
-from sklearn.datasets import load_iris
-import pandas as pd
-import numpy as np
 
 df['Class'] = ['P' if i == 0 else 'N' for i in y]
 fig = px.scatter(df, color='Class', x='x', y='y')
@@ -155,13 +152,6 @@ fig.show()
 
 ```{python}
 #| echo: false
-import plotly.express as px
-from sklearn.svm import LinearSVC
-from sklearn import decomposition
-import plotly.graph_objects as go
-from sklearn.datasets import load_iris
-import pandas as pd
-import numpy as np
 
 df['Class'] = ['P' if i == 0 else 'N' for i in y]
 m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
@@ -182,7 +172,7 @@ fig.show()
 ```
 
 ::: {.fragment .callout-tip icon="false"}
-## Decision function
+### Decision function
 ```{python}
 #| echo: false
 from IPython.display import Markdown
@@ -194,13 +184,6 @@ Markdown(f'$g(\mathbf x) = {w_1:0.2f} x_1 + {w_2:0.2f} x_2 + {w_0:0.2f}$')
 
 ```{python}
 #| echo: false
-import plotly.express as px
-from sklearn.svm import LinearSVC
-from sklearn import decomposition
-import plotly.graph_objects as go
-from sklearn.datasets import load_iris
-import pandas as pd
-import numpy as np
 
 df['Class'] = ['P' if i == 0 else 'N' for i in y]
 m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
@@ -222,3 +205,160 @@ point = go.Scatter(x=[w_1], y=[w_2],
 fig.add_trace(point)
 fig.show()
 ```
+
+::: {.callout-tip icon="false"}
+### Decision function
+```{python}
+#| echo: false
+from IPython.display import Markdown
+Markdown(f'$g(\mathbf x) = {w_1:0.2f} x_1 + {w_2:0.2f} x_2 + {w_0:0.2f}$')
+```
+:::
+
+
+## Supervised Learning (Geometry 2)
+
+```{python}
+#| echo: false
+
+df['Class'] = ['P' if i == 0 else 'N' for i in y]
+m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
+w_1, w_2 = m.coef_[0]
+w_0 = m.intercept_[0]
+g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
+       for x, y in zip(Dn[:, 0], (-w_0 - w_1 * Dn[:, 0]) / w_2)]
+line = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
+                  line=dict(color='darkgrey'),
+                  showlegend=False)
+w_00 = 0.88
+g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
+       for x, y in zip(Dn[:, 0], (-w_00 - w_1 * Dn[:, 0]) / w_2)]
+line2 = go.Scatter(x=Dn[:, 0], y=(-w_00 - w_1 * Dn[:, 0]) / w_2,
+                   line=dict(color='black'),
+                   showlegend=False)
+fig = px.scatter(df, color='Class', x='x', y='y')
+# fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
+#                   xaxis={'visible': True, 'showticklabels': False},
+                  # xaxis_title=None, yaxis_title=None)
+fig.add_trace(line)
+fig.add_trace(line2)
+point = go.Scatter(x=[w_1], y=[w_2],
+                  line=dict(color='darkgrey'),
+                  showlegend=False)
+fig.add_trace(point)
+fig.show()
+```
+
+::: {.callout-tip icon="false"}
+### $$w_0$$
+```{python}
+#| echo: false
+from IPython.display import Markdown
+_ = [f'* $$w_0 = {w_0:0.2f}$$',
+     f'* $$w_0 = {w_00:0.2f}$$']
+Markdown('\n'.join(_))
+```
+:::
+
+
+## Supervised Learning (Geometry 3)
+
+```{python}
+#| echo: false
+from sklearn.linear_model import LogisticRegression
+df['Class'] = ['P' if i == 0 else 'N' for i in y]
+m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
+w_1, w_2 = m.coef_[0]
+w_0 = m.intercept_[0]
+g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
+       for x, y in zip(Dn[:, 0], (-w_0 - w_1 * Dn[:, 0]) / w_2)]
+line = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
+                  line=dict(color='darkgrey'),
+                  showlegend=False)
+eq1 = f'* $g_{{svm}}(\mathbf x) = {w_1:0.2f} x_1 + {w_2:0.2f} x_2 + {w_0:0.2f}$'
+point1 = go.Scatter(x=[w_1], y=[w_2],
+                  line=dict(color='darkgrey'),
+                  showlegend=False)
+
+m = LogisticRegression().fit(Dn, [1 if i == 0 else 0 for i in y])
+w_1, w_2 = m.coef_[0]
+w_0 = m.intercept_[0]
+g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
+       for x, y in zip(Dn[:, 0], (-w_0 - w_1 * Dn[:, 0]) / w_2)]
+line2 = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
+                   line=dict(color='black'),
+                   showlegend=False)
+eq2 = f'* $g_{{lr}}(\mathbf x) = {w_1:0.2f} x_1 + {w_2:0.2f} x_2 + {w_0:0.2f}$'
+point2 = go.Scatter(x=[w_1], y=[w_2],
+                  line=dict(color='black'),
+                  showlegend=False)
+
+fig = px.scatter(df, color='Class', x='x', y='y')
+# fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
+#                   xaxis={'visible': True, 'showticklabels': False},
+                  # xaxis_title=None, yaxis_title=None)
+fig.add_trace(line)
+fig.add_trace(line2)
+
+fig.add_trace(point1)
+fig.add_trace(point2)
+fig.show()  
+```
+
+::: {.callout-tip icon="false"}
+### Decision function
+```{python}
+#| echo: false
+from IPython.display import Markdown
+_ = [eq1, eq2]
+Markdown('\n'.join(_))
+```
+:::
+
+
+# Elements 
+
+## Training set
+
+```{python}
+#| echo: false
+from EvoMSA.utils import Download
+from microtc.utils import tweet_iterator
+from os.path import isdir, isfile
+import pandas as pd
+from random import shuffle
+if not isfile('delitos.zip'):
+  Download('https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip',
+           'delitos.zip')
+if not isdir('delitos'):
+  !unzip -Pingeotec delitos.zip
+```
+
+```{python}
+#| echo: false
+_ = list(tweet_iterator('delitos/delitos_ingeotec_Es_train.json'))
+shuffle(_)
+neg = [x for x in _ if x['klass']==0]
+pos = [x for x in _ if x['klass']==1]
+D = []
+for a, b in zip(neg, pos):
+  D.append(a)
+  D.append(b)
+df = pd.DataFrame(D).head()
+df[['text', 'klass']].head(n=5)
+```
+
+
+## Training set (2) 
+
+
+::: {.callout-note icon=false}
+# Problem
+The independent variables are **texts**
+:::
+
+::: {.fragment .callout-tip icon=false}
+# Solution
+Represent the **texts** in an amenable format for the classifier
+:::
+
