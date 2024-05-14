@@ -694,7 +694,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nPresentado el cartel de Villanueva de Córdoba ...\n0\n\n\n1\nVándalos atacaron a fierrazos a un hombre en s...\n1\n\n\n2\n@FARC_EPueblo @jcpastrana @TimoFARC Asesino si...\n0\n\n\n3\nEl Ministerio de Interior y Policía clausuró t...\n1\n\n\n4\nColgadores de Bicicletas pared Soportes para C...\n0\n\n\n5\n#Increíble Roban tachones y dan dos balazos a ...\n1\n\n\n6\nAccidente deja un muerto en #Galeras #SUCRE\\n\\...\n0\n\n\n7\n.@VirguezFranklin @jguaido Detenidos venezolan...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@elgatopolitico_ Durante 2020 hubo 71 masacres...\n0\n\n\n1\nPiden ayuda para localizar a niña robada en Me...\n1\n\n\n2\nOPINIÓN | De cómo el 'caso Casado' se convirti...\n0\n\n\n3\nUn policía muerto y 25 heridos en ataque con g...\n1\n\n\n4\n@T13 UN ASESINO\n0\n\n\n5\nDestruyeron y robaron piezas de un acueducto t...\n1\n\n\n6\nBayer se desploma tras fallo judicial que seña...\n0\n\n\n7\nReducen a un hombre armado con un cuchillo en ...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -734,7 +734,7 @@
     "href": "TextClassification/general.html#utterance-as-vector",
     "title": "Text Classification",
     "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\n\\(\\mathbf{v}_t\\) is the vector associate to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
+    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
     "crumbs": [
       "Text Classification"
     ]
@@ -824,7 +824,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(63, 7.906890595608518),\n (60, 5.8479969065549495),\n (30, 1.3269461696539864),\n (2, 2.5277907564370796)]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(56, 7.906890595608518),\n (60, 5.8479969065549495),\n (21, 1.3269461696539864),\n (18, 2.5277907564370796)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -834,7 +834,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f8f4b59a680&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f1b4076ea70&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -1112,11 +1112,301 @@
     "text": "¿Preguntas?\n¡Gracias por su atención!\n\n\nModelos regionales del Español:\n\nhttps://ingeotec.github.io/regional-spanish-models/\nhttps://github.com/INGEOTEC/regional-spanish-models/\n\n\nINGEOTEC:\n\nhttps://github.com/INGEOTEC/\nhttps://ingeotec.github.io/"
   },
   {
-    "objectID": "TextClassification/poornima.html#ingeotec-research-group",
-    "href": "TextClassification/poornima.html#ingeotec-research-group",
+    "objectID": "TextClassification/poornima.html#ingeotec",
+    "href": "TextClassification/poornima.html#ingeotec",
     "title": "Sentiment Analysis",
-    "section": "INGEOTEC research group",
-    "text": "INGEOTEC research group\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "section": "INGEOTEC",
+    "text": "INGEOTEC\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#aguascalientes-méxico",
+    "href": "TextClassification/poornima.html#aguascalientes-méxico",
+    "title": "Sentiment Analysis",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#text-classification",
+    "href": "TextClassification/poornima.html#text-classification",
+    "title": "Sentiment Analysis",
+    "section": "Text Classification",
+    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#text-classification-tasks",
+    "href": "TextClassification/poornima.html#text-classification-tasks",
+    "title": "Sentiment Analysis",
+    "section": "Text Classification Tasks",
+    "text": "Text Classification Tasks\n\n\n\nPolarity\n\n\nPositive, Negative, Neutral\n\n\n\n\n\n\nEmotion (Multiclass)\n\n\n\nAnger, Joy, …\nIntensity of an emotion\n\n\n\n\n\n\n\nEvent (Binary)\n\n\n\nViolent\nCrime",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#profiling",
+    "href": "TextClassification/poornima.html#profiling",
+    "title": "Sentiment Analysis",
+    "section": "Profiling",
+    "text": "Profiling\n\n\n\nGender\n\n\nMan, Woman, Nonbinary, …\n\n\n\n\n\n\nAge\n\n\nChild, Teen, Adult\n\n\n\n\n\n\nLanguage Variety\n\n\n\nSpanish: Spain, Cuba, Argentine, México, …\nEnglish: United States, England, …",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#machine-learning",
+    "href": "TextClassification/poornima.html#machine-learning",
+    "title": "Sentiment Analysis",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\n\n\nDefinition\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\nTypes of ML algorithms\n\n\n\nUnsupervised Learning\nSupervised Learning\nReinforcement Learning",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-multiclass",
+    "href": "TextClassification/poornima.html#supervised-learning-multiclass",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Multiclass)",
+    "text": "Supervised Learning (Multiclass)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-binary",
+    "href": "TextClassification/poornima.html#supervised-learning-binary",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Binary)",
+    "text": "Supervised Learning (Binary)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-classification",
+    "href": "TextClassification/poornima.html#supervised-learning-classification",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Classification)",
+    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-geometry",
+    "href": "TextClassification/poornima.html#supervised-learning-geometry",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Geometry)",
+    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-2",
+    "href": "TextClassification/poornima.html#supervised-learning-geometry-2",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Geometry 2)",
+    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-3",
+    "href": "TextClassification/poornima.html#supervised-learning-geometry-3",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Geometry 3)",
+    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#training-set",
+    "href": "TextClassification/poornima.html#training-set",
+    "title": "Sentiment Analysis",
+    "section": "Training set",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n#ConspiracyAgainstAsharamBapu sant shiree asar...\nin\n\n\n1\nSab thik ho jaega se meko matlab nahi hai, abh...\npk\n\n\n2\nKisi ne mujh se pucha aaj kal bahut Ali Ali ka...\nin\n\n\n3\nSaving our culture should be our PRIORITY. Shr...\nin\n\n\n4\n_usr _usr Kum az kum apni chaati per he koi do...\npk\n\n\n5\n_usr Bhai andh bhkt abhi bhkti or chatukarita ...\nin\n\n\n6\nAye fizza lagti bahut hai pyaas mere Noor e ai...\nin\n\n\n7\nJago Bharat Jago, Owaisi, Khowaisi, Ohbhesi ...\nin",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#quiz",
+    "href": "TextClassification/poornima.html#quiz",
+    "title": "Sentiment Analysis",
+    "section": "Quiz",
+    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following tasks correspond to the training set shown?\n\nPolarity\nEmotion identification\nAggressive detection\nProfiling",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#training-set-2",
+    "href": "TextClassification/poornima.html#training-set-2",
+    "title": "Sentiment Analysis",
+    "section": "Training set (2)",
+    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\n\nToken as a vector\n\nSparse vector\nDense vector\n\nUtterance as a vector",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#token-as-vector",
+    "href": "TextClassification/poornima.html#token-as-vector",
+    "title": "Sentiment Analysis",
+    "section": "Token as Vector",
+    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#token-as-vector-2",
+    "href": "TextClassification/poornima.html#token-as-vector-2",
+    "title": "Sentiment Analysis",
+    "section": "Token as Vector (2)",
+    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\n\nAlgorithm\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to\n\\((\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\)\nwhere \\(\\beta_i &gt; 0\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector",
+    "href": "TextClassification/poornima.html#utterance-as-vector",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#tokens",
+    "href": "TextClassification/poornima.html#tokens",
+    "title": "Sentiment Analysis",
+    "section": "Tokens",
+    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\nimport unicodedata\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#text-normalization-1",
+    "href": "TextClassification/poornima.html#text-normalization-1",
+    "title": "Sentiment Analysis",
+    "section": "Text Normalization",
+    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nUser (replace)\n\n\n\nimport re\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_usr\", text)\noutput\n\n'go _usr and find out'",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#tokenizer",
+    "href": "TextClassification/poornima.html#tokenizer",
+    "title": "Sentiment Analysis",
+    "section": "Tokenizer",
+    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#tokenizer-2",
+    "href": "TextClassification/poornima.html#tokenizer-2",
+    "title": "Sentiment Analysis",
+    "section": "Tokenizer (2)",
+    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#mu-tc",
+    "href": "TextClassification/poornima.html#mu-tc",
+    "title": "Sentiment Analysis",
+    "section": "\\(\\mu\\)-TC",
+    "text": "\\(\\mu\\)-TC\n\n\n\nTextModel\n\n\n\nfrom microtc import TextModel\nfrom microtc.params import OPTION_GROUP,\\\n  OPTION_DELETE, OPTION_NONE\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE,\n               lc=True,\n               del_dup=False,\n               del_punc=True,\n               del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing football with @mgraffg'\ntm.tokenize(text)\n\n['i', 'like', 'playing', 'football', 'with']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#mu-tc-2",
+    "href": "TextClassification/poornima.html#mu-tc-2",
+    "title": "Sentiment Analysis",
+    "section": "\\(\\mu\\)-TC (2)",
+    "text": "\\(\\mu\\)-TC (2)\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-2, -1, 6],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing...'\ntm.tokenize(text)\n\n['i~like',\n 'like~playing',\n 'i',\n 'like',\n 'playing',\n 'q:~i~lik',\n 'q:i~like',\n 'q:~like~',\n 'q:like~p',\n 'q:ike~pl',\n 'q:ke~pla',\n 'q:e~play',\n 'q:~playi',\n 'q:playin',\n 'q:laying',\n 'q:aying~']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#training-set-1",
+    "href": "TextClassification/poornima.html#training-set-1",
+    "title": "Sentiment Analysis",
+    "section": "Training set",
+    "text": "Training set\n\nfrom EvoMSA.utils import Download\nfrom microtc.utils import tweet_iterator\nfrom os.path import isdir, isfile\nimport pandas as pd\nfrom random import shuffle\nURL = 'https://github.com/INGEOTEC/talks/releases/download/Talks/hi-regions.json.zip'\nif not isfile('hi-regions.json.zip'):\n  Download(URL, 'hi-regions.json.zip')\nif not isfile('hi-regions.json'):\n  !unzip -Pingeotec hi-regions.json.zip",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector-1",
+    "href": "TextClassification/poornima.html#utterance-as-vector-1",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfrom microtc.utils import tweet_iterator\nfname = 'hi-regions.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['_usr', '_usr', 'न्यायालय']\n\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nfrom microtc.utils import Counter\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('_usr', 4936), ('_url', 2483), ('hai', 2097)]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector-2",
+    "href": "TextClassification/poornima.html#utterance-as-vector-2",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector (2)",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(98, 10.186998514801255),\n (100, 6.865070419913892),\n (97, 9.534921818221562),\n (95, 1.9602422907622667)]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector-3",
+    "href": "TextClassification/poornima.html#utterance-as-vector-3",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector (3)",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fc1ec6178e0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(37184, 0.4513023840121038),\n (11797, 0.1370898601008751),\n (12904, 0.130115819842651),\n (25850, 0.347110424126211)]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#procedure-1",
+    "href": "TextClassification/poornima.html#procedure-1",
+    "title": "Sentiment Analysis",
+    "section": "Procedure",
+    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nfrom sklearn.svm import LinearSVC\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray(['pk'], dtype='&lt;U2')",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#performance",
+    "href": "TextClassification/poornima.html#performance",
+    "title": "Sentiment Analysis",
+    "section": "Performance",
+    "text": "Performance\n\nfrom sklearn.model_selection import KFold\nfrom sklearn.metrics import recall_score\n\nkfold = KFold(n_splits=5, shuffle=True, random_state=1)\nperf = []\nfor tr, vs in kfold.split(training_set):\n    train = [training_set[i] for i in tr]\n    val = [training_set[i] for i in vs]\n    tm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                   usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                   emo_option=OPTION_NONE, lc=True, del_dup=False,\n                   del_punc=True, del_diac=True).fit(train)\n    labels = [x['klass'] for x in train]\n    m = LinearSVC(dual='auto').fit(tm.transform(train), labels)\n    hy = m.predict(tm.transform(val))\n    _ = recall_score([x['klass'] for x in val], hy, average='macro')\n    perf.append(_)\nnp.mean(perf)\n\n0.9217665942472857",
     "crumbs": [
       "Sentiment Analysis"
     ]
