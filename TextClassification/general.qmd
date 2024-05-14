@@ -407,9 +407,9 @@ The independent variables are **texts**
 
 $$\mathbf x = \sum_{t \in \mathcal U} \mathbf{v}_t$$
 
-* where $\mathcal{U}$ corresponds to all the tokens of the utterance 
-* $\mathbf{v}_t$ is the vector associate to token $t$ 
-::: 
+* where $\mathcal{U}$ corresponds to all the tokens of the utterance
+* The vector $\mathbf{v}_t$ is associated to token $t$
+:::
 
 ::: {.callout-tip icon="false" .fragment} 
 ### Unit Vector 
