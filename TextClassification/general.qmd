@@ -373,7 +373,7 @@ The independent variables are **texts**
 * $d$ corresponds to the dimension of the vector
 :::
 
-::: {.callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false"}
 ### $d << \lvert \mathcal V \rvert$ (Dense Vector) 
 
 * GloVe
@@ -391,39 +391,32 @@ The independent variables are **texts**
 * $\mathbf v_j \in \mathbb R^d$
 :::
 
-::: {.callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false"}
 ### Algorithm 
 
-:::: columns
-
-::: {.column}
 * Sort the vocabulary $\mathcal V$ 
 * Associate $i$-th token  to 
-$$(\ldots, 0, \overbrace{\beta_i}^i, 0, \ldots)^\intercal$$
-:::
-
-::: {.column}
+* $(\ldots, 0, \overbrace{\beta_i}^i, 0, \ldots)^\intercal$
 * where $\beta_i > 0$
 :::
-::: 
-::::
 
 ## Utterance as Vector 
 
 ::: {.callout-note icon="false"}
-### Bag of Words 
+### Procedure 
 
-$$\mathbf x = \sum_{t \in \mathcal U} \mathbf v_t$$
+$$\mathbf x = \sum_{t \in \mathcal U} \mathbf{v}_t$$
 
-* where $\mathcal U$ corresponds to all the tokens of the utterance
-* $\mathbf v_t$ is the vector associate to token $t$
-:::
+* where $\mathcal{U}$ corresponds to all the tokens of the utterance 
+* $\mathbf{v}_t$ is the vector associate to token $t$ 
+::: 
 
-::: {.callout-tip}
+::: {.callout-tip icon="false" .fragment} 
 ### Unit Vector 
 
-$$\mathbf x = \frac{\sum_{t \in \mathcal U} \mathbf v_t}{\lVert \sum_{t \in \mathcal U} \mathbf v_t \rVert} $$
-:::
+$$\mathbf x = \frac{\sum_{t \in \mathcal U} \mathbf v_t}{\lVert \sum_{t \in \mathcal U} \mathbf v_t \rVert} $$ 
+
+::: 
 
 ## Tokens 
 
@@ -438,8 +431,7 @@ flowchart LR
 ```
 
 :::: {.columns}
-::: {.column width=40%}
-::: {.fragment .callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false" .column width=40%}
 ### Text Normalization
 
 * User
@@ -449,9 +441,7 @@ flowchart LR
 * Punctuation
 * Diacritic
 :::
-:::
-::: {.column}
-::: {.fragment .callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false" .column}
 ### Diacritic (remove) 
 
 ```{python}
@@ -466,7 +456,6 @@ for x in unicodedata.normalize('NFD', text):
     output += x
 output
 ```
-:::
 :::
 ::::
 
@@ -520,8 +509,7 @@ words
 ## Tokenizer (2)
 
 :::: {.columns}
-::: {.column}
-::: {.callout-tip icon="false"}
+::: {.callout-tip icon="false" .column}
 ### n-grams 
 
 ```{python}
@@ -535,9 +523,7 @@ for a in zip(*[words[i:] for i in range(n)]):
 n_grams
 ```
 :::
-:::
-::: {.column}
-::: {.fragment .callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false" .column}
 ### q-grams 
 
 ```{python}
@@ -550,5 +536,241 @@ for a in zip(*[text[i:] for i in range(q)]):
 q_grams
 ```
 :::
+::::
+
+## $\mu$-TC 
+
+::: {.callout-tip icon="false"}
+### TextModel 
+
+```{python}
+#| echo: true
+from microtc import TextModel
+from microtc.params import OPTION_GROUP,\
+  OPTION_DELETE, OPTION_NONE
+tm = TextModel(token_list=[-1],
+               num_option=OPTION_NONE,
+               usr_option=OPTION_DELETE,
+               url_option=OPTION_DELETE,
+               emo_option=OPTION_NONE,
+               lc=True,
+               del_dup=False,
+               del_punc=True,
+               del_diac=True)
+```
+:::
+::: {.fragment}
+```{python}
+#| echo: true
+text = 'I like playing football with @mgraffg'
+tm.tokenize(text)
+```
+:::
+
+## $\mu$-TC (2) 
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### TextModel 
+
+```{python}
+#| echo: true
+tm = TextModel(token_list=[-2, -1, 6],
+               num_option=OPTION_NONE,
+               usr_option=OPTION_DELETE,
+               url_option=OPTION_DELETE,
+               emo_option=OPTION_NONE, 
+               lc=True, del_dup=False,
+               del_punc=True, del_diac=True)
+```
+:::
+::: {.fragment .column}
+```{python}
+#| echo: true
+text = 'I like playing...'
+tm.tokenize(text)
+```
 :::
 ::::
+
+## Training set
+
+```{python}
+#| echo: true
+from EvoMSA.utils import Download
+from microtc.utils import tweet_iterator
+from os.path import isdir, isfile
+import pandas as pd
+from random import shuffle
+
+URL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'
+if not isfile('delitos.zip'):
+  Download(URL,
+           'delitos.zip')
+if not isdir('delitos'):
+  !unzip -Pingeotec delitos.zip
+```
+
+## Utterance as Vector 
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### TextModel 
+
+```{python}
+#| echo: true
+tm = TextModel(token_list=[-1],
+               num_option=OPTION_NONE,
+               usr_option=OPTION_DELETE,
+               url_option=OPTION_DELETE,
+               emo_option=OPTION_NONE, 
+               lc=True, del_dup=False,
+               del_punc=True, del_diac=True)
+```               
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### Tokenizer  
+
+```{python}
+#| echo: true
+from microtc.utils import tweet_iterator
+fname = 'delitos/delitos_ingeotec_Es_train.json'
+training_set = list(tweet_iterator(fname))
+tm.tokenize(training_set[0])[:3]
+```
+:::
+::::
+
+::: {.fragment .callout-tip icon="false"}
+### Vocabulary 
+
+```{python} 
+#| echo: true
+from microtc.utils import Counter
+voc = Counter()
+for text in training_set:
+  tokens = set(tm.tokenize(text))
+  voc.update(tokens)
+voc.most_common(n=3)
+```
+:::
+
+
+## Utterance as Vector (2)
+
+::: {.callout-tip icon="false"}
+### Inverse Document Frequency (IDF)
+
+```{python}
+#| echo: true
+token2id = {}
+token2beta = {}
+N = np.log2(voc.update_calls)
+for id, (k, n) in enumerate(voc.items()):
+  token2id[k] = id
+  token2beta[k] = N - np.log2(n)
+```               
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Term Frequency - IDF
+```{python} 
+#| echo: true
+text = training_set[3]['text']
+tokens = tm.tokenize(text)
+vector = []
+for token, tf in zip(*np.unique(tokens, return_counts=True)):
+  if token not in token2id:
+    continue
+  vector.append((token2id[token], tf * token2beta[token]))
+vector[:4]
+```
+:::
+
+## Utterance as Vector (3)
+
+::: {.callout-tip icon="false"}
+### $\mu$-TC
+
+```{python}
+#| echo: true
+tm.fit(training_set)
+```               
+:::
+
+::: {.callout-tip icon="false"}
+### Utterance as Vector 
+```{python} 
+#| echo: true
+text = training_set[3]['text']
+tm[text][:4]
+```
+:::
+
+# Text Classification 
+
+## Procedure 
+
+::: {.callout-tip icon="false"}
+### Text as Vectors 
+
+```{python}
+#| echo: true
+X = tm.transform(training_set)
+```
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Training a Classifier 
+
+```{python}
+#| echo: true
+from sklearn.svm import LinearSVC
+labels = [x['klass'] for x in training_set]
+m = LinearSVC(dual='auto').fit(X, labels)
+```
+:::
+
+
+::: {.fragment .callout-tip icon="false"}
+### Predict a text 
+
+```{python}
+#| echo: true
+X = tm.transform(['Buenos días']) # good morning
+m.predict(X)
+```
+:::
+
+
+## Performance 
+
+```{python}
+#| echo: true
+from sklearn.model_selection import KFold
+from sklearn.metrics import recall_score
+
+kfold = KFold(n_splits=5, shuffle=True, random_state=1)
+perf = []
+for tr, vs in kfold.split(training_set):
+    train = [training_set[i] for i in tr]
+    val = [training_set[i] for i in vs]
+    tm = TextModel(token_list=[-1], num_option=OPTION_NONE,
+                   usr_option=OPTION_DELETE, url_option=OPTION_DELETE,
+                   emo_option=OPTION_NONE, lc=True, del_dup=False,
+                   del_punc=True, del_diac=True).fit(train)
+    labels = [x['klass'] for x in train]
+    m = LinearSVC(dual='auto').fit(tm.transform(train), labels)
+    hy = m.predict(tm.transform(val))
+    _ = recall_score([x['klass'] for x in val], hy, average='macro')
+    perf.append(_)
+np.mean(perf)
+```
+
+# Conclusions 
+
+* Describe a supervised learning approach to tackle text classifications.
+* Explain the geometry of linear classifiers.
+* Use a procedure to represent a text as a vector.
+* Measure the performance of a text classifier.
