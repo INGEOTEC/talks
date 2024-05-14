@@ -674,7 +674,7 @@
     "href": "TextClassification/general.html#supervised-learning-geometry-2",
     "title": "Text Classification",
     "section": "Supervised Learning (Geometry 2)",
-    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\[w_0\\]\n\n\n\n\n\n\\[w_0 = -0.88\\]\n\\[w_0 = 0.88\\]",
+    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
     "crumbs": [
       "Text Classification"
     ]
@@ -694,7 +694,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\nArchive:  delitos.zip\n   creating: delitos/\n  inflating: delitos/delitos_ingeotec_Es_test.json  \n  inflating: delitos/delitos_ingeotec_Es_train.json  \n\n\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@lalioficial fue confirmada en el LINE UP del ...\n0\n\n\n1\nAsesinan a puñal a un hombre en Turbaco https:...\n1\n\n\n2\nMás de 200 españoles viajaban en el buque «San...\n0\n\n\n3\nAsesinado otro jefe de policía en México a die...\n1\n\n\n4\nOye tranquilo, viejo: ¡Drake y Josh regresan p...\n0",
+    "text": "Training set\n\n\nArchive:  delitos.zip\n   creating: delitos/\n  inflating: delitos/delitos_ingeotec_Es_test.json  \n  inflating: delitos/delitos_ingeotec_Es_train.json  \n\n\n\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nSe derrumba la leyenda: Los restos del Yeti re...\n0\n\n\n1\nCámaras de circuito cerrado captaron el moment...\n1\n\n\n2\nPor un mundo sin discriminación, porque todos ...\n0\n\n\n3\nDetenidos los tres atracadores que asaltaron u...\n1\n\n\n4\n@MDefensaRD un asesino.\n0\n\n\n5\nDamaris Benavides l joven que fue brutalmente ...\n1\n\n\n6\nBaja la cotización del dólar, se descubre una ...\n0\n\n\n7\n#URGENTE Murió un joven que había sido baleado...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -704,7 +704,37 @@
     "href": "TextClassification/general.html#training-set-2",
     "title": "Text Classification",
     "section": "Training set (2)",
-    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\nRepresent the texts in an amenable format for the classifier\n\n\n\n\n\n\n\nhttps://ingeotec.github.io",
+    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\n\nToken as a vector\n\nSparse vector\nDense vector\n\nUtterance as a vector",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#token-as-vector",
+    "href": "TextClassification/general.html#token-as-vector",
+    "title": "Text Classification",
+    "section": "Token as Vector",
+    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#token-as-vector-2",
+    "href": "TextClassification/general.html#token-as-vector-2",
+    "title": "Text Classification",
+    "section": "Token as Vector (2)",
+    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\nAlgorithm\n\n\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to \\[(\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\]\n\n\n\nwhere \\(\\beta_i &gt; 0\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#utterance-as-vector",
+    "href": "TextClassification/general.html#utterance-as-vector",
+    "title": "Text Classification",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\nBag of Words\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf v_t\\]\n\nwhere \\(\\mathcal U\\) corresponds to all the tokens of the utterance\n\\(\\mathbf v_t\\) is the vector associate to token \\(t\\)\n\n\n\n\n\n\n\nhttps://ingeotec.github.io",
     "crumbs": [
       "Text Classification"
     ]
