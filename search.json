@@ -654,7 +654,57 @@
     "href": "TextClassification/general.html#supervised-learning-classification",
     "title": "Text Classification",
     "section": "Supervised Learning (Classification)",
-    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\nhttps://ingeotec.github.io",
+    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-geometry",
+    "href": "TextClassification/general.html#supervised-learning-geometry",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Geometry)",
+    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-geometry-2",
+    "href": "TextClassification/general.html#supervised-learning-geometry-2",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Geometry 2)",
+    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\[w_0\\]\n\n\n\n\n\n\\[w_0 = -0.88\\]\n\\[w_0 = 0.88\\]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-geometry-3",
+    "href": "TextClassification/general.html#supervised-learning-geometry-3",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Geometry 3)",
+    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#training-set",
+    "href": "TextClassification/general.html#training-set",
+    "title": "Text Classification",
+    "section": "Training set",
+    "text": "Training set\n\n\nArchive:  delitos.zip\n   creating: delitos/\n  inflating: delitos/delitos_ingeotec_Es_test.json  \n  inflating: delitos/delitos_ingeotec_Es_train.json  \n\n\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@lalioficial fue confirmada en el LINE UP del ...\n0\n\n\n1\nAsesinan a puñal a un hombre en Turbaco https:...\n1\n\n\n2\nMás de 200 españoles viajaban en el buque «San...\n0\n\n\n3\nAsesinado otro jefe de policía en México a die...\n1\n\n\n4\nOye tranquilo, viejo: ¡Drake y Josh regresan p...\n0",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#training-set-2",
+    "href": "TextClassification/general.html#training-set-2",
+    "title": "Text Classification",
+    "section": "Training set (2)",
+    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\nRepresent the texts in an amenable format for the classifier\n\n\n\n\n\n\n\nhttps://ingeotec.github.io",
     "crumbs": [
       "Text Classification"
     ]
