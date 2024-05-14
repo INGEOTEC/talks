@@ -33,7 +33,6 @@ GitHub: <https://github.com/INGEOTEC>
 WebPage: <https://ingeotec.github.io/>
 :::
 
-
 ## Aguascalientes, México
 
 ![](aguascalientes_edo.jpg){width=200}
@@ -56,7 +55,6 @@ El día de mañana no podré ir con ustedes a la librería
 **Negative**
 :::
 
-
 ## Text Classification Tasks
 
 ::: {.callout-tip icon=false}
@@ -76,7 +74,6 @@ Positive, Negative, Neutral
 * Crime
 :::
 
-
 ## Profiling
 
 ::: {.callout-tip icon=false}
@@ -94,7 +91,6 @@ Child, Teen, Adult
 * Spanish: Spain, Cuba, Argentine, México, ...
 * English: United States, England, ...
 :::
-
 
 # Approach 
 
@@ -215,7 +211,6 @@ Markdown(f'$g(\mathbf x) = {w_1:0.2f} x_1 + {w_2:0.2f} x_2 + {w_0:0.2f}$')
 ```
 :::
 
-
 ## Supervised Learning (Geometry 2)
 
 ```{python}
@@ -259,7 +254,6 @@ _ = [f'* $w_0 = {w_0:0.2f}$',
 Markdown('\n'.join(_))
 ```
 :::
-
 
 ## Supervised Learning (Geometry 3)
 
@@ -321,7 +315,7 @@ Markdown('\n'.join(_))
 ## Training set
 
 ```{python}
-#| echo: false
+#| include: false
 from EvoMSA.utils import Download
 from microtc.utils import tweet_iterator
 from os.path import isdir, isfile
@@ -332,6 +326,7 @@ if not isfile('delitos.zip'):
            'delitos.zip')
 if not isdir('delitos'):
   !unzip -Pingeotec delitos.zip
+''
 ```
 
 ::: {style="font-size: 70%; text-align: center;"}
@@ -352,21 +347,19 @@ df[['text', 'klass']].head(n=8)
 
 ## Training set (2) 
 
-
 ::: {.callout-note icon=false}
-# Problem
+### Problem
 The independent variables are **texts**
 :::
 
 ::: {.fragment .callout-tip icon=false}
-# Solution
+### Solution
 * Represent the **texts** in an suitable format for the classifier
   * Token as a vector
     * Sparse vector
     * Dense vector
   * Utterance as a vector
 :::
-
 
 # Text Representation 
 
@@ -415,7 +408,6 @@ $$(\ldots, 0, \overbrace{\beta_i}^i, 0, \ldots)^\intercal$$
 ::: 
 ::::
 
-
 ## Utterance as Vector 
 
 ::: {.callout-note icon="false"}
@@ -427,3 +419,136 @@ $$\mathbf x = \sum_{t \in \mathcal U} \mathbf v_t$$
 * $\mathbf v_t$ is the vector associate to token $t$
 :::
 
+::: {.callout-tip}
+### Unit Vector 
+
+$$\mathbf x = \frac{\sum_{t \in \mathcal U} \mathbf v_t}{\lVert \sum_{t \in \mathcal U} \mathbf v_t \rVert} $$
+:::
+
+## Tokens 
+
+```{mermaid}
+%%| echo: false
+%%| fig-align: center
+
+flowchart LR
+    Entrada([Text]) -->  Norm[Text Normalizer]
+    Norm --> Seg[Tokenizer]
+    Seg --> Terminos(...)
+```
+
+:::: {.columns}
+::: {.column width=40%}
+::: {.fragment .callout-tip icon="false"}
+### Text Normalization
+
+* User
+* URL
+* Entity
+* Case sensitive
+* Punctuation
+* Diacritic
+:::
+:::
+::: {.column}
+::: {.fragment .callout-tip icon="false"}
+### Diacritic (remove) 
+
+```{python}
+#| echo: true
+import unicodedata
+text = 'México'
+output = ""
+for x in unicodedata.normalize('NFD', text):
+    o = ord(x)
+    if 0x300 <= o and o <= 0x036F:
+        continue
+    output += x
+output
+```
+:::
+:::
+::::
+
+## Text Normalization 
+
+::: {.callout-tip icon="false"} 
+### Case sensitive 
+
+```{python}
+#| echo: true
+text = "México"
+output = text.lower()
+output
+```
+:::
+
+::: {.callout-tip icon="false"} 
+### User (replace) 
+
+```{python}
+#| echo: true
+import re
+text = "go http://google.com, and find out"
+output = re.sub(r"https?://\S+", "_usr", text)
+output
+```
+:::
+
+## Tokenizer 
+
+::: {.callout-note icon="false"}
+### Common Types 
+
+* Words
+* n-grams (Words)
+* q-grams (Characters)
+* skip-grams
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Words 
+
+```{python}
+#| echo: true
+text = 'I like playing football on Saturday'
+words = text.split()
+words
+```
+:::
+
+## Tokenizer (2)
+
+:::: {.columns}
+::: {.column}
+::: {.callout-tip icon="false"}
+### n-grams 
+
+```{python}
+#| echo: true
+text = 'I like playing football on Saturday'
+words = text.split()
+n = 3
+n_grams = []
+for a in zip(*[words[i:] for i in range(n)]):
+    n_grams.append("~".join(a))
+n_grams
+```
+:::
+:::
+::: {.column}
+::: {.fragment .callout-tip icon="false"}
+### q-grams 
+
+```{python}
+#| echo: true
+text = 'I like playing'
+q = 4
+q_grams = []
+for a in zip(*[text[i:] for i in range(q)]):
+    q_grams.append("".join(a))
+q_grams
+```
+:::
+:::
+::::
