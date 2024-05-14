@@ -694,7 +694,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\nArchive:  delitos.zip\n   creating: delitos/\n  inflating: delitos/delitos_ingeotec_Es_test.json  \n  inflating: delitos/delitos_ingeotec_Es_train.json  \n\n\n\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nSe derrumba la leyenda: Los restos del Yeti re...\n0\n\n\n1\nCámaras de circuito cerrado captaron el moment...\n1\n\n\n2\nPor un mundo sin discriminación, porque todos ...\n0\n\n\n3\nDetenidos los tres atracadores que asaltaron u...\n1\n\n\n4\n@MDefensaRD un asesino.\n0\n\n\n5\nDamaris Benavides l joven que fue brutalmente ...\n1\n\n\n6\nBaja la cotización del dólar, se descubre una ...\n0\n\n\n7\n#URGENTE Murió un joven que había sido baleado...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nhttps://t.co/UunsAY6n7J La CIA está involucrad...\n0\n\n\n1\nUna familia es asesinada dentro de su casa en ...\n1\n\n\n2\n@MikelBalza @AthleticClub @Marcelino malas not...\n0\n\n\n3\nAsesinos de Margarito grabaron el crimen http...\n1\n\n\n4\n🌵 Los padres de hoy dedican el doble de atenci...\n0\n\n\n5\n@julioastillero Ayer fui amenazado de muerte ...\n1\n\n\n6\n@ClaudiaLopez @petrogustavo Que \"GRANDEZA\" ......\n0\n\n\n7\nFPA SECUESTRÓ ESTUPEFACIENTES TRAS UN ALLANAMI...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -734,7 +734,47 @@
     "href": "TextClassification/general.html#utterance-as-vector",
     "title": "Text Classification",
     "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\nBag of Words\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf v_t\\]\n\nwhere \\(\\mathcal U\\) corresponds to all the tokens of the utterance\n\\(\\mathbf v_t\\) is the vector associate to token \\(t\\)\n\n\n\n\n\n\n\nhttps://ingeotec.github.io",
+    "text": "Utterance as Vector\n\n\n\nBag of Words\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf v_t\\]\n\nwhere \\(\\mathcal U\\) corresponds to all the tokens of the utterance\n\\(\\mathbf v_t\\) is the vector associate to token \\(t\\)\n\n\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#tokens",
+    "href": "TextClassification/general.html#tokens",
+    "title": "Text Classification",
+    "section": "Tokens",
+    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\nimport unicodedata\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#text-normalization-1",
+    "href": "TextClassification/general.html#text-normalization-1",
+    "title": "Text Classification",
+    "section": "Text Normalization",
+    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nUser (replace)\n\n\n\nimport re\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_usr\", text)\noutput\n\n'go _usr and find out'",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#tokenizer",
+    "href": "TextClassification/general.html#tokenizer",
+    "title": "Text Classification",
+    "section": "Tokenizer",
+    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#tokenizer-2",
+    "href": "TextClassification/general.html#tokenizer-2",
+    "title": "Text Classification",
+    "section": "Tokenizer (2)",
+    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']\n\n\n\n\n\n\n\n\n\n\n\nhttps://ingeotec.github.io",
     "crumbs": [
       "Text Classification"
     ]
