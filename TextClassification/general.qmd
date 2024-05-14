@@ -101,12 +101,12 @@ Child, Teen, Adult
 ## Machine Learning 
 
 ::: {.callout-note icon=false}
-# Definition
+### Definition
 Machine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.
 :::
 
 ::: {.callout-note icon=false}
-# Types of ML algorithms
+### Types of ML algorithms
 * Unsupervised Learning
 * Supervised Learning
 * Reinforcement Learning
@@ -128,7 +128,7 @@ pca = decomposition.PCA(n_components=2).fit(D)
 Dn = pca.transform(D)
 df = pd.DataFrame(Dn, columns=['x', 'y'])
 df['Class'] = y.astype(str)
-fig = px.scatter(df, color='Class', x='x', y='y')
+fig = px.scatter(df, color='Class', x='x', y='y', height=400)
 fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
                   xaxis={'visible': True, 'showticklabels': False},
                   xaxis_title=None, yaxis_title=None)
@@ -141,7 +141,7 @@ fig.show()
 #| echo: false
 
 df['Class'] = ['P' if i == 0 else 'N' for i in y]
-fig = px.scatter(df, color='Class', x='x', y='y')
+fig = px.scatter(df, color='Class', x='x', y='y', height=400)
 fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
                   xaxis={'visible': True, 'showticklabels': False},
                   xaxis_title=None, yaxis_title=None)
@@ -162,7 +162,7 @@ g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
 line = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
                   line=dict(color='darkgrey'),
                   showlegend=False)
-fig = px.scatter(df, color='Class', x='x', y='y')
+fig = px.scatter(df, color='Class', x='x', y='y', height=400)
 
 fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
                   xaxis={'visible': True, 'showticklabels': False},
@@ -194,7 +194,7 @@ g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
 line = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
                   line=dict(color='darkgrey'),
                   showlegend=False)
-fig = px.scatter(df, color='Class', x='x', y='y')
+fig = px.scatter(df, color='Class', x='x', y='y', height=400)
 # fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
 #                   xaxis={'visible': True, 'showticklabels': False},
                   # xaxis_title=None, yaxis_title=None)
@@ -236,7 +236,7 @@ g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
 line2 = go.Scatter(x=Dn[:, 0], y=(-w_00 - w_1 * Dn[:, 0]) / w_2,
                    line=dict(color='black'),
                    showlegend=False)
-fig = px.scatter(df, color='Class', x='x', y='y')
+fig = px.scatter(df, color='Class', x='x', y='y', height=370)
 # fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
 #                   xaxis={'visible': True, 'showticklabels': False},
                   # xaxis_title=None, yaxis_title=None)
@@ -250,12 +250,12 @@ fig.show()
 ```
 
 ::: {.callout-tip icon="false"}
-### $$w_0$$
+### $w_0$
 ```{python}
 #| echo: false
 from IPython.display import Markdown
-_ = [f'* $$w_0 = {w_0:0.2f}$$',
-     f'* $$w_0 = {w_00:0.2f}$$']
+_ = [f'* $w_0 = {w_0:0.2f}$',
+     f'* $w_0 = {w_00:0.2f}$']
 Markdown('\n'.join(_))
 ```
 :::
@@ -265,6 +265,7 @@ Markdown('\n'.join(_))
 
 ```{python}
 #| echo: false
+#| fig-align: center
 from sklearn.linear_model import LogisticRegression
 df['Class'] = ['P' if i == 0 else 'N' for i in y]
 m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
@@ -293,7 +294,7 @@ point2 = go.Scatter(x=[w_1], y=[w_2],
                   line=dict(color='black'),
                   showlegend=False)
 
-fig = px.scatter(df, color='Class', x='x', y='y')
+fig = px.scatter(df, color='Class', x='x', y='y', height=370)
 # fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
 #                   xaxis={'visible': True, 'showticklabels': False},
                   # xaxis_title=None, yaxis_title=None)
@@ -315,8 +316,7 @@ Markdown('\n'.join(_))
 ```
 :::
 
-
-# Elements 
+# Starting point 
 
 ## Training set
 
@@ -334,6 +334,7 @@ if not isdir('delitos'):
   !unzip -Pingeotec delitos.zip
 ```
 
+::: {style="font-size: 70%; text-align: center;"}
 ```{python}
 #| echo: false
 _ = list(tweet_iterator('delitos/delitos_ingeotec_Es_train.json'))
@@ -344,10 +345,10 @@ D = []
 for a, b in zip(neg, pos):
   D.append(a)
   D.append(b)
-df = pd.DataFrame(D).head()
-df[['text', 'klass']].head(n=5)
+df = pd.DataFrame(D)
+df[['text', 'klass']].head(n=8)
 ```
-
+:::
 
 ## Training set (2) 
 
@@ -359,6 +360,70 @@ The independent variables are **texts**
 
 ::: {.fragment .callout-tip icon=false}
 # Solution
-Represent the **texts** in an amenable format for the classifier
+* Represent the **texts** in an suitable format for the classifier
+  * Token as a vector
+    * Sparse vector
+    * Dense vector
+  * Utterance as a vector
+:::
+
+
+# Text Representation 
+
+## Token as Vector 
+
+::: {.callout-note icon="false"}
+### Token as vector 
+
+* The idea is that each token $t$ is associate to a vector $\mathbf v_t \in \mathbb R^d$
+* Let $\mathcal V$ represent the set composed by the different tokens
+* $d$ corresponds to the dimension of the vector
+:::
+
+::: {.callout-tip icon="false"}
+### $d << \lvert \mathcal V \rvert$ (Dense Vector) 
+
+* GloVe
+* Word2vec
+* fastText
+:::
+
+## Token as Vector (2) 
+
+::: {.callout-note icon="false"}
+### $d = \lvert \mathcal V \rvert$ (Sparse Vector)
+
+* $\forall_{i \neq j} \mathbf v_i \cdot \mathbf v_j = 0$
+* $\mathbf v_i \in \mathbb R^d$
+* $\mathbf v_j \in \mathbb R^d$
+:::
+
+::: {.callout-tip icon="false"}
+### Algorithm 
+
+:::: columns
+
+::: {.column}
+* Sort the vocabulary $\mathcal V$ 
+* Associate $i$-th token  to 
+$$(\ldots, 0, \overbrace{\beta_i}^i, 0, \ldots)^\intercal$$
+:::
+
+::: {.column}
+* where $\beta_i > 0$
+:::
+::: 
+::::
+
+
+## Utterance as Vector 
+
+::: {.callout-note icon="false"}
+### Bag of Words 
+
+$$\mathbf x = \sum_{t \in \mathcal U} \mathbf v_t$$
+
+* where $\mathcal U$ corresponds to all the tokens of the utterance
+* $\mathbf v_t$ is the vector associate to token $t$
 :::
 
