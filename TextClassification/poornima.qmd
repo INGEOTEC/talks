@@ -343,7 +343,7 @@ df[['text', 'klass']].head(n=8)
 ::: {.callout-warning icon="false"}
 ### Question 
 
-Which of the following tasks correspond to the training set shown?
+Which of the following tasks does the previous training set belong to?
 
 1. Polarity
 2. Emotion identification
@@ -712,6 +712,48 @@ tm[text][:4]
 ```
 :::
 
+## Quiz 
+
+::: {.callout-warning icon="false"}
+### Question 
+
+Which of the following representations do you consider to produce a larger vocabulary?
+:::
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### A 
+```{python}
+#| echo: true
+tmA = TextModel(token_list=[-1, 3],
+                num_option=OPTION_NONE,
+                usr_option=OPTION_DELETE,
+                url_option=OPTION_DELETE,
+                emo_option=OPTION_NONE, 
+                lc=True, del_dup=False,
+                del_punc=True,
+                del_diac=True
+               ).fit(training_set)
+```
+:::
+
+::: {.callout-tip icon="false" .column}
+### B 
+```{python}
+#| echo: true
+tmB = TextModel(token_list=[-1, 6],
+                num_option=OPTION_NONE,
+                usr_option=OPTION_DELETE,
+                url_option=OPTION_DELETE,
+                emo_option=OPTION_NONE, 
+                lc=True, del_dup=False,
+                del_punc=True,
+                del_diac=True
+               ).fit(training_set)
+```
+:::
+::::
+
 # Text Classification 
 
 ## Procedure 
@@ -742,7 +784,7 @@ m = LinearSVC(dual='auto').fit(X, labels)
 
 ```{python}
 #| echo: true
-X = tm.transform(['Buenos días']) # good morning
+X = tm.transform(['Buenos días']) # Good morning
 m.predict(X)
 ```
 :::
@@ -778,3 +820,9 @@ np.mean(perf)
 * Explain the geometry of linear classifiers.
 * Use a procedure to represent a text as a vector.
 * Measure the performance of a text classifier.
+  
+::: {.callout-tip icon="false" style="text-align: center;"}
+### Personal webpage
+
+<https://mgraffg.github.io>
+:::
