@@ -694,7 +694,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nSergio Basáñez rompe el silencio tras declarac...\n0\n\n\n1\n#ElCairo: #PatrickZaki, investigador y defenso...\n1\n\n\n2\n¿Cuál es la verdad sobre los cigarrillos elect...\n0\n\n\n3\nDoble asesinato en Dorado. Los cadáveres balea...\n1\n\n\n4\n¡ESTALLARON! Esto fue lo que comentaron los tu...\n0\n\n\n5\n🔴 #CDMX: operativo deriva en enfrentamiento en...\n1\n\n\n6\nDesde FUNDEPRO Tejiendo Redes contra la violen...\n0\n\n\n7\nUn hombre denuncia a su exnovia por ‘romperle’...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nLa orden también afecta a todos los edificios ...\n0\n\n\n1\nCaos en Dallas luego de que hombres armados ma...\n1\n\n\n2\nLa que lleva trpecientosmil años en \"su\" coleg...\n0\n\n\n3\nAmenazas de muerte con armas y persecución: ci...\n1\n\n\n4\nALERTA... ONG StopVIH advierte sobre alarmante...\n0\n\n\n5\nEl Ministerio de Interior y Policía clausuró t...\n1\n\n\n6\nLa seguridad del capitolio be like :\\n\\n#capit...\n0\n\n\n7\n#Seguridad Captura Fiscalía a sujeto probable ...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -834,7 +834,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(56, 7.906890595608518),\n (59, 5.8479969065549495),\n (18, 1.3269461696539864),\n (29, 2.5277907564370796)]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(63, 7.906890595608518),\n (54, 5.8479969065549495),\n (17, 1.3269461696539864),\n (3, 2.5277907564370796)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -844,7 +844,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fb50b46ee00&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f7ed9b58280&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -1256,7 +1256,7 @@
     "href": "TextClassification/poornima.html#training-set",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nन्याय सबके लिए बराबर होना चाहिए, तो क्यों भारत...\nin\n\n\n1\nNa University Main Pyaar Hai Na University Se...\npk\n\n\n2\n_usr Ye kishi BJp shashit rajya me hota .to aa...\nin\n\n\n3\n_usr ब्रह्मचर्य की युक्ति है - पेट हमेशा कब्जर...\nin\n\n\n4\nसमस्‍त देश व प्रदेश वासियों को अपरा एकादशी की ...\nin\n\n\n5\n_usr Is me koi ghalat bat nhy thi wesy.. sahy ...\npk\n\n\n6\nHaq tu hewan kay be hai Dard mai phir be insaa...\npk\n\n\n7\n_usr _usr _usr _usr _usr _usr Mrra qasam da Ya...\npk",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nCritican al gobierno y a la PDI por despliegue...\n0\n\n\n1\nLa Policía Nacional detiene a un hombre con 70...\n1\n\n\n2\n#PRECAUCION al transitar en la Ruta 5 Sur sec...\n0\n\n\n3\nDetenida un mujer por vender droga cerca de va...\n1\n\n\n4\n@RicciuP Jovan Huton Pulitzer, demostró que hu...\n0\n\n\n5\nLa Policía nos confirma la detención de un hom...\n1\n\n\n6\nBuen dia!!! Aqui un ejemplo con las #mariposas...\n0\n\n\n7\nAnciano detenido por abuso sexual en un colect...\n1",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1376,7 +1376,7 @@
     "href": "TextClassification/poornima.html#training-set-1",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\nfrom EvoMSA.utils import Download\nfrom microtc.utils import tweet_iterator\nfrom os.path import isdir, isfile\nimport pandas as pd\nfrom random import shuffle\nURL = 'https://github.com/INGEOTEC/talks/releases/download/Talks/hi-regions.json.zip'\nif not isfile('hi-regions.json.zip'):\n  Download(URL, 'hi-regions.json.zip')\nif not isfile('hi-regions.json'):\n  !unzip -Pingeotec hi-regions.json.zip",
+    "text": "Training set\n\nfrom EvoMSA.utils import Download\nfrom microtc.utils import tweet_iterator\nfrom os.path import isdir, isfile\nimport pandas as pd\nfrom random import shuffle\n\nURL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'\nif not isfile('delitos.zip'):\n  Download(URL,\n           'delitos.zip')\nif not isdir('delitos'):\n  !unzip -Pingeotec delitos.zip",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1386,7 +1386,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-1",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfrom microtc.utils import tweet_iterator\nfname = 'hi-regions.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['_usr', '_usr', 'न्यायालय']\n\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nfrom microtc.utils import Counter\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('_usr', 4936), ('_url', 2483), ('hai', 2097)]",
+    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfrom microtc.utils import tweet_iterator\nfname = 'delitos/delitos_ingeotec_Es_train.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['este', 'caso', 'tiene']\n\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nfrom microtc.utils import Counter\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('de', 980), ('en', 803), ('la', 653)]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1396,7 +1396,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-2",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(99, 10.186998514801255),\n (101, 6.865070419913892),\n (97, 9.534921818221562),\n (102, 1.9602422907622667)]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(51, 7.906890595608518),\n (54, 5.8479969065549495),\n (25, 1.3269461696539864),\n (30, 2.5277907564370796)]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1406,7 +1406,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-3",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f149c3bedd0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(37184, 0.4513023840121038),\n (11797, 0.1370898601008751),\n (12904, 0.130115819842651),\n (25850, 0.347110424126211)]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f4fac7136d0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1426,7 +1426,7 @@
     "href": "TextClassification/poornima.html#procedure-1",
     "title": "Sentiment Analysis",
     "section": "Procedure",
-    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nfrom sklearn.svm import LinearSVC\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # Good morning\nm.predict(X)\n\narray(['pk'], dtype='&lt;U2')",
+    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nfrom sklearn.svm import LinearSVC\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray([0])",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1436,7 +1436,7 @@
     "href": "TextClassification/poornima.html#performance",
     "title": "Sentiment Analysis",
     "section": "Performance",
-    "text": "Performance\n\nfrom sklearn.model_selection import KFold\nfrom sklearn.metrics import recall_score\n\nkfold = KFold(n_splits=5, shuffle=True, random_state=1)\nperf = []\nfor tr, vs in kfold.split(training_set):\n    train = [training_set[i] for i in tr]\n    val = [training_set[i] for i in vs]\n    tm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                   usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                   emo_option=OPTION_NONE, lc=True, del_dup=False,\n                   del_punc=True, del_diac=True).fit(train)\n    labels = [x['klass'] for x in train]\n    m = LinearSVC(dual='auto').fit(tm.transform(train), labels)\n    hy = m.predict(tm.transform(val))\n    _ = recall_score([x['klass'] for x in val], hy, average='macro')\n    perf.append(_)\nnp.mean(perf)\n\n0.9217665942472857",
+    "text": "Performance\n\nfrom sklearn.model_selection import KFold\nfrom sklearn.metrics import recall_score\n\nkfold = KFold(n_splits=5, shuffle=True, random_state=1)\nperf = []\nfor tr, vs in kfold.split(training_set):\n    train = [training_set[i] for i in tr]\n    val = [training_set[i] for i in vs]\n    tm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                   usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                   emo_option=OPTION_NONE, lc=True, del_dup=False,\n                   del_punc=True, del_diac=True).fit(train)\n    labels = [x['klass'] for x in train]\n    m = LinearSVC(dual='auto').fit(tm.transform(train), labels)\n    hy = m.predict(tm.transform(val))\n    _ = recall_score([x['klass'] for x in val], hy, average='macro')\n    perf.append(_)\nnp.mean(perf)\n\n0.8200309412585819",
     "crumbs": [
       "Sentiment Analysis"
     ]
