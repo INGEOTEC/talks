@@ -345,6 +345,20 @@ df[['text', 'klass']].head(n=8)
 ```
 :::
 
+
+## Quiz 
+
+::: {.callout-warning icon="false"}
+### Question 
+
+Which of the following tasks does the previous training set belong to?
+
+1. Polarity
+2. Emotion identification
+3. Aggressive detection
+4. Profiling
+:::
+
 ## Training set (2) 
 
 ::: {.callout-note icon=false}
@@ -707,6 +721,48 @@ text = training_set[3]['text']
 tm[text][:4]
 ```
 :::
+
+## Quiz 
+
+::: {.callout-warning icon="false"}
+### Question 
+
+Which of the following representations do you consider to produce a larger vocabulary?
+:::
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### A 
+```{python}
+#| echo: true
+tmA = TextModel(token_list=[-1, 3],
+                num_option=OPTION_NONE,
+                usr_option=OPTION_DELETE,
+                url_option=OPTION_DELETE,
+                emo_option=OPTION_NONE, 
+                lc=True, del_dup=False,
+                del_punc=True,
+                del_diac=True
+               ).fit(training_set)
+```
+:::
+
+::: {.callout-tip icon="false" .column}
+### B 
+```{python}
+#| echo: true
+tmB = TextModel(token_list=[-1, 6],
+                num_option=OPTION_NONE,
+                usr_option=OPTION_DELETE,
+                url_option=OPTION_DELETE,
+                emo_option=OPTION_NONE, 
+                lc=True, del_dup=False,
+                del_punc=True,
+                del_diac=True
+               ).fit(training_set)
+```
+:::
+::::
 
 # Text Classification 
 
