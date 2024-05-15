@@ -26,6 +26,47 @@ format:
 
 ## INGEOTEC
 
+```{python}
+#| include: false
+from EvoMSA.utils import Download
+from microtc.utils import tweet_iterator
+from microtc import TextModel
+from microtc.utils import Counter
+from microtc.params import OPTION_GROUP, OPTION_DELETE, OPTION_NONE
+from CompStats import StatisticSamples
+
+from sklearn import decomposition
+from sklearn.datasets import load_iris
+from sklearn.svm import LinearSVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import KFold
+from sklearn.metrics import recall_score
+
+from matplotlib import pylab as plt
+from wordcloud import WordCloud
+import plotly.express as px
+import plotly.graph_objects as go
+from IPython.display import Markdown
+
+import unicodedata
+from random import shuffle
+from os.path import isdir, isfile
+import re
+
+import pandas as pd
+import numpy as np
+```
+
+```{python} 
+#| include: false
+
+URL = 'https://github.com/INGEOTEC/talks/releases/download/Talks/emoji_text.ttf.zip'
+if not isfile('emoji_text.ttf.zip'):
+  Download(URL, 'emoji_text.ttf.zip')
+if not isfile('emoji_text.ttf'):
+  !unzip -Pingeotec emoji_text.ttf.zip
+```
+
 ![](../IberLEF2023/ingeotec-cuatro.png){width=200}
 
 ::: {style="font-size: 70%; text-align: center;"}  
@@ -41,53 +82,59 @@ WebPage: <https://ingeotec.github.io/>
 
 ## Text Classification
 
-::: {.callout-note icon=false}
-## Definition
+::: {.callout-note icon=false} 
+### Definition 
+
 The aim is the **classification** of **documents** into a fixed number of predefined categories. 
 ::: 
 
-::: {.callout-tip icon=false}
-## Polarity
+::: {.callout-tip icon=false} 
+### Polarity 
 El día de mañana no podré ir con ustedes a la librería
 :::
 
-::: {.fragment style="font-size: 100%; text-align: center;"}
+::: {.fragment style="font-size: 100%; text-align: center;"} 
 **Negative**
 :::
 
-## Text Classification Tasks
+## Text Classification Tasks 
 
-::: {.callout-tip icon=false}
-## Polarity
+::: {.callout-tip icon=false} 
+### Polarity 
 Positive, Negative, Neutral
 :::
 
-::: {.callout-tip icon=false}
-## Emotion (Multiclass)
+::: {.callout-tip icon=false} 
+### Emotion (Multiclass) 
+
 * Anger, Joy, ...
 * Intensity of an emotion
 :::
 
-::: {.callout-tip icon=false}
-## Event (Binary)
+::: {.callout-tip icon=false} 
+### Event (Binary) 
+
 * Violent
 * Crime
 :::
 
 ## Profiling
 
-::: {.callout-tip icon=false}
-## Gender
+::: {.callout-tip icon=false} 
+### Gender 
+
 Man, Woman, Nonbinary, ...   
 :::
 
-::: {.callout-tip icon=false}
-## Age
+::: {.callout-tip icon=false} 
+### Age 
+
 Child, Teen, Adult
 :::
 
-::: {.callout-tip icon=false}
-## Language Variety
+::: {.callout-tip icon=false} 
+### Language Variety 
+
 * Spanish: Spain, Cuba, Argentine, México, ...
 * English: United States, England, ...
 :::
@@ -96,28 +143,24 @@ Child, Teen, Adult
 
 ## Machine Learning 
 
-::: {.callout-note icon=false}
-### Definition
+::: {.callout-note icon=false} 
+### Definition 
+
 Machine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.
 :::
 
-::: {.callout-note icon=false}
-### Types of ML algorithms
+::: {.callout-note icon=false} 
+### Types of ML algorithms 
+
 * Unsupervised Learning
 * Supervised Learning
 * Reinforcement Learning
 :::
 
 ## Supervised Learning (Multiclass) 
+
 ```{python}
 #| echo: false
-import plotly.express as px
-import plotly.graph_objects as go
-from sklearn import decomposition
-from sklearn.datasets import load_iris
-from sklearn.svm import LinearSVC
-import pandas as pd
-import numpy as np
 
 D, y = load_iris(return_X_y=True)
 pca = decomposition.PCA(n_components=2).fit(D)
@@ -167,16 +210,16 @@ fig.add_trace(line)
 fig.show()
 ```
 
-::: {.fragment .callout-tip icon="false"}
-### Decision function
+::: {.fragment .callout-tip icon="false"} 
+### Decision function 
 ```{python}
 #| echo: false
-from IPython.display import Markdown
+
 Markdown(f'$g(\mathbf x) = {w_1:0.2f} x_1 + {w_2:0.2f} x_2 + {w_0:0.2f}$')
 ```
 :::
 
-## Supervised Learning (Geometry)
+## Supervised Learning (Geometry) 
 
 ```{python}
 #| echo: false
@@ -202,16 +245,17 @@ fig.add_trace(point)
 fig.show()
 ```
 
-::: {.callout-tip icon="false"}
-### Decision function
-```{python}
+::: {.callout-tip icon="false"} 
+### Decision function 
+
+```{python} 
 #| echo: false
-from IPython.display import Markdown
+
 Markdown(f'$g(\mathbf x) = {w_1:0.2f} x_1 + {w_2:0.2f} x_2 + {w_0:0.2f}$')
-```
+``` 
 :::
 
-## Supervised Learning (Geometry 2)
+## Supervised Learning (Geometry 2) 
 
 ```{python}
 #| echo: false
@@ -244,23 +288,24 @@ fig.add_trace(point)
 fig.show()
 ```
 
-::: {.callout-tip icon="false"}
-### $w_0$
+::: {.callout-tip icon="false"} 
+### $w_0$ 
+
 ```{python}
 #| echo: false
-from IPython.display import Markdown
+
 _ = [f'* $w_0 = {w_0:0.2f}$',
      f'* $w_0 = {w_00:0.2f}$']
 Markdown('\n'.join(_))
 ```
 :::
 
-## Supervised Learning (Geometry 3)
+## Supervised Learning (Geometry 3) 
 
 ```{python}
 #| echo: false
 #| fig-align: center
-from sklearn.linear_model import LogisticRegression
+
 df['Class'] = ['P' if i == 0 else 'N' for i in y]
 m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
 w_1, w_2 = m.coef_[0]
@@ -298,16 +343,17 @@ fig.add_trace(line2)
 fig.add_trace(point1)
 fig.add_trace(point2)
 fig.show()  
-```
+``` 
 
-::: {.callout-tip icon="false"}
-### Decision function
+::: {.callout-tip icon="false"} 
+### Decision function 
+
 ```{python}
 #| echo: false
-from IPython.display import Markdown
+
 _ = [eq1, eq2]
 Markdown('\n'.join(_))
-```
+``` 
 :::
 
 # Starting point 
@@ -316,11 +362,7 @@ Markdown('\n'.join(_))
 
 ```{python}
 #| include: false
-from EvoMSA.utils import Download
-from microtc.utils import tweet_iterator
-from os.path import isdir, isfile
-import pandas as pd
-from random import shuffle
+
 if not isfile('delitos.zip'):
   Download('https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip',
            'delitos.zip')
@@ -332,6 +374,7 @@ if not isdir('delitos'):
 ::: {style="font-size: 70%; text-align: center;"}
 ```{python}
 #| echo: false
+
 _ = list(tweet_iterator('delitos/delitos_ingeotec_Es_train.json'))
 shuffle(_)
 neg = [x for x in _ if x['klass']==0]
@@ -348,12 +391,12 @@ df[['text', 'klass']].head(n=8)
 
 ## Quiz 
 
-::: {.callout-warning icon="false"}
+::: {.callout-warning icon="false"} 
 ### Question 
 
 Which of the following tasks does the previous training set belong to?
 
-1. Polarity
+1. Polarity 
 2. Emotion identification
 3. Aggressive detection
 4. Profiling
@@ -361,25 +404,26 @@ Which of the following tasks does the previous training set belong to?
 
 ## Training set (2) 
 
-::: {.callout-note icon=false}
-### Problem
+::: {.callout-note icon=false} 
+### Problem 
 The independent variables are **texts**
 :::
 
-::: {.fragment .callout-tip icon=false}
-### Solution
+::: {.fragment .callout-tip icon=false} 
+### Solution 
+
 * Represent the **texts** in an suitable format for the classifier
-  * Token as a vector
-    * Sparse vector
-    * Dense vector
-  * Utterance as a vector
+* Token as a vector
+* Sparse vector
+* Dense vector
+* Utterance as a vector
 :::
 
 # Text Representation 
 
 ## Token as Vector 
 
-::: {.callout-note icon="false"}
+::: {.callout-note icon="false"} 
 ### Token as vector 
 
 * The idea is that each token $t$ is associate to a vector $\mathbf v_t \in \mathbb R^d$
@@ -387,7 +431,7 @@ The independent variables are **texts**
 * $d$ corresponds to the dimension of the vector
 :::
 
-::: {.fragment .callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false"} 
 ### $d << \lvert \mathcal V \rvert$ (Dense Vector) 
 
 * GloVe
@@ -397,7 +441,7 @@ The independent variables are **texts**
 
 ## Token as Vector (2) 
 
-::: {.callout-note icon="false"}
+::: {.callout-note icon="false"} 
 ### $d = \lvert \mathcal V \rvert$ (Sparse Vector)
 
 * $\forall_{i \neq j} \mathbf v_i \cdot \mathbf v_j = 0$
@@ -405,24 +449,24 @@ The independent variables are **texts**
 * $\mathbf v_j \in \mathbb R^d$
 :::
 
-::: {.fragment .callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false"} 
 ### Algorithm 
 
-* Sort the vocabulary $\mathcal V$ 
-* Associate $i$-th token  to 
+* Sort the vocabulary $\mathcal V$
+* Associate $i$-th token to
 * $(\ldots, 0, \overbrace{\beta_i}^i, 0, \ldots)^\intercal$
 * where $\beta_i > 0$
 :::
 
+
 ## Utterance as Vector 
 
-::: {.callout-note icon="false"}
+::: {.callout-note icon="false"} 
 ### Procedure 
-
-$$\mathbf x = \sum_{t \in \mathcal U} \mathbf{v}_t$$
+$$\mathbf x = \sum_{t \in \mathcal U} \mathbf{v}_t$$ 
 
 * where $\mathcal{U}$ corresponds to all the tokens of the utterance
-* The vector $\mathbf{v}_t$ is associated to token $t$
+* The vector $\mathbf{v}_t$ is associated to token $t$ 
 :::
 
 ::: {.callout-tip icon="false" .fragment} 
@@ -434,7 +478,7 @@ $$\mathbf x = \frac{\sum_{t \in \mathcal U} \mathbf v_t}{\lVert \sum_{t \in \mat
 
 ## Tokens 
 
-```{mermaid}
+```{mermaid} 
 %%| echo: false
 %%| fig-align: center
 
@@ -444,9 +488,9 @@ flowchart LR
     Seg --> Terminos(...)
 ```
 
-:::: {.columns}
-::: {.fragment .callout-tip icon="false" .column width=40%}
-### Text Normalization
+:::: {.columns} 
+::: {.fragment .callout-tip icon="false" .column width=40%} 
+### Text Normalization 
 
 * User
 * URL
@@ -455,12 +499,13 @@ flowchart LR
 * Punctuation
 * Diacritic
 :::
-::: {.fragment .callout-tip icon="false" .column}
+
+::: {.fragment .callout-tip icon="false" .column} 
 ### Diacritic (remove) 
 
 ```{python}
 #| echo: true
-import unicodedata
+
 text = 'México'
 output = ""
 for x in unicodedata.normalize('NFD', text):
@@ -478,25 +523,27 @@ output
 ::: {.callout-tip icon="false"} 
 ### Case sensitive 
 
-```{python}
+```{python} 
 #| echo: true
+
 text = "México"
 output = text.lower()
 output
-```
-:::
+``` 
+::: 
 
 ::: {.callout-tip icon="false"} 
 ### User (replace) 
 
-```{python}
+```{python} 
 #| echo: true
-import re
+
 text = "go http://google.com, and find out"
 output = re.sub(r"https?://\S+", "_usr", text)
 output
-```
-:::
+``` 
+::: 
+
 
 ## Tokenizer 
 
@@ -514,6 +561,7 @@ output
 
 ```{python}
 #| echo: true
+
 text = 'I like playing football on Saturday'
 words = text.split()
 words
@@ -528,6 +576,7 @@ words
 
 ```{python}
 #| echo: true
+
 text = 'I like playing football on Saturday'
 words = text.split()
 n = 3
@@ -542,6 +591,7 @@ n_grams
 
 ```{python}
 #| echo: true
+
 text = 'I like playing'
 q = 4
 q_grams = []
@@ -559,9 +609,7 @@ q_grams
 
 ```{python}
 #| echo: true
-from microtc import TextModel
-from microtc.params import OPTION_GROUP,\
-  OPTION_DELETE, OPTION_NONE
+
 tm = TextModel(token_list=[-1],
                num_option=OPTION_NONE,
                usr_option=OPTION_DELETE,
@@ -576,6 +624,7 @@ tm = TextModel(token_list=[-1],
 ::: {.fragment}
 ```{python}
 #| echo: true
+
 text = 'I like playing football with @mgraffg'
 tm.tokenize(text)
 ```
@@ -589,6 +638,7 @@ tm.tokenize(text)
 
 ```{python}
 #| echo: true
+
 tm = TextModel(token_list=[-2, -1, 6],
                num_option=OPTION_NONE,
                usr_option=OPTION_DELETE,
@@ -601,6 +651,7 @@ tm = TextModel(token_list=[-2, -1, 6],
 ::: {.fragment .column}
 ```{python}
 #| echo: true
+
 text = 'I like playing...'
 tm.tokenize(text)
 ```
@@ -611,11 +662,6 @@ tm.tokenize(text)
 
 ```{python}
 #| echo: true
-from EvoMSA.utils import Download
-from microtc.utils import tweet_iterator
-from os.path import isdir, isfile
-import pandas as pd
-from random import shuffle
 
 URL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'
 if not isfile('delitos.zip'):
@@ -633,6 +679,7 @@ if not isdir('delitos'):
 
 ```{python}
 #| echo: true
+
 tm = TextModel(token_list=[-1],
                num_option=OPTION_NONE,
                usr_option=OPTION_DELETE,
@@ -648,7 +695,7 @@ tm = TextModel(token_list=[-1],
 
 ```{python}
 #| echo: true
-from microtc.utils import tweet_iterator
+
 fname = 'delitos/delitos_ingeotec_Es_train.json'
 training_set = list(tweet_iterator(fname))
 tm.tokenize(training_set[0])[:3]
@@ -661,7 +708,7 @@ tm.tokenize(training_set[0])[:3]
 
 ```{python} 
 #| echo: true
-from microtc.utils import Counter
+
 voc = Counter()
 for text in training_set:
   tokens = set(tm.tokenize(text))
@@ -678,6 +725,7 @@ voc.most_common(n=3)
 
 ```{python}
 #| echo: true
+
 token2id = {}
 token2beta = {}
 N = np.log2(voc.update_calls)
@@ -691,6 +739,7 @@ for id, (k, n) in enumerate(voc.items()):
 ### Term Frequency - IDF
 ```{python} 
 #| echo: true
+
 text = training_set[3]['text']
 tokens = tm.tokenize(text)
 vector = []
@@ -709,6 +758,7 @@ vector[:4]
 
 ```{python}
 #| echo: true
+
 tm.fit(training_set)
 ```               
 :::
@@ -717,6 +767,7 @@ tm.fit(training_set)
 ### Utterance as Vector 
 ```{python} 
 #| echo: true
+
 text = training_set[3]['text']
 tm[text][:4]
 ```
@@ -731,7 +782,7 @@ Which of the following representations do you consider to produce a larger vocab
 :::
 
 :::: {.columns}
-::: {.callout-tip icon="false" .column}
+::: {.callout-warning icon="false" .column}
 ### A 
 ```{python}
 #| echo: true
@@ -747,9 +798,10 @@ tmA = TextModel(token_list=[-1, 3],
 ```
 :::
 
-::: {.callout-tip icon="false" .column}
+::: {.callout-warning icon="false" .column}
 ### B 
 ```{python}
+
 #| echo: true
 tmB = TextModel(token_list=[-1, 6],
                 num_option=OPTION_NONE,
@@ -768,32 +820,39 @@ tmB = TextModel(token_list=[-1, 6],
 
 ## Procedure 
 
-::: {.callout-tip icon="false"}
+::: {.callout-tip icon="false"} 
 ### Text as Vectors 
 
 ```{python}
 #| echo: true
+
+tm = TextModel(token_list=[-1], num_option=OPTION_NONE,
+                usr_option=OPTION_DELETE, url_option=OPTION_DELETE,
+                emo_option=OPTION_NONE, lc=True, del_dup=False,
+                del_punc=True, del_diac=True
+               ).fit(training_set)
 X = tm.transform(training_set)
 ```
 :::
 
-::: {.fragment .callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false"} 
 ### Training a Classifier 
 
 ```{python}
 #| echo: true
-from sklearn.svm import LinearSVC
+
 labels = [x['klass'] for x in training_set]
 m = LinearSVC(dual='auto').fit(X, labels)
 ```
 :::
 
 
-::: {.fragment .callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false"} 
 ### Predict a text 
 
 ```{python}
 #| echo: true
+
 X = tm.transform(['Buenos días']) # good morning
 m.predict(X)
 ```
@@ -802,27 +861,89 @@ m.predict(X)
 
 ## Performance 
 
+::: {.callout-tip icon="false"} 
+### Test set 
+
+```{python} 
+#| echo: true
+
+test_set = list(tweet_iterator(fname.replace('_train.', '_test.')))
+``` 
+::: 
+
+::: {.callout-tip icon="false"} 
+### Prediction 
+
 ```{python}
 #| echo: true
-from sklearn.model_selection import KFold
-from sklearn.metrics import recall_score
 
-kfold = KFold(n_splits=5, shuffle=True, random_state=1)
-perf = []
-for tr, vs in kfold.split(training_set):
-    train = [training_set[i] for i in tr]
-    val = [training_set[i] for i in vs]
-    tm = TextModel(token_list=[-1], num_option=OPTION_NONE,
-                   usr_option=OPTION_DELETE, url_option=OPTION_DELETE,
-                   emo_option=OPTION_NONE, lc=True, del_dup=False,
-                   del_punc=True, del_diac=True).fit(train)
-    labels = [x['klass'] for x in train]
-    m = LinearSVC(dual='auto').fit(tm.transform(train), labels)
-    hy = m.predict(tm.transform(val))
-    _ = recall_score([x['klass'] for x in val], hy, average='macro')
-    perf.append(_)
-np.mean(perf)
+tm = TextModel(token_list=[-1], num_option=OPTION_NONE,
+               usr_option=OPTION_DELETE, url_option=OPTION_DELETE,
+               emo_option=OPTION_NONE, lc=True, del_dup=False,
+               del_punc=True, del_diac=True
+              ).fit(training_set)
+X = tm.transform(training_set)
+labels = np.array([x['klass'] for x in training_set])
+m = LinearSVC(dual='auto').fit(X, labels)
+hy = m.predict(tm.transform(test_set))
+``` 
+:::
+
+::: {.callout-tip icon="false"} 
+### Performance 
+
+```{python} 
+#| echo: true
+
+recall_score([x['klass'] for x in test_set],
+             hy, average='macro')
 ```
+:::
+
+## Feature Weights  
+
+```{python} 
+#| echo: true
+
+def coef(X, y):
+    m = LinearSVC(dual='auto',
+                  class_weight='balanced'
+                 ).fit(X, y)
+    return m.coef_
+```
+
+```{python} 
+#| echo: true
+
+stats = StatisticSamples(statistic=coef,
+                         num_samples=50,
+                         n_jobs=-1)
+b_samples = stats(X, labels)
+se = np.std(b_samples, axis=0)
+se[se==0] = 1
+w_norm = m.coef_ / se
+w_norm = np.linalg.norm(w_norm, axis=0)
+```
+
+## Wordcloud 
+
+```{python} 
+#| echo: true
+#| output-location: slide
+#| fig-pos: center
+
+path = './emoji_text.ttf'
+items = tm.token_weight.items
+tokens = {tm.id2token[id]: w_norm[id] * _w for id, _w in items()
+          if w_norm[id] >= 2.0 and np.isfinite(w_norm[id])}
+word_cloud = WordCloud(font_path=path,
+                       background_color='white'
+                      ).generate_from_frequencies(tokens)
+plt.imshow(word_cloud, interpolation='bilinear')
+plt.tick_params(left=False, right=False, labelleft=False,
+                   labelbottom=False, bottom=False)
+```
+
 
 # Conclusions 
 
