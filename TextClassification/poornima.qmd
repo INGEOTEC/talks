@@ -322,21 +322,30 @@ from microtc.utils import tweet_iterator
 from os.path import isdir, isfile
 import pandas as pd
 from random import shuffle
-if not isfile('hi-regions.json.zip'):
-  Download('https://github.com/INGEOTEC/talks/releases/download/Talks/hi-regions.json.zip', 'hi-regions.json.zip')
-if not isfile('hi-regions.json'):
-  !unzip -Pingeotec hi-regions.json.zip
+if not isfile('delitos.zip'):
+  Download('https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip',
+           'delitos.zip')
+if not isdir('delitos'):
+  !unzip -Pingeotec delitos.zip
+''
 ```
 
 ::: {style="font-size: 70%; text-align: center;"}
 ```{python}
 #| echo: false
-D = list(tweet_iterator('hi-regions.json'))
-shuffle(D)
+_ = list(tweet_iterator('delitos/delitos_ingeotec_Es_train.json'))
+shuffle(_)
+neg = [x for x in _ if x['klass']==0]
+pos = [x for x in _ if x['klass']==1]
+D = []
+for a, b in zip(neg, pos):
+  D.append(a)
+  D.append(b)
 df = pd.DataFrame(D)
 df[['text', 'klass']].head(n=8)
 ```
 :::
+
 
 ## Quiz 
 
@@ -608,11 +617,13 @@ from microtc.utils import tweet_iterator
 from os.path import isdir, isfile
 import pandas as pd
 from random import shuffle
-URL = 'https://github.com/INGEOTEC/talks/releases/download/Talks/hi-regions.json.zip'
-if not isfile('hi-regions.json.zip'):
-  Download(URL, 'hi-regions.json.zip')
-if not isfile('hi-regions.json'):
-  !unzip -Pingeotec hi-regions.json.zip
+
+URL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'
+if not isfile('delitos.zip'):
+  Download(URL,
+           'delitos.zip')
+if not isdir('delitos'):
+  !unzip -Pingeotec delitos.zip
 ```
 
 ## Utterance as Vector 
@@ -639,7 +650,7 @@ tm = TextModel(token_list=[-1],
 ```{python}
 #| echo: true
 from microtc.utils import tweet_iterator
-fname = 'hi-regions.json'
+fname = 'delitos/delitos_ingeotec_Es_train.json'
 training_set = list(tweet_iterator(fname))
 tm.tokenize(training_set[0])[:3]
 ```
@@ -784,7 +795,7 @@ m = LinearSVC(dual='auto').fit(X, labels)
 
 ```{python}
 #| echo: true
-X = tm.transform(['Buenos días']) # Good morning
+X = tm.transform(['Buenos días']) # good morning
 m.predict(X)
 ```
 :::
