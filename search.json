@@ -124,7 +124,7 @@
     "href": "TextClassification/poornima.html#training-set",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nLa Comunidad de Madrid de #AyusoDimision recor...\n0\n\n\n1\n.En Guacara fue abatido hombre que se resistió...\n1\n\n\n2\nUrgente urgente\n0\n\n\n3\nPatrulla mata implicado en asesinato de raso p...\n1\n\n\n4\n@Yo_Soy_Asin BANDO DE HIJOS DE PUTA .... NAZIS...\n0\n\n\n5\nÚLTIMA HORA | Por asesinato, asesinato en grad...\n1\n\n\n6\nEl ojo en la mirilla, el dedo acariciando el g...\n0\n\n\n7\nAcusado de bombazos en EE.UU. era violento y f...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nDel Califa de Dios y Su sirviente AlMahdi al E...\n0\n\n\n1\n#30Nov el @GNB_SucreDVC, en el sector Rincón ...\n1\n\n\n2\nEl fiscal de Chubut Fernando Rivarola denomina...\n0\n\n\n3\nDescubren y clausuran un rastro clandestino qu...\n1\n\n\n4\n@GuarioCandanga ¿Cómo llama a los manifestante...\n0\n\n\n5\nCapturan a otras tres personas vinculadas a mi...\n1\n\n\n6\nAhora en Carchuna 18,8ºC, humedad 72% con vien...\n0\n\n\n7\nPersecución de película con cinco detenidos tr...\n1",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -264,7 +264,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-2",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(58, 7.906890595608518),\n (54, 5.8479969065549495),\n (13, 1.3269461696539864),\n (34, 2.5277907564370796)]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(57, 7.906890595608518),\n (60, 5.8479969065549495),\n (27, 1.3269461696539864),\n (22, 2.5277907564370796)]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -274,7 +274,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-3",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f264833b400&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f2d7df67f40&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1626,7 +1626,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nMuchos años de cárcel para este asesino! https...\n0\n\n\n1\nEn pleno centro ejecutaron a un hombre https:/...\n1\n\n\n2\nLean: Adolf Hitler: así fue su suicidio, hace ...\n0\n\n\n3\nDETENIDOS DELINCUENTES QUE INTENTARON ROBAR CA...\n1\n\n\n4\n@fernandosolanas @felipe_sola @vikidonda @alfe...\n0\n\n\n5\nEl sujeto hallado moribundo dentro un tinaco a...\n1\n\n\n6\n#CacerolazoContraLaImpunidad\\n#TremendoCacerol...\n0\n\n\n7\nAsesinan por celos a mujer en el interior de u...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@CayetanoElRey @SrLiberal @DavidVisus La polic...\n0\n\n\n1\n🔴#ATENCIÓN | Cámara de seguridad capta el mome...\n1\n\n\n2\n@jetbIackzayn Fernando García — Élite\n0\n\n\n3\nTres hombres fueron detenidos en Acapulco en p...\n1\n\n\n4\n@24HorasTVN El camión no chocó con la benciner...\n0\n\n\n5\n“La desaparición de Maurice Audin durante la g...\n1\n\n\n6\nEl Puerto de Algeciras acaba de superar por 5º...\n0\n\n\n7\n#femicidio Asesinaron a una joven de 14 años e...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -1696,7 +1696,7 @@
     "href": "TextClassification/general.html#text-normalization-1",
     "title": "Text Classification",
     "section": "Text Normalization",
-    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nUser (replace)\n\n\n\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_usr\", text)\noutput\n\n'go _usr and find out'",
+    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nURL (replace)\n\n\n\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_url\", text)\noutput\n\n'go _url and find out'",
     "crumbs": [
       "Text Classification"
     ]
@@ -1766,7 +1766,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(52, 7.906890595608518),\n (63, 5.8479969065549495),\n (32, 1.3269461696539864),\n (37, 2.5277907564370796)]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(63, 7.906890595608518),\n (59, 5.8479969065549495),\n (9, 1.3269461696539864),\n (13, 2.5277907564370796)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -1776,7 +1776,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fe76d78e740&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f2ceb761390&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -1806,7 +1806,7 @@
     "href": "TextClassification/general.html#performance",
     "title": "Text Classification",
     "section": "Performance",
-    "text": "Performance\n\n\n\nTest set\n\n\n\ntest_set = list(tweet_iterator(fname.replace('_train.', '_test.')))\n\n\n\n\n\n\n\nPrediction\n\n\n\ntm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, lc=True, del_dup=False,\n               del_punc=True, del_diac=True\n              ).fit(training_set)\nX = tm.transform(training_set)\nlabels = np.array([x['klass'] for x in training_set])\nm = LinearSVC(dual='auto').fit(X, labels)\nhy = m.predict(tm.transform(test_set))\n\n\n\n\n\n\n\nPerformance\n\n\n\nrecall_score([x['klass'] for x in test_set],\n             hy, average='macro')\n\n0.7792809488510007",
+    "text": "Performance\n\n\n\nTest set\n\n\n\ntest_set = list(tweet_iterator(fname.replace('_train.', '_test.')))\n\n\n\n\n\n\n\nPrediction\n\n\n\ntm = TextModel(token_list=[-2, -1, 3, 4], num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, lc=True, del_dup=False,\n               del_punc=True, del_diac=True\n              ).fit(training_set)\nX = tm.transform(training_set)\nlabels = np.array([x['klass'] for x in training_set])\nm = LinearSVC(dual='auto', class_weight='balanced').fit(X, labels)\nhy = m.predict(tm.transform(test_set))\n\n\n\n\n\n\n\nPerformance\n\n\n\nrecall_score([x['klass'] for x in test_set],\n             hy, average=None)\n\narray([0.95070423, 0.68421053])",
     "crumbs": [
       "Text Classification"
     ]
