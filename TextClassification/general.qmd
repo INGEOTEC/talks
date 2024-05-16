@@ -900,7 +900,10 @@ recall_score([x['klass'] for x in test_set],
 ```
 :::
 
-## Feature Weights  
+## Feature Importance 
+
+::: {.callout-tip icon="false"} 
+### Coefficients 
 
 ```{python} 
 #| echo: true
@@ -911,6 +914,10 @@ def coef(X, y):
                  ).fit(X, y)
     return m.coef_
 ```
+:::
+
+::: {.callout-tip icon="false"} 
+### Normalize Coefficients 
 
 ```{python} 
 #| echo: true
@@ -924,9 +931,12 @@ se[se==0] = 1
 w_norm = m.coef_ / se
 w_norm = np.linalg.norm(w_norm, axis=0)
 ```
+:::
 
-## Wordcloud 
+## Feature Importance (2)  
 
+::: {.callout-tip icon="false"} 
+### Wordcloud 
 ```{python} 
 #| echo: true
 #| output-location: slide
@@ -943,6 +953,7 @@ plt.imshow(word_cloud, interpolation='bilinear')
 plt.tick_params(left=False, right=False, labelleft=False,
                    labelbottom=False, bottom=False)
 ```
+:::
 
 
 # Conclusions 
