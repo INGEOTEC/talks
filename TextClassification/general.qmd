@@ -472,9 +472,10 @@ $$\mathbf x = \sum_{t \in \mathcal U} \mathbf{v}_t$$
 ::: {.callout-tip icon="false" .fragment} 
 ### Unit Vector 
 
-$$\mathbf x = \frac{\sum_{t \in \mathcal U} \mathbf v_t}{\lVert \sum_{t \in \mathcal U} \mathbf v_t \rVert} $$ 
+$$\mathbf x = \frac{\sum_{t \in \mathcal U} \mathbf v_t}{\lVert \sum_{t \in \mathcal U} \mathbf v_t \rVert} $$
+:::
 
-::: 
+# Sparse Representation 
 
 ## Tokens 
 
@@ -486,10 +487,11 @@ flowchart LR
     Entrada([Text]) -->  Norm[Text Normalizer]
     Norm --> Seg[Tokenizer]
     Seg --> Terminos(...)
-```
+``` 
 
 :::: {.columns} 
-::: {.fragment .callout-tip icon="false" .column width=40%} 
+
+::: {.fragment .callout-note icon="false" .column width=40%} 
 ### Text Normalization 
 
 * User
@@ -503,7 +505,7 @@ flowchart LR
 ::: {.fragment .callout-tip icon="false" .column} 
 ### Diacritic (remove) 
 
-```{python}
+```{python} 
 #| echo: true
 
 text = 'México'
@@ -533,21 +535,22 @@ output
 ::: 
 
 ::: {.callout-tip icon="false"} 
-### User (replace) 
+### URL (replace) 
 
 ```{python} 
 #| echo: true
 
 text = "go http://google.com, and find out"
-output = re.sub(r"https?://\S+", "_usr", text)
+output = re.sub(r"https?://\S+", "_url", text)
 output
 ``` 
-::: 
+
+:::
 
 
 ## Tokenizer 
 
-::: {.callout-note icon="false"}
+::: {.callout-note icon="false"} 
 ### Common Types 
 
 * Words
@@ -556,7 +559,7 @@ output
 * skip-grams
 :::
 
-::: {.fragment .callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false"} 
 ### Words 
 
 ```{python}
@@ -568,10 +571,10 @@ words
 ```
 :::
 
-## Tokenizer (2)
+## Tokenizer (2) 
 
-:::: {.columns}
-::: {.callout-tip icon="false" .column}
+:::: {.columns} 
+::: {.callout-tip icon="false" .column} 
 ### n-grams 
 
 ```{python}
@@ -586,7 +589,8 @@ for a in zip(*[words[i:] for i in range(n)]):
 n_grams
 ```
 :::
-::: {.fragment .callout-tip icon="false" .column}
+
+::: {.fragment .callout-tip icon="false" .column} 
 ### q-grams 
 
 ```{python}
@@ -604,7 +608,7 @@ q_grams
 
 ## $\mu$-TC 
 
-::: {.callout-tip icon="false"}
+::: {.callout-tip icon="false"} 
 ### TextModel 
 
 ```{python}
@@ -621,7 +625,8 @@ tm = TextModel(token_list=[-1],
                del_diac=True)
 ```
 :::
-::: {.fragment}
+
+::: {.fragment} 
 ```{python}
 #| echo: true
 
@@ -632,8 +637,9 @@ tm.tokenize(text)
 
 ## $\mu$-TC (2) 
 
-:::: {.columns}
-::: {.callout-tip icon="false" .column}
+:::: {.columns} 
+
+::: {.callout-tip icon="false" .column} 
 ### TextModel 
 
 ```{python}
@@ -648,8 +654,9 @@ tm = TextModel(token_list=[-2, -1, 6],
                del_punc=True, del_diac=True)
 ```
 :::
-::: {.fragment .column}
-```{python}
+
+::: {.fragment .column} 
+```{python} 
 #| echo: true
 
 text = 'I like playing...'
@@ -658,7 +665,7 @@ tm.tokenize(text)
 :::
 ::::
 
-## Training set
+## Training set 
 
 ```{python}
 #| echo: true
@@ -673,8 +680,8 @@ if not isdir('delitos'):
 
 ## Utterance as Vector 
 
-:::: {.columns}
-::: {.callout-tip icon="false" .column}
+:::: {.columns} 
+::: {.callout-tip icon="false" .column} 
 ### TextModel 
 
 ```{python}
@@ -690,8 +697,8 @@ tm = TextModel(token_list=[-1],
 ```               
 :::
 
-::: {.fragment .callout-tip icon="false" .column}
-### Tokenizer  
+::: {.fragment .callout-tip icon="false" .column} 
+### Tokenizer 
 
 ```{python}
 #| echo: true
@@ -703,7 +710,7 @@ tm.tokenize(training_set[0])[:3]
 :::
 ::::
 
-::: {.fragment .callout-tip icon="false"}
+::: {.fragment .callout-tip icon="false"} 
 ### Vocabulary 
 
 ```{python} 
@@ -717,11 +724,10 @@ voc.most_common(n=3)
 ```
 :::
 
+## Utterance as Vector (2) 
 
-## Utterance as Vector (2)
-
-::: {.callout-tip icon="false"}
-### Inverse Document Frequency (IDF)
+::: {.callout-tip icon="false"} 
+### Inverse Document Frequency (IDF) 
 
 ```{python}
 #| echo: true
@@ -735,8 +741,8 @@ for id, (k, n) in enumerate(voc.items()):
 ```               
 :::
 
-::: {.fragment .callout-tip icon="false"}
-### Term Frequency - IDF
+::: {.fragment .callout-tip icon="false"} 
+### Term Frequency - IDF 
 ```{python} 
 #| echo: true
 
@@ -751,9 +757,9 @@ vector[:4]
 ```
 :::
 
-## Utterance as Vector (3)
+## Utterance as Vector (3) 
 
-::: {.callout-tip icon="false"}
+::: {.callout-tip icon="false"} 
 ### $\mu$-TC
 
 ```{python}
@@ -763,7 +769,7 @@ tm.fit(training_set)
 ```               
 :::
 
-::: {.callout-tip icon="false"}
+::: {.callout-tip icon="false"} 
 ### Utterance as Vector 
 ```{python} 
 #| echo: true
@@ -775,14 +781,14 @@ tm[text][:4]
 
 ## Quiz 
 
-::: {.callout-warning icon="false"}
+::: {.callout-warning icon="false"} 
 ### Question 
 
 Which of the following representations do you consider to produce a larger vocabulary?
 :::
 
-:::: {.columns}
-::: {.callout-warning icon="false" .column}
+:::: {.columns} 
+::: {.callout-warning icon="false" .column} 
 ### A 
 ```{python}
 #| echo: true
@@ -798,7 +804,7 @@ tmA = TextModel(token_list=[-1, 3],
 ```
 :::
 
-::: {.callout-warning icon="false" .column}
+::: {.callout-warning icon="false" .column} 
 ### B 
 ```{python}
 
@@ -877,14 +883,14 @@ test_set = list(tweet_iterator(fname.replace('_train.', '_test.')))
 ```{python}
 #| echo: true
 
-tm = TextModel(token_list=[-1], num_option=OPTION_NONE,
+tm = TextModel(token_list=[-2, -1, 3, 4], num_option=OPTION_NONE,
                usr_option=OPTION_DELETE, url_option=OPTION_DELETE,
                emo_option=OPTION_NONE, lc=True, del_dup=False,
                del_punc=True, del_diac=True
               ).fit(training_set)
 X = tm.transform(training_set)
 labels = np.array([x['klass'] for x in training_set])
-m = LinearSVC(dual='auto').fit(X, labels)
+m = LinearSVC(dual='auto', class_weight='balanced').fit(X, labels)
 hy = m.predict(tm.transform(test_set))
 ``` 
 :::
@@ -896,7 +902,7 @@ hy = m.predict(tm.transform(test_set))
 #| echo: true
 
 recall_score([x['klass'] for x in test_set],
-             hy, average='macro')
+             hy, average=None)
 ```
 :::
 
