@@ -78,6 +78,54 @@ WebPage: <https://ingeotec.github.io/>
 
 ![](aguascalientes_edo.jpg){width=200}
 
+# Opinion Mining 
+
+## Opinion Mining 
+
+::: {.callout-note icon="false"} 
+### Definition 
+
+Study people’s opinions, appraisals, attitudes, and emotions toward entities, individuals, events, and their attributes.
+:::
+
+* Distilling opinions from texts
+* A brand is interested in the costumer's opinions
+* Huge amount of information 
+
+## Opinion Mining (2) 
+
+::: {.callout-note icon="false"}
+### Formal Definition 
+
+* $e_i$ -       Entity
+* $a_{ij}$ -    Aspect of $e_i$
+* $o_{ijkl}$ -  Opinion orientation
+* $h_k$ -       Opinion source - Opinion holder
+* $t_l$ -       Time of the opinion
+:::
+
+::: {.callout-tip icon="false"}
+### Entity 
+
+Product, service, person, event, organization, or topic
+:::
+
+::: {.callout-tip icon="false"}
+### Aspect 
+
+Entity's component or attribute
+:::
+
+## Opinion Mining Tasks 
+
+::: {.callout-tip icon="false"}
+### Tasks 
+* Entity extraction
+* Aspect extraction - considered the entities
+* Identify opinion source and time
+* Identify opinion orientation
+:::
+
 # Introduction 
 
 ## Text Classification
