@@ -1,312 +1,392 @@
 [
   {
-    "objectID": "TextClassification/poornima.html#ingeotec",
-    "href": "TextClassification/poornima.html#ingeotec",
-    "title": "Sentiment Analysis",
-    "section": "INGEOTEC",
-    "text": "INGEOTEC\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "objectID": "IberLEF2023/restMex2023.html#ingeotec-research-group",
+    "href": "IberLEF2023/restMex2023.html#ingeotec-research-group",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "INGEOTEC research group",
+    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#aguascalientes-méxico",
-    "href": "TextClassification/poornima.html#aguascalientes-méxico",
-    "title": "Sentiment Analysis",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México",
+    "objectID": "IberLEF2023/restMex2023.html#the-rest-mex-task-at-iberlef-2023",
+    "href": "IberLEF2023/restMex2023.html#the-rest-mex-task-at-iberlef-2023",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "The Rest-Mex Task at IberLEF 2023",
+    "text": "The Rest-Mex Task at IberLEF 2023\n\n\nFor the sentiment analysis, the problem is resume as:\n\n\n“Given an opinion about a Mexican tourist place, the goal is to determine the polarity, between 1 and 5, of the text, the type of opinion (hotel, restaurant or attraction) and, the country of the place of which the opinion is being given (Mexico, Cuba, Colombia)”",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#text-classification",
-    "href": "TextClassification/poornima.html#text-classification",
-    "title": "Sentiment Analysis",
-    "section": "Text Classification",
-    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
+    "objectID": "IberLEF2023/restMex2023.html#our-appproach",
+    "href": "IberLEF2023/restMex2023.html#our-appproach",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our appproach",
+    "text": "Our appproach\n Our solution system uses only text-based features. More particularly, we used our EvoMSA framework (Graff et al. 2020).",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#text-classification-tasks",
-    "href": "TextClassification/poornima.html#text-classification-tasks",
-    "title": "Sentiment Analysis",
-    "section": "Text Classification Tasks",
-    "text": "Text Classification Tasks\n\n\n\nPolarity\n\n\nPositive, Negative, Neutral\n\n\n\n\n\n\nEmotion (Multiclass)\n\n\n\nAnger, Joy, …\nIntensity of an emotion\n\n\n\n\n\n\n\nEvent (Binary)\n\n\n\nViolent\nCrime",
+    "objectID": "IberLEF2023/restMex2023.html#our-approach-evomsa-2.0",
+    "href": "IberLEF2023/restMex2023.html#our-approach-evomsa-2.0",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our approach: EvoMSA 2.0",
+    "text": "Our approach: EvoMSA 2.0",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#profiling",
-    "href": "TextClassification/poornima.html#profiling",
-    "title": "Sentiment Analysis",
-    "section": "Profiling",
-    "text": "Profiling\n\n\n\nGender\n\n\nMan, Woman, Nonbinary, …\n\n\n\n\n\n\nAge\n\n\nChild, Teen, Adult\n\n\n\n\n\n\nLanguage Variety\n\n\n\nSpanish: Spain, Cuba, Argentine, México, …\nEnglish: United States, England, …",
+    "objectID": "IberLEF2023/restMex2023.html#our-representations",
+    "href": "IberLEF2023/restMex2023.html#our-representations",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our representations",
+    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#machine-learning",
-    "href": "TextClassification/poornima.html#machine-learning",
-    "title": "Sentiment Analysis",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\n\n\nDefinition\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\nTypes of ML algorithms\n\n\n\nUnsupervised Learning\nSupervised Learning\nReinforcement Learning",
+    "objectID": "IberLEF2023/restMex2023.html#sparse-bag-of-words",
+    "href": "IberLEF2023/restMex2023.html#sparse-bag-of-words",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Sparse bag of words",
+    "text": "Sparse bag of words\n\nThe text is preprocessed and tokenized, then each token \\(t\\) is associated with a vector \\(\\mathbf{v_t} \\in \\mathbb R^d\\) where the \\(i\\)-th component, i.e., \\(\\mathbf{v_t}_i\\), contains the Inverse-Document-Frequency (IDF) value of the token \\(t\\) and \\(\\forall_{j \\neq i} \\mathbf{v_t}_j=0\\).\n\nThe set of vectors \\(\\mathbf V = \\{ \\mathbf v_t \\}\\) corresponds to the vocabulary, and there are \\(|\\mathbf V| = d\\) different tokens in the vocabulary.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#supervised-learning-multiclass",
-    "href": "TextClassification/poornima.html#supervised-learning-multiclass",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Multiclass)",
-    "text": "Supervised Learning (Multiclass)",
+    "objectID": "IberLEF2023/restMex2023.html#section",
+    "href": "IberLEF2023/restMex2023.html#section",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "",
+    "text": "A text is represented by the sequence of its tokens, i.e., \\((t_1, t_2, \\ldots)\\). The text is then vectorized as:\n\\[\n    \\textsf{sbow}(\\text{some text}) = \\textsf{sbow}((t_1, t_2, \\ldots)) = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#supervised-learning-binary",
-    "href": "TextClassification/poornima.html#supervised-learning-binary",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Binary)",
-    "text": "Supervised Learning (Binary)",
+    "objectID": "IberLEF2023/restMex2023.html#sbow",
+    "href": "IberLEF2023/restMex2023.html#sbow",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBoW",
+    "text": "SBoW",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#supervised-learning-classification",
-    "href": "TextClassification/poornima.html#supervised-learning-classification",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Classification)",
-    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "objectID": "IberLEF2023/restMex2023.html#dense-bag-of-words",
+    "href": "IberLEF2023/restMex2023.html#dense-bag-of-words",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Dense bag of words",
+    "text": "Dense bag of words\n\n\nIn contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) pre-trained on a different collection of tweets. \nWithout loss of generality, it is assumed that there are \\(M\\) labeled datasets, each one contains a binary text classification problem.\n\n\nnoting that if a dataset has \\(K\\) labels, then this dataset can be represented as \\(K\\) binary classification problems following the one versus the rest approach, i.e., it is transformed to \\(K\\) datasets.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#supervised-learning-geometry",
-    "href": "TextClassification/poornima.html#supervised-learning-geometry",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Geometry)",
-    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "objectID": "IberLEF2023/restMex2023.html#construction-of-the-dbow",
+    "href": "IberLEF2023/restMex2023.html#construction-of-the-dbow",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction of the DBOW",
+    "text": "Construction of the DBOW\n\n\nFor each of these \\(M\\) binary text classification problems, a SBOW-based classifier is built using a pre-trained SBOW representation and a linear Support Vector Machine (SVM) as the classifier. Consequently, there are \\(M\\) binary text classifiers, i.e., \\((c_1, c_2, \\ldots, c_M)\\). Additionally, the decision function of \\(c_i\\) is a value where the sign indicates the class.   The text representation is the vector obtained by concatenating the decision functions of the \\(M\\) classifiers and then normalizing the vector to have unitary norm.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-2",
-    "href": "TextClassification/poornima.html#supervised-learning-geometry-2",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Geometry 2)",
-    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
+    "objectID": "IberLEF2023/restMex2023.html#construction-continued",
+    "href": "IberLEF2023/restMex2023.html#construction-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction (continued…)",
+    "text": "Construction (continued…)\n\n\nA text \\(x\\) is represented with vector \\(\\mathbf{x^{'}} \\in \\mathbb R^M\\) where the value \\(\\mathbf{x^{'}}_i\\) corresponds to the decision function of \\(c_i\\). Given that the classifier \\(c_i\\) is a linear SVM, the decision function corresponds to the dot product between the input vector and the weight vector \\(\\mathbf w_i\\) plus the bias \\(\\mathbf w_{i_0}\\), where the weight vector and the bias are the parameters of the classifier.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-3",
-    "href": "TextClassification/poornima.html#supervised-learning-geometry-3",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Geometry 3)",
-    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
+    "objectID": "IberLEF2023/restMex2023.html#construction-continued-1",
+    "href": "IberLEF2023/restMex2023.html#construction-continued-1",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction (continued…)",
+    "text": "Construction (continued…)\nThat is, the value \\(\\mathbf{x^{'}}_i\\) corresponds to\n\\[\n    \\mathbf{x^{'}}_i = \\mathbf w_i \\cdot \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_k \\mathbf{v_k} \\rVert} + \\mathbf w_{i_0},    \n\\]\nwhere \\(\\mathbf{v_t}\\) is the IDF vector associated to the token \\(t\\) of the text \\(x\\)",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#training-set",
-    "href": "TextClassification/poornima.html#training-set",
-    "title": "Sentiment Analysis",
-    "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nDel Califa de Dios y Su sirviente AlMahdi al E...\n0\n\n\n1\n#30Nov el @GNB_SucreDVC, en el sector Rincón ...\n1\n\n\n2\nEl fiscal de Chubut Fernando Rivarola denomina...\n0\n\n\n3\nDescubren y clausuran un rastro clandestino qu...\n1\n\n\n4\n@GuarioCandanga ¿Cómo llama a los manifestante...\n0\n\n\n5\nCapturan a otras tres personas vinculadas a mi...\n1\n\n\n6\nAhora en Carchuna 18,8ºC, humedad 72% con vien...\n0\n\n\n7\nPersecución de película con cinco detenidos tr...\n1",
+    "objectID": "IberLEF2023/restMex2023.html#construction-continued-2",
+    "href": "IberLEF2023/restMex2023.html#construction-continued-2",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction (continued…)",
+    "text": "Construction (continued…)\nIn matrix notation, vector \\(\\mathbf{x'}\\) is\n\\[    \\mathbf{x^{'}} = \\mathbf W \\cdot \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_k \\mathbf{v_k} \\rVert} + \\mathbf{w_0},\n\\]\nwhere matrix \\(\\mathbf W \\in \\mathbb R^{M \\times d}\\) contains the weights, and \\(\\mathbf{w_0} \\in \\mathbb R^M\\) is the bias. Another way to see the previous formulation is by defining a vector \\(\\mathbf{u_t} = \\frac{1}{\\lVert \\mathbf{v_t} \\rVert} \\mathbf W \\mathbf{v_t}\\).",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#quiz",
-    "href": "TextClassification/poornima.html#quiz",
-    "title": "Sentiment Analysis",
-    "section": "Quiz",
-    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following tasks does the previous training set belong to?\n\nPolarity\nEmotion identification\nAggressive detection\nProfiling",
+    "objectID": "IberLEF2023/restMex2023.html#construction-continued-3",
+    "href": "IberLEF2023/restMex2023.html#construction-continued-3",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Construction (continued…)",
+    "text": "Construction (continued…)\nConsequently, \\(\\mathbf{x'}\\) is defined as:\n\\[\n    \\label{eq:denseBoW}\n    \\mathbf{x'} = \\sum_t \\mathbf{u_t} + \\mathbf{w_0},\n\\] vectors \\(\\mathbf{u} \\in \\mathbb R^M\\) correspond to the tokens. This is the reason we refer to this model as a dense BoW.\nFinally, the vector representing the text \\(x\\) is the normalized \\(\\mathbf{x^{'}}\\), i.e., \\(\\mathbf x = \\frac{\\mathbf{x^{'}}}{\\lVert \\mathbf{x^{'}} \\rVert}.\\)",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#training-set-2",
-    "href": "TextClassification/poornima.html#training-set-2",
-    "title": "Sentiment Analysis",
-    "section": "Training set (2)",
-    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\n\nToken as a vector\n\nSparse vector\nDense vector\n\nUtterance as a vector",
+    "objectID": "IberLEF2023/restMex2023.html#dense-bow-stacking",
+    "href": "IberLEF2023/restMex2023.html#dense-bow-stacking",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Dense BoW (stacking)",
+    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#token-as-vector",
-    "href": "TextClassification/poornima.html#token-as-vector",
-    "title": "Sentiment Analysis",
-    "section": "Token as Vector",
-    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
+    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued",
+    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\n\nThe pre-trained BoW is estimated from 4,194,304 (\\(2^{22}\\)) tweets randomly selected in a larger collection of messages.\nThe IDF values were estimated from the collections, and some tokens were selected from all the available ones found in the collection.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#token-as-vector-2",
-    "href": "TextClassification/poornima.html#token-as-vector-2",
-    "title": "Sentiment Analysis",
-    "section": "Token as Vector (2)",
-    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\n\nAlgorithm\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to\n\\((\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\)\nwhere \\(\\beta_i &gt; 0\\)",
+    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued-1",
+    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued-1",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\nTwo procedures were used to select the tokens:\n\nthe first corresponds to selecting the \\(d\\) tokens with the highest frequency, and the other to normalize the frequency w.r.t. their type, i.e., bigrams, words, and q-grams of characters. Once the frequency is normalized, one selects the \\(d\\) tokens with the highest normalized frequency.\nThe value of \\(d\\) is \\(2^{17}\\); however, one can also find in the library models for \\(2^{13}, 2^{14}, \\ldots, 2^{17}.\\)",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#utterance-as-vector",
-    "href": "TextClassification/poornima.html#utterance-as-vector",
-    "title": "Sentiment Analysis",
-    "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
+    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued-2",
+    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued-2",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\n\nIt is also possible to train the BoW model using the training set; in this case, we used the default parameters. The only difference is that vocabulary size \\(d\\) is bounded by the training set tokens.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#tokens",
-    "href": "TextClassification/poornima.html#tokens",
-    "title": "Sentiment Analysis",
-    "section": "Tokens",
-    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\nimport unicodedata\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
+    "objectID": "IberLEF2023/restMex2023.html#dbow-parameters-continued",
+    "href": "IberLEF2023/restMex2023.html#dbow-parameters-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "DBOW parameters (continued…)",
+    "text": "DBOW parameters (continued…)\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#text-normalization-1",
-    "href": "TextClassification/poornima.html#text-normalization-1",
-    "title": "Sentiment Analysis",
-    "section": "Text Normalization",
-    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nUser (replace)\n\n\n\nimport re\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_usr\", text)\noutput\n\n'go _usr and find out'",
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#tokenizer",
-    "href": "TextClassification/poornima.html#tokenizer",
-    "title": "Sentiment Analysis",
-    "section": "Tokenizer",
-    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-1",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued-1",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\nThe list of configurations\n\n\nbow: Pre-trained BoW where the tokens are selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.\nbow_voc_selection: Pre-trained BoW where the tokens correspond to the most frequent ones.\nbow_training_set: BoW trained with the training set; the number of tokens corresponds to all the tokens in the set.\nstack_bow_keywords_emojis: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW.\n\nstack_bow_keywords_emojis_voc_selection: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#tokenizer-2",
-    "href": "TextClassification/poornima.html#tokenizer-2",
-    "title": "Sentiment Analysis",
-    "section": "Tokenizer (2)",
-    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']",
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-2",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued-2",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_bows: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection).\nstack_2_bow_keywords: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency.\nstack_2_bow_tailored_keywords: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as tailored keywords.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#mu-tc",
-    "href": "TextClassification/poornima.html#mu-tc",
-    "title": "Sentiment Analysis",
-    "section": "\\(\\mu\\)-TC",
-    "text": "\\(\\mu\\)-TC\n\n\n\nTextModel\n\n\n\nfrom microtc import TextModel\nfrom microtc.params import OPTION_GROUP,\\\n  OPTION_DELETE, OPTION_NONE\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE,\n               lc=True,\n               del_dup=False,\n               del_punc=True,\n               del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing football with @mgraffg'\ntm.tokenize(text)\n\n['i', 'like', 'playing', 'football', 'with']",
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-3",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued-3",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_2_bow_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_keywords where the difference is that the dense representations include the models created with the human-annotated datasets.\nstack_2_bow_tailored_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_all_keywords, where the difference is that the dense representation with normalized frequency also includes the tailored keywords.\nstack_3_bows: Stack generalization approach with three base classifiers. All of them are BoW; the first two correspond pre-trained BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection), and the latest is a BoW trained on the training set (i.e., bow_training_set).",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#mu-tc-2",
-    "href": "TextClassification/poornima.html#mu-tc-2",
-    "title": "Sentiment Analysis",
-    "section": "\\(\\mu\\)-TC (2)",
-    "text": "\\(\\mu\\)-TC (2)\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-2, -1, 6],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing...'\ntm.tokenize(text)\n\n['i~like',\n 'like~playing',\n 'i',\n 'like',\n 'playing',\n 'q:~i~lik',\n 'q:i~like',\n 'q:~like~',\n 'q:like~p',\n 'q:ike~pl',\n 'q:ke~pla',\n 'q:e~play',\n 'q:~playi',\n 'q:playin',\n 'q:laying',\n 'q:aying~']",
+    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-4",
+    "href": "IberLEF2023/restMex2023.html#configurations-continued-4",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_3_bows_tailored_keywords: Stack generalization approach with five base classifiers. The first corresponds to a BoW trained on the training set, and the rest are used in stack_2_bow_tailored_keywords.\nstack_3_bow_tailored_all_keywords: Stack generalization approach with five base classifiers. It is comparable to stack_3_bows_tailored_keywords being the difference in the use of the tailored keywords.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#training-set-1",
-    "href": "TextClassification/poornima.html#training-set-1",
-    "title": "Sentiment Analysis",
-    "section": "Training set",
-    "text": "Training set\n\nfrom EvoMSA.utils import Download\nfrom microtc.utils import tweet_iterator\nfrom os.path import isdir, isfile\nimport pandas as pd\nfrom random import shuffle\n\nURL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'\nif not isfile('delitos.zip'):\n  Download(URL,\n           'delitos.zip')\nif not isdir('delitos'):\n  !unzip -Pingeotec delitos.zip",
+    "objectID": "IberLEF2023/restMex2023.html#competition",
+    "href": "IberLEF2023/restMex2023.html#competition",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Competition",
+    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#utterance-as-vector-1",
-    "href": "TextClassification/poornima.html#utterance-as-vector-1",
-    "title": "Sentiment Analysis",
-    "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfrom microtc.utils import tweet_iterator\nfname = 'delitos/delitos_ingeotec_Es_train.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['este', 'caso', 'tiene']\n\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nfrom microtc.utils import Counter\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('de', 980), ('en', 803), ('la', 653)]",
+    "objectID": "IberLEF2023/restMex2023.html#other-competitions-performance",
+    "href": "IberLEF2023/restMex2023.html#other-competitions-performance",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance",
+    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#utterance-as-vector-2",
-    "href": "TextClassification/poornima.html#utterance-as-vector-2",
-    "title": "Sentiment Analysis",
-    "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(57, 7.906890595608518),\n (60, 5.8479969065549495),\n (27, 1.3269461696539864),\n (22, 2.5277907564370796)]",
+    "objectID": "IberLEF2023/restMex2023.html#other-competitions-performance-continued",
+    "href": "IberLEF2023/restMex2023.html#other-competitions-performance-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance (Continued…)",
+    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#utterance-as-vector-3",
-    "href": "TextClassification/poornima.html#utterance-as-vector-3",
-    "title": "Sentiment Analysis",
-    "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f2d7df67f40&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
+    "objectID": "IberLEF2023/restMex2023.html#conclusions-continued",
+    "href": "IberLEF2023/restMex2023.html#conclusions-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Conclusions (continued…)",
+    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#quiz-1",
-    "href": "TextClassification/poornima.html#quiz-1",
-    "title": "Sentiment Analysis",
-    "section": "Quiz",
-    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following representations do you consider to produce a larger vocabulary?\n\n\n\n\n\n\n\n\nA\n\n\n\ntmA = TextModel(token_list=[-1, 3],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)\n\n\n\n\n\n\n\n\nB\n\n\n\ntmB = TextModel(token_list=[-1, 6],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)",
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
+    "href": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "INGEOTEC research group",
+    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#procedure-1",
-    "href": "TextClassification/poornima.html#procedure-1",
-    "title": "Sentiment Analysis",
-    "section": "Procedure",
-    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nfrom sklearn.svm import LinearSVC\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray([0])",
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
+    "href": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our approach: EvoMSA 2.0",
+    "text": "Our approach: EvoMSA 2.0\n \n\n\n\nEvoMSA’s documentation (https://evomsa.readthedocs) Papers (Graff et al. 2020) (Tellez et al. 2017)",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
-    "objectID": "TextClassification/poornima.html#performance",
-    "href": "TextClassification/poornima.html#performance",
-    "title": "Sentiment Analysis",
-    "section": "Performance",
-    "text": "Performance\n\nfrom sklearn.model_selection import KFold\nfrom sklearn.metrics import recall_score\n\nkfold = KFold(n_splits=5, shuffle=True, random_state=1)\nperf = []\nfor tr, vs in kfold.split(training_set):\n    train = [training_set[i] for i in tr]\n    val = [training_set[i] for i in vs]\n    tm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                   usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                   emo_option=OPTION_NONE, lc=True, del_dup=False,\n                   del_punc=True, del_diac=True).fit(train)\n    labels = [x['klass'] for x in train]\n    m = LinearSVC(dual='auto').fit(tm.transform(train), labels)\n    hy = m.predict(tm.transform(val))\n    _ = recall_score([x['klass'] for x in val], hy, average='macro')\n    perf.append(_)\nnp.mean(perf)\n\n0.8200309412585819",
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-representations",
+    "href": "IberLEF2023/RestMex2023-10mins.html#our-representations",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our representations",
+    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
     "crumbs": [
-      "Sentiment Analysis"
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#sbow",
+    "href": "IberLEF2023/RestMex2023-10mins.html#sbow",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBoW",
+    "text": "SBoW",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
+    "href": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Dense BoW (stacking)",
+    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
+    "href": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "DBOW parameters",
+    "text": "DBOW parameters\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
+    "href": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations",
+    "text": "Configurations\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#competition",
+    "href": "IberLEF2023/RestMex2023-10mins.html#competition",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Competition",
+    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
+    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance",
+    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
+    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance (Continued…)",
+    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
+    "href": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Conclusions (continued…)",
+    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
     ]
   },
   {
@@ -560,6 +640,946 @@
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "¿Preguntas?",
     "text": "¿Preguntas?\n¡Gracias por su atención!\n\n\nModelos regionales del Español:\n\nhttps://ingeotec.github.io/regional-spanish-models/\nhttps://github.com/INGEOTEC/regional-spanish-models/\n\n\nINGEOTEC:\n\nhttps://github.com/INGEOTEC/\nhttps://ingeotec.github.io/"
+  },
+  {
+    "objectID": "TextClassification/poornima.html#ingeotec",
+    "href": "TextClassification/poornima.html#ingeotec",
+    "title": "Sentiment Analysis",
+    "section": "INGEOTEC",
+    "text": "INGEOTEC\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#aguascalientes-méxico",
+    "href": "TextClassification/poornima.html#aguascalientes-méxico",
+    "title": "Sentiment Analysis",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#text-classification",
+    "href": "TextClassification/poornima.html#text-classification",
+    "title": "Sentiment Analysis",
+    "section": "Text Classification",
+    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#text-classification-tasks",
+    "href": "TextClassification/poornima.html#text-classification-tasks",
+    "title": "Sentiment Analysis",
+    "section": "Text Classification Tasks",
+    "text": "Text Classification Tasks\n\n\n\nPolarity\n\n\nPositive, Negative, Neutral\n\n\n\n\n\n\nEmotion (Multiclass)\n\n\n\nAnger, Joy, …\nIntensity of an emotion\n\n\n\n\n\n\n\nEvent (Binary)\n\n\n\nViolent\nCrime",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#profiling",
+    "href": "TextClassification/poornima.html#profiling",
+    "title": "Sentiment Analysis",
+    "section": "Profiling",
+    "text": "Profiling\n\n\n\nGender\n\n\nMan, Woman, Nonbinary, …\n\n\n\n\n\n\nAge\n\n\nChild, Teen, Adult\n\n\n\n\n\n\nLanguage Variety\n\n\n\nSpanish: Spain, Cuba, Argentine, México, …\nEnglish: United States, England, …",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#machine-learning",
+    "href": "TextClassification/poornima.html#machine-learning",
+    "title": "Sentiment Analysis",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\n\n\nDefinition\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\nTypes of ML algorithms\n\n\n\nUnsupervised Learning\nSupervised Learning\nReinforcement Learning",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-multiclass",
+    "href": "TextClassification/poornima.html#supervised-learning-multiclass",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Multiclass)",
+    "text": "Supervised Learning (Multiclass)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-binary",
+    "href": "TextClassification/poornima.html#supervised-learning-binary",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Binary)",
+    "text": "Supervised Learning (Binary)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-classification",
+    "href": "TextClassification/poornima.html#supervised-learning-classification",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Classification)",
+    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-geometry",
+    "href": "TextClassification/poornima.html#supervised-learning-geometry",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Geometry)",
+    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-2",
+    "href": "TextClassification/poornima.html#supervised-learning-geometry-2",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Geometry 2)",
+    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-3",
+    "href": "TextClassification/poornima.html#supervised-learning-geometry-3",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Geometry 3)",
+    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#training-set",
+    "href": "TextClassification/poornima.html#training-set",
+    "title": "Sentiment Analysis",
+    "section": "Training set",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nMe ha gustado un vídeo de @YouTube (https://t....\n0\n\n\n1\nDetienen a hombre que pretendía abandonar terr...\n1\n\n\n2\n#futbolsala Argentina #ARG🇦🇷 frena a Ricardinh...\n0\n\n\n3\nDoble femicidio en Villaguay\\n\\nAsesinan a una...\n1\n\n\n4\n@DavidSoler_12 @agusgorian @_WhiteWitch @bepro...\n0\n\n\n5\n🚗Así quedó el vehículo del conductor ebrio que...\n1\n\n\n6\n@soyarzo43 Imagínate esto en TV.\\nEjemplarizad...\n0\n\n\n7\nEn video: los instantes en que funcionarios de...\n1",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#quiz",
+    "href": "TextClassification/poornima.html#quiz",
+    "title": "Sentiment Analysis",
+    "section": "Quiz",
+    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following tasks does the previous training set belong to?\n\nPolarity\nEmotion identification\nAggressive detection\nProfiling",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#training-set-2",
+    "href": "TextClassification/poornima.html#training-set-2",
+    "title": "Sentiment Analysis",
+    "section": "Training set (2)",
+    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\n\nToken as a vector\n\nSparse vector\nDense vector\n\nUtterance as a vector",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#token-as-vector",
+    "href": "TextClassification/poornima.html#token-as-vector",
+    "title": "Sentiment Analysis",
+    "section": "Token as Vector",
+    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#token-as-vector-2",
+    "href": "TextClassification/poornima.html#token-as-vector-2",
+    "title": "Sentiment Analysis",
+    "section": "Token as Vector (2)",
+    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\n\nAlgorithm\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to\n\\((\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\)\nwhere \\(\\beta_i &gt; 0\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector",
+    "href": "TextClassification/poornima.html#utterance-as-vector",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#tokens",
+    "href": "TextClassification/poornima.html#tokens",
+    "title": "Sentiment Analysis",
+    "section": "Tokens",
+    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\nimport unicodedata\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#text-normalization-1",
+    "href": "TextClassification/poornima.html#text-normalization-1",
+    "title": "Sentiment Analysis",
+    "section": "Text Normalization",
+    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nUser (replace)\n\n\n\nimport re\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_usr\", text)\noutput\n\n'go _usr and find out'",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#tokenizer",
+    "href": "TextClassification/poornima.html#tokenizer",
+    "title": "Sentiment Analysis",
+    "section": "Tokenizer",
+    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#tokenizer-2",
+    "href": "TextClassification/poornima.html#tokenizer-2",
+    "title": "Sentiment Analysis",
+    "section": "Tokenizer (2)",
+    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#mu-tc",
+    "href": "TextClassification/poornima.html#mu-tc",
+    "title": "Sentiment Analysis",
+    "section": "\\(\\mu\\)-TC",
+    "text": "\\(\\mu\\)-TC\n\n\n\nTextModel\n\n\n\nfrom microtc import TextModel\nfrom microtc.params import OPTION_GROUP,\\\n  OPTION_DELETE, OPTION_NONE\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE,\n               lc=True,\n               del_dup=False,\n               del_punc=True,\n               del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing football with @mgraffg'\ntm.tokenize(text)\n\n['i', 'like', 'playing', 'football', 'with']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#mu-tc-2",
+    "href": "TextClassification/poornima.html#mu-tc-2",
+    "title": "Sentiment Analysis",
+    "section": "\\(\\mu\\)-TC (2)",
+    "text": "\\(\\mu\\)-TC (2)\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-2, -1, 6],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing...'\ntm.tokenize(text)\n\n['i~like',\n 'like~playing',\n 'i',\n 'like',\n 'playing',\n 'q:~i~lik',\n 'q:i~like',\n 'q:~like~',\n 'q:like~p',\n 'q:ike~pl',\n 'q:ke~pla',\n 'q:e~play',\n 'q:~playi',\n 'q:playin',\n 'q:laying',\n 'q:aying~']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#training-set-1",
+    "href": "TextClassification/poornima.html#training-set-1",
+    "title": "Sentiment Analysis",
+    "section": "Training set",
+    "text": "Training set\n\nfrom EvoMSA.utils import Download\nfrom microtc.utils import tweet_iterator\nfrom os.path import isdir, isfile\nimport pandas as pd\nfrom random import shuffle\n\nURL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'\nif not isfile('delitos.zip'):\n  Download(URL,\n           'delitos.zip')\nif not isdir('delitos'):\n  !unzip -Pingeotec delitos.zip",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector-1",
+    "href": "TextClassification/poornima.html#utterance-as-vector-1",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfrom microtc.utils import tweet_iterator\nfname = 'delitos/delitos_ingeotec_Es_train.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['este', 'caso', 'tiene']\n\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nfrom microtc.utils import Counter\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('de', 980), ('en', 803), ('la', 653)]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector-2",
+    "href": "TextClassification/poornima.html#utterance-as-vector-2",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector (2)",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(56, np.float64(7.906890595608518)),\n (55, np.float64(5.8479969065549495)),\n (6, np.float64(1.3269461696539864)),\n (19, np.float64(2.5277907564370796))]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector-3",
+    "href": "TextClassification/poornima.html#utterance-as-vector-3",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector (3)",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fec767fb3a0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#quiz-1",
+    "href": "TextClassification/poornima.html#quiz-1",
+    "title": "Sentiment Analysis",
+    "section": "Quiz",
+    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following representations do you consider to produce a larger vocabulary?\n\n\n\n\n\n\n\n\nA\n\n\n\ntmA = TextModel(token_list=[-1, 3],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)\n\n\n\n\n\n\n\n\nB\n\n\n\ntmB = TextModel(token_list=[-1, 6],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#procedure-1",
+    "href": "TextClassification/poornima.html#procedure-1",
+    "title": "Sentiment Analysis",
+    "section": "Procedure",
+    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nfrom sklearn.svm import LinearSVC\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray([0])",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#performance",
+    "href": "TextClassification/poornima.html#performance",
+    "title": "Sentiment Analysis",
+    "section": "Performance",
+    "text": "Performance\n\nfrom sklearn.model_selection import KFold\nfrom sklearn.metrics import recall_score\n\nkfold = KFold(n_splits=5, shuffle=True, random_state=1)\nperf = []\nfor tr, vs in kfold.split(training_set):\n    train = [training_set[i] for i in tr]\n    val = [training_set[i] for i in vs]\n    tm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                   usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                   emo_option=OPTION_NONE, lc=True, del_dup=False,\n                   del_punc=True, del_diac=True).fit(train)\n    labels = [x['klass'] for x in train]\n    m = LinearSVC(dual='auto').fit(tm.transform(train), labels)\n    hy = m.predict(tm.transform(val))\n    _ = recall_score([x['klass'] for x in val], hy, average='macro')\n    perf.append(_)\nnp.mean(perf)\n\nnp.float64(0.8200309412585819)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#ingeotec",
+    "href": "TextClassification/general.html#ingeotec",
+    "title": "Text Classification",
+    "section": "INGEOTEC",
+    "text": "INGEOTEC\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#aguascalientes-méxico",
+    "href": "TextClassification/general.html#aguascalientes-méxico",
+    "title": "Text Classification",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#opinion-mining-1",
+    "href": "TextClassification/general.html#opinion-mining-1",
+    "title": "Text Classification",
+    "section": "Opinion Mining",
+    "text": "Opinion Mining\n\n\n\nDefinition\n\n\nStudy people’s opinions, appraisals, attitudes, and emotions toward entities, individuals, events, and their attributes.\n\n\n\n\nDistilling opinions from texts\nA brand is interested in the costumer’s opinions\nHuge amount of information",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#opinion-mining-2",
+    "href": "TextClassification/general.html#opinion-mining-2",
+    "title": "Text Classification",
+    "section": "Opinion Mining (2)",
+    "text": "Opinion Mining (2)\n\n\n\nFormal Definition\n\n\n\n\\(e_i\\) - Entity\n\\(a_{ij}\\) - Aspect of \\(e_i\\)\n\\(o_{ijkl}\\) - Opinion orientation\n\\(h_k\\) - Opinion source - Opinion holder\n\\(t_l\\) - Time of the opinion\n\n\n\n\n\n\n\nEntity\n\n\nProduct, service, person, event, organization, or topic\n\n\n\n\n\n\nAspect\n\n\nEntity’s component or attribute",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#opinion-mining-tasks",
+    "href": "TextClassification/general.html#opinion-mining-tasks",
+    "title": "Text Classification",
+    "section": "Opinion Mining Tasks",
+    "text": "Opinion Mining Tasks\n\n\n\nTasks\n\n\n\nEntity extraction\nAspect extraction - considered the entities\nIdentify opinion source and time\nIdentify opinion orientation",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#text-classification",
+    "href": "TextClassification/general.html#text-classification",
+    "title": "Text Classification",
+    "section": "Text Classification",
+    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#text-classification-tasks",
+    "href": "TextClassification/general.html#text-classification-tasks",
+    "title": "Text Classification",
+    "section": "Text Classification Tasks",
+    "text": "Text Classification Tasks\n\n\n\nPolarity\n\n\nPositive, Negative, Neutral\n\n\n\n\n\n\nEmotion (Multiclass)\n\n\n\nAnger, Joy, …\nIntensity of an emotion\n\n\n\n\n\n\n\nEvent (Binary)\n\n\n\nViolent\nCrime",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#profiling",
+    "href": "TextClassification/general.html#profiling",
+    "title": "Text Classification",
+    "section": "Profiling",
+    "text": "Profiling\n\n\n\nGender\n\n\nMan, Woman, Nonbinary, …\n\n\n\n\n\n\nAge\n\n\nChild, Teen, Adult\n\n\n\n\n\n\nLanguage Variety\n\n\n\nSpanish: Spain, Cuba, Argentine, México, …\nEnglish: United States, England, …",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#machine-learning",
+    "href": "TextClassification/general.html#machine-learning",
+    "title": "Text Classification",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\n\n\nDefinition\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\nTypes of ML algorithms\n\n\n\nUnsupervised Learning\nSupervised Learning\nReinforcement Learning",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-multiclass",
+    "href": "TextClassification/general.html#supervised-learning-multiclass",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Multiclass)",
+    "text": "Supervised Learning (Multiclass)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-binary",
+    "href": "TextClassification/general.html#supervised-learning-binary",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Binary)",
+    "text": "Supervised Learning (Binary)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-classification",
+    "href": "TextClassification/general.html#supervised-learning-classification",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Classification)",
+    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-geometry",
+    "href": "TextClassification/general.html#supervised-learning-geometry",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Geometry)",
+    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-geometry-2",
+    "href": "TextClassification/general.html#supervised-learning-geometry-2",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Geometry 2)",
+    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-geometry-3",
+    "href": "TextClassification/general.html#supervised-learning-geometry-3",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Geometry 3)",
+    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#training-set",
+    "href": "TextClassification/general.html#training-set",
+    "title": "Text Classification",
+    "section": "Training set",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@MikelBalza @AthleticClub @Marcelino malas not...\n0\n\n\n1\nArrestan a adolescentes que golpearon a menor ...\n1\n\n\n2\nLa policía de Dallas utiliza por primera vez u...\n0\n\n\n3\n#Justicia Detenidos ministerial y ex judicial ...\n1\n\n\n4\nGarrapatas de mierdas\n0\n\n\n5\nAsesinan a un fiscal regional de Jalisco en un...\n1\n\n\n6\nEl duro interrogatorio del juez a Arturo sobre...\n0\n\n\n7\nMatan de un disparo en San Francisco a un jove...\n1",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#quiz",
+    "href": "TextClassification/general.html#quiz",
+    "title": "Text Classification",
+    "section": "Quiz",
+    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following tasks does the previous training set belong to?\n\nPolarity\nEmotion identification\nAggressive detection\nProfiling",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#training-set-2",
+    "href": "TextClassification/general.html#training-set-2",
+    "title": "Text Classification",
+    "section": "Training set (2)",
+    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\nToken as a vector\nSparse vector\nDense vector\nUtterance as a vector",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#token-as-vector",
+    "href": "TextClassification/general.html#token-as-vector",
+    "title": "Text Classification",
+    "section": "Token as Vector",
+    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#token-as-vector-2",
+    "href": "TextClassification/general.html#token-as-vector-2",
+    "title": "Text Classification",
+    "section": "Token as Vector (2)",
+    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\n\nAlgorithm\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to\n\\((\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\)\nwhere \\(\\beta_i &gt; 0\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#utterance-as-vector",
+    "href": "TextClassification/general.html#utterance-as-vector",
+    "title": "Text Classification",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#tokens",
+    "href": "TextClassification/general.html#tokens",
+    "title": "Text Classification",
+    "section": "Tokens",
+    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#text-normalization-1",
+    "href": "TextClassification/general.html#text-normalization-1",
+    "title": "Text Classification",
+    "section": "Text Normalization",
+    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nURL (replace)\n\n\n\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_url\", text)\noutput\n\n'go _url and find out'",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#tokenizer",
+    "href": "TextClassification/general.html#tokenizer",
+    "title": "Text Classification",
+    "section": "Tokenizer",
+    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#tokenizer-2",
+    "href": "TextClassification/general.html#tokenizer-2",
+    "title": "Text Classification",
+    "section": "Tokenizer (2)",
+    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#mu-tc",
+    "href": "TextClassification/general.html#mu-tc",
+    "title": "Text Classification",
+    "section": "\\(\\mu\\)-TC",
+    "text": "\\(\\mu\\)-TC\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE,\n               lc=True,\n               del_dup=False,\n               del_punc=True,\n               del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing football with @mgraffg'\ntm.tokenize(text)\n\n['i', 'like', 'playing', 'football', 'with']",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#mu-tc-2",
+    "href": "TextClassification/general.html#mu-tc-2",
+    "title": "Text Classification",
+    "section": "\\(\\mu\\)-TC (2)",
+    "text": "\\(\\mu\\)-TC (2)\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-2, -1, 6],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing...'\ntm.tokenize(text)\n\n['i~like',\n 'like~playing',\n 'i',\n 'like',\n 'playing',\n 'q:~i~lik',\n 'q:i~like',\n 'q:~like~',\n 'q:like~p',\n 'q:ike~pl',\n 'q:ke~pla',\n 'q:e~play',\n 'q:~playi',\n 'q:playin',\n 'q:laying',\n 'q:aying~']",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#training-set-1",
+    "href": "TextClassification/general.html#training-set-1",
+    "title": "Text Classification",
+    "section": "Training set",
+    "text": "Training set\n\nURL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'\nif not isfile('delitos.zip'):\n  Download(URL,\n           'delitos.zip')\nif not isdir('delitos'):\n  !unzip -Pingeotec delitos.zip",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#utterance-as-vector-1",
+    "href": "TextClassification/general.html#utterance-as-vector-1",
+    "title": "Text Classification",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfname = 'delitos/delitos_ingeotec_Es_train.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['este', 'caso', 'tiene']\n\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('de', 980), ('en', 803), ('la', 653)]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#utterance-as-vector-2",
+    "href": "TextClassification/general.html#utterance-as-vector-2",
+    "title": "Text Classification",
+    "section": "Utterance as Vector (2)",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(62, np.float64(7.906890595608518)),\n (54, np.float64(5.8479969065549495)),\n (31, np.float64(1.3269461696539864)),\n (9, np.float64(2.5277907564370796))]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#utterance-as-vector-3",
+    "href": "TextClassification/general.html#utterance-as-vector-3",
+    "title": "Text Classification",
+    "section": "Utterance as Vector (3)",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f821d7069e0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#quiz-1",
+    "href": "TextClassification/general.html#quiz-1",
+    "title": "Text Classification",
+    "section": "Quiz",
+    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following representations do you consider to produce a larger vocabulary?\n\n\n\n\n\n\n\n\nA\n\n\n\ntmA = TextModel(token_list=[-1, 3],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)\n\n\n\n\n\n\n\n\nB\n\n\n\ntmB = TextModel(token_list=[-1, 6],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#procedure-1",
+    "href": "TextClassification/general.html#procedure-1",
+    "title": "Text Classification",
+    "section": "Procedure",
+    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\ntm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, lc=True, del_dup=False,\n                del_punc=True, del_diac=True\n               ).fit(training_set)\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray([0])",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#performance",
+    "href": "TextClassification/general.html#performance",
+    "title": "Text Classification",
+    "section": "Performance",
+    "text": "Performance\n\n\n\nTest set\n\n\n\ntest_set = list(tweet_iterator(fname.replace('_train.', '_test.')))\n\n\n\n\n\n\n\nPrediction\n\n\n\ntm = TextModel(token_list=[-2, -1, 3, 4], num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, lc=True, del_dup=False,\n               del_punc=True, del_diac=True\n              ).fit(training_set)\nX = tm.transform(training_set)\nlabels = np.array([x['klass'] for x in training_set])\nm = LinearSVC(dual='auto', class_weight='balanced').fit(X, labels)\nhy = m.predict(tm.transform(test_set))\n\n\n\n\n\n\n\nPerformance\n\n\n\nrecall_score([x['klass'] for x in test_set],\n             hy, average=None)\n\narray([0.95070423, 0.68421053])",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#feature-importance",
+    "href": "TextClassification/general.html#feature-importance",
+    "title": "Text Classification",
+    "section": "Feature Importance",
+    "text": "Feature Importance\n\n\n\nCoefficients\n\n\n\ndef coef(X, y):\n    m = LinearSVC(dual='auto',\n                  class_weight='balanced'\n                 ).fit(X, y)\n    return m.coef_\n\n\n\n\n\n\n\nNormalize Coefficients\n\n\n\nstats = StatisticSamples(statistic=coef,\n                         num_samples=50,\n                         n_jobs=-1)\nb_samples = stats(X, labels)\nse = np.std(b_samples, axis=0)\nse[se==0] = 1\nw_norm = m.coef_ / se\nw_norm = np.linalg.norm(w_norm, axis=0)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#feature-importance-2",
+    "href": "TextClassification/general.html#feature-importance-2",
+    "title": "Text Classification",
+    "section": "Feature Importance (2)",
+    "text": "Feature Importance (2)\n\n\n\nWordcloud\n\n\n\npath = './emoji_text.ttf'\nitems = tm.token_weight.items\ntokens = {tm.id2token[id]: w_norm[id] * _w for id, _w in items()\n          if w_norm[id] &gt;= 2.0 and np.isfinite(w_norm[id])}\nword_cloud = WordCloud(font_path=path,\n                       background_color='white'\n                      ).generate_from_frequencies(tokens)\nplt.imshow(word_cloud, interpolation='bilinear')\nplt.tick_params(left=False, right=False, labelleft=False,\n                   labelbottom=False, bottom=False)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#feature-importance-2-output",
+    "href": "TextClassification/general.html#feature-importance-2-output",
+    "title": "Text Classification",
+    "section": "Feature Importance (2)",
+    "text": "Feature Importance (2)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
+    "href": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "INGEOTEC research group",
+    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#the-da-vincis-task-at-iberlef-2023",
+    "href": "IberLEF2023/short-davincis2023.html#the-da-vincis-task-at-iberlef-2023",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "The DA-VINCIS Task at IberLEF 2023",
+    "text": "The DA-VINCIS Task at IberLEF 2023\n\n\nAn open challenge to develop multimodal models to detect violent incidents on Twitter. The task has two tracks:\n\nviolent event identification and\nviolent event category recognition.\n\nThis presentation describes our solution system for the (i) track using only text-based features. More particularly, we used our EvoMSA framework (Graff et al. 2020).",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#our-approach-evomsa-2.0",
+    "href": "IberLEF2023/short-davincis2023.html#our-approach-evomsa-2.0",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Our approach: EvoMSA 2.0",
+    "text": "Our approach: EvoMSA 2.0",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#our-text-representations",
+    "href": "IberLEF2023/short-davincis2023.html#our-text-representations",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Our text representations",
+    "text": "Our text representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#sparse-bag-of-words",
+    "href": "IberLEF2023/short-davincis2023.html#sparse-bag-of-words",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Sparse bag of words",
+    "text": "Sparse bag of words\n\nThe text is preprocessed and tokenized, then each token \\(t\\) is associated with a vector \\(\\mathbf{v_t} \\in \\mathbb R^d\\) where the \\(i\\)-th component, i.e., \\(\\mathbf{v_t}_i\\), contains the Inverse-Document-Frequency (IDF) value of the token \\(t\\) and \\(\\forall_{j \\neq i} \\mathbf{v_t}_j=0\\).\n\nThe set of vectors \\(\\mathbf V = \\{ \\mathbf v_t \\}\\) corresponds to the vocabulary, and there are \\(|\\mathbf V| = d\\) different tokens in the vocabulary.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#section",
+    "href": "IberLEF2023/short-davincis2023.html#section",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "",
+    "text": "A text is represented by the sequence of its tokens, i.e., \\((t_1, t_2, \\ldots)\\). The text is then vectorized as:\n\\[\n    \\textsf{sbow}(\\text{some text}) = \\textsf{sbow}((t_1, t_2, \\ldots)) = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#sbow",
+    "href": "IberLEF2023/short-davincis2023.html#sbow",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "SBoW",
+    "text": "SBoW",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#dense-bag-of-words",
+    "href": "IberLEF2023/short-davincis2023.html#dense-bag-of-words",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Dense bag of words",
+    "text": "Dense bag of words\n\n\nIn contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) pre-trained on a different collection of tweets. \nWithout loss of generality, it is assumed that there are \\(M\\) labeled datasets, each one contains a binary text classification problem.\n\n\nnoting that if a dataset has \\(K\\) labels, then this dataset can be represented as \\(K\\) binary classification problems following the one versus the rest approach, i.e., it is transformed to \\(K\\) datasets.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#construction-of-the-dbow",
+    "href": "IberLEF2023/short-davincis2023.html#construction-of-the-dbow",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Construction of the DBOW",
+    "text": "Construction of the DBOW\n\n\nFor each of these \\(M\\) binary text classification problems, a SBOW-based classifier is built using a pre-trained SBOW representation and a linear Support Vector Machine (SVM) as the classifier. Consequently, there are \\(M\\) binary text classifiers, i.e., \\((c_1, c_2, \\ldots, c_M)\\). Additionally, the decision function of \\(c_i\\) is a value where the sign indicates the class.   The text representation is the vector obtained by concatenating the decision functions of the \\(M\\) classifiers and then normalizing the vector to have unitary norm.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#dense-bow-stacking",
+    "href": "IberLEF2023/short-davincis2023.html#dense-bow-stacking",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Dense BoW (stacking)",
+    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued",
+    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\n\nThe pre-trained BoW is estimated from 4,194,304 (\\(2^{22}\\)) tweets randomly selected in a larger collection of messages.\nThe IDF values were estimated from the collections, and some tokens were selected from all the available ones found in the collection.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-1",
+    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-1",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\nTwo procedures were used to select the tokens:\n\nthe first corresponds to selecting the \\(d\\) tokens with the highest frequency, and the other to normalize the frequency w.r.t. their type, i.e., bigrams, words, and q-grams of characters. Once the frequency is normalized, one selects the \\(d\\) tokens with the highest normalized frequency.\nThe value of \\(d\\) is \\(2^{17}\\); however, one can also find in the library models for \\(2^{13}, 2^{14}, \\ldots, 2^{17}.\\)",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-2",
+    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-2",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "SBOW parameters (continued…)",
+    "text": "SBOW parameters (continued…)\n\nIt is also possible to train the BoW model using the training set; in this case, we used the default parameters. The only difference is that vocabulary size \\(d\\) is bounded by the training set tokens.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#dbow-parameters-continued",
+    "href": "IberLEF2023/short-davincis2023.html#dbow-parameters-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "DBOW parameters (continued…)",
+    "text": "DBOW parameters (continued…)\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-1",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-1",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\nThe list of configurations\n\n\nbow: Pre-trained BoW where the tokens are selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.\nbow_voc_selection: Pre-trained BoW where the tokens correspond to the most frequent ones.\nbow_training_set: BoW trained with the training set; the number of tokens corresponds to all the tokens in the set.\nstack_bow_keywords_emojis: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW.\n\nstack_bow_keywords_emojis_voc_selection: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-2",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-2",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_bows: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection).\nstack_2_bow_keywords: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency.\nstack_2_bow_tailored_keywords: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as tailored keywords.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-3",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-3",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_2_bow_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_keywords where the difference is that the dense representations include the models created with the human-annotated datasets.\nstack_2_bow_tailored_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_all_keywords, where the difference is that the dense representation with normalized frequency also includes the tailored keywords.\nstack_3_bows: Stack generalization approach with three base classifiers. All of them are BoW; the first two correspond pre-trained BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection), and the latest is a BoW trained on the training set (i.e., bow_training_set).",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-4",
+    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-4",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Configurations (continued…)",
+    "text": "Configurations (continued…)\n\n\nstack_3_bows_tailored_keywords: Stack generalization approach with five base classifiers. The first corresponds to a BoW trained on the training set, and the rest are used in stack_2_bow_tailored_keywords.\nstack_3_bow_tailored_all_keywords: Stack generalization approach with five base classifiers. It is comparable to stack_3_bows_tailored_keywords being the difference in the use of the tailored keywords.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#competition",
+    "href": "IberLEF2023/short-davincis2023.html#competition",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Competition",
+    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner in each edition. The best performance is in boldface.\n\n\n\nDA-VINCIS 2023\nDA-VINCIS 20222\n\n\n\n\nWinner\n0.9264\n0.7817\n\n\nINGEOTEC\n0.8903\n0.7510\n\n\nDifference\n4.1%\n4.1%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#other-competitions-performance",
+    "href": "IberLEF2023/short-davincis2023.html#other-competitions-performance",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Other competitions performance",
+    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#other-competitions-performance-continued",
+    "href": "IberLEF2023/short-davincis2023.html#other-competitions-performance-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Other competitions performance (Continued…)",
+    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#example",
+    "href": "IberLEF2023/short-davincis2023.html#example",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Example",
+    "text": "Example\n\nUsing a tailored dense model with the DA-VINCIS 2023 dataset, we can see:",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#example-1",
+    "href": "IberLEF2023/short-davincis2023.html#example-1",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Example",
+    "text": "Example\n\nUsing a dense model with the DA-VINCIS 2023 dataset, we can see:",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#example---performance-varying-d",
+    "href": "IberLEF2023/short-davincis2023.html#example---performance-varying-d",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Example - performance varying \\(d\\)",
+    "text": "Example - performance varying \\(d\\)\n\n\n\n\n\n\n\nMore details",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/short-davincis2023.html#conclusions-continued",
+    "href": "IberLEF2023/short-davincis2023.html#conclusions-continued",
+    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
+    "section": "Conclusions (continued…)",
+    "text": "Conclusions (continued…)\n\n\nExplainability of the model (with a simple bow outstanding results). Simplest solution Fast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
+    "crumbs": [
+      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
   },
   {
     "objectID": "IberLEF2023/davincis2023.html#ingeotec-research-group",
@@ -849,996 +1869,6 @@
     "text": "Conclusions (continued…)\n\n\nExplainability of the model (with a simple bow outstanding results). Simplest solution Fast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
     "crumbs": [
       "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#ingeotec-research-group",
-    "href": "IberLEF2023/restMex2023.html#ingeotec-research-group",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "INGEOTEC research group",
-    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#the-rest-mex-task-at-iberlef-2023",
-    "href": "IberLEF2023/restMex2023.html#the-rest-mex-task-at-iberlef-2023",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "The Rest-Mex Task at IberLEF 2023",
-    "text": "The Rest-Mex Task at IberLEF 2023\n\n\nFor the sentiment analysis, the problem is resume as:\n\n\n“Given an opinion about a Mexican tourist place, the goal is to determine the polarity, between 1 and 5, of the text, the type of opinion (hotel, restaurant or attraction) and, the country of the place of which the opinion is being given (Mexico, Cuba, Colombia)”",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#our-appproach",
-    "href": "IberLEF2023/restMex2023.html#our-appproach",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our appproach",
-    "text": "Our appproach\n Our solution system uses only text-based features. More particularly, we used our EvoMSA framework (Graff et al. 2020).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#our-approach-evomsa-2.0",
-    "href": "IberLEF2023/restMex2023.html#our-approach-evomsa-2.0",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our approach: EvoMSA 2.0",
-    "text": "Our approach: EvoMSA 2.0",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#our-representations",
-    "href": "IberLEF2023/restMex2023.html#our-representations",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our representations",
-    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#sparse-bag-of-words",
-    "href": "IberLEF2023/restMex2023.html#sparse-bag-of-words",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Sparse bag of words",
-    "text": "Sparse bag of words\n\nThe text is preprocessed and tokenized, then each token \\(t\\) is associated with a vector \\(\\mathbf{v_t} \\in \\mathbb R^d\\) where the \\(i\\)-th component, i.e., \\(\\mathbf{v_t}_i\\), contains the Inverse-Document-Frequency (IDF) value of the token \\(t\\) and \\(\\forall_{j \\neq i} \\mathbf{v_t}_j=0\\).\n\nThe set of vectors \\(\\mathbf V = \\{ \\mathbf v_t \\}\\) corresponds to the vocabulary, and there are \\(|\\mathbf V| = d\\) different tokens in the vocabulary.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#section",
-    "href": "IberLEF2023/restMex2023.html#section",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "",
-    "text": "A text is represented by the sequence of its tokens, i.e., \\((t_1, t_2, \\ldots)\\). The text is then vectorized as:\n\\[\n    \\textsf{sbow}(\\text{some text}) = \\textsf{sbow}((t_1, t_2, \\ldots)) = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#sbow",
-    "href": "IberLEF2023/restMex2023.html#sbow",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBoW",
-    "text": "SBoW",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#dense-bag-of-words",
-    "href": "IberLEF2023/restMex2023.html#dense-bag-of-words",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Dense bag of words",
-    "text": "Dense bag of words\n\n\nIn contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) pre-trained on a different collection of tweets. \nWithout loss of generality, it is assumed that there are \\(M\\) labeled datasets, each one contains a binary text classification problem.\n\n\nnoting that if a dataset has \\(K\\) labels, then this dataset can be represented as \\(K\\) binary classification problems following the one versus the rest approach, i.e., it is transformed to \\(K\\) datasets.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#construction-of-the-dbow",
-    "href": "IberLEF2023/restMex2023.html#construction-of-the-dbow",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction of the DBOW",
-    "text": "Construction of the DBOW\n\n\nFor each of these \\(M\\) binary text classification problems, a SBOW-based classifier is built using a pre-trained SBOW representation and a linear Support Vector Machine (SVM) as the classifier. Consequently, there are \\(M\\) binary text classifiers, i.e., \\((c_1, c_2, \\ldots, c_M)\\). Additionally, the decision function of \\(c_i\\) is a value where the sign indicates the class.   The text representation is the vector obtained by concatenating the decision functions of the \\(M\\) classifiers and then normalizing the vector to have unitary norm.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#construction-continued",
-    "href": "IberLEF2023/restMex2023.html#construction-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction (continued…)",
-    "text": "Construction (continued…)\n\n\nA text \\(x\\) is represented with vector \\(\\mathbf{x^{'}} \\in \\mathbb R^M\\) where the value \\(\\mathbf{x^{'}}_i\\) corresponds to the decision function of \\(c_i\\). Given that the classifier \\(c_i\\) is a linear SVM, the decision function corresponds to the dot product between the input vector and the weight vector \\(\\mathbf w_i\\) plus the bias \\(\\mathbf w_{i_0}\\), where the weight vector and the bias are the parameters of the classifier.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#construction-continued-1",
-    "href": "IberLEF2023/restMex2023.html#construction-continued-1",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction (continued…)",
-    "text": "Construction (continued…)\nThat is, the value \\(\\mathbf{x^{'}}_i\\) corresponds to\n\\[\n    \\mathbf{x^{'}}_i = \\mathbf w_i \\cdot \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_k \\mathbf{v_k} \\rVert} + \\mathbf w_{i_0},    \n\\]\nwhere \\(\\mathbf{v_t}\\) is the IDF vector associated to the token \\(t\\) of the text \\(x\\)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#construction-continued-2",
-    "href": "IberLEF2023/restMex2023.html#construction-continued-2",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction (continued…)",
-    "text": "Construction (continued…)\nIn matrix notation, vector \\(\\mathbf{x'}\\) is\n\\[    \\mathbf{x^{'}} = \\mathbf W \\cdot \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_k \\mathbf{v_k} \\rVert} + \\mathbf{w_0},\n\\]\nwhere matrix \\(\\mathbf W \\in \\mathbb R^{M \\times d}\\) contains the weights, and \\(\\mathbf{w_0} \\in \\mathbb R^M\\) is the bias. Another way to see the previous formulation is by defining a vector \\(\\mathbf{u_t} = \\frac{1}{\\lVert \\mathbf{v_t} \\rVert} \\mathbf W \\mathbf{v_t}\\).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#construction-continued-3",
-    "href": "IberLEF2023/restMex2023.html#construction-continued-3",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Construction (continued…)",
-    "text": "Construction (continued…)\nConsequently, \\(\\mathbf{x'}\\) is defined as:\n\\[\n    \\label{eq:denseBoW}\n    \\mathbf{x'} = \\sum_t \\mathbf{u_t} + \\mathbf{w_0},\n\\] vectors \\(\\mathbf{u} \\in \\mathbb R^M\\) correspond to the tokens. This is the reason we refer to this model as a dense BoW.\nFinally, the vector representing the text \\(x\\) is the normalized \\(\\mathbf{x^{'}}\\), i.e., \\(\\mathbf x = \\frac{\\mathbf{x^{'}}}{\\lVert \\mathbf{x^{'}} \\rVert}.\\)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#dense-bow-stacking",
-    "href": "IberLEF2023/restMex2023.html#dense-bow-stacking",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Dense BoW (stacking)",
-    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued",
-    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\n\nThe pre-trained BoW is estimated from 4,194,304 (\\(2^{22}\\)) tweets randomly selected in a larger collection of messages.\nThe IDF values were estimated from the collections, and some tokens were selected from all the available ones found in the collection.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued-1",
-    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued-1",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\nTwo procedures were used to select the tokens:\n\nthe first corresponds to selecting the \\(d\\) tokens with the highest frequency, and the other to normalize the frequency w.r.t. their type, i.e., bigrams, words, and q-grams of characters. Once the frequency is normalized, one selects the \\(d\\) tokens with the highest normalized frequency.\nThe value of \\(d\\) is \\(2^{17}\\); however, one can also find in the library models for \\(2^{13}, 2^{14}, \\ldots, 2^{17}.\\)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#sbow-parameters-continued-2",
-    "href": "IberLEF2023/restMex2023.html#sbow-parameters-continued-2",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\n\nIt is also possible to train the BoW model using the training set; in this case, we used the default parameters. The only difference is that vocabulary size \\(d\\) is bounded by the training set tokens.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#dbow-parameters-continued",
-    "href": "IberLEF2023/restMex2023.html#dbow-parameters-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "DBOW parameters (continued…)",
-    "text": "DBOW parameters (continued…)\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-1",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued-1",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\nThe list of configurations\n\n\nbow: Pre-trained BoW where the tokens are selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.\nbow_voc_selection: Pre-trained BoW where the tokens correspond to the most frequent ones.\nbow_training_set: BoW trained with the training set; the number of tokens corresponds to all the tokens in the set.\nstack_bow_keywords_emojis: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW.\n\nstack_bow_keywords_emojis_voc_selection: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-2",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued-2",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_bows: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection).\nstack_2_bow_keywords: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency.\nstack_2_bow_tailored_keywords: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as tailored keywords.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-3",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued-3",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_2_bow_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_keywords where the difference is that the dense representations include the models created with the human-annotated datasets.\nstack_2_bow_tailored_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_all_keywords, where the difference is that the dense representation with normalized frequency also includes the tailored keywords.\nstack_3_bows: Stack generalization approach with three base classifiers. All of them are BoW; the first two correspond pre-trained BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection), and the latest is a BoW trained on the training set (i.e., bow_training_set).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#configurations-continued-4",
-    "href": "IberLEF2023/restMex2023.html#configurations-continued-4",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_3_bows_tailored_keywords: Stack generalization approach with five base classifiers. The first corresponds to a BoW trained on the training set, and the rest are used in stack_2_bow_tailored_keywords.\nstack_3_bow_tailored_all_keywords: Stack generalization approach with five base classifiers. It is comparable to stack_3_bows_tailored_keywords being the difference in the use of the tailored keywords.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#competition",
-    "href": "IberLEF2023/restMex2023.html#competition",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Competition",
-    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#other-competitions-performance",
-    "href": "IberLEF2023/restMex2023.html#other-competitions-performance",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance",
-    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#other-competitions-performance-continued",
-    "href": "IberLEF2023/restMex2023.html#other-competitions-performance-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance (Continued…)",
-    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/restMex2023.html#conclusions-continued",
-    "href": "IberLEF2023/restMex2023.html#conclusions-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Conclusions (continued…)",
-    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
-    "href": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "INGEOTEC research group",
-    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#the-da-vincis-task-at-iberlef-2023",
-    "href": "IberLEF2023/short-davincis2023.html#the-da-vincis-task-at-iberlef-2023",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "The DA-VINCIS Task at IberLEF 2023",
-    "text": "The DA-VINCIS Task at IberLEF 2023\n\n\nAn open challenge to develop multimodal models to detect violent incidents on Twitter. The task has two tracks:\n\nviolent event identification and\nviolent event category recognition.\n\nThis presentation describes our solution system for the (i) track using only text-based features. More particularly, we used our EvoMSA framework (Graff et al. 2020).",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#our-approach-evomsa-2.0",
-    "href": "IberLEF2023/short-davincis2023.html#our-approach-evomsa-2.0",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Our approach: EvoMSA 2.0",
-    "text": "Our approach: EvoMSA 2.0",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#our-text-representations",
-    "href": "IberLEF2023/short-davincis2023.html#our-text-representations",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Our text representations",
-    "text": "Our text representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#sparse-bag-of-words",
-    "href": "IberLEF2023/short-davincis2023.html#sparse-bag-of-words",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Sparse bag of words",
-    "text": "Sparse bag of words\n\nThe text is preprocessed and tokenized, then each token \\(t\\) is associated with a vector \\(\\mathbf{v_t} \\in \\mathbb R^d\\) where the \\(i\\)-th component, i.e., \\(\\mathbf{v_t}_i\\), contains the Inverse-Document-Frequency (IDF) value of the token \\(t\\) and \\(\\forall_{j \\neq i} \\mathbf{v_t}_j=0\\).\n\nThe set of vectors \\(\\mathbf V = \\{ \\mathbf v_t \\}\\) corresponds to the vocabulary, and there are \\(|\\mathbf V| = d\\) different tokens in the vocabulary.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#section",
-    "href": "IberLEF2023/short-davincis2023.html#section",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "",
-    "text": "A text is represented by the sequence of its tokens, i.e., \\((t_1, t_2, \\ldots)\\). The text is then vectorized as:\n\\[\n    \\textsf{sbow}(\\text{some text}) = \\textsf{sbow}((t_1, t_2, \\ldots)) = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#sbow",
-    "href": "IberLEF2023/short-davincis2023.html#sbow",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "SBoW",
-    "text": "SBoW",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#dense-bag-of-words",
-    "href": "IberLEF2023/short-davincis2023.html#dense-bag-of-words",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Dense bag of words",
-    "text": "Dense bag of words\n\n\nIn contrast to SBOW, the dense embeddings come from associating each component to the decision value of a text classifier (e.g., based on SBOW) pre-trained on a different collection of tweets. \nWithout loss of generality, it is assumed that there are \\(M\\) labeled datasets, each one contains a binary text classification problem.\n\n\nnoting that if a dataset has \\(K\\) labels, then this dataset can be represented as \\(K\\) binary classification problems following the one versus the rest approach, i.e., it is transformed to \\(K\\) datasets.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#construction-of-the-dbow",
-    "href": "IberLEF2023/short-davincis2023.html#construction-of-the-dbow",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Construction of the DBOW",
-    "text": "Construction of the DBOW\n\n\nFor each of these \\(M\\) binary text classification problems, a SBOW-based classifier is built using a pre-trained SBOW representation and a linear Support Vector Machine (SVM) as the classifier. Consequently, there are \\(M\\) binary text classifiers, i.e., \\((c_1, c_2, \\ldots, c_M)\\). Additionally, the decision function of \\(c_i\\) is a value where the sign indicates the class.   The text representation is the vector obtained by concatenating the decision functions of the \\(M\\) classifiers and then normalizing the vector to have unitary norm.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#dense-bow-stacking",
-    "href": "IberLEF2023/short-davincis2023.html#dense-bow-stacking",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Dense BoW (stacking)",
-    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued",
-    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\n\nThe pre-trained BoW is estimated from 4,194,304 (\\(2^{22}\\)) tweets randomly selected in a larger collection of messages.\nThe IDF values were estimated from the collections, and some tokens were selected from all the available ones found in the collection.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-1",
-    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-1",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\nTwo procedures were used to select the tokens:\n\nthe first corresponds to selecting the \\(d\\) tokens with the highest frequency, and the other to normalize the frequency w.r.t. their type, i.e., bigrams, words, and q-grams of characters. Once the frequency is normalized, one selects the \\(d\\) tokens with the highest normalized frequency.\nThe value of \\(d\\) is \\(2^{17}\\); however, one can also find in the library models for \\(2^{13}, 2^{14}, \\ldots, 2^{17}.\\)",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-2",
-    "href": "IberLEF2023/short-davincis2023.html#sbow-parameters-continued-2",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "SBOW parameters (continued…)",
-    "text": "SBOW parameters (continued…)\n\nIt is also possible to train the BoW model using the training set; in this case, we used the default parameters. The only difference is that vocabulary size \\(d\\) is bounded by the training set tokens.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#dbow-parameters-continued",
-    "href": "IberLEF2023/short-davincis2023.html#dbow-parameters-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "DBOW parameters (continued…)",
-    "text": "DBOW parameters (continued…)\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-1",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-1",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\nThe list of configurations\n\n\nbow: Pre-trained BoW where the tokens are selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.\nbow_voc_selection: Pre-trained BoW where the tokens correspond to the most frequent ones.\nbow_training_set: BoW trained with the training set; the number of tokens corresponds to all the tokens in the set.\nstack_bow_keywords_emojis: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW.\n\nstack_bow_keywords_emojis_voc_selection: Stack generalization approach where the base classifiers are the BoW, the emojis, and the keywords dense BoW. The tokens in these models were selected based on a normalized frequency w.r.t. its type, i.e., bigrams, words, and q-grams of characters.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-2",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-2",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_bows: Stack generalization approach where the base classifiers are BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection).\nstack_2_bow_keywords: Stack generalization approach where with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency.\nstack_2_bow_tailored_keywords: Stack generalization approach with four base classifiers. These correspond to two BoW and two dense BoW (emojis and keywords), where the difference in each is the procedure used to select the tokens, i.e., the most frequent or normalized frequency. The second difference is that the dense representation with normalized frequency also includes models for the most discriminant words selected by a BoW classifier in the training set. We refer to these latter representations as tailored keywords.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-3",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-3",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_2_bow_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_keywords where the difference is that the dense representations include the models created with the human-annotated datasets.\nstack_2_bow_tailored_all_keywords: Stack generalization approach with four base classifiers equivalent to stack_2_bow_all_keywords, where the difference is that the dense representation with normalized frequency also includes the tailored keywords.\nstack_3_bows: Stack generalization approach with three base classifiers. All of them are BoW; the first two correspond pre-trained BoW with the two token selection procedures described previously (i.e., bow and bow_voc_selection), and the latest is a BoW trained on the training set (i.e., bow_training_set).",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#configurations-continued-4",
-    "href": "IberLEF2023/short-davincis2023.html#configurations-continued-4",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Configurations (continued…)",
-    "text": "Configurations (continued…)\n\n\nstack_3_bows_tailored_keywords: Stack generalization approach with five base classifiers. The first corresponds to a BoW trained on the training set, and the rest are used in stack_2_bow_tailored_keywords.\nstack_3_bow_tailored_all_keywords: Stack generalization approach with five base classifiers. It is comparable to stack_3_bows_tailored_keywords being the difference in the use of the tailored keywords.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#competition",
-    "href": "IberLEF2023/short-davincis2023.html#competition",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Competition",
-    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner in each edition. The best performance is in boldface.\n\n\n\nDA-VINCIS 2023\nDA-VINCIS 20222\n\n\n\n\nWinner\n0.9264\n0.7817\n\n\nINGEOTEC\n0.8903\n0.7510\n\n\nDifference\n4.1%\n4.1%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#other-competitions-performance",
-    "href": "IberLEF2023/short-davincis2023.html#other-competitions-performance",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Other competitions performance",
-    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#other-competitions-performance-continued",
-    "href": "IberLEF2023/short-davincis2023.html#other-competitions-performance-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Other competitions performance (Continued…)",
-    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#example",
-    "href": "IberLEF2023/short-davincis2023.html#example",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Example",
-    "text": "Example\n\nUsing a tailored dense model with the DA-VINCIS 2023 dataset, we can see:",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#example-1",
-    "href": "IberLEF2023/short-davincis2023.html#example-1",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Example",
-    "text": "Example\n\nUsing a dense model with the DA-VINCIS 2023 dataset, we can see:",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#example---performance-varying-d",
-    "href": "IberLEF2023/short-davincis2023.html#example---performance-varying-d",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Example - performance varying \\(d\\)",
-    "text": "Example - performance varying \\(d\\)\n\n\n\n\n\n\n\nMore details",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/short-davincis2023.html#conclusions-continued",
-    "href": "IberLEF2023/short-davincis2023.html#conclusions-continued",
-    "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
-    "section": "Conclusions (continued…)",
-    "text": "Conclusions (continued…)\n\n\nExplainability of the model (with a simple bow outstanding results). Simplest solution Fast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
-    "crumbs": [
-      "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
-    "href": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "INGEOTEC research group",
-    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
-    "href": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our approach: EvoMSA 2.0",
-    "text": "Our approach: EvoMSA 2.0\n \n\n\n\nEvoMSA’s documentation (https://evomsa.readthedocs) Papers (Graff et al. 2020) (Tellez et al. 2017)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-representations",
-    "href": "IberLEF2023/RestMex2023-10mins.html#our-representations",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our representations",
-    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#sbow",
-    "href": "IberLEF2023/RestMex2023-10mins.html#sbow",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBoW",
-    "text": "SBoW",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
-    "href": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Dense BoW (stacking)",
-    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
-    "href": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "DBOW parameters",
-    "text": "DBOW parameters\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
-    "href": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations",
-    "text": "Configurations\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#competition",
-    "href": "IberLEF2023/RestMex2023-10mins.html#competition",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Competition",
-    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
-    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance",
-    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
-    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance (Continued…)",
-    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
-    "href": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Conclusions (continued…)",
-    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#ingeotec",
-    "href": "TextClassification/general.html#ingeotec",
-    "title": "Text Classification",
-    "section": "INGEOTEC",
-    "text": "INGEOTEC\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#aguascalientes-méxico",
-    "href": "TextClassification/general.html#aguascalientes-méxico",
-    "title": "Text Classification",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#text-classification",
-    "href": "TextClassification/general.html#text-classification",
-    "title": "Text Classification",
-    "section": "Text Classification",
-    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#text-classification-tasks",
-    "href": "TextClassification/general.html#text-classification-tasks",
-    "title": "Text Classification",
-    "section": "Text Classification Tasks",
-    "text": "Text Classification Tasks\n\n\n\nPolarity\n\n\nPositive, Negative, Neutral\n\n\n\n\n\n\nEmotion (Multiclass)\n\n\n\nAnger, Joy, …\nIntensity of an emotion\n\n\n\n\n\n\n\nEvent (Binary)\n\n\n\nViolent\nCrime",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#profiling",
-    "href": "TextClassification/general.html#profiling",
-    "title": "Text Classification",
-    "section": "Profiling",
-    "text": "Profiling\n\n\n\nGender\n\n\nMan, Woman, Nonbinary, …\n\n\n\n\n\n\nAge\n\n\nChild, Teen, Adult\n\n\n\n\n\n\nLanguage Variety\n\n\n\nSpanish: Spain, Cuba, Argentine, México, …\nEnglish: United States, England, …",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#machine-learning",
-    "href": "TextClassification/general.html#machine-learning",
-    "title": "Text Classification",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\n\n\nDefinition\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\nTypes of ML algorithms\n\n\n\nUnsupervised Learning\nSupervised Learning\nReinforcement Learning",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-multiclass",
-    "href": "TextClassification/general.html#supervised-learning-multiclass",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Multiclass)",
-    "text": "Supervised Learning (Multiclass)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-binary",
-    "href": "TextClassification/general.html#supervised-learning-binary",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Binary)",
-    "text": "Supervised Learning (Binary)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-classification",
-    "href": "TextClassification/general.html#supervised-learning-classification",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Classification)",
-    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-geometry",
-    "href": "TextClassification/general.html#supervised-learning-geometry",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Geometry)",
-    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-geometry-2",
-    "href": "TextClassification/general.html#supervised-learning-geometry-2",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Geometry 2)",
-    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-geometry-3",
-    "href": "TextClassification/general.html#supervised-learning-geometry-3",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Geometry 3)",
-    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#training-set",
-    "href": "TextClassification/general.html#training-set",
-    "title": "Text Classification",
-    "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@CayetanoElRey @SrLiberal @DavidVisus La polic...\n0\n\n\n1\n🔴#ATENCIÓN | Cámara de seguridad capta el mome...\n1\n\n\n2\n@jetbIackzayn Fernando García — Élite\n0\n\n\n3\nTres hombres fueron detenidos en Acapulco en p...\n1\n\n\n4\n@24HorasTVN El camión no chocó con la benciner...\n0\n\n\n5\n“La desaparición de Maurice Audin durante la g...\n1\n\n\n6\nEl Puerto de Algeciras acaba de superar por 5º...\n0\n\n\n7\n#femicidio Asesinaron a una joven de 14 años e...\n1",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#quiz",
-    "href": "TextClassification/general.html#quiz",
-    "title": "Text Classification",
-    "section": "Quiz",
-    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following tasks does the previous training set belong to?\n\nPolarity\nEmotion identification\nAggressive detection\nProfiling",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#training-set-2",
-    "href": "TextClassification/general.html#training-set-2",
-    "title": "Text Classification",
-    "section": "Training set (2)",
-    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\nToken as a vector\nSparse vector\nDense vector\nUtterance as a vector",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#token-as-vector",
-    "href": "TextClassification/general.html#token-as-vector",
-    "title": "Text Classification",
-    "section": "Token as Vector",
-    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#token-as-vector-2",
-    "href": "TextClassification/general.html#token-as-vector-2",
-    "title": "Text Classification",
-    "section": "Token as Vector (2)",
-    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\n\nAlgorithm\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to\n\\((\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\)\nwhere \\(\\beta_i &gt; 0\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#utterance-as-vector",
-    "href": "TextClassification/general.html#utterance-as-vector",
-    "title": "Text Classification",
-    "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#tokens",
-    "href": "TextClassification/general.html#tokens",
-    "title": "Text Classification",
-    "section": "Tokens",
-    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#text-normalization-1",
-    "href": "TextClassification/general.html#text-normalization-1",
-    "title": "Text Classification",
-    "section": "Text Normalization",
-    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nURL (replace)\n\n\n\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_url\", text)\noutput\n\n'go _url and find out'",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#tokenizer",
-    "href": "TextClassification/general.html#tokenizer",
-    "title": "Text Classification",
-    "section": "Tokenizer",
-    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#tokenizer-2",
-    "href": "TextClassification/general.html#tokenizer-2",
-    "title": "Text Classification",
-    "section": "Tokenizer (2)",
-    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#mu-tc",
-    "href": "TextClassification/general.html#mu-tc",
-    "title": "Text Classification",
-    "section": "\\(\\mu\\)-TC",
-    "text": "\\(\\mu\\)-TC\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE,\n               lc=True,\n               del_dup=False,\n               del_punc=True,\n               del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing football with @mgraffg'\ntm.tokenize(text)\n\n['i', 'like', 'playing', 'football', 'with']",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#mu-tc-2",
-    "href": "TextClassification/general.html#mu-tc-2",
-    "title": "Text Classification",
-    "section": "\\(\\mu\\)-TC (2)",
-    "text": "\\(\\mu\\)-TC (2)\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-2, -1, 6],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing...'\ntm.tokenize(text)\n\n['i~like',\n 'like~playing',\n 'i',\n 'like',\n 'playing',\n 'q:~i~lik',\n 'q:i~like',\n 'q:~like~',\n 'q:like~p',\n 'q:ike~pl',\n 'q:ke~pla',\n 'q:e~play',\n 'q:~playi',\n 'q:playin',\n 'q:laying',\n 'q:aying~']",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#training-set-1",
-    "href": "TextClassification/general.html#training-set-1",
-    "title": "Text Classification",
-    "section": "Training set",
-    "text": "Training set\n\nURL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'\nif not isfile('delitos.zip'):\n  Download(URL,\n           'delitos.zip')\nif not isdir('delitos'):\n  !unzip -Pingeotec delitos.zip",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#utterance-as-vector-1",
-    "href": "TextClassification/general.html#utterance-as-vector-1",
-    "title": "Text Classification",
-    "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfname = 'delitos/delitos_ingeotec_Es_train.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['este', 'caso', 'tiene']\n\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('de', 980), ('en', 803), ('la', 653)]",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#utterance-as-vector-2",
-    "href": "TextClassification/general.html#utterance-as-vector-2",
-    "title": "Text Classification",
-    "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(63, 7.906890595608518),\n (59, 5.8479969065549495),\n (9, 1.3269461696539864),\n (13, 2.5277907564370796)]",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#utterance-as-vector-3",
-    "href": "TextClassification/general.html#utterance-as-vector-3",
-    "title": "Text Classification",
-    "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f2ceb761390&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, 0.08495635021337841),\n (5135, 0.0766897986795882),\n (6598, 0.3526199879358128),\n (3350, 0.19654493631439243)]",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#quiz-1",
-    "href": "TextClassification/general.html#quiz-1",
-    "title": "Text Classification",
-    "section": "Quiz",
-    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following representations do you consider to produce a larger vocabulary?\n\n\n\n\n\n\n\n\nA\n\n\n\ntmA = TextModel(token_list=[-1, 3],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)\n\n\n\n\n\n\n\n\nB\n\n\n\ntmB = TextModel(token_list=[-1, 6],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#procedure-1",
-    "href": "TextClassification/general.html#procedure-1",
-    "title": "Text Classification",
-    "section": "Procedure",
-    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\ntm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, lc=True, del_dup=False,\n                del_punc=True, del_diac=True\n               ).fit(training_set)\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray([0])",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#performance",
-    "href": "TextClassification/general.html#performance",
-    "title": "Text Classification",
-    "section": "Performance",
-    "text": "Performance\n\n\n\nTest set\n\n\n\ntest_set = list(tweet_iterator(fname.replace('_train.', '_test.')))\n\n\n\n\n\n\n\nPrediction\n\n\n\ntm = TextModel(token_list=[-2, -1, 3, 4], num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, lc=True, del_dup=False,\n               del_punc=True, del_diac=True\n              ).fit(training_set)\nX = tm.transform(training_set)\nlabels = np.array([x['klass'] for x in training_set])\nm = LinearSVC(dual='auto', class_weight='balanced').fit(X, labels)\nhy = m.predict(tm.transform(test_set))\n\n\n\n\n\n\n\nPerformance\n\n\n\nrecall_score([x['klass'] for x in test_set],\n             hy, average=None)\n\narray([0.95070423, 0.68421053])",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#feature-importance",
-    "href": "TextClassification/general.html#feature-importance",
-    "title": "Text Classification",
-    "section": "Feature Importance",
-    "text": "Feature Importance\n\n\n\nCoefficients\n\n\n\ndef coef(X, y):\n    m = LinearSVC(dual='auto',\n                  class_weight='balanced'\n                 ).fit(X, y)\n    return m.coef_\n\n\n\n\n\n\n\nNormalize Coefficients\n\n\n\nstats = StatisticSamples(statistic=coef,\n                         num_samples=50,\n                         n_jobs=-1)\nb_samples = stats(X, labels)\nse = np.std(b_samples, axis=0)\nse[se==0] = 1\nw_norm = m.coef_ / se\nw_norm = np.linalg.norm(w_norm, axis=0)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#feature-importance-2",
-    "href": "TextClassification/general.html#feature-importance-2",
-    "title": "Text Classification",
-    "section": "Feature Importance (2)",
-    "text": "Feature Importance (2)\n\n\n\nWordcloud\n\n\n\npath = './emoji_text.ttf'\nitems = tm.token_weight.items\ntokens = {tm.id2token[id]: w_norm[id] * _w for id, _w in items()\n          if w_norm[id] &gt;= 2.0 and np.isfinite(w_norm[id])}\nword_cloud = WordCloud(font_path=path,\n                       background_color='white'\n                      ).generate_from_frequencies(tokens)\nplt.imshow(word_cloud, interpolation='bilinear')\nplt.tick_params(left=False, right=False, labelleft=False,\n                   labelbottom=False, bottom=False)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#feature-importance-2-output",
-    "href": "TextClassification/general.html#feature-importance-2-output",
-    "title": "Text Classification",
-    "section": "Feature Importance (2)",
-    "text": "Feature Importance (2)",
-    "crumbs": [
-      "Text Classification"
     ]
   }
 ]

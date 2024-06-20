@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://INGEOTEC.github.io/talks/TextClassification/poornima.html</loc>
-    <lastmod>2024-05-16T18:57:09.661Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/MexLEF2023/index.html</loc>
-    <lastmod>2024-05-16T18:57:09.657Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/davincis2023.html</loc>
-    <lastmod>2024-05-16T18:57:09.625Z</lastmod>
-  </url>
-  <url>
     <loc>https://INGEOTEC.github.io/talks/IberLEF2023/restMex2023.html</loc>
-    <lastmod>2024-05-16T18:57:09.625Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/short-davincis2023.html</loc>
-    <lastmod>2024-05-16T18:57:09.625Z</lastmod>
+    <lastmod>2024-06-20T00:53:38.301Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/IberLEF2023/RestMex2023-10mins.html</loc>
-    <lastmod>2024-05-16T18:57:09.621Z</lastmod>
+    <lastmod>2024-06-20T00:53:38.297Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/MexLEF2023/index.html</loc>
+    <lastmod>2024-06-20T00:53:38.333Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/TextClassification/poornima.html</loc>
+    <lastmod>2024-06-20T00:53:38.337Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/TextClassification/general.html</loc>
-    <lastmod>2024-05-16T18:57:09.661Z</lastmod>
+    <lastmod>2024-06-20T00:53:38.337Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/short-davincis2023.html</loc>
+    <lastmod>2024-06-20T00:53:38.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/davincis2023.html</loc>
+    <lastmod>2024-06-20T00:53:38.301Z</lastmod>
   </url>
 </urlset>
