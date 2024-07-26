@@ -1,0 +1,28 @@
+---
+lang: es
+title: "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+# subtitle: "Poornima Institute of Engineering & Technology"
+author:
+    - name: "Mario Graff"
+      url: https://mgraffg.github.io
+      affiliation: INFOTEC
+
+format:
+  revealjs:
+    theme: simple
+    chalkboard: true
+    footer: <https://mgraffg.github.io>
+---
+
+
+# ¿Dónde está INFOTEC? 
+
+## Aguascalientes, México
+
+![](aguascalientes_edo.jpg){width=200}
+
+
+
+# Conclusiones
+
+* XxX
