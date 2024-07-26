@@ -21,7 +21,15 @@ format:
 
 ![](aguascalientes_edo.jpg){width=200}
 
+# Introducción 
 
+## Inteligencia Artificial
+
+::: {.callout-note icon="false"} 
+### Definición
+
+Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.
+:::
 
 # Conclusiones
 
