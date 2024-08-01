@@ -16,7 +16,7 @@ bibliography: references.bib
 ---
 
 
-# ¿Dónde está INFOTEC? 
+# INFOTEC
 
 ## Aguascalientes, México
 
@@ -26,17 +26,19 @@ bibliography: references.bib
 
 ## Definiciones 
 
-::: {.callout-note icon="false"} 
+:::: {.columns}
+::: {.callout-note icon="false" .column} 
 ### Inteligencia Artificial (IA)
 
 Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.
 :::
 
-::: {.fragment .callout-note icon="false"}
+::: {.fragment .callout-note icon="false" .column}
 ### Aprendizaje Computacional  
 
 Aprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados. 
 :::
+::::
 
 ::: {.fragment .callout-note icon="false"} 
 ### Procesamiento de Lenguaje Natural
@@ -51,19 +53,32 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 ::: {.callout-tip icon="false" .column width=50%}
 ### Así la vemos
 
-![](img/robot-futuro.jpg)
+![](img/robot-futuro.jpg){width=253}
 :::
 
 ::: {.fragment .callout-tip icon="false" .column width=50%}
 ### Así está
 
-![](img/robot-juguete.png){.center}
+![](img/robot-juguete.png){fig-align="left"}
 :::
 ::::
 
 # IA en Educación
 
-## Uso - Tendencias
+## Tareas
+
+::: {.callout-tip icon="false"}
+### @chen2020artificial
+
+* Calificar y dar retroalimentación
+* Creación de planes de aprendizaje personalizados
+* Predecir deserción
+* Estilo de aprendizaje basado en información personal
+* Descubrir dificultades de los estudiantes
+* Selección de cursos
+:::
+
+## Tendencias
 
 ::: {.callout-tip icon="false"}
 ### @chen2022two menciona
@@ -84,6 +99,10 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 * Computers & Education
 :::
 
+
+## XxX 
+
+@zatarain2023multimodal
 
 # Procesamiento de Lenguaje Natural
 
