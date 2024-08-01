@@ -17,6 +17,7 @@ website:
         menu:
           - sidebar:general
           - sidebar:poornima
+          - sidebar:educacion
 
   sidebar:
     - id: RestMex2023f
@@ -43,6 +44,10 @@ website:
       title: Text Classification
       contents:
         - TextClassification/general.qmd
+    - id: educacion
+      title: Impacto de PLN en la Educación
+      contents:
+        - TextClassification/educacion.qmd
 
 format:
   html:

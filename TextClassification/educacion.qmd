@@ -12,6 +12,7 @@ format:
     theme: simple
     chalkboard: true
     footer: <https://mgraffg.github.io>
+bibliography: references.bib    
 ---
 
 
@@ -23,14 +24,78 @@ format:
 
 # Introducción 
 
-## Inteligencia Artificial
+## Definiciones 
 
 ::: {.callout-note icon="false"} 
-### Definición
+### Inteligencia Artificial (IA)
 
 Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.
 :::
 
+::: {.fragment .callout-note icon="false"}
+### Aprendizaje Computacional  
+
+Aprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados. 
+:::
+
+::: {.fragment .callout-note icon="false"} 
+### Procesamiento de Lenguaje Natural
+
+Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.
+:::
+
+## Percepción de Inteligencia Artificial (IA)
+
+:::: {.columns}
+
+::: {.callout-tip icon="false" .column width=50%}
+### Así la vemos
+
+![](img/robot-futuro.jpg)
+:::
+
+::: {.fragment .callout-tip icon="false" .column width=50%}
+### Así está
+
+![](img/robot-juguete.png){.center}
+:::
+::::
+
+# IA en Educación
+
+## Uso - Tendencias
+
+::: {.callout-tip icon="false"}
+### @chen2022two menciona
+
+* Tutores Inteligentes - educación especial
+* Procesamiento de Lenguaje Natural - Enseñanza del lenguaje
+* Minería de datos - Predicción de rendimiento
+* Redes neuronales - Evaluación de enseñanza
+* Computación afectiva - Detección de emociones
+* Sistemas de recomendación - Aprendizaje personalizado 
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Foros importantes (index H)
+
+* International Journal of Artificial Intelligence in Education
+* International Conference of Artificial Intelligence in Education
+* Computers & Education
+:::
+
+
+# Procesamiento de Lenguaje Natural
+
+## Aplicaciones en la Educación 
+
+Por hacer
+
 # Conclusiones
 
-* XxX
+Por hacer
+
+# Referencias
+
+::: {#refs}
+:::
