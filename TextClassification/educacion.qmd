@@ -15,7 +15,6 @@ format:
 bibliography: references.bib    
 ---
 
-
 # INFOTEC
 
 ## Aguascalientes, México
@@ -70,39 +69,78 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 ::: {.callout-tip icon="false"}
 ### @chen2020artificial
 
-* Calificar y dar retroalimentación
-* Creación de planes de aprendizaje personalizados
-* Predecir deserción
-* Estilo de aprendizaje basado en información personal
-* Descubrir dificultades de los estudiantes
-* Selección de cursos
+* Calificar y dar retroalimentación.
+* Creación de planes de aprendizaje personalizados.
+* Predecir deserción.
+* Estilo de aprendizaje basado en información personal.
+* Descubrir dificultades de los estudiantes.
+* Selección de cursos.
 :::
 
 ## Tendencias
 
 ::: {.callout-tip icon="false"}
-### @chen2022two menciona
+### @chen2022two
 
-* Tutores Inteligentes - educación especial
-* Procesamiento de Lenguaje Natural - Enseñanza del lenguaje
-* Minería de datos - Predicción de rendimiento
-* Redes neuronales - Evaluación de enseñanza
-* Computación afectiva - Detección de emociones
-* Sistemas de recomendación - Aprendizaje personalizado 
+* Tutores Inteligentes - educación especial, infancia.
+* Procesamiento de Lenguaje Natural - Enseñanza del lenguaje.
+* Minería de datos - Predicción de rendimiento.
+* Redes neuronales - Evaluación de enseñanza.
+* Computación afectiva - Detección de emociones.
+* Sistemas de recomendación - Aprendizaje personalizado. 
 :::
 
 ::: {.fragment .callout-tip icon="false"}
 ### Foros importantes (index H)
 
-* International Journal of Artificial Intelligence in Education
-* International Conference of Artificial Intelligence in Education
-* Computers & Education
+* International Journal of Artificial Intelligence in Education.
+* International Conference of Artificial Intelligence in Education.
+* Computers & Education.
 :::
 
+## Retos
 
-## XxX 
+::: {.callout-tip icon="false"}
+### @chen2022two
 
-@zatarain2023multimodal
+* Privacidad - Aprendizaje personalizado.
+* Incentivar el uso de IA por los docentes.
+* Nuevos modelos de Aprendizaje Computacional.
+:::
+
+## Ambiente Educativo Inteligente 
+
+[@zatarain2023multimodal]
+
+:::: {.columns}
+::: {.fragment .callout-tip icon="false" .column}
+### Ambiente Educativo
+
+Enfoque educativo, contexto cultural y espacio donde el proceso de enseñanza
+aprendizaje se realiza.
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### Sistema de Tutoría Inteligente
+
+Proceso de aprendizaje que usa algún tipo de inteligencia para guiar los estudiantes.
+:::
+::::
+
+:::: {.columns}
+::: {.fragment .callout-tip icon="false" .column}
+### Ambiente Educativo Inteligente (AEI)
+
+Combinación de un ambiente educativo con un sistema de tutoría inteligente.
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### Ambiente Educativo Afectivo
+
+AEI con un modelo cognitivo usando medición de estados afectivos como pueden ser rasgos de personalidad y emociones.
+:::
+::::
+
 
 # Procesamiento de Lenguaje Natural
 
