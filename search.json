@@ -1,637 +1,5 @@
 [
   {
-    "objectID": "MexLEF2023/index.html#sobre-esta-charla",
-    "href": "MexLEF2023/index.html#sobre-esta-charla",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Sobre esta charla",
-    "text": "Sobre esta charla\nTellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regionalized models for Spanish language variations based on Twitter. Language Resources and Evaluation, 1-31.\n@article{regionalized2023,\n  title={Regionalized models for Spanish language variations based on Twitter},\n  author={Tellez, Eric S and Moctezuma, Daniela and Miranda, Sabino and Graff, Mario and Ruiz, Guillermo},\n  journal={Language Resources and Evaluation},\n  pages={1--31},\n  year={2023},\n  publisher={Springer}\n}\n\nArXiv preprint."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
-    "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)",
-    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)\n\nMinería de opinión\n\npositivo :)  — neutro :|  — negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio\nEtc."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
-    "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)",
-    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#algunos-retos",
-    "href": "MexLEF2023/index.html#algunos-retos",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Algunos retos",
-    "text": "Algunos retos\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#regionalización",
-    "href": "MexLEF2023/index.html#regionalización",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Regionalización",
-    "text": "Regionalización\n\nTodo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.\n\n\nPara tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#regionalización-como-herramienta",
-    "href": "MexLEF2023/index.html#regionalización-como-herramienta",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Regionalización como herramienta",
-    "text": "Regionalización como herramienta\nEntender las variaciones del lenguaje en las redes sociales es primordial ya que los mensajes suelen ser informales, y es común que los usuarios solo quieran ser leídos por su círculo de personas cercanas."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#españa",
-    "href": "MexLEF2023/index.html#españa",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "España 🇪🇸",
-    "text": "España 🇪🇸\n\n\nme dais ascooooikiiikioooooooooooooooooooooooooo\nkina ñefla\nns cmo s exribe\no indeciso, nse ya x dnde cogerte colega\nq os follennjajabya quisieran\nen el metro q voy esta potando uno\n_USR 😂😭💔☹️😰 pero por qué churra"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#argentina",
-    "href": "MexLEF2023/index.html#argentina",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Argentina 🇦🇷",
-    "text": "Argentina 🇦🇷\n\n\npofr suerxte m8ís amigo mo son psicópatassa\npal pinnngooo\n_USR estos rompen todo! y la esposa del chorro me tiró en la cara q era planera, 5 hijos tiene. me grita: vos seguí alquilando! decí q no la agarro de los pelos x mi hijo q no le gusta el bardo.\ny dsp se comió un asado, moooy booeno👌👌🤣😂\nmi hno se pone re denso no lo banco"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#méxico",
-    "href": "MexLEF2023/index.html#méxico",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "México 🇲🇽",
-    "text": "México 🇲🇽\n\n\n_USR ahora si! #achingarasumadre nefasto, corrupto y ratero, por mucho eres el peor alcalde que ha tenido _USR\nya me ando echando la primera ca** del año\n_USR acá ya andaban con “la chica que soñé”\n_USR ¿no se te olvidó ponerte calzones rojos hoy, verdad?\nun minuto de silencio por los que se estan reventando los dedos y las manos con los cohetes !!!"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-1",
-    "href": "MexLEF2023/index.html#section-1",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Twitter corpora\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nArgentina\nAR\n1,376K\n234.22M\n2,887.92M\n\n\nBolivia\nBO\n36K\n1.15M\n20.99M\n\n\nChile\nCL\n415K\n45.29M\n719.24M\n\n\nColombia\nCO\n701K\n61.54M\n918.51M\n\n\nCosta Rica\nCR\n79K\n7.51M\n101.67M\n\n\nCuba\nCU\n32K\n0.37M\n6.30M\n\n\nDominican Republic\nDO\n112K\n7.65M\n122.06M\n\n\nEcuador\nEC\n207K\n13.76M\n226.03M\n\n\nEl Salvador\nSV\n49K\n2.71M\n44.46M\n\n\nEquatorial Guinea\nGQ\n1K\n8.93K\n0.14M\n\n\nGuatemala\nGT\n74K\n5.22M\n75.79M\n\n\nHonduras\nHN\n35K\n2.14M\n31.26M\n\n\nMexico\nMX\n1,517K\n115.53M\n1,635.69M\n\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nNicaragua\nNI\n35K\n3.34M\n42.47M\n\n\nPanama\nPA\n83K\n6.62M\n108.74M\n\n\nParaguay\nPY\n106K\n10.28M\n141.75M\n\n\nPeru\nPE\n271K\n15.38M\n241.60M\n\n\nPuerto Rico\nPR\n18K\n0.58M\n7.64M\n\n\nSpain\nES\n1,278K\n121.42M\n1,908.07M\n\n\nUruguay\nUY\n157K\n30.83M\n351.81M\n\n\nVenezuela\nVE\n421K\n35.48M\n556.12M\n\n\n-\n-\n-\n-\n-\n\n\nBrazil\nBR\n1,604K\n27.20M\n142.22M\n\n\nCanada\nCA\n149K\n1.55M\n21.58M\n\n\nFrance\nFR\n292K\n2.43M\n27.73M\n\n\nGreat Britain\nGB\n380K\n2.68M\n34.62M\n\n\nUnited States of America\nUS\n2,652K\n40.83M\n501.86M\n\n\nTotal\n\n12M\n795.74M\n10,876.25M\n\n\n\n\n\nSe colectaron mensajes georeferenciados de 2016 a 2019 usando el API de stream público de Twitter."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-2",
-    "href": "MexLEF2023/index.html#section-2",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Vocabularios\nWord embeddings\nModelos de lenguaje"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#vocabularios",
-    "href": "MexLEF2023/index.html#vocabularios",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Vocabularios",
-    "text": "Vocabularios\n\n\n\n\n\n\n\n\n\n\n\n\ntoken\noccs\nndocs\nweight\nn_regions\ncountry_codes\n\n\n\n\nchau\n409,398\n387,910\n10.001527\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nsiento\n2,830,971\n2,764,088\n7.168519\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nadios\n341,841\n327,723\n10.244771\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\npersonas\n3,720,458\n3,620,029\n6.779321\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nhuevo\n540,941\n527,792\n9.55728\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\n…\n…\n…\n…\n…\n…"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
-    "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Propiedades de los vocabularios (1/2)",
-    "text": "Propiedades de los vocabularios (1/2)\nLey de Zipf\n\nLey de Zipf para diferentes regiones (Twitter)"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
-    "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Propiedades de los vocabularios (2/2)",
-    "text": "Propiedades de los vocabularios (2/2)\nLey de Heaps\n\n\nLey de Heaps para diferentes regiones (Twitter)"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
-    "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Similitud léxica entre regiones (1/2)",
-    "text": "Similitud léxica entre regiones (1/2)"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
-    "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Similitud léxica entre regiones (2/2)",
-    "text": "Similitud léxica entre regiones (2/2)"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-4",
-    "href": "MexLEF2023/index.html#section-4",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Creados con fastText sobre nuestra corpora regionalizada de Twitter. Disponibles desde el sitio del proyecto en diferentes dimensiones, e.g, 300, 32, 16 y 8 dimensiones.\nModelos para las 27 regiones (26 países + un modelo aglutinado)"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#similitud-entre-regiones",
-    "href": "MexLEF2023/index.html#similitud-entre-regiones",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Similitud entre regiones",
-    "text": "Similitud entre regiones\n\nNecesitamos una matriz de afinidad, como lo hicimos con el caso léxico, pero los embeddings de diferentes regiones no son comparables entre sí.\nPara calcular la similitud usamos una representación que extrae información semántica basada en el grafo de los \\(k\\) vecinos cercanos. Esto soluciona el problema de comparación, pero aumenta los requerimientos de computo."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
-    "href": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Notas para el modelado de regiones con word embeddings",
-    "text": "Notas para el modelado de regiones con word embeddings\n\n\nRecordando, cada palabra es un punto en \\(300\\) dimensiones.\nLa distancia entre puntos se mide usando \\(1 - cos(u, v)\\).\nCada región es una nube de puntos (palabras).\nUso de un vocabulario restringuido (preservar tokens que aparecen en al menos 10 regiones); esto también reduce el problema de la disparidad de datos entre diferentes corpus.\nUso de herramientas especiales para la construcción de la gráfica de \\(k\\) vecinos (\\(k=33\\)).\nCada región se representa en un vector disperso de muy alta dimensión, i.e., \\(10^{10}\\) componentes con \\(\\approx{}3.8\\) millones de componentes diferentes de zero. Se mide nuevamente con distancia coseno, pero con los vectores resultantes."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
-    "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Ejemplos de \\(k\\) vecinos (violencia)",
-    "text": "Ejemplos de \\(k\\) vecinos (violencia)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\n\n\nagresion\n\n\nvandalismo\n\n\nviolentos\n\n\nviolente\n\n\nfeminicidios\n\n\nviolenten\n\n\nviolentos\n\n\n\n\ndenigracion\n\n\nagresion\n\n\nestigmatizacion\n\n\nintrafamiliar\n\n\nfemicidios\n\n\nviolente\n\n\nviolenten\n\n\n\n\nagresiones\n\n\nrepresion\n\n\nviolente\n\n\nrepresion\n\n\nviolentas\n\n\nviolentos\n\n\nviolente\n\n\n\n\nverbal\n\n\nbandalismo\n\n\nintrafamiliar\n\n\nviolenten\n\n\nvandalismo\n\n\nviolentas\n\n\nviolenta\n\n\n\n\nviolecia\n\n\nagresiones\n\n\nviolenten\n\n\nviolecia\n\n\nfemicidio\n\n\nviolentar\n\n\nconfrontacion\n\n\n\n\ndiscriminacion\n\n\nviolenten\n\n\nbandalismo\n\n\nviolentos\n\n\nviolente\n\n\nviolentan\n\n\nviolentas\n\n\n\n\nviolentos\n\n\nviolente\n\n\nagresiones\n\n\nviolentas\n\n\nbandalismo\n\n\ndelincuencia\n\n\nterrorismo\n\n\n\n\nmisoginia\n\n\nvandalismos\n\n\nviolentas\n\n\nviolenta\n\n\nfeminicidio\n\n\nviolentada\n\n\nintolerancia\n\n\n\n\nvandalismo\n\n\nviolentos\n\n\nrepresion\n\n\nviolentar\n\n\nagresion\n\n\nviolenta\n\n\nviolecia\n\n\n\n\nrevictimizacion\n\n\nviolenta\n\n\nvandalismo\n\n\nterrorismo\n\n\nintrafamiliar\n\n\nfeminicidios\n\n\nvandalismos\n\n\n\n\namedrentamiento\n\n\nviolentas\n\n\nintolerancia\n\n\ncriminalizacion\n\n\nasesinatos\n\n\nviolentado\n\n\nrepresion\n\n\n\n\ngenero\n\n\nincitacion\n\n\nincitacion\n\n\nviolentada\n\n\nagresiones\n\n\nvandalismo\n\n\nconfrontaciones\n\n\n\n\nintolerancia\n\n\nintrafamiliar\n\n\nintimidacion\n\n\nagresiones\n\n\ndelincuencia\n\n\nviolentando\n\n\nvandalismo"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
-    "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Ejemplos de \\(k\\) vecinos (chile)",
-    "text": "Ejemplos de \\(k\\) vecinos (chile)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\necuador\n\n\nchiles\n\n\nuruguay\n\n\nchile0\n\n\nchile0\n\n\nchilen\n\n\nargentina\n\n\n\n\nperu\n\n\nchilee\n\n\nargentina\n\n\nargentina\n\n\nchilee\n\n\nchilee\n\n\nperu\n\n\n\n\nchile0\n\n\nchilito\n\n\nperu\n\n\nparaguay\n\n\npiquin\n\n\nchilenos\n\n\necuador\n\n\n\n\nuruguay\n\n\npais\n\n\nbolivia\n\n\nmexico\n\n\nchilito\n\n\nchile0\n\n\nchile0\n\n\n\n\nmexico\n\n\nlatinoamerica\n\n\nchilen\n\n\nuruguay\n\n\nchilensis\n\n\nchileno\n\n\nchiles\n\n\n\n\nchilen\n\n\nchile0\n\n\necuador\n\n\nperu\n\n\nhabanero\n\n\nchilena\n\n\nparaguay\n\n\n\n\nbrasil\n\n\nchil\n\n\nparaguay\n\n\nbolivia\n\n\nmorron\n\n\nuchile\n\n\nchilena\n\n\n\n\nbolivia\n\n\namerica0\n\n\nbrasil\n\n\ncolombia\n\n\nuchile\n\n\nshile\n\n\nbolivia\n\n\n\n\ncolombia\n\n\n🇨\n\n\nchilenos\n\n\nbrasil\n\n\nchiles\n\n\nchilito\n\n\nuruguay\n\n\n\n\nparaguay\n\n\nsuramerica\n\n\nmexico\n\n\nchilenos\n\n\nverdolagas\n\n\nchilenito\n\n\nbrasil\n\n\n\n\nchiles\n\n\nsudamerica\n\n\nchiles\n\n\nchilen\n\n\njalapeno\n\n\nargentina\n\n\nchilen\n\n\n\n\nchilee\n\n\n🇱\n\n\nhonduras\n\n\necuador\n\n\npimiento\n\n\nchilenas\n\n\nchilenos\n\n\n\n\nrusia\n\n\nargentina\n\n\nchile0\n\n\nchileno\n\n\nchil\n\n\nchiles\n\n\nchilensis"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#umap-projection-mx",
-    "href": "MexLEF2023/index.html#umap-projection-mx",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "UMAP projection (MX)",
-    "text": "UMAP projection (MX)"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#umap-projection-all",
-    "href": "MexLEF2023/index.html#umap-projection-all",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "UMAP projection (ALL)",
-    "text": "UMAP projection (ALL)"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-6",
-    "href": "MexLEF2023/index.html#section-6",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Predicción emojis que podrían estar asociados a un mensaje\n\n\nTomamos mensajes georeferenciados enero-febrero 2020.\nSeleccionamos los emoji objetivos entre los más populares en español: 🥺, ❤, 👌, 👏, 💔, 😄, 😊, 😌, 😍, 😒, 😘, 😡, 😢, 😭, 🤔.\nPara cada región seleccionamos mensajes con solo uno de estos emoji.\nEl emoji en cuestión se reemplaza por la cadena _emo y se usa como etiqueta.\nPartición 50-50 por cada región, se reporta micro recall.\nUsamos fastText supevisado con cada uno de los modelos regionales como preentrenados – all vs all."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-7",
-    "href": "MexLEF2023/index.html#section-7",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "emoji\nAR\nBR\nCA\nCL\nCO\nCR\nCU\nDO\nEC\nES\nFR\nGB\nGT\nHN\nMX\nNI\nPA\nPE\nPY\nSV\nUS\nUY\nVE\n\n\n\n\n🥺\n3749\n275\n158\n1263\n4760\n425\n26\n458\n745\n2640\n53\n95\n666\n708\n10160\n736\n827\n739\n684\n278\n2536\n446\n359\n\n\n❤\n18454\n1775\n124\n2911\n6237\n821\n41\n348\n1123\n8394\n153\n255\n653\n609\n9508\n491\n880\n968\n1800\n219\n3216\n1478\n784\n\n\n👌\n2114\n92\n34\n1016\n1455\n242\n20\n167\n253\n1825\n41\n58\n376\n157\n2754\n159\n313\n160\n666\n124\n597\n190\n71\n\n\n👏\n6785\n433\n80\n2995\n2486\n159\n33\n369\n886\n7061\n64\n105\n197\n159\n4175\n52\n388\n577\n761\n222\n1281\n1248\n530\n\n\n💔\n4278\n100\n28\n390\n1407\n161\n7\n123\n200\n1164\n26\n37\n134\n91\n1438\n105\n260\n115\n428\n31\n667\n283\n142\n\n\n😄\n798\n26\n8\n301\n300\n42\n3\n56\n83\n776\n4\n18\n48\n48\n549\n17\n58\n115\n92\n53\n192\n85\n120\n\n\n😊\n3609\n105\n35\n1803\n1475\n171\n32\n175\n364\n3827\n74\n56\n257\n129\n3395\n115\n236\n817\n369\n192\n829\n377\n293\n\n\n😌\n1184\n70\n30\n827\n986\n132\n44\n280\n238\n1017\n23\n23\n123\n163\n2011\n151\n293\n248\n377\n78\n608\n167\n110\n\n\n😍\n15999\n932\n111\n2190\n6824\n510\n28\n509\n837\n8000\n107\n136\n491\n514\n8711\n341\n1010\n999\n1996\n268\n2232\n1194\n686\n\n\n😒\n3081\n89\n24\n920\n1718\n155\n50\n316\n291\n780\n18\n22\n163\n124\n2185\n175\n322\n213\n259\n127\n738\n359\n236\n\n\n😘\n5935\n211\n70\n1764\n1482\n98\n29\n119\n347\n10785\n203\n99\n171\n72\n4290\n63\n136\n374\n190\n181\n1808\n719\n493\n\n\n😡\n2777\n136\n60\n1098\n1412\n150\n5\n110\n291\n1320\n12\n25\n158\n52\n2428\n59\n155\n227\n250\n90\n769\n301\n252\n\n\n😢\n2144\n89\n38\n699\n1039\n153\n8\n102\n296\n1507\n31\n39\n151\n129\n2646\n131\n204\n271\n239\n69\n781\n227\n135\n\n\n😭\n13873\n436\n125\n1967\n4461\n581\n25\n604\n787\n3935\n157\n135\n388\n364\n6752\n321\n1057\n979\n1832\n200\n2799\n939\n530\n\n\n🤔\n6751\n275\n154\n2756\n4173\n440\n47\n614\n771\n4781\n99\n111\n421\n339\n7380\n211\n741\n1135\n937\n384\n1941\n951\n734"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#resultados-experimentales",
-    "href": "MexLEF2023/index.html#resultados-experimentales",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Resultados experimentales",
-    "text": "Resultados experimentales\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nBR\n0.4611\n0.4879\n1\nBR,ALL,DO,PY,CR\n\n\nCA\n0.2934\n0.3533\n18\nCL,ALL,CO,MX,US\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nCR\n0.3689\n0.388\n9\nUS,VE,ALL,MX,CO\n\n\nDO\n0.3383\n0.3813\n13\nUS,CO,VE,CL,ALL\n\n\nEC\n0.3797\n0.4138\n9\nMX,US,CL,ALL,CO\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nFR\n0.4187\n0.4424\n4\nALL,GT,EC,FR,PA\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nGB\n0.3467\n0.3756\n23\nALL,AR,ES,VE,MX\n\n\nGT\n0.3489\n0.3882\n13\nMX,US,ALL,CO,ES\n\n\nHN\n0.3354\n0.3671\n18\nPE,EC,BR,CR,UY\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nNI\n0.3372\n0.3718\n18\nVE,CO,CL,MX,US\n\n\nPA\n0.3658\n0.3927\n10\nUS,CL,VE,CO,PE\n\n\nPE\n0.3799\n0.4196\n9\nMX,ALL,US,AR,CO\n\n\nPY\n0.4244\n0.4417\n1\nPY,US,BR,PE,UY\n\n\nSV\n0.3226\n0.3954\n18\nUS,CO,MX,CL,VE\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-8",
-    "href": "MexLEF2023/index.html#section-8",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Cuantiles de la variable localrank\n\n\n\nquantile\nrank\n\n\n\n\n0.00\n1.0\n\n\n0.25\n1.0\n\n\n0.50\n6.5\n\n\n0.75\n13\n\n\n1.00\n23\n\n\n\n\n¿Qué tan bueno es cada modelo? Apariciones en el top-5\n\n\n\n\ncc\nfreq\n\n\n\n\nUS\n17\n\n\nCO\n15\n\n\nMX\n13\n\n\nVE\n10\n\n\nALL\n9\n\n\nCL\n9\n\n\nES\n6\n\n\nAR\n5\n\n\n…\n…"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#average-rank-de-modelos",
-    "href": "MexLEF2023/index.html#average-rank-de-modelos",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "average rank de modelos",
-    "text": "average rank de modelos\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nUS\n292,465\n4.23\n\n\nCO\n324,635\n6.05\n\n\nMX\n438,136\n6.27\n\n\nCL\n282,737\n6.91\n\n\nVE\n271,924\n7.0\n\n\nALL\n1,696,232\n8.45\n\n\nPE\n178,113\n8.64\n\n\nUY\n200,032\n8.73\n\n\nEC\n147,560\n8.95\n\n\nAR\n673,424\n9.41\n\n\nES\n571,196\n10.95\n\n\nPY\n124,162\n11.14\n\n\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nBR\n127,205\n11.27\n\n\nCR\n103,086\n12.5\n\n\nPA\n111,635\n13.36\n\n\nGT\n95,252\n13.64\n\n\nDO\n108,655\n14.91\n\n\nGB\n82,418\n18.0\n\n\nNI\n68,605\n18.18\n\n\nFR\n69,843\n18.91\n\n\nCA\n63,161\n19.0\n\n\nSV\n73,833\n19.14\n\n\nHN\n60,580\n20.36"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#bert",
-    "href": "MexLEF2023/index.html#bert",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "BERT",
-    "text": "BERT\n\nLos modelos de lenguaje, Language Models (LM) utilizan el contexto de cada palabra para determinar su representación.\nBERT es un modelo de lenguaje que en su momomento rompió el paradigma. Consiste en una serie de encoders que generan representaciones para cada palabra dependiendo de su contexto. El entrenamiento usa un lenguaje de enmascarado, Masked Language Model (MLM). Cada sentencia enmascará tokens de manera aleatoría (se enmascaran 15% de los tokens). También se entrena para predicción de la siguiente frase."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
-    "href": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Recursos computacionales y necesidad de datos",
-    "text": "Recursos computacionales y necesidad de datos\n\n\nLos modelos de lenguaje requieren una gran cantidad de datos, solo generamos recursos con MLM sobre AR, CL, CO, MX, ES, UY, VE, y US, i.e., los más grandes.\nTodos los modelos tienen series de dos encoders con cuatro cabezas de atención cada una y una salida de 512 dimensiones por embedding\nCorresponde al small-size del BERT original, y es lo que actualmente podemos con los recursos que contamos en un tiempo pagable (usamos una estanción de trabajo con dos NVIDIA TITAN RTX con 24 GB cada una).\nNombramos a nuestro modelo BILMA por Bert In Latin America.\nUsamos un learning rate de \\(10^{-5}\\) con el optimizador Adam (usamos tensorflow 2 y Keras).\nLos modelos para CL, UY, VE, y US se entrenaron con 3 epocas y AR, CO, MX, y ES con solo una, dado los tamaños de los corpus."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#bilma-vs-word-embeddings",
-    "href": "MexLEF2023/index.html#bilma-vs-word-embeddings",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "BILMA vs word-embeddings",
-    "text": "BILMA vs word-embeddings\n\n\n\n\n\nAccuracy en predicción de Emoji-15 - tuneado\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US\n\n\n\nCon word-embeddings"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-9",
-    "href": "MexLEF2023/index.html#section-9",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "Se tuneó el modelo BILMA para predecir emoticones añadiendo dos capas lineales a los embeddings de inicio, por lo que se puede ver que se predice independiente de la posición.\nTuneado con 90%-10% del training set de la región hasta que el accuracy converge.\nSe evaluó con test regional.\nObserve que es una matriz de modelos pre-entrenados y tuneos.\nLos resultados en general son muy similares a los modelos de fastText, pero, los modelos BILMA pueden hacer más cosas…"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
-    "href": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Usando BILMA para completar frases (mediante máscaras)",
-    "text": "Usando BILMA para completar frases (mediante máscaras)\n\nAccuracy en la tarea MLM para el test"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#section-10",
-    "href": "MexLEF2023/index.html#section-10",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "",
-    "text": "MLM regional"
-  },
-  {
-    "objectID": "MexLEF2023/index.html#trabajo-a-futuro",
-    "href": "MexLEF2023/index.html#trabajo-a-futuro",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "Trabajo a futuro",
-    "text": "Trabajo a futuro\n\n\nAplicaciones y medir impacto.\nModelos robustos para identificación de regiones.\nReducir recursos computacionales.\n\nUso de un solo modelo con diferentes niveles de abstracción.\nCreación de modelos menos costoso.\n\nEnriquecer los corpus más pequeños.\nOtros lenguajes (inglés, ruso, árabe, etc… o regionales con pocos datos).\n¿Se puede usar Hausdorff u otras distancias para nubes de puntos para la comparación de regiones?."
-  },
-  {
-    "objectID": "MexLEF2023/index.html#preguntas",
-    "href": "MexLEF2023/index.html#preguntas",
-    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
-    "section": "¿Preguntas?",
-    "text": "¿Preguntas?\n¡Gracias por su atención!\n\n\nModelos regionales del Español:\n\nhttps://ingeotec.github.io/regional-spanish-models/\nhttps://github.com/INGEOTEC/regional-spanish-models/\n\n\nINGEOTEC:\n\nhttps://github.com/INGEOTEC/\nhttps://ingeotec.github.io/"
-  },
-  {
-    "objectID": "TextClassification/poornima.html#ingeotec",
-    "href": "TextClassification/poornima.html#ingeotec",
-    "title": "Sentiment Analysis",
-    "section": "INGEOTEC",
-    "text": "INGEOTEC\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#aguascalientes-méxico",
-    "href": "TextClassification/poornima.html#aguascalientes-méxico",
-    "title": "Sentiment Analysis",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#text-classification",
-    "href": "TextClassification/poornima.html#text-classification",
-    "title": "Sentiment Analysis",
-    "section": "Text Classification",
-    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#text-classification-tasks",
-    "href": "TextClassification/poornima.html#text-classification-tasks",
-    "title": "Sentiment Analysis",
-    "section": "Text Classification Tasks",
-    "text": "Text Classification Tasks\n\n\n\nPolarity\n\n\nPositive, Negative, Neutral\n\n\n\n\n\n\nEmotion (Multiclass)\n\n\n\nAnger, Joy, …\nIntensity of an emotion\n\n\n\n\n\n\n\nEvent (Binary)\n\n\n\nViolent\nCrime",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#profiling",
-    "href": "TextClassification/poornima.html#profiling",
-    "title": "Sentiment Analysis",
-    "section": "Profiling",
-    "text": "Profiling\n\n\n\nGender\n\n\nMan, Woman, Nonbinary, …\n\n\n\n\n\n\nAge\n\n\nChild, Teen, Adult\n\n\n\n\n\n\nLanguage Variety\n\n\n\nSpanish: Spain, Cuba, Argentine, México, …\nEnglish: United States, England, …",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#machine-learning",
-    "href": "TextClassification/poornima.html#machine-learning",
-    "title": "Sentiment Analysis",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\n\n\nDefinition\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\nTypes of ML algorithms\n\n\n\nUnsupervised Learning\nSupervised Learning\nReinforcement Learning",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#supervised-learning-multiclass",
-    "href": "TextClassification/poornima.html#supervised-learning-multiclass",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Multiclass)",
-    "text": "Supervised Learning (Multiclass)",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#supervised-learning-binary",
-    "href": "TextClassification/poornima.html#supervised-learning-binary",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Binary)",
-    "text": "Supervised Learning (Binary)",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#supervised-learning-classification",
-    "href": "TextClassification/poornima.html#supervised-learning-classification",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Classification)",
-    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#supervised-learning-geometry",
-    "href": "TextClassification/poornima.html#supervised-learning-geometry",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Geometry)",
-    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-2",
-    "href": "TextClassification/poornima.html#supervised-learning-geometry-2",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Geometry 2)",
-    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-3",
-    "href": "TextClassification/poornima.html#supervised-learning-geometry-3",
-    "title": "Sentiment Analysis",
-    "section": "Supervised Learning (Geometry 3)",
-    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#training-set",
-    "href": "TextClassification/poornima.html#training-set",
-    "title": "Sentiment Analysis",
-    "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n¿Cómo proteger nuestro negocio de un ciberataq...\n0\n\n\n1\nBALEAN A JOVEN AL INTERIOR DE LAS FONDAS DEL P...\n1\n\n\n2\n@RaulOrgaz3 @JuanGomezJurado @TodoJingles en e...\n0\n\n\n3\nCinco detenidos por disparos en escuela secund...\n1\n\n\n4\nMerece la pena destacar que a pesar de haber s...\n0\n\n\n5\nAl llegar, encuentran el cuerpo de la niña qui...\n1\n\n\n6\nTipo 2 de la mañana del día de hoy volvíamos c...\n0\n\n\n7\nFallece hombre atropellado por ruta 400 en ave...\n1",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#quiz",
-    "href": "TextClassification/poornima.html#quiz",
-    "title": "Sentiment Analysis",
-    "section": "Quiz",
-    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following tasks does the previous training set belong to?\n\nPolarity\nEmotion identification\nAggressive detection\nProfiling",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#training-set-2",
-    "href": "TextClassification/poornima.html#training-set-2",
-    "title": "Sentiment Analysis",
-    "section": "Training set (2)",
-    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\n\nToken as a vector\n\nSparse vector\nDense vector\n\nUtterance as a vector",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#token-as-vector",
-    "href": "TextClassification/poornima.html#token-as-vector",
-    "title": "Sentiment Analysis",
-    "section": "Token as Vector",
-    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#token-as-vector-2",
-    "href": "TextClassification/poornima.html#token-as-vector-2",
-    "title": "Sentiment Analysis",
-    "section": "Token as Vector (2)",
-    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\n\nAlgorithm\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to\n\\((\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\)\nwhere \\(\\beta_i &gt; 0\\)",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#utterance-as-vector",
-    "href": "TextClassification/poornima.html#utterance-as-vector",
-    "title": "Sentiment Analysis",
-    "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#tokens",
-    "href": "TextClassification/poornima.html#tokens",
-    "title": "Sentiment Analysis",
-    "section": "Tokens",
-    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\nimport unicodedata\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#text-normalization-1",
-    "href": "TextClassification/poornima.html#text-normalization-1",
-    "title": "Sentiment Analysis",
-    "section": "Text Normalization",
-    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nUser (replace)\n\n\n\nimport re\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_usr\", text)\noutput\n\n'go _usr and find out'",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#tokenizer",
-    "href": "TextClassification/poornima.html#tokenizer",
-    "title": "Sentiment Analysis",
-    "section": "Tokenizer",
-    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#tokenizer-2",
-    "href": "TextClassification/poornima.html#tokenizer-2",
-    "title": "Sentiment Analysis",
-    "section": "Tokenizer (2)",
-    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#mu-tc",
-    "href": "TextClassification/poornima.html#mu-tc",
-    "title": "Sentiment Analysis",
-    "section": "\\(\\mu\\)-TC",
-    "text": "\\(\\mu\\)-TC\n\n\n\nTextModel\n\n\n\nfrom microtc import TextModel\nfrom microtc.params import OPTION_GROUP,\\\n  OPTION_DELETE, OPTION_NONE\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE,\n               lc=True,\n               del_dup=False,\n               del_punc=True,\n               del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing football with @mgraffg'\ntm.tokenize(text)\n\n['i', 'like', 'playing', 'football', 'with']",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#mu-tc-2",
-    "href": "TextClassification/poornima.html#mu-tc-2",
-    "title": "Sentiment Analysis",
-    "section": "\\(\\mu\\)-TC (2)",
-    "text": "\\(\\mu\\)-TC (2)\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-2, -1, 6],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing...'\ntm.tokenize(text)\n\n['i~like',\n 'like~playing',\n 'i',\n 'like',\n 'playing',\n 'q:~i~lik',\n 'q:i~like',\n 'q:~like~',\n 'q:like~p',\n 'q:ike~pl',\n 'q:ke~pla',\n 'q:e~play',\n 'q:~playi',\n 'q:playin',\n 'q:laying',\n 'q:aying~']",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#training-set-1",
-    "href": "TextClassification/poornima.html#training-set-1",
-    "title": "Sentiment Analysis",
-    "section": "Training set",
-    "text": "Training set\n\nfrom EvoMSA.utils import Download\nfrom microtc.utils import tweet_iterator\nfrom os.path import isdir, isfile\nimport pandas as pd\nfrom random import shuffle\n\nURL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'\nif not isfile('delitos.zip'):\n  Download(URL,\n           'delitos.zip')\nif not isdir('delitos'):\n  !unzip -Pingeotec delitos.zip",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#utterance-as-vector-1",
-    "href": "TextClassification/poornima.html#utterance-as-vector-1",
-    "title": "Sentiment Analysis",
-    "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfrom microtc.utils import tweet_iterator\nfname = 'delitos/delitos_ingeotec_Es_train.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['este', 'caso', 'tiene']\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nfrom microtc.utils import Counter\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('de', 980), ('en', 803), ('la', 653)]",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#utterance-as-vector-2",
-    "href": "TextClassification/poornima.html#utterance-as-vector-2",
-    "title": "Sentiment Analysis",
-    "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(62, np.float64(7.906890595608518)),\n (59, np.float64(5.8479969065549495)),\n (10, np.float64(1.3269461696539864)),\n (3, np.float64(2.5277907564370796))]",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#utterance-as-vector-3",
-    "href": "TextClassification/poornima.html#utterance-as-vector-3",
-    "title": "Sentiment Analysis",
-    "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f9e173a0a30&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#quiz-1",
-    "href": "TextClassification/poornima.html#quiz-1",
-    "title": "Sentiment Analysis",
-    "section": "Quiz",
-    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following representations do you consider to produce a larger vocabulary?\n\n\n\n\n\n\n\n\nA\n\n\n\ntmA = TextModel(token_list=[-1, 3],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)\n\n\n\n\n\n\n\n\nB\n\n\n\ntmB = TextModel(token_list=[-1, 6],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#procedure-1",
-    "href": "TextClassification/poornima.html#procedure-1",
-    "title": "Sentiment Analysis",
-    "section": "Procedure",
-    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nfrom sklearn.svm import LinearSVC\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray([0])",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/poornima.html#performance",
-    "href": "TextClassification/poornima.html#performance",
-    "title": "Sentiment Analysis",
-    "section": "Performance",
-    "text": "Performance\n\nfrom sklearn.model_selection import KFold\nfrom sklearn.metrics import recall_score\n\nkfold = KFold(n_splits=5, shuffle=True, random_state=1)\nperf = []\nfor tr, vs in kfold.split(training_set):\n    train = [training_set[i] for i in tr]\n    val = [training_set[i] for i in vs]\n    tm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                   usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                   emo_option=OPTION_NONE, lc=True, del_dup=False,\n                   del_punc=True, del_diac=True).fit(train)\n    labels = [x['klass'] for x in train]\n    m = LinearSVC(dual='auto').fit(tm.transform(train), labels)\n    hy = m.predict(tm.transform(val))\n    _ = recall_score([x['klass'] for x in val], hy, average='macro')\n    perf.append(_)\nnp.mean(perf)\n\nnp.float64(0.8200309412585819)",
-    "crumbs": [
-      "Sentiment Analysis"
-    ]
-  },
-  {
-    "objectID": "TextClassification/educacion.html#aguascalientes-méxico",
-    "href": "TextClassification/educacion.html#aguascalientes-méxico",
-    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México",
-    "crumbs": [
-      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
-    ]
-  },
-  {
-    "objectID": "TextClassification/educacion.html#definiciones",
-    "href": "TextClassification/educacion.html#definiciones",
-    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
-    "section": "Definiciones",
-    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nAprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.",
-    "crumbs": [
-      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
-    ]
-  },
-  {
-    "objectID": "TextClassification/educacion.html#percepción-de-inteligencia-artificial-ia",
-    "href": "TextClassification/educacion.html#percepción-de-inteligencia-artificial-ia",
-    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
-    "section": "Percepción de Inteligencia Artificial (IA)",
-    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
-    "crumbs": [
-      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
-    ]
-  },
-  {
-    "objectID": "TextClassification/educacion.html#tareas",
-    "href": "TextClassification/educacion.html#tareas",
-    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
-    "section": "Tareas",
-    "text": "Tareas\n\n\n\nL. Chen, Chen, y Lin (2020)\n\n\n\nCalificar y dar retroalimentación\nCreación de planes de aprendizaje personalizados\nPredecir deserción\nEstilo de aprendizaje basado en información personal\nDescubrir dificultades de los estudiantes\nSelección de cursos",
-    "crumbs": [
-      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
-    ]
-  },
-  {
-    "objectID": "TextClassification/educacion.html#tendencias",
-    "href": "TextClassification/educacion.html#tendencias",
-    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
-    "section": "Tendencias",
-    "text": "Tendencias\n\n\n\nX. Chen et al. (2022) menciona\n\n\n\nTutores Inteligentes - educación especial\nProcesamiento de Lenguaje Natural - Enseñanza del lenguaje\nMinería de datos - Predicción de rendimiento\nRedes neuronales - Evaluación de enseñanza\nComputación afectiva - Detección de emociones\nSistemas de recomendación - Aprendizaje personalizado\n\n\n\n\n\n\n\n\nForos importantes (index H)\n\n\n\nInternational Journal of Artificial Intelligence in Education\nInternational Conference of Artificial Intelligence in Education\nComputers & Education",
-    "crumbs": [
-      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
-    ]
-  },
-  {
-    "objectID": "TextClassification/educacion.html#xxx",
-    "href": "TextClassification/educacion.html#xxx",
-    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
-    "section": "XxX",
-    "text": "XxX\nZatarain Cabada, Cárdenas López, y Escalante (2023)",
-    "crumbs": [
-      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
-    ]
-  },
-  {
-    "objectID": "TextClassification/educacion.html#aplicaciones-en-la-educación",
-    "href": "TextClassification/educacion.html#aplicaciones-en-la-educación",
-    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
-    "section": "Aplicaciones en la Educación",
-    "text": "Aplicaciones en la Educación\nPor hacer",
-    "crumbs": [
-      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
-    ]
-  },
-  {
     "objectID": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
     "href": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
     "title": "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers",
@@ -889,6 +257,1138 @@
     "text": "Conclusions (continued…)\n\n\nExplainability of the model (with a simple bow outstanding results). Simplest solution Fast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
     "crumbs": [
       "Ingeotec at DA-VINCIS: Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
+    "href": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "INGEOTEC research group",
+    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
+    "href": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our approach: EvoMSA 2.0",
+    "text": "Our approach: EvoMSA 2.0\n \n\n\n\nEvoMSA’s documentation (https://evomsa.readthedocs) Papers (Graff et al. 2020) (Tellez et al. 2017)",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-representations",
+    "href": "IberLEF2023/RestMex2023-10mins.html#our-representations",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Our representations",
+    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#sbow",
+    "href": "IberLEF2023/RestMex2023-10mins.html#sbow",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "SBoW",
+    "text": "SBoW",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
+    "href": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Dense BoW (stacking)",
+    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
+    "href": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "DBOW parameters",
+    "text": "DBOW parameters\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
+    "href": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Configurations",
+    "text": "Configurations\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#competition",
+    "href": "IberLEF2023/RestMex2023-10mins.html#competition",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Competition",
+    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
+    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance",
+    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
+    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Other competitions performance (Continued…)",
+    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
+    "href": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
+    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
+    "section": "Conclusions (continued…)",
+    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
+    "crumbs": [
+      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#aguascalientes-méxico",
+    "href": "TextClassification/educacion.html#aguascalientes-méxico",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#definiciones",
+    "href": "TextClassification/educacion.html#definiciones",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Definiciones",
+    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nAprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#percepción-de-inteligencia-artificial-ia",
+    "href": "TextClassification/educacion.html#percepción-de-inteligencia-artificial-ia",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Percepción de Inteligencia Artificial (IA)",
+    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#tareas",
+    "href": "TextClassification/educacion.html#tareas",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Tareas",
+    "text": "Tareas\n\n\n\nL. Chen, Chen, y Lin (2020)\n\n\n\nCalificar y dar retroalimentación.\nCreación de planes de aprendizaje personalizados.\nPredecir deserción.\nEstilo de aprendizaje basado en información personal.\nDescubrir dificultades de los estudiantes.\nSelección de cursos.",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#tendencias",
+    "href": "TextClassification/educacion.html#tendencias",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Tendencias",
+    "text": "Tendencias\n\n\n\nX. Chen et al. (2022)\n\n\n\nTutores Inteligentes - educación especial, infancia.\nProcesamiento de Lenguaje Natural - Enseñanza del lenguaje.\nMinería de datos - Predicción de rendimiento.\nRedes neuronales - Evaluación de enseñanza.\nComputación afectiva - Detección de emociones.\nSistemas de recomendación - Aprendizaje personalizado.\n\n\n\n\n\n\n\n\nForos importantes (index H)\n\n\n\nInternational Journal of Artificial Intelligence in Education.\nInternational Conference of Artificial Intelligence in Education.\nComputers & Education.",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#ambiente-educativo-inteligente",
+    "href": "TextClassification/educacion.html#ambiente-educativo-inteligente",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Ambiente Educativo Inteligente",
+    "text": "Ambiente Educativo Inteligente\n(Zatarain Cabada, Cárdenas López, y Escalante 2023)\n\n\n\n\n\nAmbiente Educativo\n\n\nEnfoque educativo, contexto cultural y espacio donde el proceso de enseñanza aprendizaje se realiza.\n\n\n\n\n\n\n\nSistema de Tutoría Inteligente\n\n\nProceso de aprendizaje que usa algún tipo de inteligencia para guiar los estudiantes.\n\n\n\n\n\n\n\n\n\nAmbiente Educativo Inteligente (AEI)\n\n\nCombinación de un ambiente educativo con un sistema de tutoría inteligente.\n\n\n\n\n\n\n\nAmbiente Educativo Afectivo\n\n\nAEI con un modelo cognitivo usando medición de estados afectivos como pueden ser rasgos de personalidad y emociones.",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#fractionlearning",
+    "href": "TextClassification/educacion.html#fractionlearning",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "FractionLearning",
+    "text": "FractionLearning\nhttps://fractionlearning-env.web.app/form\n\n\n\n\n\n\n\nAmbiente Educativo Afectivo\n\n\n\nModelos de personalidad\nVoz a texto\nEstilos de aprendizaje\n\nVerbal-secuencial\nVerbal-global\nVisual-secuencial\nVisual-global",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#fractionlearning-2",
+    "href": "TextClassification/educacion.html#fractionlearning-2",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "FractionLearning (2)",
+    "text": "FractionLearning (2)\nhttps://fractionlearning-env.web.app/form",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#retos",
+    "href": "TextClassification/educacion.html#retos",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Retos",
+    "text": "Retos\n\n\n\nX. Chen et al. (2022)\n\n\n\nPrivacidad - Aprendizaje personalizado.\nIncentivar el uso de IA por los docentes.\nNuevos modelos de Aprendizaje Computacional.",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "MexLEF2023/index.html#sobre-esta-charla",
+    "href": "MexLEF2023/index.html#sobre-esta-charla",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Sobre esta charla",
+    "text": "Sobre esta charla\nTellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regionalized models for Spanish language variations based on Twitter. Language Resources and Evaluation, 1-31.\n@article{regionalized2023,\n  title={Regionalized models for Spanish language variations based on Twitter},\n  author={Tellez, Eric S and Moctezuma, Daniela and Miranda, Sabino and Graff, Mario and Ruiz, Guillermo},\n  journal={Language Resources and Evaluation},\n  pages={1--31},\n  year={2023},\n  publisher={Springer}\n}\n\nArXiv preprint."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
+    "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)",
+    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)\n\nMinería de opinión\n\npositivo :)  — neutro :|  — negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio\nEtc."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
+    "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)",
+    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#algunos-retos",
+    "href": "MexLEF2023/index.html#algunos-retos",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Algunos retos",
+    "text": "Algunos retos\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#regionalización",
+    "href": "MexLEF2023/index.html#regionalización",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Regionalización",
+    "text": "Regionalización\n\nTodo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.\n\n\nPara tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#regionalización-como-herramienta",
+    "href": "MexLEF2023/index.html#regionalización-como-herramienta",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Regionalización como herramienta",
+    "text": "Regionalización como herramienta\nEntender las variaciones del lenguaje en las redes sociales es primordial ya que los mensajes suelen ser informales, y es común que los usuarios solo quieran ser leídos por su círculo de personas cercanas."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#españa",
+    "href": "MexLEF2023/index.html#españa",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "España 🇪🇸",
+    "text": "España 🇪🇸\n\n\nme dais ascooooikiiikioooooooooooooooooooooooooo\nkina ñefla\nns cmo s exribe\no indeciso, nse ya x dnde cogerte colega\nq os follennjajabya quisieran\nen el metro q voy esta potando uno\n_USR 😂😭💔☹️😰 pero por qué churra"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#argentina",
+    "href": "MexLEF2023/index.html#argentina",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Argentina 🇦🇷",
+    "text": "Argentina 🇦🇷\n\n\npofr suerxte m8ís amigo mo son psicópatassa\npal pinnngooo\n_USR estos rompen todo! y la esposa del chorro me tiró en la cara q era planera, 5 hijos tiene. me grita: vos seguí alquilando! decí q no la agarro de los pelos x mi hijo q no le gusta el bardo.\ny dsp se comió un asado, moooy booeno👌👌🤣😂\nmi hno se pone re denso no lo banco"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#méxico",
+    "href": "MexLEF2023/index.html#méxico",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "México 🇲🇽",
+    "text": "México 🇲🇽\n\n\n_USR ahora si! #achingarasumadre nefasto, corrupto y ratero, por mucho eres el peor alcalde que ha tenido _USR\nya me ando echando la primera ca** del año\n_USR acá ya andaban con “la chica que soñé”\n_USR ¿no se te olvidó ponerte calzones rojos hoy, verdad?\nun minuto de silencio por los que se estan reventando los dedos y las manos con los cohetes !!!"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-1",
+    "href": "MexLEF2023/index.html#section-1",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Twitter corpora\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nArgentina\nAR\n1,376K\n234.22M\n2,887.92M\n\n\nBolivia\nBO\n36K\n1.15M\n20.99M\n\n\nChile\nCL\n415K\n45.29M\n719.24M\n\n\nColombia\nCO\n701K\n61.54M\n918.51M\n\n\nCosta Rica\nCR\n79K\n7.51M\n101.67M\n\n\nCuba\nCU\n32K\n0.37M\n6.30M\n\n\nDominican Republic\nDO\n112K\n7.65M\n122.06M\n\n\nEcuador\nEC\n207K\n13.76M\n226.03M\n\n\nEl Salvador\nSV\n49K\n2.71M\n44.46M\n\n\nEquatorial Guinea\nGQ\n1K\n8.93K\n0.14M\n\n\nGuatemala\nGT\n74K\n5.22M\n75.79M\n\n\nHonduras\nHN\n35K\n2.14M\n31.26M\n\n\nMexico\nMX\n1,517K\n115.53M\n1,635.69M\n\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nNicaragua\nNI\n35K\n3.34M\n42.47M\n\n\nPanama\nPA\n83K\n6.62M\n108.74M\n\n\nParaguay\nPY\n106K\n10.28M\n141.75M\n\n\nPeru\nPE\n271K\n15.38M\n241.60M\n\n\nPuerto Rico\nPR\n18K\n0.58M\n7.64M\n\n\nSpain\nES\n1,278K\n121.42M\n1,908.07M\n\n\nUruguay\nUY\n157K\n30.83M\n351.81M\n\n\nVenezuela\nVE\n421K\n35.48M\n556.12M\n\n\n-\n-\n-\n-\n-\n\n\nBrazil\nBR\n1,604K\n27.20M\n142.22M\n\n\nCanada\nCA\n149K\n1.55M\n21.58M\n\n\nFrance\nFR\n292K\n2.43M\n27.73M\n\n\nGreat Britain\nGB\n380K\n2.68M\n34.62M\n\n\nUnited States of America\nUS\n2,652K\n40.83M\n501.86M\n\n\nTotal\n\n12M\n795.74M\n10,876.25M\n\n\n\n\n\nSe colectaron mensajes georeferenciados de 2016 a 2019 usando el API de stream público de Twitter."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-2",
+    "href": "MexLEF2023/index.html#section-2",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Vocabularios\nWord embeddings\nModelos de lenguaje"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#vocabularios",
+    "href": "MexLEF2023/index.html#vocabularios",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Vocabularios",
+    "text": "Vocabularios\n\n\n\n\n\n\n\n\n\n\n\n\ntoken\noccs\nndocs\nweight\nn_regions\ncountry_codes\n\n\n\n\nchau\n409,398\n387,910\n10.001527\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nsiento\n2,830,971\n2,764,088\n7.168519\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nadios\n341,841\n327,723\n10.244771\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\npersonas\n3,720,458\n3,620,029\n6.779321\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nhuevo\n540,941\n527,792\n9.55728\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\n…\n…\n…\n…\n…\n…"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
+    "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Propiedades de los vocabularios (1/2)",
+    "text": "Propiedades de los vocabularios (1/2)\nLey de Zipf\n\nLey de Zipf para diferentes regiones (Twitter)"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
+    "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Propiedades de los vocabularios (2/2)",
+    "text": "Propiedades de los vocabularios (2/2)\nLey de Heaps\n\n\nLey de Heaps para diferentes regiones (Twitter)"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
+    "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Similitud léxica entre regiones (1/2)",
+    "text": "Similitud léxica entre regiones (1/2)"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
+    "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Similitud léxica entre regiones (2/2)",
+    "text": "Similitud léxica entre regiones (2/2)"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-4",
+    "href": "MexLEF2023/index.html#section-4",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Creados con fastText sobre nuestra corpora regionalizada de Twitter. Disponibles desde el sitio del proyecto en diferentes dimensiones, e.g, 300, 32, 16 y 8 dimensiones.\nModelos para las 27 regiones (26 países + un modelo aglutinado)"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#similitud-entre-regiones",
+    "href": "MexLEF2023/index.html#similitud-entre-regiones",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Similitud entre regiones",
+    "text": "Similitud entre regiones\n\nNecesitamos una matriz de afinidad, como lo hicimos con el caso léxico, pero los embeddings de diferentes regiones no son comparables entre sí.\nPara calcular la similitud usamos una representación que extrae información semántica basada en el grafo de los \\(k\\) vecinos cercanos. Esto soluciona el problema de comparación, pero aumenta los requerimientos de computo."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
+    "href": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Notas para el modelado de regiones con word embeddings",
+    "text": "Notas para el modelado de regiones con word embeddings\n\n\nRecordando, cada palabra es un punto en \\(300\\) dimensiones.\nLa distancia entre puntos se mide usando \\(1 - cos(u, v)\\).\nCada región es una nube de puntos (palabras).\nUso de un vocabulario restringuido (preservar tokens que aparecen en al menos 10 regiones); esto también reduce el problema de la disparidad de datos entre diferentes corpus.\nUso de herramientas especiales para la construcción de la gráfica de \\(k\\) vecinos (\\(k=33\\)).\nCada región se representa en un vector disperso de muy alta dimensión, i.e., \\(10^{10}\\) componentes con \\(\\approx{}3.8\\) millones de componentes diferentes de zero. Se mide nuevamente con distancia coseno, pero con los vectores resultantes."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
+    "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Ejemplos de \\(k\\) vecinos (violencia)",
+    "text": "Ejemplos de \\(k\\) vecinos (violencia)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\n\n\nagresion\n\n\nvandalismo\n\n\nviolentos\n\n\nviolente\n\n\nfeminicidios\n\n\nviolenten\n\n\nviolentos\n\n\n\n\ndenigracion\n\n\nagresion\n\n\nestigmatizacion\n\n\nintrafamiliar\n\n\nfemicidios\n\n\nviolente\n\n\nviolenten\n\n\n\n\nagresiones\n\n\nrepresion\n\n\nviolente\n\n\nrepresion\n\n\nviolentas\n\n\nviolentos\n\n\nviolente\n\n\n\n\nverbal\n\n\nbandalismo\n\n\nintrafamiliar\n\n\nviolenten\n\n\nvandalismo\n\n\nviolentas\n\n\nviolenta\n\n\n\n\nviolecia\n\n\nagresiones\n\n\nviolenten\n\n\nviolecia\n\n\nfemicidio\n\n\nviolentar\n\n\nconfrontacion\n\n\n\n\ndiscriminacion\n\n\nviolenten\n\n\nbandalismo\n\n\nviolentos\n\n\nviolente\n\n\nviolentan\n\n\nviolentas\n\n\n\n\nviolentos\n\n\nviolente\n\n\nagresiones\n\n\nviolentas\n\n\nbandalismo\n\n\ndelincuencia\n\n\nterrorismo\n\n\n\n\nmisoginia\n\n\nvandalismos\n\n\nviolentas\n\n\nviolenta\n\n\nfeminicidio\n\n\nviolentada\n\n\nintolerancia\n\n\n\n\nvandalismo\n\n\nviolentos\n\n\nrepresion\n\n\nviolentar\n\n\nagresion\n\n\nviolenta\n\n\nviolecia\n\n\n\n\nrevictimizacion\n\n\nviolenta\n\n\nvandalismo\n\n\nterrorismo\n\n\nintrafamiliar\n\n\nfeminicidios\n\n\nvandalismos\n\n\n\n\namedrentamiento\n\n\nviolentas\n\n\nintolerancia\n\n\ncriminalizacion\n\n\nasesinatos\n\n\nviolentado\n\n\nrepresion\n\n\n\n\ngenero\n\n\nincitacion\n\n\nincitacion\n\n\nviolentada\n\n\nagresiones\n\n\nvandalismo\n\n\nconfrontaciones\n\n\n\n\nintolerancia\n\n\nintrafamiliar\n\n\nintimidacion\n\n\nagresiones\n\n\ndelincuencia\n\n\nviolentando\n\n\nvandalismo"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
+    "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Ejemplos de \\(k\\) vecinos (chile)",
+    "text": "Ejemplos de \\(k\\) vecinos (chile)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\necuador\n\n\nchiles\n\n\nuruguay\n\n\nchile0\n\n\nchile0\n\n\nchilen\n\n\nargentina\n\n\n\n\nperu\n\n\nchilee\n\n\nargentina\n\n\nargentina\n\n\nchilee\n\n\nchilee\n\n\nperu\n\n\n\n\nchile0\n\n\nchilito\n\n\nperu\n\n\nparaguay\n\n\npiquin\n\n\nchilenos\n\n\necuador\n\n\n\n\nuruguay\n\n\npais\n\n\nbolivia\n\n\nmexico\n\n\nchilito\n\n\nchile0\n\n\nchile0\n\n\n\n\nmexico\n\n\nlatinoamerica\n\n\nchilen\n\n\nuruguay\n\n\nchilensis\n\n\nchileno\n\n\nchiles\n\n\n\n\nchilen\n\n\nchile0\n\n\necuador\n\n\nperu\n\n\nhabanero\n\n\nchilena\n\n\nparaguay\n\n\n\n\nbrasil\n\n\nchil\n\n\nparaguay\n\n\nbolivia\n\n\nmorron\n\n\nuchile\n\n\nchilena\n\n\n\n\nbolivia\n\n\namerica0\n\n\nbrasil\n\n\ncolombia\n\n\nuchile\n\n\nshile\n\n\nbolivia\n\n\n\n\ncolombia\n\n\n🇨\n\n\nchilenos\n\n\nbrasil\n\n\nchiles\n\n\nchilito\n\n\nuruguay\n\n\n\n\nparaguay\n\n\nsuramerica\n\n\nmexico\n\n\nchilenos\n\n\nverdolagas\n\n\nchilenito\n\n\nbrasil\n\n\n\n\nchiles\n\n\nsudamerica\n\n\nchiles\n\n\nchilen\n\n\njalapeno\n\n\nargentina\n\n\nchilen\n\n\n\n\nchilee\n\n\n🇱\n\n\nhonduras\n\n\necuador\n\n\npimiento\n\n\nchilenas\n\n\nchilenos\n\n\n\n\nrusia\n\n\nargentina\n\n\nchile0\n\n\nchileno\n\n\nchil\n\n\nchiles\n\n\nchilensis"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#umap-projection-mx",
+    "href": "MexLEF2023/index.html#umap-projection-mx",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "UMAP projection (MX)",
+    "text": "UMAP projection (MX)"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#umap-projection-all",
+    "href": "MexLEF2023/index.html#umap-projection-all",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "UMAP projection (ALL)",
+    "text": "UMAP projection (ALL)"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-6",
+    "href": "MexLEF2023/index.html#section-6",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Predicción emojis que podrían estar asociados a un mensaje\n\n\nTomamos mensajes georeferenciados enero-febrero 2020.\nSeleccionamos los emoji objetivos entre los más populares en español: 🥺, ❤, 👌, 👏, 💔, 😄, 😊, 😌, 😍, 😒, 😘, 😡, 😢, 😭, 🤔.\nPara cada región seleccionamos mensajes con solo uno de estos emoji.\nEl emoji en cuestión se reemplaza por la cadena _emo y se usa como etiqueta.\nPartición 50-50 por cada región, se reporta micro recall.\nUsamos fastText supevisado con cada uno de los modelos regionales como preentrenados – all vs all."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-7",
+    "href": "MexLEF2023/index.html#section-7",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "emoji\nAR\nBR\nCA\nCL\nCO\nCR\nCU\nDO\nEC\nES\nFR\nGB\nGT\nHN\nMX\nNI\nPA\nPE\nPY\nSV\nUS\nUY\nVE\n\n\n\n\n🥺\n3749\n275\n158\n1263\n4760\n425\n26\n458\n745\n2640\n53\n95\n666\n708\n10160\n736\n827\n739\n684\n278\n2536\n446\n359\n\n\n❤\n18454\n1775\n124\n2911\n6237\n821\n41\n348\n1123\n8394\n153\n255\n653\n609\n9508\n491\n880\n968\n1800\n219\n3216\n1478\n784\n\n\n👌\n2114\n92\n34\n1016\n1455\n242\n20\n167\n253\n1825\n41\n58\n376\n157\n2754\n159\n313\n160\n666\n124\n597\n190\n71\n\n\n👏\n6785\n433\n80\n2995\n2486\n159\n33\n369\n886\n7061\n64\n105\n197\n159\n4175\n52\n388\n577\n761\n222\n1281\n1248\n530\n\n\n💔\n4278\n100\n28\n390\n1407\n161\n7\n123\n200\n1164\n26\n37\n134\n91\n1438\n105\n260\n115\n428\n31\n667\n283\n142\n\n\n😄\n798\n26\n8\n301\n300\n42\n3\n56\n83\n776\n4\n18\n48\n48\n549\n17\n58\n115\n92\n53\n192\n85\n120\n\n\n😊\n3609\n105\n35\n1803\n1475\n171\n32\n175\n364\n3827\n74\n56\n257\n129\n3395\n115\n236\n817\n369\n192\n829\n377\n293\n\n\n😌\n1184\n70\n30\n827\n986\n132\n44\n280\n238\n1017\n23\n23\n123\n163\n2011\n151\n293\n248\n377\n78\n608\n167\n110\n\n\n😍\n15999\n932\n111\n2190\n6824\n510\n28\n509\n837\n8000\n107\n136\n491\n514\n8711\n341\n1010\n999\n1996\n268\n2232\n1194\n686\n\n\n😒\n3081\n89\n24\n920\n1718\n155\n50\n316\n291\n780\n18\n22\n163\n124\n2185\n175\n322\n213\n259\n127\n738\n359\n236\n\n\n😘\n5935\n211\n70\n1764\n1482\n98\n29\n119\n347\n10785\n203\n99\n171\n72\n4290\n63\n136\n374\n190\n181\n1808\n719\n493\n\n\n😡\n2777\n136\n60\n1098\n1412\n150\n5\n110\n291\n1320\n12\n25\n158\n52\n2428\n59\n155\n227\n250\n90\n769\n301\n252\n\n\n😢\n2144\n89\n38\n699\n1039\n153\n8\n102\n296\n1507\n31\n39\n151\n129\n2646\n131\n204\n271\n239\n69\n781\n227\n135\n\n\n😭\n13873\n436\n125\n1967\n4461\n581\n25\n604\n787\n3935\n157\n135\n388\n364\n6752\n321\n1057\n979\n1832\n200\n2799\n939\n530\n\n\n🤔\n6751\n275\n154\n2756\n4173\n440\n47\n614\n771\n4781\n99\n111\n421\n339\n7380\n211\n741\n1135\n937\n384\n1941\n951\n734"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#resultados-experimentales",
+    "href": "MexLEF2023/index.html#resultados-experimentales",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Resultados experimentales",
+    "text": "Resultados experimentales\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nBR\n0.4611\n0.4879\n1\nBR,ALL,DO,PY,CR\n\n\nCA\n0.2934\n0.3533\n18\nCL,ALL,CO,MX,US\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nCR\n0.3689\n0.388\n9\nUS,VE,ALL,MX,CO\n\n\nDO\n0.3383\n0.3813\n13\nUS,CO,VE,CL,ALL\n\n\nEC\n0.3797\n0.4138\n9\nMX,US,CL,ALL,CO\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nFR\n0.4187\n0.4424\n4\nALL,GT,EC,FR,PA\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nGB\n0.3467\n0.3756\n23\nALL,AR,ES,VE,MX\n\n\nGT\n0.3489\n0.3882\n13\nMX,US,ALL,CO,ES\n\n\nHN\n0.3354\n0.3671\n18\nPE,EC,BR,CR,UY\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nNI\n0.3372\n0.3718\n18\nVE,CO,CL,MX,US\n\n\nPA\n0.3658\n0.3927\n10\nUS,CL,VE,CO,PE\n\n\nPE\n0.3799\n0.4196\n9\nMX,ALL,US,AR,CO\n\n\nPY\n0.4244\n0.4417\n1\nPY,US,BR,PE,UY\n\n\nSV\n0.3226\n0.3954\n18\nUS,CO,MX,CL,VE\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-8",
+    "href": "MexLEF2023/index.html#section-8",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Cuantiles de la variable localrank\n\n\n\nquantile\nrank\n\n\n\n\n0.00\n1.0\n\n\n0.25\n1.0\n\n\n0.50\n6.5\n\n\n0.75\n13\n\n\n1.00\n23\n\n\n\n\n¿Qué tan bueno es cada modelo? Apariciones en el top-5\n\n\n\n\ncc\nfreq\n\n\n\n\nUS\n17\n\n\nCO\n15\n\n\nMX\n13\n\n\nVE\n10\n\n\nALL\n9\n\n\nCL\n9\n\n\nES\n6\n\n\nAR\n5\n\n\n…\n…"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#average-rank-de-modelos",
+    "href": "MexLEF2023/index.html#average-rank-de-modelos",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "average rank de modelos",
+    "text": "average rank de modelos\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nUS\n292,465\n4.23\n\n\nCO\n324,635\n6.05\n\n\nMX\n438,136\n6.27\n\n\nCL\n282,737\n6.91\n\n\nVE\n271,924\n7.0\n\n\nALL\n1,696,232\n8.45\n\n\nPE\n178,113\n8.64\n\n\nUY\n200,032\n8.73\n\n\nEC\n147,560\n8.95\n\n\nAR\n673,424\n9.41\n\n\nES\n571,196\n10.95\n\n\nPY\n124,162\n11.14\n\n\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nBR\n127,205\n11.27\n\n\nCR\n103,086\n12.5\n\n\nPA\n111,635\n13.36\n\n\nGT\n95,252\n13.64\n\n\nDO\n108,655\n14.91\n\n\nGB\n82,418\n18.0\n\n\nNI\n68,605\n18.18\n\n\nFR\n69,843\n18.91\n\n\nCA\n63,161\n19.0\n\n\nSV\n73,833\n19.14\n\n\nHN\n60,580\n20.36"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#bert",
+    "href": "MexLEF2023/index.html#bert",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "BERT",
+    "text": "BERT\n\nLos modelos de lenguaje, Language Models (LM) utilizan el contexto de cada palabra para determinar su representación.\nBERT es un modelo de lenguaje que en su momomento rompió el paradigma. Consiste en una serie de encoders que generan representaciones para cada palabra dependiendo de su contexto. El entrenamiento usa un lenguaje de enmascarado, Masked Language Model (MLM). Cada sentencia enmascará tokens de manera aleatoría (se enmascaran 15% de los tokens). También se entrena para predicción de la siguiente frase."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
+    "href": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Recursos computacionales y necesidad de datos",
+    "text": "Recursos computacionales y necesidad de datos\n\n\nLos modelos de lenguaje requieren una gran cantidad de datos, solo generamos recursos con MLM sobre AR, CL, CO, MX, ES, UY, VE, y US, i.e., los más grandes.\nTodos los modelos tienen series de dos encoders con cuatro cabezas de atención cada una y una salida de 512 dimensiones por embedding\nCorresponde al small-size del BERT original, y es lo que actualmente podemos con los recursos que contamos en un tiempo pagable (usamos una estanción de trabajo con dos NVIDIA TITAN RTX con 24 GB cada una).\nNombramos a nuestro modelo BILMA por Bert In Latin America.\nUsamos un learning rate de \\(10^{-5}\\) con el optimizador Adam (usamos tensorflow 2 y Keras).\nLos modelos para CL, UY, VE, y US se entrenaron con 3 epocas y AR, CO, MX, y ES con solo una, dado los tamaños de los corpus."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#bilma-vs-word-embeddings",
+    "href": "MexLEF2023/index.html#bilma-vs-word-embeddings",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "BILMA vs word-embeddings",
+    "text": "BILMA vs word-embeddings\n\n\n\n\n\nAccuracy en predicción de Emoji-15 - tuneado\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US\n\n\n\nCon word-embeddings"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-9",
+    "href": "MexLEF2023/index.html#section-9",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "Se tuneó el modelo BILMA para predecir emoticones añadiendo dos capas lineales a los embeddings de inicio, por lo que se puede ver que se predice independiente de la posición.\nTuneado con 90%-10% del training set de la región hasta que el accuracy converge.\nSe evaluó con test regional.\nObserve que es una matriz de modelos pre-entrenados y tuneos.\nLos resultados en general son muy similares a los modelos de fastText, pero, los modelos BILMA pueden hacer más cosas…"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
+    "href": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Usando BILMA para completar frases (mediante máscaras)",
+    "text": "Usando BILMA para completar frases (mediante máscaras)\n\nAccuracy en la tarea MLM para el test"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#section-10",
+    "href": "MexLEF2023/index.html#section-10",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "",
+    "text": "MLM regional"
+  },
+  {
+    "objectID": "MexLEF2023/index.html#trabajo-a-futuro",
+    "href": "MexLEF2023/index.html#trabajo-a-futuro",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "Trabajo a futuro",
+    "text": "Trabajo a futuro\n\n\nAplicaciones y medir impacto.\nModelos robustos para identificación de regiones.\nReducir recursos computacionales.\n\nUso de un solo modelo con diferentes niveles de abstracción.\nCreación de modelos menos costoso.\n\nEnriquecer los corpus más pequeños.\nOtros lenguajes (inglés, ruso, árabe, etc… o regionales con pocos datos).\n¿Se puede usar Hausdorff u otras distancias para nubes de puntos para la comparación de regiones?."
+  },
+  {
+    "objectID": "MexLEF2023/index.html#preguntas",
+    "href": "MexLEF2023/index.html#preguntas",
+    "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
+    "section": "¿Preguntas?",
+    "text": "¿Preguntas?\n¡Gracias por su atención!\n\n\nModelos regionales del Español:\n\nhttps://ingeotec.github.io/regional-spanish-models/\nhttps://github.com/INGEOTEC/regional-spanish-models/\n\n\nINGEOTEC:\n\nhttps://github.com/INGEOTEC/\nhttps://ingeotec.github.io/"
+  },
+  {
+    "objectID": "TextClassification/general.html#ingeotec",
+    "href": "TextClassification/general.html#ingeotec",
+    "title": "Text Classification",
+    "section": "INGEOTEC",
+    "text": "INGEOTEC\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#aguascalientes-méxico",
+    "href": "TextClassification/general.html#aguascalientes-méxico",
+    "title": "Text Classification",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#opinion-mining-1",
+    "href": "TextClassification/general.html#opinion-mining-1",
+    "title": "Text Classification",
+    "section": "Opinion Mining",
+    "text": "Opinion Mining\n\n\n\nDefinition\n\n\nStudy people’s opinions, appraisals, attitudes, and emotions toward entities, individuals, events, and their attributes.\n\n\n\n\nDistilling opinions from texts\nA brand is interested in the costumer’s opinions\nHuge amount of information",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#opinion-mining-2",
+    "href": "TextClassification/general.html#opinion-mining-2",
+    "title": "Text Classification",
+    "section": "Opinion Mining (2)",
+    "text": "Opinion Mining (2)\n\n\n\nFormal Definition\n\n\n\n\\(e_i\\) - Entity\n\\(a_{ij}\\) - Aspect of \\(e_i\\)\n\\(o_{ijkl}\\) - Opinion orientation\n\\(h_k\\) - Opinion source - Opinion holder\n\\(t_l\\) - Time of the opinion\n\n\n\n\n\n\n\nEntity\n\n\nProduct, service, person, event, organization, or topic\n\n\n\n\n\n\nAspect\n\n\nEntity’s component or attribute",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#opinion-mining-tasks",
+    "href": "TextClassification/general.html#opinion-mining-tasks",
+    "title": "Text Classification",
+    "section": "Opinion Mining Tasks",
+    "text": "Opinion Mining Tasks\n\n\n\nTasks\n\n\n\nEntity extraction\nAspect extraction - considered the entities\nIdentify opinion source and time\nIdentify opinion orientation",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#text-classification",
+    "href": "TextClassification/general.html#text-classification",
+    "title": "Text Classification",
+    "section": "Text Classification",
+    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#text-classification-tasks",
+    "href": "TextClassification/general.html#text-classification-tasks",
+    "title": "Text Classification",
+    "section": "Text Classification Tasks",
+    "text": "Text Classification Tasks\n\n\n\nPolarity\n\n\nPositive, Negative, Neutral\n\n\n\n\n\n\nEmotion (Multiclass)\n\n\n\nAnger, Joy, …\nIntensity of an emotion\n\n\n\n\n\n\n\nEvent (Binary)\n\n\n\nViolent\nCrime",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#profiling",
+    "href": "TextClassification/general.html#profiling",
+    "title": "Text Classification",
+    "section": "Profiling",
+    "text": "Profiling\n\n\n\nGender\n\n\nMan, Woman, Nonbinary, …\n\n\n\n\n\n\nAge\n\n\nChild, Teen, Adult\n\n\n\n\n\n\nLanguage Variety\n\n\n\nSpanish: Spain, Cuba, Argentine, México, …\nEnglish: United States, England, …",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#machine-learning",
+    "href": "TextClassification/general.html#machine-learning",
+    "title": "Text Classification",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\n\n\nDefinition\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\nTypes of ML algorithms\n\n\n\nUnsupervised Learning\nSupervised Learning\nReinforcement Learning",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-multiclass",
+    "href": "TextClassification/general.html#supervised-learning-multiclass",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Multiclass)",
+    "text": "Supervised Learning (Multiclass)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-binary",
+    "href": "TextClassification/general.html#supervised-learning-binary",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Binary)",
+    "text": "Supervised Learning (Binary)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-classification",
+    "href": "TextClassification/general.html#supervised-learning-classification",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Classification)",
+    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-geometry",
+    "href": "TextClassification/general.html#supervised-learning-geometry",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Geometry)",
+    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-geometry-2",
+    "href": "TextClassification/general.html#supervised-learning-geometry-2",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Geometry 2)",
+    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#supervised-learning-geometry-3",
+    "href": "TextClassification/general.html#supervised-learning-geometry-3",
+    "title": "Text Classification",
+    "section": "Supervised Learning (Geometry 3)",
+    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#training-set",
+    "href": "TextClassification/general.html#training-set",
+    "title": "Text Classification",
+    "section": "Training set",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nCarretera Ocozocuautla-Las Choapas caseta malp...\n0\n\n\n1\n#Video Asesinan a aficionado del América de Ca...\n1\n\n\n2\nOtra prueba de que el secesionismo golpista ca...\n0\n\n\n3\nMientras preparan el acto retrasado, de entreg...\n1\n\n\n4\nLa @policia ha demostrado una y otra vez en su...\n0\n\n\n5\nAsesinan al costarricense Marvin Brenes en Pas...\n1\n\n\n6\nLa irá te da un motivo, pero no un propósito.\n0\n\n\n7\nEl supuesto autor del tiroteo de la localidad ...\n1",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#quiz",
+    "href": "TextClassification/general.html#quiz",
+    "title": "Text Classification",
+    "section": "Quiz",
+    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following tasks does the previous training set belong to?\n\nPolarity\nEmotion identification\nAggressive detection\nProfiling",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#training-set-2",
+    "href": "TextClassification/general.html#training-set-2",
+    "title": "Text Classification",
+    "section": "Training set (2)",
+    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\nToken as a vector\nSparse vector\nDense vector\nUtterance as a vector",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#token-as-vector",
+    "href": "TextClassification/general.html#token-as-vector",
+    "title": "Text Classification",
+    "section": "Token as Vector",
+    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#token-as-vector-2",
+    "href": "TextClassification/general.html#token-as-vector-2",
+    "title": "Text Classification",
+    "section": "Token as Vector (2)",
+    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\n\nAlgorithm\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to\n\\((\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\)\nwhere \\(\\beta_i &gt; 0\\)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#utterance-as-vector",
+    "href": "TextClassification/general.html#utterance-as-vector",
+    "title": "Text Classification",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#tokens",
+    "href": "TextClassification/general.html#tokens",
+    "title": "Text Classification",
+    "section": "Tokens",
+    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#text-normalization-1",
+    "href": "TextClassification/general.html#text-normalization-1",
+    "title": "Text Classification",
+    "section": "Text Normalization",
+    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nURL (replace)\n\n\n\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_url\", text)\noutput\n\n'go _url and find out'",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#tokenizer",
+    "href": "TextClassification/general.html#tokenizer",
+    "title": "Text Classification",
+    "section": "Tokenizer",
+    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#tokenizer-2",
+    "href": "TextClassification/general.html#tokenizer-2",
+    "title": "Text Classification",
+    "section": "Tokenizer (2)",
+    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#mu-tc",
+    "href": "TextClassification/general.html#mu-tc",
+    "title": "Text Classification",
+    "section": "\\(\\mu\\)-TC",
+    "text": "\\(\\mu\\)-TC\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE,\n               lc=True,\n               del_dup=False,\n               del_punc=True,\n               del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing football with @mgraffg'\ntm.tokenize(text)\n\n['i', 'like', 'playing', 'football', 'with']",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#mu-tc-2",
+    "href": "TextClassification/general.html#mu-tc-2",
+    "title": "Text Classification",
+    "section": "\\(\\mu\\)-TC (2)",
+    "text": "\\(\\mu\\)-TC (2)\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-2, -1, 6],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing...'\ntm.tokenize(text)\n\n['i~like',\n 'like~playing',\n 'i',\n 'like',\n 'playing',\n 'q:~i~lik',\n 'q:i~like',\n 'q:~like~',\n 'q:like~p',\n 'q:ike~pl',\n 'q:ke~pla',\n 'q:e~play',\n 'q:~playi',\n 'q:playin',\n 'q:laying',\n 'q:aying~']",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#training-set-1",
+    "href": "TextClassification/general.html#training-set-1",
+    "title": "Text Classification",
+    "section": "Training set",
+    "text": "Training set\n\nURL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'\nif not isfile('delitos.zip'):\n  Download(URL,\n           'delitos.zip')\nif not isdir('delitos'):\n  !unzip -Pingeotec delitos.zip",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#utterance-as-vector-1",
+    "href": "TextClassification/general.html#utterance-as-vector-1",
+    "title": "Text Classification",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfname = 'delitos/delitos_ingeotec_Es_train.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['este', 'caso', 'tiene']\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('de', 980), ('en', 803), ('la', 653)]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#utterance-as-vector-2",
+    "href": "TextClassification/general.html#utterance-as-vector-2",
+    "title": "Text Classification",
+    "section": "Utterance as Vector (2)",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(54, np.float64(7.906890595608518)),\n (53, np.float64(5.8479969065549495)),\n (25, np.float64(1.3269461696539864)),\n (23, np.float64(2.5277907564370796))]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#utterance-as-vector-3",
+    "href": "TextClassification/general.html#utterance-as-vector-3",
+    "title": "Text Classification",
+    "section": "Utterance as Vector (3)",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fa22b5254b0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#quiz-1",
+    "href": "TextClassification/general.html#quiz-1",
+    "title": "Text Classification",
+    "section": "Quiz",
+    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following representations do you consider to produce a larger vocabulary?\n\n\n\n\n\n\n\n\nA\n\n\n\ntmA = TextModel(token_list=[-1, 3],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)\n\n\n\n\n\n\n\n\nB\n\n\n\ntmB = TextModel(token_list=[-1, 6],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#procedure-1",
+    "href": "TextClassification/general.html#procedure-1",
+    "title": "Text Classification",
+    "section": "Procedure",
+    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\ntm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, lc=True, del_dup=False,\n                del_punc=True, del_diac=True\n               ).fit(training_set)\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray([0])",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#performance",
+    "href": "TextClassification/general.html#performance",
+    "title": "Text Classification",
+    "section": "Performance",
+    "text": "Performance\n\n\n\nTest set\n\n\n\ntest_set = list(tweet_iterator(fname.replace('_train.', '_test.')))\n\n\n\n\n\n\n\nPrediction\n\n\n\ntm = TextModel(token_list=[-2, -1, 3, 4], num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, lc=True, del_dup=False,\n               del_punc=True, del_diac=True\n              ).fit(training_set)\nX = tm.transform(training_set)\nlabels = np.array([x['klass'] for x in training_set])\nm = LinearSVC(dual='auto', class_weight='balanced').fit(X, labels)\nhy = m.predict(tm.transform(test_set))\n\n\n\n\n\n\n\nPerformance\n\n\n\nrecall_score([x['klass'] for x in test_set],\n             hy, average=None)\n\narray([0.95070423, 0.68421053])",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#feature-importance",
+    "href": "TextClassification/general.html#feature-importance",
+    "title": "Text Classification",
+    "section": "Feature Importance",
+    "text": "Feature Importance\n\n\n\nCoefficients\n\n\n\ndef coef(X, y):\n    m = LinearSVC(dual='auto',\n                  class_weight='balanced'\n                 ).fit(X, y)\n    return m.coef_\n\n\n\n\n\n\n\nNormalize Coefficients\n\n\n\nstats = StatisticSamples(statistic=coef,\n                         num_samples=50,\n                         n_jobs=-1)\nb_samples = stats(X, labels)\nse = np.std(b_samples, axis=0)\nse[se==0] = 1\nw_norm = m.coef_ / se\nw_norm = np.linalg.norm(w_norm, axis=0)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#feature-importance-2",
+    "href": "TextClassification/general.html#feature-importance-2",
+    "title": "Text Classification",
+    "section": "Feature Importance (2)",
+    "text": "Feature Importance (2)\n\n\n\nWordcloud\n\n\n\npath = './emoji_text.ttf'\nitems = tm.token_weight.items\ntokens = {tm.id2token[id]: w_norm[id] * _w for id, _w in items()\n          if w_norm[id] &gt;= 2.0 and np.isfinite(w_norm[id])}\nword_cloud = WordCloud(font_path=path,\n                       background_color='white'\n                      ).generate_from_frequencies(tokens)\nplt.imshow(word_cloud, interpolation='bilinear')\nplt.tick_params(left=False, right=False, labelleft=False,\n                   labelbottom=False, bottom=False)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/general.html#feature-importance-2-output",
+    "href": "TextClassification/general.html#feature-importance-2-output",
+    "title": "Text Classification",
+    "section": "Feature Importance (2)",
+    "text": "Feature Importance (2)",
+    "crumbs": [
+      "Text Classification"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#ingeotec",
+    "href": "TextClassification/poornima.html#ingeotec",
+    "title": "Sentiment Analysis",
+    "section": "INGEOTEC",
+    "text": "INGEOTEC\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#aguascalientes-méxico",
+    "href": "TextClassification/poornima.html#aguascalientes-méxico",
+    "title": "Sentiment Analysis",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#text-classification",
+    "href": "TextClassification/poornima.html#text-classification",
+    "title": "Sentiment Analysis",
+    "section": "Text Classification",
+    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#text-classification-tasks",
+    "href": "TextClassification/poornima.html#text-classification-tasks",
+    "title": "Sentiment Analysis",
+    "section": "Text Classification Tasks",
+    "text": "Text Classification Tasks\n\n\n\nPolarity\n\n\nPositive, Negative, Neutral\n\n\n\n\n\n\nEmotion (Multiclass)\n\n\n\nAnger, Joy, …\nIntensity of an emotion\n\n\n\n\n\n\n\nEvent (Binary)\n\n\n\nViolent\nCrime",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#profiling",
+    "href": "TextClassification/poornima.html#profiling",
+    "title": "Sentiment Analysis",
+    "section": "Profiling",
+    "text": "Profiling\n\n\n\nGender\n\n\nMan, Woman, Nonbinary, …\n\n\n\n\n\n\nAge\n\n\nChild, Teen, Adult\n\n\n\n\n\n\nLanguage Variety\n\n\n\nSpanish: Spain, Cuba, Argentine, México, …\nEnglish: United States, England, …",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#machine-learning",
+    "href": "TextClassification/poornima.html#machine-learning",
+    "title": "Sentiment Analysis",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\n\n\nDefinition\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\nTypes of ML algorithms\n\n\n\nUnsupervised Learning\nSupervised Learning\nReinforcement Learning",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-multiclass",
+    "href": "TextClassification/poornima.html#supervised-learning-multiclass",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Multiclass)",
+    "text": "Supervised Learning (Multiclass)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-binary",
+    "href": "TextClassification/poornima.html#supervised-learning-binary",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Binary)",
+    "text": "Supervised Learning (Binary)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-classification",
+    "href": "TextClassification/poornima.html#supervised-learning-classification",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Classification)",
+    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-geometry",
+    "href": "TextClassification/poornima.html#supervised-learning-geometry",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Geometry)",
+    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-2",
+    "href": "TextClassification/poornima.html#supervised-learning-geometry-2",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Geometry 2)",
+    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#supervised-learning-geometry-3",
+    "href": "TextClassification/poornima.html#supervised-learning-geometry-3",
+    "title": "Sentiment Analysis",
+    "section": "Supervised Learning (Geometry 3)",
+    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#training-set",
+    "href": "TextClassification/poornima.html#training-set",
+    "title": "Sentiment Analysis",
+    "section": "Training set",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@OEA_oficial Mejor comuniquenos a Almagro, par...\n0\n\n\n1\n#Provinciales | Rosario: asesinaron a balazos ...\n1\n\n\n2\n#Ñuñoa, Doctor Alejandro del Río y Hernán Cort...\n0\n\n\n3\nLa dura acusación de la dueña de la perra que ...\n1\n\n\n4\nE.D. MORATALAZ Cadete \"A\" - Qviding FIF 4-1: E...\n0\n\n\n5\n¡ATAQUE VIOLENTO! Mujer fue golpeada, apuñalad...\n1\n\n\n6\n¿Cómo Juan Carlos Osorio, técnico de @nacional...\n0\n\n\n7\nFeminismo moderno 🛵 RT @VaronesUnidos: Mujer d...\n1",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#quiz",
+    "href": "TextClassification/poornima.html#quiz",
+    "title": "Sentiment Analysis",
+    "section": "Quiz",
+    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following tasks does the previous training set belong to?\n\nPolarity\nEmotion identification\nAggressive detection\nProfiling",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#training-set-2",
+    "href": "TextClassification/poornima.html#training-set-2",
+    "title": "Sentiment Analysis",
+    "section": "Training set (2)",
+    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\n\nToken as a vector\n\nSparse vector\nDense vector\n\nUtterance as a vector",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#token-as-vector",
+    "href": "TextClassification/poornima.html#token-as-vector",
+    "title": "Sentiment Analysis",
+    "section": "Token as Vector",
+    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#token-as-vector-2",
+    "href": "TextClassification/poornima.html#token-as-vector-2",
+    "title": "Sentiment Analysis",
+    "section": "Token as Vector (2)",
+    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\n\nAlgorithm\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to\n\\((\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\)\nwhere \\(\\beta_i &gt; 0\\)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector",
+    "href": "TextClassification/poornima.html#utterance-as-vector",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#tokens",
+    "href": "TextClassification/poornima.html#tokens",
+    "title": "Sentiment Analysis",
+    "section": "Tokens",
+    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\nimport unicodedata\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#text-normalization-1",
+    "href": "TextClassification/poornima.html#text-normalization-1",
+    "title": "Sentiment Analysis",
+    "section": "Text Normalization",
+    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nUser (replace)\n\n\n\nimport re\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_usr\", text)\noutput\n\n'go _usr and find out'",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#tokenizer",
+    "href": "TextClassification/poornima.html#tokenizer",
+    "title": "Sentiment Analysis",
+    "section": "Tokenizer",
+    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#tokenizer-2",
+    "href": "TextClassification/poornima.html#tokenizer-2",
+    "title": "Sentiment Analysis",
+    "section": "Tokenizer (2)",
+    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#mu-tc",
+    "href": "TextClassification/poornima.html#mu-tc",
+    "title": "Sentiment Analysis",
+    "section": "\\(\\mu\\)-TC",
+    "text": "\\(\\mu\\)-TC\n\n\n\nTextModel\n\n\n\nfrom microtc import TextModel\nfrom microtc.params import OPTION_GROUP,\\\n  OPTION_DELETE, OPTION_NONE\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE,\n               lc=True,\n               del_dup=False,\n               del_punc=True,\n               del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing football with @mgraffg'\ntm.tokenize(text)\n\n['i', 'like', 'playing', 'football', 'with']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#mu-tc-2",
+    "href": "TextClassification/poornima.html#mu-tc-2",
+    "title": "Sentiment Analysis",
+    "section": "\\(\\mu\\)-TC (2)",
+    "text": "\\(\\mu\\)-TC (2)\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-2, -1, 6],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing...'\ntm.tokenize(text)\n\n['i~like',\n 'like~playing',\n 'i',\n 'like',\n 'playing',\n 'q:~i~lik',\n 'q:i~like',\n 'q:~like~',\n 'q:like~p',\n 'q:ike~pl',\n 'q:ke~pla',\n 'q:e~play',\n 'q:~playi',\n 'q:playin',\n 'q:laying',\n 'q:aying~']",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#training-set-1",
+    "href": "TextClassification/poornima.html#training-set-1",
+    "title": "Sentiment Analysis",
+    "section": "Training set",
+    "text": "Training set\n\nfrom EvoMSA.utils import Download\nfrom microtc.utils import tweet_iterator\nfrom os.path import isdir, isfile\nimport pandas as pd\nfrom random import shuffle\n\nURL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'\nif not isfile('delitos.zip'):\n  Download(URL,\n           'delitos.zip')\nif not isdir('delitos'):\n  !unzip -Pingeotec delitos.zip",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector-1",
+    "href": "TextClassification/poornima.html#utterance-as-vector-1",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector",
+    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfrom microtc.utils import tweet_iterator\nfname = 'delitos/delitos_ingeotec_Es_train.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['este', 'caso', 'tiene']\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nfrom microtc.utils import Counter\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('de', 980), ('en', 803), ('la', 653)]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector-2",
+    "href": "TextClassification/poornima.html#utterance-as-vector-2",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector (2)",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(60, np.float64(7.906890595608518)),\n (62, np.float64(5.8479969065549495)),\n (11, np.float64(1.3269461696539864)),\n (12, np.float64(2.5277907564370796))]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#utterance-as-vector-3",
+    "href": "TextClassification/poornima.html#utterance-as-vector-3",
+    "title": "Sentiment Analysis",
+    "section": "Utterance as Vector (3)",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fe89a454e50&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#quiz-1",
+    "href": "TextClassification/poornima.html#quiz-1",
+    "title": "Sentiment Analysis",
+    "section": "Quiz",
+    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following representations do you consider to produce a larger vocabulary?\n\n\n\n\n\n\n\n\nA\n\n\n\ntmA = TextModel(token_list=[-1, 3],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)\n\n\n\n\n\n\n\n\nB\n\n\n\ntmB = TextModel(token_list=[-1, 6],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#procedure-1",
+    "href": "TextClassification/poornima.html#procedure-1",
+    "title": "Sentiment Analysis",
+    "section": "Procedure",
+    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nfrom sklearn.svm import LinearSVC\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray([0])",
+    "crumbs": [
+      "Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "TextClassification/poornima.html#performance",
+    "href": "TextClassification/poornima.html#performance",
+    "title": "Sentiment Analysis",
+    "section": "Performance",
+    "text": "Performance\n\nfrom sklearn.model_selection import KFold\nfrom sklearn.metrics import recall_score\n\nkfold = KFold(n_splits=5, shuffle=True, random_state=1)\nperf = []\nfor tr, vs in kfold.split(training_set):\n    train = [training_set[i] for i in tr]\n    val = [training_set[i] for i in vs]\n    tm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                   usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                   emo_option=OPTION_NONE, lc=True, del_dup=False,\n                   del_punc=True, del_diac=True).fit(train)\n    labels = [x['klass'] for x in train]\n    m = LinearSVC(dual='auto').fit(tm.transform(train), labels)\n    hy = m.predict(tm.transform(val))\n    _ = recall_score([x['klass'] for x in val], hy, average='macro')\n    perf.append(_)\nnp.mean(perf)\n\nnp.float64(0.8200309412585819)",
+    "crumbs": [
+      "Sentiment Analysis"
     ]
   },
   {
@@ -1182,116 +1682,6 @@
     ]
   },
   {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
-    "href": "IberLEF2023/RestMex2023-10mins.html#ingeotec-research-group",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "INGEOTEC research group",
-    "text": "INGEOTEC research group\n\n\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
-    "href": "IberLEF2023/RestMex2023-10mins.html#our-approach-evomsa-2.0",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our approach: EvoMSA 2.0",
-    "text": "Our approach: EvoMSA 2.0\n \n\n\n\nEvoMSA’s documentation (https://evomsa.readthedocs) Papers (Graff et al. 2020) (Tellez et al. 2017)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#our-representations",
-    "href": "IberLEF2023/RestMex2023-10mins.html#our-representations",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Our representations",
-    "text": "Our representations\n\n\nSparse bag of words (SBOW)\nDense bag of words (DBOW)",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#sbow",
-    "href": "IberLEF2023/RestMex2023-10mins.html#sbow",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "SBoW",
-    "text": "SBoW",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
-    "href": "IberLEF2023/RestMex2023-10mins.html#dense-bow-stacking",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Dense BoW (stacking)",
-    "text": "Dense BoW (stacking)\n\n\n\n\nStacking: All models aggregated are used according to their weights for producing an output, the final classification.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
-    "href": "IberLEF2023/RestMex2023-10mins.html#dbow-parameters",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "DBOW parameters",
-    "text": "DBOW parameters\nFollowing an equivalent approach used in the development of the pre-trained BoW, different dense representations were created.\nThese correspond to varying the size of the vocabulary and the two procedures used to select the tokens. Vector spaces:\n\ndataset is in \\(\\mathbb R^{57}\\).\nemoji is in \\(\\mathbb R^{567}\\).\nkeyword is in \\(\\mathbb R^{2048}\\).",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
-    "href": "IberLEF2023/RestMex2023-10mins.html#configurations-1",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Configurations",
-    "text": "Configurations\nThe different configurations tested in this competition are described below. These configurations include BoW and a combination of BoW with dense representations. Stack generalization combines the different text classifiers, and the top classifier was a Naive Bayes algorithm. The specific implementation of this configuration can be seen in EvoMSA’s documentation.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#competition",
-    "href": "IberLEF2023/RestMex2023-10mins.html#competition",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Competition",
-    "text": "Competition\n\n\n\nPerformance comparison of our submission (INGEOTEC) and the competition’s winner. The best performance is in boldface.\n\n\n\nType\nCountry\nPolarity\n\n\n\n\nWinner\n0.9903\n0.9420\n0.6217\n\n\nINGEOTEC\n0.9805\n0.9271\n0.5549\n\n\nDifference\n1%\n1.6%\n12.0%\n\n\n\n\n\nAnother comparison that one can make with the Table’s data is computing the difference between the best performance in k-fold cross-validation and the worst; it can be observed that for the 2023 edition, the difference is 1.4%, and for 2022 is 13.3%. The difference of 1.4% indicates that following this approach will be complicated to improve. On the other hand, for the edition 2022, there might be room for improvement following the presented approach.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
-    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance",
-    "text": "Other competitions performance\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nPoliticEs (Gender)\n0.8296\n0.7115\n16.6%\n\n\nPoliticEs (Profession)\n0.8608\n0.8379\n2.7%\n\n\nPoliticEs (Ideology Binary)\n0.8967\n0.8913\n0.6%\n\n\nPoliticEs (Ideology Multiclass)\n0.6913\n0.6694\n3.3%\n\n\nREST-MEX (Polarity)\n0.6216\n0.5548\n12.0%\n\n\nREST-MEX (Type)\n0.9903\n0.9805\n1.0%\n\n\nREST-MEX (Country)\n0.9420\n0.9270\n1.6%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
-    "href": "IberLEF2023/RestMex2023-10mins.html#other-competitions-performance-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Other competitions performance (Continued…)",
-    "text": "Other competitions performance (Continued…)\n\nPerformance comparison. EvoMSA’ results\n\n\nCompetition\nWinner\nEvoMSA 2.0\nDifference\n\n\n\n\nHOMO-MEX\n0.8847\n0.8050\n9.9%\n\n\nHOPE (ES)\n0.9161\n0.4198\n118.2%\n\n\nHOPE (EN)\n0.5012\n0.4429\n13.2%\n\n\nDIPROMATS (ES)\n0.8089\n0.7485\n8.1%\n\n\nDIPROMATS (EN)\n0.8090\n0.7255\n11.5%\n\n\nHUHU\n0.820\n0.775\n5.8%",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
-    "href": "IberLEF2023/RestMex2023-10mins.html#conclusions-continued",
-    "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
-    "section": "Conclusions (continued…)",
-    "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
-    "crumbs": [
-      "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
     "objectID": "IberLEF2023/restMex2023.html#ingeotec-research-group",
     "href": "IberLEF2023/restMex2023.html#ingeotec-research-group",
     "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
@@ -1569,376 +1959,6 @@
     "text": "Conclusions (continued…)\n\n\n\nOur results show that developing competitive models for violent event identification is possible using only text-based features and, even more, bag-of-words-based models.\nExplainability of the model (with a simple bow outstanding results). Simplest solution\nFast solution (in training and test), low computational resources. Dense representation using at most 100 million tweets.",
     "crumbs": [
       "Ingeotec at Rest-Mex: \\ Bag-of-Words Classifiers"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#ingeotec",
-    "href": "TextClassification/general.html#ingeotec",
-    "title": "Text Classification",
-    "section": "INGEOTEC",
-    "text": "INGEOTEC\n\n\nGitHub: https://github.com/INGEOTEC\nWebPage: https://ingeotec.github.io/",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#aguascalientes-méxico",
-    "href": "TextClassification/general.html#aguascalientes-méxico",
-    "title": "Text Classification",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#opinion-mining-1",
-    "href": "TextClassification/general.html#opinion-mining-1",
-    "title": "Text Classification",
-    "section": "Opinion Mining",
-    "text": "Opinion Mining\n\n\n\nDefinition\n\n\nStudy people’s opinions, appraisals, attitudes, and emotions toward entities, individuals, events, and their attributes.\n\n\n\n\nDistilling opinions from texts\nA brand is interested in the costumer’s opinions\nHuge amount of information",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#opinion-mining-2",
-    "href": "TextClassification/general.html#opinion-mining-2",
-    "title": "Text Classification",
-    "section": "Opinion Mining (2)",
-    "text": "Opinion Mining (2)\n\n\n\nFormal Definition\n\n\n\n\\(e_i\\) - Entity\n\\(a_{ij}\\) - Aspect of \\(e_i\\)\n\\(o_{ijkl}\\) - Opinion orientation\n\\(h_k\\) - Opinion source - Opinion holder\n\\(t_l\\) - Time of the opinion\n\n\n\n\n\n\n\nEntity\n\n\nProduct, service, person, event, organization, or topic\n\n\n\n\n\n\nAspect\n\n\nEntity’s component or attribute",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#opinion-mining-tasks",
-    "href": "TextClassification/general.html#opinion-mining-tasks",
-    "title": "Text Classification",
-    "section": "Opinion Mining Tasks",
-    "text": "Opinion Mining Tasks\n\n\n\nTasks\n\n\n\nEntity extraction\nAspect extraction - considered the entities\nIdentify opinion source and time\nIdentify opinion orientation",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#text-classification",
-    "href": "TextClassification/general.html#text-classification",
-    "title": "Text Classification",
-    "section": "Text Classification",
-    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#text-classification-tasks",
-    "href": "TextClassification/general.html#text-classification-tasks",
-    "title": "Text Classification",
-    "section": "Text Classification Tasks",
-    "text": "Text Classification Tasks\n\n\n\nPolarity\n\n\nPositive, Negative, Neutral\n\n\n\n\n\n\nEmotion (Multiclass)\n\n\n\nAnger, Joy, …\nIntensity of an emotion\n\n\n\n\n\n\n\nEvent (Binary)\n\n\n\nViolent\nCrime",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#profiling",
-    "href": "TextClassification/general.html#profiling",
-    "title": "Text Classification",
-    "section": "Profiling",
-    "text": "Profiling\n\n\n\nGender\n\n\nMan, Woman, Nonbinary, …\n\n\n\n\n\n\nAge\n\n\nChild, Teen, Adult\n\n\n\n\n\n\nLanguage Variety\n\n\n\nSpanish: Spain, Cuba, Argentine, México, …\nEnglish: United States, England, …",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#machine-learning",
-    "href": "TextClassification/general.html#machine-learning",
-    "title": "Text Classification",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\n\n\nDefinition\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\nTypes of ML algorithms\n\n\n\nUnsupervised Learning\nSupervised Learning\nReinforcement Learning",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-multiclass",
-    "href": "TextClassification/general.html#supervised-learning-multiclass",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Multiclass)",
-    "text": "Supervised Learning (Multiclass)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-binary",
-    "href": "TextClassification/general.html#supervised-learning-binary",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Binary)",
-    "text": "Supervised Learning (Binary)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-classification",
-    "href": "TextClassification/general.html#supervised-learning-classification",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Classification)",
-    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-geometry",
-    "href": "TextClassification/general.html#supervised-learning-geometry",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Geometry)",
-    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-geometry-2",
-    "href": "TextClassification/general.html#supervised-learning-geometry-2",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Geometry 2)",
-    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#supervised-learning-geometry-3",
-    "href": "TextClassification/general.html#supervised-learning-geometry-3",
-    "title": "Text Classification",
-    "section": "Supervised Learning (Geometry 3)",
-    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#training-set",
-    "href": "TextClassification/general.html#training-set",
-    "title": "Text Classification",
-    "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nEl Depor en los paripes: le ganan al Fuenlabra...\n0\n\n\n1\nCorte Suprema confirma condena de 15 años a Ca...\n1\n\n\n2\n@gusbermudezok Aquí está Tigrotta cuando todav...\n0\n\n\n3\nPOLICÍAS ESTATALES ASEGURAN GMC SIERRA ROBADA ...\n1\n\n\n4\nAyuda a @PETA_Latino a proteger a los monos, p...\n0\n\n\n5\nUn residente local encaró y persiguió al ataca...\n1\n\n\n6\n@elmostrador Murieron inocentes como en todo c...\n0\n\n\n7\n🚨🚔🚑#Sucesos #SJR Vecinos detienen a sujeto por...\n1",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#quiz",
-    "href": "TextClassification/general.html#quiz",
-    "title": "Text Classification",
-    "section": "Quiz",
-    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following tasks does the previous training set belong to?\n\nPolarity\nEmotion identification\nAggressive detection\nProfiling",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#training-set-2",
-    "href": "TextClassification/general.html#training-set-2",
-    "title": "Text Classification",
-    "section": "Training set (2)",
-    "text": "Training set (2)\n\n\n\nProblem\n\n\nThe independent variables are texts\n\n\n\n\n\n\n\nSolution\n\n\n\nRepresent the texts in an suitable format for the classifier\nToken as a vector\nSparse vector\nDense vector\nUtterance as a vector",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#token-as-vector",
-    "href": "TextClassification/general.html#token-as-vector",
-    "title": "Text Classification",
-    "section": "Token as Vector",
-    "text": "Token as Vector\n\n\n\nToken as vector\n\n\n\nThe idea is that each token \\(t\\) is associate to a vector \\(\\mathbf v_t \\in \\mathbb R^d\\)\nLet \\(\\mathcal V\\) represent the set composed by the different tokens\n\\(d\\) corresponds to the dimension of the vector\n\n\n\n\n\n\n\n\n\\(d &lt;&lt; \\lvert \\mathcal V \\rvert\\) (Dense Vector)\n\n\n\nGloVe\nWord2vec\nfastText",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#token-as-vector-2",
-    "href": "TextClassification/general.html#token-as-vector-2",
-    "title": "Text Classification",
-    "section": "Token as Vector (2)",
-    "text": "Token as Vector (2)\n\n\n\n\\(d = \\lvert \\mathcal V \\rvert\\) (Sparse Vector)\n\n\n\n\\(\\forall_{i \\neq j} \\mathbf v_i \\cdot \\mathbf v_j = 0\\)\n\\(\\mathbf v_i \\in \\mathbb R^d\\)\n\\(\\mathbf v_j \\in \\mathbb R^d\\)\n\n\n\n\n\n\n\n\nAlgorithm\n\n\n\nSort the vocabulary \\(\\mathcal V\\)\nAssociate \\(i\\)-th token to\n\\((\\ldots, 0, \\overbrace{\\beta_i}^i, 0, \\ldots)^\\intercal\\)\nwhere \\(\\beta_i &gt; 0\\)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#utterance-as-vector",
-    "href": "TextClassification/general.html#utterance-as-vector",
-    "title": "Text Classification",
-    "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\nProcedure\n\n\n\\[\\mathbf x = \\sum_{t \\in \\mathcal U} \\mathbf{v}_t\\]\n\nwhere \\(\\mathcal{U}\\) corresponds to all the tokens of the utterance\nThe vector \\(\\mathbf{v}_t\\) is associated to token \\(t\\)\n\n\n\n\n\n\n\n\nUnit Vector\n\n\n\\[\\mathbf x = \\frac{\\sum_{t \\in \\mathcal U} \\mathbf v_t}{\\lVert \\sum_{t \\in \\mathcal U} \\mathbf v_t \\rVert} \\]",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#tokens",
-    "href": "TextClassification/general.html#tokens",
-    "title": "Text Classification",
-    "section": "Tokens",
-    "text": "Tokens\n\n\n\n\n\nflowchart LR\n    Entrada([Text]) --&gt;  Norm[Text Normalizer]\n    Norm --&gt; Seg[Tokenizer]\n    Seg --&gt; Terminos(...)\n\n\n\n\n\n\n\n\n\n\n\nText Normalization\n\n\n\nUser\nURL\nEntity\nCase sensitive\nPunctuation\nDiacritic\n\n\n\n\n\n\n\n\nDiacritic (remove)\n\n\n\ntext = 'México'\noutput = \"\"\nfor x in unicodedata.normalize('NFD', text):\n    o = ord(x)\n    if 0x300 &lt;= o and o &lt;= 0x036F:\n        continue\n    output += x\noutput\n\n'Mexico'",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#text-normalization-1",
-    "href": "TextClassification/general.html#text-normalization-1",
-    "title": "Text Classification",
-    "section": "Text Normalization",
-    "text": "Text Normalization\n\n\n\nCase sensitive\n\n\n\ntext = \"México\"\noutput = text.lower()\noutput\n\n'méxico'\n\n\n\n\n\n\n\n\nURL (replace)\n\n\n\ntext = \"go http://google.com, and find out\"\noutput = re.sub(r\"https?://\\S+\", \"_url\", text)\noutput\n\n'go _url and find out'",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#tokenizer",
-    "href": "TextClassification/general.html#tokenizer",
-    "title": "Text Classification",
-    "section": "Tokenizer",
-    "text": "Tokenizer\n\n\n\nCommon Types\n\n\n\nWords\nn-grams (Words)\nq-grams (Characters)\nskip-grams\n\n\n\n\n\n\n\n\nWords\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nwords\n\n['I', 'like', 'playing', 'football', 'on', 'Saturday']",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#tokenizer-2",
-    "href": "TextClassification/general.html#tokenizer-2",
-    "title": "Text Classification",
-    "section": "Tokenizer (2)",
-    "text": "Tokenizer (2)\n\n\n\n\n\nn-grams\n\n\n\ntext = 'I like playing football on Saturday'\nwords = text.split()\nn = 3\nn_grams = []\nfor a in zip(*[words[i:] for i in range(n)]):\n    n_grams.append(\"~\".join(a))\nn_grams\n\n['I~like~playing',\n 'like~playing~football',\n 'playing~football~on',\n 'football~on~Saturday']\n\n\n\n\n\n\n\n\n\nq-grams\n\n\n\ntext = 'I like playing'\nq = 4\nq_grams = []\nfor a in zip(*[text[i:] for i in range(q)]):\n    q_grams.append(\"\".join(a))\nq_grams\n\n['I li',\n ' lik',\n 'like',\n 'ike ',\n 'ke p',\n 'e pl',\n ' pla',\n 'play',\n 'layi',\n 'ayin',\n 'ying']",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#mu-tc",
-    "href": "TextClassification/general.html#mu-tc",
-    "title": "Text Classification",
-    "section": "\\(\\mu\\)-TC",
-    "text": "\\(\\mu\\)-TC\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE,\n               lc=True,\n               del_dup=False,\n               del_punc=True,\n               del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing football with @mgraffg'\ntm.tokenize(text)\n\n['i', 'like', 'playing', 'football', 'with']",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#mu-tc-2",
-    "href": "TextClassification/general.html#mu-tc-2",
-    "title": "Text Classification",
-    "section": "\\(\\mu\\)-TC (2)",
-    "text": "\\(\\mu\\)-TC (2)\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-2, -1, 6],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\ntext = 'I like playing...'\ntm.tokenize(text)\n\n['i~like',\n 'like~playing',\n 'i',\n 'like',\n 'playing',\n 'q:~i~lik',\n 'q:i~like',\n 'q:~like~',\n 'q:like~p',\n 'q:ike~pl',\n 'q:ke~pla',\n 'q:e~play',\n 'q:~playi',\n 'q:playin',\n 'q:laying',\n 'q:aying~']",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#training-set-1",
-    "href": "TextClassification/general.html#training-set-1",
-    "title": "Text Classification",
-    "section": "Training set",
-    "text": "Training set\n\nURL = 'https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip'\nif not isfile('delitos.zip'):\n  Download(URL,\n           'delitos.zip')\nif not isdir('delitos'):\n  !unzip -Pingeotec delitos.zip",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#utterance-as-vector-1",
-    "href": "TextClassification/general.html#utterance-as-vector-1",
-    "title": "Text Classification",
-    "section": "Utterance as Vector",
-    "text": "Utterance as Vector\n\n\n\n\n\nTextModel\n\n\n\ntm = TextModel(token_list=[-1],\n               num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE,\n               url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, \n               lc=True, del_dup=False,\n               del_punc=True, del_diac=True)\n\n\n\n\n\n\n\n\nTokenizer\n\n\n\nfname = 'delitos/delitos_ingeotec_Es_train.json'\ntraining_set = list(tweet_iterator(fname))\ntm.tokenize(training_set[0])[:3]\n\n['este', 'caso', 'tiene']\n\n\n\n\n\n\n\n\n\n\nVocabulary\n\n\n\nvoc = Counter()\nfor text in training_set:\n  tokens = set(tm.tokenize(text))\n  voc.update(tokens)\nvoc.most_common(n=3)\n\n[('de', 980), ('en', 803), ('la', 653)]",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#utterance-as-vector-2",
-    "href": "TextClassification/general.html#utterance-as-vector-2",
-    "title": "Text Classification",
-    "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(57, np.float64(7.906890595608518)),\n (51, np.float64(5.8479969065549495)),\n (0, np.float64(1.3269461696539864)),\n (9, np.float64(2.5277907564370796))]",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#utterance-as-vector-3",
-    "href": "TextClassification/general.html#utterance-as-vector-3",
-    "title": "Text Classification",
-    "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7efc0b2cbca0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#quiz-1",
-    "href": "TextClassification/general.html#quiz-1",
-    "title": "Text Classification",
-    "section": "Quiz",
-    "text": "Quiz\n\n\n\nQuestion\n\n\nWhich of the following representations do you consider to produce a larger vocabulary?\n\n\n\n\n\n\n\n\nA\n\n\n\ntmA = TextModel(token_list=[-1, 3],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)\n\n\n\n\n\n\n\n\nB\n\n\n\ntmB = TextModel(token_list=[-1, 6],\n                num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE,\n                url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, \n                lc=True, del_dup=False,\n                del_punc=True,\n                del_diac=True\n               ).fit(training_set)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#procedure-1",
-    "href": "TextClassification/general.html#procedure-1",
-    "title": "Text Classification",
-    "section": "Procedure",
-    "text": "Procedure\n\n\n\nText as Vectors\n\n\n\ntm = TextModel(token_list=[-1], num_option=OPTION_NONE,\n                usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n                emo_option=OPTION_NONE, lc=True, del_dup=False,\n                del_punc=True, del_diac=True\n               ).fit(training_set)\nX = tm.transform(training_set)\n\n\n\n\n\n\n\n\nTraining a Classifier\n\n\n\nlabels = [x['klass'] for x in training_set]\nm = LinearSVC(dual='auto').fit(X, labels)\n\n\n\n\n\n\n\n\n\nPredict a text\n\n\n\nX = tm.transform(['Buenos días']) # good morning\nm.predict(X)\n\narray([0])",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#performance",
-    "href": "TextClassification/general.html#performance",
-    "title": "Text Classification",
-    "section": "Performance",
-    "text": "Performance\n\n\n\nTest set\n\n\n\ntest_set = list(tweet_iterator(fname.replace('_train.', '_test.')))\n\n\n\n\n\n\n\nPrediction\n\n\n\ntm = TextModel(token_list=[-2, -1, 3, 4], num_option=OPTION_NONE,\n               usr_option=OPTION_DELETE, url_option=OPTION_DELETE,\n               emo_option=OPTION_NONE, lc=True, del_dup=False,\n               del_punc=True, del_diac=True\n              ).fit(training_set)\nX = tm.transform(training_set)\nlabels = np.array([x['klass'] for x in training_set])\nm = LinearSVC(dual='auto', class_weight='balanced').fit(X, labels)\nhy = m.predict(tm.transform(test_set))\n\n\n\n\n\n\n\nPerformance\n\n\n\nrecall_score([x['klass'] for x in test_set],\n             hy, average=None)\n\narray([0.95070423, 0.68421053])",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#feature-importance",
-    "href": "TextClassification/general.html#feature-importance",
-    "title": "Text Classification",
-    "section": "Feature Importance",
-    "text": "Feature Importance\n\n\n\nCoefficients\n\n\n\ndef coef(X, y):\n    m = LinearSVC(dual='auto',\n                  class_weight='balanced'\n                 ).fit(X, y)\n    return m.coef_\n\n\n\n\n\n\n\nNormalize Coefficients\n\n\n\nstats = StatisticSamples(statistic=coef,\n                         num_samples=50,\n                         n_jobs=-1)\nb_samples = stats(X, labels)\nse = np.std(b_samples, axis=0)\nse[se==0] = 1\nw_norm = m.coef_ / se\nw_norm = np.linalg.norm(w_norm, axis=0)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#feature-importance-2",
-    "href": "TextClassification/general.html#feature-importance-2",
-    "title": "Text Classification",
-    "section": "Feature Importance (2)",
-    "text": "Feature Importance (2)\n\n\n\nWordcloud\n\n\n\npath = './emoji_text.ttf'\nitems = tm.token_weight.items\ntokens = {tm.id2token[id]: w_norm[id] * _w for id, _w in items()\n          if w_norm[id] &gt;= 2.0 and np.isfinite(w_norm[id])}\nword_cloud = WordCloud(font_path=path,\n                       background_color='white'\n                      ).generate_from_frequencies(tokens)\nplt.imshow(word_cloud, interpolation='bilinear')\nplt.tick_params(left=False, right=False, labelleft=False,\n                   labelbottom=False, bottom=False)",
-    "crumbs": [
-      "Text Classification"
-    ]
-  },
-  {
-    "objectID": "TextClassification/general.html#feature-importance-2-output",
-    "href": "TextClassification/general.html#feature-importance-2-output",
-    "title": "Text Classification",
-    "section": "Feature Importance (2)",
-    "text": "Feature Importance (2)",
-    "crumbs": [
-      "Text Classification"
     ]
   }
 ]
