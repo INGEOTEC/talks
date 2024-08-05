@@ -15,7 +15,6 @@ format:
 bibliography: references.bib    
 ---
 
-
 # INFOTEC
 
 ## Aguascalientes, México
@@ -53,7 +52,7 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 ::: {.callout-tip icon="false" .column width=50%}
 ### Así la vemos
 
-![](img/robot-futuro.jpg){width=253}
+![](img/robot-futuro.jpg){height=253}
 :::
 
 ::: {.fragment .callout-tip icon="false" .column width=50%}
@@ -70,49 +69,109 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 ::: {.callout-tip icon="false"}
 ### @chen2020artificial
 
-* Calificar y dar retroalimentación
-* Creación de planes de aprendizaje personalizados
-* Predecir deserción
-* Estilo de aprendizaje basado en información personal
-* Descubrir dificultades de los estudiantes
-* Selección de cursos
+* Calificar y dar retroalimentación.
+* Creación de planes de aprendizaje personalizados.
+* Predecir deserción.
+* Estilo de aprendizaje basado en información personal.
+* Descubrir dificultades de los estudiantes.
+* Selección de cursos.
 :::
 
 ## Tendencias
 
 ::: {.callout-tip icon="false"}
-### @chen2022two menciona
+### @chen2022two
 
-* Tutores Inteligentes - educación especial
-* Procesamiento de Lenguaje Natural - Enseñanza del lenguaje
-* Minería de datos - Predicción de rendimiento
-* Redes neuronales - Evaluación de enseñanza
-* Computación afectiva - Detección de emociones
-* Sistemas de recomendación - Aprendizaje personalizado 
+* Tutores Inteligentes - educación especial, infancia.
+* Procesamiento de Lenguaje Natural - Enseñanza del lenguaje.
+* Minería de datos - Predicción de rendimiento.
+* Redes neuronales - Evaluación de enseñanza.
+* Computación afectiva - Detección de emociones.
+* Sistemas de recomendación - Aprendizaje personalizado. 
 :::
 
 ::: {.fragment .callout-tip icon="false"}
 ### Foros importantes (index H)
 
-* International Journal of Artificial Intelligence in Education
-* International Conference of Artificial Intelligence in Education
-* Computers & Education
+* International Journal of Artificial Intelligence in Education.
+* International Conference of Artificial Intelligence in Education.
+* Computers & Education.
 :::
 
+## Ambiente Educativo Inteligente 
 
-## XxX 
+[@zatarain2023multimodal]
 
-@zatarain2023multimodal
+:::: {.columns}
+::: {.fragment .callout-note icon="false" .column}
+### Ambiente Educativo
+
+Enfoque educativo, contexto cultural y espacio donde el proceso de enseñanza
+aprendizaje se realiza.
+:::
+
+::: {.fragment .callout-note icon="false" .column}
+### Sistema de Tutoría Inteligente
+
+Proceso de aprendizaje que usa algún tipo de inteligencia para guiar los estudiantes.
+:::
+::::
+
+:::: {.columns}
+::: {.fragment .callout-note icon="false" .column}
+### Ambiente Educativo Inteligente (AEI)
+
+Combinación de un ambiente educativo con un sistema de tutoría inteligente.
+:::
+
+::: {.fragment .callout-note icon="false" .column}
+### Ambiente Educativo Afectivo
+
+AEI con un modelo cognitivo usando medición de estados afectivos como pueden ser rasgos de personalidad y emociones.
+:::
+::::
+
 
 # Procesamiento de Lenguaje Natural
 
-## Aplicaciones en la Educación 
+## FractionLearning 
+[https://fractionlearning-env.web.app/form]()
 
-Por hacer
+:::: {.columns} 
+::: {.column} 
+![](img/FractionLearning.png)
+::: 
+
+::: {.fragment .callout-tip icon="false" .column}
+### Ambiente Educativo Afectivo 
+
+* Modelos de personalidad
+* Voz a texto
+* Estilos de aprendizaje
+  * Verbal-secuencial
+  * Verbal-global
+  * Visual-secuencial
+  * Visual-global
+::: 
+:::: 
+
+## FractionLearning (2) 
+[https://fractionlearning-env.web.app/form]()
+
+![](img/FractionLearning2.png)
+
 
 # Conclusiones
 
-Por hacer
+## Retos
+
+::: {.callout-tip icon="false"}
+### @chen2022two
+
+* Privacidad - Aprendizaje personalizado.
+* Incentivar el uso de IA por los docentes.
+* Nuevos modelos de Aprendizaje Computacional.
+:::
 
 # Referencias
 
