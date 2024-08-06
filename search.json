@@ -374,7 +374,7 @@
     "href": "TextClassification/educacion.html#aguascalientes-méxico",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México",
+    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -414,7 +414,7 @@
     "href": "TextClassification/educacion.html#tendencias",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Tendencias",
-    "text": "Tendencias\n\n\n\nX. Chen et al. (2022)\n\n\n\nTutores Inteligentes - educación especial, infancia.\nProcesamiento de Lenguaje Natural - Enseñanza del lenguaje.\nMinería de datos - Predicción de rendimiento.\nRedes neuronales - Evaluación de enseñanza.\nComputación afectiva - Detección de emociones.\nSistemas de recomendación - Aprendizaje personalizado.\n\n\n\n\n\n\n\n\nForos importantes (index H)\n\n\n\nInternational Journal of Artificial Intelligence in Education.\nInternational Conference of Artificial Intelligence in Education.\nComputers & Education.",
+    "text": "Tendencias\n\n\n\nX. Chen et al. (2022)\n\n\n\nTutores Inteligentes - educación especial, infancia.\nProcesamiento de Lenguaje Natural - Enseñanza del lenguaje.\nMinería de datos - Predicción de rendimiento.\nRedes neuronales - Evaluación de enseñanza.\nComputación afectiva - Detección de emociones.\nSistemas de recomendación - Aprendizaje personalizado.",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -434,7 +434,7 @@
     "href": "TextClassification/educacion.html#fractionlearning",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "FractionLearning",
-    "text": "FractionLearning\nhttps://fractionlearning-env.web.app/form\n\n\n\n\n\n\n\nAmbiente Educativo Afectivo\n\n\n\nModelos de personalidad\nVoz a texto\nEstilos de aprendizaje\n\nVerbal-secuencial\nVerbal-global\nVisual-secuencial\nVisual-global",
+    "text": "FractionLearning\nhttps://fractionlearning-env.web.app/form\n\n\n\n\n\n\n\nAmbiente Educativo Afectivo\n\n\n\nModelos de personalidad.\nVoz a texto.\nEstilos de aprendizaje.\n\nVerbal-secuencial.\nVerbal-global.\nVisual-secuencial.\nVisual-global.",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -450,11 +450,101 @@
     ]
   },
   {
+    "objectID": "TextClassification/educacion.html#fractionlearning-3",
+    "href": "TextClassification/educacion.html#fractionlearning-3",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "FractionLearning (3)",
+    "text": "FractionLearning (3)\n\n\n\n\n\nModelo de Personalidad\n\n\n\nAmabilidad.\nApertura.\nNeuroticismo.\nResponsabilidad.\nSociabilidad.\n\n\n\n\n\n\n\n\nCategorización de Texto\n\n\nDesarrollar algoritmos capaces de identificar la categoría a la que un documento (texto) de un conjunto previamente definido.\n\n\n\n\n\n\n\n\nIngredientes\n\n\n\nConjunto de entrenamiento.\nRepresentación de texto.\nClasificador / Regresor.",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#conjunto-de-entrenamiento",
+    "href": "TextClassification/educacion.html#conjunto-de-entrenamiento",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Conjunto de entrenamiento",
+    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\n#casoDamm\\n\\nEs detenido por llevar los vidrio...\nN\n\n\n1\nAsesinan a dos hombres en #Empalme \\nSuman cua...\nP\n\n\n2\n¡Aunque NO SIRVA! \\n\\nDescaro, vergüenza.\nN\n\n\n3\n#Tamaulipas \\nDenuncia alcaldía de #Victoria ...\nP\n\n\n4\nLocalizan parte del avión caído en el Mar de J...\nN\n\n\n5\nInfausta noticia. \\n\\nDurante un ataque de un ...\nP\n\n\n6\nTambién puede ocurrir que encuentres a la pers...\nN\n\n\n7\nEl asesino de la mujer que apareció en Asparre...\nP",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#clasificador",
+    "href": "TextClassification/educacion.html#clasificador",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Clasificador",
+    "text": "Clasificador",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#representación-de-texto",
+    "href": "TextClassification/educacion.html#representación-de-texto",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Representación de Texto",
+    "text": "Representación de Texto\n\n\n\n\n\nBolsa de palabras\n\n\n\nAsociar cada palabra a un identificador.\n\nde \\(\\rightarrow\\) 1.\nque \\(\\rightarrow\\) 2.\nbuenos \\(\\rightarrow\\) 216.\ndias \\(\\rightarrow\\) 101.\n\n\n\n\n\n\n\n\n\n\nbuenos días\n\n\n\\((215, 100)\\)\n\n\n\n\n\n\n\n\nLa bolsa no tiene orden\n\n\n\\((100, 215)\\)\n\n\n\n\n\n\n\n\n\n\nModelo lineal\n\n\n\\(y = \\sigma( \\sum_{i \\in (100, 215)} w_i x_i + w_0)\\)\n\n\n\n\n\n\n\nParámetros\n\n\n\\(x_i\\) TFIDF / \\(w_i\\) valor estimado",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#representación-de-texto-1",
+    "href": "TextClassification/educacion.html#representación-de-texto-1",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Representación de Texto",
+    "text": "Representación de Texto\n\n\n\n\n\nBolsa de Palabras / Limitantes\n\n\n\nNo existe similitud entre palabras.\nSe pierde el orden.\nVector disperso.\n\n\n\n\n\n\n\n\nEmbeddings estáticos\n\n\n\nHipótesis distribucional.\nSimilitud entre palabras.\nVector denso.\n\n\n\n\n\n\n\n\n\nEmbeddings estáticos / limitantes\n\n\n\nSe pierde el orden.\nIndependientes del contexto.",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#transformers",
+    "href": "TextClassification/educacion.html#transformers",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Transformers",
+    "text": "Transformers\n(Vaswani et al. 2017)",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#entrenamiento-de-transformers",
+    "href": "TextClassification/educacion.html#entrenamiento-de-transformers",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Entrenamiento de Transformers",
+    "text": "Entrenamiento de Transformers\n\n\n\nAprendizaje auto-supervisado\n\n\nProceso automático que transforma un conjunto no etiquetado en uno etiquetado.\n\n\n\n\n\n\n\nCloze test\n\n\n(Bormuth 1968)\nMéxico exporta XXX que se XXX en Michoacán.",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#categorización-de-texto-1",
+    "href": "TextClassification/educacion.html#categorización-de-texto-1",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Categorización de Texto",
+    "text": "Categorización de Texto\n\n\n\n\n\nIdentificación\n\n\n\nPersonalidad.\nEmociones.\nPolaridad.\nAgresividad.\n\n\n\n\n\n\n\n\nCaracterísticas\n\n\n\nProblemas de clasificación.\nNo hay comunicación.\nEspecífico.",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#fundamentos",
+    "href": "TextClassification/educacion.html#fundamentos",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Fundamentos",
+    "text": "Fundamentos\n\n\n\n\n\nModelo del Lenguaje\n\n\nEs un modelo probabilístico de un lenguaje natural que asigna probabilidades a una secuencia de palabras.\n\n\n\n\n\n\n\nMichoacán es el mayor productor de\n\n\n\ncamarones\naguacate\n\n\n\n\n\n\n\n\n\n\nModelo \\(n\\)-gram\n\n\n\\(P(w_i | w_1, \\ldots, w_{i-1}) = \\frac{C(w_1, \\ldots, w_{i-1}, w_i)}{C(w_1, \\ldots, w_{i-1})}\\)\n\n\n\n\n\n\n\nModelo general\n\n\n\\(P(w_i | w_1, \\ldots, w_{i-1}) = f(w_1, \\ldots, w_{i-1})\\)",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
     "objectID": "TextClassification/educacion.html#retos",
     "href": "TextClassification/educacion.html#retos",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Retos",
-    "text": "Retos\n\n\n\nX. Chen et al. (2022)\n\n\n\nPrivacidad - Aprendizaje personalizado.\nIncentivar el uso de IA por los docentes.\nNuevos modelos de Aprendizaje Computacional.",
+    "text": "Retos\n\n\n\nX. Chen et al. (2022)\n\n\n\nPrivacidad - Aprendizaje personalizado.\nIncentivar el uso de IA por los docentes.\nNuevos modelos de Aprendizaje Computacional.\n\n\n\n\n\n\n\n\nForos importantes (index H)\n\n\n\nInternational Journal of Artificial Intelligence in Education.\nInternational Conference of Artificial Intelligence in Education.\nComputers & Education.",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -866,7 +956,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nCarretera Ocozocuautla-Las Choapas caseta malp...\n0\n\n\n1\n#Video Asesinan a aficionado del América de Ca...\n1\n\n\n2\nOtra prueba de que el secesionismo golpista ca...\n0\n\n\n3\nMientras preparan el acto retrasado, de entreg...\n1\n\n\n4\nLa @policia ha demostrado una y otra vez en su...\n0\n\n\n5\nAsesinan al costarricense Marvin Brenes en Pas...\n1\n\n\n6\nLa irá te da un motivo, pero no un propósito.\n0\n\n\n7\nEl supuesto autor del tiroteo de la localidad ...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@FunesCartagena Funes asesino, matates con tu ...\n0\n\n\n1\nMuere hombre atropellado en carretera a Chapal...\n1\n\n\n2\nVigilados . Por @jmanatol https://t.co/oRJAodMjKc\n0\n\n\n3\nExpulsado el hombre que atacó a un policía y c...\n1\n\n\n4\n@dloisga Igual que en Madrid, han quitado un c...\n0\n\n\n5\nTras una requisa en el barrio el retiro de la ...\n1\n\n\n6\nTipo 2 de la mañana del día de hoy volvíamos c...\n0\n\n\n7\nCuatro detenidos por presunto hurto de ganado ...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -1006,7 +1096,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(54, np.float64(7.906890595608518)),\n (53, np.float64(5.8479969065549495)),\n (25, np.float64(1.3269461696539864)),\n (23, np.float64(2.5277907564370796))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(61, np.float64(7.906890595608518)),\n (60, np.float64(5.8479969065549495)),\n (2, np.float64(1.3269461696539864)),\n (31, np.float64(2.5277907564370796))]",
     "crumbs": [
       "Text Classification"
     ]
@@ -1016,7 +1106,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fa22b5254b0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f0269f19ab0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
     "crumbs": [
       "Text Classification"
     ]
@@ -1206,7 +1296,7 @@
     "href": "TextClassification/poornima.html#training-set",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@OEA_oficial Mejor comuniquenos a Almagro, par...\n0\n\n\n1\n#Provinciales | Rosario: asesinaron a balazos ...\n1\n\n\n2\n#Ñuñoa, Doctor Alejandro del Río y Hernán Cort...\n0\n\n\n3\nLa dura acusación de la dueña de la perra que ...\n1\n\n\n4\nE.D. MORATALAZ Cadete \"A\" - Qviding FIF 4-1: E...\n0\n\n\n5\n¡ATAQUE VIOLENTO! Mujer fue golpeada, apuñalad...\n1\n\n\n6\n¿Cómo Juan Carlos Osorio, técnico de @nacional...\n0\n\n\n7\nFeminismo moderno 🛵 RT @VaronesUnidos: Mujer d...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nel infierno es para esos médicos que ROBAN a l...\n0\n\n\n1\nLuis Chocobar, efectivo de la Policía Local de...\n1\n\n\n2\nCitados a declarar ocho profesores de La Seu d...\n0\n\n\n3\nJim Carrey, acusado de haber dado a su ex las ...\n1\n\n\n4\nLA CONTROVERSIAL LLEGADA DEL HOMBRE A LA LUNA ...\n0\n\n\n5\nAl llegar, encuentran el cuerpo de la niña qui...\n1\n\n\n6\nGendarmería busca a jóvenes desaparecidos en V...\n0\n\n\n7\nPrisión permanente para estos asesinos salvaje...\n1",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1346,7 +1436,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-2",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(60, np.float64(7.906890595608518)),\n (62, np.float64(5.8479969065549495)),\n (11, np.float64(1.3269461696539864)),\n (12, np.float64(2.5277907564370796))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(54, np.float64(7.906890595608518)),\n (60, np.float64(5.8479969065549495)),\n (15, np.float64(1.3269461696539864)),\n (3, np.float64(2.5277907564370796))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1356,7 +1446,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-3",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fe89a454e50&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f34ce5dab30&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
