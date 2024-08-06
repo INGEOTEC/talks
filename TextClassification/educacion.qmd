@@ -108,7 +108,7 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 [@zatarain2023multimodal]
 
 :::: {.columns} 
-::: {.fragment .callout-note icon="false" .column} 
+::: {.callout-note icon="false" .column} 
 ### Ambiente Educativo
 
 Enfoque educativo, contexto cultural y espacio donde el proceso de enseñanza
@@ -303,10 +303,10 @@ $x_i$ TFIDF / $w_i$ valor estimado
 :::
 ::::
 
-## Representación de Texto 
+## Representación de Texto (2) 
 
 :::: {.columns} 
-::: {.fragment .callout-tip icon="false" .column}
+::: {.callout-tip icon="false" .column}
 ### Bolsa de Palabras / Limitantes 
 
 * No existe similitud entre palabras.
@@ -330,10 +330,22 @@ $x_i$ TFIDF / $w_i$ valor estimado
 * Independientes del contexto.
 :::
 
-## Transformers 
+## Representaciones con Contexto
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Attention is All you Need
 [@NIPS2017_3f5ee243]
 
 ![](img/transformer.png)
+:::
+::: {.fragment .callout-tip icon="false" .column}
+### BERT
+[@devlin-etal-2019-bert]
+
+![](img/bert.png)
+:::
+::::
 
 ## Entrenamiento de Transformers 
 
@@ -347,7 +359,13 @@ Proceso automático que transforma un conjunto no etiquetado en uno etiquetado.
 #### Cloze test  
 [@bormuth1968cloze]
 
-México exporta XXX que se XXX en Michoacán.
+México exporta ___ que se ___ en Michoacán.
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Predicción de la siguiente frase 
+
+Clasificación binaría.
 :::
 
 
@@ -362,7 +380,7 @@ México exporta XXX que se XXX en Michoacán.
 * Polaridad.
 * Agresividad.
 :::
-::: {.callout-tip icon="false" .column}
+::: {.fragment .callout-tip icon="false" .column}
 ### Características 
 
 * Problemas de clasificación.
@@ -404,7 +422,91 @@ $P(w_i | w_1, \ldots, w_{i-1}) = f(w_1, \ldots, w_{i-1})$
 :::
 ::::
 
+## Redactar 
+[https://grammarly.com]()
+![](img/grammarly.png)
+
+## Redactar (2) 
+[https://www.whitesmoke.com]()
+![](img/whitesmoke.png)
+
+## Calificar 
+[https://www.gradescope.com]()
+![](img/gradescope.png)
+
+## Aprender Idiomas 
+
+:::: {.columns} 
+::: {.column .callout-tip icon="false"}
+### [https://www.ets.org/erater.html]()
+
+![](img/erater.png)
+:::
+
+::: {.column .callout-tip icon="false" .fragment}
+### [https://www.ets.org/speechrater.html]() 
+
+![](img/speechrater.png)
+:::
+::::
+
+::: {.callout-tip icon="false" .fragment} 
+### [https://duolingo.com]() 
+
+![](img/duolingo.png)
+:::
+
+## Identificación de Plagio
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Aplicaciones 
+
+* [iThenticate](https://latam.turnitin.com/products/ithenticate)
+* [Similarity](https://latam.turnitin.com/products/similarity/)
+* [Grammarly](https://grammarly.com)
+* [WhiteSmoke](https://www.whitesmoke.com)
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### [https://latam.turnitin.com]() 
+
+![](img/turnitin.png)
+:::
+::::
+
+## Modelos Grandes de Lenguaje 
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### [https://gemini.google.com]() 
+
+![](img/gemini.png)
+:::
+::: {.fragment .callout-tip icon="false" .column}
+### [https://llama.meta.com]() 
+
+![](img/Llama.png){height="600"}
+:::
+::::
+
 # Conclusiones 
+
+::: {.callout-tip icon="false"}
+### Definiciones 
+
+* Inteligencia Artificial
+* Aprendizaje Computacional
+* Procesamiento de Lenguaje Natural
+:::
+
+::: {.callout-tip icon="false"}
+### Aplicaciones 
+
+* Clasificación de texto 
+* Comprensión  
+* Generativas 
+:::
 
 ## Retos
 
@@ -428,3 +530,5 @@ $P(w_i | w_1, \ldots, w_{i-1}) = f(w_1, \ldots, w_{i-1})$
 
 ::: {#refs}
 :::
+
+# ¡Gracias! 
