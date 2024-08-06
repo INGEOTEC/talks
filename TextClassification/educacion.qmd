@@ -330,7 +330,25 @@ $x_i$ TFIDF / $w_i$ valor estimado
 * Independientes del contexto.
 :::
 
+## Transformers 
+[@NIPS2017_3f5ee243]
 
+![](img/transformer.png)
+
+## Entrenamiento de Transformers 
+
+::: {.callout-note icon="false"}
+#### Aprendizaje auto-supervisado 
+
+Proceso automático que transforma un conjunto no etiquetado en uno etiquetado.
+:::
+
+::: {.fragment .callout-tip icon="false"}
+#### Cloze test  
+[@bormuth1968cloze]
+
+México exporta XXX que se XXX en Michoacán.
+:::
 
 
 ## Categorización de Texto 
