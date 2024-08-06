@@ -464,7 +464,7 @@
     "href": "TextClassification/educacion.html#conjunto-de-entrenamiento",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Conjunto de entrenamiento",
-    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\n#casoDamm\\n\\nEs detenido por llevar los vidrio...\nN\n\n\n1\nAsesinan a dos hombres en #Empalme \\nSuman cua...\nP\n\n\n2\n¡Aunque NO SIRVA! \\n\\nDescaro, vergüenza.\nN\n\n\n3\n#Tamaulipas \\nDenuncia alcaldía de #Victoria ...\nP\n\n\n4\nLocalizan parte del avión caído en el Mar de J...\nN\n\n\n5\nInfausta noticia. \\n\\nDurante un ataque de un ...\nP\n\n\n6\nTambién puede ocurrir que encuentres a la pers...\nN\n\n\n7\nEl asesino de la mujer que apareció en Asparre...\nP",
+    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nhttps://t.co/rvM44ttEP3 @drexlerjorge Pedro Na...\nN\n\n\n1\nColima: buscan en Manzanillo a los sujetos que...\nP\n\n\n2\n@sthefannyog De que juguetería te escaparate m...\nN\n\n\n3\nAunque Usted no lo Crea | Detenido en Margarit...\nP\n\n\n4\nEn vivo por Durazno TV y https://t.co/uP5ifxMZ...\nN\n\n\n5\nUna familia es asesinada dentro de su casa en ...\nP\n\n\n6\nÚnete a la campaña @HeroesxlaVidaMx de @Fund_C...\nN\n\n\n7\nCapturado santero sádico en Portuguesa: abusab...\nP",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -490,21 +490,21 @@
     ]
   },
   {
-    "objectID": "TextClassification/educacion.html#representación-de-texto-1",
-    "href": "TextClassification/educacion.html#representación-de-texto-1",
+    "objectID": "TextClassification/educacion.html#representación-de-texto-2",
+    "href": "TextClassification/educacion.html#representación-de-texto-2",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
-    "section": "Representación de Texto",
-    "text": "Representación de Texto\n\n\n\n\n\nBolsa de Palabras / Limitantes\n\n\n\nNo existe similitud entre palabras.\nSe pierde el orden.\nVector disperso.\n\n\n\n\n\n\n\n\nEmbeddings estáticos\n\n\n\nHipótesis distribucional.\nSimilitud entre palabras.\nVector denso.\n\n\n\n\n\n\n\n\n\nEmbeddings estáticos / limitantes\n\n\n\nSe pierde el orden.\nIndependientes del contexto.",
+    "section": "Representación de Texto (2)",
+    "text": "Representación de Texto (2)\n\n\n\n\n\nBolsa de Palabras / Limitantes\n\n\n\nNo existe similitud entre palabras.\nSe pierde el orden.\nVector disperso.\n\n\n\n\n\n\n\n\nEmbeddings estáticos\n\n\n\nHipótesis distribucional.\nSimilitud entre palabras.\nVector denso.\n\n\n\n\n\n\n\n\n\nEmbeddings estáticos / limitantes\n\n\n\nSe pierde el orden.\nIndependientes del contexto.",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
   },
   {
-    "objectID": "TextClassification/educacion.html#transformers",
-    "href": "TextClassification/educacion.html#transformers",
+    "objectID": "TextClassification/educacion.html#representaciones-con-contexto",
+    "href": "TextClassification/educacion.html#representaciones-con-contexto",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
-    "section": "Transformers",
-    "text": "Transformers\n(Vaswani et al. 2017)",
+    "section": "Representaciones con Contexto",
+    "text": "Representaciones con Contexto\n\n\n\n\n\nAttention is All you Need\n\n\n(Vaswani et al. 2017)\n\n\n\n\n\n\n\n\nBERT\n\n\n(Devlin et al. 2019)",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -514,7 +514,7 @@
     "href": "TextClassification/educacion.html#entrenamiento-de-transformers",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Entrenamiento de Transformers",
-    "text": "Entrenamiento de Transformers\n\n\n\nAprendizaje auto-supervisado\n\n\nProceso automático que transforma un conjunto no etiquetado en uno etiquetado.\n\n\n\n\n\n\n\nCloze test\n\n\n(Bormuth 1968)\nMéxico exporta XXX que se XXX en Michoacán.",
+    "text": "Entrenamiento de Transformers\n\n\n\nAprendizaje auto-supervisado\n\n\nProceso automático que transforma un conjunto no etiquetado en uno etiquetado.\n\n\n\n\n\n\n\nCloze test\n\n\n(Bormuth 1968)\nMéxico exporta ___ que se ___ en Michoacán.\n\n\n\n\n\n\n\n\nPredicción de la siguiente frase\n\n\nClasificación binaría.",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -535,6 +535,66 @@
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Fundamentos",
     "text": "Fundamentos\n\n\n\n\n\nModelo del Lenguaje\n\n\nEs un modelo probabilístico de un lenguaje natural que asigna probabilidades a una secuencia de palabras.\n\n\n\n\n\n\n\nMichoacán es el mayor productor de\n\n\n\ncamarones\naguacate\n\n\n\n\n\n\n\n\n\n\nModelo \\(n\\)-gram\n\n\n\\(P(w_i | w_1, \\ldots, w_{i-1}) = \\frac{C(w_1, \\ldots, w_{i-1}, w_i)}{C(w_1, \\ldots, w_{i-1})}\\)\n\n\n\n\n\n\n\nModelo general\n\n\n\\(P(w_i | w_1, \\ldots, w_{i-1}) = f(w_1, \\ldots, w_{i-1})\\)",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#redactar",
+    "href": "TextClassification/educacion.html#redactar",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Redactar",
+    "text": "Redactar\nhttps://grammarly.com",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#redactar-2",
+    "href": "TextClassification/educacion.html#redactar-2",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Redactar (2)",
+    "text": "Redactar (2)\nhttps://www.whitesmoke.com",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#calificar",
+    "href": "TextClassification/educacion.html#calificar",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Calificar",
+    "text": "Calificar\nhttps://www.gradescope.com",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#aprender-idiomas",
+    "href": "TextClassification/educacion.html#aprender-idiomas",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Aprender Idiomas",
+    "text": "Aprender Idiomas\n\n\n\n\n\nhttps://www.ets.org/erater.html\n\n\n\n\n\n\n\n\n\n\nhttps://www.ets.org/speechrater.html\n\n\n\n\n\n\n\n\n\n\n\nhttps://duolingo.com",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#identificación-de-plagio",
+    "href": "TextClassification/educacion.html#identificación-de-plagio",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Identificación de Plagio",
+    "text": "Identificación de Plagio\n\n\n\n\n\nAplicaciones\n\n\n\niThenticate\nSimilarity\nGrammarly\nWhiteSmoke\n\n\n\n\n\n\n\n\nhttps://latam.turnitin.com",
+    "crumbs": [
+      "Impacto del Procesamiento de Lenguaje Natural en la Educación"
+    ]
+  },
+  {
+    "objectID": "TextClassification/educacion.html#modelos-grandes-de-lenguaje",
+    "href": "TextClassification/educacion.html#modelos-grandes-de-lenguaje",
+    "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
+    "section": "Modelos Grandes de Lenguaje",
+    "text": "Modelos Grandes de Lenguaje\n\n\n\n\n\nhttps://gemini.google.com\n\n\n\n\n\n\n\n\n\n\nhttps://llama.meta.com",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -956,7 +1016,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@FunesCartagena Funes asesino, matates con tu ...\n0\n\n\n1\nMuere hombre atropellado en carretera a Chapal...\n1\n\n\n2\nVigilados . Por @jmanatol https://t.co/oRJAodMjKc\n0\n\n\n3\nExpulsado el hombre que atacó a un policía y c...\n1\n\n\n4\n@dloisga Igual que en Madrid, han quitado un c...\n0\n\n\n5\nTras una requisa en el barrio el retiro de la ...\n1\n\n\n6\nTipo 2 de la mañana del día de hoy volvíamos c...\n0\n\n\n7\nCuatro detenidos por presunto hurto de ganado ...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nsu madre la golpeaba según ella contaba, y sie...\n0\n\n\n1\nAsesinan por celos a mujer en el interior de u...\n1\n\n\n2\n@Prensa_Ngabe @ZulayRL Cuando veo estas campañ...\n0\n\n\n3\nLa policía boliviana arrestó a 9 venezolanos c...\n1\n\n\n4\n@BCienfuegos_ Yo no sé si minimiza el reclamo,...\n0\n\n\n5\nDetienen a padre e hijo por vender marihuana e...\n1\n\n\n6\nRusia bombardeo Lviv y Kiev hay fallecidos (Re...\n0\n\n\n7\nInseguridad: robaron y destrozaron una escuela...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -1096,7 +1156,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(61, np.float64(7.906890595608518)),\n (60, np.float64(5.8479969065549495)),\n (2, np.float64(1.3269461696539864)),\n (31, np.float64(2.5277907564370796))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(61, np.float64(7.906890595608518)),\n (55, np.float64(5.8479969065549495)),\n (37, np.float64(1.3269461696539864)),\n (34, np.float64(2.5277907564370796))]",
     "crumbs": [
       "Text Classification"
     ]
@@ -1106,7 +1166,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f0269f19ab0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f85c686fa90&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
     "crumbs": [
       "Text Classification"
     ]
@@ -1296,7 +1356,7 @@
     "href": "TextClassification/poornima.html#training-set",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nel infierno es para esos médicos que ROBAN a l...\n0\n\n\n1\nLuis Chocobar, efectivo de la Policía Local de...\n1\n\n\n2\nCitados a declarar ocho profesores de La Seu d...\n0\n\n\n3\nJim Carrey, acusado de haber dado a su ex las ...\n1\n\n\n4\nLA CONTROVERSIAL LLEGADA DEL HOMBRE A LA LUNA ...\n0\n\n\n5\nAl llegar, encuentran el cuerpo de la niña qui...\n1\n\n\n6\nGendarmería busca a jóvenes desaparecidos en V...\n0\n\n\n7\nPrisión permanente para estos asesinos salvaje...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nlas gringas me generan violencia\n0\n\n\n1\n#Video Asesinan a aficionado del América de Ca...\n1\n\n\n2\nCSJN: Juezas Argentinas piden que el lugar de ...\n0\n\n\n3\n🚨🚔🚑#Sucesos #SJR Vecinos detienen a sujeto por...\n1\n\n\n4\nPolicía realizó órdenes de captura, decomiso d...\n0\n\n\n5\nLa dura acusación de la dueña de la perra que ...\n1\n\n\n6\n@NattiNatasha - Amantes de Una Noche Feat. @Ba...\n0\n\n\n7\n#Policiaca\\n\\nHallan cuerpo calcinado en Lomas...\n1",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1436,7 +1496,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-2",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(54, np.float64(7.906890595608518)),\n (60, np.float64(5.8479969065549495)),\n (15, np.float64(1.3269461696539864)),\n (3, np.float64(2.5277907564370796))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(51, np.float64(7.906890595608518)),\n (59, np.float64(5.8479969065549495)),\n (21, np.float64(1.3269461696539864)),\n (1, np.float64(2.5277907564370796))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -1446,7 +1506,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-3",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f34ce5dab30&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fde6ae27a60&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3535, np.float64(0.08495635021337841)),\n (5135, np.float64(0.0766897986795882)),\n (6598, np.float64(0.3526199879358128)),\n (3350, np.float64(0.19654493631439243))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
