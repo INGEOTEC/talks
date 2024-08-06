@@ -19,7 +19,18 @@ bibliography: references.bib
 
 ## Aguascalientes, México
 
-![](aguascalientes_edo.jpg){width=200}
+:::: {.columns} 
+::: {.column width="50%"} 
+![](aguascalientes_edo.jpg)
+:::
+
+::: {.fragment .callout-note icon="false" .column width="50%"} 
+### INFOTEC 
+
+Centro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC.
+Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.
+:::
+::::
 
 # Introducción 
 
@@ -90,41 +101,35 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 * Sistemas de recomendación - Aprendizaje personalizado. 
 :::
 
-::: {.fragment .callout-tip icon="false"}
-### Foros importantes (index H)
 
-* International Journal of Artificial Intelligence in Education.
-* International Conference of Artificial Intelligence in Education.
-* Computers & Education.
-:::
 
 ## Ambiente Educativo Inteligente 
 
 [@zatarain2023multimodal]
 
-:::: {.columns}
-::: {.fragment .callout-note icon="false" .column}
+:::: {.columns} 
+::: {.fragment .callout-note icon="false" .column} 
 ### Ambiente Educativo
 
 Enfoque educativo, contexto cultural y espacio donde el proceso de enseñanza
 aprendizaje se realiza.
 :::
 
-::: {.fragment .callout-note icon="false" .column}
+::: {.fragment .callout-note icon="false" .column} 
 ### Sistema de Tutoría Inteligente
 
 Proceso de aprendizaje que usa algún tipo de inteligencia para guiar los estudiantes.
 :::
 ::::
 
-:::: {.columns}
-::: {.fragment .callout-note icon="false" .column}
+:::: {.columns} 
+::: {.fragment .callout-note icon="false" .column} 
 ### Ambiente Educativo Inteligente (AEI)
 
 Combinación de un ambiente educativo con un sistema de tutoría inteligente.
 :::
 
-::: {.fragment .callout-note icon="false" .column}
+::: {.fragment .callout-note icon="false" .column} 
 ### Ambiente Educativo Afectivo
 
 AEI con un modelo cognitivo usando medición de estados afectivos como pueden ser rasgos de personalidad y emociones.
@@ -142,16 +147,16 @@ AEI con un modelo cognitivo usando medición de estados afectivos como pueden se
 ![](img/FractionLearning.png)
 ::: 
 
-::: {.fragment .callout-tip icon="false" .column}
+::: {.fragment .callout-tip icon="false" .column} 
 ### Ambiente Educativo Afectivo 
 
-* Modelos de personalidad
-* Voz a texto
-* Estilos de aprendizaje
-  * Verbal-secuencial
-  * Verbal-global
-  * Visual-secuencial
-  * Visual-global
+* Modelos de personalidad.
+* Voz a texto.
+* Estilos de aprendizaje.
+  * Verbal-secuencial.
+  * Verbal-global.
+  * Visual-secuencial.
+  * Visual-global.
 ::: 
 :::: 
 
@@ -160,8 +165,228 @@ AEI con un modelo cognitivo usando medición de estados afectivos como pueden se
 
 ![](img/FractionLearning2.png)
 
+## FractionLearning (3) 
 
-# Conclusiones
+:::: {.columns} 
+::: {.callout-tip icon="false" .column} 
+### Modelo de Personalidad 
+
+* Amabilidad.
+* Apertura.
+* Neuroticismo.
+* Responsabilidad.
+* Sociabilidad.
+:::
+
+::: {.fragment .callout-note icon="false" .column} 
+### Categorización de Texto 
+
+Desarrollar algoritmos capaces de identificar la categoría a la que un documento (texto) de un conjunto previamente definido. 
+:::
+::::
+
+::: {.fragment .callout-tip icon="false"} 
+### Ingredientes 
+* Conjunto de entrenamiento.
+* Representación de texto.
+* Clasificador / Regresor.
+:::
+
+
+## Conjunto de entrenamiento 
+[https://ingeotec.github.io/Delitos]() 
+```{python} 
+#| include: false
+
+from EvoMSA.utils import Download
+from microtc.utils import tweet_iterator
+from os.path import isdir, isfile
+from random import shuffle
+import pandas as pd
+if not isfile('delitos.zip'):
+  Download('https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip',
+           'delitos.zip')
+if not isdir('delitos'):
+  !unzip -Pingeotec delitos.zip
+''
+```
+
+::: {style="font-size: 70%; text-align: center;"} 
+```{python} 
+#| echo: false
+
+_ = list(tweet_iterator('delitos/delitos_ingeotec_Es_train.json'))
+shuffle(_)
+neg = [x for x in _ if x['klass']==0]
+pos = [x for x in _ if x['klass']==1]
+D = []
+for a, b in zip(neg, pos):
+  D.append(dict(texto=a['text'], etiqueta='N'))
+  D.append(dict(texto=b['text'], etiqueta='P'))
+df = pd.DataFrame(D)
+df[['texto', 'etiqueta']].head(n=8)
+```
+:::
+
+## Clasificador 
+
+```{python} 
+#| echo: false 
+
+from sklearn.svm import LinearSVC
+from sklearn import decomposition
+from sklearn.datasets import load_iris
+import plotly.express as px
+import plotly.graph_objects as go
+D, y = load_iris(return_X_y=True)
+pca = decomposition.PCA(n_components=2).fit(D)
+Dn = pca.transform(D)
+df = pd.DataFrame(Dn, columns=['x', 'y'])
+df['Class'] = y.astype(str)
+df['Class'] = ['P' if i == 0 else 'N' for i in y]
+m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
+w_1, w_2 = m.coef_[0]
+w_0 = m.intercept_[0]
+g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
+       for x, y in zip(Dn[:, 0], (-w_0 - w_1 * Dn[:, 0]) / w_2)]
+line = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
+                  line=dict(color='darkgrey'),
+                  showlegend=False)
+fig = px.scatter(df, color='Class', x='x', y='y', height=400)
+
+fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
+                  xaxis={'visible': True, 'showticklabels': False},
+                  xaxis_title=None, yaxis_title=None)
+fig.add_trace(line)
+fig.show()
+```
+
+## Representación de Texto 
+
+:::: {.columns} 
+::: {.callout-tip icon="false" .column} 
+### Bolsa de palabras 
+
+* Asociar cada palabra a un identificador.
+  * de $\rightarrow$ 1. 
+  * que $\rightarrow$ 2. 
+  * buenos $\rightarrow$ 216. 
+  * dias $\rightarrow$ 101. 
+::: 
+
+::: {.column} 
+::: {.fragment .callout-tip icon="false"} 
+### buenos días 
+
+$(215, 100)$
+:::
+
+::: {.fragment .callout-tip icon="false"} 
+### La bolsa no tiene orden 
+
+$(100, 215)$
+:::
+:::
+::::
+
+:::: {.columns} 
+::: {.fragment .callout-tip icon="false" .column} 
+### Modelo lineal 
+
+$y = \sigma( \sum_{i \in (100, 215)} w_i x_i + w_0)$
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### Parámetros 
+
+$x_i$ TFIDF / $w_i$ valor estimado 
+:::
+::::
+
+## Representación de Texto 
+
+:::: {.columns} 
+::: {.fragment .callout-tip icon="false" .column}
+### Bolsa de Palabras / Limitantes 
+
+* No existe similitud entre palabras.
+* Se pierde el orden.
+* Vector disperso.
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### Embeddings estáticos
+
+* Hipótesis distribucional.
+* Similitud entre palabras.
+* Vector denso.
+:::
+::::
+
+::: {.fragment .callout-tip icon="false"}
+### Embeddings estáticos / limitantes
+
+* Se pierde el orden.
+* Independientes del contexto.
+:::
+
+
+
+
+## Categorización de Texto 
+
+:::: {.columns} 
+::: {.callout-tip icon="false" .column} 
+### Identificación
+
+* Personalidad.
+* Emociones.
+* Polaridad.
+* Agresividad.
+:::
+::: {.callout-tip icon="false" .column}
+### Características 
+
+* Problemas de clasificación.
+* No hay comunicación.
+* Específico.
+:::
+::::
+
+# Modelo de Lenguaje 
+
+## Fundamentos
+
+:::: {.columns}
+::: {.callout-note icon="false" .column}
+### Modelo del Lenguaje 
+
+Es un modelo probabilístico de un lenguaje natural que asigna probabilidades a una secuencia de palabras.
+:::
+
+::: {.fragment .callout-tip icon="false" .column} 
+### Michoacán es el mayor productor de 
+
+* camarones
+* aguacate
+::: 
+::::
+
+:::: {.columns} 
+::: {.fragment .callout-note icon="false" .column} 
+### Modelo $n$-gram 
+
+$P(w_i | w_1, \ldots, w_{i-1}) = \frac{C(w_1, \ldots, w_{i-1}, w_i)}{C(w_1, \ldots, w_{i-1})}$
+:::
+
+::: {.fragment .callout-tip icon="false" .column} 
+### Modelo general 
+
+$P(w_i | w_1, \ldots, w_{i-1}) = f(w_1, \ldots, w_{i-1})$
+:::
+::::
+
+# Conclusiones 
 
 ## Retos
 
@@ -171,6 +396,14 @@ AEI con un modelo cognitivo usando medición de estados afectivos como pueden se
 * Privacidad - Aprendizaje personalizado.
 * Incentivar el uso de IA por los docentes.
 * Nuevos modelos de Aprendizaje Computacional.
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Foros importantes (index H) 
+
+* International Journal of Artificial Intelligence in Education.
+* International Conference of Artificial Intelligence in Education.
+* Computers & Education.
 :::
 
 # Referencias
