@@ -118,7 +118,7 @@ aprendizaje se realiza.
 ::: {.fragment .callout-note icon="false" .column} 
 ### Sistema de Tutoría Inteligente
 
-Proceso de aprendizaje que usa algún tipo de inteligencia para guiar los estudiantes.
+Proceso de aprendizaje que usa algún tipo de inteligencia para guiar a los estudiantes.
 :::
 ::::
 
@@ -181,7 +181,7 @@ AEI con un modelo cognitivo usando medición de estados afectivos como pueden se
 ::: {.fragment .callout-note icon="false" .column} 
 ### Categorización de Texto 
 
-Desarrollar algoritmos capaces de identificar la categoría a la que un documento (texto) de un conjunto previamente definido. 
+Desarrollar algoritmos que identifiquen la categoría de un documento (frase) de un conjunto de clases previamente definido. 
 :::
 ::::
 
