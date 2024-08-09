@@ -278,13 +278,13 @@ fig.show()
 ::: {.fragment .callout-tip icon="false"} 
 ### buenos días 
 
-$(215, 100)$
+$(216, 101)$
 :::
 
 ::: {.fragment .callout-tip icon="false"} 
 ### La bolsa no tiene orden 
 
-$(100, 215)$
+$(101, 216)$
 :::
 :::
 ::::
