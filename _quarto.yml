@@ -48,6 +48,10 @@ website:
       title: Impacto de PLN en la Educación
       contents:
         - TextClassification/educacion.qmd
+    - id: IAeducacion
+      title: Introducción a la IA en la Educación
+      contents:
+        - TextClassification/ia_educacion.qmd        
 
 format:
   html:

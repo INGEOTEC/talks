@@ -1,0 +1,532 @@
+---
+lang: es
+title: "Usos y Tendencias de la Inteligencia Artificial (IA) en la Educación"
+# subtitle: "Poornima Institute of Engineering & Technology"
+author:
+    - name: "INFOTEC"
+
+format:
+  revealjs:
+    theme: simple
+    chalkboard: true
+    footer: <https://mgraffg.github.io>
+bibliography: references.bib    
+---
+
+# INFOTEC
+
+## Aguascalientes, México
+
+:::: {.columns} 
+::: {.column width="50%"} 
+![](aguascalientes_edo.jpg)
+:::
+
+::: {.fragment .callout-note icon="false" .column width="50%"} 
+### INFOTEC 
+
+Centro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC.
+Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.
+:::
+::::
+
+# Introducción 
+
+## Definiciones 
+
+:::: {.columns}
+::: {.callout-note icon="false" .column} 
+### Inteligencia Artificial (IA)
+
+Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.
+:::
+
+::: {.fragment .callout-note icon="false" .column}
+### Aprendizaje Computacional  
+
+Aprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados. 
+:::
+::::
+
+::: {.fragment .callout-note icon="false"} 
+### Procesamiento de Lenguaje Natural
+
+Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.
+:::
+
+## Percepción de Inteligencia Artificial (IA)
+
+:::: {.columns}
+
+::: {.callout-tip icon="false" .column width=50%}
+### Así la vemos
+
+![](img/robot-futuro.jpg){height=253}
+:::
+
+::: {.fragment .callout-tip icon="false" .column width=50%}
+### Así está
+
+![](img/robot-juguete.png){fig-align="left"}
+:::
+::::
+
+# IA en Educación
+
+## Tareas
+
+::: {.callout-tip icon="false"}
+### @chen2020artificial
+
+* Calificar y dar retroalimentación.
+* Creación de planes de aprendizaje personalizados.
+* Predecir deserción.
+* Estilo de aprendizaje basado en información personal.
+* Descubrir dificultades de los estudiantes.
+* Selección de cursos.
+:::
+
+## Tendencias
+
+::: {.callout-tip icon="false"}
+### @chen2022two
+
+* Tutores Inteligentes - educación especial, infancia.
+* Procesamiento de Lenguaje Natural - Enseñanza del lenguaje.
+* Minería de datos - Predicción de rendimiento.
+* Redes neuronales - Evaluación de enseñanza.
+* Computación afectiva - Detección de emociones.
+* Sistemas de recomendación - Aprendizaje personalizado. 
+:::
+
+
+
+## Ambiente Educativo Inteligente 
+
+[@zatarain2023multimodal]
+
+:::: {.columns} 
+::: {.callout-note icon="false" .column} 
+### Ambiente Educativo
+
+Enfoque educativo, contexto cultural y espacio donde el proceso de enseñanza
+aprendizaje se realiza.
+:::
+
+::: {.fragment .callout-note icon="false" .column} 
+### Sistema de Tutoría Inteligente
+
+Proceso de aprendizaje que usa algún tipo de inteligencia para guiar a los estudiantes.
+:::
+::::
+
+:::: {.columns} 
+::: {.fragment .callout-note icon="false" .column} 
+### Ambiente Educativo Inteligente (AEI)
+
+Combinación de un ambiente educativo con un sistema de tutoría inteligente.
+:::
+
+::: {.fragment .callout-note icon="false" .column} 
+### Ambiente Educativo Afectivo
+
+AEI con un modelo cognitivo usando medición de estados afectivos como pueden ser rasgos de personalidad y emociones.
+:::
+::::
+
+
+# Procesamiento de Lenguaje Natural
+
+## FractionLearning 
+[https://fractionlearning-env.web.app/form]()
+
+:::: {.columns} 
+::: {.column} 
+![](img/FractionLearning.png)
+::: 
+
+::: {.fragment .callout-tip icon="false" .column} 
+### Ambiente Educativo Afectivo 
+
+* Modelos de personalidad.
+* Voz a texto.
+* Estilos de aprendizaje.
+  * Verbal-secuencial.
+  * Verbal-global.
+  * Visual-secuencial.
+  * Visual-global.
+::: 
+:::: 
+
+## FractionLearning (2) 
+[https://fractionlearning-env.web.app/form]()
+
+![](img/FractionLearning2.png)
+
+## FractionLearning (3) 
+
+:::: {.columns} 
+::: {.callout-tip icon="false" .column} 
+### Modelo de Personalidad 
+
+* Amabilidad.
+* Apertura.
+* Neuroticismo.
+* Responsabilidad.
+* Sociabilidad.
+:::
+
+::: {.fragment .callout-note icon="false" .column} 
+### Categorización de Texto 
+
+Desarrollar algoritmos que identifiquen la categoría de un documento (frase) de un conjunto de clases previamente definido. 
+:::
+::::
+
+::: {.fragment .callout-tip icon="false"} 
+### Ingredientes 
+* Conjunto de entrenamiento.
+* Representación de texto.
+* Clasificador / Regresor.
+:::
+
+
+## Conjunto de entrenamiento 
+[https://ingeotec.github.io/Delitos]() 
+```{python} 
+#| include: false
+
+from EvoMSA.utils import Download
+from microtc.utils import tweet_iterator
+from os.path import isdir, isfile
+from random import shuffle
+import pandas as pd
+if not isfile('delitos.zip'):
+  Download('https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip',
+           'delitos.zip')
+if not isdir('delitos'):
+  !unzip -Pingeotec delitos.zip
+''
+```
+
+::: {style="font-size: 70%; text-align: center;"} 
+```{python} 
+#| echo: false
+
+_ = list(tweet_iterator('delitos/delitos_ingeotec_Es_train.json'))
+shuffle(_)
+neg = [x for x in _ if x['klass']==0]
+pos = [x for x in _ if x['klass']==1]
+D = []
+for a, b in zip(neg, pos):
+  D.append(dict(texto=a['text'], etiqueta='N'))
+  D.append(dict(texto=b['text'], etiqueta='P'))
+df = pd.DataFrame(D)
+df[['texto', 'etiqueta']].head(n=8)
+```
+:::
+
+## Clasificador 
+
+```{python} 
+#| echo: false 
+
+from sklearn.svm import LinearSVC
+from sklearn import decomposition
+from sklearn.datasets import load_iris
+import plotly.express as px
+import plotly.graph_objects as go
+D, y = load_iris(return_X_y=True)
+pca = decomposition.PCA(n_components=2).fit(D)
+Dn = pca.transform(D)
+df = pd.DataFrame(Dn, columns=['x', 'y'])
+df['Class'] = y.astype(str)
+df['Class'] = ['P' if i == 0 else 'N' for i in y]
+m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
+w_1, w_2 = m.coef_[0]
+w_0 = m.intercept_[0]
+g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
+       for x, y in zip(Dn[:, 0], (-w_0 - w_1 * Dn[:, 0]) / w_2)]
+line = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
+                  line=dict(color='darkgrey'),
+                  showlegend=False)
+fig = px.scatter(df, color='Class', x='x', y='y', height=400)
+
+fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
+                  xaxis={'visible': True, 'showticklabels': False},
+                  xaxis_title=None, yaxis_title=None)
+fig.add_trace(line)
+fig.show()
+```
+
+## Representación de Texto 
+
+:::: {.columns} 
+::: {.callout-tip icon="false" .column} 
+### Bolsa de palabras 
+
+* Asociar cada palabra a un identificador.
+  * de $\rightarrow$ 1. 
+  * que $\rightarrow$ 2. 
+  * buenos $\rightarrow$ 216. 
+  * dias $\rightarrow$ 101. 
+::: 
+
+::: {.column} 
+::: {.fragment .callout-tip icon="false"} 
+### buenos días 
+
+$(216, 101)$
+:::
+
+::: {.fragment .callout-tip icon="false"} 
+### La bolsa no tiene orden 
+
+$(101, 216)$
+:::
+:::
+::::
+
+:::: {.columns} 
+::: {.fragment .callout-tip icon="false" .column} 
+### Modelo lineal 
+
+$y = \sigma( \sum_{i \in (100, 215)} w_i x_i + w_0)$
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### Parámetros 
+
+$x_i$ TFIDF / $w_i$ valor estimado 
+:::
+::::
+
+## Representación de Texto (2) 
+
+:::: {.columns} 
+::: {.callout-tip icon="false" .column}
+### Bolsa de Palabras / Limitantes 
+
+* No existe similitud entre palabras.
+* Se pierde el orden.
+* Vector disperso.
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### Embeddings estáticos
+
+* Hipótesis distribucional.
+* Similitud entre palabras.
+* Vector denso.
+:::
+::::
+
+::: {.fragment .callout-tip icon="false"}
+### Embeddings estáticos / limitantes
+
+* Se pierde el orden.
+* Independientes del contexto.
+:::
+
+## Representaciones con Contexto
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Attention is All you Need
+[@NIPS2017_3f5ee243]
+
+![](img/transformer.png)
+:::
+::: {.fragment .callout-tip icon="false" .column}
+### BERT
+[@devlin-etal-2019-bert]
+
+![](img/bert.png)
+:::
+::::
+
+## Entrenamiento de Transformers 
+
+::: {.callout-note icon="false"}
+#### Aprendizaje auto-supervisado 
+
+Proceso automático que transforma un conjunto no etiquetado en uno etiquetado.
+:::
+
+::: {.fragment .callout-tip icon="false"}
+#### Cloze test  
+[@bormuth1968cloze]
+
+México exporta ___ que se ___ en Michoacán.
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Predicción de la siguiente frase 
+
+Clasificación binaría.
+:::
+
+
+## Categorización de Texto 
+
+:::: {.columns} 
+::: {.callout-tip icon="false" .column} 
+### Identificación
+
+* Personalidad.
+* Emociones.
+* Polaridad.
+* Agresividad.
+:::
+::: {.fragment .callout-tip icon="false" .column}
+### Características 
+
+* Problemas de clasificación.
+* No hay comunicación.
+* Específico.
+:::
+::::
+
+# Modelo de Lenguaje 
+
+## Fundamentos
+
+:::: {.columns}
+::: {.callout-note icon="false" .column}
+### Modelo del Lenguaje 
+
+Es un modelo probabilístico de un lenguaje natural que asigna probabilidades a una secuencia de palabras.
+:::
+
+::: {.fragment .callout-tip icon="false" .column} 
+### Michoacán es el mayor productor de 
+
+* camarones
+* aguacate
+::: 
+::::
+
+:::: {.columns} 
+::: {.fragment .callout-note icon="false" .column} 
+### Modelo $n$-gram 
+
+$P(w_i | w_1, \ldots, w_{i-1}) = \frac{C(w_1, \ldots, w_{i-1}, w_i)}{C(w_1, \ldots, w_{i-1})}$
+:::
+
+::: {.fragment .callout-tip icon="false" .column} 
+### Modelo general 
+
+$P(w_i | w_1, \ldots, w_{i-1}) = f(w_1, \ldots, w_{i-1})$
+:::
+::::
+
+## Redactar 
+[https://grammarly.com]()
+![](img/grammarly.png)
+
+## Redactar (2) 
+[https://www.whitesmoke.com]()
+![](img/whitesmoke.png)
+
+## Calificar 
+[https://www.gradescope.com]()
+![](img/gradescope.png)
+
+## Aprender Idiomas 
+
+:::: {.columns} 
+::: {.column .callout-tip icon="false"}
+### [https://www.ets.org/erater.html]()
+
+![](img/erater.png)
+:::
+
+::: {.column .callout-tip icon="false" .fragment}
+### [https://www.ets.org/speechrater.html]() 
+
+![](img/speechrater.png)
+:::
+::::
+
+::: {.callout-tip icon="false" .fragment} 
+### [https://duolingo.com]() 
+
+![](img/duolingo.png)
+:::
+
+## Identificación de Plagio
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Aplicaciones 
+
+* [iThenticate](https://latam.turnitin.com/products/ithenticate)
+* [Similarity](https://latam.turnitin.com/products/similarity/)
+* [Grammarly](https://grammarly.com)
+* [WhiteSmoke](https://www.whitesmoke.com)
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### [https://latam.turnitin.com]() 
+
+![](img/turnitin.png)
+:::
+::::
+
+## Modelos Grandes de Lenguaje 
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### [https://gemini.google.com]() 
+
+![](img/gemini.png)
+:::
+::: {.fragment .callout-tip icon="false" .column}
+### [https://llama.meta.com]() 
+
+![](img/Llama.png){height="600"}
+:::
+::::
+
+# Conclusiones 
+
+::: {.callout-tip icon="false"}
+### Definiciones 
+
+* Inteligencia Artificial
+* Aprendizaje Computacional
+* Procesamiento de Lenguaje Natural
+:::
+
+::: {.callout-tip icon="false"}
+### Aplicaciones 
+
+* Clasificación de texto 
+* Comprensión  
+* Generativas 
+:::
+
+## Retos
+
+::: {.callout-tip icon="false"}
+### @chen2022two
+
+* Privacidad - Aprendizaje personalizado.
+* Incentivar el uso de IA por los docentes.
+* Nuevos modelos de Aprendizaje Computacional.
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Foros importantes (index H) 
+
+* International Journal of Artificial Intelligence in Education.
+* International Conference of Artificial Intelligence in Education.
+* Computers & Education.
+:::
+
+# Referencias
+
+::: {#refs}
+:::
+
+# ¡Gracias! 
