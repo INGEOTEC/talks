@@ -18,6 +18,7 @@ website:
           - sidebar:general
           - sidebar:poornima
           - sidebar:educacion
+          - sidebar:ropec2024
 
   sidebar:
     - id: RestMex2023f
@@ -48,8 +49,8 @@ website:
       title: Impacto de PLN en la Educación
       contents:
         - TextClassification/educacion.qmd
-    - id: ROPEC2024
-      title: Is Traditional Machine Learning Useless Given the Boom of Deep Learning Approaches?
+    - id: ropec2024
+      title: Is Traditional Machine Learning Useless?
       contents:
         - TextClassification/ropec2024.qmd        
 
