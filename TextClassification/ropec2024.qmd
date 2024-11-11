@@ -1,0 +1,478 @@
+---
+lang: es
+title: "Is Traditional Machine Learning Useless?"
+subtitle: "Given the Boom of Deep Learning Approaches"
+author:
+    - name: "Mario Graff"
+      url: https://mgraffg.github.io
+      affiliation: INFOTEC
+
+format:
+  revealjs:
+    theme: simple
+    chalkboard: true
+    footer: <https://mgraffg.github.io>
+bibliography: references.bib    
+---
+
+# INFOTEC
+
+## Aguascalientes, México
+
+:::: {.columns} 
+::: {.column width="50%"} 
+![](aguascalientes_edo.jpg)
+:::
+
+::: {.fragment .callout-note icon="false" .column width="50%"} 
+### INFOTEC 
+
+Centro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC.
+Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.
+:::
+::::
+
+# INGEOTEC
+
+```{python}
+#| include: false
+from EvoMSA.utils import Download
+from microtc.utils import tweet_iterator
+from microtc import TextModel
+from microtc.utils import Counter
+from microtc.params import OPTION_GROUP, OPTION_DELETE, OPTION_NONE
+from CompStats import StatisticSamples
+from scipy.stats import multivariate_normal
+
+from sklearn import decomposition, tree
+from sklearn.datasets import load_iris
+from sklearn.svm import LinearSVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import KFold
+from sklearn.metrics import recall_score
+
+from matplotlib import pylab as plt
+from wordcloud import WordCloud
+import plotly.express as px
+import plotly.graph_objects as go
+from IPython.display import Markdown
+
+import unicodedata
+from random import shuffle
+from os.path import isdir, isfile
+import re
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
+```
+
+![](../IberLEF2023/ingeotec-cuatro.png){width=200}
+
+::: {style="font-size: 70%; text-align: center;"}  
+GitHub: <https://github.com/INGEOTEC>  
+WebPage: <https://ingeotec.github.io/>
+:::
+
+
+# Introduction 
+
+## Definitions 
+
+:::: {.columns}
+::: {.callout-note icon="false" .column} 
+### Artificial Intelligence (AI)
+
+Theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.
+:::
+
+::: {.fragment .callout-note icon="false" .column}
+### Machine Learning  
+
+Machine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed. 
+:::
+::::
+
+::: {.fragment .callout-note icon="false"} 
+### Natural Language Processing (NLP)
+
+NLP is a branch of artificial intelligence (AI) that uses machine learning and other technologies to enable computers to understand, process, and manipulate human language.
+
+:::
+
+## AI Perception
+
+:::: {.columns}
+
+::: {.callout-tip icon="false" .column width=50%}
+### How we look at it
+
+![](img/robot-futuro.jpg){height=253}
+:::
+
+::: {.fragment .callout-tip icon="false" .column width=50%}
+### How I see it
+
+![](img/robot-juguete.png){fig-align="left"}
+:::
+::::
+
+# Machine Learning
+
+## Linear Classifier 
+
+```{python}
+#| echo: false
+D, y = load_iris(return_X_y=True)
+pca = decomposition.PCA(n_components=2).fit(D)
+Dn = pca.transform(D)
+df = pd.DataFrame(Dn, columns=['x', 'y'])
+
+df['Class'] = ['P' if i == 0 else 'N' for i in y]
+m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
+w_1, w_2 = m.coef_[0]
+w_0 = m.intercept_[0]
+g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
+       for x, y in zip(Dn[:, 0], (-w_0 - w_1 * Dn[:, 0]) / w_2)]
+line = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
+                  line=dict(color='darkgrey'),
+                  showlegend=False)
+fig = px.scatter(df, color='Class', x='x', y='y', height=400)
+
+fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
+                  xaxis={'visible': True, 'showticklabels': False},
+                  xaxis_title=None, yaxis_title=None)
+fig.add_trace(line)
+fig.show()
+```
+
+## Decision Tree
+
+:::: {.columns} 
+
+::: {.callout-note icon="false" .column width=50%}
+## Problem 
+
+```{python}
+#| code-fold: false
+#| warning: false
+seed = 1
+X_1 = multivariate_normal(mean=[5, 5],
+                          seed=seed,
+                          cov=[[4, 0], [0, 2]]).rvs(1000)
+X_2 = multivariate_normal(mean=[-5, -10],
+                          seed=seed,
+                          cov=[[2, 1], [1, 3]]).rvs(1000)
+X_3 = multivariate_normal(mean=[15, -6],
+                          seed=seed,
+                          cov=[[2, 3], [3, 7]]).rvs(1000)
+df = pd.DataFrame([dict(x=x, y=y, clase=1) for x, y in X_1] + \
+                  [dict(x=x, y=y, clase=2) for x, y in X_2] + \
+                  [dict(x=x, y=y, clase=3) for x, y in X_3])
+sns.relplot(data=df, kind='scatter',
+            x='x', y='y', hue='clase')
+```
+:::
+
+::: {.callout-note icon="false" .column width=50% .fragment}
+## Classifier 
+```{python}
+#| code-fold: false
+X = np.concatenate((X_1, X_2, X_3), axis=0)
+y = np.array([1] * 1000 + [2] * 1000 + [3] * 1000)
+arbol = tree.DecisionTreeClassifier(criterion='entropy').fit(X, y)
+_ = tree.plot_tree(arbol, node_ids=True,
+                   feature_names=['x', 'y'], label='root')
+```
+::: 
+::::
+
+# Natural Language Processing
+
+## Text Classification 
+
+::: {.callout-note icon="false"} 
+### Definition  
+
+The aim is the **classification** of **documents** into a fixed number of predefined categories. 
+:::
+
+::: {.callout-tip icon=false} 
+### Polarity 
+El día de mañana no podré ir con ustedes a la librería
+:::
+
+::: {.fragment style="font-size: 100%; text-align: center;"} 
+**Negative**
+:::
+
+
+## Training set 
+[https://ingeotec.github.io/Delitos]() 
+```{python} 
+#| include: false
+
+from EvoMSA.utils import Download
+from microtc.utils import tweet_iterator
+from os.path import isdir, isfile
+from random import shuffle
+import pandas as pd
+if not isfile('delitos.zip'):
+  Download('https://github.com/INGEOTEC/Delitos/releases/download/Datos/delitos.zip',
+           'delitos.zip')
+if not isdir('delitos'):
+  !unzip -Pingeotec delitos.zip
+''
+```
+
+::: {style="font-size: 70%; text-align: center;"} 
+```{python} 
+#| echo: false
+
+_ = list(tweet_iterator('delitos/delitos_ingeotec_Es_train.json'))
+shuffle(_)
+neg = [x for x in _ if x['klass']==0]
+pos = [x for x in _ if x['klass']==1]
+D = []
+for a, b in zip(neg, pos):
+  D.append(dict(texto=a['text'], etiqueta='N'))
+  D.append(dict(texto=b['text'], etiqueta='P'))
+df = pd.DataFrame(D)
+df[['texto', 'etiqueta']].head(n=8)
+```
+:::
+
+## Linear Classifier 
+
+```{python} 
+#| echo: false 
+
+from sklearn.svm import LinearSVC
+from sklearn import decomposition
+from sklearn.datasets import load_iris
+import plotly.express as px
+import plotly.graph_objects as go
+D, y = load_iris(return_X_y=True)
+pca = decomposition.PCA(n_components=2).fit(D)
+Dn = pca.transform(D)
+df = pd.DataFrame(Dn, columns=['x', 'y'])
+df['Class'] = y.astype(str)
+df['Class'] = ['P' if i == 0 else 'N' for i in y]
+m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
+w_1, w_2 = m.coef_[0]
+w_0 = m.intercept_[0]
+g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
+       for x, y in zip(Dn[:, 0], (-w_0 - w_1 * Dn[:, 0]) / w_2)]
+line = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
+                  line=dict(color='darkgrey'),
+                  showlegend=False)
+fig = px.scatter(df, color='Class', x='x', y='y', height=400)
+
+fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
+                  xaxis={'visible': True, 'showticklabels': False},
+                  xaxis_title=None, yaxis_title=None)
+fig.add_trace(line)
+fig.show()
+```
+
+## Text Representation 
+
+::: {.callout-tip icon="false"}
+### Bag of Words 
+
+![](img/bow_simple.png){height=253}
+:::
+
+## Text Representation (2)
+
+:::: {.columns}
+
+::: {.callout-tip icon="false" .column}
+### Document / TFIDF
+
+![](img/bow_m.jpeg){height=400}
+:::
+
+::: {.column}
+::: {.callout-tip icon="false" .fragment}
+### Segmentación 
+```{python} 
+#| echo: true
+
+from encexp.text_repr import SeqTM
+seq = SeqTM()
+seq.tokenize('Es un placer estar con ustedes')
+```
+:::
+
+::: {.callout-tip icon="false" .fragment}
+### Representación
+```{python} 
+#| echo: true
+
+from encexp.text_repr import SeqTM
+seq['Es un placer estar con ustedes']
+```
+:::
+::: 
+::::
+
+## Text Representation (3) 
+
+:::: {.columns}
+
+::: {.column}
+::: {.callout-tip icon="false"}
+### Associate token $t$
+$$
+\mathbf{v_t} \in \mathbb R^d
+$$
+:::
+
+::: {.callout-tip icon="false" .fragment}
+### Bag of words
+$$
+\mathbf x = \frac{\sum_t \mathbf{v_t}}{\lVert \sum_t \mathbf{v_t} \rVert}
+$$ 
+:::
+:::
+
+::: {.column}
+::: {.callout-tip icon="false" .fragment}
+### Orthogonal
+$$
+\forall_{i \neq j} \mathbf{v_i} \cdot \mathbf{v_j} = 0
+$$
+:::
+
+::: {.callout-tip icon="false" .fragment}
+### Consequences
+
+* No similarity between tokens
+* High dimension
+:::
+:::
+::::
+
+
+## Self-supervised Learning
+
+[@bormuth1968cloze]
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Select a token
+
+![](img/dense_1.jpeg){height=330}
+:::
+
+::: {.callout-tip icon="false" .column}
+### Supervised learning
+
+![](img/dense_2.jpeg){height=325}
+:::
+::::
+
+## Self-supervised Learning (2)
+
+[@bormuth1968cloze]
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Classification
+
+![](img/dense_3.jpeg){height=330}
+:::
+
+::: {.callout-tip icon="false" .column}
+### Procedure
+
+* One binary classification per token
+* 
+:::
+::::
+
+
+## Representaciones con Contexto
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Attention is All you Need
+[@NIPS2017_3f5ee243]
+
+![](img/transformer.png)
+:::
+::: {.fragment .callout-tip icon="false" .column}
+### BERT
+[@devlin-etal-2019-bert]
+
+![](img/bert.png)
+:::
+::::
+
+# Modelo de Lenguaje 
+
+## Fundamentos
+
+:::: {.columns}
+::: {.callout-note icon="false" .column}
+### Modelo del Lenguaje 
+
+Es un modelo probabilístico de un lenguaje natural que asigna probabilidades a una secuencia de palabras.
+:::
+
+::: {.fragment .callout-tip icon="false" .column} 
+### Michoacán es el mayor productor de 
+
+* camarones
+* aguacate
+::: 
+::::
+
+:::: {.columns} 
+::: {.fragment .callout-note icon="false" .column} 
+### Modelo $n$-gram 
+
+$P(w_i | w_1, \ldots, w_{i-1}) = \frac{C(w_1, \ldots, w_{i-1}, w_i)}{C(w_1, \ldots, w_{i-1})}$
+:::
+
+::: {.fragment .callout-tip icon="false" .column} 
+### Modelo general 
+
+$P(w_i | w_1, \ldots, w_{i-1}) = f(w_1, \ldots, w_{i-1})$
+:::
+::::
+
+# Performance 
+
+## Author Profiling
+
+![](img/competitions_ap.png)
+
+
+## English / Italian
+
+![](img/competitions_en_it.png)
+
+## Spanish
+
+![](img/competitions_es.png)
+
+
+
+# Conclusiones 
+
+::: {.callout-tip icon="false"}
+### Definiciones 
+
+* Inteligencia Artificial
+* Aprendizaje Computacional
+* Procesamiento de Lenguaje Natural
+:::
+
+# Referencias
+
+::: {#refs}
+:::
+
+# ¡Gracias! 

@@ -48,6 +48,10 @@ website:
       title: Impacto de PLN en la Educación
       contents:
         - TextClassification/educacion.qmd
+    - id: ROPEC2024
+      title: Is Traditional Machine Learning Useless Given the Boom of Deep Learning Approaches?
+      contents:
+        - TextClassification/ropec2024.qmd        
 
 format:
   html:
