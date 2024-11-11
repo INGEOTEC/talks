@@ -1,5 +1,5 @@
 ---
-lang: es
+lang: en
 title: "Is Traditional Machine Learning Useless?"
 subtitle: "Given the Boom of Deep Learning Approaches"
 author:
@@ -357,7 +357,7 @@ $$
 
 ## Self-supervised Learning
 
-[@bormuth1968cloze]
+* Use Cloze test [@bormuth1968cloze]
 
 :::: {.columns}
 ::: {.callout-tip icon="false" .column}
@@ -366,7 +366,7 @@ $$
 ![](img/dense_1.jpeg){height=330}
 :::
 
-::: {.callout-tip icon="false" .column}
+::: {.callout-tip icon="false" .column .fragment}
 ### Supervised learning
 
 ![](img/dense_2.jpeg){height=325}
@@ -375,7 +375,32 @@ $$
 
 ## Self-supervised Learning (2)
 
-[@bormuth1968cloze]
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Classification
+
+![](img/dense_3.jpeg){height=330}
+:::
+
+::: {.column}
+::: {.callout-tip icon="false" .fragment}
+### CBOW
+
+* $\mathbf h = s(A \mathbf x)$
+* $\mathbf y = s(A_2 \mathbf h)$
+* $\mathbf x \in \mathbb{R}^d$, $A \in \mathbb{R}^{(300, d)}$,
+* $\mathbf h \in \mathbb{R}^{300}$, and $A_2 \in \mathbb{R}^{(d, 300)}$
+:::
+
+::: {.callout-tip icon="false" .fragment}
+### Dense representation
+
+* Columns of $A$
+:::
+:::
+::::
+
+## Self-supervised Learning (3)
 
 :::: {.columns}
 ::: {.callout-tip icon="false" .column}
@@ -384,16 +409,25 @@ $$
 ![](img/dense_3.jpeg){height=330}
 :::
 
-::: {.callout-tip icon="false" .column}
-### Procedure
+::: {.column}
+::: {.callout-tip icon="false" .fragment}
+### Linear Classifier
 
-* One binary classification per token
-* 
+* $y_t = \textsf{sign}(\mathbf w_t \mathbf x)$
+* $\mathbf x \in \mathbb{R}^d$, $\mathbf w_t \in \mathbb{R}^d$
+:::
+
+::: {.callout-tip icon="false" .fragment}
+### Dense representation
+
+* $\mathbf w_t$
+* e.g., $d = 2^{13}$, and $t=1,\ldots,2^{13}$
+* $W \approx$ 67M 
+:::
 :::
 ::::
 
-
-## Representaciones con Contexto
+## Contextual Representation
 
 :::: {.columns}
 ::: {.callout-tip icon="false" .column}
@@ -407,39 +441,6 @@ $$
 [@devlin-etal-2019-bert]
 
 ![](img/bert.png)
-:::
-::::
-
-# Modelo de Lenguaje 
-
-## Fundamentos
-
-:::: {.columns}
-::: {.callout-note icon="false" .column}
-### Modelo del Lenguaje 
-
-Es un modelo probabilístico de un lenguaje natural que asigna probabilidades a una secuencia de palabras.
-:::
-
-::: {.fragment .callout-tip icon="false" .column} 
-### Michoacán es el mayor productor de 
-
-* camarones
-* aguacate
-::: 
-::::
-
-:::: {.columns} 
-::: {.fragment .callout-note icon="false" .column} 
-### Modelo $n$-gram 
-
-$P(w_i | w_1, \ldots, w_{i-1}) = \frac{C(w_1, \ldots, w_{i-1}, w_i)}{C(w_1, \ldots, w_{i-1})}$
-:::
-
-::: {.fragment .callout-tip icon="false" .column} 
-### Modelo general 
-
-$P(w_i | w_1, \ldots, w_{i-1}) = f(w_1, \ldots, w_{i-1})$
 :::
 ::::
 
