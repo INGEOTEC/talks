@@ -427,6 +427,23 @@ $$
 :::
 ::::
 
+## Self-supervised Learning (4)
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Classification
+
+![](img/dense_4.jpeg){height=330}
+:::
+
+::: {.callout-tip icon="false" .fragment .column}
+### Outside NLP
+
+* Missing values
+* High dimension / rare events
+:::
+::::
+
 ## Contextual Representation
 
 :::: {.columns}
@@ -441,6 +458,38 @@ $$
 [@devlin-etal-2019-bert]
 
 ![](img/bert.png)
+:::
+::::
+
+## Attention 
+
+:::: {.columns}
+
+::: {.column}
+::: {.callout-note icon="false"}
+### Equation
+$$
+\textsf{att}(Q, K, V) = \textsf{softmax}(\frac{QK^\intercal}{\sqrt{d_k}}) V
+$$
+:::
+
+::: {.callout-note icon="false" .fragment}
+### Parts
+
+* $Q^{(\ell, d_a)} = H^{(\ell, d_h)}Q^{(d_h, d_a)}$
+* $K^{(\ell, d_a)} = H^{(\ell, d_h)}K^{(d_h, d_a)}$
+* $V^{(\ell, d_a)} = H^{(\ell, d_h)}V^{(d_h, d_a)}$
+:::
+:::
+
+::: {.column}
+::: {.callout-tip icon="false" .fragment}
+### Analysis
+
+* $W^{(\ell, \ell)} = \textsf{softmax}(\frac{QK^\intercal}{\sqrt{d_k}})$
+* $\textsf{att}(Q, K, V)^{(\ell, d_a)} = W^{(\ell, \ell)} V^{(\ell, d_a)}$
+* $H^{(\ell, d_h)} \rightarrow \textsf{att}(Q, K, V)^{(\ell, d_a)}$
+:::
 :::
 ::::
 
