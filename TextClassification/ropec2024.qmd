@@ -283,41 +283,7 @@ fig.show()
 ![](img/bow_simple.png){height=253}
 :::
 
-## Text Representation (2)
-
-:::: {.columns}
-
-::: {.callout-tip icon="false" .column}
-### Document / TFIDF
-
-![](img/bow_m.jpeg){height=400}
-:::
-
-::: {.column}
-::: {.callout-tip icon="false" .fragment}
-### Segmentación 
-```{python} 
-#| echo: true
-
-from encexp.text_repr import SeqTM
-seq = SeqTM()
-seq.tokenize('Es un placer estar con ustedes')
-```
-:::
-
-::: {.callout-tip icon="false" .fragment}
-### Representación
-```{python} 
-#| echo: true
-
-from encexp.text_repr import SeqTM
-seq['Es un placer estar con ustedes']
-```
-:::
-::: 
-::::
-
-## Text Representation (3) 
+## Text Representation (2) 
 
 :::: {.columns}
 
@@ -352,6 +318,40 @@ $$
 * High dimension
 :::
 :::
+::::
+
+## Text Representation (3)
+
+:::: {.columns}
+
+::: {.callout-tip icon="false" .column}
+### Document / TFIDF
+
+![](img/bow_m.jpeg){height=400}
+:::
+
+::: {.column}
+::: {.callout-tip icon="false" .fragment}
+### Segmentación 
+```{python} 
+#| echo: true
+
+from encexp.text_repr import SeqTM
+seq = SeqTM()
+seq.tokenize('Es un placer estar con ustedes')
+```
+:::
+
+::: {.callout-tip icon="false" .fragment}
+### Representación
+```{python} 
+#| echo: true
+
+from encexp.text_repr import SeqTM
+seq['Es un placer estar con ustedes']
+```
+:::
+::: 
 ::::
 
 
