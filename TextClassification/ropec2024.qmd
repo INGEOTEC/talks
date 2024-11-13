@@ -510,14 +510,17 @@ $$
 
 
 
-# Conclusiones 
+# Conclusions
 
 ::: {.callout-tip icon="false"}
 ### Definiciones 
 
-* Inteligencia Artificial
-* Aprendizaje Computacional
-* Procesamiento de Lenguaje Natural
+* Artificial Intelligence 
+* Machine Learning
+* Text Classification
+* Bag of Words
+* Sparse Representation
+* Dense BoW
 :::
 
 # Referencias
