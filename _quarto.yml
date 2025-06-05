@@ -52,7 +52,12 @@ website:
     - id: ropec2024
       title: Is Traditional Machine Learning Useless?
       contents:
-        - TextClassification/ropec2024.qmd        
+        - TextClassification/ropec2024.qmd
+    - id: competencias
+      title: Competencias internacionales para generar avances en inteligencia artificial
+      contents:
+        - TextClassification/competencias.qmd
+
 
 format:
   html:
