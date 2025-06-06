@@ -89,6 +89,32 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 
 # Aprendizaje computacional
 
+## Machine Learning 
+
+::: {.callout-note icon=false}
+### Tipos de aprendizaje computacional
+* Aprendizaje no supervisado
+* Aprendizaje supervisado
+* Aprendizaje por refuerzo
+:::
+
+:::: {.columns}
+
+::: {.fragment .callout-tip icon="false" .column}
+### Aprendizaje no supervisado
+
+![](img/umap_prob1489.png){fig-align="center" height=253}
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### Aprendizaje por refuerzo
+
+* Juegos
+* Actividades
+* Retroalimentación al final 
+:::
+::::
+
 ## Clasificadores lineales
 
 ```{python}
@@ -156,3 +182,134 @@ _ = tree.plot_tree(arbol, node_ids=True,
 ```
 ::: 
 ::::
+
+# Competencias
+
+## Definición
+
+::: {.callout-note icon="false"}
+### @jair2023academic
+
+Una competencia académica tiene el objetivo de responder preguntas científicas que idealmente empujen la frontera del conocimiento y tengan un impacto duradero y/o conjunto de prueba de referencia.
+:::
+
+:::: {.columns .fragment}
+::: {.callout-tip icon="false" .column} 
+### Ley de longitud de 1714
+
+Una serie de premios monetarios para la persona que encontrara un método simple y práctico para la determinación precisa de la longitud geográfica de un barco en alta mar. 
+:::
+::: {.column} 
+![](img/longitude_act.png)
+::: 
+::::
+
+## Sociales
+
+::: {.callout-tip icon="false" .fragment}
+### [Longitude Price](https://longitudeprize.org)
+
+:::: {.columns}
+::: {.column}
+![](img/longitud.jpeg){fig-align="center" height=210}
+:::
+::: {.column}
+![](img/longitud_esqueleto.png){fig-align="center" height=210}
+:::
+::::
+
+:::
+
+::: {.callout-tip icon="false" .fragment}
+### [xprice](xprice.org)
+
+:::: {.columns}
+::: {.column}
+![](img/xprice.jpeg){fig-align="center" height=210}
+:::
+::: {.column}
+![](img/bosque.png){fig-align="center" height=210}
+:::
+::::
+
+:::
+
+## Conducción autónoma
+
+::: {.callout-tip icon="false"}
+### [Defense Advanced Research Projects Agency (DARPA 2004)](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later)
+:::: {.columns}
+::: {.column}
+![](img/darpa.jpg){fig-align="center"}
+:::
+
+::: {.column}
+![](img/darpa2.png){fig-align="center"}
+:::
+::::
+:::: {.columns .fragment}
+::: {.column}
+* 100 equipos
+* Un equipo logró 12km
+:::
+::: {.column}
+* 195 equipos
+* 5 equipos terminaron los 212km
+:::
+::::
+
+::: {.fragment}
+Siguieron, conduciendo en la ciudad 2007... en simuladores (e.g, [CARLA](https://carla.org))
+:::
+:::
+
+## [RoboCup](https://www.robocup.org)
+
+::: {.callout-tip icon="false"}
+### Iniciando 1990
+![](img/robocup.jpeg){fig-align="center"}
+:::
+
+## Competencia de [Netflix](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
+
+::: {.callout-tip icon="false"}
+### 1M al equipo ganador
+:::: {.columns}
+
+::: {.column}
+* Sistema de recomendación
+* Mejorar su sistema 
+* Ganador mejoro en 10\%
+:::
+
+::: {.column}
+![](img/netflix_cine.png){fig-align="center"}
+:::
+::::
+:::
+
+## [ECMLPKDD](https://ecmlpkdd.org) - 1999
+
+::: {.callout-tip icon="false"}
+### [Discovery Challenge](https://ecmlpkdd.org/2024/program-discovery-challenge/)
+![](img/ecmlpkdd.jpeg){fig-align="center"}
+:::
+
+# Conclusiones
+
+::: {.callout-tip icon="false"}
+## Competencias vistas
+
+* [Longitude Price](https://longitudeprize.org)
+* [xprice](xprice.org)
+* [CARLA](https://carla.org)
+* [Netflix](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
+* [Discovery Challenge](https://ecmlpkdd.org/2024/program-discovery-challenge/)
+:::
+
+# Referencias
+
+::: {#refs}
+:::
+
+# ¡Gracias! 
