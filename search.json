@@ -74,17 +74,17 @@
     "href": "TextClassification/competencias.html#sociales",
     "title": "Competencias internacionales para generar avances en inteligencia artificial",
     "section": "Sociales",
-    "text": "Sociales\n\n\n\n\nLongitude Price\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nxprice",
+    "text": "Sociales\n\n\n\nLongitude Price\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nxprice",
     "crumbs": [
       "Competencias internacionales para generar avances en inteligencia artificial"
     ]
   },
   {
-    "objectID": "TextClassification/competencias.html#conducción-autónoma",
-    "href": "TextClassification/competencias.html#conducción-autónoma",
+    "objectID": "TextClassification/competencias.html#conducción-autónoma---2004",
+    "href": "TextClassification/competencias.html#conducción-autónoma---2004",
     "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Conducción autónoma",
-    "text": "Conducción autónoma\n\n\n\nDefense Advanced Research Projects Agency (DARPA 2004)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n100 equipos\nUn equipo logró 12km\n\n\n\n195 equipos\n5 equipos terminaron los 212km\n\n\n\nSiguieron, conduciendo en la ciudad 2007… en simuladores (e.g, CARLA)",
+    "section": "Conducción autónoma - 2004",
+    "text": "Conducción autónoma - 2004\n\n\n\nDefense Advanced Research Projects Agency (DARPA)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n100 equipos\nUn equipo logró 12km\n\n\n\n195 equipos\n5 equipos terminaron los 212km\n\n\n\nSiguieron, conduciendo en la ciudad 2007… en simuladores (e.g, CARLA)",
     "crumbs": [
       "Competencias internacionales para generar avances en inteligencia artificial"
     ]
@@ -100,11 +100,11 @@
     ]
   },
   {
-    "objectID": "TextClassification/competencias.html#competencia-de-netflix",
-    "href": "TextClassification/competencias.html#competencia-de-netflix",
+    "objectID": "TextClassification/competencias.html#competencia-de-netflix---2000",
+    "href": "TextClassification/competencias.html#competencia-de-netflix---2000",
     "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Competencia de Netflix",
-    "text": "Competencia de Netflix\n\n\n\n1M al equipo ganador\n\n\n\n\n\nSistema de recomendación\nMejorar su sistema\nGanador mejoro en 10%",
+    "section": "Competencia de Netflix - 2000",
+    "text": "Competencia de Netflix - 2000\n\n\n\n1M al equipo ganador\n\n\n\n\n\nSistema de recomendación\nMejorar su sistema\nGanador mejoro en 10%",
     "crumbs": [
       "Competencias internacionales para generar avances en inteligencia artificial"
     ]
@@ -115,6 +115,86 @@
     "title": "Competencias internacionales para generar avances en inteligencia artificial",
     "section": "ECMLPKDD - 1999",
     "text": "ECMLPKDD - 1999\n\n\n\nDiscovery Challenge",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#kaggle---2009",
+    "href": "TextClassification/competencias.html#kaggle---2009",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Kaggle - 2009",
+    "text": "Kaggle - 2009\n\n\n\nKaggle",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#codabench---2013",
+    "href": "TextClassification/competencias.html#codabench---2013",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Codabench - 2013",
+    "text": "Codabench - 2013\n\n\n\nPavao et al. (2023)",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#icdar---1991",
+    "href": "TextClassification/competencias.html#icdar---1991",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "ICDAR - 1991",
+    "text": "ICDAR - 1991\n\n\n\nICDAR 2025",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#text-retrieval-conference-trec---1990",
+    "href": "TextClassification/competencias.html#text-retrieval-conference-trec---1990",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Text Retrieval Conference (TREC) - 1990",
+    "text": "Text Retrieval Conference (TREC) - 1990\n\n\n\nTREC",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#conference-and-labs-of-the-evaluation-forum---2000",
+    "href": "TextClassification/competencias.html#conference-and-labs-of-the-evaluation-forum---2000",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Conference and Labs of the Evaluation Forum - 2000",
+    "text": "Conference and Labs of the Evaluation Forum - 2000\n\n\n\nCLEF",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#semantic-evaluation-semeval",
+    "href": "TextClassification/competencias.html#semantic-evaluation-semeval",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Semantic Evaluation (SemEval)",
+    "text": "Semantic Evaluation (SemEval)\n\n\n\nSemEval 2025\n\n\n\nSemantic Relations\n\nEntity-aware machine translation\n\nLLM Capabilities\n\nUnlearning sensitive content from LLM\n\nFact Checking and Knowledge Verification\n\nQuestion-Answering over Tabular Data\n\nKnowledge Representation and Reasoning\n\nBringing the Gap in Text-Based Emotion Detection",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#iberlef",
+    "href": "TextClassification/competencias.html#iberlef",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "IberLEF",
+    "text": "IberLEF\n\n\n\nIberLEF 2025",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#fire-2024",
+    "href": "TextClassification/competencias.html#fire-2024",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "FIRE 2024",
+    "text": "FIRE 2024\n\n\n\nDravidian-CodeMix",
     "crumbs": [
       "Competencias internacionales para generar avances en inteligencia artificial"
     ]
@@ -274,7 +354,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n.@FelipePelaez celebra a esta hora su cumpleañ...\n0\n\n\n1\nChofer de autobús escolar ebria es detenida po...\n1\n\n\n2\nDice Marlaska que cuando un gobierno llega se ...\n0\n\n\n3\nUn detenido huye engrilletado y en calzoncillo...\n1\n\n\n4\nFANATIK.... La Revista!!!: LANCEROS DE COJEDES...\n0\n\n\n5\nAnciano detenido por abuso sexual en un colect...\n1\n\n\n6\n@NDtitulares Igual tendrás que pagar en La Hay...\n0\n\n\n7\nCorte Suprema confirma condena de 15 años a Ca...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nMás de 200 osos polares rodean el cuerpo de un...\n0\n\n\n1\n#Nación En video: Comunidad linchó a Policía p...\n1\n\n\n2\n@sanchezcastejon Dices que Rajoy tiene la culp...\n0\n\n\n3\n#Zapopan Asesinan a dos hombres en Zapopan htt...\n1\n\n\n4\nLa sangre del Sub Inspector Luis Morales Balcá...\n0\n\n\n5\n#UltimaHora #CrimenDeCabra La Policía detiene ...\n1\n\n\n6\n“I can do better” de Avril es mi nuevo mantra\n0\n\n\n7\nLo mas cabron es que fue porque los clientes d...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -414,7 +494,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(56, 7.906890595608518),\n (54, 5.8479969065549495),\n (26, 1.3219280948873617),\n (34, 2.5224042154522373)]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(56, 7.906890595608518),\n (59, 5.8479969065549495),\n (23, 1.3219280948873617),\n (35, 2.5224042154522373)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -424,7 +504,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x16012ce60&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, 0.08478070043211834),\n (5114, 0.07639809274356325),\n (6569, 0.35264239129026387),\n (3340, 0.1965574235982234)]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x15cfcb0b0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, 0.08478070043211834),\n (5114, 0.07639809274356325),\n (6569, 0.35264239129026387),\n (3340, 0.1965574235982234)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -584,7 +664,7 @@
     "href": "TextClassification/educacion.html#conjunto-de-entrenamiento",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Conjunto de entrenamiento",
-    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\n@NDtitulares Igual tendrás que pagar en La Hay...\nN\n\n\n1\n🚨🚔🚑#Sucesos #SJR Vecinos detienen a sujeto por...\nP\n\n\n2\nECA: Empagliflocina (iSGLT2) vs placebo. 💡\\nAq...\nN\n\n\n3\n#LaHistoriaDelDía | Hombre fue capturado por e...\nP\n\n\n4\nel seguro de estudiante cubre la rinoplastia? ...\nN\n\n\n5\nPolicías de Chimalhuacán, Edomex, son exhibido...\nP\n\n\n6\nSi usted es un peatón transite con cuidado id...\nN\n\n\n7\nUn mexicano detenido y a punto de ser deportad...\nP",
+    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nSánchez aún no ha llamado al resto de presiden...\nN\n\n\n1\nEn pleno centro ejecutaron a un hombre https:/...\nP\n\n\n2\n@AlvaroUribeVel El colmo del cinismo\nN\n\n\n3\n🔴 En el registro domiciliario la policía se in...\nP\n\n\n4\n📌#EnVideo Vista aérea de El Pedimento, donde l...\nN\n\n\n5\nUn presunto delincuente fue atrapado por vecin...\nP\n\n\n6\n@RainuiRohua @cossmmica @davidsainz Porque aho...\nN\n\n\n7\nLa madrugada de ayer se registró un choque múl...\nP",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -2046,7 +2126,7 @@
     "href": "TextClassification/poornima.html#training-set",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nLa seguridad del capitolio be like :\\n\\n#capit...\n0\n\n\n1\nFallece la mujer que fue quemada por su pareja...\n1\n\n\n2\n@Wini83 @robersantacruz @juanjoph_73 @DCCoruna...\n0\n\n\n3\nAcusan a joven por abuso y muerte de su hijast...\n1\n\n\n4\n@kebuenatuxtla me complacen con #EstaNocheSeMe...\n0\n\n\n5\n🔴#ATENCIÓN | Cámara de seguridad capta el mome...\n1\n\n\n6\nEl príncipe heredero saudí contaba con un equi...\n0\n\n\n7\nUn jurado popular enjuiciará a partir del día ...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nNi el café me deja tomarlo tranquilo y tumbadi...\n0\n\n\n1\nRetweeted Regeneración (@RegeneracionMx):\\n\\nE...\n1\n\n\n2\n« Allen. \\nEn su defecto, la calle estaba desi...\n0\n\n\n3\nSecuestran y asesinan a una estudiante de bach...\n1\n\n\n4\nY en caso de clasificar, Zulia FC tiene altas ...\n0\n\n\n5\n.@PNCSV Capturó a pandillero que mantenía junt...\n1\n\n\n6\nSe amplía al 6 de mayo el plazo de enmiendas a...\n0\n\n\n7\nHombres armados secuestran a director ejecutiv...\n1",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2186,7 +2266,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-2",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(56, 7.906890595608518),\n (54, 5.8479969065549495),\n (40, 1.3219280948873617),\n (13, 2.5224042154522373)]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(50, 7.906890595608518),\n (54, 5.8479969065549495),\n (38, 1.3219280948873617),\n (40, 2.5224042154522373)]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2196,7 +2276,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-3",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x158aa1280&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, 0.08478070043211834),\n (5114, 0.07639809274356325),\n (6569, 0.35264239129026387),\n (3340, 0.1965574235982234)]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x15fb32270&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, 0.08478070043211834),\n (5114, 0.07639809274356325),\n (6569, 0.35264239129026387),\n (3340, 0.1965574235982234)]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2296,7 +2376,7 @@
     "href": "TextClassification/ropec2024.html#training-set",
     "title": "Is Traditional Machine Learning Useless?",
     "section": "Training set",
-    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\npatético\nN\n\n\n1\n🔴 VIDEO | El hombre de 40 años fue asesinado d...\nP\n\n\n2\n@cocando Vzla, convertida por el chavismo mafi...\nN\n\n\n3\nMuere un policía en Venezuela por ataque con g...\nP\n\n\n4\n@1222pepe @Bailesombrerero @PabloEchenique Es ...\nN\n\n\n5\nLeonardo Luis Rivera, 39 años, La Habana.\\n\\nE...\nP\n\n\n6\n#350YCalleVzla : SAQUEMOS DE MIRAFLORES A MADU...\nN\n\n\n7\nVándalos atacaron a fierrazos a un hombre en s...\nP",
+    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\n@Beatlosmar, dame jugo:g.\nN\n\n\n1\n#Mundo: Mueren 26 niños en Siria tras ataques ...\nP\n\n\n2\nAyuda a @PETA_Latino a proteger a los monos, p...\nN\n\n\n3\nUn robot como éste asesinó al hombre que mató ...\nP\n\n\n4\nAut. Acapulco-Cuernavaca, km 100, incidente, c...\nN\n\n\n5\nDamaris Benavides l joven que fue brutalmente ...\nP\n\n\n6\n🔔 VÍDEO: Sombra, el terror de los narcos #Poli...\nN\n\n\n7\n#Tamaulipas \\nDenuncia alcaldía de #Victoria ...\nP",
     "crumbs": [
       "Is Traditional Machine Learning Useless?"
     ]
