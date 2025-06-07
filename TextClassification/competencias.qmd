@@ -206,7 +206,7 @@ Una serie de premios monetarios para la persona que encontrara un método simple
 
 ## Sociales
 
-::: {.callout-tip icon="false" .fragment}
+::: {.callout-tip icon="false"}
 ### [Longitude Price](https://longitudeprize.org)
 
 :::: {.columns}
@@ -234,10 +234,12 @@ Una serie de premios monetarios para la persona que encontrara un método simple
 
 :::
 
-## Conducción autónoma
+# Robots
+
+## Conducción autónoma - 2004
 
 ::: {.callout-tip icon="false"}
-### [Defense Advanced Research Projects Agency (DARPA 2004)](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later)
+### [Defense Advanced Research Projects Agency (DARPA)](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later)
 :::: {.columns}
 ::: {.column}
 ![](img/darpa.jpg){fig-align="center"}
@@ -270,7 +272,7 @@ Siguieron, conduciendo en la ciudad 2007... en simuladores (e.g, [CARLA](https:/
 ![](img/robocup.jpeg){fig-align="center"}
 :::
 
-## Competencia de [Netflix](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
+## Competencia de [Netflix](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) - 2000
 
 ::: {.callout-tip icon="false"}
 ### 1M al equipo ganador
@@ -288,6 +290,8 @@ Siguieron, conduciendo en la ciudad 2007... en simuladores (e.g, [CARLA](https:/
 ::::
 :::
 
+# Aplicadas a la industria
+
 ## [ECMLPKDD](https://ecmlpkdd.org) - 1999
 
 ::: {.callout-tip icon="false"}
@@ -295,17 +299,148 @@ Siguieron, conduciendo en la ciudad 2007... en simuladores (e.g, [CARLA](https:/
 ![](img/ecmlpkdd.jpeg){fig-align="center"}
 :::
 
-# Conclusiones
+## Kaggle - 2009
 
 ::: {.callout-tip icon="false"}
-## Competencias vistas
+### [Kaggle](https://www.kaggle.com)
+![](img/kaggle.jpeg)
+:::
+
+# Académicas
+
+## [Codabench](https://www.codabench.org) - 2013
+
+::: {.callout-tip icon="false"}
+### @JMLR:v24:21-1436
+![](img/codabench.jpeg)
+:::
+
+## Aprendizaje Computacional 
+
+::: {.callout-tip icon="false"}
+### ImageNet Large Scale Visual Recognition Challenge
+
+* Clasificación de imágenes
+* 1,000 categorías
+* Millones de imágenes de entrenamiento
+* Tercera edición nació AlexNet
+* CNN, VGG, GoogLeNet
+:::
+
+::: {.callout-tip icon="false" .fragment}
+### [AutoML 2025](https://2025.automl.cc)
+
+* Automatizar el ciclo de aprendizaje computacional
+* Competencias 2015 - 2018
+* Datos tabulares
+:::
+
+## ICDAR - 1991
+
+::: {.callout-tip icon="false"}
+### [ICDAR 2025](https://www.icdar2025.com/program/competitions)
+![](img/ICDAR.jpeg)
+:::
+
+
+## Text Retrieval Conference (TREC) - 1990
+
+::: {.callout-tip icon="false"}
+### [TREC](https://trec.nist.gov)
+![](img/trec.png)
+:::
+
+## Conference and Labs of the Evaluation Forum - 2000
+
+::: {.callout-tip icon="false"}
+### [CLEF](https://www.clef-initiative.eu)
+![](img/clef.png){fig-align="center" height=300}
+:::
+
+## Semantic Evaluation ([SemEval](https://semeval.github.io)) 
+
+::: {.callout-tip icon="false"}
+### [SemEval 2025](https://semeval.github.io/SemEval2025/)
+
+* Semantic Relations
+  - Entity-aware machine translation
+* LLM Capabilities
+  - Unlearning sensitive content from LLM
+* Fact Checking and Knowledge Verification
+  - Question-Answering over Tabular Data
+* Knowledge Representation and Reasoning
+  - Bringing the Gap in Text-Based Emotion Detection
+:::
+
+
+## IberLEF
+
+::: {.callout-tip icon="false"}
+### [IberLEF 2025](https://sites.google.com/view/iberlef-2025/)
+![](img/iberlef.jpeg)
+:::
+
+
+## FIRE 2024
+
+::: {.callout-tip icon="false"}
+### [Dravidian-CodeMix](https://sites.google.com/view/dravidian-codemix-fire2024/home)
+![](img/fire2024.jpeg)
+:::
+
+
+# Conclusiones
+
+:::: {.columns}
+
+::: {.column}
+::: {.callout-tip icon="false" }
+## Sociales
 
 * [Longitude Price](https://longitudeprize.org)
 * [xprice](xprice.org)
+:::
+
+::: {.callout-tip icon="false" .fragment}
+## Robots
+* [CARLA](https://carla.org)
+* [RoboCup](https://www.robocup.org)
+:::
+
+::: {.callout-tip icon="false" .fragment}
+## Aplicadas a la industria
 * [CARLA](https://carla.org)
 * [Netflix](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
 * [Discovery Challenge](https://ecmlpkdd.org/2024/program-discovery-challenge/)
 :::
+:::
+
+::: {.column}
+
+::: {.callout-tip icon="false" .fragment}
+## Multimodal
+
+* [ICDAR 2025](https://www.icdar2025.com/program/competitions)
+* [TREC](https://trec.nist.gov)
+* [CLEF](https://www.clef-initiative.eu)
+:::
+
+::: {.callout-tip icon="false" .fragment}
+## Texto principalmente
+
+* [SemEval](https://semeval.github.io)
+* [IberLEF 2025](https://sites.google.com/view/iberlef-2025/)
+:::
+
+::: {.callout-tip icon="false" .fragment}
+## Plataformas
+
+* [Kaggle](https://www.kaggle.com)
+* [Codabench](https://www.codabench.org) 
+:::
+:::
+
+::::
 
 # Referencias
 

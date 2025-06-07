@@ -19,6 +19,7 @@ website:
           - sidebar:poornima
           - sidebar:educacion
           - sidebar:ropec2024
+          - sidebar:competencias
 
   sidebar:
     - id: RestMex2023f
