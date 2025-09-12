@@ -184,7 +184,7 @@
     "href": "TextClassification/competencias.html#semantic-evaluation-semeval",
     "title": "Competencias internacionales para generar avances en inteligencia artificial",
     "section": "Semantic Evaluation (SemEval)",
-    "text": "Semantic Evaluation (SemEval)\n\n\n\nSemEval 2025\n\n\n\nSemantic Relations\n\nEntity-aware machine translation\n\nLLM Capabilities\n\nUnlearning sensitive content from LLM\n\nFact Checking and Knowledge Verification\n\nQuestion-Answering over Tabular Data\n\nKnowledge Representation and Reasoning\n\nBringing the Gap in Text-Based Emotion Detection",
+    "text": "Semantic Evaluation (SemEval)\n\n\n\nSemEval 2025 (2026)\n\n\n\nSemantic Relations\n\nEntity-aware machine translation\n\nLLM Capabilities\n\nUnlearning sensitive content from LLM\n\nFact Checking and Knowledge Verification\n\nQuestion-Answering over Tabular Data\n\nKnowledge Representation and Reasoning\n\nBringing the Gap in Text-Based Emotion Detection",
     "crumbs": [
       "Competencias internacionales para generar avances en inteligencia artificial"
     ]
@@ -324,7 +324,7 @@
     "href": "TextClassification/general.html#supervised-learning-classification",
     "title": "Text Classification",
     "section": "Supervised Learning (Classification)",
-    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "text": "Supervised Learning (Classification)\n\n\n                            \n                                            \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
     "crumbs": [
       "Text Classification"
     ]
@@ -334,7 +334,7 @@
     "href": "TextClassification/general.html#supervised-learning-geometry",
     "title": "Text Classification",
     "section": "Supervised Learning (Geometry)",
-    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "text": "Supervised Learning (Geometry)\n\n\n                            \n                                            \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
     "crumbs": [
       "Text Classification"
     ]
@@ -344,7 +344,7 @@
     "href": "TextClassification/general.html#supervised-learning-geometry-2",
     "title": "Text Classification",
     "section": "Supervised Learning (Geometry 2)",
-    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
+    "text": "Supervised Learning (Geometry 2)\n\n\n                            \n                                            \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
     "crumbs": [
       "Text Classification"
     ]
@@ -354,7 +354,7 @@
     "href": "TextClassification/general.html#supervised-learning-geometry-3",
     "title": "Text Classification",
     "section": "Supervised Learning (Geometry 3)",
-    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
+    "text": "Supervised Learning (Geometry 3)\n\n\n                            \n                                            \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
     "crumbs": [
       "Text Classification"
     ]
@@ -364,7 +364,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nUstedes están mal enserio, generar disforia???...\n0\n\n\n1\nCaraotaDigital : #LoMásLeído #Video captó mome...\n1\n\n\n2\n@vixin_twit Lo que te dan de puntos te lo ahor...\n0\n\n\n3\nINVESTIGACIÓN.\\nLas autoridades Investigan rob...\n1\n\n\n4\n@AilenMormandoo No encontraste el indicado\n0\n\n\n5\nEl incidente en el que un individuo que transi...\n1\n\n\n6\nEmergencia en @Codazzi_online por fuertes agu...\n0\n\n\n7\nLa policía boliviana arrestó a 9 venezolanos c...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@retrochenta aquí está el video vía @rtve \\nht...\n0\n\n\n1\n🔴#ATENCIÓN | Cámara de seguridad capta el mome...\n1\n\n\n2\n@mandramas @GalataLudovisi Y falta que se va a...\n0\n\n\n3\nSecuestran y asesinan a una estudiante de bach...\n1\n\n\n4\n“Me va a tocar algo bueno porque me guiño el o...\n0\n\n\n5\nLos Vilos: Cuatro detenidos por golpiza y apuñ...\n1\n\n\n6\nResto del Carlino 25.04.19 https://t.co/uCIjMp...\n0\n\n\n7\nDetenidos por múltiples atracos con arma de fu...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -504,7 +504,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(59, 7.906890595608518),\n (52, 5.8479969065549495),\n (1, 1.3219280948873617),\n (6, 2.5224042154522373)]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(57, 7.906890595608518),\n (62, 5.8479969065549495),\n (14, 1.3219280948873617),\n (24, 2.5224042154522373)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -514,7 +514,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x152f85940&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, 0.08478070043211834),\n (5114, 0.07639809274356325),\n (6569, 0.35264239129026387),\n (3340, 0.1965574235982234)]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x15d80c910&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, 0.08478070043211834),\n (5114, 0.07639809274356325),\n (6569, 0.35264239129026387),\n (3340, 0.1965574235982234)]",
     "crumbs": [
       "Text Classification"
     ]
@@ -674,7 +674,7 @@
     "href": "TextClassification/educacion.html#conjunto-de-entrenamiento",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Conjunto de entrenamiento",
-    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nYa adentro!! en Luna Park https://t.co/kmTMs5Exqy\nN\n\n\n1\n#Tamaulipas \\nDenuncia alcaldía de #Victoria ...\nP\n\n\n2\nEl crudo toca los 70 dólares y pulveriza todas...\nN\n\n\n3\n#EnEsteMomento muere persona atropellada bajo ...\nP\n\n\n4\n+ que tomaría su vida de ahora en adelante. \\n...\nN\n\n\n5\nEx-Primer Ministro de Pakistán arrestado en un...\nP\n\n\n6\n@CarlosDPicos @Irma_Sandoval @lorenzocordovav ...\nN\n\n\n7\nDetienen a hombre que pretendía abandonar terr...\nP",
+    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nEn la intersección de las calles Maracaibo y M...\nN\n\n\n1\n36 personas murieron por falta de oxígeno en e...\nP\n\n\n2\n@ccifuentesh @lolufer El error está en las enc...\nN\n\n\n3\nFamiliares de la mujer a la que su ex esposo p...\nP\n\n\n4\n#Cubava #Mundo Anuncian ganadores del Premio 2...\nN\n\n\n5\n.Más de 8 armas de fuego encontraron en habita...\nP\n\n\n6\n¿detenido? , será secuestrado\nN\n\n\n7\nAsesinan a PoliMiranda para robarle su pistola...\nP",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -2096,7 +2096,7 @@
     "href": "TextClassification/poornima.html#supervised-learning-classification",
     "title": "Sentiment Analysis",
     "section": "Supervised Learning (Classification)",
-    "text": "Supervised Learning (Classification)\n\n\n                                                \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "text": "Supervised Learning (Classification)\n\n\n                            \n                                            \n\n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2106,7 +2106,7 @@
     "href": "TextClassification/poornima.html#supervised-learning-geometry",
     "title": "Sentiment Analysis",
     "section": "Supervised Learning (Geometry)",
-    "text": "Supervised Learning (Geometry)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
+    "text": "Supervised Learning (Geometry)\n\n\n                            \n                                            \n\n\n\n\n\nDecision function\n\n\n\n\n\\(g(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2116,7 +2116,7 @@
     "href": "TextClassification/poornima.html#supervised-learning-geometry-2",
     "title": "Sentiment Analysis",
     "section": "Supervised Learning (Geometry 2)",
-    "text": "Supervised Learning (Geometry 2)\n\n\n                                                \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
+    "text": "Supervised Learning (Geometry 2)\n\n\n                            \n                                            \n\n\n\n\n\n\\(w_0\\)\n\n\n\n\n\n\\(w_0 = -0.88\\)\n\\(w_0 = 0.88\\)",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2126,7 +2126,7 @@
     "href": "TextClassification/poornima.html#supervised-learning-geometry-3",
     "title": "Sentiment Analysis",
     "section": "Supervised Learning (Geometry 3)",
-    "text": "Supervised Learning (Geometry 3)\n\n\n                                                \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
+    "text": "Supervised Learning (Geometry 3)\n\n\n                            \n                                            \n\n\n\n\n\nDecision function\n\n\n\n\n\n\\(g_{svm}(\\mathbf x) = -0.78 x_1 + 0.60 x_2 + -0.88\\)\n\\(g_{lr}(\\mathbf x) = -2.58 x_1 + 0.84 x_2 + -3.06\\)",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2136,7 +2136,7 @@
     "href": "TextClassification/poornima.html#training-set",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nEse señor melgarejo q está incurso en investig...\n0\n\n\n1\nConfirmaron que uno de los detenidos sería el ...\n1\n\n\n2\nGo pecho en bombe\n0\n\n\n3\n#eb Asesinada una sobrina de Ángel María Villa...\n1\n\n\n4\nOjo aquí @iunida https://t.co/VWtvb3g7SY\n0\n\n\n5\nVOA- La Policía de Texas reportó que un hombre...\n1\n\n\n6\nCada domingo, con escobas, picos y palas salen...\n0\n\n\n7\nLa Audiencia de A Coruña inicia hoy el juicio ...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nPrendemos tu Party #simiywilford #djzululion e...\n0\n\n\n1\n#ApaseoElGrande Hallan 2 cuerpos calcinados en...\n1\n\n\n2\nY dónde están Barr, Ivanka, Jared, y otros, al...\n0\n\n\n3\n@emapagye en Fco de Marcos entre Quito y Macha...\n1\n\n\n4\nUstedes están mal enserio, generar disforia???...\n0\n\n\n5\nMujer de 23 años fue detenida por presunto par...\n1\n\n\n6\n► Denunció una bomba en su patio y la policía ...\n0\n\n\n7\nEl 5 de enero José aragón me incendió el auto....\n1",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2276,7 +2276,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-2",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(54, 7.906890595608518),\n (58, 5.8479969065549495),\n (6, 1.3219280948873617),\n (0, 2.5224042154522373)]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(60, 7.906890595608518),\n (62, 5.8479969065549495),\n (1, 1.3219280948873617),\n (2, 2.5224042154522373)]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2286,7 +2286,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-3",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x15ea9df10&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, 0.08478070043211834),\n (5114, 0.07639809274356325),\n (6569, 0.35264239129026387),\n (3340, 0.1965574235982234)]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x1594f1810&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, 0.08478070043211834),\n (5114, 0.07639809274356325),\n (6569, 0.35264239129026387),\n (3340, 0.1965574235982234)]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2386,7 +2386,7 @@
     "href": "TextClassification/ropec2024.html#training-set",
     "title": "Is Traditional Machine Learning Useless?",
     "section": "Training set",
-    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nDile que soy quien te llama y aún respondes🎶\nN\n\n\n1\npolicia: Detenido en #Zaragoza el organizador ...\nP\n\n\n2\nQué mala hostia me ha entrado en un momento po...\nN\n\n\n3\nGran trabajo compañero. Cuatro peligrosos y vi...\nP\n\n\n4\nEl CNI no ha detectado ningún ciberataque del ...\nN\n\n\n5\n#SucesosProvincia Hombre es ultimado a tiros e...\nP\n\n\n6\nUn autobús y un turismo chocan tras saltarse e...\nN\n\n\n7\nLa PNC reporta la captura de pandillero que ma...\nP",
+    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nCaso hipotético: Un ladrón huye de la policía ...\nN\n\n\n1\nPolicías municipales de Querétaro detectaron y...\nP\n\n\n2\n¡Aunque NO SIRVA! \\n\\nDescaro, vergüenza.\nN\n\n\n3\nPolicía Local de #Fuengirola detiene a un homb...\nP\n\n\n4\n#Policiales // Un hombre de 79 años fue encont...\nN\n\n\n5\nDetenida una mujer por agredir a su pareja en ...\nP\n\n\n6\nSe retoma el juicio al policía Chocobar por ho...\nN\n\n\n7\nSegún los informes, el agente recibió un dispa...\nP",
     "crumbs": [
       "Is Traditional Machine Learning Useless?"
     ]
@@ -2426,7 +2426,7 @@
     "href": "TextClassification/ropec2024.html#text-representation-3",
     "title": "Is Traditional Machine Learning Useless?",
     "section": "Text Representation (3)",
-    "text": "Text Representation (3)\n\n\n\n\n\nDocument / TFIDF\n\n\n\n\n\n\n\n\n\n\n\nSegmentación\n\n\n\nfrom encexp.text_repr import SeqTM\nseq = SeqTM(lang='es')\nseq.tokenize('Es un placer estar con ustedes')\n\n['es', 'un', 'placer', 'estar', 'con', 'ustedes']\n\n\n\n\n\n\n\n\n\n\nRepresentación\n\n\n\nseq['Es un placer estar con ustedes']\n\n[(1158, 0.17230353232322573),\n (7810, 0.18580404072345025),\n (2442, 0.6795542945968284),\n (1218, 0.42874121447795416),\n (663, 0.18596431354325302),\n (7833, 0.505561625314996)]",
+    "text": "Text Representation (3)\n\n\n\n\n\nDocument / TFIDF\n\n\n\n\n\n\n\n\n\n\n\nSegmentación\n\n\n\nfrom encexp.text_repr import SeqTM\nseq = SeqTM(lang='es')\nseq.tokenize('Es un placer estar con ustedes')\n\n['es~un', 'placer', 'estar~con', 'ustedes']\n\n\n\n\n\n\n\n\n\n\nRepresentación\n\n\n\nseq['Es un placer estar con ustedes']\n\n[(4957, 0.36521129661206075),\n (8374, 0.5522348027783196),\n (4785, 0.5932117431782478),\n (15783, 0.4579926409700842)]",
     "crumbs": [
       "Is Traditional Machine Learning Useless?"
     ]
