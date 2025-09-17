@@ -1,6 +1,6 @@
 ---
 lang: es
-title: "Competencias internacionales para generar avances en inteligencia artificial"
+title: "Aplicación del Procesamiento de Lenguaje Natural para Tareas de Reclutamiento y Marketing"
 # subtitle: "Poornima Institute of Engineering & Technology"
 author:
     - name: "Mario Graff"
