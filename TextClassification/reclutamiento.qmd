@@ -183,6 +183,55 @@ _ = tree.plot_tree(arbol, node_ids=True,
 ::: 
 ::::
 
+# Minería de opinión 
+
+## Minería de opinión (@dave2003mining)
+
+::: {.callout-note icon="false"} 
+### Definición (@liu2012sentiment)
+
+Estudia las opiniones, valoraciones, actitudes y emociones de las personas hacia entidades, individuos, eventos y sus atributos. 
+:::
+
+* Identificar opiniones de textos
+* Interés de las marcas en conocer las opiniones de los clientes
+* Datos masivos
+
+## Minería de opinión (2) 
+
+::: {.callout-note icon="false"}
+### Definición formal 
+
+* $e_i$ -       Entidad
+* $a_{ij}$ -    Aspecto of $e_i$
+* $o_{ijkl}$ -  Orientación de la opinión 
+* $h_k$ -       Fuente de la opinión
+* $t_l$ -       Tiempo
+:::
+
+::: {.callout-tip icon="false"}
+### Entidad 
+
+Producto, servicio, persona, evento, organización o tópico.
+:::
+
+::: {.callout-tip icon="false"}
+### Aspecto 
+
+Componente o atributo de la entidad
+:::
+
+## Tareas de la minería de opinión 
+
+::: {.callout-tip icon="false"}
+### Tasks 
+* Identificación de la entidad 
+* Identifación de los aspectos / considerando la entidad 
+* Fuente de la opinión y tiempo
+* Orientación de la opinión
+:::
+
+
 # Competencias
 
 ## Definición
