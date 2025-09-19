@@ -13,6 +13,7 @@ dependencies:
   - microtc
   - encexp
   - tabulate
+  - plotly
   - pip:
     - pandas
     - seaborn
