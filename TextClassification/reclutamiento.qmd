@@ -77,13 +77,13 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 ::: {.callout-tip icon="false" .column width=50%}
 ### Así la vemos
 
-![](img/robot-futuro.jpg){height=253}
+![](img/robot-futuro.jpg){height=300}
 :::
 
 ::: {.fragment .callout-tip icon="false" .column width=50%}
 ### Así está
 
-![](img/robot-juguete.png){fig-align="left"}
+![](img/robot-juguete.png){fig-align="left" height="300px"}
 :::
 ::::
 
@@ -247,7 +247,7 @@ Niño, Adolescente, Adulto
 ## Validación de requerimientos
 :::: {.columns}
 ::: {.column width="40%"}
-![](img/validacion req.png){height=350}
+![](img/validacion req.png){fig-align="center" height="400px"}
 :::
 ::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
@@ -261,9 +261,6 @@ Niño, Adolescente, Adulto
 ::::
 ## Anonimización
 :::: {.columns}
-::: {.column width="40%"}
-![](img/turismo_opinion.png){height=350}
-:::
 ::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
 ### @simon2021implementacion
@@ -273,11 +270,14 @@ Niño, Adolescente, Adulto
 * Analizar automátiamente los CV's
 :::
 :::
+::: {.column width="40%"}
+![](img/anonimizacion.png){fig-align="center" height="400px"}
+:::
 ::::
 ## Selección de candidatos
 :::: {.columns}
 ::: {.column width="40%"}
-![](img/turismo_opinion.png){height=350}
+![](img/seleccion%20candidatos.png){fig-align="center" height="400px"}
 :::
 ::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
@@ -291,23 +291,24 @@ Niño, Adolescente, Adulto
 ::::
 ## Simulación de entrevistas
 :::: {.columns}
-::: {.column width="40%"}
-![](img/turismo_opinion.png){height=350}
-:::
+
 ::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
 ### @devaraju2022natural 
 * Analizar las respuestas
 * Uso de chatbots para respuestas rápidas
-* Análisis de sentimiento para detectar competencias blandas
+* Análisis de coherencia, relevancia y sentimiento
 * Identificar palabras clave
 :::
 :::
+::: {.column width="40%"}
+![](img/entrevista.png){fig-align="center" height="400px"}
+:::
 ::::
-## Demanda
+## Mercado laboral
 :::: {.columns}
 ::: {.column width="40%"}
-![](img/turismo_opinion.png){height=350}
+![](img/busqueda%20empleo.png){fig-align="center" height="400px"}
 :::
 ::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
@@ -336,7 +337,8 @@ Estudia las opiniones, valoraciones, actitudes y emociones de las personas hacia
 * Datos masivos
 
 ## Minería de opinión (2) 
-
+:::: {.columns}
+::: {.column width="50%"}
 ::: {.callout-note icon="false"}
 ### Definición formal 
 
@@ -346,7 +348,8 @@ Estudia las opiniones, valoraciones, actitudes y emociones de las personas hacia
 * $h_k$ -       Fuente de la opinión
 * $t_l$ -       Tiempo
 :::
-
+:::
+::: {.column width="50%"}
 ::: {.callout-tip icon="false"}
 ### Entidad 
 
@@ -355,12 +358,14 @@ Producto, servicio, persona, evento, organización o tópico.
 
 ::: {.callout-tip icon="false"}
 ### Aspecto 
-
 Componente o atributo de la entidad
 :::
+:::
+::::
 
 ## Tareas de la minería de opinión 
-
+:::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
 ### Tasks 
 * Identificación de la entidad 
@@ -368,10 +373,12 @@ Componente o atributo de la entidad
 * Fuente de la opinión y tiempo
 * Orientación de la opinión
 :::
+:::
+::: {.column width="40%"}
+![](img/mineria_opinion_tasks.png){fig-align="center" width="300px"}
+:::
+::::
 
-::: {.column} 
-![](img/mineria_opinion_tasks.png){fig-align="center" width="50%"}
-::: 
 ## Preprocesamiento 
 
 :::: {.columns}
@@ -402,11 +409,11 @@ Componente o atributo de la entidad
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](img/turismo_opinion.png){height=350}
+![](img/turismo_opinion.png){fig-align="center" height="400px"}
 :::
 ::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
-### {@zhao2024business, @ticona2019mineria} 
+### @zhao2024business, @ticona2019mineria
 * Toma de decisiones para promoción turistica
 * Detectar comentarios de productos y servicios
 * Identificar patrones de preferencia
@@ -417,20 +424,21 @@ Componente o atributo de la entidad
 ::::
 
 
-## Percepción
+## Percepción pública
 
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
-### {@povedano2021estudio}
+### @povedano2021estudio
 * Segmentar grupos de intéres
 * Medir reacción pública
-* 
+* Identificar preocupaciones 
+* Captar el nivel de aceptación
 :::
 :::
 
 ::: {.column width="40%"}
-![](img/vacunacion.png){height=350}
+![](img/vacunacion.png){fig-align="center" height="400px"}
 :::
 ::::
 
@@ -439,12 +447,12 @@ Componente o atributo de la entidad
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](img/redes sociales.jpg){height=350}
+![](img/redes sociales.jpg){fig-align="center" height="400px"}
 :::
 
 ::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
-### {@majid2023sentiment, @wicaksono2025social} 
+### @majid2023sentiment, @wicaksono2025social
 * Identificación de fallas (audios, videos, comentarios, etc)
 * Mejoras para las aplicaciones
 * Proporcionar información para las empresas
@@ -460,7 +468,7 @@ Componente o atributo de la entidad
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.callout-tip icon="false"}
-### {@hannan2012data, @jabeen2024decoding}
+### @hannan2012data, @jabeen2024decoding
 * Medir satisfacción de los clientes
 * Conocer la reputación de los productos
 * Priorizar aspectos de mejora
@@ -470,7 +478,7 @@ Componente o atributo de la entidad
 :::
 
 ::: {.column width="40%"}
-![](img/reseña productos.png){height=253}
+![](img/reseña productos.png){fig-align="center" height="400px"}
 
 :::
 ::::
