@@ -274,7 +274,7 @@
     "href": "TextClassification/ropec2024.html#training-set",
     "title": "Is Traditional Machine Learning Useless?",
     "section": "Training set",
-    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nUn rojo detenido en Zaragoza y dos catalanes i...\nN\n\n\n1\nCarlos 'El Yoyas', imputado por un presunto ma...\nP\n\n\n2\n¿Cuál es la verdad sobre los cigarrillos elect...\nN\n\n\n3\n24 muertos y 15 heridos deja agresor en una Ig...\nP\n\n\n4\nCon su 2do aborto Abby optó por Depo-provera, ...\nN\n\n\n5\nPatrulla mata implicado en asesinato de raso p...\nP\n\n\n6\n#Locales La Defensoría entregó útiles escolare...\nN\n\n\n7\n#Rosario ⚖️📢 | El violento crimen tuvo lugar e...\nP",
+    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nsegundo paso \"prohíbe el consumo de alcohol y ...\nN\n\n\n1\nCae una red criminal con 81 detenidos que traf...\nP\n\n\n2\nEl presunto autor del ataque con drones contra...\nN\n\n\n3\nDetenido por el robo de 22.000 euros en joyas ...\nP\n\n\n4\n📣 Alertan sobre un grave peligro del consumo d...\nN\n\n\n5\nOtro #asesinatomachista. Esto se llama #Violen...\nP\n\n\n6\n#AHORASUENA Desde #USA Johnny Ventura - Apá...\nN\n\n\n7\nLO ÚLTIMO🔴: Dos supuestos ladrones son captura...\nP",
     "crumbs": [
       "Is Traditional Machine Learning Useless?"
     ]
@@ -534,7 +534,7 @@
     "href": "TextClassification/poornima.html#training-set",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nkwikcal, para que los clientes reserven solito...\n0\n\n\n1\n#VIOLENCIA \\nDe la violencia que se registra e...\n1\n\n\n2\nMuere un alto cargo de Estado Islámico en un b...\n0\n\n\n3\nUn detenido huye engrilletado y en calzoncillo...\n1\n\n\n4\nel pequeño planeta de castigo caerá  dondequie...\n0\n\n\n5\nCrimen #VillaGesell\\n\\nSe presentó un testigo ...\n1\n\n\n6\nHacia un cambio de modelo en el consumo de ene...\n0\n\n\n7\nDetienen a un hombre armado en la Colonia Univ...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nFirman Laredos convenio\\nde cooperación en seg...\n0\n\n\n1\nTiroteo en bar de Carolina del Sur deja 2 muer...\n1\n\n\n2\nSuspenso sobre la baja de retenciones a la soj...\n0\n\n\n3\n¡PENDIENTES! Reportan tiroteo en la estación d...\n1\n\n\n4\nQureridísimo @migueldlacruz\\nMe alegra que est...\n0\n\n\n5\nBALEAN A JOVEN AL INTERIOR DE LAS FONDAS DEL P...\n1\n\n\n6\n📝Recomendaciones SEIMC sobre el uso de pruebas...\n0\n\n\n7\nATACAN A PATRULLA DEL EJERCITO(AgenciAne)nUna ...\n1",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -674,7 +674,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-2",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(51, np.float64(7.906890595608518)),\n (61, np.float64(5.8479969065549495)),\n (21, np.float64(1.3219280948873617)),\n (10, np.float64(2.5224042154522373))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(56, np.float64(7.906890595608518)),\n (61, np.float64(5.8479969065549495)),\n (22, np.float64(1.3219280948873617)),\n (9, np.float64(2.5224042154522373))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -684,7 +684,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-3",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f16cfa7e9e0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f415a23efd0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2006,7 +2006,7 @@
     "href": "TextClassification/educacion.html#conjunto-de-entrenamiento",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Conjunto de entrenamiento",
-    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nRégimen no permitió que la misión de ONU viera...\nN\n\n\n1\nEl gobierno de Guatemala declaró el #04Sep un ...\nP\n\n\n2\nEn @ecdeportes: Fallece un niño mientras jugab...\nN\n\n\n3\nAcusan a una pareja por robar un millón de dól...\nP\n\n\n4\nSalud amigos!!!! Estoy con gripe, me hisoparon...\nN\n\n\n5\n#Inseguridad Boqueteros robaron en oficinas de...\nP\n\n\n6\n@RicardoSabogalU Esa ley no pisa callos, no es...\nN\n\n\n7\nJoven de 18 años se entregó luego de asesinar ...\nP",
+    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nNi por qué anuncien la orden de captura en con...\nN\n\n\n1\n🔴#ATENCIÓN | Cámara de seguridad capta el mome...\nP\n\n\n2\nEl @CBELDAPRESTIGIO busca jugadoras para la ba...\nN\n\n\n3\nDetenido un joven de 21 años en Lugo por tener...\nP\n\n\n4\n@Ian_Analytics @franoguera @tobonsanin ¿Cual #...\nN\n\n\n5\n#Cauca | Aterrador atraco en #Popayán: intimid...\nP\n\n\n6\nLas autoridades del @SolidaridadAyto que encab...\nN\n\n\n7\nMuere un policía en Venezuela por ataque con g...\nP",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -2306,7 +2306,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nDistintas organizaciones sociales se manifiest...\n0\n\n\n1\nRescatan a niño golpeado por madre y padrastro...\n1\n\n\n2\nTop story: La Policía cierra de emergencia un ...\n0\n\n\n3\nLo mas cabron es que fue porque los clientes d...\n1\n\n\n4\n@RubenAntonioOq1 @barreragranados @fercasa14 @...\n0\n\n\n5\nDescubren y clausuran un rastro clandestino qu...\n1\n\n\n6\n@michaelrosero Le robaron era para el Ecuatori...\n0\n\n\n7\n#Policiaca\\n\\nHallan cuerpo calcinado en Lomas...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nEl país en el que otro comisario revela que su...\n0\n\n\n1\nArrestan a adolescentes que golpearon a menor ...\n1\n\n\n2\nComo hago para denunciar un comerciante por ma...\n0\n\n\n3\nFamiliares de la mujer a la que su ex esposo p...\n1\n\n\n4\nMe parece que es una increíble opción de movil...\n0\n\n\n5\nEn sector del 9 de enero #CaliCo capturamos a ...\n1\n\n\n6\nBuenas noches\\nDepartamento de Cundinamarca\\nH...\n0\n\n\n7\nDetenidos un matrimonio, sus hijos y la novia ...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -2446,7 +2446,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(62, np.float64(7.906890595608518)),\n (57, np.float64(5.8479969065549495)),\n (37, np.float64(1.3219280948873617)),\n (33, np.float64(2.5224042154522373))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(61, np.float64(7.906890595608518)),\n (60, np.float64(5.8479969065549495)),\n (39, np.float64(1.3219280948873617)),\n (29, np.float64(2.5224042154522373))]",
     "crumbs": [
       "Text Classification"
     ]
@@ -2456,7 +2456,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f7fca3d8510&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f40804c6710&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
     "crumbs": [
       "Text Classification"
     ]
@@ -2717,6 +2717,16 @@
     "title": "Innovación en Reclutamiento y Marketing mediante Procesamiento del Lenguaje Natural",
     "section": "Reseñas de productos",
     "text": "Reseñas de productos\n\n\n\n\n\nHannan et al. (2012), Jabeen (2024)\n\n\n\nMedir satisfacción de los clientes\nConocer la reputación de los productos\nPriorizar aspectos de mejora\nRetroalimentación para publicidad y desarrollo\nConocer las expectativas de los consumidores",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante Procesamiento del Lenguaje Natural"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#conclusiones",
+    "href": "TextClassification/reclutamiento.html#conclusiones",
+    "title": "Innovación en Reclutamiento y Marketing mediante Procesamiento del Lenguaje Natural",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\n\n\n\nTécnicas\n\n\n\nMinería de opinión\nClasificación de texto\nIdentificación de entidades\nSimilitud semántica\n\n\n\n\n\n\n\n\nProblemas\n\n\n\nRecursos humanos\nClientes",
     "crumbs": [
       "Innovación en Reclutamiento y Marketing mediante Procesamiento del Lenguaje Natural"
     ]
