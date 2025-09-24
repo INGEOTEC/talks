@@ -20,6 +20,7 @@ website:
           - sidebar:educacion
           - sidebar:ropec2024
           - sidebar:competencias
+          - sidebar:reclutamiento
 
   sidebar:
     - id: RestMex2023f
@@ -58,6 +59,10 @@ website:
       title: Competencias internacionales para generar avances en inteligencia artificial
       contents:
         - TextClassification/competencias.qmd
+    - id: reclutamiento
+      title: Innovación en Reclutamiento y Marketing mediante PLN
+      contents:
+        - TextClassification/reclutamiento.qmd        
 
 
 format:

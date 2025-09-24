@@ -12,6 +12,9 @@ dependencies:
   - CompStats
   - microtc
   - encexp
+  - evomsa
+  - wordcloud
+  - matplotlib
   - tabulate
   - plotly
   - pip:

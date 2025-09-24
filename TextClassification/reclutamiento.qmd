@@ -1,6 +1,6 @@
 ---
 lang: es
-title: "Aplicación del Procesamiento de Lenguaje Natural para Tareas de Reclutamiento y Marketing"
+title: "Innovación en Reclutamiento y Marketing mediante Procesamiento del Lenguaje Natural"
 # subtitle: "Poornima Institute of Engineering & Technology"
 author:
     - name: "Mario Graff"
