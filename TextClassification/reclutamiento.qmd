@@ -41,8 +41,7 @@ import seaborn as sns
 ::: {.fragment .callout-note icon="false" .column width="50%"} 
 ### INFOTEC 
 
-Centro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC.
-Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.
+Centro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.
 :::
 ::::
 
@@ -444,7 +443,28 @@ Niño, Adolescente, Adulto
 ::::
 
 
+## Conclusiones
 
+:::: {.columns}
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### Técnicas
+* Minería de opinión
+* Clasificación de texto
+* Identificación de entidades
+* Similitud semántica
+:::
+:::
+
+::: {.column width="40%"}
+::: {.callout-tip icon="false"}
+### Problemas 
+
+* Recursos humanos
+* Clientes
+:::
+:::
+::::
 
 
 
