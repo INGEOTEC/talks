@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.31">
+
+  <meta name="author" content="Mario Graff">
+  <title>INGEOTEC – Innovación en Reclutamiento y Marketing mediante Procesamiento del Lenguaje Natural</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2c1b5f745a11cfad616ebade4a4a7d24.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+  
+  <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Innovación en Reclutamiento y Marketing mediante Procesamiento del Lenguaje Natural</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+<a href="https://mgraffg.github.io">Mario Graff</a> 
+</div>
+        <p class="quarto-title-affiliation">
+            INFOTEC
+          </p>
+    </div>
+</div>
+
+</section>
+<section>
+<section id="infotec" class="title-slide slide level1 center">
+<h1>INFOTEC</h1>
+
+</section>
+<section id="aguascalientes-méxico" class="slide level2">
+<h2>Aguascalientes, México</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="aguascalientes_edo.jpg"></p>
+</div><div class="fragment column" style="width:50%;">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>INFOTEC</strong></p>
+</div>
+<div class="callout-content">
+<p>Centro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.</p>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="introducción" class="title-slide slide level1 center">
+<h1>Introducción</h1>
+
+</section>
+<section id="definiciones" class="slide level2">
+<h2>Definiciones</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Inteligencia Artificial (IA)</strong></p>
+</div>
+<div class="callout-content">
+<p>Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Aprendizaje Computacional</strong></p>
+</div>
+<div class="callout-content">
+<p>Aprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.</p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fragment">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Procesamiento de Lenguaje Natural</strong></p>
+</div>
+<div class="callout-content">
+<p>Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="percepción-de-inteligencia-artificial-ia" class="slide level2">
+<h2>Percepción de Inteligencia Artificial (IA)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Así la vemos</strong></p>
+</div>
+<div class="callout-content">
+<p><img data-src="img/robot-futuro.jpg" height="300"></p>
+</div>
+</div>
+</div>
+</div><div class="fragment column" style="width:50%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Así está</strong></p>
+</div>
+<div class="callout-content">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="img/robot-juguete.png" class="quarto-figure quarto-figure-left" height="300"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="aprendizaje-computacional-1" class="title-slide slide level1 center">
+<h1>Aprendizaje computacional</h1>
+
+</section>
+<section id="aprendizaje-computacional-2" class="slide level2">
+<h2>Aprendizaje computacional</h2>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Tipos de aprendizaje computacional</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Aprendizaje no supervisado</li>
+<li>Aprendizaje supervisado</li>
+<li>Aprendizaje por refuerzo</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Aprendizaje no supervisado</strong></p>
+</div>
+<div class="callout-content">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/umap_prob1489.png" class="quarto-figure quarto-figure-center" height="253"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Aprendizaje por refuerzo</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Juegos</li>
+<li>Actividades</li>
+<li>Retroalimentación al final</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="clasificadores-lineales" class="slide level2">
+<h2>Clasificadores lineales</h2>
+<div id="d9984364" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+        <script type="text/javascript">
+        window.PlotlyConfig = {MathJaxConfig: 'local'};
+        if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}
+        </script>
+        <script type="module">import "https://cdn.plot.ly/plotly-3.1.0.min"</script>
+        
+</div>
+<div class="cell-output cell-output-display">
+<div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.1.0.min.js" integrity="sha256-Ei4740bWZhaUTQuD6q9yQlgVCMPBz6CZWhevDYPv93A=" crossorigin="anonymous"></script>                <div id="8f40e8b7-b2a0-4dce-b917-425611383ef2" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("8f40e8b7-b2a0-4dce-b917-425611383ef2")) {                    Plotly.newPlot(                        "8f40e8b7-b2a0-4dce-b917-425611383ef2",                        [{"hovertemplate":"Class=P\u003cbr\u003ex=%{x}\u003cbr\u003ey=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"P","marker":{"color":"#636efa","symbol":"circle"},"mode":"markers","name":"P","orientation":"v","showlegend":true,"x":{"dtype":"f8","bdata":"Wigv2xZ5BcB5Hb3qj7YFwDV\u002fZBanHAfA\u002fkuqUHb2BcDrcuRVadQFwGWrzlUzPwLAu4OkGHaQBsC9wbFLWAIFwJTkZdRPFwfA4q6uys1hBcB8N7lGOg4EwLGl6Tbs5gTAe+Gqp\u002fNJBsCvAAWeWcoJwA0Td+RyKAXANff\u002foZsWA8DQ3cEu\u002fPwEwKC8+y62LwXAABzYZTuZAcDixq82MrQEwGrHTpxnewLA3miBIIJZBMBzBsFxProJwMma6F\u002f\u002fawLA4D8zlJXYAsD8K4ltqA0EwK4dDr0kwAPAeAM4lKF\u002fBMDK3XlgxB0FwGUZrnNQDgXA1M74+P2yBMAsiWGwikcDwOscTbzeMAXAQGcifjbKBMAoQ3sebRgFwPtCchoQ7gbA2JOCznwABcDsNtISzWcGwHijnXQR2AfAdmn3OlW4BMCC4fJ1KykGwHU\u002f09GBywbAC4iTSLD6B8CCOKLOsj4DwLwoibEIrQHABwpETzK3BcABZqasIE4EwOIK4vA3twbAxI9zVz1YBMAPnPMXe6AFwA=="},"xaxis":"x","y":{"dtype":"f8","bdata":"IPwgJgFx1D+ArIDk+afGv+BFTuqzjcK\u002fwC6PrgJf1L+wDbjCi+nUP0AiSKL6uOc\u002fABzO+PDmtr8AAUhhzOnEP7D646aHgeK\u002fwA8oGU8gvb\u002fgl+uHZ6TkPwDQwve6Ko4\u002fQL7hZyYYzr+wZ1EuWF3gv+Djsk443PI\u002fCEnRC7Ro9T+YQh4qFvHpPzAYVB1W9dM\u002faHjgIkzu6z\u002fAQVMHFm\u002fgPwCUw9LPC9k\u002fACHFHjW22z8gNd1QexXBPwCLQMf7RLk\u002fANAYoJsWo78gEzJfrrDCv+BQPrYEw8A\u002f4FizrLSI1z+Q6omJdvjTP+Cm0IEGNsm\u002fAMr+uhsnyr9g7P9IlUzaP+iZ\u002fY8TB+o\u002fWIlpaIZ98T\u002fAn1s8+w6\u002fvwDQ8LjewbE\u002fCOAACgou4z\u002fAhAeBdTHRP7BmyKK1Ot+\u002f4NpC9k5RzT9wu8GWot3QP5ipU1lZHO6\u002fwGmf1B3i1b8AvjNh8CzIP+BeLfZJ8ts\u002fEKeKRWkD0L+oK8Sp5B7gPyBAHwdSLc2\u002faOGs4oaK4j\u002fASOo1oJK7Pw=="},"yaxis":"y","type":"scatter"},{"hovertemplate":"Class=N\u003cbr\u003ex=%{x}\u003cbr\u003ey=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"N","marker":{"color":"#EF553B","symbol":"circle"},"mode":"markers","name":"N","orientation":"v","showlegend":true,"x":{"dtype":"f8","bdata":"\u002fFCrYaWO9D9gpcUw8tbtP+SOhkXIbfc\u002fAM\u002f\u002fffR2xz+8rij23mjxP1jEd5qNiOQ\u002fbEdSVF6F8T\u002fIifMa0Pjnv9DL2ZLDtPA\u002fAOw1RBzpgb84n3SGO0Dgv9i6NKfVX+A\u002fcCsjB2D10D9ok+VglYTvP8CuqMMvQ8a\u002fiLCsFwmx7T\u002fALlJpCyHlP6BgXDywOM4\u002fmL4oOkI77j+AJTOA\u002fSenP+SxvL9L3PE\u002fYJm60qTn1j\u002f8xo10XMX0P8D+NafNfu0\u002fKD4HFRTg5j+QGK98Os7sP2AbE9v4T\u002fU\u002fdFra88Hs+D9YfOMcegbqP6BcM0OvjtO\u002fgMBs37xwsb+g5bmWjEXIv6BEMPt+dsE\u002fCPadmZYU9j+IbH\u002fj8tDiP4g9FobI0ek\u002fWPupKfOH8z9YxpeaQhXqPwAdqI+Ke88\u002fwIWhPgdNxT8wZne1Sb\u002fdP9CXBuCOgew\u002fADOs\u002fpiCzT+AXx4whovmv0AqQenI2NY\u002fwNfxHWo+1T\u002fgx2TP6hPYP+h7NI\u002f7j+Q\u002fCHkYF80B7b9Q9VVt1CLTPyBRDvnhPwRASBvpX86k9j+wbsfV8+4EQITrPSVki\u002f8\u002fJvxf58\u002fMAkBQwBSlIi0LQIDSJj7vreA\u002fxACQNfB1B0A6ue1p4JECQFxh54eBVQdAxE+zfqCW+j8McZgBvNr8P24zpcohUwFAIHJN0uKJ9T\u002f4a\u002fVF9l\u002f5P\u002fxXZj+neP4\u002f2M63J+0x\u002fz+kvmdIfeULQAQf2Fh7XQ5AQPyK+ArQ9D\u002fQF0rMK2wDQKR6fcgbL\u002fM\u002fDF7OE9b\u002fC0A0hNbVYjj2P4Kdc+gUNAJA0GsuRKjpBEDYVfJz2SL0P1x1Cxd6qPQ\u002fgIPukSb9AEC830NToRoDQNgd\u002f+++uwZA7DG\u002fbmvYCUA67yE+h0YBQKxLn9FIG\u002fc\u002fUNqa\u002fC6A\u002fD8E8QX\u002fq5wIQK7A7AlpJwFAuDlNMkh7\u002fj+YKx2Jj7XyP9TMJztj3ABAqPjGimODAkDsfLDhm8H+P0gb6V\u002fOpPY\u002fvFgJKA2BBEBqTEGZl1kDQJiZNt8SG\u002f8\u002fAL6iQkZv+D8gshiTwjr8P\u002fDGCsFBav4\u002fqEYVrTY+9j8="},"xaxis":"x","y":{"dtype":"f8","bdata":"wGilptXs5T8wgGMNlF\u002fUP+jwisXrIuA\u002f+FbG5aN+6r8AjI\u002feXxizP3CswoaOxNq\u002fcI1XGVgk0j8EKGWLCBTwv8Asn3X2Os0\u002fUGfKqXwj579c088Ba0H0vwC03aWDnrq\u002f6K\u002fjEeaZ4b8A+m0ZEPS\u002fv2AJ6AaIT9C\u002foDx\u002f0kTm3T9Q5LAUDpfWv3DRRvngWdW\u002fUCUyx3Jh4b\u002f4tbBuxa7iv8Dz3TRzqbW\u002fQJ\u002fWJBKlsb\u002fQolWed\u002frUvyBqrLfzY8e\u002fANor40MUwz8wUe2gNwbVP8DaJbDWSc8\u002fQLGBOaUe0T8gXp+jqejEv+BbVpObkde\u002fkCOEJcWQ5r+IKSi\u002f6MTlvxB5CoMbGdS\u002fAPFHQOrw2r8wvqupkP7ev+DKk1H32sg\u002fMCjxfXAW2j8Qh02HdM\u002fXv7DbavOAL9G\u002feNix\u002flfS5b+YR5cOeHblv4B+39pSpaG\u002fwAcKLnXh2b9o7IoyKzLwv7CzSTY5KOC\u002fADYXyEQ4y79w\u002fexTGcTSvwAyscn1KZI\u002fkH1It+ox6L\u002fAaxZ3V1TWvwAMiRnFK4S\u002fYLvU97Zl4r+gQwBdggLWPwCMr+9SAce\u002fgO6QNhWdpL+g+QI7dKDhP9THxyyKFfO\u002fUAqhFYPA1j8AWRTk3jXPv7B7d7OhDOk\u002foDC8KFcBzz8AEx5xA5rLvwB7aBrrrss\u002fQNqYJrLb6L8QtkqavEThv4B8j542h74\u002fgBQVQZZ5pT\u002f81xsL1M\u002fyP8Bt1sb6d9A\u002fqDp7e1Zb6L9Av2oMXTTYP+hKQw8aZeO\u002f8DY8N6973T+goybVwSnKv8ArHnB8cNU\u002fsCQRZufy4T9AYCIUkQDHv8DAQin\u002f3b2\u002f4AarXWrYyr+gNGmXqLzdPyA1E\u002fhoBNg\u002fkEyxh5T89T\u002fgzkRvwM\u002fLv2CP3OFeW8K\u002fgIvcnmP+37+IdEBBzATmP2C1gq2f7cE\u002fAKHNJes9qT8AGsahZh7FvzA5sYKQ09c\u002f4CXzluKBxz\u002fAodi8YzDaP2C71Pe2ZeK\u002f4DEXOoDI0T\u002fgm+pM0IHTP0ByvPkOAcg\u002f4EJ0hTEF2L+ALCgJGDC0P4DIm3NU270\u002fYKoh5x0X0r8="},"yaxis":"y","type":"scatter"},{"line":{"color":"darkgrey"},"showlegend":false,"x":{"dtype":"f8","bdata":"Wigv2xZ5BcB5Hb3qj7YFwDV\u002fZBanHAfA\u002fkuqUHb2BcDrcuRVadQFwGWrzlUzPwLAu4OkGHaQBsC9wbFLWAIFwJTkZdRPFwfA4q6uys1hBcB8N7lGOg4EwLGl6Tbs5gTAe+Gqp\u002fNJBsCvAAWeWcoJwA0Td+RyKAXANff\u002foZsWA8DQ3cEu\u002fPwEwKC8+y62LwXAABzYZTuZAcDixq82MrQEwGrHTpxnewLA3miBIIJZBMBzBsFxProJwMma6F\u002f\u002fawLA4D8zlJXYAsD8K4ltqA0EwK4dDr0kwAPAeAM4lKF\u002fBMDK3XlgxB0FwGUZrnNQDgXA1M74+P2yBMAsiWGwikcDwOscTbzeMAXAQGcifjbKBMAoQ3sebRgFwPtCchoQ7gbA2JOCznwABcDsNtISzWcGwHijnXQR2AfAdmn3OlW4BMCC4fJ1KykGwHU\u002f09GBywbAC4iTSLD6B8CCOKLOsj4DwLwoibEIrQHABwpETzK3BcABZqasIE4EwOIK4vA3twbAxI9zVz1YBMAPnPMXe6AFwPxQq2GljvQ\u002fYKXFMPLW7T\u002fkjoZFyG33PwDP\u002f330dsc\u002fvK4o9t5o8T9YxHeajYjkP2xHUlRehfE\u002fyInzGtD457\u002fQy9mSw7TwPwDsNUQc6YG\u002fOJ90hjtA4L\u002fYujSn1V\u002fgP3ArIwdg9dA\u002faJPlYJWE7z\u002fArqjDL0PGv4iwrBcJse0\u002fwC5SaQsh5T+gYFw8sDjOP5i+KDpCO+4\u002fgCUzgP0npz\u002fksby\u002fS9zxP2CZutKk59Y\u002f\u002fMaNdFzF9D\u002fA\u002fjWnzX7tPyg+BxUU4OY\u002fkBivfDrO7D9gGxPb+E\u002f1P3Ra2vPB7Pg\u002fWHzjHHoG6j+gXDNDr47Tv4DAbN+8cLG\u002foOW5loxFyL+gRDD7fnbBPwj2nZmWFPY\u002fiGx\u002f4\u002fLQ4j+IPRaGyNHpP1j7qSnzh\u002fM\u002fWMaXmkIV6j8AHaiPinvPP8CFoT4HTcU\u002fMGZ3tUm\u002f3T\u002fQlwbgjoHsPwAzrP6Ygs0\u002fgF8eMIaL5r9AKkHpyNjWP8DX8R1qPtU\u002f4Mdkz+oT2D\u002foezSP+4\u002fkPwh5GBfNAe2\u002fUPVVbdQi0z8gUQ754T8EQEgb6V\u002fOpPY\u002fsG7H1fPuBECE6z0lZIv\u002fPyb8X+fPzAJAUMAUpSItC0CA0iY+763gP8QAkDXwdQdAOrntaeCRAkBcYeeHgVUHQMRPs36glvo\u002fDHGYAbza\u002fD9uM6XKIVMBQCByTdLiifU\u002f+Gv1RfZf+T\u002f8V2Y\u002fp3j+P9jOtyftMf8\u002fpL5nSH3lC0AEH9hYe10OQED8ivgK0PQ\u002f0BdKzCtsA0Cken3IGy\u002fzPwxezhPW\u002fwtANITW1WI49j+CnXPoFDQCQNBrLkSo6QRA2FXyc9ki9D9cdQsXeqj0P4CD7pEm\u002fQBAvN9DU6EaA0DYHf\u002fvvrsGQOwxv25r2AlAOu8hPodGAUCsS5\u002fRSBv3P1DamvwugPw\u002fBPEF\u002f6ucCECuwOwJaScBQLg5TTJIe\u002f4\u002fmCsdiY+18j\u002fUzCc7Y9wAQKj4xopjgwJA7Hyw4ZvB\u002fj9IG+lfzqT2P7xYCSgNgQRAakxBmZdZA0CYmTbfEhv\u002fPwC+okJGb\u002fg\u002fILIYk8I6\u002fD\u002fwxgrBQWr+P6hGFa02PvY\u002f"},"y":{"dtype":"f8","bdata":"mInbZLgTAMAc6GYBH2MAwAS1ih+lMQLAvhk2Kai1AMAypPD2rIkAwBh4GnTw0fe\u002fgPTAepF8AcAKDAHRsPT+v6\u002fZbB6\u002fKgLAozSSsUnr\u002f7+U5JVPEX78vxY6dfzZrf6\u002fJUZh0H4hAcAKQo+lUacFwFBLBKofV\u002f+\u002fH2s2k2X++b+pNedD2Ob+v9wFdrviaf+\u002fxfLJPjIl9r\u002fnaeaEzyr+v1jyS6p2bfi\u002fGNYu4olA\u002fb9uYD7+g5IFwBBQLZqpRfi\u002f56ubICxe+b+3wjOLmHz8v\u002fvBi8BatPu\u002fEjUQRgWj\u002fb\u002f+3Yylhzv\u002fv9nbO2OcE\u002f+\u002fpKYRP7Mn\u002fr97NrB1znz6v0hpGM\u002fgbP+\u002fqAUmmq9j\u002fr9QJ1Gjuy3\u002fv6DG9sF39QHArofbfuTv\u002fr85AuvFDEgBwJ+0oeK3IwPAT11NQX81\u002fr\u002f8cY4fJ\u002fcAwOt\u002fCIzVyAHAGjsYd29QA8DLLYA49mX6v\u002f+e2KZZWPa\u002f0TggwvBjAMDWRzSfIyP9v670au2grgHATpNJ30I9\u002fb952j6YmUYAwP4ZtF1C7whAGGXGwTpLBUDxOylbBsoKQFxYJM7tGvs\u002fG+GGrN\u002fmBkAwgX1l7kkCQIwAxSpH+QZADxc5FDRX3z\u002fnZ+SbjnIGQDQQfefOIvc\u002fbNoEnaGk6T+s7w6BH\u002fIAQHcgWgbzyvw\u002fdVG9tfbVBUCiIkQT6rjzPw8QdeL8PgVArTBuFyx7AkD+UZX0MzL8P8NWYxifawVAFLB1JFpA+D9di9PdajEHQEzQCUaBtv4\u002fNMNxaZgSCUBgh7dxxC4FQBjyQx6GCwNA8HvW5L\u002f1BEDtD+fwHGwJQHl1651bwQtAXNEQAesPBEBmDaVBXgDxP25YRTWm6PU\u002fshsRM95l8z\u002fhDTEp3CL6P7BsgXgX6wlA9IG6h\u002fq7AUDUBwkV5\u002f4DQNBdgteaRQhA30XHDbEUBEAeiY1CVGb8P2JLN6V+wfo\u002fljomaRB2AECEdojx\u002fdwEQMXDmrHNFPw\u002f9vVwUmyD4T\u002f1S+TztLH+P+dZ87cxLf4\u002fuO2qWncX\u002fz9dQ5COVEwCQJBvmgljVdI\u002fzEQu+\u002fR+\u002fT9MOEuOH+gSQPVRL\u002f46SApAa6HN0S9ZE0AOuNyV5AMQQNOS04B6+BFAxM5XMFNhF0CqquKhVwsBQM1\u002fB+gF+xRA9IQAtGrSEUBoaEPfE+YUQPVrHIlk1AxAiI09oQlLDkD7rhOykAQRQAzw8teDkQlACbCWV8ILDED7V5fKWlYPQOZDOPcBzg9Arbzka2LYF0AkK9KmiXAZQIqej2p+GQlAy3XfTGVfEkBFt223OgwIQDSG7Fdm6RdAuNBc6jUCCkAldseY15URQLZLy13EVRNAaB5OXqSpCEBEWPf78P8IQFoPmGkJzRBAmnDsJrwqEkC8uKi6xoIUQNKpp7VIhRZAr1Io7Wz8EEDeKLP+vpQKQHVwNd6OEA5A3UV1Kl65FUDxI6oxVOgQQE0pI2UNWA9ANekjOru9B0AzLeaz4LcQQIi3tnAPyRFAoaAgiHiFD0D1US\u002f+OkgKQM4h7OI1EhNAeIMIp2VTEkDazKG8P78PQIx17X9RcAtAIoqMF7njDUB5umagDk0PQO7YNmD5BQpA"},"type":"scatter"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"},"margin":{"b":0,"l":0,"r":0,"t":30}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{},"visible":true,"showticklabels":false},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{},"visible":true,"showticklabels":false},"legend":{"title":{"text":"Class"},"tracegroupgap":0},"height":400},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('8f40e8b7-b2a0-4dce-b917-425611383ef2');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };            </script>        </div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="minería-de-opinión" class="title-slide slide level1 center">
+<h1>Minería de opinión</h1>
+
+</section>
+<section id="minería-de-opinión-dave2003mining" class="slide level2">
+<h2>Minería de opinión <span class="citation" data-cites="dave2003mining">Dave, Lawrence, y Pennock (<a href="#/referencias" role="doc-biblioref" onclick="">2003</a>)</span></h2>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Definición <span class="citation" data-cites="liu2012sentiment">Liu (<a href="#/referencias" role="doc-biblioref" onclick="">2012</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<p>Estudia las opiniones, valoraciones, actitudes y emociones de las personas hacia entidades, individuos, eventos y sus atributos.</p>
+</div>
+</div>
+</div>
+<ul>
+<li>Identificar opiniones de textos</li>
+<li>Interés de las marcas en conocer las opiniones de los clientes</li>
+<li>Datos masivos</li>
+</ul>
+</section>
+<section id="minería-de-opinión-2" class="slide level2">
+<h2>Minería de opinión (2)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Definición formal</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><span class="math inline">\(e_i\)</span> - Entidad</li>
+<li><span class="math inline">\(a_{ij}\)</span> - Aspecto of <span class="math inline">\(e_i\)</span></li>
+<li><span class="math inline">\(o_{ijkl}\)</span> - Orientación de la opinión</li>
+<li><span class="math inline">\(h_k\)</span> - Fuente de la opinión</li>
+<li><span class="math inline">\(t_l\)</span> - Tiempo</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Entidad</strong></p>
+</div>
+<div class="callout-content">
+<p>Producto, servicio, persona, evento, organización o tópico.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Aspecto</strong></p>
+</div>
+<div class="callout-content">
+<p>Componente o atributo de la entidad</p>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="tareas-de-la-minería-de-opinión" class="slide level2">
+<h2>Tareas de la minería de opinión</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Tasks</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Identificación de la entidad</li>
+<li>Identifación de los aspectos / considerando la entidad</li>
+<li>Fuente de la opinión y tiempo</li>
+<li>Orientación de la opinión</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/mineria_opinion_tasks.png" class="quarto-figure quarto-figure-center" width="300"></p>
+</figure>
+</div>
+</div></div>
+<!-- ## Preprocesamiento 
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+### Técnicas
+* Tokenización
+* Lemmatización
+* Stopwords
+* Etiquetado POS
+* Análisis sintáctico 
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+### Función 
+* Dividir texto
+* Reducir palabras
+* Eliminar palabras
+* Relaciona palabras
+:::
+:::
+:::: -->
+</section></section>
+<section>
+<section id="clasificación-de-textos" class="title-slide slide level1 center">
+<h1>Clasificación de Textos</h1>
+
+</section>
+<section id="clasificación-de-textos-1" class="slide level2">
+<h2>Clasificación de Textos</h2>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Definición</strong></p>
+</div>
+<div class="callout-content">
+<p>El objetivo es la <strong>clasificación</strong> de <strong>documentos</strong> en un número fijo de categorías predefinidas.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Polaridad</strong></p>
+</div>
+<div class="callout-content">
+<p>El día de mañana no podré ir con ustedes a la librería</p>
+</div>
+</div>
+</div>
+<div class="fragment" style="font-size: 100%; text-align: center;">
+<p><strong>Negativa</strong></p>
+</div>
+</section>
+<section id="tareas-de-clasificación-de-textos" class="slide level2">
+<h2>Tareas de Clasificación de Textos</h2>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Polaridad</strong></p>
+</div>
+<div class="callout-content">
+<p>Positiva, Negativa, Neutral</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Emoción (Multiclase)</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Ira, Alegría, …</li>
+<li>Intensidad de una emoción</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Evento (Binaria)</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Violento</li>
+<li>Delito</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="perfil" class="slide level2">
+<h2>Perfil</h2>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Género</strong></p>
+</div>
+<div class="callout-content">
+<p>Hombre, Mujer, No binario, …</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Edad</strong></p>
+</div>
+<div class="callout-content">
+<p>Niño, Adolescente, Adulto</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Variedad de Lenguaje</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Español: España, Cuba, Argentina, México, …</li>
+<li>Inglés: Estados Unidos, Inglaterra, …</li>
+</ul>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="reclutamiento" class="title-slide slide level1 center">
+<h1>Reclutamiento</h1>
+
+</section>
+<section id="validación-de-requerimientos" class="slide level2">
+<h2>Validación de requerimientos</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/validacion req.png" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong><span class="citation" data-cites="santana2024estudio">Santana et&nbsp;al. (<a href="#/referencias" role="doc-biblioref" onclick="">2024</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Identificación de datos</li>
+<li>Filtrar candidatos</li>
+<li>Clasificar perfiles</li>
+<li>Identificar equivalencias</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="anonimización" class="slide level2">
+<h2>Anonimización</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong><span class="citation" data-cites="simon2021implementacion">Simón Ramos et&nbsp;al. (<a href="#/referencias" role="doc-biblioref" onclick="">2021</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Identificar entidades personales</li>
+<li>Anonimizar para evitar sesgos (genero, edad, escuela, etc.)</li>
+<li>Seguridad para almacenamiento interno</li>
+<li>Analizar automátiamente los CV’s</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/anonimizacion.png" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="selección-de-candidatos" class="slide level2">
+<h2>Selección de candidatos</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/seleccion candidatos.png" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong><span class="citation" data-cites="gonzalez2025seleccion">González-González y Herrera (<a href="#/referencias" role="doc-biblioref" onclick="">2025</a>)</span>, <span class="citation" data-cites="mohanty2023resumate">Mohanty et&nbsp;al. (<a href="#/referencias" role="doc-biblioref" onclick="">2023</a>)</span>, <span class="citation" data-cites="dugyala2024smart">Dugyala et&nbsp;al. (<a href="#/referencias" role="doc-biblioref" onclick="">2024</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Agilizar proceso</li>
+<li>Reclutamiento organizado</li>
+<li>Identificación de habilidades y experiencias</li>
+<li>Normalización de CV’s</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="simulación-de-entrevistas" class="slide level2">
+<h2>Simulación de entrevistas</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong><span class="citation" data-cites="devaraju2022natural">Devaraju (<a href="#/referencias" role="doc-biblioref" onclick="">2022</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Analizar las respuestas</li>
+<li>Uso de chatbots para respuestas rápidas</li>
+<li>Análisis de coherencia, relevancia y sentimiento</li>
+<li>Identificar palabras clave</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/entrevista.png" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="mercado-laboral" class="slide level2">
+<h2>Mercado laboral</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/busqueda empleo.png" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong><span class="citation" data-cites="chen2025nlp">Chen et&nbsp;al. (<a href="#/referencias" role="doc-biblioref" onclick="">2025</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Identificar tendencias</li>
+<li>Habilidades y requisitos frecuentes</li>
+<li>Detectar interrelaciones (competencias-roles)</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="análisis-de-sentimientos" class="title-slide slide level1 center">
+<h1>Análisis de sentimientos</h1>
+
+</section>
+<section id="turismo" class="slide level2">
+<h2>Turismo</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/turismo_opinion.png" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong><span class="citation" data-cites="zhao2024business">Zhao, Hao, y Li (<a href="#/referencias" role="doc-biblioref" onclick="">2024</a>)</span>, <span class="citation" data-cites="ticona2019mineria">Ticona Nina (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Toma de decisiones para promoción turistica</li>
+<li>Detectar comentarios de productos y servicios</li>
+<li>Identificar patrones de preferencia</li>
+<li>Agrupar opiniones similares</li>
+<li>Visualizar oportunidades de mejora</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="percepción-pública" class="slide level2">
+<h2>Percepción pública</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong><span class="citation" data-cites="povedano2021estudio">Povedano Álvarez, Portela Garcı́a-Miguel, y Armas Vega (<a href="#/referencias" role="doc-biblioref" onclick="">2021</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Segmentar grupos de intéres</li>
+<li>Medir reacción pública</li>
+<li>Identificar preocupaciones</li>
+<li>Captar el nivel de aceptación</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/vacunacion.png" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="redes-sociales" class="slide level2">
+<h2>Redes sociales</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/redes sociales.jpg" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong><span class="citation" data-cites="majid2023sentiment">Majid, Nugraha, y Adhinata (<a href="#/referencias" role="doc-biblioref" onclick="">2023</a>)</span>, <span class="citation" data-cites="wicaksono2025social">Wicaksono y Sudarmiatin (<a href="#/referencias" role="doc-biblioref" onclick="">2025</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Identificación de fallas (audios, videos, comentarios, etc)</li>
+<li>Mejoras para las aplicaciones</li>
+<li>Proporcionar información para las empresas</li>
+<li>Comprender percepción de clientes</li>
+<li>Conocer las sugerencias (fortalecer contenido verificado, preocupación por fraudes, etc)</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="reseñas-de-productos" class="slide level2">
+<h2>Reseñas de productos</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong><span class="citation" data-cites="hannan2012data">Hannan et&nbsp;al. (<a href="#/referencias" role="doc-biblioref" onclick="">2012</a>)</span>, <span class="citation" data-cites="jabeen2024decoding">Jabeen (<a href="#/referencias" role="doc-biblioref" onclick="">2024</a>)</span></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Medir satisfacción de los clientes</li>
+<li>Conocer la reputación de los productos</li>
+<li>Priorizar aspectos de mejora</li>
+<li>Retroalimentación para publicidad y desarrollo</li>
+<li>Conocer las expectativas de los consumidores</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/reseña productos.png" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div></div>
+</section></section>
+<section id="referencias" class="title-slide slide level1 smaller scrollable">
+<h1>Referencias</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-chen2025nlp" class="csl-entry" role="listitem">
+Chen, Yirui, Xinrui Zhan, Wencan Yang, Xueying Yan, Yuxin Du, y Tieniu Zhao. 2025. <span>«A NLP analysis of digital demand for healthcare jobs in China»</span>. <em>Scientific Reports</em> 15 (1): 14518.
+</div>
+<div id="ref-dave2003mining" class="csl-entry" role="listitem">
+Dave, Kushal, Steve Lawrence, y David M Pennock. 2003. <span>«Mining the peanut gallery: Opinion extraction and semantic classification of product reviews»</span>. En <em>Proceedings of the 12th international conference on World Wide Web</em>, 519-28.
+</div>
+<div id="ref-devaraju2022natural" class="csl-entry" role="listitem">
+Devaraju, Sudheer. 2022. <span>«Natural Language Processing (NLP) in AI-Driven Recruitment Systems»</span>. <em>IJSRCSEIT, DOI</em> 10.
+</div>
+<div id="ref-dugyala2024smart" class="csl-entry" role="listitem">
+Dugyala, Rakshitha, Vinay Kumar Gaddam, Harika Eroju, Mohana Varma Dantuluri, y Madhubabu Ch. 2024. <span>«Smart Recruitment System»</span>. En <em>2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT)</em>, 1-7. IEEE.
+</div>
+<div id="ref-gonzalez2025seleccion" class="csl-entry" role="listitem">
+González-González, Carlos, y Pedro Javier Herrera. 2025. <span>«Selecci<span>ó</span>n de candidatos usando l<span>ó</span>gica borrosa, PLN y aprendizaje profundo»</span>. <em>Jornadas de Autom<span>á</span>tica</em>, n.º 46.
+</div>
+<div id="ref-hannan2012data" class="csl-entry" role="listitem">
+Hannan, Shaikh Abdul, Jameel Ahmed, Naveed Ahmed, y Rizwan Alam Thakur. 2012. <span>«Data mining and natural language processing methods for extracting opinions from customer reviews»</span>. <em>International Journal of Computational Intelligence and Information Security</em> 3 (6): 52-58.
+</div>
+<div id="ref-jabeen2024decoding" class="csl-entry" role="listitem">
+Jabeen, Shaista. 2024. <span>«Decoding consumer sentiments: Advanced NLP techniques for analyzing smartphone reviews»</span>. <em>Revista de Administra<span>ç</span><span>ã</span>o Contempor<span>â</span>nea</em> 28 (04): e240102.
+</div>
+<div id="ref-liu2012sentiment" class="csl-entry" role="listitem">
+Liu, Bing. 2012. <span>«Sentiment analysis and opinion mining»</span>. <em>Morgan &amp; Claypool Publishers</em> 168.
+</div>
+<div id="ref-majid2023sentiment" class="csl-entry" role="listitem">
+Majid, Abdul, Dian Nugraha, y Faisal Dharma Adhinata. 2023. <span>«Sentiment analysis on TikTok application reviews using natural language processing approach»</span>. <em>Journal of Embedded Systems, Security and Intelligent Systems</em>, 32-38.
+</div>
+<div id="ref-mohanty2023resumate" class="csl-entry" role="listitem">
+Mohanty, Saswat, Anshuman Behera, Sushruta Mishra, Ahmed Alkhayyat, Deepak Gupta, y Vandana Sharma. 2023. <span>«Resumate: A prototype to enhance recruitment process with NLP based resume parsing»</span>. En <em>2023 4th International Conference on Intelligent Engineering and Management (ICIEM)</em>, 1-6. IEEE.
+</div>
+<div id="ref-povedano2021estudio" class="csl-entry" role="listitem">
+Povedano Álvarez, Daniel, Javier Portela Garcı́a-Miguel, y Esteban Alejandro Armas Vega. 2021. <span>«Estudio de la percepci<span>ó</span>n p<span>ú</span>blica de la vacuna contra la COVID-19 mediante t<span>é</span>cnicas de PLN y de aprendizaje autom<span>á</span>tico»</span>.
+</div>
+<div id="ref-santana2024estudio" class="csl-entry" role="listitem">
+Santana, Sonia Raquel, Lucrecia R Perero, Noelia Rodrı́guez, Alejandro Fernández, y Rubén Leandro Antonelli. 2024. <span>«Estudio comparativo sobre la aplicaci<span>ó</span>n de librer<span>ı́</span>as PLN para reconocimiento de entidades en la validaci<span>ó</span>n de requerimientos»</span>. En <em>XXVI Workshop de Investigadores en Ciencias de la Computaci<span>ó</span>n (WICC)(Puerto Madryn, 18 y 19 de abril de 2024)</em>.
+</div>
+<div id="ref-simon2021implementacion" class="csl-entry" role="listitem">
+Simón Ramos, José Manuel et&nbsp;al. 2021. <span>«Implementaci<span>ó</span>n de una herramienta basada en PLN para la detecci<span>ó</span>n y anonimizaci<span>ó</span>n de datos personales en documentos»</span>.
+</div>
+<div id="ref-ticona2019mineria" class="csl-entry" role="listitem">
+Ticona Nina, Roger. 2019. <span>«Miner<span>ı́</span>a de opiniones basado en aprendizaje supervisado en la evaluaci<span>ó</span>n de destinos tur<span>ı́</span>sticos de la regi<span>ó</span>n de Puno»</span>.
+</div>
+<div id="ref-wicaksono2025social" class="csl-entry" role="listitem">
+Wicaksono, Ahmad Tibrizi Soni, y Sudarmiatin Sudarmiatin. 2025. <span>«Social Media Sentiment Analysis: Customer Perception of Digital Marketing»</span>. <em>Asian Journal of Applied Business and Management</em> 4 (2): 437-50.
+</div>
+<div id="ref-zhao2024business" class="csl-entry" role="listitem">
+Zhao, Ruochun, Yue Hao, y Xuechen Li. 2024. <span>«Business analysis: User attitude evaluation and prediction based on hotel user reviews and text mining»</span>. <em>arXiv preprint arXiv:2412.16744</em>.
+</div>
+</div>
+</section>
+
+<section id="gracias" class="title-slide slide level1 center">
+<h1>¡Gracias!</h1>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p><a href="https://mgraffg.github.io" class="uri">https://mgraffg.github.io</a></p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copiado");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copiado");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/INGEOTEC\.github\.io\/talks\/");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
