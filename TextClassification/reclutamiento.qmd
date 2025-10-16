@@ -1,7 +1,7 @@
 ---
 lang: es
-title: "Innovación en Reclutamiento y Marketing mediante Procesamiento del Lenguaje Natural"
-# subtitle: "Poornima Institute of Engineering & Technology"
+title: "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+# subtitle: ""
 author:
     - name: "Mario Graff"
       url: https://mgraffg.github.io
