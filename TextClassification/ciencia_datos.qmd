@@ -202,7 +202,7 @@ Entender las **variaciones del lenguaje** en las redes sociales es primordial ya
 
 
 
- ## Preprocesamiento 
+## Preprocesamiento 
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -272,7 +272,7 @@ Positiva, Negativa, Neutral
 ![](img/emociones_animado.png){fig-align="center"}
 ::::
 :::::
-## Perfil
+## Perfilado de autores
 :::::{.columns}
 ::::{.column}
 ::: {.callout-tip icon=false} 
