@@ -17,10 +17,13 @@ website:
         menu:
           - sidebar:general
           - sidebar:poornima
+      - text: Divulgación
+        menu:
           - sidebar:educacion
           - sidebar:ropec2024
           - sidebar:competencias
           - sidebar:reclutamiento
+          - sidebar:plndatos
 
   sidebar:
     - id: RestMex2023f
@@ -62,7 +65,11 @@ website:
     - id: reclutamiento
       title: Innovación en Reclutamiento y Marketing mediante PLN
       contents:
-        - TextClassification/reclutamiento.qmd        
+        - TextClassification/reclutamiento.qmd
+    - id: plndatos
+      title: El Procesamiento de Lenguaje Natural en la Ciencia de Datos
+      contents:
+        - TextClassification/ciencia_datos.qmd          
 
 
 format:
