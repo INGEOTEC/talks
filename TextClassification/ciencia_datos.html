@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.31">
+
+  <meta name="author" content="Mario Graff">
+  <title>INGEOTEC – El Procesamiento de Lenguaje Natural en la Ciencia de Datos</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2c1b5f745a11cfad616ebade4a4a7d24.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="img/mapa_2.jpeg" data-background-opacity="0.4" data-background-position="0% 0%" data-background-size="100%" data-font-size="80%" class="quarto-title-block center">
+  <h1 class="title">El Procesamiento de Lenguaje Natural en la Ciencia de Datos</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+<a href="https://mgraffg.github.io">Mario Graff</a> 
+</div>
+        <p class="quarto-title-affiliation">
+            INFOTEC
+          </p>
+    </div>
+</div>
+
+</section>
+<section>
+<section id="ingeotec" class="title-slide slide level1 center">
+<h1>INGEOTEC</h1>
+
+<img data-src="../IberLEF2023/ingeotec-cuatro.png" width="200" class="r-stretch"><div style="font-size: 70%; text-align: center;">
+<p>GitHub: <a href="https://github.com/INGEOTEC" class="uri">https://github.com/INGEOTEC</a><br>
+WebPage: <a href="https://ingeotec.github.io/" class="uri">https://ingeotec.github.io/</a></p>
+</div>
+</section>
+<section id="aguascalientes-méxico" class="slide level2">
+<h2>Aguascalientes, México</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="aguascalientes_edo.jpg"></p>
+</div><div class="fragment column" style="width:50%;">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>INFOTEC</strong></p>
+</div>
+<div class="callout-content">
+<p>Centro de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.</p>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="introducción" class="title-slide slide level1 center">
+<h1>Introducción</h1>
+
+</section>
+<section id="definiciones" class="slide level2">
+<h2>Definiciones</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Inteligencia Artificial (IA)</strong></p>
+</div>
+<div class="callout-content">
+<p>Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Aprendizaje Computacional</strong></p>
+</div>
+<div class="callout-content">
+<p>Aprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.</p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fragment">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Procesamiento de Lenguaje Natural</strong></p>
+</div>
+<div class="callout-content">
+<p>Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="percepción-de-inteligencia-artificial-ia" class="slide level2">
+<h2>Percepción de Inteligencia Artificial (IA)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Así la vemos</strong></p>
+</div>
+<div class="callout-content">
+<p><img data-src="img/robot-futuro.jpg" height="300"></p>
+</div>
+</div>
+</div>
+</div><div class="fragment column" style="width:50%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Así está</strong></p>
+</div>
+<div class="callout-content">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="img/robot-juguete.png" class="quarto-figure quarto-figure-left" height="300"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="aprendizaje-computacional-1" class="title-slide slide level1 center">
+<h1>Aprendizaje computacional</h1>
+
+</section>
+<section id="aprendizaje-computacional-2" class="slide level2">
+<h2>Aprendizaje computacional</h2>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Tipos de aprendizaje computacional</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Aprendizaje no supervisado</li>
+<li>Aprendizaje supervisado</li>
+<li>Aprendizaje por refuerzo</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Aprendizaje no supervisado</strong></p>
+</div>
+<div class="callout-content">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/umap_prob1489.png" class="quarto-figure quarto-figure-center" height="253"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Aprendizaje por refuerzo</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Juegos</li>
+<li>Actividades</li>
+<li>Retroalimentación al final</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="aplicaciones-de-procesamiento-de-lenguaje-natural" class="title-slide slide level1 center">
+<h1>Aplicaciones de Procesamiento de Lenguaje Natural</h1>
+
+</section>
+<section id="aplicaciones-de-pln-12" class="slide level2">
+<h2>Aplicaciones de PLN (1/2)</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/pln_1.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Aplicaciones</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><strong>Minería de opinión</strong>
+<ul>
+<li><span style="color: rgb(0, 0, 255);">positivo :) </span> –<span style="color: rgb(130, 130, 130);">neutro :|</span> –<span style="color: rgb(255, 0, 0);">negativo :( </span></li>
+</ul></li>
+<li><strong>Análisis de tópicos</strong></li>
+<li><strong>Carga emotiva de un mensaje</strong>: <em>enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza</em>.</li>
+<li><strong>Identificación de humor</strong></li>
+<li><strong>Identificación de lenguaje de odio</strong></li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="aplicaciones-de-pln-22" class="slide level2" style="font-size: 80%;">
+<h2>Aplicaciones de PLN (2/2)</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Aplicaciones</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><strong>Predicción indicadores socio-demográficos de usuarios de redes</strong>, e.g., edad, sexo, lugar de procedencia, ocupación</li>
+<li><strong>Identificación de autoría</strong>: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?</li>
+<li><strong>Entender como se comportan usuarios</strong>, ¿qué desean?, ¿por qué?</li>
+<li><strong>Medición de discurso de odio en redes sociales</strong>, e.g., xenofobia, racismo, misoginia, cyberbulling.</li>
+<li><strong>Identificación de posibles trastornos mentales</strong>, e.g., ansiedad, depresión, adicciones.</li>
+<li><strong>Aplicaciones</strong> a seguridad, salud, políticas públicas, economía y finanzas.</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/pln_2.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="algunos-retos" class="slide level2">
+<h2>Algunos retos</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Retos</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Escritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.</li>
+<li>Contextos cortos, conocimiento del mundo.</li>
+<li>Negación, sarcasmo, ironía, humor.</li>
+<li>Semántica.</li>
+<li>Recursos lingüísticos reducidos para lenguajes diferentes del inglés.</li>
+<li>Multimedios.</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/retos_pln.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="regionalización" class="slide level2">
+<h2>Regionalización</h2>
+<div style="background-color: rgb(200,250,250);">
+<p>Todo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.</p>
+</div>
+<div style="background-color: rgba(255, 255, 255, 1);">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/regionalismo.png" class="quarto-figure quarto-figure-center" height="200"></p>
+</figure>
+</div>
+</div>
+<div style="background-color: rgb(250,200,250);">
+<p>Para tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso.</p>
+</div>
+</section>
+<section id="regionalización-como-herramienta" class="slide level2">
+<h2>Regionalización como herramienta</h2>
+<p>Entender las <strong>variaciones del lenguaje</strong> en las redes sociales es primordial ya que los mensajes suelen ser <strong>informales</strong>, y es común que los usuarios solo quieran ser leídos por su <em>círculo</em> de personas cercanas.</p>
+</section>
+<section id="preprocesamiento" class="slide level2">
+<h2>Preprocesamiento</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Técnicas</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Tokenización</li>
+<li>Lemmatización</li>
+<li>Stopwords</li>
+<li>Etiquetado POS</li>
+<li>Análisis sintáctico</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Función</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Dividir texto</li>
+<li>Reducir palabras</li>
+<li>Eliminar palabras</li>
+<li>Relaciona palabras</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="clasificación-de-textos" class="title-slide slide level1 center">
+<h1>Clasificación de Textos</h1>
+
+</section>
+<section id="clasificación-de-textos-1" class="slide level2">
+<h2>Clasificación de Textos</h2>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Definición</strong></p>
+</div>
+<div class="callout-content">
+<p>El objetivo es la <strong>clasificación</strong> de <strong>documentos</strong> en un número fijo de categorías predefinidas.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Polaridad</strong></p>
+</div>
+<div class="callout-content">
+<p>El día de mañana no podré ir con ustedes a la librería</p>
+</div>
+</div>
+</div>
+<div class="fragment" style="font-size: 100%; text-align: center;">
+<p><strong>Negativa</strong></p>
+</div>
+</section>
+<section id="tareas-de-clasificación-de-textos" class="slide level2">
+<h2>Tareas de Clasificación de Textos</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Polaridad</strong></p>
+</div>
+<div class="callout-content">
+<p>Positiva, Negativa, Neutral</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Emoción (Multiclase)</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Ira, Alegría, …</li>
+<li>Intensidad de una emoción</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Evento (Binaria)</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Violento</li>
+<li>Delito</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/emociones_animado.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="perfilado-de-autores" class="slide level2">
+<h2>Perfilado de autores</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Género</strong></p>
+</div>
+<div class="callout-content">
+<p>Hombre, Mujer, No binario, …</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Edad</strong></p>
+</div>
+<div class="callout-content">
+<p>Niño, Adolescente, Adulto</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Variedad de Lenguaje</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Español: España, Cuba, Argentina, México, …</li>
+<li>Inglés: Estados Unidos, Inglaterra, …</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/gen_edad_banderas.png" class="quarto-figure quarto-figure-center" height="500"></p>
+</figure>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="dialect-identification-dialectid" class="title-slide slide level1 center">
+<h1>Dialect Identification (DialectId)</h1>
+
+</section>
+<section id="dialectid-12" class="slide level2">
+<h2>DialectId (1/2)</h2>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>¿Qué es?</strong></p>
+</div>
+<div class="callout-content">
+<p>DialectId es un clasificador de texto basado en una representación de <em>Bolsa de Palabras</em> (BoW, por sus siglas en inglés, Bag of Words), utilizando SVM lineal como clasificador.</p>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Procesamiento de normalización</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Caracteres en minúsculas</li>
+<li>Eliminar lo diacríticos</li>
+<li>Remplazar nombres de usuario por “_usr”</li>
+<li>Remplazar URLs por “_url”</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Conjunto entrenamiento</strong></p>
+</div>
+<div class="callout-content">
+<p>Los tokens y sus pesos fueron estimados usando un conjunto de entrenamiento de cada idioma (2 millones de tuits).</p>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="dialectid-22" class="slide level2">
+<h2>DialectId (2/2)</h2>
+
+<img data-src="img/arbol_paises.jpeg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="similutud-entre-países-hispanohablantes" class="slide level2">
+<h2>Similutud entre países hispanohablantes</h2>
+
+<!--# Referencias
+
+::: {#refs}
+:::-->
+<img data-src="img/mapa_1.jpeg" class="quarto-figure quarto-figure-center r-stretch"></section></section>
+<section id="gracias" class="title-slide slide level1 center">
+<h1>¡Gracias!</h1>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p><a href="https://mgraffg.github.io" class="uri">https://mgraffg.github.io</a></p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copiado");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copiado");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/INGEOTEC\.github\.io\/talks\/");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
