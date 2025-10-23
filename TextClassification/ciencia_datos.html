@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es"><head>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -28,6 +28,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2c1b5f745a11cfad616ebade4a4a7d24.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -123,6 +189,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+  
+  <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -196,7 +265,7 @@ WebPage: <a href="https://ingeotec.github.io/" class="uri">https://ingeotec.gith
 <p><strong>Aprendizaje Computacional</strong></p>
 </div>
 <div class="callout-content">
-<p>Aprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.</p>
+<p>Subárea de IA que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.</p>
 </div>
 </div>
 </div>
@@ -209,6 +278,18 @@ WebPage: <a href="https://ingeotec.github.io/" class="uri">https://ingeotec.gith
 </div>
 <div class="callout-content">
 <p>Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Ciencia de Datos</strong></p>
+</div>
+<div class="callout-content">
+<p>Campo interdisciplinario que combina matemáticas, estadística, IA, ciencias computacionales, entre otras para obtener conocimiento atraves de los datos.</p>
 </div>
 </div>
 </div>
@@ -298,6 +379,56 @@ WebPage: <a href="https://ingeotec.github.io/" class="uri">https://ingeotec.gith
 </div>
 </div>
 </div></div>
+</section>
+<section id="aprendizaje-supervisado" class="slide level2">
+<h2>Aprendizaje supervisado</h2>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Clasificador lineal</strong></p>
+</div>
+<div class="callout-content">
+<div id="e9f07104" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+        <script type="text/javascript">
+        window.PlotlyConfig = {MathJaxConfig: 'local'};
+        if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}
+        </script>
+        <script type="module">import "https://cdn.plot.ly/plotly-3.1.0.min"</script>
+        
+</div>
+<div class="cell-output cell-output-display">
+<div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.1.0.min.js" integrity="sha256-Ei4740bWZhaUTQuD6q9yQlgVCMPBz6CZWhevDYPv93A=" crossorigin="anonymous"></script>                <div id="228e79f1-a3ed-409f-a6e5-b5eeaafc7f84" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("228e79f1-a3ed-409f-a6e5-b5eeaafc7f84")) {                    Plotly.newPlot(                        "228e79f1-a3ed-409f-a6e5-b5eeaafc7f84",                        [{"hovertemplate":"Class=P\u003cbr\u003ex=%{x}\u003cbr\u003ey=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"P","marker":{"color":"#636efa","symbol":"circle"},"mode":"markers","name":"P","orientation":"v","showlegend":true,"x":{"dtype":"f8","bdata":"Wigv2xZ5BcB5Hb3qj7YFwDV\u002fZBanHAfA\u002fkuqUHb2BcDrcuRVadQFwGWrzlUzPwLAu4OkGHaQBsC9wbFLWAIFwJTkZdRPFwfA4q6uys1hBcB8N7lGOg4EwLGl6Tbs5gTAe+Gqp\u002fNJBsCvAAWeWcoJwA0Td+RyKAXANff\u002foZsWA8DQ3cEu\u002fPwEwKC8+y62LwXAABzYZTuZAcDixq82MrQEwGrHTpxnewLA3miBIIJZBMBzBsFxProJwMma6F\u002f\u002fawLA4D8zlJXYAsD8K4ltqA0EwK4dDr0kwAPAeAM4lKF\u002fBMDK3XlgxB0FwGUZrnNQDgXA1M74+P2yBMAsiWGwikcDwOscTbzeMAXAQGcifjbKBMAoQ3sebRgFwPtCchoQ7gbA2JOCznwABcDsNtISzWcGwHijnXQR2AfAdmn3OlW4BMCC4fJ1KykGwHU\u002f09GBywbAC4iTSLD6B8CCOKLOsj4DwLwoibEIrQHABwpETzK3BcABZqasIE4EwOIK4vA3twbAxI9zVz1YBMAPnPMXe6AFwA=="},"xaxis":"x","y":{"dtype":"f8","bdata":"IPwgJgFx1D+ArIDk+afGv+BFTuqzjcK\u002fwC6PrgJf1L+wDbjCi+nUP0AiSKL6uOc\u002fABzO+PDmtr8AAUhhzOnEP7D646aHgeK\u002fwA8oGU8gvb\u002fgl+uHZ6TkPwDQwve6Ko4\u002fQL7hZyYYzr+wZ1EuWF3gv+Djsk443PI\u002fCEnRC7Ro9T+YQh4qFvHpPzAYVB1W9dM\u002faHjgIkzu6z\u002fAQVMHFm\u002fgPwCUw9LPC9k\u002fACHFHjW22z8gNd1QexXBPwCLQMf7RLk\u002fANAYoJsWo78gEzJfrrDCv+BQPrYEw8A\u002f4FizrLSI1z+Q6omJdvjTP+Cm0IEGNsm\u002fAMr+uhsnyr9g7P9IlUzaP+iZ\u002fY8TB+o\u002fWIlpaIZ98T\u002fAn1s8+w6\u002fvwDQ8LjewbE\u002fCOAACgou4z\u002fAhAeBdTHRP7BmyKK1Ot+\u002f4NpC9k5RzT9wu8GWot3QP5ipU1lZHO6\u002fwGmf1B3i1b8AvjNh8CzIP+BeLfZJ8ts\u002fEKeKRWkD0L+oK8Sp5B7gPyBAHwdSLc2\u002faOGs4oaK4j\u002fASOo1oJK7Pw=="},"yaxis":"y","type":"scatter"},{"hovertemplate":"Class=N\u003cbr\u003ex=%{x}\u003cbr\u003ey=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"N","marker":{"color":"#EF553B","symbol":"circle"},"mode":"markers","name":"N","orientation":"v","showlegend":true,"x":{"dtype":"f8","bdata":"\u002fFCrYaWO9D9gpcUw8tbtP+SOhkXIbfc\u002fAM\u002f\u002fffR2xz+8rij23mjxP1jEd5qNiOQ\u002fbEdSVF6F8T\u002fIifMa0Pjnv9DL2ZLDtPA\u002fAOw1RBzpgb84n3SGO0Dgv9i6NKfVX+A\u002fcCsjB2D10D9ok+VglYTvP8CuqMMvQ8a\u002fiLCsFwmx7T\u002fALlJpCyHlP6BgXDywOM4\u002fmL4oOkI77j+AJTOA\u002fSenP+SxvL9L3PE\u002fYJm60qTn1j\u002f8xo10XMX0P8D+NafNfu0\u002fKD4HFRTg5j+QGK98Os7sP2AbE9v4T\u002fU\u002fdFra88Hs+D9YfOMcegbqP6BcM0OvjtO\u002fgMBs37xwsb+g5bmWjEXIv6BEMPt+dsE\u002fCPadmZYU9j+IbH\u002fj8tDiP4g9FobI0ek\u002fWPupKfOH8z9YxpeaQhXqPwAdqI+Ke88\u002fwIWhPgdNxT8wZne1Sb\u002fdP9CXBuCOgew\u002fADOs\u002fpiCzT+AXx4whovmv0AqQenI2NY\u002fwNfxHWo+1T\u002fgx2TP6hPYP+h7NI\u002f7j+Q\u002fCHkYF80B7b9Q9VVt1CLTPyBRDvnhPwRASBvpX86k9j+wbsfV8+4EQITrPSVki\u002f8\u002fJvxf58\u002fMAkBQwBSlIi0LQIDSJj7vreA\u002fxACQNfB1B0A6ue1p4JECQFxh54eBVQdAxE+zfqCW+j8McZgBvNr8P24zpcohUwFAIHJN0uKJ9T\u002f4a\u002fVF9l\u002f5P\u002fxXZj+neP4\u002f2M63J+0x\u002fz+kvmdIfeULQAQf2Fh7XQ5AQPyK+ArQ9D\u002fQF0rMK2wDQKR6fcgbL\u002fM\u002fDF7OE9b\u002fC0A0hNbVYjj2P4Kdc+gUNAJA0GsuRKjpBEDYVfJz2SL0P1x1Cxd6qPQ\u002fgIPukSb9AEC830NToRoDQNgd\u002f+++uwZA7DG\u002fbmvYCUA67yE+h0YBQKxLn9FIG\u002fc\u002fUNqa\u002fC6A\u002fD8E8QX\u002fq5wIQK7A7AlpJwFAuDlNMkh7\u002fj+YKx2Jj7XyP9TMJztj3ABAqPjGimODAkDsfLDhm8H+P0gb6V\u002fOpPY\u002fvFgJKA2BBEBqTEGZl1kDQJiZNt8SG\u002f8\u002fAL6iQkZv+D8gshiTwjr8P\u002fDGCsFBav4\u002fqEYVrTY+9j8="},"xaxis":"x","y":{"dtype":"f8","bdata":"wGilptXs5T8wgGMNlF\u002fUP+jwisXrIuA\u002f+FbG5aN+6r8AjI\u002feXxizP3CswoaOxNq\u002fcI1XGVgk0j8EKGWLCBTwv8Asn3X2Os0\u002fUGfKqXwj579c088Ba0H0vwC03aWDnrq\u002f6K\u002fjEeaZ4b8A+m0ZEPS\u002fv2AJ6AaIT9C\u002foDx\u002f0kTm3T9Q5LAUDpfWv3DRRvngWdW\u002fUCUyx3Jh4b\u002f4tbBuxa7iv8Dz3TRzqbW\u002fQJ\u002fWJBKlsb\u002fQolWed\u002frUvyBqrLfzY8e\u002fANor40MUwz8wUe2gNwbVP8DaJbDWSc8\u002fQLGBOaUe0T8gXp+jqejEv+BbVpObkde\u002fkCOEJcWQ5r+IKSi\u002f6MTlvxB5CoMbGdS\u002fAPFHQOrw2r8wvqupkP7ev+DKk1H32sg\u002fMCjxfXAW2j8Qh02HdM\u002fXv7DbavOAL9G\u002feNix\u002flfS5b+YR5cOeHblv4B+39pSpaG\u002fwAcKLnXh2b9o7IoyKzLwv7CzSTY5KOC\u002fADYXyEQ4y79w\u002fexTGcTSvwAyscn1KZI\u002fkH1It+ox6L\u002fAaxZ3V1TWvwAMiRnFK4S\u002fYLvU97Zl4r+gQwBdggLWPwCMr+9SAce\u002fgO6QNhWdpL+g+QI7dKDhP9THxyyKFfO\u002fUAqhFYPA1j8AWRTk3jXPv7B7d7OhDOk\u002foDC8KFcBzz8AEx5xA5rLvwB7aBrrrss\u002fQNqYJrLb6L8QtkqavEThv4B8j542h74\u002fgBQVQZZ5pT\u002f81xsL1M\u002fyP8Bt1sb6d9A\u002fqDp7e1Zb6L9Av2oMXTTYP+hKQw8aZeO\u002f8DY8N6973T+goybVwSnKv8ArHnB8cNU\u002fsCQRZufy4T9AYCIUkQDHv8DAQin\u002f3b2\u002f4AarXWrYyr+gNGmXqLzdPyA1E\u002fhoBNg\u002fkEyxh5T89T\u002fgzkRvwM\u002fLv2CP3OFeW8K\u002fgIvcnmP+37+IdEBBzATmP2C1gq2f7cE\u002fAKHNJes9qT8AGsahZh7FvzA5sYKQ09c\u002f4CXzluKBxz\u002fAodi8YzDaP2C71Pe2ZeK\u002f4DEXOoDI0T\u002fgm+pM0IHTP0ByvPkOAcg\u002f4EJ0hTEF2L+ALCgJGDC0P4DIm3NU270\u002fYKoh5x0X0r8="},"yaxis":"y","type":"scatter"},{"line":{"color":"darkgrey"},"showlegend":false,"x":{"dtype":"f8","bdata":"Wigv2xZ5BcB5Hb3qj7YFwDV\u002fZBanHAfA\u002fkuqUHb2BcDrcuRVadQFwGWrzlUzPwLAu4OkGHaQBsC9wbFLWAIFwJTkZdRPFwfA4q6uys1hBcB8N7lGOg4EwLGl6Tbs5gTAe+Gqp\u002fNJBsCvAAWeWcoJwA0Td+RyKAXANff\u002foZsWA8DQ3cEu\u002fPwEwKC8+y62LwXAABzYZTuZAcDixq82MrQEwGrHTpxnewLA3miBIIJZBMBzBsFxProJwMma6F\u002f\u002fawLA4D8zlJXYAsD8K4ltqA0EwK4dDr0kwAPAeAM4lKF\u002fBMDK3XlgxB0FwGUZrnNQDgXA1M74+P2yBMAsiWGwikcDwOscTbzeMAXAQGcifjbKBMAoQ3sebRgFwPtCchoQ7gbA2JOCznwABcDsNtISzWcGwHijnXQR2AfAdmn3OlW4BMCC4fJ1KykGwHU\u002f09GBywbAC4iTSLD6B8CCOKLOsj4DwLwoibEIrQHABwpETzK3BcABZqasIE4EwOIK4vA3twbAxI9zVz1YBMAPnPMXe6AFwPxQq2GljvQ\u002fYKXFMPLW7T\u002fkjoZFyG33PwDP\u002f330dsc\u002fvK4o9t5o8T9YxHeajYjkP2xHUlRehfE\u002fyInzGtD457\u002fQy9mSw7TwPwDsNUQc6YG\u002fOJ90hjtA4L\u002fYujSn1V\u002fgP3ArIwdg9dA\u002faJPlYJWE7z\u002fArqjDL0PGv4iwrBcJse0\u002fwC5SaQsh5T+gYFw8sDjOP5i+KDpCO+4\u002fgCUzgP0npz\u002fksby\u002fS9zxP2CZutKk59Y\u002f\u002fMaNdFzF9D\u002fA\u002fjWnzX7tPyg+BxUU4OY\u002fkBivfDrO7D9gGxPb+E\u002f1P3Ra2vPB7Pg\u002fWHzjHHoG6j+gXDNDr47Tv4DAbN+8cLG\u002foOW5loxFyL+gRDD7fnbBPwj2nZmWFPY\u002fiGx\u002f4\u002fLQ4j+IPRaGyNHpP1j7qSnzh\u002fM\u002fWMaXmkIV6j8AHaiPinvPP8CFoT4HTcU\u002fMGZ3tUm\u002f3T\u002fQlwbgjoHsPwAzrP6Ygs0\u002fgF8eMIaL5r9AKkHpyNjWP8DX8R1qPtU\u002f4Mdkz+oT2D\u002foezSP+4\u002fkPwh5GBfNAe2\u002fUPVVbdQi0z8gUQ754T8EQEgb6V\u002fOpPY\u002fsG7H1fPuBECE6z0lZIv\u002fPyb8X+fPzAJAUMAUpSItC0CA0iY+763gP8QAkDXwdQdAOrntaeCRAkBcYeeHgVUHQMRPs36glvo\u002fDHGYAbza\u002fD9uM6XKIVMBQCByTdLiifU\u002f+Gv1RfZf+T\u002f8V2Y\u002fp3j+P9jOtyftMf8\u002fpL5nSH3lC0AEH9hYe10OQED8ivgK0PQ\u002f0BdKzCtsA0Cken3IGy\u002fzPwxezhPW\u002fwtANITW1WI49j+CnXPoFDQCQNBrLkSo6QRA2FXyc9ki9D9cdQsXeqj0P4CD7pEm\u002fQBAvN9DU6EaA0DYHf\u002fvvrsGQOwxv25r2AlAOu8hPodGAUCsS5\u002fRSBv3P1DamvwugPw\u002fBPEF\u002f6ucCECuwOwJaScBQLg5TTJIe\u002f4\u002fmCsdiY+18j\u002fUzCc7Y9wAQKj4xopjgwJA7Hyw4ZvB\u002fj9IG+lfzqT2P7xYCSgNgQRAakxBmZdZA0CYmTbfEhv\u002fPwC+okJGb\u002fg\u002fILIYk8I6\u002fD\u002fwxgrBQWr+P6hGFa02PvY\u002f"},"y":{"dtype":"f8","bdata":"mInbZLgTAMAc6GYBH2MAwAS1ih+lMQLAvhk2Kai1AMAypPD2rIkAwBh4GnTw0fe\u002fgPTAepF8AcAKDAHRsPT+v6\u002fZbB6\u002fKgLAozSSsUnr\u002f7+U5JVPEX78vxY6dfzZrf6\u002fJUZh0H4hAcAKQo+lUacFwFBLBKofV\u002f+\u002fH2s2k2X++b+pNedD2Ob+v9wFdrviaf+\u002fxfLJPjIl9r\u002fnaeaEzyr+v1jyS6p2bfi\u002fGNYu4olA\u002fb9uYD7+g5IFwBBQLZqpRfi\u002f56ubICxe+b+3wjOLmHz8v\u002fvBi8BatPu\u002fEjUQRgWj\u002fb\u002f+3Yylhzv\u002fv9nbO2OcE\u002f+\u002fpKYRP7Mn\u002fr97NrB1znz6v0hpGM\u002fgbP+\u002fqAUmmq9j\u002fr9QJ1Gjuy3\u002fv6DG9sF39QHArofbfuTv\u002fr85AuvFDEgBwJ+0oeK3IwPAT11NQX81\u002fr\u002f8cY4fJ\u002fcAwOt\u002fCIzVyAHAGjsYd29QA8DLLYA49mX6v\u002f+e2KZZWPa\u002f0TggwvBjAMDWRzSfIyP9v670au2grgHATpNJ30I9\u002fb952j6YmUYAwP4ZtF1C7whAGGXGwTpLBUDxOylbBsoKQFxYJM7tGvs\u002fG+GGrN\u002fmBkAwgX1l7kkCQIwAxSpH+QZADxc5FDRX3z\u002fnZ+SbjnIGQDQQfefOIvc\u002fbNoEnaGk6T+s7w6BH\u002fIAQHcgWgbzyvw\u002fdVG9tfbVBUCiIkQT6rjzPw8QdeL8PgVArTBuFyx7AkD+UZX0MzL8P8NWYxifawVAFLB1JFpA+D9di9PdajEHQEzQCUaBtv4\u002fNMNxaZgSCUBgh7dxxC4FQBjyQx6GCwNA8HvW5L\u002f1BEDtD+fwHGwJQHl1651bwQtAXNEQAesPBEBmDaVBXgDxP25YRTWm6PU\u002fshsRM95l8z\u002fhDTEp3CL6P7BsgXgX6wlA9IG6h\u002fq7AUDUBwkV5\u002f4DQNBdgteaRQhA30XHDbEUBEAeiY1CVGb8P2JLN6V+wfo\u002fljomaRB2AECEdojx\u002fdwEQMXDmrHNFPw\u002f9vVwUmyD4T\u002f1S+TztLH+P+dZ87cxLf4\u002fuO2qWncX\u002fz9dQ5COVEwCQJBvmgljVdI\u002fzEQu+\u002fR+\u002fT9MOEuOH+gSQPVRL\u002f46SApAa6HN0S9ZE0AOuNyV5AMQQNOS04B6+BFAxM5XMFNhF0CqquKhVwsBQM1\u002fB+gF+xRA9IQAtGrSEUBoaEPfE+YUQPVrHIlk1AxAiI09oQlLDkD7rhOykAQRQAzw8teDkQlACbCWV8ILDED7V5fKWlYPQOZDOPcBzg9Arbzka2LYF0AkK9KmiXAZQIqej2p+GQlAy3XfTGVfEkBFt223OgwIQDSG7Fdm6RdAuNBc6jUCCkAldseY15URQLZLy13EVRNAaB5OXqSpCEBEWPf78P8IQFoPmGkJzRBAmnDsJrwqEkC8uKi6xoIUQNKpp7VIhRZAr1Io7Wz8EEDeKLP+vpQKQHVwNd6OEA5A3UV1Kl65FUDxI6oxVOgQQE0pI2UNWA9ANekjOru9B0AzLeaz4LcQQIi3tnAPyRFAoaAgiHiFD0D1US\u002f+OkgKQM4h7OI1EhNAeIMIp2VTEkDazKG8P78PQIx17X9RcAtAIoqMF7njDUB5umagDk0PQO7YNmD5BQpA"},"type":"scatter"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"},"margin":{"b":0,"l":0,"r":0,"t":30}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{},"visible":true,"showticklabels":false},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{},"visible":true,"showticklabels":false},"legend":{"title":{"text":"Class"},"tracegroupgap":0},"height":400},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('228e79f1-a3ed-409f-a6e5-b5eeaafc7f84');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };            </script>        </div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="aplicaciones-de-procesamiento-de-lenguaje-natural" class="title-slide slide level1 center">
@@ -392,64 +523,16 @@ WebPage: <a href="https://ingeotec.github.io/" class="uri">https://ingeotec.gith
 </figure>
 </div>
 </div></div>
-</section>
-<section id="regionalización" class="slide level2">
-<h2>Regionalización</h2>
-<div style="background-color: rgb(200,250,250);">
-<p>Todo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.</p>
-</div>
-<div style="background-color: rgba(255, 255, 255, 1);">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/regionalismo.png" class="quarto-figure quarto-figure-center" height="200"></p>
-</figure>
-</div>
-</div>
-<div style="background-color: rgb(250,200,250);">
-<p>Para tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso.</p>
-</div>
-</section>
-<section id="regionalización-como-herramienta" class="slide level2">
-<h2>Regionalización como herramienta</h2>
-<p>Entender las <strong>variaciones del lenguaje</strong> en las redes sociales es primordial ya que los mensajes suelen ser <strong>informales</strong>, y es común que los usuarios solo quieran ser leídos por su <em>círculo</em> de personas cercanas.</p>
-</section>
-<section id="preprocesamiento" class="slide level2">
-<h2>Preprocesamiento</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Técnicas</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>Tokenización</li>
-<li>Lemmatización</li>
-<li>Stopwords</li>
-<li>Etiquetado POS</li>
-<li>Análisis sintáctico</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Función</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>Dividir texto</li>
-<li>Reducir palabras</li>
-<li>Eliminar palabras</li>
-<li>Relaciona palabras</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div>
+<!-- ## Regionalización
+::: {style='background-color: rgb(200,250,250);'}
+Todo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.
+:::
+::: {style='background-color: rgba(255, 255, 255, 1);'}
+![](img/regionalismo.png){fig-align="center" height="200"}
+:::
+::: {style='background-color: rgb(250,200,250);'}
+Para tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso.
+::: -->
 </section></section>
 <section>
 <section id="clasificación-de-textos" class="title-slide slide level1 center">
@@ -576,12 +659,194 @@ WebPage: <a href="https://ingeotec.github.io/" class="uri">https://ingeotec.gith
 </div></div>
 </section></section>
 <section>
+<section id="modelado-medianate-bolsa-de-palabras" class="title-slide slide level1 center">
+<h1>Modelado medianate bolsa de palabras</h1>
+
+</section>
+<section id="representación-de-texto" class="slide level2">
+<h2>Representación de Texto</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Bolsa de palabras</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Asociar cada palabra a un identificador.
+<ul>
+<li>de <span class="math inline">\(\rightarrow\)</span> 1.</li>
+<li>que <span class="math inline">\(\rightarrow\)</span> 2.</li>
+<li>buenos <span class="math inline">\(\rightarrow\)</span> 216.</li>
+<li>dias <span class="math inline">\(\rightarrow\)</span> 101.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>buenos días</strong></p>
+</div>
+<div class="callout-content">
+<p><span class="math inline">\((216, 101)\)</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>La bolsa no tiene orden</strong></p>
+</div>
+<div class="callout-content">
+<p><span class="math inline">\((101, 216)\)</span></p>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="columns">
+<div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Modelo lineal</strong></p>
+</div>
+<div class="callout-content">
+<p><span class="math inline">\(y = \sigma( \sum_{i \in (100, 215)} w_i x_i + w_0)\)</span></p>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Parámetros</strong></p>
+</div>
+<div class="callout-content">
+<p><span class="math inline">\(x_i\)</span> TFIDF / <span class="math inline">\(w_i\)</span> valor estimado</p>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="representación-de-texto-2" class="slide level2">
+<h2>Representación de Texto (2)</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Bolsa de Palabras / Limitantes</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>No existe similitud entre palabras.</li>
+<li>Se pierde el orden.</li>
+<li>Vector disperso.</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Embeddings estáticos</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Hipótesis distribucional.</li>
+<li>Similitud entre palabras.</li>
+<li>Vector denso.</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Embeddings estáticos / limitantes</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Se pierde el orden.</li>
+<li>Independientes del contexto.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
 <section id="dialect-identification-dialectid" class="title-slide slide level1 center">
 <h1>Dialect Identification (DialectId)</h1>
 
 </section>
-<section id="dialectid-12" class="slide level2">
-<h2>DialectId (1/2)</h2>
+<section id="datos" class="slide level2">
+<h2>Datos</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Datos georeferenciados en español</strong></p>
+</div>
+<div class="callout-content">
+<div id="7ef80351" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="ciencia_datos_files/figure-revealjs/cell-4-output-1.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:30%;">
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>¿Qué se puede hacer con los datos?</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Muchos textos</li>
+<li>Cada texto asociado a un pais</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Problema</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Clasificación de texto</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="dialectid" class="slide level2">
+<h2>DialectId</h2>
 <div class="callout callout-note no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -616,24 +881,128 @@ WebPage: <a href="https://ingeotec.github.io/" class="uri">https://ingeotec.gith
 <p><strong>Conjunto entrenamiento</strong></p>
 </div>
 <div class="callout-content">
-<p>Los tokens y sus pesos fueron estimados usando un conjunto de entrenamiento de cada idioma (2 millones de tuits).</p>
+<p>Los tokens y sus pesos fueron estimados usando un conjunto de entrenamiento de cada idioma (medio millón por pais).</p>
 </div>
 </div>
 </div>
 </div></div>
 </section>
-<section id="dialectid-22" class="slide level2">
-<h2>DialectId (2/2)</h2>
-
-<img data-src="img/arbol_paises.jpeg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="dialectid-12" class="slide level2">
+<h2>DialectId (1/2)</h2>
+<div class="columns">
+<div class="column" style="width:32%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Modelado por bolsa de palabras</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Cada texto es un vector en <span class="math inline">\(R^{v}\)</span></li>
+<li>Modelo lineal</li>
+<li>mexico = <span class="math inline">\(\textsf{sign}(\sum_i^v w_i x_i + w_0)\)</span></li>
+<li><span class="math inline">\(\mathbf w=(w_1, w_2, \ldots, w_v)\)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment column" style="width:68%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Dendograma</strong></p>
+</div>
+<div class="callout-content">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/arbol_paises.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section>
 <section id="similutud-entre-países-hispanohablantes" class="slide level2">
 <h2>Similutud entre países hispanohablantes</h2>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Mapa</strong></p>
+</div>
+<div class="callout-content">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/mapa_1.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="conclusiones" class="title-slide slide level1 center">
+<h1>Conclusiones</h1>
 
+</section>
+<section id="temas" class="slide level2">
+<h2>Temas</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Técnicas</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Inteligencia artificial</li>
+<li>Aprendizaje computacional</li>
+<li>Procesamiento de lenguaje natural</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Tareas</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Clasificación de texto</li>
+<li>Identificación de dialectos</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>DialectId</strong></p>
+</div>
+<div class="callout-content">
+<div id="1b832caa" class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">from</span> dialectid <span class="im">import</span> DialectId</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a>detect <span class="op">=</span> DialectId(lang<span class="op">=</span><span class="st">'es'</span>)</span>
+<span id="cb1-4"><a></a>detect.predict([<span class="st">'son pololos'</span>, <span class="st">'pues vámonos'</span>])</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="20">
+<pre><code>array(['cl', 'mx'], dtype='&lt;U2')</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <!--# Referencias
 
 ::: {#refs}
 :::-->
-<img data-src="img/mapa_1.jpeg" class="quarto-figure quarto-figure-center r-stretch"></section></section>
+</section></section>
 <section id="gracias" class="title-slide slide level1 center">
 <h1>¡Gracias!</h1>
 

@@ -274,7 +274,7 @@
     "href": "TextClassification/ropec2024.html#training-set",
     "title": "Is Traditional Machine Learning Useless?",
     "section": "Training set",
-    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\n@emartineztv @aplanells Le llaman \"El nido de....\nN\n\n\n1\n¡ATAQUE VIOLENTO! Mujer fue golpeada, apuñalad...\nP\n\n\n2\nMientras los venezolanos mueren de mengua por ...\nN\n\n\n3\nJames Byrd fue brutalmente apaleado y asesinad...\nP\n\n\n4\n@tramptramptramp @Cs_Vzla2016 @Albert_Rivera @...\nN\n\n\n5\nEn sector del 9 de enero #CaliCo capturamos a ...\nP\n\n\n6\nLloraba por el pelo de un varón que ni conoce?...\nN\n\n\n7\nUn mexicano detenido y a punto de ser deportad...\nP",
+    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nVenezuela hagamos una paticion al gobierno de ...\nN\n\n\n1\nTexas ejecutó a un hombre por un asesinato rac...\nP\n\n\n2\n@makusdhy @FridaSiKahlo @Eskol69903 @freddy_st...\nN\n\n\n3\nJoven venezolana desaparecida en #CostaRica. A...\nP\n\n\n4\nEn qué momento llegaron a ser las 2:47am voy e...\nN\n\n\n5\n#Reddenoticias: Arrestan dos en Salcedo por co...\nP\n\n\n6\nDe gea e Cristiano, os salvadores do United\nN\n\n\n7\nLo mas cabron es que fue porque los clientes d...\nP",
     "crumbs": [
       "Is Traditional Machine Learning Useless?"
     ]
@@ -424,7 +424,7 @@
     "href": "TextClassification/ciencia_datos.html#definiciones",
     "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
     "section": "Definiciones",
-    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nAprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.",
+    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nSubárea de IA que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.\n\n\n\n\n\n\n\n\nCiencia de Datos\n\n\nCampo interdisciplinario que combina matemáticas, estadística, IA, ciencias computacionales, entre otras para obtener conocimiento atraves de los datos.",
     "crumbs": [
       "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
     ]
@@ -445,6 +445,16 @@
     "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
     "section": "Aprendizaje computacional",
     "text": "Aprendizaje computacional\n\n\n\nTipos de aprendizaje computacional\n\n\n\nAprendizaje no supervisado\nAprendizaje supervisado\nAprendizaje por refuerzo\n\n\n\n\n\n\n\n\n\nAprendizaje no supervisado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendizaje por refuerzo\n\n\n\nJuegos\nActividades\nRetroalimentación al final",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#aprendizaje-supervisado",
+    "href": "TextClassification/ciencia_datos.html#aprendizaje-supervisado",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Aprendizaje supervisado",
+    "text": "Aprendizaje supervisado\n\n\n\nClasificador lineal",
     "crumbs": [
       "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
     ]
@@ -480,36 +490,6 @@
     ]
   },
   {
-    "objectID": "TextClassification/ciencia_datos.html#regionalización",
-    "href": "TextClassification/ciencia_datos.html#regionalización",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Regionalización",
-    "text": "Regionalización\n\nTodo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.\n\n\n\n\n\n\n\n\n\nPara tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso.",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#regionalización-como-herramienta",
-    "href": "TextClassification/ciencia_datos.html#regionalización-como-herramienta",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Regionalización como herramienta",
-    "text": "Regionalización como herramienta\nEntender las variaciones del lenguaje en las redes sociales es primordial ya que los mensajes suelen ser informales, y es común que los usuarios solo quieran ser leídos por su círculo de personas cercanas.",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#preprocesamiento",
-    "href": "TextClassification/ciencia_datos.html#preprocesamiento",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Preprocesamiento",
-    "text": "Preprocesamiento\n\n\n\n\n\nTécnicas\n\n\n\nTokenización\nLemmatización\nStopwords\nEtiquetado POS\nAnálisis sintáctico\n\n\n\n\n\n\n\n\nFunción\n\n\n\nDividir texto\nReducir palabras\nEliminar palabras\nRelaciona palabras",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
     "objectID": "TextClassification/ciencia_datos.html#clasificación-de-textos-1",
     "href": "TextClassification/ciencia_datos.html#clasificación-de-textos-1",
     "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
@@ -540,21 +520,51 @@
     ]
   },
   {
-    "objectID": "TextClassification/ciencia_datos.html#dialectid-12",
-    "href": "TextClassification/ciencia_datos.html#dialectid-12",
+    "objectID": "TextClassification/ciencia_datos.html#representación-de-texto",
+    "href": "TextClassification/ciencia_datos.html#representación-de-texto",
     "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "DialectId (1/2)",
-    "text": "DialectId (1/2)\n\n\n\n¿Qué es?\n\n\nDialectId es un clasificador de texto basado en una representación de Bolsa de Palabras (BoW, por sus siglas en inglés, Bag of Words), utilizando SVM lineal como clasificador.\n\n\n\n\n\n\n\n\nProcesamiento de normalización\n\n\n\nCaracteres en minúsculas\nEliminar lo diacríticos\nRemplazar nombres de usuario por “_usr”\nRemplazar URLs por “_url”\n\n\n\n\n\n\n\n\nConjunto entrenamiento\n\n\nLos tokens y sus pesos fueron estimados usando un conjunto de entrenamiento de cada idioma (2 millones de tuits).",
+    "section": "Representación de Texto",
+    "text": "Representación de Texto\n\n\n\n\n\nBolsa de palabras\n\n\n\nAsociar cada palabra a un identificador.\n\nde \\(\\rightarrow\\) 1.\nque \\(\\rightarrow\\) 2.\nbuenos \\(\\rightarrow\\) 216.\ndias \\(\\rightarrow\\) 101.\n\n\n\n\n\n\n\n\n\n\nbuenos días\n\n\n\\((216, 101)\\)\n\n\n\n\n\n\n\n\nLa bolsa no tiene orden\n\n\n\\((101, 216)\\)\n\n\n\n\n\n\n\n\n\n\nModelo lineal\n\n\n\\(y = \\sigma( \\sum_{i \\in (100, 215)} w_i x_i + w_0)\\)\n\n\n\n\n\n\n\nParámetros\n\n\n\\(x_i\\) TFIDF / \\(w_i\\) valor estimado",
     "crumbs": [
       "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
     ]
   },
   {
-    "objectID": "TextClassification/ciencia_datos.html#dialectid-22",
-    "href": "TextClassification/ciencia_datos.html#dialectid-22",
+    "objectID": "TextClassification/ciencia_datos.html#representación-de-texto-2",
+    "href": "TextClassification/ciencia_datos.html#representación-de-texto-2",
     "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "DialectId (2/2)",
-    "text": "DialectId (2/2)",
+    "section": "Representación de Texto (2)",
+    "text": "Representación de Texto (2)\n\n\n\n\n\nBolsa de Palabras / Limitantes\n\n\n\nNo existe similitud entre palabras.\nSe pierde el orden.\nVector disperso.\n\n\n\n\n\n\n\n\nEmbeddings estáticos\n\n\n\nHipótesis distribucional.\nSimilitud entre palabras.\nVector denso.\n\n\n\n\n\n\n\n\n\nEmbeddings estáticos / limitantes\n\n\n\nSe pierde el orden.\nIndependientes del contexto.",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#datos",
+    "href": "TextClassification/ciencia_datos.html#datos",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Datos",
+    "text": "Datos\n\n\n\n\n\nDatos georeferenciados en español\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n¿Qué se puede hacer con los datos?\n\n\n\nMuchos textos\nCada texto asociado a un pais\n\n\n\n\n\n\n\n\n\nProblema\n\n\n\nClasificación de texto",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#dialectid",
+    "href": "TextClassification/ciencia_datos.html#dialectid",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "DialectId",
+    "text": "DialectId\n\n\n\n¿Qué es?\n\n\nDialectId es un clasificador de texto basado en una representación de Bolsa de Palabras (BoW, por sus siglas en inglés, Bag of Words), utilizando SVM lineal como clasificador.\n\n\n\n\n\n\n\n\nProcesamiento de normalización\n\n\n\nCaracteres en minúsculas\nEliminar lo diacríticos\nRemplazar nombres de usuario por “_usr”\nRemplazar URLs por “_url”\n\n\n\n\n\n\n\n\nConjunto entrenamiento\n\n\nLos tokens y sus pesos fueron estimados usando un conjunto de entrenamiento de cada idioma (medio millón por pais).",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#dialectid-12",
+    "href": "TextClassification/ciencia_datos.html#dialectid-12",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "DialectId (1/2)",
+    "text": "DialectId (1/2)\n\n\n\n\n\nModelado por bolsa de palabras\n\n\n\nCada texto es un vector en \\(R^{v}\\)\nModelo lineal\nmexico = \\(\\textsf{sign}(\\sum_i^v w_i x_i + w_0)\\)\n\\(\\mathbf w=(w_1, w_2, \\ldots, w_v)\\)\n\n\n\n\n\n\n\n\nDendograma",
     "crumbs": [
       "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
     ]
@@ -564,7 +574,17 @@
     "href": "TextClassification/ciencia_datos.html#similutud-entre-países-hispanohablantes",
     "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
     "section": "Similutud entre países hispanohablantes",
-    "text": "Similutud entre países hispanohablantes",
+    "text": "Similutud entre países hispanohablantes\n\n\n\nMapa",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#temas",
+    "href": "TextClassification/ciencia_datos.html#temas",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Temas",
+    "text": "Temas\n\n\n\n\n\nTécnicas\n\n\n\nInteligencia artificial\nAprendizaje computacional\nProcesamiento de lenguaje natural\n\n\n\n\n\n\n\n\nTareas\n\n\n\nClasificación de texto\nIdentificación de dialectos\n\n\n\n\n\n\n\n\n\nDialectId\n\n\n\nfrom dialectid import DialectId\n\ndetect = DialectId(lang='es')\ndetect.predict(['son pololos', 'pues vámonos'])\n\narray(['cl', 'mx'], dtype='&lt;U2')",
     "crumbs": [
       "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
     ]
@@ -664,7 +684,7 @@
     "href": "TextClassification/educacion.html#conjunto-de-entrenamiento",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Conjunto de entrenamiento",
-    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nMientras los venezolanos mueren de mengua por ...\nN\n\n\n1\nTiroteo en bar de Carolina del Sur deja 2 muer...\nP\n\n\n2\n#MitúConstruye | @ICBFColombia lanzará nuevo p...\nN\n\n\n3\nA las 1:15 de esta madrugada, un grupo de deli...\nP\n\n\n4\n@EmilMarquiegui @UgarteJaime Nuestros hermanos...\nN\n\n\n5\nFallece hombre atropellado por ruta 400 en ave...\nP\n\n\n6\nLa intromisión de elementos armados, policiale...\nN\n\n\n7\nGolpeado y capturado un hombre que intentó rob...\nP",
+    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nTengo el brazo raspado y el tobillo hinchado, ...\nN\n\n\n1\nDetenidos un matrimonio, sus hijos y la novia ...\nP\n\n\n2\nCamión articulado cargado de arena que se volc...\nN\n\n\n3\nAseguran 300 kg de hierba verde tras persecuci...\nP\n\n\n4\nEn @ecdeportes: Fallece un niño mientras jugab...\nN\n\n\n5\nArrestan a sospechoso de asesinato de capo de ...\nP\n\n\n6\n@jdalvarado88 @MetroEcuador @UNENACIONAL @Leon...\nN\n\n\n7\nCapturan a otras tres personas vinculadas a mi...\nP",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -2126,7 +2146,7 @@
     "href": "TextClassification/poornima.html#training-set",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@RainuiRohua @cossmmica @davidsainz Porque aho...\n0\n\n\n1\n#Indignante 🐀 || Cámaras de seguridad de la ru...\n1\n\n\n2\nSoy un niño travieso que en un cuerpo de hombr...\n0\n\n\n3\n36 personas murieron por falta de oxígeno en e...\n1\n\n\n4\nHorro! No se puede seguir tolerando este genoc...\n0\n\n\n5\nimportante\\n\\n#Edomex Durante un patrullaje de...\n1\n\n\n6\n#martesintratables Hace falta \"rol del estado\"...\n0\n\n\n7\n#UltimaHora #CrimenDeCabra La Policía detiene ...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n@josebaazkarraga @joegrn23 Y sin viaje con boc...\n0\n\n\n1\n#EstoPasó | La Policía Nacional capturó a Greg...\n1\n\n\n2\nComo hago para denunciar un comerciante por ma...\n0\n\n\n3\nUn policía muerto y 25 heridos en ataque con g...\n1\n\n\n4\n[Video] Maduro: Develamos plan de un grupo fas...\n0\n\n\n5\nAsesinan a dos hombres en #Empalme \\nSuman cua...\n1\n\n\n6\n@Monica_Garcia_G Entornos seguros y sanos dice...\n0\n\n\n7\nRecién por la calle de atrás de mi casa le rob...\n1",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2266,7 +2286,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-2",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(54, np.float64(7.906890595608518)),\n (58, np.float64(5.8479969065549495)),\n (35, np.float64(1.3219280948873617)),\n (22, np.float64(2.5224042154522373))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(52, np.float64(7.906890595608518)),\n (61, np.float64(5.8479969065549495)),\n (33, np.float64(1.3219280948873617)),\n (32, np.float64(2.5224042154522373))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2276,7 +2296,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-3",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f4acfcdbed0&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fdb4d266e90&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -2466,7 +2486,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nResultados del estudio serán de gran ayuda par...\n0\n\n\n1\n🇪🇸 Esposado y descalzo: se escapa un argelino ...\n1\n\n\n2\n@NTN24ve El agente infiltrado más cínico que t...\n0\n\n\n3\nJames Byrd fue brutalmente apaleado y asesinad...\n1\n\n\n4\nSe me olvidaba que esto es twitter y aqui todo...\n0\n\n\n5\nEl profesional de la salud, de 64 años, que ha...\n1\n\n\n6\nOpositores desafían prohibición y protestan en...\n0\n\n\n7\nMientras preparan el acto retrasado, de entreg...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nMirar la serie, acostarme a dormir o leer una ...\n0\n\n\n1\nBALEAN A JOVEN AL INTERIOR DE LAS FONDAS DEL P...\n1\n\n\n2\nSuspenso sobre la baja de retenciones a la soj...\n0\n\n\n3\n.@PNCSV Capturó a pandillero que mantenía junt...\n1\n\n\n4\nSe me olvidaba que esto es twitter y aqui todo...\n0\n\n\n5\nDetienen a hombre que pretendía abandonar terr...\n1\n\n\n6\nSEP: 26 mil maestros para suplir a profesores ...\n0\n\n\n7\nMatan de un disparo en San Francisco a un jove...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -2606,7 +2626,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(50, np.float64(7.906890595608518)),\n (62, np.float64(5.8479969065549495)),\n (10, np.float64(1.3219280948873617)),\n (28, np.float64(2.5224042154522373))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(62, np.float64(7.906890595608518)),\n (54, np.float64(5.8479969065549495)),\n (16, np.float64(1.3219280948873617)),\n (38, np.float64(2.5224042154522373))]",
     "crumbs": [
       "Text Classification"
     ]
@@ -2616,7 +2636,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f5890dba850&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f5d5c7d6710&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
     "crumbs": [
       "Text Classification"
     ]
