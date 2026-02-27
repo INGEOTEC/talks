@@ -1,6 +1,6 @@
 ---
 lang: es
-title: "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+title: "Innovación en Reclutamiento y Marketing mediante PLN"
 # subtitle: ""
 author:
     - name: "Mario Graff"

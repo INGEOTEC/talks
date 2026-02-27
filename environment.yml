@@ -17,6 +17,8 @@ dependencies:
   - matplotlib
   - tabulate
   - plotly
+  - country_converter
+  - dialectid
   - pip:
     - pandas
     - seaborn
