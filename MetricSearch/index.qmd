@@ -36,7 +36,7 @@ La **búsqueda por similitud** es un problema algorítmico que esta detrás de l
 
 ------------------------------------------------------------------------
 
-### Interacción con Grandes Modelos de Lenguaje (LLM) e IR
+### Interacción con grandes modelos de lenguaje (LLM) e IR
 
 ::: r-fit-text
 - **Datos Fuera del Conocimiento:** Las empresas manejan información privada que no formó parte del entrenamiento del modelo.
@@ -68,11 +68,11 @@ Tenemos un paquete sobre el tema llamado [`SimilaritySearch.jl`](https://github.
 
 ------------------------------------------------------------------------
 
-## Búsqueda por Similitud
+## Búsqueda por similitud
 
 - **Espacios métricos** como un marco de trabajo para *búsqueda por similitud*.
 
-- Búscar elementos *similares* ahora se convierte en elementos *cercanos* bajo una función de distancia métrica$d(x, y)$.
+- Búscar elementos *similares* ahora se convierte en elementos *cercanos* bajo una función de distancia métrica $d(x, y)$.
 
 ------------------------------------------------------------------------
 
@@ -483,8 +483,9 @@ La elección del índice depende del balance entre **memoria, tiempo de consulta
 :::
 
 ## Gracias
-
 ::: r-fit-text
+Eric S. Tellez SECIHTI-INFOTEC
+<mailto:eric.tellez@infotec.mx>
 
 - [SISAP Challenges 2023-2026](https://sisap-challenges.github.io/2026/index.html)
 - [Demos](https://sadit.github.io/SimilaritySearchDemos/)
