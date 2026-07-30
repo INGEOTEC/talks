@@ -1,6 +1,6 @@
 ---
 title: "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
-author: "INFOTEC 2026"
+author: "Eric S. Tellez"
 date: "2026-07-30"
 bibliography: refs.bib
 #csl: apa.csl 
@@ -74,8 +74,6 @@ Tenemos un paquete sobre el tema llamado [`SimilaritySearch.jl`](https://github.
 
 - Búscar elementos *similares* ahora se convierte en elementos *cercanos* bajo una función de distancia métrica$d(x, y)$.
 
-
-
 ------------------------------------------------------------------------
 
 ### Propiedades de la Distancia $d$
@@ -91,10 +89,16 @@ Habitualmente se asume que la función de distancia cumple con las propiedades d
 
 ### El problema 
 
+::: r-fit-text
+
 Dado un espacio métrico $(U, d)$, un subconjunto finito $S \subset U$ y un punto de consulta $q \in U$, queremos encontrar los elementos más cercanos a $q$ en $S$.
 
 - Búsqueda por rango
 - Búsqueda por k vecinos más cercanos (k-NN)
+
+Para resolverlo de manera eficiente se preprocesa $S$ de tal forma que $q\in U$ sea evaluado de manera rápida y con un costo computacional bajo.
+
+:::
 
 ------------------------------------------------------------------------
 
@@ -169,7 +173,7 @@ $$\bigcap_{i=1}^k [d(p_i, q) - r, d(p_i, q) + r]$$
 ## Particiones compactas del espacio
 
 ::: slide-img-container
-![](figs/compact-partitions.png){alt="Particiones compactas e inecuación triangular"}
+![](figs/compact-partitions.png){alt="Particiones compactas e desigualdad triangular"}
 :::
 
 ------------------------------------------------------------------------
@@ -463,7 +467,20 @@ Ajuste para recall $\log_2^{c+recall}(n)$
 
 ### Conclusión
 
+::: r-fit-text
+
 La elección del índice depende del balance entre **memoria, tiempo de consulta y recall (exactitud)**. En la actualidad, los grafos de proximidad jerárquicos combinados con cuantización constituyen el estado del arte para sistemas de búsqueda vectorial de alto rendimiento.
+
+#### Trabajos en curso
+
+- ¿Qué modelos de lenguaje codifican (embeddings) mejor texto en español para diferentes tareas?
+- De manera similar, qué pasa para tareas de dominios muy especificos como el legal o médico.
+- ¿Vale la pena la búsqueda cross-lingual?
+- ¿Cómo reducimos el costo de construcción?
+- Para tareas que donde no $|Q|$ es fijo, qué se puede hacer ya que la construcción de un índice no es amortizable.
+- ¿Qué controla la eficiencia en los grafos de búsqueda? ¿Cuando no funciona? ¿Por qué?
+
+:::
 
 ## Gracias
 
