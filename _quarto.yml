@@ -19,6 +19,8 @@ website:
           - sidebar:poornima
           - sidebar:educacion
           - sidebar:ropec2024
+      - text: Metric Search
+        href: MetricSearch/index.qmd
 
   sidebar:
     - id: RestMex2023f
@@ -57,7 +59,10 @@ website:
       title: Competencias internacionales para generar avances en inteligencia artificial
       contents:
         - TextClassification/competencias.qmd
-
+    - id: MetricSearch
+      title: Metric Search 
+      contents:
+        - MetricSearch/index.qmd
 
 format:
   html:
