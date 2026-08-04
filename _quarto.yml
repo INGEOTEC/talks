@@ -24,6 +24,8 @@ website:
           - sidebar:competencias
           - sidebar:reclutamiento
           - sidebar:plndatos
+      - text: Metric Search
+        href: MetricSearch/index.qmd
 
   sidebar:
     - id: RestMex2023f
@@ -71,6 +73,10 @@ website:
       contents:
         - TextClassification/ciencia_datos.qmd          
 
+    - id: MetricSearch
+      title: Metric Search 
+      contents:
+        - MetricSearch/index.qmd
 
 format:
   html:

@@ -1,0 +1,16 @@
+# Quarto files
+/.quarto/
+**/*.quarto_ipynb
+
+# LaTeX build artifacts
+**/*.aux
+**/*.log
+**/*.toc
+**/*.out
+**/*.synctex.gz
+**/*.fdb_latexmk
+**/*.fls
+
+# OS specific files
+.DS_Store
+Thumbs.db

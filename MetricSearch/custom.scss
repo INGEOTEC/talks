@@ -1,0 +1,169 @@
+/*-- scss:defaults --*/
+
+// Colores del tema
+$body-bg: #11190b;
+$body-color: #f9f5f1;
+$link-color: #38bdf8;
+$selection-bg: #f63b3b;
+$heading-color: #ffffff;
+
+// Fuentes
+$font-family-sans-serif: "Outfit", "Inter", "Helvetica Neue", sans-serif;
+$presentation-heading-font: "Outfit", "Montserrat", sans-serif;
+
+/*-- scss:rules --*/
+
+// Ajustes del contenedor Reveal
+.reveal {
+  font-family: $font-family-sans-serif;
+  color: $body-color;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $heading-color;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: -0.02em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid rgba(56, 189, 248, 0.3);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+
+  // Estilo de enlaces
+  a {
+    color: $link-color;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    &:hover {
+      color: #7dd3fc;
+      text-decoration: underline;
+    }
+  }
+
+  // Estilo de los bloques de código
+  pre code {
+    background: #1e293b;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.85em;
+  }
+
+  // Slide de título personalizado
+  .title-slide {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.15), transparent 50%),
+                radial-gradient(circle at 10% 80%, rgba(16, 185, 129, 0.1), transparent 50%);
+    
+    h1 {
+      font-size: 2.8em;
+      line-height: 1.15;
+      background: linear-gradient(to right, #ffffff, #93c5fd, #38bdf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.3em;
+      color: #94a3b8;
+      margin-bottom: 40px;
+      font-weight: 300;
+    }
+
+    .author, .date {
+      font-size: 0.9em;
+      color: #64748b;
+    }
+  }
+}
+
+// Clases utilitarias personalizadas para la presentación
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  align-items: stretch;
+}
+
+// Tarjetas de contenido estilo Glassmorphism
+.glass-card {
+  background: rgba(30, 41, 59, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: rgba(56, 189, 248, 0.3);
+  }
+
+  h3 {
+    margin-top: 0;
+    color: #38bdf8 !important;
+    font-size: 1.2em !important;
+    border: none !important;
+    padding-bottom: 0 !important;
+  }
+
+  p, li {
+    font-size: 0.85em;
+    line-height: 1.5;
+    color: #cbd5e1;
+  }
+}
+
+// Destacados
+.highlight-teal {
+  color: #10b981;
+  font-weight: bold;
+}
+
+.highlight-blue {
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+.highlight-orange {
+  color: #e6dcd6;
+  font-weight: bold;
+}
+
+// Ajustar el tamaño y contenedor de las imágenes
+.slide-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(37, 5, 19, 0.6);
+  border-radius: 4px;
+  border: 1px solid rgba(202, 192, 192, 0.05);
+  padding: 2px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+  img {
+    max-height: 600px;
+    object-fit: contain;
+    border-radius: 2px;
+  }
+}
