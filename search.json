@@ -690,7 +690,7 @@
     "href": "TextClassification/poornima.html#training-set",
     "title": "Sentiment Analysis",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nY a usted le importa seguir el montón de menti...\n0\n\n\n1\nOCURRIÓ FRENTE MISMO A SU DOMICILIO \\n\\nUn jov...\n1\n\n\n2\n@chambiexdolan__ EY NO PERDÓN TE DIJE QUE ERA ...\n0\n\n\n3\nVOA- La Policía de Texas reportó que un hombre...\n1\n\n\n4\n#SuscriptorANV\\nPor el mercado el Morro, algun...\n0\n\n\n5\nUltimaron a delincuente cuando intentaba robar...\n1\n\n\n6\nComenzó Géminis. El mejor signo. \\nVengan de a...\n0\n\n\n7\nAsesinan a PoliMiranda para robarle su pistola...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n[Otra vez veo gente preguntando acerca de la p...\n0\n\n\n1\nEl presunto asesino, de 24 años, se entregó tr...\n1\n\n\n2\nMurió en vuelco ladrón de carro en Maracaibo h...\n0\n\n\n3\n#Nezahualcoyótl || Personal de la #DGIIP frust...\n1\n\n\n4\nMuere un hombre de 30 años y vecino de Sabadel...\n0\n\n\n5\nActualización #KentuckyShooting:\\n-Dos estudia...\n1\n\n\n6\nNi por qué anuncien la orden de captura en con...\n0\n\n\n7\n#ElCairo: #PatrickZaki, investigador y defenso...\n1",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -830,7 +830,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-2",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(57, np.float64(7.906890595608518)),\n (54, np.float64(5.8479969065549495)),\n (39, np.float64(1.3219280948873617)),\n (17, np.float64(2.5224042154522373))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(58, np.float64(7.906890595608518)),\n (54, np.float64(5.8479969065549495)),\n (4, np.float64(1.3219280948873617)),\n (18, np.float64(2.5224042154522373))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -840,7 +840,7 @@
     "href": "TextClassification/poornima.html#utterance-as-vector-3",
     "title": "Sentiment Analysis",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f90f767ce50&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f6688e82490&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
     "crumbs": [
       "Sentiment Analysis"
     ]
@@ -970,7 +970,7 @@
     "href": "TextClassification/educacion.html#conjunto-de-entrenamiento",
     "title": "Impacto del Procesamiento de Lenguaje Natural en la Educación",
     "section": "Conjunto de entrenamiento",
-    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nSuarez anunció por Twitter a su nuevo gabinete...\nN\n\n\n1\nPolicía española arresta a grupo de narcos acu...\nP\n\n\n2\nEl inge se puso emo y está poniendo canciones ...\nN\n\n\n3\nDetenidos los tres atracadores que asaltaron u...\nP\n\n\n4\n@djscraimer @NachoGomex @NoticiasUno Dígame un...\nN\n\n\n5\nGrupo armado secuestra a dos niños en Ajuchitl...\nP\n\n\n6\nXi Jinping anunció visita a Rusia en junio par...\nN\n\n\n7\nGran trabajo compañero. Cuatro peligrosos y vi...\nP",
+    "text": "Conjunto de entrenamiento\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\n#Ahora\\n#LaPaz\\n#Sucre\\n@CulturasBolivia aclar...\nN\n\n\n1\n#ns Un hombre fue asesinado a balazos en perif...\nP\n\n\n2\nVidal le pide el voto a desaparecidos   | La G...\nN\n\n\n3\nUn niño en estado crítico, tras tiroteo en jue...\nP\n\n\n4\nEl inge se puso emo y está poniendo canciones ...\nN\n\n\n5\nCapturan en Monterrey a Uriel Isaac, alias ‘El...\nP\n\n\n6\nEl Presidente Juan Orlando Hernández anunció e...\nN\n\n\n7\nCamión atropella a motochorros en gasolinera d...\nP",
     "crumbs": [
       "Impacto del Procesamiento de Lenguaje Natural en la Educación"
     ]
@@ -1942,7 +1942,7 @@
     "href": "TextClassification/general.html#training-set",
     "title": "Text Classification",
     "section": "Training set",
-    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\n#FUTAL - REPROGRAMADO - FECHA 15\\n#VELEZ visit...\n0\n\n\n1\nTestigo de asalto a banca en Santiago mata uno...\n1\n\n\n2\nPresidente Evo Morales conmemora rebelión de T...\n0\n\n\n3\n#LoMásLeído Asesinan a mujer en transporte púb...\n1\n\n\n4\n#LimaAlDía Chosica: Deterioro de avenida Las T...\n0\n\n\n5\nBrutal asesinato de una patota en Rafael Casti...\n1\n\n\n6\n@JaumBoixader Tu debes de ser de los que recib...\n0\n\n\n7\nDetenido un joven de 21 años en Lugo por tener...\n1",
+    "text": "Training set\n\n\n\n\n\n\n\n\n\n\ntext\nklass\n\n\n\n\n0\nEl tifón Mangkhut deja dos muertos a su paso p...\n0\n\n\n1\nPRIMICIA EXCLUSIVA\\nOtro femicidio en Pehuajó\\...\n1\n\n\n2\nLos q nos ningunearon y pretendieron q la Admi...\n0\n\n\n3\nRecién por la calle de atrás de mi casa le rob...\n1\n\n\n4\n@mesalvess Ata, ah, tá! Inocente ela\n0\n\n\n5\nUn detenido por tráfico de medicinas ➤ https:/...\n1\n\n\n6\n@Migichi4 @RedKmil @AntonioSLW @D0nMamadore Cu...\n0\n\n\n7\nUn niño en estado crítico, tras tiroteo en jue...\n1",
     "crumbs": [
       "Text Classification"
     ]
@@ -2082,7 +2082,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-2",
     "title": "Text Classification",
     "section": "Utterance as Vector (2)",
-    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(56, np.float64(7.906890595608518)),\n (54, np.float64(5.8479969065549495)),\n (12, np.float64(1.3219280948873617)),\n (27, np.float64(2.5224042154522373))]",
+    "text": "Utterance as Vector (2)\n\n\n\nInverse Document Frequency (IDF)\n\n\n\ntoken2id = {}\ntoken2beta = {}\nN = np.log2(voc.update_calls)\nfor id, (k, n) in enumerate(voc.items()):\n  token2id[k] = id\n  token2beta[k] = N - np.log2(n)\n\n\n\n\n\n\n\n\nTerm Frequency - IDF\n\n\n\ntext = training_set[3]['text']\ntokens = tm.tokenize(text)\nvector = []\nfor token, tf in zip(*np.unique(tokens, return_counts=True)):\n  if token not in token2id:\n    continue\n  vector.append((token2id[token], tf * token2beta[token]))\nvector[:4]\n\n[(62, np.float64(7.906890595608518)),\n (58, np.float64(5.8479969065549495)),\n (40, np.float64(1.3219280948873617)),\n (36, np.float64(2.5224042154522373))]",
     "crumbs": [
       "Text Classification"
     ]
@@ -2092,7 +2092,7 @@
     "href": "TextClassification/general.html#utterance-as-vector-3",
     "title": "Text Classification",
     "section": "Utterance as Vector (3)",
-    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7fad980f3700&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
+    "text": "Utterance as Vector (3)\n\n\n\n\\(\\mu\\)-TC\n\n\n\ntm.fit(training_set)\n\n&lt;microtc.textmodel.TextModel at 0x7f765ffae350&gt;\n\n\n\n\n\n\n\n\nUtterance as Vector\n\n\n\ntext = training_set[3]['text']\ntm[text][:4]\n\n[(3523, np.float64(0.08478070043211834)),\n (5114, np.float64(0.07639809274356325)),\n (6569, np.float64(0.35264239129026387)),\n (3340, np.float64(0.1965574235982234))]",
     "crumbs": [
       "Text Classification"
     ]
@@ -2432,7 +2432,7 @@
     "href": "TextClassification/ropec2024.html#training-set",
     "title": "Is Traditional Machine Learning Useless?",
     "section": "Training set",
-    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nNi el café me deja tomarlo tranquilo y tumbadi...\nN\n\n\n1\nCapturan a un hombre por violar a un joven de ...\nP\n\n\n2\nSEP: 26 mil maestros para suplir a profesores ...\nN\n\n\n3\n#Indignante 🐀 || Cámaras de seguridad de la ru...\nP\n\n\n4\nDETENIDO Y CONDUCIDO A LA COMISARÍA POR DIRIGI...\nN\n\n\n5\nCae una red criminal con 81 detenidos que traf...\nP\n\n\n6\n📌 Resultados\nN\n\n\n7\n🚔 #Policiales #GranaderoBaigorria Un joven mur...\nP",
+    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nEn todas las cárceles del mundo, liberando pre...\nN\n\n\n1\nSecuestran y asesinan a una estudiante de bach...\nP\n\n\n2\nInterior despliega un centenar de guardias civ...\nN\n\n\n3\nSAN LUIS \\n\\n3 HOMBRES Y UN MENOR DETENIDOS PO...\nP\n\n\n4\nLA FLECHA DE LA MUERTE - Tinker7: https://t.co...\nN\n\n\n5\nInfausta noticia. \\n\\nDurante un ataque de un ...\nP\n\n\n6\nVIDEO, FOTOS: Fuertes lluvias provocan inundac...\nN\n\n\n7\n#Increíble Roban tachones y dan dos balazos a ...\nP",
     "crumbs": [
       "Is Traditional Machine Learning Useless?"
     ]

@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d5b4e69c7e37b49c6591bcc5116dd748.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.11.1">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.38">
 
   <meta name="author" content="Mario Graff">
   <title>INGEOTEC – El Procesamiento de Lenguaje Natural en la Ciencia de Datos</title>
@@ -20,13 +20,10 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
+    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: 1.5em;}
-    div.column{flex: auto;}
-    @media screen {
-    div.columns{gap: min(4vw, 1.5em);}
-    div.column{overflow-x: auto;}
-    }
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -215,7 +212,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-<a href="https://mgraffg.github.io">Mario Graff</a>
+<a href="https://mgraffg.github.io">Mario Graff</a> 
 </div>
         <p class="quarto-title-affiliation">
             INFOTEC
@@ -990,10 +987,10 @@ Para tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de r
 </div>
 <div class="callout-content">
 <div id="5e8fe12b" class="cell" data-execution_count="4">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a aria-label="1"></a><span class="im">from</span> dialectid <span class="im">import</span> DialectId</span>
-<span id="cb1-2"><a aria-label="2"></a></span>
-<span id="cb1-3"><a aria-label="3"></a>detect <span class="op">=</span> DialectId(lang<span class="op">=</span><span class="st">'es'</span>)</span>
-<span id="cb1-4"><a aria-label="4"></a>detect.predict([<span class="st">'son pololos'</span>, <span class="st">'pues vámonos'</span>])</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">from</span> dialectid <span class="im">import</span> DialectId</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a>detect <span class="op">=</span> DialectId(lang<span class="op">=</span><span class="st">'es'</span>)</span>
+<span id="cb1-4"><a></a>detect.predict([<span class="st">'son pololos'</span>, <span class="st">'pues vámonos'</span>])</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="4">
 <pre><code>array(['cl', 'mx'], dtype='&lt;U2')</code></pre>
 </div>
