@@ -1,3 +1,116 @@
 ---
 title: "INGEOTEC"
+page-layout: full
+toc: false
+css: styles.css
 ---
+
+```{=html}
+<style>#title-block-header { display: none; }</style>
+
+<div class="hero">
+  <h1>INGEOTEC</h1>
+  <p>Grupo de investigación en Procesamiento de Lenguaje Natural, Minería de Opinión y Aprendizaje Computacional. Aquí reunimos las presentaciones de congresos, competencias internacionales y charlas de divulgación del grupo.</p>
+  <div class="hero-links">
+    <a href="https://github.com/INGEOTEC" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div>
+
+<div class="section-title">
+  <span class="section-tag">Competencia</span>
+  <h2>Competencias</h2>
+</div>
+<p class="section-desc">Participaciones de INGEOTEC en competencias internacionales de evaluación de sistemas de PLN: IberLEF 2023 (Jaén, España) y MexLEF 2023 (Puebla, México).</p>
+
+<div class="card-grid">
+  <a class="talk-card" href="IberLEF2023/restMex2023.qmd">
+    <span class="talk-badge">Rest-Mex · IberLEF 2023</span>
+    <h3>Ingeotec at Rest-Mex: Bag-of-Words Classifiers</h3>
+    <span class="talk-meta">Versión completa</span>
+  </a>
+  <a class="talk-card" href="IberLEF2023/RestMex2023-10mins.qmd">
+    <span class="talk-badge">Rest-Mex · IberLEF 2023</span>
+    <h3>Ingeotec at Rest-Mex: Bag-of-Words Classifiers</h3>
+    <span class="talk-meta">Versión de 10 minutos</span>
+  </a>
+  <a class="talk-card" href="IberLEF2023/davincis2023.qmd">
+    <span class="talk-badge">DA-VINCIS · IberLEF 2023</span>
+    <h3>Ingeotec at DA-VINCIS: Bag-of-Words Classifiers</h3>
+    <span class="talk-meta">Versión completa</span>
+  </a>
+  <a class="talk-card" href="IberLEF2023/short-davincis2023.qmd">
+    <span class="talk-badge">DA-VINCIS · IberLEF 2023</span>
+    <h3>Ingeotec at DA-VINCIS: Bag-of-Words Classifiers</h3>
+    <span class="talk-meta">Versión de 10 minutos</span>
+  </a>
+  <a class="talk-card" href="MexLEF2023/index.qmd">
+    <span class="talk-badge">MexLEF 2023</span>
+    <h3>Recursos regionalizados para el procesamiento automático de datos de redes sociales</h3>
+    <span class="talk-meta">MexLEF, Puebla, México — octubre 2023</span>
+  </a>
+</div>
+
+<div class="section-title">
+  <span class="section-tag">Divulgación</span>
+  <h2>Divulgación</h2>
+</div>
+<p class="section-desc">Charlas de divulgación sobre Procesamiento de Lenguaje Natural, Inteligencia Artificial y sus aplicaciones, dirigidas a públicos generales.</p>
+
+<div class="card-grid">
+  <a class="talk-card" href="TextClassification/educacion.qmd">
+    <span class="talk-badge">Divulgación</span>
+    <h3>Impacto del Procesamiento de Lenguaje Natural en la Educación</h3>
+  </a>
+  <a class="talk-card" href="TextClassification/competencias.qmd">
+    <span class="talk-badge">Divulgación</span>
+    <h3>Competencias internacionales para generar avances en inteligencia artificial</h3>
+  </a>
+  <a class="talk-card" href="TextClassification/reclutamiento.qmd">
+    <span class="talk-badge">Divulgación</span>
+    <h3>Innovación en Reclutamiento y Marketing mediante PLN</h3>
+  </a>
+  <a class="talk-card" href="TextClassification/ciencia_datos.qmd">
+    <span class="talk-badge">Divulgación</span>
+    <h3>El Procesamiento de Lenguaje Natural en la Ciencia de Datos</h3>
+  </a>
+  <a class="talk-card" href="TextClassification/ropec2024.qmd">
+    <span class="talk-badge">ROPEC 2024</span>
+    <h3>Is Traditional Machine Learning Useless?</h3>
+    <span class="talk-meta">Given the Boom of Deep Learning Approaches</span>
+  </a>
+</div>
+
+<div class="section-title">
+  <span class="section-tag">Curso</span>
+  <h2>Text Classification</h2>
+</div>
+<p class="section-desc">Charlas y cursos técnicos sobre clasificación de textos y minería de opinión, dirigidos a públicos académicos.</p>
+
+<div class="card-grid">
+  <a class="talk-card" href="TextClassification/general.qmd">
+    <span class="talk-badge">Curso</span>
+    <h3>Text Classification</h3>
+  </a>
+  <a class="talk-card" href="TextClassification/poornima.qmd">
+    <span class="talk-badge">Poornima Institute</span>
+    <h3>Sentiment Analysis</h3>
+  </a>
+  <a class="talk-card" href="TextClassification/quantum.qmd">
+    <span class="talk-badge">Curso</span>
+    <h3>Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión</h3>
+  </a>
+</div>
+
+<div class="section-title">
+  <span class="section-tag">Línea de investigación</span>
+  <h2>Metric Search</h2>
+</div>
+<p class="section-desc">Búsqueda en espacios métricos: la única sección organizada por tema en lugar de por evento.</p>
+
+<div class="card-grid">
+  <a class="talk-card" href="MetricSearch/index.qmd">
+    <span class="talk-badge">Metric Search</span>
+    <h3>Búsqueda en espacios métricos en la era de los grandes modelos neuronales</h3>
+  </a>
+</div>
+```

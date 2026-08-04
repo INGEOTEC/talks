@@ -1,0 +1,476 @@
+---
+lang: es
+title: "Innovación en Reclutamiento y Marketing mediante PLN"
+# subtitle: ""
+author:
+    - name: "Mario Graff"
+      url: https://mgraffg.github.io
+      affiliation: INFOTEC
+
+format:
+  revealjs:
+    theme: simple
+    chalkboard: true
+    footer: <https://mgraffg.github.io>
+bibliography: references.bib    
+---
+
+# INFOTEC
+
+```{python}
+#| include: false
+from scipy.stats import multivariate_normal
+from sklearn import decomposition, tree
+from sklearn.datasets import load_iris
+from sklearn.svm import LinearSVC
+import plotly.express as px
+import plotly.graph_objects as go
+import re
+import pandas as pd
+import numpy as np
+import seaborn as sns
+```
+
+## Aguascalientes, México
+
+:::: {.columns} 
+::: {.column width="50%"} 
+![](aguascalientes_edo.jpg)
+:::
+
+::: {.fragment .callout-note icon="false" .column width="50%"} 
+### INFOTEC 
+
+Centro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.
+:::
+::::
+
+# Introducción 
+
+## Definiciones 
+
+:::: {.columns}
+::: {.callout-note icon="false" .column} 
+### Inteligencia Artificial (IA)
+
+Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.
+:::
+
+::: {.fragment .callout-note icon="false" .column}
+### Aprendizaje Computacional  
+
+Aprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados. 
+:::
+::::
+
+::: {.fragment .callout-note icon="false"} 
+### Procesamiento de Lenguaje Natural
+
+Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.
+:::
+
+## Percepción de Inteligencia Artificial (IA)
+
+:::: {.columns}
+
+::: {.callout-tip icon="false" .column width=50%}
+### Así la vemos
+
+![](img/robot-futuro.jpg){height=300}
+:::
+
+::: {.fragment .callout-tip icon="false" .column width=50%}
+### Así está
+
+![](img/robot-juguete.png){fig-align="left" height="300px"}
+:::
+::::
+
+# Aprendizaje computacional
+
+## Aprendizaje computacional 
+
+::: {.callout-note icon=false}
+### Tipos de aprendizaje computacional
+* Aprendizaje no supervisado
+* Aprendizaje supervisado
+* Aprendizaje por refuerzo
+:::
+
+:::: {.columns}
+
+::: {.fragment .callout-tip icon="false" .column}
+### Aprendizaje no supervisado
+
+![](img/umap_prob1489.png){fig-align="center" height=253}
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### Aprendizaje por refuerzo
+
+* Juegos
+* Actividades
+* Retroalimentación al final 
+:::
+::::
+
+## Clasificadores lineales
+
+```{python}
+#| echo: false
+D, y = load_iris(return_X_y=True)
+pca = decomposition.PCA(n_components=2).fit(D)
+Dn = pca.transform(D)
+df = pd.DataFrame(Dn, columns=['x', 'y'])
+
+df['Class'] = ['P' if i == 0 else 'N' for i in y]
+m = LinearSVC(dual='auto').fit(Dn, [1 if i == 0 else 0 for i in y])
+w_1, w_2 = m.coef_[0]
+w_0 = m.intercept_[0]
+g_0 = [dict(x1=x, x2=y, tipo='g(x)=0')
+       for x, y in zip(Dn[:, 0], (-w_0 - w_1 * Dn[:, 0]) / w_2)]
+line = go.Scatter(x=Dn[:, 0], y=(-w_0 - w_1 * Dn[:, 0]) / w_2,
+                  line=dict(color='darkgrey'),
+                  showlegend=False)
+fig = px.scatter(df, color='Class', x='x', y='y', height=400)
+
+fig.update_layout(yaxis={'visible': True, 'showticklabels': False}, 
+                  xaxis={'visible': True, 'showticklabels': False},
+                  xaxis_title=None, yaxis_title=None)
+fig.add_trace(line)
+fig.show()
+```
+
+# Minería de opinión 
+
+## Minería de opinión @dave2003mining
+
+::: {.callout-note icon="false"} 
+### Definición @liu2012sentiment
+
+Estudia las opiniones, valoraciones, actitudes y emociones de las personas hacia entidades, individuos, eventos y sus atributos. 
+:::
+
+* Identificar opiniones de textos
+* Interés de las marcas en conocer las opiniones de los clientes
+* Datos masivos
+
+## Minería de opinión (2) 
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-note icon="false"}
+### Definición formal 
+
+* $e_i$ -       Entidad
+* $a_{ij}$ -    Aspecto of $e_i$
+* $o_{ijkl}$ -  Orientación de la opinión 
+* $h_k$ -       Fuente de la opinión
+* $t_l$ -       Tiempo
+:::
+:::
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+### Entidad 
+
+Producto, servicio, persona, evento, organización o tópico.
+:::
+
+::: {.callout-tip icon="false"}
+### Aspecto 
+Componente o atributo de la entidad
+:::
+:::
+::::
+
+## Tareas de la minería de opinión 
+:::: {.columns}
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### Tasks 
+* Identificación de la entidad 
+* Identifación de los aspectos / considerando la entidad 
+* Fuente de la opinión y tiempo
+* Orientación de la opinión
+:::
+:::
+::: {.column width="40%"}
+![](img/mineria_opinion_tasks.png){fig-align="center" width="300px"}
+:::
+::::
+
+<!-- ## Preprocesamiento 
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+### Técnicas
+* Tokenización
+* Lemmatización
+* Stopwords
+* Etiquetado POS
+* Análisis sintáctico 
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+### Función 
+* Dividir texto
+* Reducir palabras
+* Eliminar palabras
+* Relaciona palabras
+:::
+:::
+:::: -->
+
+# Clasificación de Textos
+
+## Clasificación de Textos
+
+::: {.callout-note icon=false} 
+### Definición 
+
+El objetivo es la **clasificación** de **documentos** en un número fijo de categorías predefinidas.
+:::
+
+::: {.callout-tip icon=false} 
+### Polaridad 
+El día de mañana no podré ir con ustedes a la librería
+:::
+
+::: {.fragment style="font-size: 100%; text-align: center;"} 
+**Negativa**
+:::
+
+## Tareas de Clasificación de Textos
+
+::: {.callout-tip icon=false} 
+### Polaridad 
+Positiva, Negativa, Neutral
+:::
+
+::: {.callout-tip icon=false} 
+### Emoción (Multiclase) 
+
+* Ira, Alegría, ...
+* Intensidad de una emoción
+:::
+
+::: {.callout-tip icon=false} 
+### Evento (Binaria) 
+
+* Violento
+* Delito
+:::
+
+## Perfil
+
+::: {.callout-tip icon=false} 
+### Género 
+
+Hombre, Mujer, No binario, ...   
+:::
+
+::: {.callout-tip icon=false} 
+### Edad 
+
+Niño, Adolescente, Adulto
+:::
+
+::: {.callout-tip icon=false} 
+### Variedad de Lenguaje 
+
+* Español: España, Cuba, Argentina, México, ...
+* Inglés: Estados Unidos, Inglaterra, ...
+:::
+
+# Reclutamiento
+
+## Validación de requerimientos
+:::: {.columns}
+::: {.column width="40%"}
+![](img/validacion req.png){fig-align="center" height="400px"}
+:::
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### @santana2024estudio
+* Identificación de datos
+* Filtrar candidatos
+* Clasificar perfiles
+* Identificar equivalencias
+:::
+:::
+::::
+## Anonimización
+:::: {.columns}
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### @simon2021implementacion
+* Identificar entidades personales
+* Anonimizar para evitar sesgos (genero, edad, escuela, etc.)
+* Seguridad para almacenamiento interno
+* Analizar automátiamente los CV's
+:::
+:::
+::: {.column width="40%"}
+![](img/anonimizacion.png){fig-align="center" height="400px"}
+:::
+::::
+## Selección de candidatos
+:::: {.columns}
+::: {.column width="40%"}
+![](img/seleccion%20candidatos.png){fig-align="center" height="400px"}
+:::
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### @gonzalez2025seleccion, @mohanty2023resumate, @dugyala2024smart
+* Agilizar proceso
+* Reclutamiento organizado
+* Identificación de habilidades y experiencias
+* Normalización de CV's
+:::
+:::
+::::
+## Simulación de entrevistas
+:::: {.columns}
+
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### @devaraju2022natural 
+* Analizar las respuestas
+* Uso de chatbots para respuestas rápidas
+* Análisis de coherencia, relevancia y sentimiento
+* Identificar palabras clave
+:::
+:::
+::: {.column width="40%"}
+![](img/entrevista.png){fig-align="center" height="400px"}
+:::
+::::
+## Mercado laboral
+:::: {.columns}
+::: {.column width="40%"}
+![](img/busqueda%20empleo.png){fig-align="center" height="400px"}
+:::
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### @chen2025nlp
+* Identificar tendencias
+* Habilidades y requisitos frecuentes
+* Detectar interrelaciones (competencias-roles)
+:::
+:::
+::::
+
+# Análisis de sentimientos 
+
+## Turismo
+
+:::: {.columns}
+::: {.column width="40%"}
+![](img/turismo_opinion.png){fig-align="center" height="400px"}
+:::
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### @zhao2024business, @ticona2019mineria
+* Toma de decisiones para promoción turistica
+* Detectar comentarios de productos y servicios
+* Identificar patrones de preferencia
+* Agrupar opiniones similares
+* Visualizar oportunidades de mejora 
+:::
+:::
+::::
+
+
+## Percepción pública
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### @povedano2021estudio
+* Segmentar grupos de intéres
+* Medir reacción pública
+* Identificar preocupaciones 
+* Captar el nivel de aceptación
+:::
+:::
+
+::: {.column width="40%"}
+![](img/vacunacion.png){fig-align="center" height="400px"}
+:::
+::::
+
+
+## Redes sociales 
+
+:::: {.columns}
+::: {.column width="40%"}
+![](img/redes sociales.jpg){fig-align="center" height="400px"}
+:::
+
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### @majid2023sentiment, @wicaksono2025social
+* Identificación de fallas (audios, videos, comentarios, etc)
+* Mejoras para las aplicaciones
+* Proporcionar información para las empresas
+* Comprender percepción de clientes 
+* Conocer las sugerencias (fortalecer contenido verificado, preocupación por fraudes, etc) 
+:::
+:::
+::::
+
+
+## Reseñas de productos
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### @hannan2012data, @jabeen2024decoding
+* Medir satisfacción de los clientes
+* Conocer la reputación de los productos
+* Priorizar aspectos de mejora
+* Retroalimentación para publicidad y desarrollo
+* Conocer las expectativas de los consumidores 
+:::
+:::
+
+::: {.column width="40%"}
+![](img/reseña productos.png){fig-align="center" height="400px"}
+
+:::
+::::
+
+
+## Conclusiones
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.callout-tip icon="false"}
+### Técnicas
+* Minería de opinión
+* Clasificación de texto
+* Identificación de entidades
+* Similitud semántica
+:::
+:::
+
+::: {.column width="40%"}
+::: {.callout-tip icon="false"}
+### Problemas 
+
+* Recursos humanos
+* Clientes
+:::
+:::
+::::
+
+
+
+# Referencias
+
+::: {#refs}
+:::
+
+# ¡Gracias! 

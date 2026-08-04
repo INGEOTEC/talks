@@ -337,7 +337,7 @@ $$
 #| echo: true
 
 from encexp.text_repr import SeqTM
-seq = SeqTM()
+seq = SeqTM(lang='es')
 seq.tokenize('Es un placer estar con ustedes')
 ```
 :::
@@ -347,7 +347,6 @@ seq.tokenize('Es un placer estar con ustedes')
 ```{python} 
 #| echo: true
 
-from encexp.text_repr import SeqTM
 seq['Es un placer estar con ustedes']
 ```
 :::

@@ -1,0 +1,138 @@
+/* Landing page styles for INGEOTEC talks site */
+
+.hero {
+  background: linear-gradient(135deg, #0f2942 0%, #1c4e80 55%, #2e86ab 100%);
+  color: #f7fafc;
+  border-radius: 14px;
+  padding: 3.2rem 2.5rem;
+  margin: 0.5rem 0 2.5rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  max-width: 46rem;
+  margin: 0 auto;
+  color: #dbe9f6;
+}
+
+.hero .hero-links {
+  margin-top: 1.4rem;
+}
+
+.hero .hero-links a {
+  display: inline-block;
+  margin: 0.25rem 0.4rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-size: 0.92rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.hero .hero-links a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.section-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 2.4rem 0 0.3rem 0;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.4rem;
+}
+
+.section-title h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  border-bottom: none;
+}
+
+.section-title .section-tag {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #2e86ab;
+}
+
+.section-desc {
+  color: #5a6774;
+  margin-bottom: 1.2rem;
+  font-size: 0.98rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.talk-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.1rem 1.2rem;
+  background: #ffffff;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: box-shadow 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+  box-shadow: 0 1px 2px rgba(15, 41, 66, 0.04);
+}
+
+.talk-card:hover {
+  border-color: #2e86ab;
+  box-shadow: 0 6px 16px rgba(15, 41, 66, 0.12);
+  transform: translateY(-2px);
+}
+
+.talk-card .talk-badge {
+  align-self: flex-start;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #1c4e80;
+  background: #e7f1f8;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  margin-bottom: 0.55rem;
+}
+
+.talk-card h3 {
+  font-size: 1.02rem;
+  line-height: 1.35;
+  margin: 0 0 0.4rem 0;
+  color: #1a202c;
+}
+
+.talk-card .talk-meta {
+  font-size: 0.85rem;
+  color: #5a6774;
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .talk-card {
+    background: #1a2530;
+    border-color: #2d3b48;
+  }
+  .talk-card h3 {
+    color: #f0f4f8;
+  }
+}
