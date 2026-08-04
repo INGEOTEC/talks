@@ -24,6 +24,7 @@ website:
           - sidebar:competencias
           - sidebar:reclutamiento
           - sidebar:plndatos
+          - sidebar:quantum
       - text: Metric Search
         href: MetricSearch/index.qmd
 
@@ -71,7 +72,11 @@ website:
     - id: plndatos
       title: El Procesamiento de Lenguaje Natural en la Ciencia de Datos
       contents:
-        - TextClassification/ciencia_datos.qmd          
+        - TextClassification/ciencia_datos.qmd
+    - id: quantum
+      title: Algoritmos Evolutivos en PLN y Minería de Opinión
+      contents:
+        - TextClassification/quantum.qmd
 
     - id: MetricSearch
       title: Metric Search 

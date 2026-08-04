@@ -3,3 +3,14 @@
 .DS_Store
 
 **/*.quarto_ipynb
+
+# Downloaded during render by TextClassification/*.qmd, not source files
+TextClassification/delitos.zip
+TextClassification/delitos/
+TextClassification/emoji_text.ttf
+TextClassification/emoji_text.ttf.zip
+
+# Local resource folders / HTML left behind by rendering a .qmd in place
+# (the published output goes to _site/, not next to the source)
+**/*_files/
+MexLEF2023/_ejemplos-knn-*.html
