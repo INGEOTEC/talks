@@ -1540,252 +1540,360 @@
     "href": "MexLEF2023/index.html#sobre-esta-charla",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Sobre esta charla",
-    "text": "Sobre esta charla\nTellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regionalized models for Spanish language variations based on Twitter. Language Resources and Evaluation, 1-31.\n@article{regionalized2023,\n  title={Regionalized models for Spanish language variations based on Twitter},\n  author={Tellez, Eric S and Moctezuma, Daniela and Miranda, Sabino and Graff, Mario and Ruiz, Guillermo},\n  journal={Language Resources and Evaluation},\n  pages={1--31},\n  year={2023},\n  publisher={Springer}\n}\n\nArXiv preprint."
+    "text": "Sobre esta charla\nTellez, E. S., Moctezuma, D., Miranda, S., Graff, M., & Ruiz, G. (2023). Regionalized models for Spanish language variations based on Twitter. Language Resources and Evaluation, 1-31.\n@article{regionalized2023,\n  title={Regionalized models for Spanish language variations based on Twitter},\n  author={Tellez, Eric S and Moctezuma, Daniela and Miranda, Sabino and Graff, Mario and Ruiz, Guillermo},\n  journal={Language Resources and Evaluation},\n  pages={1--31},\n  year={2023},\n  publisher={Springer}\n}\n\nArXiv preprint.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
     "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-12",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)",
-    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)\n\nMinería de opinión\n\npositivo :)  — neutro :|  — negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio\nEtc."
+    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (1/2)\n\nMinería de opinión\n\npositivo :)  — neutro :|  — negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio\nEtc.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
     "href": "MexLEF2023/index.html#aplicaciones-de-procesamiento-de-lenguaje-natural-22",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)",
-    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas."
+    "text": "Aplicaciones de Procesamiento de Lenguaje Natural (2/2)\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#algunos-retos",
     "href": "MexLEF2023/index.html#algunos-retos",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Algunos retos",
-    "text": "Algunos retos\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios."
+    "text": "Algunos retos\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#regionalización",
     "href": "MexLEF2023/index.html#regionalización",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Regionalización",
-    "text": "Regionalización\n\nTodo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.\n\n\nPara tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso."
+    "text": "Regionalización\n\nTodo lo anterior puede regionalizarse, ya que un mismo lenguaje puede usarse de manera diferente en diferentes regiones.\n\n\nPara tareas dónde haya una fuerte carga cultural o de idiosincrasia el uso de recursos regionalizados es provechoso.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#regionalización-como-herramienta",
     "href": "MexLEF2023/index.html#regionalización-como-herramienta",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Regionalización como herramienta",
-    "text": "Regionalización como herramienta\nEntender las variaciones del lenguaje en las redes sociales es primordial ya que los mensajes suelen ser informales, y es común que los usuarios solo quieran ser leídos por su círculo de personas cercanas."
+    "text": "Regionalización como herramienta\nEntender las variaciones del lenguaje en las redes sociales es primordial ya que los mensajes suelen ser informales, y es común que los usuarios solo quieran ser leídos por su círculo de personas cercanas.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#españa",
     "href": "MexLEF2023/index.html#españa",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "España 🇪🇸",
-    "text": "España 🇪🇸\n\n\nme dais ascooooikiiikioooooooooooooooooooooooooo\nkina ñefla\nns cmo s exribe\no indeciso, nse ya x dnde cogerte colega\nq os follennjajabya quisieran\nen el metro q voy esta potando uno\n_USR 😂😭💔☹️😰 pero por qué churra"
+    "text": "España 🇪🇸\n\n\nme dais ascooooikiiikioooooooooooooooooooooooooo\nkina ñefla\nns cmo s exribe\no indeciso, nse ya x dnde cogerte colega\nq os follennjajabya quisieran\nen el metro q voy esta potando uno\n_USR 😂😭💔☹️😰 pero por qué churra",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#argentina",
     "href": "MexLEF2023/index.html#argentina",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Argentina 🇦🇷",
-    "text": "Argentina 🇦🇷\n\n\npofr suerxte m8ís amigo mo son psicópatassa\npal pinnngooo\n_USR estos rompen todo! y la esposa del chorro me tiró en la cara q era planera, 5 hijos tiene. me grita: vos seguí alquilando! decí q no la agarro de los pelos x mi hijo q no le gusta el bardo.\ny dsp se comió un asado, moooy booeno👌👌🤣😂\nmi hno se pone re denso no lo banco"
+    "text": "Argentina 🇦🇷\n\n\npofr suerxte m8ís amigo mo son psicópatassa\npal pinnngooo\n_USR estos rompen todo! y la esposa del chorro me tiró en la cara q era planera, 5 hijos tiene. me grita: vos seguí alquilando! decí q no la agarro de los pelos x mi hijo q no le gusta el bardo.\ny dsp se comió un asado, moooy booeno👌👌🤣😂\nmi hno se pone re denso no lo banco",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#méxico",
     "href": "MexLEF2023/index.html#méxico",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "México 🇲🇽",
-    "text": "México 🇲🇽\n\n\n_USR ahora si! #achingarasumadre nefasto, corrupto y ratero, por mucho eres el peor alcalde que ha tenido _USR\nya me ando echando la primera ca** del año\n_USR acá ya andaban con “la chica que soñé”\n_USR ¿no se te olvidó ponerte calzones rojos hoy, verdad?\nun minuto de silencio por los que se estan reventando los dedos y las manos con los cohetes !!!"
+    "text": "México 🇲🇽\n\n\n_USR ahora si! #achingarasumadre nefasto, corrupto y ratero, por mucho eres el peor alcalde que ha tenido _USR\nya me ando echando la primera ca** del año\n_USR acá ya andaban con “la chica que soñé”\n_USR ¿no se te olvidó ponerte calzones rojos hoy, verdad?\nun minuto de silencio por los que se estan reventando los dedos y las manos con los cohetes !!!",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#section-1",
     "href": "MexLEF2023/index.html#section-1",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "Twitter corpora\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nArgentina\nAR\n1,376K\n234.22M\n2,887.92M\n\n\nBolivia\nBO\n36K\n1.15M\n20.99M\n\n\nChile\nCL\n415K\n45.29M\n719.24M\n\n\nColombia\nCO\n701K\n61.54M\n918.51M\n\n\nCosta Rica\nCR\n79K\n7.51M\n101.67M\n\n\nCuba\nCU\n32K\n0.37M\n6.30M\n\n\nDominican Republic\nDO\n112K\n7.65M\n122.06M\n\n\nEcuador\nEC\n207K\n13.76M\n226.03M\n\n\nEl Salvador\nSV\n49K\n2.71M\n44.46M\n\n\nEquatorial Guinea\nGQ\n1K\n8.93K\n0.14M\n\n\nGuatemala\nGT\n74K\n5.22M\n75.79M\n\n\nHonduras\nHN\n35K\n2.14M\n31.26M\n\n\nMexico\nMX\n1,517K\n115.53M\n1,635.69M\n\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nNicaragua\nNI\n35K\n3.34M\n42.47M\n\n\nPanama\nPA\n83K\n6.62M\n108.74M\n\n\nParaguay\nPY\n106K\n10.28M\n141.75M\n\n\nPeru\nPE\n271K\n15.38M\n241.60M\n\n\nPuerto Rico\nPR\n18K\n0.58M\n7.64M\n\n\nSpain\nES\n1,278K\n121.42M\n1,908.07M\n\n\nUruguay\nUY\n157K\n30.83M\n351.81M\n\n\nVenezuela\nVE\n421K\n35.48M\n556.12M\n\n\n-\n-\n-\n-\n-\n\n\nBrazil\nBR\n1,604K\n27.20M\n142.22M\n\n\nCanada\nCA\n149K\n1.55M\n21.58M\n\n\nFrance\nFR\n292K\n2.43M\n27.73M\n\n\nGreat Britain\nGB\n380K\n2.68M\n34.62M\n\n\nUnited States of America\nUS\n2,652K\n40.83M\n501.86M\n\n\nTotal\n\n12M\n795.74M\n10,876.25M\n\n\n\n\n\nSe colectaron mensajes georeferenciados de 2016 a 2019 usando el API de stream público de Twitter."
+    "text": "Twitter corpora\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nArgentina\nAR\n1,376K\n234.22M\n2,887.92M\n\n\nBolivia\nBO\n36K\n1.15M\n20.99M\n\n\nChile\nCL\n415K\n45.29M\n719.24M\n\n\nColombia\nCO\n701K\n61.54M\n918.51M\n\n\nCosta Rica\nCR\n79K\n7.51M\n101.67M\n\n\nCuba\nCU\n32K\n0.37M\n6.30M\n\n\nDominican Republic\nDO\n112K\n7.65M\n122.06M\n\n\nEcuador\nEC\n207K\n13.76M\n226.03M\n\n\nEl Salvador\nSV\n49K\n2.71M\n44.46M\n\n\nEquatorial Guinea\nGQ\n1K\n8.93K\n0.14M\n\n\nGuatemala\nGT\n74K\n5.22M\n75.79M\n\n\nHonduras\nHN\n35K\n2.14M\n31.26M\n\n\nMexico\nMX\n1,517K\n115.53M\n1,635.69M\n\n\n\n\n\n\n\ncountry\ncode\n#users\n#tweets\n#tokens\n\n\n\n\nNicaragua\nNI\n35K\n3.34M\n42.47M\n\n\nPanama\nPA\n83K\n6.62M\n108.74M\n\n\nParaguay\nPY\n106K\n10.28M\n141.75M\n\n\nPeru\nPE\n271K\n15.38M\n241.60M\n\n\nPuerto Rico\nPR\n18K\n0.58M\n7.64M\n\n\nSpain\nES\n1,278K\n121.42M\n1,908.07M\n\n\nUruguay\nUY\n157K\n30.83M\n351.81M\n\n\nVenezuela\nVE\n421K\n35.48M\n556.12M\n\n\n-\n-\n-\n-\n-\n\n\nBrazil\nBR\n1,604K\n27.20M\n142.22M\n\n\nCanada\nCA\n149K\n1.55M\n21.58M\n\n\nFrance\nFR\n292K\n2.43M\n27.73M\n\n\nGreat Britain\nGB\n380K\n2.68M\n34.62M\n\n\nUnited States of America\nUS\n2,652K\n40.83M\n501.86M\n\n\nTotal\n\n12M\n795.74M\n10,876.25M\n\n\n\n\n\nSe colectaron mensajes georeferenciados de 2016 a 2019 usando el API de stream público de Twitter.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#section-2",
     "href": "MexLEF2023/index.html#section-2",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "Vocabularios\nWord embeddings\nModelos de lenguaje"
+    "text": "Vocabularios\nWord embeddings\nModelos de lenguaje",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#vocabularios",
     "href": "MexLEF2023/index.html#vocabularios",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Vocabularios",
-    "text": "Vocabularios\n\n\n\n\n\n\n\n\n\n\n\n\ntoken\noccs\nndocs\nweight\nn_regions\ncountry_codes\n\n\n\n\nchau\n409,398\n387,910\n10.001527\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nsiento\n2,830,971\n2,764,088\n7.168519\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nadios\n341,841\n327,723\n10.244771\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\npersonas\n3,720,458\n3,620,029\n6.779321\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nhuevo\n540,941\n527,792\n9.55728\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\n…\n…\n…\n…\n…\n…"
+    "text": "Vocabularios\n\n\n\n\n\n\n\n\n\n\n\n\ntoken\noccs\nndocs\nweight\nn_regions\ncountry_codes\n\n\n\n\nchau\n409,398\n387,910\n10.001527\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nsiento\n2,830,971\n2,764,088\n7.168519\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nadios\n341,841\n327,723\n10.244771\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\npersonas\n3,720,458\n3,620,029\n6.779321\n26\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GQ:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\nhuevo\n540,941\n527,792\n9.55728\n25\nAR:BO:BR:CA:CL:CO:CR:CU:DO:EC:ES:FR:GB:GT:HN:MX:NI:PA:PE:PR:PY:SV:US:UY:VE\n\n\n…\n…\n…\n…\n…\n…",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
     "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-12",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Propiedades de los vocabularios (1/2)",
-    "text": "Propiedades de los vocabularios (1/2)\nLey de Zipf\n\nLey de Zipf para diferentes regiones (Twitter)"
+    "text": "Propiedades de los vocabularios (1/2)\nLey de Zipf\n\nLey de Zipf para diferentes regiones (Twitter)",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
     "href": "MexLEF2023/index.html#propiedades-de-los-vocabularios-22",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Propiedades de los vocabularios (2/2)",
-    "text": "Propiedades de los vocabularios (2/2)\nLey de Heaps\n\n\nLey de Heaps para diferentes regiones (Twitter)"
+    "text": "Propiedades de los vocabularios (2/2)\nLey de Heaps\n\n\nLey de Heaps para diferentes regiones (Twitter)",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
     "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-12",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Similitud léxica entre regiones (1/2)",
-    "text": "Similitud léxica entre regiones (1/2)"
+    "text": "Similitud léxica entre regiones (1/2)",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
     "href": "MexLEF2023/index.html#similitud-léxica-entre-regiones-22",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Similitud léxica entre regiones (2/2)",
-    "text": "Similitud léxica entre regiones (2/2)"
+    "text": "Similitud léxica entre regiones (2/2)",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#section-4",
     "href": "MexLEF2023/index.html#section-4",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "Creados con fastText sobre nuestra corpora regionalizada de Twitter. Disponibles desde el sitio del proyecto en diferentes dimensiones, e.g, 300, 32, 16 y 8 dimensiones.\nModelos para las 27 regiones (26 países + un modelo aglutinado)"
+    "text": "Creados con fastText sobre nuestra corpora regionalizada de Twitter. Disponibles desde el sitio del proyecto en diferentes dimensiones, e.g, 300, 32, 16 y 8 dimensiones.\nModelos para las 27 regiones (26 países + un modelo aglutinado)",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#similitud-entre-regiones",
     "href": "MexLEF2023/index.html#similitud-entre-regiones",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Similitud entre regiones",
-    "text": "Similitud entre regiones\n\nNecesitamos una matriz de afinidad, como lo hicimos con el caso léxico, pero los embeddings de diferentes regiones no son comparables entre sí.\nPara calcular la similitud usamos una representación que extrae información semántica basada en el grafo de los \\(k\\) vecinos cercanos. Esto soluciona el problema de comparación, pero aumenta los requerimientos de computo."
+    "text": "Similitud entre regiones\n\nNecesitamos una matriz de afinidad, como lo hicimos con el caso léxico, pero los embeddings de diferentes regiones no son comparables entre sí.\nPara calcular la similitud usamos una representación que extrae información semántica basada en el grafo de los \\(k\\) vecinos cercanos. Esto soluciona el problema de comparación, pero aumenta los requerimientos de computo.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
     "href": "MexLEF2023/index.html#notas-para-el-modelado-de-regiones-con-word-embeddings",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Notas para el modelado de regiones con word embeddings",
-    "text": "Notas para el modelado de regiones con word embeddings\n\n\nRecordando, cada palabra es un punto en \\(300\\) dimensiones.\nLa distancia entre puntos se mide usando \\(1 - cos(u, v)\\).\nCada región es una nube de puntos (palabras).\nUso de un vocabulario restringuido (preservar tokens que aparecen en al menos 10 regiones); esto también reduce el problema de la disparidad de datos entre diferentes corpus.\nUso de herramientas especiales para la construcción de la gráfica de \\(k\\) vecinos (\\(k=33\\)).\nCada región se representa en un vector disperso de muy alta dimensión, i.e., \\(10^{10}\\) componentes con \\(\\approx{}3.8\\) millones de componentes diferentes de zero. Se mide nuevamente con distancia coseno, pero con los vectores resultantes."
+    "text": "Notas para el modelado de regiones con word embeddings\n\n\nRecordando, cada palabra es un punto en \\(300\\) dimensiones.\nLa distancia entre puntos se mide usando \\(1 - cos(u, v)\\).\nCada región es una nube de puntos (palabras).\nUso de un vocabulario restringuido (preservar tokens que aparecen en al menos 10 regiones); esto también reduce el problema de la disparidad de datos entre diferentes corpus.\nUso de herramientas especiales para la construcción de la gráfica de \\(k\\) vecinos (\\(k=33\\)).\nCada región se representa en un vector disperso de muy alta dimensión, i.e., \\(10^{10}\\) componentes con \\(\\approx{}3.8\\) millones de componentes diferentes de zero. Se mide nuevamente con distancia coseno, pero con los vectores resultantes.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
     "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-violencia",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Ejemplos de \\(k\\) vecinos (violencia)",
-    "text": "Ejemplos de \\(k\\) vecinos (violencia)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\n\n\nagresion\n\n\nvandalismo\n\n\nviolentos\n\n\nviolente\n\n\nfeminicidios\n\n\nviolenten\n\n\nviolentos\n\n\n\n\ndenigracion\n\n\nagresion\n\n\nestigmatizacion\n\n\nintrafamiliar\n\n\nfemicidios\n\n\nviolente\n\n\nviolenten\n\n\n\n\nagresiones\n\n\nrepresion\n\n\nviolente\n\n\nrepresion\n\n\nviolentas\n\n\nviolentos\n\n\nviolente\n\n\n\n\nverbal\n\n\nbandalismo\n\n\nintrafamiliar\n\n\nviolenten\n\n\nvandalismo\n\n\nviolentas\n\n\nviolenta\n\n\n\n\nviolecia\n\n\nagresiones\n\n\nviolenten\n\n\nviolecia\n\n\nfemicidio\n\n\nviolentar\n\n\nconfrontacion\n\n\n\n\ndiscriminacion\n\n\nviolenten\n\n\nbandalismo\n\n\nviolentos\n\n\nviolente\n\n\nviolentan\n\n\nviolentas\n\n\n\n\nviolentos\n\n\nviolente\n\n\nagresiones\n\n\nviolentas\n\n\nbandalismo\n\n\ndelincuencia\n\n\nterrorismo\n\n\n\n\nmisoginia\n\n\nvandalismos\n\n\nviolentas\n\n\nviolenta\n\n\nfeminicidio\n\n\nviolentada\n\n\nintolerancia\n\n\n\n\nvandalismo\n\n\nviolentos\n\n\nrepresion\n\n\nviolentar\n\n\nagresion\n\n\nviolenta\n\n\nviolecia\n\n\n\n\nrevictimizacion\n\n\nviolenta\n\n\nvandalismo\n\n\nterrorismo\n\n\nintrafamiliar\n\n\nfeminicidios\n\n\nvandalismos\n\n\n\n\namedrentamiento\n\n\nviolentas\n\n\nintolerancia\n\n\ncriminalizacion\n\n\nasesinatos\n\n\nviolentado\n\n\nrepresion\n\n\n\n\ngenero\n\n\nincitacion\n\n\nincitacion\n\n\nviolentada\n\n\nagresiones\n\n\nvandalismo\n\n\nconfrontaciones\n\n\n\n\nintolerancia\n\n\nintrafamiliar\n\n\nintimidacion\n\n\nagresiones\n\n\ndelincuencia\n\n\nviolentando\n\n\nvandalismo"
+    "text": "Ejemplos de \\(k\\) vecinos (violencia)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\nviolencias\n\n\n\n\nagresion\n\n\nvandalismo\n\n\nviolentos\n\n\nviolente\n\n\nfeminicidios\n\n\nviolenten\n\n\nviolentos\n\n\n\n\ndenigracion\n\n\nagresion\n\n\nestigmatizacion\n\n\nintrafamiliar\n\n\nfemicidios\n\n\nviolente\n\n\nviolenten\n\n\n\n\nagresiones\n\n\nrepresion\n\n\nviolente\n\n\nrepresion\n\n\nviolentas\n\n\nviolentos\n\n\nviolente\n\n\n\n\nverbal\n\n\nbandalismo\n\n\nintrafamiliar\n\n\nviolenten\n\n\nvandalismo\n\n\nviolentas\n\n\nviolenta\n\n\n\n\nviolecia\n\n\nagresiones\n\n\nviolenten\n\n\nviolecia\n\n\nfemicidio\n\n\nviolentar\n\n\nconfrontacion\n\n\n\n\ndiscriminacion\n\n\nviolenten\n\n\nbandalismo\n\n\nviolentos\n\n\nviolente\n\n\nviolentan\n\n\nviolentas\n\n\n\n\nviolentos\n\n\nviolente\n\n\nagresiones\n\n\nviolentas\n\n\nbandalismo\n\n\ndelincuencia\n\n\nterrorismo\n\n\n\n\nmisoginia\n\n\nvandalismos\n\n\nviolentas\n\n\nviolenta\n\n\nfeminicidio\n\n\nviolentada\n\n\nintolerancia\n\n\n\n\nvandalismo\n\n\nviolentos\n\n\nrepresion\n\n\nviolentar\n\n\nagresion\n\n\nviolenta\n\n\nviolecia\n\n\n\n\nrevictimizacion\n\n\nviolenta\n\n\nvandalismo\n\n\nterrorismo\n\n\nintrafamiliar\n\n\nfeminicidios\n\n\nvandalismos\n\n\n\n\namedrentamiento\n\n\nviolentas\n\n\nintolerancia\n\n\ncriminalizacion\n\n\nasesinatos\n\n\nviolentado\n\n\nrepresion\n\n\n\n\ngenero\n\n\nincitacion\n\n\nincitacion\n\n\nviolentada\n\n\nagresiones\n\n\nvandalismo\n\n\nconfrontaciones\n\n\n\n\nintolerancia\n\n\nintrafamiliar\n\n\nintimidacion\n\n\nagresiones\n\n\ndelincuencia\n\n\nviolentando\n\n\nvandalismo",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
     "href": "MexLEF2023/index.html#ejemplos-de-k-vecinos-chile",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Ejemplos de \\(k\\) vecinos (chile)",
-    "text": "Ejemplos de \\(k\\) vecinos (chile)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\necuador\n\n\nchiles\n\n\nuruguay\n\n\nchile0\n\n\nchile0\n\n\nchilen\n\n\nargentina\n\n\n\n\nperu\n\n\nchilee\n\n\nargentina\n\n\nargentina\n\n\nchilee\n\n\nchilee\n\n\nperu\n\n\n\n\nchile0\n\n\nchilito\n\n\nperu\n\n\nparaguay\n\n\npiquin\n\n\nchilenos\n\n\necuador\n\n\n\n\nuruguay\n\n\npais\n\n\nbolivia\n\n\nmexico\n\n\nchilito\n\n\nchile0\n\n\nchile0\n\n\n\n\nmexico\n\n\nlatinoamerica\n\n\nchilen\n\n\nuruguay\n\n\nchilensis\n\n\nchileno\n\n\nchiles\n\n\n\n\nchilen\n\n\nchile0\n\n\necuador\n\n\nperu\n\n\nhabanero\n\n\nchilena\n\n\nparaguay\n\n\n\n\nbrasil\n\n\nchil\n\n\nparaguay\n\n\nbolivia\n\n\nmorron\n\n\nuchile\n\n\nchilena\n\n\n\n\nbolivia\n\n\namerica0\n\n\nbrasil\n\n\ncolombia\n\n\nuchile\n\n\nshile\n\n\nbolivia\n\n\n\n\ncolombia\n\n\n🇨\n\n\nchilenos\n\n\nbrasil\n\n\nchiles\n\n\nchilito\n\n\nuruguay\n\n\n\n\nparaguay\n\n\nsuramerica\n\n\nmexico\n\n\nchilenos\n\n\nverdolagas\n\n\nchilenito\n\n\nbrasil\n\n\n\n\nchiles\n\n\nsudamerica\n\n\nchiles\n\n\nchilen\n\n\njalapeno\n\n\nargentina\n\n\nchilen\n\n\n\n\nchilee\n\n\n🇱\n\n\nhonduras\n\n\necuador\n\n\npimiento\n\n\nchilenas\n\n\nchilenos\n\n\n\n\nrusia\n\n\nargentina\n\n\nchile0\n\n\nchileno\n\n\nchil\n\n\nchiles\n\n\nchilensis"
+    "text": "Ejemplos de \\(k\\) vecinos (chile)\n\n\n\n\n\nAR\n\n\nCL\n\n\nCO\n\n\nES\n\n\nMX\n\n\nUS\n\n\nVE\n\n\n\n\n\n\necuador\n\n\nchiles\n\n\nuruguay\n\n\nchile0\n\n\nchile0\n\n\nchilen\n\n\nargentina\n\n\n\n\nperu\n\n\nchilee\n\n\nargentina\n\n\nargentina\n\n\nchilee\n\n\nchilee\n\n\nperu\n\n\n\n\nchile0\n\n\nchilito\n\n\nperu\n\n\nparaguay\n\n\npiquin\n\n\nchilenos\n\n\necuador\n\n\n\n\nuruguay\n\n\npais\n\n\nbolivia\n\n\nmexico\n\n\nchilito\n\n\nchile0\n\n\nchile0\n\n\n\n\nmexico\n\n\nlatinoamerica\n\n\nchilen\n\n\nuruguay\n\n\nchilensis\n\n\nchileno\n\n\nchiles\n\n\n\n\nchilen\n\n\nchile0\n\n\necuador\n\n\nperu\n\n\nhabanero\n\n\nchilena\n\n\nparaguay\n\n\n\n\nbrasil\n\n\nchil\n\n\nparaguay\n\n\nbolivia\n\n\nmorron\n\n\nuchile\n\n\nchilena\n\n\n\n\nbolivia\n\n\namerica0\n\n\nbrasil\n\n\ncolombia\n\n\nuchile\n\n\nshile\n\n\nbolivia\n\n\n\n\ncolombia\n\n\n🇨\n\n\nchilenos\n\n\nbrasil\n\n\nchiles\n\n\nchilito\n\n\nuruguay\n\n\n\n\nparaguay\n\n\nsuramerica\n\n\nmexico\n\n\nchilenos\n\n\nverdolagas\n\n\nchilenito\n\n\nbrasil\n\n\n\n\nchiles\n\n\nsudamerica\n\n\nchiles\n\n\nchilen\n\n\njalapeno\n\n\nargentina\n\n\nchilen\n\n\n\n\nchilee\n\n\n🇱\n\n\nhonduras\n\n\necuador\n\n\npimiento\n\n\nchilenas\n\n\nchilenos\n\n\n\n\nrusia\n\n\nargentina\n\n\nchile0\n\n\nchileno\n\n\nchil\n\n\nchiles\n\n\nchilensis",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#umap-projection-mx",
     "href": "MexLEF2023/index.html#umap-projection-mx",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "UMAP projection (MX)",
-    "text": "UMAP projection (MX)"
+    "text": "UMAP projection (MX)",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#umap-projection-all",
     "href": "MexLEF2023/index.html#umap-projection-all",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "UMAP projection (ALL)",
-    "text": "UMAP projection (ALL)"
+    "text": "UMAP projection (ALL)",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#section-6",
     "href": "MexLEF2023/index.html#section-6",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "Predicción emojis que podrían estar asociados a un mensaje\n\n\nTomamos mensajes georeferenciados enero-febrero 2020.\nSeleccionamos los emoji objetivos entre los más populares en español: 🥺, ❤, 👌, 👏, 💔, 😄, 😊, 😌, 😍, 😒, 😘, 😡, 😢, 😭, 🤔.\nPara cada región seleccionamos mensajes con solo uno de estos emoji.\nEl emoji en cuestión se reemplaza por la cadena _emo y se usa como etiqueta.\nPartición 50-50 por cada región, se reporta micro recall.\nUsamos fastText supevisado con cada uno de los modelos regionales como preentrenados – all vs all."
+    "text": "Predicción emojis que podrían estar asociados a un mensaje\n\n\nTomamos mensajes georeferenciados enero-febrero 2020.\nSeleccionamos los emoji objetivos entre los más populares en español: 🥺, ❤, 👌, 👏, 💔, 😄, 😊, 😌, 😍, 😒, 😘, 😡, 😢, 😭, 🤔.\nPara cada región seleccionamos mensajes con solo uno de estos emoji.\nEl emoji en cuestión se reemplaza por la cadena _emo y se usa como etiqueta.\nPartición 50-50 por cada región, se reporta micro recall.\nUsamos fastText supevisado con cada uno de los modelos regionales como preentrenados – all vs all.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#section-7",
     "href": "MexLEF2023/index.html#section-7",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "emoji\nAR\nBR\nCA\nCL\nCO\nCR\nCU\nDO\nEC\nES\nFR\nGB\nGT\nHN\nMX\nNI\nPA\nPE\nPY\nSV\nUS\nUY\nVE\n\n\n\n\n🥺\n3749\n275\n158\n1263\n4760\n425\n26\n458\n745\n2640\n53\n95\n666\n708\n10160\n736\n827\n739\n684\n278\n2536\n446\n359\n\n\n❤\n18454\n1775\n124\n2911\n6237\n821\n41\n348\n1123\n8394\n153\n255\n653\n609\n9508\n491\n880\n968\n1800\n219\n3216\n1478\n784\n\n\n👌\n2114\n92\n34\n1016\n1455\n242\n20\n167\n253\n1825\n41\n58\n376\n157\n2754\n159\n313\n160\n666\n124\n597\n190\n71\n\n\n👏\n6785\n433\n80\n2995\n2486\n159\n33\n369\n886\n7061\n64\n105\n197\n159\n4175\n52\n388\n577\n761\n222\n1281\n1248\n530\n\n\n💔\n4278\n100\n28\n390\n1407\n161\n7\n123\n200\n1164\n26\n37\n134\n91\n1438\n105\n260\n115\n428\n31\n667\n283\n142\n\n\n😄\n798\n26\n8\n301\n300\n42\n3\n56\n83\n776\n4\n18\n48\n48\n549\n17\n58\n115\n92\n53\n192\n85\n120\n\n\n😊\n3609\n105\n35\n1803\n1475\n171\n32\n175\n364\n3827\n74\n56\n257\n129\n3395\n115\n236\n817\n369\n192\n829\n377\n293\n\n\n😌\n1184\n70\n30\n827\n986\n132\n44\n280\n238\n1017\n23\n23\n123\n163\n2011\n151\n293\n248\n377\n78\n608\n167\n110\n\n\n😍\n15999\n932\n111\n2190\n6824\n510\n28\n509\n837\n8000\n107\n136\n491\n514\n8711\n341\n1010\n999\n1996\n268\n2232\n1194\n686\n\n\n😒\n3081\n89\n24\n920\n1718\n155\n50\n316\n291\n780\n18\n22\n163\n124\n2185\n175\n322\n213\n259\n127\n738\n359\n236\n\n\n😘\n5935\n211\n70\n1764\n1482\n98\n29\n119\n347\n10785\n203\n99\n171\n72\n4290\n63\n136\n374\n190\n181\n1808\n719\n493\n\n\n😡\n2777\n136\n60\n1098\n1412\n150\n5\n110\n291\n1320\n12\n25\n158\n52\n2428\n59\n155\n227\n250\n90\n769\n301\n252\n\n\n😢\n2144\n89\n38\n699\n1039\n153\n8\n102\n296\n1507\n31\n39\n151\n129\n2646\n131\n204\n271\n239\n69\n781\n227\n135\n\n\n😭\n13873\n436\n125\n1967\n4461\n581\n25\n604\n787\n3935\n157\n135\n388\n364\n6752\n321\n1057\n979\n1832\n200\n2799\n939\n530\n\n\n🤔\n6751\n275\n154\n2756\n4173\n440\n47\n614\n771\n4781\n99\n111\n421\n339\n7380\n211\n741\n1135\n937\n384\n1941\n951\n734"
+    "text": "emoji\nAR\nBR\nCA\nCL\nCO\nCR\nCU\nDO\nEC\nES\nFR\nGB\nGT\nHN\nMX\nNI\nPA\nPE\nPY\nSV\nUS\nUY\nVE\n\n\n\n\n🥺\n3749\n275\n158\n1263\n4760\n425\n26\n458\n745\n2640\n53\n95\n666\n708\n10160\n736\n827\n739\n684\n278\n2536\n446\n359\n\n\n❤\n18454\n1775\n124\n2911\n6237\n821\n41\n348\n1123\n8394\n153\n255\n653\n609\n9508\n491\n880\n968\n1800\n219\n3216\n1478\n784\n\n\n👌\n2114\n92\n34\n1016\n1455\n242\n20\n167\n253\n1825\n41\n58\n376\n157\n2754\n159\n313\n160\n666\n124\n597\n190\n71\n\n\n👏\n6785\n433\n80\n2995\n2486\n159\n33\n369\n886\n7061\n64\n105\n197\n159\n4175\n52\n388\n577\n761\n222\n1281\n1248\n530\n\n\n💔\n4278\n100\n28\n390\n1407\n161\n7\n123\n200\n1164\n26\n37\n134\n91\n1438\n105\n260\n115\n428\n31\n667\n283\n142\n\n\n😄\n798\n26\n8\n301\n300\n42\n3\n56\n83\n776\n4\n18\n48\n48\n549\n17\n58\n115\n92\n53\n192\n85\n120\n\n\n😊\n3609\n105\n35\n1803\n1475\n171\n32\n175\n364\n3827\n74\n56\n257\n129\n3395\n115\n236\n817\n369\n192\n829\n377\n293\n\n\n😌\n1184\n70\n30\n827\n986\n132\n44\n280\n238\n1017\n23\n23\n123\n163\n2011\n151\n293\n248\n377\n78\n608\n167\n110\n\n\n😍\n15999\n932\n111\n2190\n6824\n510\n28\n509\n837\n8000\n107\n136\n491\n514\n8711\n341\n1010\n999\n1996\n268\n2232\n1194\n686\n\n\n😒\n3081\n89\n24\n920\n1718\n155\n50\n316\n291\n780\n18\n22\n163\n124\n2185\n175\n322\n213\n259\n127\n738\n359\n236\n\n\n😘\n5935\n211\n70\n1764\n1482\n98\n29\n119\n347\n10785\n203\n99\n171\n72\n4290\n63\n136\n374\n190\n181\n1808\n719\n493\n\n\n😡\n2777\n136\n60\n1098\n1412\n150\n5\n110\n291\n1320\n12\n25\n158\n52\n2428\n59\n155\n227\n250\n90\n769\n301\n252\n\n\n😢\n2144\n89\n38\n699\n1039\n153\n8\n102\n296\n1507\n31\n39\n151\n129\n2646\n131\n204\n271\n239\n69\n781\n227\n135\n\n\n😭\n13873\n436\n125\n1967\n4461\n581\n25\n604\n787\n3935\n157\n135\n388\n364\n6752\n321\n1057\n979\n1832\n200\n2799\n939\n530\n\n\n🤔\n6751\n275\n154\n2756\n4173\n440\n47\n614\n771\n4781\n99\n111\n421\n339\n7380\n211\n741\n1135\n937\n384\n1941\n951\n734",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#resultados-experimentales",
     "href": "MexLEF2023/index.html#resultados-experimentales",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Resultados experimentales",
-    "text": "Resultados experimentales\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nBR\n0.4611\n0.4879\n1\nBR,ALL,DO,PY,CR\n\n\nCA\n0.2934\n0.3533\n18\nCL,ALL,CO,MX,US\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nCR\n0.3689\n0.388\n9\nUS,VE,ALL,MX,CO\n\n\nDO\n0.3383\n0.3813\n13\nUS,CO,VE,CL,ALL\n\n\nEC\n0.3797\n0.4138\n9\nMX,US,CL,ALL,CO\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nFR\n0.4187\n0.4424\n4\nALL,GT,EC,FR,PA\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nGB\n0.3467\n0.3756\n23\nALL,AR,ES,VE,MX\n\n\nGT\n0.3489\n0.3882\n13\nMX,US,ALL,CO,ES\n\n\nHN\n0.3354\n0.3671\n18\nPE,EC,BR,CR,UY\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nNI\n0.3372\n0.3718\n18\nVE,CO,CL,MX,US\n\n\nPA\n0.3658\n0.3927\n10\nUS,CL,VE,CO,PE\n\n\nPE\n0.3799\n0.4196\n9\nMX,ALL,US,AR,CO\n\n\nPY\n0.4244\n0.4417\n1\nPY,US,BR,PE,UY\n\n\nSV\n0.3226\n0.3954\n18\nUS,CO,MX,CL,VE\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US"
+    "text": "Resultados experimentales\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nBR\n0.4611\n0.4879\n1\nBR,ALL,DO,PY,CR\n\n\nCA\n0.2934\n0.3533\n18\nCL,ALL,CO,MX,US\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nCR\n0.3689\n0.388\n9\nUS,VE,ALL,MX,CO\n\n\nDO\n0.3383\n0.3813\n13\nUS,CO,VE,CL,ALL\n\n\nEC\n0.3797\n0.4138\n9\nMX,US,CL,ALL,CO\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nFR\n0.4187\n0.4424\n4\nALL,GT,EC,FR,PA\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nGB\n0.3467\n0.3756\n23\nALL,AR,ES,VE,MX\n\n\nGT\n0.3489\n0.3882\n13\nMX,US,ALL,CO,ES\n\n\nHN\n0.3354\n0.3671\n18\nPE,EC,BR,CR,UY\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nNI\n0.3372\n0.3718\n18\nVE,CO,CL,MX,US\n\n\nPA\n0.3658\n0.3927\n10\nUS,CL,VE,CO,PE\n\n\nPE\n0.3799\n0.4196\n9\nMX,ALL,US,AR,CO\n\n\nPY\n0.4244\n0.4417\n1\nPY,US,BR,PE,UY\n\n\nSV\n0.3226\n0.3954\n18\nUS,CO,MX,CL,VE\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#section-8",
     "href": "MexLEF2023/index.html#section-8",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "Cuantiles de la variable localrank\n\n\n\nquantile\nrank\n\n\n\n\n0.00\n1.0\n\n\n0.25\n1.0\n\n\n0.50\n6.5\n\n\n0.75\n13\n\n\n1.00\n23\n\n\n\n\n¿Qué tan bueno es cada modelo? Apariciones en el top-5\n\n\n\n\ncc\nfreq\n\n\n\n\nUS\n17\n\n\nCO\n15\n\n\nMX\n13\n\n\nVE\n10\n\n\nALL\n9\n\n\nCL\n9\n\n\nES\n6\n\n\nAR\n5\n\n\n…\n…"
+    "text": "Cuantiles de la variable localrank\n\n\n\nquantile\nrank\n\n\n\n\n0.00\n1.0\n\n\n0.25\n1.0\n\n\n0.50\n6.5\n\n\n0.75\n13\n\n\n1.00\n23\n\n\n\n\n¿Qué tan bueno es cada modelo? Apariciones en el top-5\n\n\n\n\ncc\nfreq\n\n\n\n\nUS\n17\n\n\nCO\n15\n\n\nMX\n13\n\n\nVE\n10\n\n\nALL\n9\n\n\nCL\n9\n\n\nES\n6\n\n\nAR\n5\n\n\n…\n…",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#average-rank-de-modelos",
     "href": "MexLEF2023/index.html#average-rank-de-modelos",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "average rank de modelos",
-    "text": "average rank de modelos\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nUS\n292,465\n4.23\n\n\nCO\n324,635\n6.05\n\n\nMX\n438,136\n6.27\n\n\nCL\n282,737\n6.91\n\n\nVE\n271,924\n7.0\n\n\nALL\n1,696,232\n8.45\n\n\nPE\n178,113\n8.64\n\n\nUY\n200,032\n8.73\n\n\nEC\n147,560\n8.95\n\n\nAR\n673,424\n9.41\n\n\nES\n571,196\n10.95\n\n\nPY\n124,162\n11.14\n\n\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nBR\n127,205\n11.27\n\n\nCR\n103,086\n12.5\n\n\nPA\n111,635\n13.36\n\n\nGT\n95,252\n13.64\n\n\nDO\n108,655\n14.91\n\n\nGB\n82,418\n18.0\n\n\nNI\n68,605\n18.18\n\n\nFR\n69,843\n18.91\n\n\nCA\n63,161\n19.0\n\n\nSV\n73,833\n19.14\n\n\nHN\n60,580\n20.36"
+    "text": "average rank de modelos\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nUS\n292,465\n4.23\n\n\nCO\n324,635\n6.05\n\n\nMX\n438,136\n6.27\n\n\nCL\n282,737\n6.91\n\n\nVE\n271,924\n7.0\n\n\nALL\n1,696,232\n8.45\n\n\nPE\n178,113\n8.64\n\n\nUY\n200,032\n8.73\n\n\nEC\n147,560\n8.95\n\n\nAR\n673,424\n9.41\n\n\nES\n571,196\n10.95\n\n\nPY\n124,162\n11.14\n\n\n\n\n\n\n\nmodel\nvoc-size\navg. model rank\n\n\n\n\nBR\n127,205\n11.27\n\n\nCR\n103,086\n12.5\n\n\nPA\n111,635\n13.36\n\n\nGT\n95,252\n13.64\n\n\nDO\n108,655\n14.91\n\n\nGB\n82,418\n18.0\n\n\nNI\n68,605\n18.18\n\n\nFR\n69,843\n18.91\n\n\nCA\n63,161\n19.0\n\n\nSV\n73,833\n19.14\n\n\nHN\n60,580\n20.36",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#bert",
     "href": "MexLEF2023/index.html#bert",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "BERT",
-    "text": "BERT\n\nLos modelos de lenguaje, Language Models (LM) utilizan el contexto de cada palabra para determinar su representación.\nBERT es un modelo de lenguaje que en su momomento rompió el paradigma. Consiste en una serie de encoders que generan representaciones para cada palabra dependiendo de su contexto. El entrenamiento usa un lenguaje de enmascarado, Masked Language Model (MLM). Cada sentencia enmascará tokens de manera aleatoría (se enmascaran 15% de los tokens). También se entrena para predicción de la siguiente frase."
+    "text": "BERT\n\nLos modelos de lenguaje, Language Models (LM) utilizan el contexto de cada palabra para determinar su representación.\nBERT es un modelo de lenguaje que en su momomento rompió el paradigma. Consiste en una serie de encoders que generan representaciones para cada palabra dependiendo de su contexto. El entrenamiento usa un lenguaje de enmascarado, Masked Language Model (MLM). Cada sentencia enmascará tokens de manera aleatoría (se enmascaran 15% de los tokens). También se entrena para predicción de la siguiente frase.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
     "href": "MexLEF2023/index.html#recursos-computacionales-y-necesidad-de-datos",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Recursos computacionales y necesidad de datos",
-    "text": "Recursos computacionales y necesidad de datos\n\n\nLos modelos de lenguaje requieren una gran cantidad de datos, solo generamos recursos con MLM sobre AR, CL, CO, MX, ES, UY, VE, y US, i.e., los más grandes.\nTodos los modelos tienen series de dos encoders con cuatro cabezas de atención cada una y una salida de 512 dimensiones por embedding\nCorresponde al small-size del BERT original, y es lo que actualmente podemos con los recursos que contamos en un tiempo pagable (usamos una estanción de trabajo con dos NVIDIA TITAN RTX con 24 GB cada una).\nNombramos a nuestro modelo BILMA por Bert In Latin America.\nUsamos un learning rate de \\(10^{-5}\\) con el optimizador Adam (usamos tensorflow 2 y Keras).\nLos modelos para CL, UY, VE, y US se entrenaron con 3 epocas y AR, CO, MX, y ES con solo una, dado los tamaños de los corpus."
+    "text": "Recursos computacionales y necesidad de datos\n\n\nLos modelos de lenguaje requieren una gran cantidad de datos, solo generamos recursos con MLM sobre AR, CL, CO, MX, ES, UY, VE, y US, i.e., los más grandes.\nTodos los modelos tienen series de dos encoders con cuatro cabezas de atención cada una y una salida de 512 dimensiones por embedding\nCorresponde al small-size del BERT original, y es lo que actualmente podemos con los recursos que contamos en un tiempo pagable (usamos una estanción de trabajo con dos NVIDIA TITAN RTX con 24 GB cada una).\nNombramos a nuestro modelo BILMA por Bert In Latin America.\nUsamos un learning rate de \\(10^{-5}\\) con el optimizador Adam (usamos tensorflow 2 y Keras).\nLos modelos para CL, UY, VE, y US se entrenaron con 3 epocas y AR, CO, MX, y ES con solo una, dado los tamaños de los corpus.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#bilma-vs-word-embeddings",
     "href": "MexLEF2023/index.html#bilma-vs-word-embeddings",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "BILMA vs word-embeddings",
-    "text": "BILMA vs word-embeddings\n\n\n\n\n\nAccuracy en predicción de Emoji-15 - tuneado\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US\n\n\n\nCon word-embeddings"
+    "text": "BILMA vs word-embeddings\n\n\n\n\n\nAccuracy en predicción de Emoji-15 - tuneado\n\n\n\n\n\n\n\ncc\nminrecall\nmaxrecall\nlocalrank\ntop5\n\n\n\n\nAR\n0.4777\n0.49\n3\nUY,PY,AR,PE,CO\n\n\nCL\n0.4257\n0.4494\n1\nCL,US,MX,AR,ES\n\n\nCO\n0.4247\n0.4365\n2\nUS,CO,VE,EC,GT\n\n\nES\n0.4754\n0.4855\n1\nES,AR,MX,US,VE\n\n\nMX\n0.4233\n0.4335\n1\nMX,GT,CR,US,CO\n\n\nUS\n0.4041\n0.4244\n1\nUS,MX,CO,ES,CL\n\n\nUY\n0.4351\n0.4572\n1\nUY,US,CO,CL,VE\n\n\nVE\n0.3848\n0.4338\n4\nMX,CO,ES,VE,US\n\n\n\nCon word-embeddings",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#section-9",
     "href": "MexLEF2023/index.html#section-9",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "Se tuneó el modelo BILMA para predecir emoticones añadiendo dos capas lineales a los embeddings de inicio, por lo que se puede ver que se predice independiente de la posición.\nTuneado con 90%-10% del training set de la región hasta que el accuracy converge.\nSe evaluó con test regional.\nObserve que es una matriz de modelos pre-entrenados y tuneos.\nLos resultados en general son muy similares a los modelos de fastText, pero, los modelos BILMA pueden hacer más cosas…"
+    "text": "Se tuneó el modelo BILMA para predecir emoticones añadiendo dos capas lineales a los embeddings de inicio, por lo que se puede ver que se predice independiente de la posición.\nTuneado con 90%-10% del training set de la región hasta que el accuracy converge.\nSe evaluó con test regional.\nObserve que es una matriz de modelos pre-entrenados y tuneos.\nLos resultados en general son muy similares a los modelos de fastText, pero, los modelos BILMA pueden hacer más cosas…",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
     "href": "MexLEF2023/index.html#usando-bilma-para-completar-frases-mediante-máscaras",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Usando BILMA para completar frases (mediante máscaras)",
-    "text": "Usando BILMA para completar frases (mediante máscaras)\n\nAccuracy en la tarea MLM para el test"
+    "text": "Usando BILMA para completar frases (mediante máscaras)\n\nAccuracy en la tarea MLM para el test",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#section-10",
     "href": "MexLEF2023/index.html#section-10",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "",
-    "text": "MLM regional"
+    "text": "MLM regional",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#trabajo-a-futuro",
     "href": "MexLEF2023/index.html#trabajo-a-futuro",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "Trabajo a futuro",
-    "text": "Trabajo a futuro\n\n\nAplicaciones y medir impacto.\nModelos robustos para identificación de regiones.\nReducir recursos computacionales.\n\nUso de un solo modelo con diferentes niveles de abstracción.\nCreación de modelos menos costoso.\n\nEnriquecer los corpus más pequeños.\nOtros lenguajes (inglés, ruso, árabe, etc… o regionales con pocos datos).\n¿Se puede usar Hausdorff u otras distancias para nubes de puntos para la comparación de regiones?."
+    "text": "Trabajo a futuro\n\n\nAplicaciones y medir impacto.\nModelos robustos para identificación de regiones.\nReducir recursos computacionales.\n\nUso de un solo modelo con diferentes niveles de abstracción.\nCreación de modelos menos costoso.\n\nEnriquecer los corpus más pequeños.\nOtros lenguajes (inglés, ruso, árabe, etc… o regionales con pocos datos).\n¿Se puede usar Hausdorff u otras distancias para nubes de puntos para la comparación de regiones?.",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "MexLEF2023/index.html#preguntas",
     "href": "MexLEF2023/index.html#preguntas",
     "title": "Recursos regionalizados para el procesamiento automático de datos de redes sociales",
     "section": "¿Preguntas?",
-    "text": "¿Preguntas?\n¡Gracias por su atención!\n\n\nModelos regionales del Español:\n\nhttps://ingeotec.github.io/regional-spanish-models/\nhttps://github.com/INGEOTEC/regional-spanish-models/\n\n\nINGEOTEC:\n\nhttps://github.com/INGEOTEC/\nhttps://ingeotec.github.io/"
+    "text": "¿Preguntas?\n¡Gracias por su atención!\n\n\nModelos regionales del Español:\n\nhttps://ingeotec.github.io/regional-spanish-models/\nhttps://github.com/INGEOTEC/regional-spanish-models/\n\n\nINGEOTEC:\n\nhttps://github.com/INGEOTEC/\nhttps://ingeotec.github.io/",
+    "crumbs": [
+      "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
   },
   {
     "objectID": "TextClassification/general.html#ingeotec",
@@ -2752,7 +2860,7 @@
     "href": "index.html",
     "title": "INGEOTEC",
     "section": "",
-    "text": "INGEOTEC\n  Grupo de investigación en Procesamiento de Lenguaje Natural, Minería de Opinión y Aprendizaje Computacional. Aquí reunimos las presentaciones de congresos, competencias internacionales y charlas de divulgación del grupo.\n  \n    GitHub\n  \n\n\n\n  Competencia\n  Competencias\n\nParticipaciones de INGEOTEC en competencias internacionales de evaluación de sistemas de PLN: IberLEF 2023 (Jaén, España) y MexLEF 2023 (Puebla, México).\n\n\n  \n    Rest-Mex · IberLEF 2023\n    Ingeotec at Rest-Mex: Bag-of-Words Classifiers\n    Versión completa\n  \n  \n    Rest-Mex · IberLEF 2023\n    Ingeotec at Rest-Mex: Bag-of-Words Classifiers\n    Versión de 10 minutos\n  \n  \n    DA-VINCIS · IberLEF 2023\n    Ingeotec at DA-VINCIS: Bag-of-Words Classifiers\n    Versión completa\n  \n  \n    DA-VINCIS · IberLEF 2023\n    Ingeotec at DA-VINCIS: Bag-of-Words Classifiers\n    Versión de 10 minutos\n  \n  \n    MexLEF 2023\n    Recursos regionalizados para el procesamiento automático de datos de redes sociales\n    MexLEF, Puebla, México — octubre 2023\n  \n\n\n\n  Divulgación\n  Divulgación\n\nCharlas de divulgación sobre Procesamiento de Lenguaje Natural, Inteligencia Artificial y sus aplicaciones, dirigidas a públicos generales.\n\n\n  \n    Divulgación\n    Impacto del Procesamiento de Lenguaje Natural en la Educación\n  \n  \n    Divulgación\n    Competencias internacionales para generar avances en inteligencia artificial\n  \n  \n    Divulgación\n    Innovación en Reclutamiento y Marketing mediante PLN\n  \n  \n    Divulgación\n    El Procesamiento de Lenguaje Natural en la Ciencia de Datos\n  \n  \n    ROPEC 2024\n    Is Traditional Machine Learning Useless?\n    Given the Boom of Deep Learning Approaches\n  \n\n\n\n  Curso\n  Text Classification\n\nCharlas y cursos técnicos sobre clasificación de textos y minería de opinión, dirigidos a públicos académicos.\n\n\n  \n    Curso\n    Text Classification\n  \n  \n    Poornima Institute\n    Sentiment Analysis\n  \n  \n    Curso\n    Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión\n  \n\n\n\n  Línea de investigación\n  Metric Search\n\nBúsqueda en espacios métricos: la única sección organizada por tema en lugar de por evento.\n\n\n  \n    Metric Search\n    Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    "text": "INGEOTEC\n  Grupo de investigación en Procesamiento de Lenguaje Natural, Minería de Opinión y Aprendizaje Computacional. Aquí reunimos las presentaciones de congresos, competencias internacionales y charlas de divulgación del grupo.\n  \n    GitHub\n  \n\n\n\n\n  Divulgación\n  Divulgación\n\nCharlas de divulgación sobre Procesamiento de Lenguaje Natural, Inteligencia Artificial y sus aplicaciones, dirigidas a públicos generales.\n\n\n  \n    Divulgación\n    Impacto del Procesamiento de Lenguaje Natural en la Educación\n  \n  \n    Divulgación\n    Competencias internacionales para generar avances en inteligencia artificial\n  \n  \n    Divulgación\n    Innovación en Reclutamiento y Marketing mediante PLN\n  \n  \n    Divulgación\n    El Procesamiento de Lenguaje Natural en la Ciencia de Datos\n  \n  \n    ROPEC 2024\n    Is Traditional Machine Learning Useless?\n    Given the Boom of Deep Learning Approaches\n  \n\n\n\n  Curso\n  Text Classification\n\nCharlas y cursos técnicos sobre clasificación de textos y minería de opinión, dirigidos a públicos académicos.\n\n\n  \n    Curso\n    Text Classification\n  \n  \n    Poornima Institute\n    Sentiment Analysis\n  \n  \n    Quantum\n    Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión\n  \n\n\n\n  Línea de investigación\n  Metric Search\n\nBúsqueda en espacios métricos.\n\n\n  \n    Metric Search\n    Búsqueda en espacios métricos en la era de los grandes modelos neuronales\n  \n\n\n\n  Competencia\n  Competencias\n\nParticipaciones de INGEOTEC en competencias internacionales de evaluación de sistemas de PLN: IberLEF 2023 (Jaén, España) y MexLEF 2023 (Puebla, México).\n\n\n  \n    Rest-Mex · IberLEF 2023\n    Ingeotec at Rest-Mex: Bag-of-Words Classifiers\n    Versión completa\n  \n  \n    Rest-Mex · IberLEF 2023\n    Ingeotec at Rest-Mex: Bag-of-Words Classifiers\n    Versión de 10 minutos\n  \n  \n    DA-VINCIS · IberLEF 2023\n    Ingeotec at DA-VINCIS: Bag-of-Words Classifiers\n    Versión completa\n  \n  \n    DA-VINCIS · IberLEF 2023\n    Ingeotec at DA-VINCIS: Bag-of-Words Classifiers\n    Versión de 10 minutos\n  \n  \n    MexLEF 2023\n    Recursos regionalizados para el procesamiento automático de datos de redes sociales\n    MexLEF, Puebla, México — octubre 2023"
   },
   {
     "objectID": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
