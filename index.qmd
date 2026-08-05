@@ -16,39 +16,6 @@ css: styles.css
   </div>
 </div>
 
-<div class="section-title">
-  <span class="section-tag">Competencia</span>
-  <h2>Competencias</h2>
-</div>
-<p class="section-desc">Participaciones de INGEOTEC en competencias internacionales de evaluación de sistemas de PLN: IberLEF 2023 (Jaén, España) y MexLEF 2023 (Puebla, México).</p>
-
-<div class="card-grid">
-  <a class="talk-card" href="IberLEF2023/restMex2023.qmd">
-    <span class="talk-badge">Rest-Mex · IberLEF 2023</span>
-    <h3>Ingeotec at Rest-Mex: Bag-of-Words Classifiers</h3>
-    <span class="talk-meta">Versión completa</span>
-  </a>
-  <a class="talk-card" href="IberLEF2023/RestMex2023-10mins.qmd">
-    <span class="talk-badge">Rest-Mex · IberLEF 2023</span>
-    <h3>Ingeotec at Rest-Mex: Bag-of-Words Classifiers</h3>
-    <span class="talk-meta">Versión de 10 minutos</span>
-  </a>
-  <a class="talk-card" href="IberLEF2023/davincis2023.qmd">
-    <span class="talk-badge">DA-VINCIS · IberLEF 2023</span>
-    <h3>Ingeotec at DA-VINCIS: Bag-of-Words Classifiers</h3>
-    <span class="talk-meta">Versión completa</span>
-  </a>
-  <a class="talk-card" href="IberLEF2023/short-davincis2023.qmd">
-    <span class="talk-badge">DA-VINCIS · IberLEF 2023</span>
-    <h3>Ingeotec at DA-VINCIS: Bag-of-Words Classifiers</h3>
-    <span class="talk-meta">Versión de 10 minutos</span>
-  </a>
-  <a class="talk-card" href="MexLEF2023/index.qmd">
-    <span class="talk-badge">MexLEF 2023</span>
-    <h3>Recursos regionalizados para el procesamiento automático de datos de redes sociales</h3>
-    <span class="talk-meta">MexLEF, Puebla, México — octubre 2023</span>
-  </a>
-</div>
 
 <div class="section-title">
   <span class="section-tag">Divulgación</span>
@@ -96,7 +63,7 @@ css: styles.css
     <h3>Sentiment Analysis</h3>
   </a>
   <a class="talk-card" href="TextClassification/quantum.qmd">
-    <span class="talk-badge">Curso</span>
+    <span class="talk-badge">Quantum</span>
     <h3>Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión</h3>
   </a>
 </div>
@@ -105,12 +72,46 @@ css: styles.css
   <span class="section-tag">Línea de investigación</span>
   <h2>Metric Search</h2>
 </div>
-<p class="section-desc">Búsqueda en espacios métricos: la única sección organizada por tema en lugar de por evento.</p>
+<p class="section-desc">Búsqueda en espacios métricos.</p>
 
 <div class="card-grid">
   <a class="talk-card" href="MetricSearch/index.qmd">
     <span class="talk-badge">Metric Search</span>
     <h3>Búsqueda en espacios métricos en la era de los grandes modelos neuronales</h3>
+  </a>
+</div>
+
+<div class="section-title">
+  <span class="section-tag">Competencia</span>
+  <h2>Competencias</h2>
+</div>
+<p class="section-desc">Participaciones de INGEOTEC en competencias internacionales de evaluación de sistemas de PLN: IberLEF 2023 (Jaén, España) y MexLEF 2023 (Puebla, México).</p>
+
+<div class="card-grid">
+  <a class="talk-card" href="IberLEF2023/restMex2023.qmd">
+    <span class="talk-badge">Rest-Mex · IberLEF 2023</span>
+    <h3>Ingeotec at Rest-Mex: Bag-of-Words Classifiers</h3>
+    <span class="talk-meta">Versión completa</span>
+  </a>
+  <a class="talk-card" href="IberLEF2023/RestMex2023-10mins.qmd">
+    <span class="talk-badge">Rest-Mex · IberLEF 2023</span>
+    <h3>Ingeotec at Rest-Mex: Bag-of-Words Classifiers</h3>
+    <span class="talk-meta">Versión de 10 minutos</span>
+  </a>
+  <a class="talk-card" href="IberLEF2023/davincis2023.qmd">
+    <span class="talk-badge">DA-VINCIS · IberLEF 2023</span>
+    <h3>Ingeotec at DA-VINCIS: Bag-of-Words Classifiers</h3>
+    <span class="talk-meta">Versión completa</span>
+  </a>
+  <a class="talk-card" href="IberLEF2023/short-davincis2023.qmd">
+    <span class="talk-badge">DA-VINCIS · IberLEF 2023</span>
+    <h3>Ingeotec at DA-VINCIS: Bag-of-Words Classifiers</h3>
+    <span class="talk-meta">Versión de 10 minutos</span>
+  </a>
+  <a class="talk-card" href="MexLEF2023/index.qmd">
+    <span class="talk-badge">MexLEF 2023</span>
+    <h3>Recursos regionalizados para el procesamiento automático de datos de redes sociales</h3>
+    <span class="talk-meta">MexLEF, Puebla, México — octubre 2023</span>
   </a>
 </div>
 ```
