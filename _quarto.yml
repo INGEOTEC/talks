@@ -5,28 +5,28 @@ website:
   title: "INGEOTEC"
   navbar:
     left:
-      - text: IberLEF2023
+      - text: Divulgación
+        menu:
+          - sidebar:educacion
+          - sidebar:competencias
+          - sidebar:reclutamiento
+          - sidebar:plndatos
+          - sidebar:ropec2024
+      - text: Text Classification
+        menu:
+          - sidebar:general
+          - sidebar:poornima
+          - sidebar:quantum
+      - text: Metric Search
+        href: MetricSearch/index.qmd
+      - text: Competencias
         menu: 
           - sidebar:RestMex2023f
           - sidebar:RestMex2023
           - sidebar:Davincis2023f
           - sidebar:Davincis2023
-      - text: MexLEF2023
-        href: MexLEF2023/index.qmd
-      - text: Text Classification
-        menu:
-          - sidebar:general
-          - sidebar:poornima
-      - text: Divulgación
-        menu:
-          - sidebar:educacion
-          - sidebar:ropec2024
-          - sidebar:competencias
-          - sidebar:reclutamiento
-          - sidebar:plndatos
-          - sidebar:quantum
-      - text: Metric Search
-        href: MetricSearch/index.qmd
+          - sidebar:MexLEF2023
+
 
   sidebar:
     - id: RestMex2023f
@@ -45,6 +45,10 @@ website:
       title: DA-VINCIS2023 (10min)
       contents:
         - IberLEF2023/short-davincis2023.qmd
+    - id: MexLEF2023
+      title: MexLEF2023
+      contents:
+        - MexLEF2023/index.qmd
     - id: poornima
       title: Poornima
       contents:

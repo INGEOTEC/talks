@@ -1,0 +1,16 @@
+jupyter
+ipython
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
+seaborn
+plotly
+wordcloud
+country_converter
+microtc
+EvoMSA
+CompStats
+encexp
+dialectid

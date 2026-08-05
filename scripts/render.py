@@ -50,24 +50,7 @@ WORKFLOW = REPO / ".github" / "workflows" / "publish.yml"
 
 # What the executable pages import, as {module: pip requirement}. `jupyter`
 # is quarto's execution engine for the ```{python} cells, not itself imported.
-PYPI_DEPS = {
-    "jupyter": "jupyter",
-    "IPython": "ipython",
-    "numpy": "numpy",
-    "scipy": "scipy",
-    "sklearn": "scikit-learn",
-    "pandas": "pandas",
-    "matplotlib": "matplotlib",
-    "seaborn": "seaborn",
-    "plotly": "plotly",
-    "wordcloud": "wordcloud",
-    "country_converter": "country_converter",
-    "microtc": "microtc",
-    "EvoMSA": "EvoMSA",
-    "CompStats": "CompStats",
-    "encexp": "encexp",
-    "dialectid": "dialectid",
-}
+PYPI_DEPS = {}
 
 CODE_CELL = re.compile(r"^```\{(python|r|julia|ojs)\}", re.MULTILINE)
 
