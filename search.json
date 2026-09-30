@@ -1,5 +1,181 @@
 [
   {
+    "objectID": "MetricSearch/index.html#motivación-búsqueda-por-similitud-y-recuperación-de-información",
+    "href": "MetricSearch/index.html#motivación-búsqueda-por-similitud-y-recuperación-de-información",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Motivación: Búsqueda por Similitud y Recuperación de Información",
+    "text": "Motivación: Búsqueda por Similitud y Recuperación de Información\nLa recuperación de información (IR) es la disciplina que estudia cómo encontrar información relevante en grandes colecciones de datos, ganado relevancia con la aparición de modelos de lenguaje y sistemas de Recuperación aumentada por generación (RAG).\nLa búsqueda por similitud es un problema algorítmico que esta detrás de la IR eficiente; a su vez, la búsqueda métrica es una formalización matemática que permite construir algoritmos de búsqueda robustos y escalables.",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#búsqueda-por-similitud",
+    "href": "MetricSearch/index.html#búsqueda-por-similitud",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Búsqueda por similitud",
+    "text": "Búsqueda por similitud\n\nEspacios métricos como un marco de trabajo para búsqueda por similitud.\nBúscar elementos similares ahora se convierte en elementos cercanos bajo una función de distancia métrica \\(d(x, y)\\).",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#indexación-por-pivotes",
+    "href": "MetricSearch/index.html#indexación-por-pivotes",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Indexación por pivotes",
+    "text": "Indexación por pivotes\nUn pivote \\(p\\) es un elemento seleccionado del dataset para precalcular distancias a todos los demás elementos. Al recibir la consulta \\(q\\), medimos \\(d(p, q)\\).\nDescarte por desigualdad triangular\nPodemos evitar calcular la distancia real a un objeto \\(x\\) usando: \\[|d(p, x) - d(p, q)| &gt; r \\implies x \\notin B(q, r)\\]",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#particiones-compactas-del-espacio",
+    "href": "MetricSearch/index.html#particiones-compactas-del-espacio",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Particiones compactas del espacio",
+    "text": "Particiones compactas del espacio",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#métodos-aproximados",
+    "href": "MetricSearch/index.html#métodos-aproximados",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Métodos aproximados",
+    "text": "Métodos aproximados\nEn el peor caso, los índices de búsqueda se reducen a una búsqueda sequencial. Por lo tanto, se han desarrollado métodos aproximados que sacrifican la exactitud por velocidad y eficiencia de memoria.",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#cuantización",
+    "href": "MetricSearch/index.html#cuantización",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Cuantización",
+    "text": "Cuantización",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#poda-agresiva",
+    "href": "MetricSearch/index.html#poda-agresiva",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Poda agresiva",
+    "text": "Poda agresiva",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#locality-sensitive-hashing-lsh",
+    "href": "MetricSearch/index.html#locality-sensitive-hashing-lsh",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Locality Sensitive Hashing (LSH)",
+    "text": "Locality Sensitive Hashing (LSH)",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#grafos-de-proximidad",
+    "href": "MetricSearch/index.html#grafos-de-proximidad",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Grafos de proximidad",
+    "text": "Grafos de proximidad\nLos datos se indexan como nodos en un grafo. Dos nodos están conectados si son espacialmente vecinos según un criterio de proximidad.\n\nRobustos a la maldición de la dimensionalidad.\nPermiten una búsqueda \\(\\log^\\alpha n\\) mediante navegación dirigida.\nSe adaptan de forma natural a la topología y densidad local de los datos.\n\nSe basan en un concepto que aparece llamado monotonía.",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#comparativa-de-topologías-de-grafo",
+    "href": "MetricSearch/index.html#comparativa-de-topologías-de-grafo",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Comparativa de topologías de grafo",
+    "text": "Comparativa de topologías de grafo",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#nuestra-investigación",
+    "href": "MetricSearch/index.html#nuestra-investigación",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Nuestra investigación",
+    "text": "Nuestra investigación\nEl ajuste fino de los índices métricos es una tarea computacionalmente costosa que requiere de un experto en la técnica para ejecutar el trabajo; mencionando las dificultades para lograr índices de alta calidad con búsquedas de alta velocidad mientras se mantienen bajos los requisitos de memoria.\nNuestra investigación en este ámbito va sobre algoritmos eficientes pero también que se autoconfiguran.",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#costos",
+    "href": "MetricSearch/index.html#costos",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Costos",
+    "text": "Costos\n\n\n(Malkov et al. 2014) argumenta que el NSW tiene cada búsqueda cuesta \\(\\log^3(n)\\)\n(Malkov and Yashunin 2018) dice que es \\(O(\\log n)\\) ya que supone constantes la vecindad y los parametros de su jerarquía, todo esto para un recall fijo no especificado y una \\(n\\) fija, además de probado en un espacio ecuclideano de dimensión 4.\n(Hezel et al. 2024) conjetura que su costo de búsqueda esta acotado por una suma de terminos sublineales y logarítmicos.",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#desempeño-en-una-diferentes-tipos-de-distancias",
+    "href": "MetricSearch/index.html#desempeño-en-una-diferentes-tipos-de-distancias",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Desempeño en una diferentes tipos de distancias",
+    "text": "Desempeño en una diferentes tipos de distancias",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#comparación-con-el-estado-del-arte",
+    "href": "MetricSearch/index.html#comparación-con-el-estado-del-arte",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Comparación con el estado del arte",
+    "text": "Comparación con el estado del arte\nDatos SISAP 2023, 2024, 2025, otros",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#gracias",
+    "href": "MetricSearch/index.html#gracias",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Gracias",
+    "text": "Gracias\n\nEric S. Tellez SECIHTI-INFOTEC mailto:eric.tellez@infotec.mx\n\nSISAP Challenges 2023-2026\nDemos\nSISAP 2026\nSISAP 2025\nSimilaritySearch.jl",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
+    "objectID": "MetricSearch/index.html#referencias",
+    "href": "MetricSearch/index.html#referencias",
+    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nHezel, Nico, Kai Uwe Barthel, Konstantin Schall, and Klaus Jung. 2024. “An Exploration Graph with Continuous Refinement for Efficient Multimedia Retrieval.” Proceedings of the 2024 International Conference on Multimedia Retrieval (Phuket, Thailand), ICMR ’24, 657–65. https://doi.org/10.1145/3652583.3658117.\n\n\nMalkov, Yu A, and Dmitry A Yashunin. 2018. “Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs.” IEEE Transactions on Pattern Analysis and Machine Intelligence 42 (4): 824–36.\n\n\nMalkov, Yury, Alexander Ponomarenko, Andrey Logvinov, and Vladimir Krylov. 2014. “Approximate Nearest Neighbor Algorithm Based on Navigable Small World Graphs.” Information Systems 45: 61–68.",
+    "crumbs": [
+      "Metric Search",
+      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+    ]
+  },
+  {
     "objectID": "IberLEF2023/restMex2023.html#ingeotec-research-group",
     "href": "IberLEF2023/restMex2023.html#ingeotec-research-group",
     "title": "Ingeotec at Rest-Mex:  Bag-of-Words Classifiers",
@@ -390,179 +566,413 @@
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#motivación-búsqueda-por-similitud-y-recuperación-de-información",
-    "href": "MetricSearch/index.html#motivación-búsqueda-por-similitud-y-recuperación-de-información",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Motivación: Búsqueda por Similitud y Recuperación de Información",
-    "text": "Motivación: Búsqueda por Similitud y Recuperación de Información\nLa recuperación de información (IR) es la disciplina que estudia cómo encontrar información relevante en grandes colecciones de datos, ganado relevancia con la aparición de modelos de lenguaje y sistemas de Recuperación aumentada por generación (RAG).\nLa búsqueda por similitud es un problema algorítmico que esta detrás de la IR eficiente; a su vez, la búsqueda métrica es una formalización matemática que permite construir algoritmos de búsqueda robustos y escalables.",
+    "objectID": "TextClassification/ropec2024.html#aguascalientes-méxico",
+    "href": "TextClassification/ropec2024.html#aguascalientes-méxico",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#búsqueda-por-similitud",
-    "href": "MetricSearch/index.html#búsqueda-por-similitud",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Búsqueda por similitud",
-    "text": "Búsqueda por similitud\n\nEspacios métricos como un marco de trabajo para búsqueda por similitud.\nBúscar elementos similares ahora se convierte en elementos cercanos bajo una función de distancia métrica \\(d(x, y)\\).",
+    "objectID": "TextClassification/ropec2024.html#definitions",
+    "href": "TextClassification/ropec2024.html#definitions",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Definitions",
+    "text": "Definitions\n\n\n\n\n\nArtificial Intelligence (AI)\n\n\nTheory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.\n\n\n\n\n\n\n\nMachine Learning\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\n\n\nNatural Language Processing (NLP)\n\n\nNLP is a branch of artificial intelligence (AI) that uses machine learning and other technologies to enable computers to understand, process, and manipulate human language.",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#indexación-por-pivotes",
-    "href": "MetricSearch/index.html#indexación-por-pivotes",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Indexación por pivotes",
-    "text": "Indexación por pivotes\nUn pivote \\(p\\) es un elemento seleccionado del dataset para precalcular distancias a todos los demás elementos. Al recibir la consulta \\(q\\), medimos \\(d(p, q)\\).\nDescarte por desigualdad triangular\nPodemos evitar calcular la distancia real a un objeto \\(x\\) usando: \\[|d(p, x) - d(p, q)| &gt; r \\implies x \\notin B(q, r)\\]",
+    "objectID": "TextClassification/ropec2024.html#ai-perception",
+    "href": "TextClassification/ropec2024.html#ai-perception",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "AI Perception",
+    "text": "AI Perception\n\n\n\n\n\nHow we look at it\n\n\n\n\n\n\n\n\n\n\nHow I see it",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#particiones-compactas-del-espacio",
-    "href": "MetricSearch/index.html#particiones-compactas-del-espacio",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Particiones compactas del espacio",
-    "text": "Particiones compactas del espacio",
+    "objectID": "TextClassification/ropec2024.html#linear-classifier",
+    "href": "TextClassification/ropec2024.html#linear-classifier",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Linear Classifier",
+    "text": "Linear Classifier",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#métodos-aproximados",
-    "href": "MetricSearch/index.html#métodos-aproximados",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Métodos aproximados",
-    "text": "Métodos aproximados\nEn el peor caso, los índices de búsqueda se reducen a una búsqueda sequencial. Por lo tanto, se han desarrollado métodos aproximados que sacrifican la exactitud por velocidad y eficiencia de memoria.",
+    "objectID": "TextClassification/ropec2024.html#decision-tree",
+    "href": "TextClassification/ropec2024.html#decision-tree",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Decision Tree",
+    "text": "Decision Tree\n\n\n\n\n\nProblem\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClassifier",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#cuantización",
-    "href": "MetricSearch/index.html#cuantización",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Cuantización",
-    "text": "Cuantización",
+    "objectID": "TextClassification/ropec2024.html#text-classification",
+    "href": "TextClassification/ropec2024.html#text-classification",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Text Classification",
+    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#poda-agresiva",
-    "href": "MetricSearch/index.html#poda-agresiva",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Poda agresiva",
-    "text": "Poda agresiva",
+    "objectID": "TextClassification/ropec2024.html#training-set",
+    "href": "TextClassification/ropec2024.html#training-set",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Training set",
+    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nEn todas las cárceles del mundo, liberando pre...\nN\n\n\n1\nSecuestran y asesinan a una estudiante de bach...\nP\n\n\n2\nInterior despliega un centenar de guardias civ...\nN\n\n\n3\nSAN LUIS \\n\\n3 HOMBRES Y UN MENOR DETENIDOS PO...\nP\n\n\n4\nLA FLECHA DE LA MUERTE - Tinker7: https://t.co...\nN\n\n\n5\nInfausta noticia. \\n\\nDurante un ataque de un ...\nP\n\n\n6\nVIDEO, FOTOS: Fuertes lluvias provocan inundac...\nN\n\n\n7\n#Increíble Roban tachones y dan dos balazos a ...\nP",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#locality-sensitive-hashing-lsh",
-    "href": "MetricSearch/index.html#locality-sensitive-hashing-lsh",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Locality Sensitive Hashing (LSH)",
-    "text": "Locality Sensitive Hashing (LSH)",
+    "objectID": "TextClassification/ropec2024.html#linear-classifier-1",
+    "href": "TextClassification/ropec2024.html#linear-classifier-1",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Linear Classifier",
+    "text": "Linear Classifier",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#grafos-de-proximidad",
-    "href": "MetricSearch/index.html#grafos-de-proximidad",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Grafos de proximidad",
-    "text": "Grafos de proximidad\nLos datos se indexan como nodos en un grafo. Dos nodos están conectados si son espacialmente vecinos según un criterio de proximidad.\n\nRobustos a la maldición de la dimensionalidad.\nPermiten una búsqueda \\(\\log^\\alpha n\\) mediante navegación dirigida.\nSe adaptan de forma natural a la topología y densidad local de los datos.\n\nSe basan en un concepto que aparece llamado monotonía.",
+    "objectID": "TextClassification/ropec2024.html#text-representation",
+    "href": "TextClassification/ropec2024.html#text-representation",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Text Representation",
+    "text": "Text Representation\n\n\n\nBag of Words",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#comparativa-de-topologías-de-grafo",
-    "href": "MetricSearch/index.html#comparativa-de-topologías-de-grafo",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Comparativa de topologías de grafo",
-    "text": "Comparativa de topologías de grafo",
+    "objectID": "TextClassification/ropec2024.html#text-representation-2",
+    "href": "TextClassification/ropec2024.html#text-representation-2",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Text Representation (2)",
+    "text": "Text Representation (2)\n\n\n\n\n\nAssociate token \\(t\\)\n\n\n\\[\n\\mathbf{v_t} \\in \\mathbb R^d\n\\]\n\n\n\n\n\n\n\nBag of words\n\n\n\\[\n\\mathbf x = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]\n\n\n\n\n\n\n\n\n\nOrthogonal\n\n\n\\[\n\\forall_{i \\neq j} \\mathbf{v_i} \\cdot \\mathbf{v_j} = 0\n\\]\n\n\n\n\n\n\n\n\nConsequences\n\n\n\nNo similarity between tokens\nHigh dimension",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#nuestra-investigación",
-    "href": "MetricSearch/index.html#nuestra-investigación",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Nuestra investigación",
-    "text": "Nuestra investigación\nEl ajuste fino de los índices métricos es una tarea computacionalmente costosa que requiere de un experto en la técnica para ejecutar el trabajo; mencionando las dificultades para lograr índices de alta calidad con búsquedas de alta velocidad mientras se mantienen bajos los requisitos de memoria.\nNuestra investigación en este ámbito va sobre algoritmos eficientes pero también que se autoconfiguran.",
+    "objectID": "TextClassification/ropec2024.html#text-representation-3",
+    "href": "TextClassification/ropec2024.html#text-representation-3",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Text Representation (3)",
+    "text": "Text Representation (3)\n\n\n\n\n\nDocument / TFIDF\n\n\n\n\n\n\n\n\n\n\n\nSegmentación\n\n\n\nfrom encexp.text_repr import SeqTM\nseq = SeqTM(lang='es')\nseq.tokenize('Es un placer estar con ustedes')\n\n['es~un', 'placer', 'estar~con', 'ustedes']\n\n\n\n\n\n\n\n\n\n\nRepresentación\n\n\n\nseq['Es un placer estar con ustedes']\n\n[(4950, np.float64(0.36575885477387166)),\n (8349, np.float64(0.552579185728764)),\n (4781, np.float64(0.5923660421512261)),\n (15787, np.float64(0.4582348478236175))]",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#costos",
-    "href": "MetricSearch/index.html#costos",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Costos",
-    "text": "Costos\n\n\n(Malkov et al. 2014) argumenta que el NSW tiene cada búsqueda cuesta \\(\\log^3(n)\\)\n(Malkov and Yashunin 2018) dice que es \\(O(\\log n)\\) ya que supone constantes la vecindad y los parametros de su jerarquía, todo esto para un recall fijo no especificado y una \\(n\\) fija, además de probado en un espacio ecuclideano de dimensión 4.\n(Hezel et al. 2024) conjetura que su costo de búsqueda esta acotado por una suma de terminos sublineales y logarítmicos.",
+    "objectID": "TextClassification/ropec2024.html#self-supervised-learning",
+    "href": "TextClassification/ropec2024.html#self-supervised-learning",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Self-supervised Learning",
+    "text": "Self-supervised Learning\n\nUse Cloze test (Bormuth 1968)\n\n\n\n\n\n\nSelect a token\n\n\n\n\n\n\n\n\n\n\nSupervised learning",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#desempeño-en-una-diferentes-tipos-de-distancias",
-    "href": "MetricSearch/index.html#desempeño-en-una-diferentes-tipos-de-distancias",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Desempeño en una diferentes tipos de distancias",
-    "text": "Desempeño en una diferentes tipos de distancias",
+    "objectID": "TextClassification/ropec2024.html#self-supervised-learning-2",
+    "href": "TextClassification/ropec2024.html#self-supervised-learning-2",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Self-supervised Learning (2)",
+    "text": "Self-supervised Learning (2)\n\n\n\n\n\nClassification\n\n\n\n\n\n\n\n\n\n\n\nCBOW\n\n\n\n\\(\\mathbf h = s(A \\mathbf x)\\)\n\\(\\mathbf y = s(A_2 \\mathbf h)\\)\n\\(\\mathbf x \\in \\mathbb{R}^d\\), \\(A \\in \\mathbb{R}^{(300, d)}\\),\n\\(\\mathbf h \\in \\mathbb{R}^{300}\\), and \\(A_2 \\in \\mathbb{R}^{(d, 300)}\\)\n\n\n\n\n\n\n\n\n\nDense representation\n\n\n\nColumns of \\(A\\)",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#comparación-con-el-estado-del-arte",
-    "href": "MetricSearch/index.html#comparación-con-el-estado-del-arte",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Comparación con el estado del arte",
-    "text": "Comparación con el estado del arte\nDatos SISAP 2023, 2024, 2025, otros",
+    "objectID": "TextClassification/ropec2024.html#self-supervised-learning-3",
+    "href": "TextClassification/ropec2024.html#self-supervised-learning-3",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Self-supervised Learning (3)",
+    "text": "Self-supervised Learning (3)\n\n\n\n\n\nClassification\n\n\n\n\n\n\n\n\n\n\n\nLinear Classifier\n\n\n\n\\(y_t = \\textsf{sign}(\\mathbf w_t \\mathbf x)\\)\n\\(\\mathbf x \\in \\mathbb{R}^d\\), \\(\\mathbf w_t \\in \\mathbb{R}^d\\)\n\n\n\n\n\n\n\n\n\nDense representation\n\n\n\n\\(\\mathbf w_t\\)\ne.g., \\(d = 2^{13}\\), and \\(t=1,\\ldots,2^{13}\\)\n\\(W \\approx\\) 67M",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#gracias",
-    "href": "MetricSearch/index.html#gracias",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Gracias",
-    "text": "Gracias\n\nEric S. Tellez SECIHTI-INFOTEC mailto:eric.tellez@infotec.mx\n\nSISAP Challenges 2023-2026\nDemos\nSISAP 2026\nSISAP 2025\nSimilaritySearch.jl",
+    "objectID": "TextClassification/ropec2024.html#self-supervised-learning-4",
+    "href": "TextClassification/ropec2024.html#self-supervised-learning-4",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Self-supervised Learning (4)",
+    "text": "Self-supervised Learning (4)\n\n\n\n\n\nClassification\n\n\n\n\n\n\n\n\n\n\nOutside NLP\n\n\n\nMissing values\nHigh dimension / rare events",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
     ]
   },
   {
-    "objectID": "MetricSearch/index.html#referencias",
-    "href": "MetricSearch/index.html#referencias",
-    "title": "Búsqueda en espacios métricos en la era de los grandes modelos neuronales",
-    "section": "Referencias",
-    "text": "Referencias\n\n\nHezel, Nico, Kai Uwe Barthel, Konstantin Schall, and Klaus Jung. 2024. “An Exploration Graph with Continuous Refinement for Efficient Multimedia Retrieval.” Proceedings of the 2024 International Conference on Multimedia Retrieval (Phuket, Thailand), ICMR ’24, 657–65. https://doi.org/10.1145/3652583.3658117.\n\n\nMalkov, Yu A, and Dmitry A Yashunin. 2018. “Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs.” IEEE Transactions on Pattern Analysis and Machine Intelligence 42 (4): 824–36.\n\n\nMalkov, Yury, Alexander Ponomarenko, Andrey Logvinov, and Vladimir Krylov. 2014. “Approximate Nearest Neighbor Algorithm Based on Navigable Small World Graphs.” Information Systems 45: 61–68.",
+    "objectID": "TextClassification/ropec2024.html#contextual-representation",
+    "href": "TextClassification/ropec2024.html#contextual-representation",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Contextual Representation",
+    "text": "Contextual Representation\n\n\n\n\n\nAttention is All you Need\n\n\n(Vaswani et al. 2017)\n\n\n\n\n\n\n\n\nBERT\n\n\n(Devlin et al. 2019)",
     "crumbs": [
-      "Metric Search",
-      "Búsqueda en espacios métricos en la era de los grandes modelos neuronales"
+      "Is Traditional Machine Learning Useless?"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ropec2024.html#attention",
+    "href": "TextClassification/ropec2024.html#attention",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Attention",
+    "text": "Attention\n\n\n\n\n\nEquation\n\n\n\\[\n\\textsf{att}(Q, K, V) = \\textsf{softmax}(\\frac{QK^\\intercal}{\\sqrt{d_k}}) V\n\\]\n\n\n\n\n\n\n\nParts\n\n\n\n\\(Q^{(\\ell, d_a)} = H^{(\\ell, d_h)}Q^{(d_h, d_a)}\\)\n\\(K^{(\\ell, d_a)} = H^{(\\ell, d_h)}K^{(d_h, d_a)}\\)\n\\(V^{(\\ell, d_a)} = H^{(\\ell, d_h)}V^{(d_h, d_a)}\\)\n\n\n\n\n\n\n\n\n\n\nAnalysis\n\n\n\n\\(W^{(\\ell, \\ell)} = \\textsf{softmax}(\\frac{QK^\\intercal}{\\sqrt{d_k}})\\)\n\\(\\textsf{att}(Q, K, V)^{(\\ell, d_a)} = W^{(\\ell, \\ell)} V^{(\\ell, d_a)}\\)\n\\(H^{(\\ell, d_h)} \\rightarrow \\textsf{att}(Q, K, V)^{(\\ell, d_a)}\\)",
+    "crumbs": [
+      "Is Traditional Machine Learning Useless?"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ropec2024.html#author-profiling",
+    "href": "TextClassification/ropec2024.html#author-profiling",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Author Profiling",
+    "text": "Author Profiling",
+    "crumbs": [
+      "Is Traditional Machine Learning Useless?"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ropec2024.html#english-italian",
+    "href": "TextClassification/ropec2024.html#english-italian",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "English / Italian",
+    "text": "English / Italian",
+    "crumbs": [
+      "Is Traditional Machine Learning Useless?"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ropec2024.html#spanish",
+    "href": "TextClassification/ropec2024.html#spanish",
+    "title": "Is Traditional Machine Learning Useless?",
+    "section": "Spanish",
+    "text": "Spanish",
+    "crumbs": [
+      "Is Traditional Machine Learning Useless?"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#aguascalientes-méxico",
+    "href": "TextClassification/quantum.html#aguascalientes-méxico",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#definiciones",
+    "href": "TextClassification/quantum.html#definiciones",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Definiciones",
+    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nSubárea de IA que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#percepción-de-inteligencia-artificial-ia",
+    "href": "TextClassification/quantum.html#percepción-de-inteligencia-artificial-ia",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Percepción de Inteligencia Artificial (IA)",
+    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#minería-de-opinión-dave2003mining",
+    "href": "TextClassification/quantum.html#minería-de-opinión-dave2003mining",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Minería de opinión Dave et al. (2003)",
+    "text": "Minería de opinión Dave et al. (2003)\n\n\n\nDefinición Liu (2012)\n\n\nEstudia las opiniones, valoraciones, actitudes y emociones de las personas hacia entidades, individuos, eventos y sus atributos.\n\n\n\n\n\n\n\n\n\nDefinición formal\n\n\n\n\\(e_i\\) - Entidad\n\\(a_{ij}\\) - Aspecto of \\(e_i\\)\n\\(o_{ijkl}\\) - Orientación de la opinión\n\\(h_k\\) - Fuente de la opinión\n\\(t_l\\) - Tiempo\n\n\n\n\n\n\n\n\n\n\nEntidad\n\n\nProducto, servicio, persona, evento, organización o tópico.\n\n\n\n\n\n\n\n\nAspecto\n\n\nComponente o atributo de la entidad",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#tareas-de-la-minería-de-opinión",
+    "href": "TextClassification/quantum.html#tareas-de-la-minería-de-opinión",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Tareas de la minería de opinión",
+    "text": "Tareas de la minería de opinión\n\n\n\n\n\nTareas\n\n\n\nIdentificación de la entidad\nIdentifación de los aspectos / considerando la entidad\nFuente de la opinión y tiempo\nOrientación de la opinión",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#aprendizaje-computacional-2",
+    "href": "TextClassification/quantum.html#aprendizaje-computacional-2",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Aprendizaje computacional",
+    "text": "Aprendizaje computacional\n\n\n\nTipos de aprendizaje computacional\n\n\n\nAprendizaje no supervisado\nAprendizaje supervisado\nAprendizaje por refuerzo\n\n\n\n\n\n\n\n\n\nAprendizaje no supervisado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendizaje por refuerzo\n\n\n\nJuegos\nActividades\nRetroalimentación al final",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#aprendizaje-supervisado",
+    "href": "TextClassification/quantum.html#aprendizaje-supervisado",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Aprendizaje supervisado",
+    "text": "Aprendizaje supervisado\n\n\n\nClasificador lineal",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#algoritmos-evolutivos",
+    "href": "TextClassification/quantum.html#algoritmos-evolutivos",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Algoritmos evolutivos",
+    "text": "Algoritmos evolutivos\n\n\n\n\n\nDefinición\n\n\nAlgoritmos de búsqueda aleatoria inspirados en fenómenos naturales, como la supervivencia del más apto y la herencia, utilizados para resolver problemas de optimización.",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#aplicaciones-de-pln-12",
+    "href": "TextClassification/quantum.html#aplicaciones-de-pln-12",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Aplicaciones de PLN (1/2)",
+    "text": "Aplicaciones de PLN (1/2)\n\n\n\n\n\n\n\n\n\n\n\nAplicaciones\n\n\n\nMinería de opinión\n\npositivo :)  –neutro :| –negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#aplicaciones-de-pln-22",
+    "href": "TextClassification/quantum.html#aplicaciones-de-pln-22",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Aplicaciones de PLN (2/2)",
+    "text": "Aplicaciones de PLN (2/2)\n\n\n\n\n\nAplicaciones\n\n\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas.",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#algunos-retos",
+    "href": "TextClassification/quantum.html#algunos-retos",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Algunos retos",
+    "text": "Algunos retos\n\n\n\n\n\nRetos\n\n\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios.",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#clasificación-de-textos-1",
+    "href": "TextClassification/quantum.html#clasificación-de-textos-1",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Clasificación de Textos",
+    "text": "Clasificación de Textos\n\n\n\nDefinición\n\n\nEl objetivo es la clasificación de documentos en un número fijo de categorías predefinidas.\n\n\n\n\n\n\n\nPolaridad\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\n\nNegativa",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#tareas-de-clasificación-de-textos",
+    "href": "TextClassification/quantum.html#tareas-de-clasificación-de-textos",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Tareas de Clasificación de Textos",
+    "text": "Tareas de Clasificación de Textos\n\n\n\n\n\nPolaridad\n\n\nPositiva, Negativa, Neutral\n\n\n\n\n\n\nEmoción (Multiclase)\n\n\n\nIra, Alegría, …\nIntensidad de una emoción\n\n\n\n\n\n\n\nEvento (Binaria)\n\n\n\nViolento\nDelito",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#perfilado-de-autores",
+    "href": "TextClassification/quantum.html#perfilado-de-autores",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Perfilado de autores",
+    "text": "Perfilado de autores\n\n\n\n\n\nGénero\n\n\nHombre, Mujer, No binario, …\n\n\n\n\n\n\nEdad\n\n\nNiño, Adolescente, Adulto\n\n\n\n\n\n\nVariedad de Lenguaje\n\n\n\nEspañol: España, Cuba, Argentina, México, …\nInglés: Estados Unidos, Inglaterra, …",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#representación-de-texto",
+    "href": "TextClassification/quantum.html#representación-de-texto",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Representación de Texto",
+    "text": "Representación de Texto\n\n\n\n\n\nBolsa de palabras\n\n\n\nAsociar cada palabra a un identificador.\n\nde \\(\\rightarrow\\) 1.\nque \\(\\rightarrow\\) 2.\nbuenos \\(\\rightarrow\\) 216.\ndias \\(\\rightarrow\\) 101.\n\n\n\n\n\n\n\n\n\n\nbuenos días\n\n\n\\((216, 101)\\)\n\n\n\n\n\n\n\n\nLa bolsa no tiene orden\n\n\n\\((101, 216)\\)\n\n\n\n\n\n\n\n\n\n\nModelo lineal\n\n\n\\(y = \\sigma( \\sum_{i \\in (100, 215)} w_i x_i + w_0)\\)\n\n\n\n\n\n\n\nParámetros\n\n\n\\(x_i\\) TFIDF / \\(w_i\\) valor estimado",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#representación-de-texto-2",
+    "href": "TextClassification/quantum.html#representación-de-texto-2",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Representación de Texto (2)",
+    "text": "Representación de Texto (2)\n\n\n\n\n\nBolsa de Palabras / Limitantes\n\n\n\nNo existe similitud entre palabras.\nSe pierde el orden.\nVector disperso.\n\n\n\n\n\n\n\n\nEmbeddings estáticos\n\n\n\nHipótesis distribucional.\nSimilitud entre palabras.\nVector denso.\n\n\n\n\n\n\n\n\n\nEmbeddings estáticos / limitantes\n\n\n\nSe pierde el orden.\nIndependientes del contexto.",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#datos",
+    "href": "TextClassification/quantum.html#datos",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Datos",
+    "text": "Datos\n\n\n\n\n\nDatos georeferenciados en español\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n¿Qué se puede hacer con los datos?\n\n\n\nMuchos textos\nCada texto asociado a un pais\n\n\n\n\n\n\n\n\n\nProblema\n\n\n\nClasificación de texto",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#dialectid",
+    "href": "TextClassification/quantum.html#dialectid",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "DialectId",
+    "text": "DialectId\n\n\n\n¿Qué es?\n\n\nDialectId es un clasificador de texto basado en una representación de Bolsa de Palabras (BoW, por sus siglas en inglés, Bag of Words), utilizando SVM lineal como clasificador.\n\n\n\n\n\n\n\n\nProcesamiento de normalización\n\n\n\nCaracteres en minúsculas\nEliminar lo diacríticos\nRemplazar nombres de usuario por “_usr”\nRemplazar URLs por “_url”\n\n\n\n\n\n\n\n\nConjunto entrenamiento\n\n\nLos tokens y sus pesos fueron estimados usando un conjunto de entrenamiento de cada idioma (medio millón por pais).",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#dialectid-12",
+    "href": "TextClassification/quantum.html#dialectid-12",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "DialectId (1/2)",
+    "text": "DialectId (1/2)\n\n\n\n\n\nModelado por bolsa de palabras\n\n\n\nCada texto es un vector en \\(R^{v}\\)\nModelo lineal\nmexico = \\(\\textsf{sign}(\\sum_i^v w_i x_i + w_0)\\)\n\\(\\mathbf w=(w_1, w_2, \\ldots, w_v)\\)\n\n\n\n\n\n\n\n\nDendograma",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#similutud-entre-países-hispanohablantes",
+    "href": "TextClassification/quantum.html#similutud-entre-países-hispanohablantes",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Similutud entre países hispanohablantes",
+    "text": "Similutud entre países hispanohablantes\n\n\n\nMapa",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
+    ]
+  },
+  {
+    "objectID": "TextClassification/quantum.html#temas",
+    "href": "TextClassification/quantum.html#temas",
+    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
+    "section": "Temas",
+    "text": "Temas\n\n\n\n\n\nTécnicas\n\n\n\nInteligencia artificial\nAprendizaje computacional\nProcesamiento de lenguaje natural\n\n\n\n\n\n\n\n\nTareas\n\n\n\nClasificación de texto\nIdentificación de dialectos\n\n\n\n\n\n\n\n\n\nDialectId\n\n\n\nfrom dialectid import DialectId\n\ndetect = DialectId(lang='es')\ndetect.predict(['son pololos', 'pues vámonos'])\n\narray(['cl', 'mx'], dtype='&lt;U2')",
+    "crumbs": [
+      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
     ]
   },
   {
@@ -1116,424 +1526,11 @@
     ]
   },
   {
-    "objectID": "TextClassification/competencias.html#aguascalientes-méxico",
-    "href": "TextClassification/competencias.html#aguascalientes-méxico",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#definiciones",
-    "href": "TextClassification/competencias.html#definiciones",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Definiciones",
-    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nAprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#percepción-de-inteligencia-artificial-ia",
-    "href": "TextClassification/competencias.html#percepción-de-inteligencia-artificial-ia",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Percepción de Inteligencia Artificial (IA)",
-    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#machine-learning",
-    "href": "TextClassification/competencias.html#machine-learning",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\n\n\nTipos de aprendizaje computacional\n\n\n\nAprendizaje no supervisado\nAprendizaje supervisado\nAprendizaje por refuerzo\n\n\n\n\n\n\n\n\n\nAprendizaje no supervisado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendizaje por refuerzo\n\n\n\nJuegos\nActividades\nRetroalimentación al final",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#clasificadores-lineales",
-    "href": "TextClassification/competencias.html#clasificadores-lineales",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Clasificadores lineales",
-    "text": "Clasificadores lineales",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#árboles-de-decisión",
-    "href": "TextClassification/competencias.html#árboles-de-decisión",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Árboles de decisión",
-    "text": "Árboles de decisión\n\n\n\n\n\nProblem\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClassifier",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#definición",
-    "href": "TextClassification/competencias.html#definición",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Definición",
-    "text": "Definición\n\n\n\nJair Escalante y Kruchinina (2023)\n\n\nUna competencia académica tiene el objetivo de responder preguntas científicas que idealmente empujen la frontera del conocimiento y tengan un impacto duradero y/o conjunto de prueba de referencia.\n\n\n\n\n\n\n\n\nLey de longitud de 1714\n\n\nUna serie de premios monetarios para la persona que encontrara un método simple y práctico para la determinación precisa de la longitud geográfica de un barco en alta mar.",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#sociales",
-    "href": "TextClassification/competencias.html#sociales",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Sociales",
-    "text": "Sociales\n\n\n\nLongitude Price\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nxprice",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#conducción-autónoma---2004",
-    "href": "TextClassification/competencias.html#conducción-autónoma---2004",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Conducción autónoma - 2004",
-    "text": "Conducción autónoma - 2004\n\n\n\nDefense Advanced Research Projects Agency (DARPA)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n100 equipos\nUn equipo logró 12km\n\n\n\n195 equipos\n5 equipos terminaron los 212km\n\n\n\nSiguieron, conduciendo en la ciudad 2007… en simuladores (e.g, CARLA)",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#robocup",
-    "href": "TextClassification/competencias.html#robocup",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "RoboCup",
-    "text": "RoboCup\n\n\n\nIniciando 1990",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#competencia-de-netflix---2000",
-    "href": "TextClassification/competencias.html#competencia-de-netflix---2000",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Competencia de Netflix - 2000",
-    "text": "Competencia de Netflix - 2000\n\n\n\n1M al equipo ganador\n\n\n\n\n\nSistema de recomendación\nMejorar su sistema\nGanador mejoro en 10%",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#ecmlpkdd---1999",
-    "href": "TextClassification/competencias.html#ecmlpkdd---1999",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "ECMLPKDD - 1999",
-    "text": "ECMLPKDD - 1999\n\n\n\nDiscovery Challenge",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#kaggle---2009",
-    "href": "TextClassification/competencias.html#kaggle---2009",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Kaggle - 2009",
-    "text": "Kaggle - 2009\n\n\n\nKaggle",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#codabench---2013",
-    "href": "TextClassification/competencias.html#codabench---2013",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Codabench - 2013",
-    "text": "Codabench - 2013\n\n\n\nPavao et al. (2023)",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#aprendizaje-computacional-2",
-    "href": "TextClassification/competencias.html#aprendizaje-computacional-2",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Aprendizaje Computacional",
-    "text": "Aprendizaje Computacional\n\n\n\nImageNet Large Scale Visual Recognition Challenge\n\n\n\nClasificación de imágenes\n1,000 categorías\nMillones de imágenes de entrenamiento\nTercera edición nació AlexNet\nCNN, VGG, GoogLeNet\n\n\n\n\n\n\n\n\nAutoML 2025\n\n\n\nAutomatizar el ciclo de aprendizaje computacional\nCompetencias 2015 - 2018\nDatos tabulares",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#icdar---1991",
-    "href": "TextClassification/competencias.html#icdar---1991",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "ICDAR - 1991",
-    "text": "ICDAR - 1991\n\n\n\nICDAR 2025",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#text-retrieval-conference-trec---1990",
-    "href": "TextClassification/competencias.html#text-retrieval-conference-trec---1990",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Text Retrieval Conference (TREC) - 1990",
-    "text": "Text Retrieval Conference (TREC) - 1990\n\n\n\nTREC",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#conference-and-labs-of-the-evaluation-forum---2000",
-    "href": "TextClassification/competencias.html#conference-and-labs-of-the-evaluation-forum---2000",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Conference and Labs of the Evaluation Forum - 2000",
-    "text": "Conference and Labs of the Evaluation Forum - 2000\n\n\n\nCLEF",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#semantic-evaluation-semeval",
-    "href": "TextClassification/competencias.html#semantic-evaluation-semeval",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "Semantic Evaluation (SemEval)",
-    "text": "Semantic Evaluation (SemEval)\n\n\n\nSemEval 2025 (2026)\n\n\n\nSemantic Relations\n\nEntity-aware machine translation\n\nLLM Capabilities\n\nUnlearning sensitive content from LLM\n\nFact Checking and Knowledge Verification\n\nQuestion-Answering over Tabular Data\n\nKnowledge Representation and Reasoning\n\nBringing the Gap in Text-Based Emotion Detection",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#iberlef",
-    "href": "TextClassification/competencias.html#iberlef",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "IberLEF",
-    "text": "IberLEF\n\n\n\nIberLEF 2025",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/competencias.html#fire-2024",
-    "href": "TextClassification/competencias.html#fire-2024",
-    "title": "Competencias internacionales para generar avances en inteligencia artificial",
-    "section": "FIRE 2024",
-    "text": "FIRE 2024\n\n\n\nDravidian-CodeMix",
-    "crumbs": [
-      "Competencias internacionales para generar avances en inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#aguascalientes-méxico",
-    "href": "TextClassification/reclutamiento.html#aguascalientes-méxico",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#definiciones",
-    "href": "TextClassification/reclutamiento.html#definiciones",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Definiciones",
-    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nAprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#percepción-de-inteligencia-artificial-ia",
-    "href": "TextClassification/reclutamiento.html#percepción-de-inteligencia-artificial-ia",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Percepción de Inteligencia Artificial (IA)",
-    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#aprendizaje-computacional-2",
-    "href": "TextClassification/reclutamiento.html#aprendizaje-computacional-2",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Aprendizaje computacional",
-    "text": "Aprendizaje computacional\n\n\n\nTipos de aprendizaje computacional\n\n\n\nAprendizaje no supervisado\nAprendizaje supervisado\nAprendizaje por refuerzo\n\n\n\n\n\n\n\n\n\nAprendizaje no supervisado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendizaje por refuerzo\n\n\n\nJuegos\nActividades\nRetroalimentación al final",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#clasificadores-lineales",
-    "href": "TextClassification/reclutamiento.html#clasificadores-lineales",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Clasificadores lineales",
-    "text": "Clasificadores lineales",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#minería-de-opinión-dave2003mining",
-    "href": "TextClassification/reclutamiento.html#minería-de-opinión-dave2003mining",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Minería de opinión Dave et al. (2003)",
-    "text": "Minería de opinión Dave et al. (2003)\n\n\n\nDefinición Liu (2012)\n\n\nEstudia las opiniones, valoraciones, actitudes y emociones de las personas hacia entidades, individuos, eventos y sus atributos.\n\n\n\n\nIdentificar opiniones de textos\nInterés de las marcas en conocer las opiniones de los clientes\nDatos masivos",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#minería-de-opinión-2",
-    "href": "TextClassification/reclutamiento.html#minería-de-opinión-2",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Minería de opinión (2)",
-    "text": "Minería de opinión (2)\n\n\n\n\n\nDefinición formal\n\n\n\n\\(e_i\\) - Entidad\n\\(a_{ij}\\) - Aspecto of \\(e_i\\)\n\\(o_{ijkl}\\) - Orientación de la opinión\n\\(h_k\\) - Fuente de la opinión\n\\(t_l\\) - Tiempo\n\n\n\n\n\n\n\n\nEntidad\n\n\nProducto, servicio, persona, evento, organización o tópico.\n\n\n\n\n\n\nAspecto\n\n\nComponente o atributo de la entidad",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#tareas-de-la-minería-de-opinión",
-    "href": "TextClassification/reclutamiento.html#tareas-de-la-minería-de-opinión",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Tareas de la minería de opinión",
-    "text": "Tareas de la minería de opinión\n\n\n\n\n\nTasks\n\n\n\nIdentificación de la entidad\nIdentifación de los aspectos / considerando la entidad\nFuente de la opinión y tiempo\nOrientación de la opinión",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#clasificación-de-textos-1",
-    "href": "TextClassification/reclutamiento.html#clasificación-de-textos-1",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Clasificación de Textos",
-    "text": "Clasificación de Textos\n\n\n\nDefinición\n\n\nEl objetivo es la clasificación de documentos en un número fijo de categorías predefinidas.\n\n\n\n\n\n\nPolaridad\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegativa",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#tareas-de-clasificación-de-textos",
-    "href": "TextClassification/reclutamiento.html#tareas-de-clasificación-de-textos",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Tareas de Clasificación de Textos",
-    "text": "Tareas de Clasificación de Textos\n\n\n\nPolaridad\n\n\nPositiva, Negativa, Neutral\n\n\n\n\n\n\nEmoción (Multiclase)\n\n\n\nIra, Alegría, …\nIntensidad de una emoción\n\n\n\n\n\n\n\nEvento (Binaria)\n\n\n\nViolento\nDelito",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#perfil",
-    "href": "TextClassification/reclutamiento.html#perfil",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Perfil",
-    "text": "Perfil\n\n\n\nGénero\n\n\nHombre, Mujer, No binario, …\n\n\n\n\n\n\nEdad\n\n\nNiño, Adolescente, Adulto\n\n\n\n\n\n\nVariedad de Lenguaje\n\n\n\nEspañol: España, Cuba, Argentina, México, …\nInglés: Estados Unidos, Inglaterra, …",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#validación-de-requerimientos",
-    "href": "TextClassification/reclutamiento.html#validación-de-requerimientos",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Validación de requerimientos",
-    "text": "Validación de requerimientos\n\n\n\n\n\n\n\n\n\n\n\nSantana et al. (2024)\n\n\n\nIdentificación de datos\nFiltrar candidatos\nClasificar perfiles\nIdentificar equivalencias",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#anonimización",
-    "href": "TextClassification/reclutamiento.html#anonimización",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Anonimización",
-    "text": "Anonimización\n\n\n\n\n\nSimón Ramos et al. (2021)\n\n\n\nIdentificar entidades personales\nAnonimizar para evitar sesgos (genero, edad, escuela, etc.)\nSeguridad para almacenamiento interno\nAnalizar automátiamente los CV’s",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#selección-de-candidatos",
-    "href": "TextClassification/reclutamiento.html#selección-de-candidatos",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Selección de candidatos",
-    "text": "Selección de candidatos\n\n\n\n\n\n\n\n\n\n\n\nGonzález-González y Herrera (2025), Mohanty et al. (2023), Dugyala et al. (2024)\n\n\n\nAgilizar proceso\nReclutamiento organizado\nIdentificación de habilidades y experiencias\nNormalización de CV’s",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#simulación-de-entrevistas",
-    "href": "TextClassification/reclutamiento.html#simulación-de-entrevistas",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Simulación de entrevistas",
-    "text": "Simulación de entrevistas\n\n\n\n\n\nDevaraju (2022)\n\n\n\nAnalizar las respuestas\nUso de chatbots para respuestas rápidas\nAnálisis de coherencia, relevancia y sentimiento\nIdentificar palabras clave",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#mercado-laboral",
-    "href": "TextClassification/reclutamiento.html#mercado-laboral",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Mercado laboral",
-    "text": "Mercado laboral\n\n\n\n\n\n\n\n\n\n\n\nChen et al. (2025)\n\n\n\nIdentificar tendencias\nHabilidades y requisitos frecuentes\nDetectar interrelaciones (competencias-roles)",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#turismo",
-    "href": "TextClassification/reclutamiento.html#turismo",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Turismo",
-    "text": "Turismo\n\n\n\n\n\n\n\n\n\n\n\nZhao et al. (2024), Ticona Nina (2019)\n\n\n\nToma de decisiones para promoción turistica\nDetectar comentarios de productos y servicios\nIdentificar patrones de preferencia\nAgrupar opiniones similares\nVisualizar oportunidades de mejora",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#percepción-pública",
-    "href": "TextClassification/reclutamiento.html#percepción-pública",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Percepción pública",
-    "text": "Percepción pública\n\n\n\n\n\nPovedano Álvarez et al. (2021)\n\n\n\nSegmentar grupos de intéres\nMedir reacción pública\nIdentificar preocupaciones\nCaptar el nivel de aceptación",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#redes-sociales",
-    "href": "TextClassification/reclutamiento.html#redes-sociales",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Redes sociales",
-    "text": "Redes sociales\n\n\n\n\n\n\n\n\n\n\n\nMajid et al. (2023), Wicaksono y Sudarmiatin (2025)\n\n\n\nIdentificación de fallas (audios, videos, comentarios, etc)\nMejoras para las aplicaciones\nProporcionar información para las empresas\nComprender percepción de clientes\nConocer las sugerencias (fortalecer contenido verificado, preocupación por fraudes, etc)",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#reseñas-de-productos",
-    "href": "TextClassification/reclutamiento.html#reseñas-de-productos",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Reseñas de productos",
-    "text": "Reseñas de productos\n\n\n\n\n\nHannan et al. (2012), Jabeen (2024)\n\n\n\nMedir satisfacción de los clientes\nConocer la reputación de los productos\nPriorizar aspectos de mejora\nRetroalimentación para publicidad y desarrollo\nConocer las expectativas de los consumidores",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
-  },
-  {
-    "objectID": "TextClassification/reclutamiento.html#conclusiones",
-    "href": "TextClassification/reclutamiento.html#conclusiones",
-    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
-    "section": "Conclusiones",
-    "text": "Conclusiones\n\n\n\n\n\nTécnicas\n\n\n\nMinería de opinión\nClasificación de texto\nIdentificación de entidades\nSimilitud semántica\n\n\n\n\n\n\n\n\nProblemas\n\n\n\nRecursos humanos\nClientes",
-    "crumbs": [
-      "Innovación en Reclutamiento y Marketing mediante PLN"
-    ]
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "INGEOTEC",
+    "section": "",
+    "text": "INGEOTEC\n  Grupo de investigación en Procesamiento de Lenguaje Natural, Minería de Opinión y Aprendizaje Computacional. Aquí reunimos las presentaciones de congresos, competencias internacionales y charlas de divulgación del grupo.\n  \n    GitHub\n  \n\n\n\n\n  Divulgación\n  Divulgación\n\nCharlas de divulgación sobre Procesamiento de Lenguaje Natural, Inteligencia Artificial y sus aplicaciones, dirigidas a públicos generales.\n\n\n  \n    Divulgación\n    Impacto del Procesamiento de Lenguaje Natural en la Educación\n  \n  \n    Divulgación\n    Competencias internacionales para generar avances en inteligencia artificial\n  \n  \n    Divulgación\n    Innovación en Reclutamiento y Marketing mediante PLN\n  \n  \n    Divulgación\n    El Procesamiento de Lenguaje Natural en la Ciencia de Datos\n  \n  \n    ROPEC 2024\n    Is Traditional Machine Learning Useless?\n    Given the Boom of Deep Learning Approaches\n  \n\n\n\n  Curso\n  Text Classification\n\nCharlas y cursos técnicos sobre clasificación de textos y minería de opinión, dirigidos a públicos académicos.\n\n\n  \n    Curso\n    Text Classification\n  \n  \n    Poornima Institute\n    Sentiment Analysis\n  \n  \n    Quantum\n    Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión\n  \n\n\n\n  Línea de investigación\n  Metric Search\n\nBúsqueda en espacios métricos.\n\n\n  \n    Metric Search\n    Búsqueda en espacios métricos en la era de los grandes modelos neuronales\n  \n\n\n\n  Competencia\n  Competencias\n\nParticipaciones de INGEOTEC en competencias internacionales de evaluación de sistemas de PLN: IberLEF 2023 (Jaén, España) y MexLEF 2023 (Puebla, México).\n\n\n  \n    Rest-Mex · IberLEF 2023\n    Ingeotec at Rest-Mex: Bag-of-Words Classifiers\n    Versión completa\n  \n  \n    Rest-Mex · IberLEF 2023\n    Ingeotec at Rest-Mex: Bag-of-Words Classifiers\n    Versión de 10 minutos\n  \n  \n    DA-VINCIS · IberLEF 2023\n    Ingeotec at DA-VINCIS: Bag-of-Words Classifiers\n    Versión completa\n  \n  \n    DA-VINCIS · IberLEF 2023\n    Ingeotec at DA-VINCIS: Bag-of-Words Classifiers\n    Versión de 10 minutos\n  \n  \n    MexLEF 2023\n    Recursos regionalizados para el procesamiento automático de datos de redes sociales\n    MexLEF, Puebla, México — octubre 2023"
   },
   {
     "objectID": "MexLEF2023/index.html#sobre-esta-charla",
@@ -1893,6 +1890,606 @@
     "text": "¿Preguntas?\n¡Gracias por su atención!\n\n\nModelos regionales del Español:\n\nhttps://ingeotec.github.io/regional-spanish-models/\nhttps://github.com/INGEOTEC/regional-spanish-models/\n\n\nINGEOTEC:\n\nhttps://github.com/INGEOTEC/\nhttps://ingeotec.github.io/",
     "crumbs": [
       "Recursos regionalizados para el procesamiento automático de datos de redes sociales"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#aguascalientes-méxico",
+    "href": "TextClassification/reclutamiento.html#aguascalientes-méxico",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#definiciones",
+    "href": "TextClassification/reclutamiento.html#definiciones",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Definiciones",
+    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nAprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#percepción-de-inteligencia-artificial-ia",
+    "href": "TextClassification/reclutamiento.html#percepción-de-inteligencia-artificial-ia",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Percepción de Inteligencia Artificial (IA)",
+    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#aprendizaje-computacional-2",
+    "href": "TextClassification/reclutamiento.html#aprendizaje-computacional-2",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Aprendizaje computacional",
+    "text": "Aprendizaje computacional\n\n\n\nTipos de aprendizaje computacional\n\n\n\nAprendizaje no supervisado\nAprendizaje supervisado\nAprendizaje por refuerzo\n\n\n\n\n\n\n\n\n\nAprendizaje no supervisado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendizaje por refuerzo\n\n\n\nJuegos\nActividades\nRetroalimentación al final",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#clasificadores-lineales",
+    "href": "TextClassification/reclutamiento.html#clasificadores-lineales",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Clasificadores lineales",
+    "text": "Clasificadores lineales",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#minería-de-opinión-dave2003mining",
+    "href": "TextClassification/reclutamiento.html#minería-de-opinión-dave2003mining",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Minería de opinión Dave et al. (2003)",
+    "text": "Minería de opinión Dave et al. (2003)\n\n\n\nDefinición Liu (2012)\n\n\nEstudia las opiniones, valoraciones, actitudes y emociones de las personas hacia entidades, individuos, eventos y sus atributos.\n\n\n\n\nIdentificar opiniones de textos\nInterés de las marcas en conocer las opiniones de los clientes\nDatos masivos",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#minería-de-opinión-2",
+    "href": "TextClassification/reclutamiento.html#minería-de-opinión-2",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Minería de opinión (2)",
+    "text": "Minería de opinión (2)\n\n\n\n\n\nDefinición formal\n\n\n\n\\(e_i\\) - Entidad\n\\(a_{ij}\\) - Aspecto of \\(e_i\\)\n\\(o_{ijkl}\\) - Orientación de la opinión\n\\(h_k\\) - Fuente de la opinión\n\\(t_l\\) - Tiempo\n\n\n\n\n\n\n\n\nEntidad\n\n\nProducto, servicio, persona, evento, organización o tópico.\n\n\n\n\n\n\nAspecto\n\n\nComponente o atributo de la entidad",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#tareas-de-la-minería-de-opinión",
+    "href": "TextClassification/reclutamiento.html#tareas-de-la-minería-de-opinión",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Tareas de la minería de opinión",
+    "text": "Tareas de la minería de opinión\n\n\n\n\n\nTasks\n\n\n\nIdentificación de la entidad\nIdentifación de los aspectos / considerando la entidad\nFuente de la opinión y tiempo\nOrientación de la opinión",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#clasificación-de-textos-1",
+    "href": "TextClassification/reclutamiento.html#clasificación-de-textos-1",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Clasificación de Textos",
+    "text": "Clasificación de Textos\n\n\n\nDefinición\n\n\nEl objetivo es la clasificación de documentos en un número fijo de categorías predefinidas.\n\n\n\n\n\n\nPolaridad\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegativa",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#tareas-de-clasificación-de-textos",
+    "href": "TextClassification/reclutamiento.html#tareas-de-clasificación-de-textos",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Tareas de Clasificación de Textos",
+    "text": "Tareas de Clasificación de Textos\n\n\n\nPolaridad\n\n\nPositiva, Negativa, Neutral\n\n\n\n\n\n\nEmoción (Multiclase)\n\n\n\nIra, Alegría, …\nIntensidad de una emoción\n\n\n\n\n\n\n\nEvento (Binaria)\n\n\n\nViolento\nDelito",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#perfil",
+    "href": "TextClassification/reclutamiento.html#perfil",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Perfil",
+    "text": "Perfil\n\n\n\nGénero\n\n\nHombre, Mujer, No binario, …\n\n\n\n\n\n\nEdad\n\n\nNiño, Adolescente, Adulto\n\n\n\n\n\n\nVariedad de Lenguaje\n\n\n\nEspañol: España, Cuba, Argentina, México, …\nInglés: Estados Unidos, Inglaterra, …",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#validación-de-requerimientos",
+    "href": "TextClassification/reclutamiento.html#validación-de-requerimientos",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Validación de requerimientos",
+    "text": "Validación de requerimientos\n\n\n\n\n\n\n\n\n\n\n\nSantana et al. (2024)\n\n\n\nIdentificación de datos\nFiltrar candidatos\nClasificar perfiles\nIdentificar equivalencias",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#anonimización",
+    "href": "TextClassification/reclutamiento.html#anonimización",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Anonimización",
+    "text": "Anonimización\n\n\n\n\n\nSimón Ramos et al. (2021)\n\n\n\nIdentificar entidades personales\nAnonimizar para evitar sesgos (genero, edad, escuela, etc.)\nSeguridad para almacenamiento interno\nAnalizar automátiamente los CV’s",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#selección-de-candidatos",
+    "href": "TextClassification/reclutamiento.html#selección-de-candidatos",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Selección de candidatos",
+    "text": "Selección de candidatos\n\n\n\n\n\n\n\n\n\n\n\nGonzález-González y Herrera (2025), Mohanty et al. (2023), Dugyala et al. (2024)\n\n\n\nAgilizar proceso\nReclutamiento organizado\nIdentificación de habilidades y experiencias\nNormalización de CV’s",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#simulación-de-entrevistas",
+    "href": "TextClassification/reclutamiento.html#simulación-de-entrevistas",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Simulación de entrevistas",
+    "text": "Simulación de entrevistas\n\n\n\n\n\nDevaraju (2022)\n\n\n\nAnalizar las respuestas\nUso de chatbots para respuestas rápidas\nAnálisis de coherencia, relevancia y sentimiento\nIdentificar palabras clave",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#mercado-laboral",
+    "href": "TextClassification/reclutamiento.html#mercado-laboral",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Mercado laboral",
+    "text": "Mercado laboral\n\n\n\n\n\n\n\n\n\n\n\nChen et al. (2025)\n\n\n\nIdentificar tendencias\nHabilidades y requisitos frecuentes\nDetectar interrelaciones (competencias-roles)",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#turismo",
+    "href": "TextClassification/reclutamiento.html#turismo",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Turismo",
+    "text": "Turismo\n\n\n\n\n\n\n\n\n\n\n\nZhao et al. (2024), Ticona Nina (2019)\n\n\n\nToma de decisiones para promoción turistica\nDetectar comentarios de productos y servicios\nIdentificar patrones de preferencia\nAgrupar opiniones similares\nVisualizar oportunidades de mejora",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#percepción-pública",
+    "href": "TextClassification/reclutamiento.html#percepción-pública",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Percepción pública",
+    "text": "Percepción pública\n\n\n\n\n\nPovedano Álvarez et al. (2021)\n\n\n\nSegmentar grupos de intéres\nMedir reacción pública\nIdentificar preocupaciones\nCaptar el nivel de aceptación",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#redes-sociales",
+    "href": "TextClassification/reclutamiento.html#redes-sociales",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Redes sociales",
+    "text": "Redes sociales\n\n\n\n\n\n\n\n\n\n\n\nMajid et al. (2023), Wicaksono y Sudarmiatin (2025)\n\n\n\nIdentificación de fallas (audios, videos, comentarios, etc)\nMejoras para las aplicaciones\nProporcionar información para las empresas\nComprender percepción de clientes\nConocer las sugerencias (fortalecer contenido verificado, preocupación por fraudes, etc)",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#reseñas-de-productos",
+    "href": "TextClassification/reclutamiento.html#reseñas-de-productos",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Reseñas de productos",
+    "text": "Reseñas de productos\n\n\n\n\n\nHannan et al. (2012), Jabeen (2024)\n\n\n\nMedir satisfacción de los clientes\nConocer la reputación de los productos\nPriorizar aspectos de mejora\nRetroalimentación para publicidad y desarrollo\nConocer las expectativas de los consumidores",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/reclutamiento.html#conclusiones",
+    "href": "TextClassification/reclutamiento.html#conclusiones",
+    "title": "Innovación en Reclutamiento y Marketing mediante PLN",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\n\n\n\nTécnicas\n\n\n\nMinería de opinión\nClasificación de texto\nIdentificación de entidades\nSimilitud semántica\n\n\n\n\n\n\n\n\nProblemas\n\n\n\nRecursos humanos\nClientes",
+    "crumbs": [
+      "Innovación en Reclutamiento y Marketing mediante PLN"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#aguascalientes-méxico",
+    "href": "TextClassification/competencias.html#aguascalientes-méxico",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#definiciones",
+    "href": "TextClassification/competencias.html#definiciones",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Definiciones",
+    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nAprendizaje Computacional es una subárea de Inteligencia Artificial que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#percepción-de-inteligencia-artificial-ia",
+    "href": "TextClassification/competencias.html#percepción-de-inteligencia-artificial-ia",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Percepción de Inteligencia Artificial (IA)",
+    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#machine-learning",
+    "href": "TextClassification/competencias.html#machine-learning",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\n\n\nTipos de aprendizaje computacional\n\n\n\nAprendizaje no supervisado\nAprendizaje supervisado\nAprendizaje por refuerzo\n\n\n\n\n\n\n\n\n\nAprendizaje no supervisado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendizaje por refuerzo\n\n\n\nJuegos\nActividades\nRetroalimentación al final",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#clasificadores-lineales",
+    "href": "TextClassification/competencias.html#clasificadores-lineales",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Clasificadores lineales",
+    "text": "Clasificadores lineales",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#árboles-de-decisión",
+    "href": "TextClassification/competencias.html#árboles-de-decisión",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Árboles de decisión",
+    "text": "Árboles de decisión\n\n\n\n\n\nProblem\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClassifier",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#definición",
+    "href": "TextClassification/competencias.html#definición",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Definición",
+    "text": "Definición\n\n\n\nJair Escalante y Kruchinina (2023)\n\n\nUna competencia académica tiene el objetivo de responder preguntas científicas que idealmente empujen la frontera del conocimiento y tengan un impacto duradero y/o conjunto de prueba de referencia.\n\n\n\n\n\n\n\n\nLey de longitud de 1714\n\n\nUna serie de premios monetarios para la persona que encontrara un método simple y práctico para la determinación precisa de la longitud geográfica de un barco en alta mar.",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#sociales",
+    "href": "TextClassification/competencias.html#sociales",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Sociales",
+    "text": "Sociales\n\n\n\nLongitude Price\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nxprice",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#conducción-autónoma---2004",
+    "href": "TextClassification/competencias.html#conducción-autónoma---2004",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Conducción autónoma - 2004",
+    "text": "Conducción autónoma - 2004\n\n\n\nDefense Advanced Research Projects Agency (DARPA)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n100 equipos\nUn equipo logró 12km\n\n\n\n195 equipos\n5 equipos terminaron los 212km\n\n\n\nSiguieron, conduciendo en la ciudad 2007… en simuladores (e.g, CARLA)",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#robocup",
+    "href": "TextClassification/competencias.html#robocup",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "RoboCup",
+    "text": "RoboCup\n\n\n\nIniciando 1990",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#competencia-de-netflix---2000",
+    "href": "TextClassification/competencias.html#competencia-de-netflix---2000",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Competencia de Netflix - 2000",
+    "text": "Competencia de Netflix - 2000\n\n\n\n1M al equipo ganador\n\n\n\n\n\nSistema de recomendación\nMejorar su sistema\nGanador mejoro en 10%",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#ecmlpkdd---1999",
+    "href": "TextClassification/competencias.html#ecmlpkdd---1999",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "ECMLPKDD - 1999",
+    "text": "ECMLPKDD - 1999\n\n\n\nDiscovery Challenge",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#kaggle---2009",
+    "href": "TextClassification/competencias.html#kaggle---2009",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Kaggle - 2009",
+    "text": "Kaggle - 2009\n\n\n\nKaggle",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#codabench---2013",
+    "href": "TextClassification/competencias.html#codabench---2013",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Codabench - 2013",
+    "text": "Codabench - 2013\n\n\n\nPavao et al. (2023)",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#aprendizaje-computacional-2",
+    "href": "TextClassification/competencias.html#aprendizaje-computacional-2",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Aprendizaje Computacional",
+    "text": "Aprendizaje Computacional\n\n\n\nImageNet Large Scale Visual Recognition Challenge\n\n\n\nClasificación de imágenes\n1,000 categorías\nMillones de imágenes de entrenamiento\nTercera edición nació AlexNet\nCNN, VGG, GoogLeNet\n\n\n\n\n\n\n\n\nAutoML 2025\n\n\n\nAutomatizar el ciclo de aprendizaje computacional\nCompetencias 2015 - 2018\nDatos tabulares",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#icdar---1991",
+    "href": "TextClassification/competencias.html#icdar---1991",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "ICDAR - 1991",
+    "text": "ICDAR - 1991\n\n\n\nICDAR 2025",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#text-retrieval-conference-trec---1990",
+    "href": "TextClassification/competencias.html#text-retrieval-conference-trec---1990",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Text Retrieval Conference (TREC) - 1990",
+    "text": "Text Retrieval Conference (TREC) - 1990\n\n\n\nTREC",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#conference-and-labs-of-the-evaluation-forum---2000",
+    "href": "TextClassification/competencias.html#conference-and-labs-of-the-evaluation-forum---2000",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Conference and Labs of the Evaluation Forum - 2000",
+    "text": "Conference and Labs of the Evaluation Forum - 2000\n\n\n\nCLEF",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#semantic-evaluation-semeval",
+    "href": "TextClassification/competencias.html#semantic-evaluation-semeval",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "Semantic Evaluation (SemEval)",
+    "text": "Semantic Evaluation (SemEval)\n\n\n\nSemEval 2025 (2026)\n\n\n\nSemantic Relations\n\nEntity-aware machine translation\n\nLLM Capabilities\n\nUnlearning sensitive content from LLM\n\nFact Checking and Knowledge Verification\n\nQuestion-Answering over Tabular Data\n\nKnowledge Representation and Reasoning\n\nBringing the Gap in Text-Based Emotion Detection",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#iberlef",
+    "href": "TextClassification/competencias.html#iberlef",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "IberLEF",
+    "text": "IberLEF\n\n\n\nIberLEF 2025",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/competencias.html#fire-2024",
+    "href": "TextClassification/competencias.html#fire-2024",
+    "title": "Competencias internacionales para generar avances en inteligencia artificial",
+    "section": "FIRE 2024",
+    "text": "FIRE 2024\n\n\n\nDravidian-CodeMix",
+    "crumbs": [
+      "Competencias internacionales para generar avances en inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#aguascalientes-méxico",
+    "href": "TextClassification/ciencia_datos.html#aguascalientes-méxico",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Aguascalientes, México",
+    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#definiciones",
+    "href": "TextClassification/ciencia_datos.html#definiciones",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Definiciones",
+    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nSubárea de IA que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.\n\n\n\n\n\n\n\n\nCiencia de Datos\n\n\nCampo interdisciplinario que combina matemáticas, estadística, IA, ciencias computacionales, entre otras para obtener conocimiento atraves de los datos.",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#percepción-de-inteligencia-artificial-ia",
+    "href": "TextClassification/ciencia_datos.html#percepción-de-inteligencia-artificial-ia",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Percepción de Inteligencia Artificial (IA)",
+    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#aprendizaje-computacional-2",
+    "href": "TextClassification/ciencia_datos.html#aprendizaje-computacional-2",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Aprendizaje computacional",
+    "text": "Aprendizaje computacional\n\n\n\nTipos de aprendizaje computacional\n\n\n\nAprendizaje no supervisado\nAprendizaje supervisado\nAprendizaje por refuerzo\n\n\n\n\n\n\n\n\n\nAprendizaje no supervisado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendizaje por refuerzo\n\n\n\nJuegos\nActividades\nRetroalimentación al final",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#aprendizaje-supervisado",
+    "href": "TextClassification/ciencia_datos.html#aprendizaje-supervisado",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Aprendizaje supervisado",
+    "text": "Aprendizaje supervisado\n\n\n\nClasificador lineal",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#aplicaciones-de-pln-12",
+    "href": "TextClassification/ciencia_datos.html#aplicaciones-de-pln-12",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Aplicaciones de PLN (1/2)",
+    "text": "Aplicaciones de PLN (1/2)\n\n\n\n\n\n\n\n\n\n\n\nAplicaciones\n\n\n\nMinería de opinión\n\npositivo :)  –neutro :| –negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#aplicaciones-de-pln-22",
+    "href": "TextClassification/ciencia_datos.html#aplicaciones-de-pln-22",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Aplicaciones de PLN (2/2)",
+    "text": "Aplicaciones de PLN (2/2)\n\n\n\n\n\nAplicaciones\n\n\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas.",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#algunos-retos",
+    "href": "TextClassification/ciencia_datos.html#algunos-retos",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Algunos retos",
+    "text": "Algunos retos\n\n\n\n\n\nRetos\n\n\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios.",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#clasificación-de-textos-1",
+    "href": "TextClassification/ciencia_datos.html#clasificación-de-textos-1",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Clasificación de Textos",
+    "text": "Clasificación de Textos\n\n\n\nDefinición\n\n\nEl objetivo es la clasificación de documentos en un número fijo de categorías predefinidas.\n\n\n\n\n\n\nPolaridad\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegativa",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#tareas-de-clasificación-de-textos",
+    "href": "TextClassification/ciencia_datos.html#tareas-de-clasificación-de-textos",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Tareas de Clasificación de Textos",
+    "text": "Tareas de Clasificación de Textos\n\n\n\n\n\nPolaridad\n\n\nPositiva, Negativa, Neutral\n\n\n\n\n\n\nEmoción (Multiclase)\n\n\n\nIra, Alegría, …\nIntensidad de una emoción\n\n\n\n\n\n\n\nEvento (Binaria)\n\n\n\nViolento\nDelito",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#perfilado-de-autores",
+    "href": "TextClassification/ciencia_datos.html#perfilado-de-autores",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Perfilado de autores",
+    "text": "Perfilado de autores\n\n\n\n\n\nGénero\n\n\nHombre, Mujer, No binario, …\n\n\n\n\n\n\nEdad\n\n\nNiño, Adolescente, Adulto\n\n\n\n\n\n\nVariedad de Lenguaje\n\n\n\nEspañol: España, Cuba, Argentina, México, …\nInglés: Estados Unidos, Inglaterra, …",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#representación-de-texto",
+    "href": "TextClassification/ciencia_datos.html#representación-de-texto",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Representación de Texto",
+    "text": "Representación de Texto\n\n\n\n\n\nBolsa de palabras\n\n\n\nAsociar cada palabra a un identificador.\n\nde \\(\\rightarrow\\) 1.\nque \\(\\rightarrow\\) 2.\nbuenos \\(\\rightarrow\\) 216.\ndias \\(\\rightarrow\\) 101.\n\n\n\n\n\n\n\n\n\n\nbuenos días\n\n\n\\((216, 101)\\)\n\n\n\n\n\n\n\n\nLa bolsa no tiene orden\n\n\n\\((101, 216)\\)\n\n\n\n\n\n\n\n\n\n\nModelo lineal\n\n\n\\(y = \\sigma( \\sum_{i \\in (100, 215)} w_i x_i + w_0)\\)\n\n\n\n\n\n\n\nParámetros\n\n\n\\(x_i\\) TFIDF / \\(w_i\\) valor estimado",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#representación-de-texto-2",
+    "href": "TextClassification/ciencia_datos.html#representación-de-texto-2",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Representación de Texto (2)",
+    "text": "Representación de Texto (2)\n\n\n\n\n\nBolsa de Palabras / Limitantes\n\n\n\nNo existe similitud entre palabras.\nSe pierde el orden.\nVector disperso.\n\n\n\n\n\n\n\n\nEmbeddings estáticos\n\n\n\nHipótesis distribucional.\nSimilitud entre palabras.\nVector denso.\n\n\n\n\n\n\n\n\n\nEmbeddings estáticos / limitantes\n\n\n\nSe pierde el orden.\nIndependientes del contexto.",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#datos",
+    "href": "TextClassification/ciencia_datos.html#datos",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Datos",
+    "text": "Datos\n\n\n\n\n\nDatos georeferenciados en español\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n¿Qué se puede hacer con los datos?\n\n\n\nMuchos textos\nCada texto asociado a un pais\n\n\n\n\n\n\n\n\n\nProblema\n\n\n\nClasificación de texto",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#dialectid",
+    "href": "TextClassification/ciencia_datos.html#dialectid",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "DialectId",
+    "text": "DialectId\n\n\n\n¿Qué es?\n\n\nDialectId es un clasificador de texto basado en una representación de Bolsa de Palabras (BoW, por sus siglas en inglés, Bag of Words), utilizando SVM lineal como clasificador.\n\n\n\n\n\n\n\n\nProcesamiento de normalización\n\n\n\nCaracteres en minúsculas\nEliminar lo diacríticos\nRemplazar nombres de usuario por “_usr”\nRemplazar URLs por “_url”\n\n\n\n\n\n\n\n\nConjunto entrenamiento\n\n\nLos tokens y sus pesos fueron estimados usando un conjunto de entrenamiento de cada idioma (medio millón por pais).",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#dialectid-12",
+    "href": "TextClassification/ciencia_datos.html#dialectid-12",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "DialectId (1/2)",
+    "text": "DialectId (1/2)\n\n\n\n\n\nModelado por bolsa de palabras\n\n\n\nCada texto es un vector en \\(R^{v}\\)\nModelo lineal\nmexico = \\(\\textsf{sign}(\\sum_i^v w_i x_i + w_0)\\)\n\\(\\mathbf w=(w_1, w_2, \\ldots, w_v)\\)\n\n\n\n\n\n\n\n\nDendograma",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#similutud-entre-países-hispanohablantes",
+    "href": "TextClassification/ciencia_datos.html#similutud-entre-países-hispanohablantes",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Similutud entre países hispanohablantes",
+    "text": "Similutud entre países hispanohablantes\n\n\n\nMapa",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
+    ]
+  },
+  {
+    "objectID": "TextClassification/ciencia_datos.html#temas",
+    "href": "TextClassification/ciencia_datos.html#temas",
+    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
+    "section": "Temas",
+    "text": "Temas\n\n\n\n\n\nTécnicas\n\n\n\nInteligencia artificial\nAprendizaje computacional\nProcesamiento de lenguaje natural\n\n\n\n\n\n\n\n\nTareas\n\n\n\nClasificación de texto\nIdentificación de dialectos\n\n\n\n\n\n\n\n\n\nDialectId\n\n\n\nfrom dialectid import DialectId\n\ndetect = DialectId(lang='es')\ndetect.predict(['son pololos', 'pues vámonos'])\n\narray(['cl', 'mx'], dtype='&lt;U2')",
+    "crumbs": [
+      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
     ]
   },
   {
@@ -2264,603 +2861,6 @@
     "crumbs": [
       "Text Classification"
     ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#aguascalientes-méxico",
-    "href": "TextClassification/quantum.html#aguascalientes-méxico",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#definiciones",
-    "href": "TextClassification/quantum.html#definiciones",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Definiciones",
-    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nSubárea de IA que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#percepción-de-inteligencia-artificial-ia",
-    "href": "TextClassification/quantum.html#percepción-de-inteligencia-artificial-ia",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Percepción de Inteligencia Artificial (IA)",
-    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#minería-de-opinión-dave2003mining",
-    "href": "TextClassification/quantum.html#minería-de-opinión-dave2003mining",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Minería de opinión Dave et al. (2003)",
-    "text": "Minería de opinión Dave et al. (2003)\n\n\n\nDefinición Liu (2012)\n\n\nEstudia las opiniones, valoraciones, actitudes y emociones de las personas hacia entidades, individuos, eventos y sus atributos.\n\n\n\n\n\n\n\n\n\nDefinición formal\n\n\n\n\\(e_i\\) - Entidad\n\\(a_{ij}\\) - Aspecto of \\(e_i\\)\n\\(o_{ijkl}\\) - Orientación de la opinión\n\\(h_k\\) - Fuente de la opinión\n\\(t_l\\) - Tiempo\n\n\n\n\n\n\n\n\n\n\nEntidad\n\n\nProducto, servicio, persona, evento, organización o tópico.\n\n\n\n\n\n\n\n\nAspecto\n\n\nComponente o atributo de la entidad",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#tareas-de-la-minería-de-opinión",
-    "href": "TextClassification/quantum.html#tareas-de-la-minería-de-opinión",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Tareas de la minería de opinión",
-    "text": "Tareas de la minería de opinión\n\n\n\n\n\nTareas\n\n\n\nIdentificación de la entidad\nIdentifación de los aspectos / considerando la entidad\nFuente de la opinión y tiempo\nOrientación de la opinión",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#aprendizaje-computacional-2",
-    "href": "TextClassification/quantum.html#aprendizaje-computacional-2",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Aprendizaje computacional",
-    "text": "Aprendizaje computacional\n\n\n\nTipos de aprendizaje computacional\n\n\n\nAprendizaje no supervisado\nAprendizaje supervisado\nAprendizaje por refuerzo\n\n\n\n\n\n\n\n\n\nAprendizaje no supervisado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendizaje por refuerzo\n\n\n\nJuegos\nActividades\nRetroalimentación al final",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#aprendizaje-supervisado",
-    "href": "TextClassification/quantum.html#aprendizaje-supervisado",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Aprendizaje supervisado",
-    "text": "Aprendizaje supervisado\n\n\n\nClasificador lineal",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#algoritmos-evolutivos",
-    "href": "TextClassification/quantum.html#algoritmos-evolutivos",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Algoritmos evolutivos",
-    "text": "Algoritmos evolutivos\n\n\n\n\n\nDefinición\n\n\nAlgoritmos de búsqueda aleatoria inspirados en fenómenos naturales, como la supervivencia del más apto y la herencia, utilizados para resolver problemas de optimización.",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#aplicaciones-de-pln-12",
-    "href": "TextClassification/quantum.html#aplicaciones-de-pln-12",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Aplicaciones de PLN (1/2)",
-    "text": "Aplicaciones de PLN (1/2)\n\n\n\n\n\n\n\n\n\n\n\nAplicaciones\n\n\n\nMinería de opinión\n\npositivo :)  –neutro :| –negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#aplicaciones-de-pln-22",
-    "href": "TextClassification/quantum.html#aplicaciones-de-pln-22",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Aplicaciones de PLN (2/2)",
-    "text": "Aplicaciones de PLN (2/2)\n\n\n\n\n\nAplicaciones\n\n\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas.",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#algunos-retos",
-    "href": "TextClassification/quantum.html#algunos-retos",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Algunos retos",
-    "text": "Algunos retos\n\n\n\n\n\nRetos\n\n\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios.",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#clasificación-de-textos-1",
-    "href": "TextClassification/quantum.html#clasificación-de-textos-1",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Clasificación de Textos",
-    "text": "Clasificación de Textos\n\n\n\nDefinición\n\n\nEl objetivo es la clasificación de documentos en un número fijo de categorías predefinidas.\n\n\n\n\n\n\n\nPolaridad\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\n\nNegativa",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#tareas-de-clasificación-de-textos",
-    "href": "TextClassification/quantum.html#tareas-de-clasificación-de-textos",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Tareas de Clasificación de Textos",
-    "text": "Tareas de Clasificación de Textos\n\n\n\n\n\nPolaridad\n\n\nPositiva, Negativa, Neutral\n\n\n\n\n\n\nEmoción (Multiclase)\n\n\n\nIra, Alegría, …\nIntensidad de una emoción\n\n\n\n\n\n\n\nEvento (Binaria)\n\n\n\nViolento\nDelito",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#perfilado-de-autores",
-    "href": "TextClassification/quantum.html#perfilado-de-autores",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Perfilado de autores",
-    "text": "Perfilado de autores\n\n\n\n\n\nGénero\n\n\nHombre, Mujer, No binario, …\n\n\n\n\n\n\nEdad\n\n\nNiño, Adolescente, Adulto\n\n\n\n\n\n\nVariedad de Lenguaje\n\n\n\nEspañol: España, Cuba, Argentina, México, …\nInglés: Estados Unidos, Inglaterra, …",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#representación-de-texto",
-    "href": "TextClassification/quantum.html#representación-de-texto",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Representación de Texto",
-    "text": "Representación de Texto\n\n\n\n\n\nBolsa de palabras\n\n\n\nAsociar cada palabra a un identificador.\n\nde \\(\\rightarrow\\) 1.\nque \\(\\rightarrow\\) 2.\nbuenos \\(\\rightarrow\\) 216.\ndias \\(\\rightarrow\\) 101.\n\n\n\n\n\n\n\n\n\n\nbuenos días\n\n\n\\((216, 101)\\)\n\n\n\n\n\n\n\n\nLa bolsa no tiene orden\n\n\n\\((101, 216)\\)\n\n\n\n\n\n\n\n\n\n\nModelo lineal\n\n\n\\(y = \\sigma( \\sum_{i \\in (100, 215)} w_i x_i + w_0)\\)\n\n\n\n\n\n\n\nParámetros\n\n\n\\(x_i\\) TFIDF / \\(w_i\\) valor estimado",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#representación-de-texto-2",
-    "href": "TextClassification/quantum.html#representación-de-texto-2",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Representación de Texto (2)",
-    "text": "Representación de Texto (2)\n\n\n\n\n\nBolsa de Palabras / Limitantes\n\n\n\nNo existe similitud entre palabras.\nSe pierde el orden.\nVector disperso.\n\n\n\n\n\n\n\n\nEmbeddings estáticos\n\n\n\nHipótesis distribucional.\nSimilitud entre palabras.\nVector denso.\n\n\n\n\n\n\n\n\n\nEmbeddings estáticos / limitantes\n\n\n\nSe pierde el orden.\nIndependientes del contexto.",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#datos",
-    "href": "TextClassification/quantum.html#datos",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Datos",
-    "text": "Datos\n\n\n\n\n\nDatos georeferenciados en español\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n¿Qué se puede hacer con los datos?\n\n\n\nMuchos textos\nCada texto asociado a un pais\n\n\n\n\n\n\n\n\n\nProblema\n\n\n\nClasificación de texto",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#dialectid",
-    "href": "TextClassification/quantum.html#dialectid",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "DialectId",
-    "text": "DialectId\n\n\n\n¿Qué es?\n\n\nDialectId es un clasificador de texto basado en una representación de Bolsa de Palabras (BoW, por sus siglas en inglés, Bag of Words), utilizando SVM lineal como clasificador.\n\n\n\n\n\n\n\n\nProcesamiento de normalización\n\n\n\nCaracteres en minúsculas\nEliminar lo diacríticos\nRemplazar nombres de usuario por “_usr”\nRemplazar URLs por “_url”\n\n\n\n\n\n\n\n\nConjunto entrenamiento\n\n\nLos tokens y sus pesos fueron estimados usando un conjunto de entrenamiento de cada idioma (medio millón por pais).",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#dialectid-12",
-    "href": "TextClassification/quantum.html#dialectid-12",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "DialectId (1/2)",
-    "text": "DialectId (1/2)\n\n\n\n\n\nModelado por bolsa de palabras\n\n\n\nCada texto es un vector en \\(R^{v}\\)\nModelo lineal\nmexico = \\(\\textsf{sign}(\\sum_i^v w_i x_i + w_0)\\)\n\\(\\mathbf w=(w_1, w_2, \\ldots, w_v)\\)\n\n\n\n\n\n\n\n\nDendograma",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#similutud-entre-países-hispanohablantes",
-    "href": "TextClassification/quantum.html#similutud-entre-países-hispanohablantes",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Similutud entre países hispanohablantes",
-    "text": "Similutud entre países hispanohablantes\n\n\n\nMapa",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/quantum.html#temas",
-    "href": "TextClassification/quantum.html#temas",
-    "title": "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión",
-    "section": "Temas",
-    "text": "Temas\n\n\n\n\n\nTécnicas\n\n\n\nInteligencia artificial\nAprendizaje computacional\nProcesamiento de lenguaje natural\n\n\n\n\n\n\n\n\nTareas\n\n\n\nClasificación de texto\nIdentificación de dialectos\n\n\n\n\n\n\n\n\n\nDialectId\n\n\n\nfrom dialectid import DialectId\n\ndetect = DialectId(lang='es')\ndetect.predict(['son pololos', 'pues vámonos'])\n\narray(['cl', 'mx'], dtype='&lt;U2')",
-    "crumbs": [
-      "Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#aguascalientes-méxico",
-    "href": "TextClassification/ropec2024.html#aguascalientes-méxico",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro Público de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#definitions",
-    "href": "TextClassification/ropec2024.html#definitions",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Definitions",
-    "text": "Definitions\n\n\n\n\n\nArtificial Intelligence (AI)\n\n\nTheory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.\n\n\n\n\n\n\n\nMachine Learning\n\n\nMachine learning (ML) is a subfield of artificial intelligence that focuses on the development and implementation of algorithms capable of learning from data without being explicitly programmed.\n\n\n\n\n\n\n\n\nNatural Language Processing (NLP)\n\n\nNLP is a branch of artificial intelligence (AI) that uses machine learning and other technologies to enable computers to understand, process, and manipulate human language.",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#ai-perception",
-    "href": "TextClassification/ropec2024.html#ai-perception",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "AI Perception",
-    "text": "AI Perception\n\n\n\n\n\nHow we look at it\n\n\n\n\n\n\n\n\n\n\nHow I see it",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#linear-classifier",
-    "href": "TextClassification/ropec2024.html#linear-classifier",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Linear Classifier",
-    "text": "Linear Classifier",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#decision-tree",
-    "href": "TextClassification/ropec2024.html#decision-tree",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Decision Tree",
-    "text": "Decision Tree\n\n\n\n\n\nProblem\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClassifier",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#text-classification",
-    "href": "TextClassification/ropec2024.html#text-classification",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Text Classification",
-    "text": "Text Classification\n\n\n\nDefinition\n\n\nThe aim is the classification of documents into a fixed number of predefined categories.\n\n\n\n\n\n\nPolarity\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegative",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#training-set",
-    "href": "TextClassification/ropec2024.html#training-set",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Training set",
-    "text": "Training set\nhttps://ingeotec.github.io/Delitos\n\n\n\n\n\n\n\n\n\n\ntexto\netiqueta\n\n\n\n\n0\nEn todas las cárceles del mundo, liberando pre...\nN\n\n\n1\nSecuestran y asesinan a una estudiante de bach...\nP\n\n\n2\nInterior despliega un centenar de guardias civ...\nN\n\n\n3\nSAN LUIS \\n\\n3 HOMBRES Y UN MENOR DETENIDOS PO...\nP\n\n\n4\nLA FLECHA DE LA MUERTE - Tinker7: https://t.co...\nN\n\n\n5\nInfausta noticia. \\n\\nDurante un ataque de un ...\nP\n\n\n6\nVIDEO, FOTOS: Fuertes lluvias provocan inundac...\nN\n\n\n7\n#Increíble Roban tachones y dan dos balazos a ...\nP",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#linear-classifier-1",
-    "href": "TextClassification/ropec2024.html#linear-classifier-1",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Linear Classifier",
-    "text": "Linear Classifier",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#text-representation",
-    "href": "TextClassification/ropec2024.html#text-representation",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Text Representation",
-    "text": "Text Representation\n\n\n\nBag of Words",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#text-representation-2",
-    "href": "TextClassification/ropec2024.html#text-representation-2",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Text Representation (2)",
-    "text": "Text Representation (2)\n\n\n\n\n\nAssociate token \\(t\\)\n\n\n\\[\n\\mathbf{v_t} \\in \\mathbb R^d\n\\]\n\n\n\n\n\n\n\nBag of words\n\n\n\\[\n\\mathbf x = \\frac{\\sum_t \\mathbf{v_t}}{\\lVert \\sum_t \\mathbf{v_t} \\rVert}\n\\]\n\n\n\n\n\n\n\n\n\nOrthogonal\n\n\n\\[\n\\forall_{i \\neq j} \\mathbf{v_i} \\cdot \\mathbf{v_j} = 0\n\\]\n\n\n\n\n\n\n\n\nConsequences\n\n\n\nNo similarity between tokens\nHigh dimension",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#text-representation-3",
-    "href": "TextClassification/ropec2024.html#text-representation-3",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Text Representation (3)",
-    "text": "Text Representation (3)\n\n\n\n\n\nDocument / TFIDF\n\n\n\n\n\n\n\n\n\n\n\nSegmentación\n\n\n\nfrom encexp.text_repr import SeqTM\nseq = SeqTM(lang='es')\nseq.tokenize('Es un placer estar con ustedes')\n\n['es~un', 'placer', 'estar~con', 'ustedes']\n\n\n\n\n\n\n\n\n\n\nRepresentación\n\n\n\nseq['Es un placer estar con ustedes']\n\n[(4950, np.float64(0.36575885477387166)),\n (8349, np.float64(0.552579185728764)),\n (4781, np.float64(0.5923660421512261)),\n (15787, np.float64(0.4582348478236175))]",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#self-supervised-learning",
-    "href": "TextClassification/ropec2024.html#self-supervised-learning",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Self-supervised Learning",
-    "text": "Self-supervised Learning\n\nUse Cloze test (Bormuth 1968)\n\n\n\n\n\n\nSelect a token\n\n\n\n\n\n\n\n\n\n\nSupervised learning",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#self-supervised-learning-2",
-    "href": "TextClassification/ropec2024.html#self-supervised-learning-2",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Self-supervised Learning (2)",
-    "text": "Self-supervised Learning (2)\n\n\n\n\n\nClassification\n\n\n\n\n\n\n\n\n\n\n\nCBOW\n\n\n\n\\(\\mathbf h = s(A \\mathbf x)\\)\n\\(\\mathbf y = s(A_2 \\mathbf h)\\)\n\\(\\mathbf x \\in \\mathbb{R}^d\\), \\(A \\in \\mathbb{R}^{(300, d)}\\),\n\\(\\mathbf h \\in \\mathbb{R}^{300}\\), and \\(A_2 \\in \\mathbb{R}^{(d, 300)}\\)\n\n\n\n\n\n\n\n\n\nDense representation\n\n\n\nColumns of \\(A\\)",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#self-supervised-learning-3",
-    "href": "TextClassification/ropec2024.html#self-supervised-learning-3",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Self-supervised Learning (3)",
-    "text": "Self-supervised Learning (3)\n\n\n\n\n\nClassification\n\n\n\n\n\n\n\n\n\n\n\nLinear Classifier\n\n\n\n\\(y_t = \\textsf{sign}(\\mathbf w_t \\mathbf x)\\)\n\\(\\mathbf x \\in \\mathbb{R}^d\\), \\(\\mathbf w_t \\in \\mathbb{R}^d\\)\n\n\n\n\n\n\n\n\n\nDense representation\n\n\n\n\\(\\mathbf w_t\\)\ne.g., \\(d = 2^{13}\\), and \\(t=1,\\ldots,2^{13}\\)\n\\(W \\approx\\) 67M",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#self-supervised-learning-4",
-    "href": "TextClassification/ropec2024.html#self-supervised-learning-4",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Self-supervised Learning (4)",
-    "text": "Self-supervised Learning (4)\n\n\n\n\n\nClassification\n\n\n\n\n\n\n\n\n\n\nOutside NLP\n\n\n\nMissing values\nHigh dimension / rare events",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#contextual-representation",
-    "href": "TextClassification/ropec2024.html#contextual-representation",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Contextual Representation",
-    "text": "Contextual Representation\n\n\n\n\n\nAttention is All you Need\n\n\n(Vaswani et al. 2017)\n\n\n\n\n\n\n\n\nBERT\n\n\n(Devlin et al. 2019)",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#attention",
-    "href": "TextClassification/ropec2024.html#attention",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Attention",
-    "text": "Attention\n\n\n\n\n\nEquation\n\n\n\\[\n\\textsf{att}(Q, K, V) = \\textsf{softmax}(\\frac{QK^\\intercal}{\\sqrt{d_k}}) V\n\\]\n\n\n\n\n\n\n\nParts\n\n\n\n\\(Q^{(\\ell, d_a)} = H^{(\\ell, d_h)}Q^{(d_h, d_a)}\\)\n\\(K^{(\\ell, d_a)} = H^{(\\ell, d_h)}K^{(d_h, d_a)}\\)\n\\(V^{(\\ell, d_a)} = H^{(\\ell, d_h)}V^{(d_h, d_a)}\\)\n\n\n\n\n\n\n\n\n\n\nAnalysis\n\n\n\n\\(W^{(\\ell, \\ell)} = \\textsf{softmax}(\\frac{QK^\\intercal}{\\sqrt{d_k}})\\)\n\\(\\textsf{att}(Q, K, V)^{(\\ell, d_a)} = W^{(\\ell, \\ell)} V^{(\\ell, d_a)}\\)\n\\(H^{(\\ell, d_h)} \\rightarrow \\textsf{att}(Q, K, V)^{(\\ell, d_a)}\\)",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#author-profiling",
-    "href": "TextClassification/ropec2024.html#author-profiling",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Author Profiling",
-    "text": "Author Profiling",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#english-italian",
-    "href": "TextClassification/ropec2024.html#english-italian",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "English / Italian",
-    "text": "English / Italian",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ropec2024.html#spanish",
-    "href": "TextClassification/ropec2024.html#spanish",
-    "title": "Is Traditional Machine Learning Useless?",
-    "section": "Spanish",
-    "text": "Spanish",
-    "crumbs": [
-      "Is Traditional Machine Learning Useless?"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#aguascalientes-méxico",
-    "href": "TextClassification/ciencia_datos.html#aguascalientes-méxico",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Aguascalientes, México",
-    "text": "Aguascalientes, México\n\n\n\n\n\n\n\nINFOTEC\n\n\nCentro de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#definiciones",
-    "href": "TextClassification/ciencia_datos.html#definiciones",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Definiciones",
-    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nSubárea de IA que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.\n\n\n\n\n\n\n\n\nCiencia de Datos\n\n\nCampo interdisciplinario que combina matemáticas, estadística, IA, ciencias computacionales, entre otras para obtener conocimiento atraves de los datos.",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#percepción-de-inteligencia-artificial-ia",
-    "href": "TextClassification/ciencia_datos.html#percepción-de-inteligencia-artificial-ia",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Percepción de Inteligencia Artificial (IA)",
-    "text": "Percepción de Inteligencia Artificial (IA)\n\n\n\n\n\nAsí la vemos\n\n\n\n\n\n\n\n\n\n\nAsí está",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#aprendizaje-computacional-2",
-    "href": "TextClassification/ciencia_datos.html#aprendizaje-computacional-2",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Aprendizaje computacional",
-    "text": "Aprendizaje computacional\n\n\n\nTipos de aprendizaje computacional\n\n\n\nAprendizaje no supervisado\nAprendizaje supervisado\nAprendizaje por refuerzo\n\n\n\n\n\n\n\n\n\nAprendizaje no supervisado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendizaje por refuerzo\n\n\n\nJuegos\nActividades\nRetroalimentación al final",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#aprendizaje-supervisado",
-    "href": "TextClassification/ciencia_datos.html#aprendizaje-supervisado",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Aprendizaje supervisado",
-    "text": "Aprendizaje supervisado\n\n\n\nClasificador lineal",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#aplicaciones-de-pln-12",
-    "href": "TextClassification/ciencia_datos.html#aplicaciones-de-pln-12",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Aplicaciones de PLN (1/2)",
-    "text": "Aplicaciones de PLN (1/2)\n\n\n\n\n\n\n\n\n\n\n\nAplicaciones\n\n\n\nMinería de opinión\n\npositivo :)  –neutro :| –negativo :( \n\nAnálisis de tópicos\nCarga emotiva de un mensaje: enojo, anticipación, disgusto, miedo, gozo, tristeza, sorpresa, confianza.\nIdentificación de humor\nIdentificación de lenguaje de odio",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#aplicaciones-de-pln-22",
-    "href": "TextClassification/ciencia_datos.html#aplicaciones-de-pln-22",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Aplicaciones de PLN (2/2)",
-    "text": "Aplicaciones de PLN (2/2)\n\n\n\n\n\nAplicaciones\n\n\n\nPredicción indicadores socio-demográficos de usuarios de redes, e.g., edad, sexo, lugar de procedencia, ocupación\nIdentificación de autoría: ¿quiénes escriben?, ¿cómo escriben?, ¿sobre qué escriben?\nEntender como se comportan usuarios, ¿qué desean?, ¿por qué?\nMedición de discurso de odio en redes sociales, e.g., xenofobia, racismo, misoginia, cyberbulling.\nIdentificación de posibles trastornos mentales, e.g., ansiedad, depresión, adicciones.\nAplicaciones a seguridad, salud, políticas públicas, economía y finanzas.",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#algunos-retos",
-    "href": "TextClassification/ciencia_datos.html#algunos-retos",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Algunos retos",
-    "text": "Algunos retos\n\n\n\n\n\nRetos\n\n\n\nEscritos informales: muchos errores, onomatopeya, importación de términos, variaciones regionales, emojis, entre muchos otros.\nContextos cortos, conocimiento del mundo.\nNegación, sarcasmo, ironía, humor.\nSemántica.\nRecursos lingüísticos reducidos para lenguajes diferentes del inglés.\nMultimedios.",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#clasificación-de-textos-1",
-    "href": "TextClassification/ciencia_datos.html#clasificación-de-textos-1",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Clasificación de Textos",
-    "text": "Clasificación de Textos\n\n\n\nDefinición\n\n\nEl objetivo es la clasificación de documentos en un número fijo de categorías predefinidas.\n\n\n\n\n\n\nPolaridad\n\n\nEl día de mañana no podré ir con ustedes a la librería\n\n\n\n\nNegativa",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#tareas-de-clasificación-de-textos",
-    "href": "TextClassification/ciencia_datos.html#tareas-de-clasificación-de-textos",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Tareas de Clasificación de Textos",
-    "text": "Tareas de Clasificación de Textos\n\n\n\n\n\nPolaridad\n\n\nPositiva, Negativa, Neutral\n\n\n\n\n\n\nEmoción (Multiclase)\n\n\n\nIra, Alegría, …\nIntensidad de una emoción\n\n\n\n\n\n\n\nEvento (Binaria)\n\n\n\nViolento\nDelito",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#perfilado-de-autores",
-    "href": "TextClassification/ciencia_datos.html#perfilado-de-autores",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Perfilado de autores",
-    "text": "Perfilado de autores\n\n\n\n\n\nGénero\n\n\nHombre, Mujer, No binario, …\n\n\n\n\n\n\nEdad\n\n\nNiño, Adolescente, Adulto\n\n\n\n\n\n\nVariedad de Lenguaje\n\n\n\nEspañol: España, Cuba, Argentina, México, …\nInglés: Estados Unidos, Inglaterra, …",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#representación-de-texto",
-    "href": "TextClassification/ciencia_datos.html#representación-de-texto",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Representación de Texto",
-    "text": "Representación de Texto\n\n\n\n\n\nBolsa de palabras\n\n\n\nAsociar cada palabra a un identificador.\n\nde \\(\\rightarrow\\) 1.\nque \\(\\rightarrow\\) 2.\nbuenos \\(\\rightarrow\\) 216.\ndias \\(\\rightarrow\\) 101.\n\n\n\n\n\n\n\n\n\n\nbuenos días\n\n\n\\((216, 101)\\)\n\n\n\n\n\n\n\n\nLa bolsa no tiene orden\n\n\n\\((101, 216)\\)\n\n\n\n\n\n\n\n\n\n\nModelo lineal\n\n\n\\(y = \\sigma( \\sum_{i \\in (100, 215)} w_i x_i + w_0)\\)\n\n\n\n\n\n\n\nParámetros\n\n\n\\(x_i\\) TFIDF / \\(w_i\\) valor estimado",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#representación-de-texto-2",
-    "href": "TextClassification/ciencia_datos.html#representación-de-texto-2",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Representación de Texto (2)",
-    "text": "Representación de Texto (2)\n\n\n\n\n\nBolsa de Palabras / Limitantes\n\n\n\nNo existe similitud entre palabras.\nSe pierde el orden.\nVector disperso.\n\n\n\n\n\n\n\n\nEmbeddings estáticos\n\n\n\nHipótesis distribucional.\nSimilitud entre palabras.\nVector denso.\n\n\n\n\n\n\n\n\n\nEmbeddings estáticos / limitantes\n\n\n\nSe pierde el orden.\nIndependientes del contexto.",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#datos",
-    "href": "TextClassification/ciencia_datos.html#datos",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Datos",
-    "text": "Datos\n\n\n\n\n\nDatos georeferenciados en español\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n¿Qué se puede hacer con los datos?\n\n\n\nMuchos textos\nCada texto asociado a un pais\n\n\n\n\n\n\n\n\n\nProblema\n\n\n\nClasificación de texto",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#dialectid",
-    "href": "TextClassification/ciencia_datos.html#dialectid",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "DialectId",
-    "text": "DialectId\n\n\n\n¿Qué es?\n\n\nDialectId es un clasificador de texto basado en una representación de Bolsa de Palabras (BoW, por sus siglas en inglés, Bag of Words), utilizando SVM lineal como clasificador.\n\n\n\n\n\n\n\n\nProcesamiento de normalización\n\n\n\nCaracteres en minúsculas\nEliminar lo diacríticos\nRemplazar nombres de usuario por “_usr”\nRemplazar URLs por “_url”\n\n\n\n\n\n\n\n\nConjunto entrenamiento\n\n\nLos tokens y sus pesos fueron estimados usando un conjunto de entrenamiento de cada idioma (medio millón por pais).",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#dialectid-12",
-    "href": "TextClassification/ciencia_datos.html#dialectid-12",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "DialectId (1/2)",
-    "text": "DialectId (1/2)\n\n\n\n\n\nModelado por bolsa de palabras\n\n\n\nCada texto es un vector en \\(R^{v}\\)\nModelo lineal\nmexico = \\(\\textsf{sign}(\\sum_i^v w_i x_i + w_0)\\)\n\\(\\mathbf w=(w_1, w_2, \\ldots, w_v)\\)\n\n\n\n\n\n\n\n\nDendograma",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#similutud-entre-países-hispanohablantes",
-    "href": "TextClassification/ciencia_datos.html#similutud-entre-países-hispanohablantes",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Similutud entre países hispanohablantes",
-    "text": "Similutud entre países hispanohablantes\n\n\n\nMapa",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "TextClassification/ciencia_datos.html#temas",
-    "href": "TextClassification/ciencia_datos.html#temas",
-    "title": "El Procesamiento de Lenguaje Natural en la Ciencia de Datos",
-    "section": "Temas",
-    "text": "Temas\n\n\n\n\n\nTécnicas\n\n\n\nInteligencia artificial\nAprendizaje computacional\nProcesamiento de lenguaje natural\n\n\n\n\n\n\n\n\nTareas\n\n\n\nClasificación de texto\nIdentificación de dialectos\n\n\n\n\n\n\n\n\n\nDialectId\n\n\n\nfrom dialectid import DialectId\n\ndetect = DialectId(lang='es')\ndetect.predict(['son pololos', 'pues vámonos'])\n\narray(['cl', 'mx'], dtype='&lt;U2')",
-    "crumbs": [
-      "El Procesamiento de Lenguaje Natural en la Ciencia de Datos"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "INGEOTEC",
-    "section": "",
-    "text": "INGEOTEC\n  Grupo de investigación en Procesamiento de Lenguaje Natural, Minería de Opinión y Aprendizaje Computacional. Aquí reunimos las presentaciones de congresos, competencias internacionales y charlas de divulgación del grupo.\n  \n    GitHub\n  \n\n\n\n\n  Divulgación\n  Divulgación\n\nCharlas de divulgación sobre Procesamiento de Lenguaje Natural, Inteligencia Artificial y sus aplicaciones, dirigidas a públicos generales.\n\n\n  \n    Divulgación\n    Impacto del Procesamiento de Lenguaje Natural en la Educación\n  \n  \n    Divulgación\n    Competencias internacionales para generar avances en inteligencia artificial\n  \n  \n    Divulgación\n    Innovación en Reclutamiento y Marketing mediante PLN\n  \n  \n    Divulgación\n    El Procesamiento de Lenguaje Natural en la Ciencia de Datos\n  \n  \n    ROPEC 2024\n    Is Traditional Machine Learning Useless?\n    Given the Boom of Deep Learning Approaches\n  \n\n\n\n  Curso\n  Text Classification\n\nCharlas y cursos técnicos sobre clasificación de textos y minería de opinión, dirigidos a públicos académicos.\n\n\n  \n    Curso\n    Text Classification\n  \n  \n    Poornima Institute\n    Sentiment Analysis\n  \n  \n    Quantum\n    Algoritmos Evolutivos en problemas de Procesamiento de Lenguaje Natural y Minería de Opinión\n  \n\n\n\n  Línea de investigación\n  Metric Search\n\nBúsqueda en espacios métricos.\n\n\n  \n    Metric Search\n    Búsqueda en espacios métricos en la era de los grandes modelos neuronales\n  \n\n\n\n  Competencia\n  Competencias\n\nParticipaciones de INGEOTEC en competencias internacionales de evaluación de sistemas de PLN: IberLEF 2023 (Jaén, España) y MexLEF 2023 (Puebla, México).\n\n\n  \n    Rest-Mex · IberLEF 2023\n    Ingeotec at Rest-Mex: Bag-of-Words Classifiers\n    Versión completa\n  \n  \n    Rest-Mex · IberLEF 2023\n    Ingeotec at Rest-Mex: Bag-of-Words Classifiers\n    Versión de 10 minutos\n  \n  \n    DA-VINCIS · IberLEF 2023\n    Ingeotec at DA-VINCIS: Bag-of-Words Classifiers\n    Versión completa\n  \n  \n    DA-VINCIS · IberLEF 2023\n    Ingeotec at DA-VINCIS: Bag-of-Words Classifiers\n    Versión de 10 minutos\n  \n  \n    MexLEF 2023\n    Recursos regionalizados para el procesamiento automático de datos de redes sociales\n    MexLEF, Puebla, México — octubre 2023"
   },
   {
     "objectID": "IberLEF2023/short-davincis2023.html#ingeotec-research-group",
