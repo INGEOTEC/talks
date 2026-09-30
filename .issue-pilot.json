@@ -1,0 +1,4 @@
+{
+  "test_command": "quarto render . && python3 scripts/render.py --verify-only",
+  "base_branch": "main"
+}
