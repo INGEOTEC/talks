@@ -1,0 +1,7 @@
+/* Ajustes locales de la charla LegalIA (review fix-1): portada compacta
+   para que título, subtítulo y autor queden sobre el pie de página. */
+#title-slide h1.title { font-size: 1.5em; line-height: 1.15; }
+#title-slide .subtitle { font-size: 0.85em; }
+#title-slide .quarto-title-author-name { font-size: 0.8em; }
+#title-slide .quarto-title-affiliation { font-size: 0.7em; margin-top: 0; }
+#referencias h1 { font-size: 1.6em; }

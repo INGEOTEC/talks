@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <rect x="2" y="2" width="956" height="296" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- cluster trabajo -->
+  <ellipse cx="108" cy="84" rx="70" ry="52" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2" stroke-dasharray="7 5"/>
+  <circle cx="90" cy="64" r="9" fill="#2f6fbf"/>
+  <circle cx="128" cy="104" r="9" fill="#2f6fbf"/>
+  <text x="182" y="42" font-size="17" fill="#1f2937">Constitución, art. 123 · derecho al trabajo</text>
+  <text x="182" y="120" font-size="17" fill="#1f2937">Ley Federal del Trabajo, art. 3 · el trabajo es un derecho</text>
+  <path d="M96,56 L176,40" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M136,104 L176,116" stroke="#94a3b8" stroke-width="1"/>
+  <text x="108" y="160" font-size="16" font-weight="700" fill="#1e4f8f" text-anchor="middle">cerca</text>
+  <!-- cluster elecciones -->
+  <ellipse cx="380" cy="215" rx="64" ry="40" fill="#fdeaf2" stroke="#c2417a" stroke-width="2" stroke-dasharray="7 5"/>
+  <circle cx="360" cy="203" r="9" fill="#c2417a"/>
+  <circle cx="400" cy="228" r="9" fill="#c2417a"/>
+  <text x="470" y="206" font-size="17" fill="#1f2937">Constitución, art. 41 · elecciones libres</text>
+  <text x="470" y="244" font-size="17" fill="#1f2937">LGIPE · votar es un derecho y una obligación</text>
+  <path d="M368,201 L464,203" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M408,230 L464,241" stroke="#94a3b8" stroke-width="1"/>
+  <text x="380" y="274" font-size="16" font-weight="700" fill="#9d174d" text-anchor="middle">cerca</text>
+  <!-- punto lejano -->
+  <circle cx="920" cy="150" r="9" fill="#0f8a5f"/>
+  <text x="902" y="156" font-size="17" fill="#1f2937" text-anchor="end">Ley de Aguas Nacionales · concesión de agua</text>
+  <!-- lejos -->
+  <path d="M190,150 L300,180" stroke="#64748b" stroke-width="2.5" stroke-dasharray="3 6"/>
+  <text x="196" y="190" font-size="16" font-weight="700" fill="#475569" font-style="italic">lejos</text>
+  <text x="16" y="288" font-size="13" fill="#6b7280" font-style="italic">Mapa ilustrativo en 2 dimensiones (los vectores reales tienen 1,024)</text>
+</svg>
