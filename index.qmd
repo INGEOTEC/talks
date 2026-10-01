@@ -45,6 +45,11 @@ css: styles.css
     <h3>Is Traditional Machine Learning Useless?</h3>
     <span class="talk-meta">Given the Boom of Deep Learning Approaches</span>
   </a>
+  <a class="talk-card" href="LegalIA/index.qmd">
+    <span class="talk-badge">LegalIA</span>
+    <h3>¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial</h3>
+    <span class="talk-meta">LegalIA: corpus abiertos y un atlas de la legislación federal</span>
+  </a>
 </div>
 
 <div class="section-title">

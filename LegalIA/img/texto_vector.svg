@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 200" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <rect x="4" y="20" width="330" height="150" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="20" y="50" font-size="19" font-weight="700" fill="#1e4f8f">Un texto: art. 123 constitucional</text>
+  <text font-size="18" fill="#1f2937">
+    <tspan x="20" y="84">«Toda persona tiene derecho</tspan>
+    <tspan x="20" y="110">al trabajo digno y socialmente</tspan>
+    <tspan x="20" y="136">útil…»</tspan>
+  </text>
+  <line x1="338" y1="95" x2="388" y2="95" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="392" y="20" width="190" height="150" rx="12" fill="#1e4f8f"/>
+  <text x="487" y="82" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Modelo de</text>
+  <text x="487" y="108" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">lenguaje</text>
+  <text x="487" y="140" font-size="14" fill="#cfe0f7" text-anchor="middle">(Qwen3-Embedding)</text>
+  <line x1="586" y1="95" x2="636" y2="95" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="640" y="20" width="316" height="150" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="656" y="50" font-size="19" font-weight="700" fill="#9a5b00">Un vector de 1,024 números</text>
+  <text font-family="'DejaVu Sans Mono', Menlo, monospace" font-size="18" fill="#1f2937">
+    <tspan x="656" y="84">[ 0.12</tspan><tspan x="752" y="84">−0.80</tspan><tspan x="848" y="84">0.33</tspan>
+    <tspan x="656" y="110">  0.05</tspan><tspan x="752" y="110"> 0.91</tspan><tspan x="848" y="110">−0.27</tspan>
+    <tspan x="656" y="136">  …</tspan><tspan x="752" y="136"> …</tspan><tspan x="848" y="136">−0.47 ]</tspan>
+  </text>
+  <text x="656" y="160" font-size="13" fill="#6b7280" font-style="italic">(valores ilustrativos)</text>
+</svg>
