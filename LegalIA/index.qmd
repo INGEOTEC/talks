@@ -7,7 +7,7 @@ author:
       url: https://mgraffg.github.io
       affiliation: INFOTEC
 abstract: |
-  Las leyes mexicanas están dispersas en fuentes heterogéneas y, hasta ahora, no existía una forma abierta de estudiarlas en conjunto. En esta charla se cuenta cómo un grupo de investigación en procesamiento de lenguaje natural recopiló más de un millón de notas del Diario Oficial de la Federación publicadas desde 1917 y las 3,724 versiones de las leyes federales vigentes, y cómo con modelos de lenguaje convirtió esos textos en un mapa navegable: un atlas donde cada ley, reglamento y lineamiento aparece cerca de los instrumentos con los que comparte contenido. Veremos qué dice el mapa sobre la Constitución, las universidades públicas o la ley electoral, cómo cambió el lenguaje del Diario Oficial en un siglo y qué viene después: buscadores, sistemas de preguntas y resúmenes que siempre citan el artículo en el que se basan.
+  Las leyes mexicanas están dispersas en fuentes heterogéneas y, hasta ahora, no existía una forma abierta de estudiarlas en conjunto. En esta charla se cuenta cómo se recopiló más de un millón de notas del Diario Oficial de la Federación publicadas desde 1917, las 3,724 versiones de las leyes federales vigentes, reglamentos y lineamientos, y cómo con modelos de lenguaje convirtió esos textos en un mapa navegable; un atlas donde cada ley, reglamento y lineamiento aparece cerca de los instrumentos con los que comparte contenido. Veremos qué dice el mapa sobre la Constitución, las universidades públicas o la ley electoral, cómo cambió el lenguaje del Diario Oficial en un siglo y qué viene después: buscadores, sistemas de preguntas y resúmenes que siempre citan el artículo en el que se basan.
 
 format:
   revealjs:
@@ -24,12 +24,6 @@ title-slide-attributes:
     data-background-position: 0% 0%
     data-font-size: 80%
 ---
-
-<!--
-Resumen:
-
-Las leyes mexicanas están dispersas en fuentes heterogéneas y, hasta ahora, no existía una forma abierta de estudiarlas en conjunto. En esta charla se cuenta cómo un grupo de investigación en procesamiento de lenguaje natural recopiló más de un millón de notas del Diario Oficial de la Federación publicadas desde 1917 y las 3,724 versiones de las leyes federales vigentes, y cómo con modelos de lenguaje convirtió esos textos en un mapa navegable: un atlas donde cada ley, reglamento y lineamiento aparece cerca de los instrumentos con los que comparte contenido. Veremos qué dice el mapa sobre la Constitución, las universidades públicas o la ley electoral, cómo cambió el lenguaje del Diario Oficial en un siglo y qué viene después: buscadores, sistemas de preguntas y resúmenes que siempre citan el artículo en el que se basan.
--->
 
 # INGEOTEC
 
