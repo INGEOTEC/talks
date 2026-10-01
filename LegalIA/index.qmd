@@ -14,44 +14,20 @@ format:
     theme: simple
     chalkboard: true
     footer: <https://mgraffg.github.io>
+    css: legalia.css
 bibliography: references.bib
 
 navigation-mode: linear
 title-slide-attributes:
     data-background-image: img/atlas_portada.png
     data-background-size: 100%
-    data-background-opacity: "0.4"
+    data-background-opacity: "0.15"
     data-background-position: 0% 0%
-    data-font-size: 80%
 ---
-
-# INGEOTEC
-
-![](../IberLEF2023/ingeotec-cuatro.png){width=200}
-
-::: {style="font-size: 70%; text-align: center;"}
-GitHub: <https://github.com/INGEOTEC>
-WebPage: <https://ingeotec.github.io/>
-Bolsas de palabras [@Graff2025BoW] · EvoMSA [@Graff2020EvoMSA:Analysis]
-:::
-
-## Aguascalientes, México
-
-:::: {.columns}
-::: {.column width="50%"}
-![](../TextClassification/aguascalientes_edo.jpg)
-:::
-
-::: {.fragment .callout-note icon="false" .column width="50%"}
-### INFOTEC
-
-Centro de Investigación del Gobierno Federal, que contribuye a la Transformación Digital de México, a través de la investigación, la innovación, la formación académica y el desarrollo de productos y servicios TIC. Sus alcances abarcan al sector público y privado, habilitando caminos que conduzcan hacia un México moderno y de inclusión digital.
-:::
-::::
 
 # Introducción
 
-## Definiciones
+## Definiciones {style="font-size: 75%;"}
 
 :::: {.columns}
 ::: {.callout-note icon="false" .column}
@@ -96,12 +72,12 @@ La legislación es, ante todo, texto: leyes, reglamentos y decretos escritos en 
 :::
 ::::
 
-## ¿Qué puede hacer el PLN?
+## ¿Qué puede hacer el PLN? {style="font-size: 80%;"}
 
 :::: {.columns}
 
 ::: {.column}
-![](../TextClassification/img/pln_1.png){fig-align="center" }
+![](../TextClassification/img/pln_1.png){fig-align="center" height=250}
 :::
 
 ::: {.callout-tip icon="false" .column}
@@ -210,22 +186,22 @@ Una respuesta jurídica útil es una que se puede verificar contra el texto vige
 
 # LegalIA
 
-## El proyecto
+## El proyecto {style="font-size: 85%;"}
 
 :::: {.columns}
-::: {.callout-tip icon="false" .column}
+::: {.callout-tip icon="false" .column width="32%"}
 ### Datos abiertos
 
 Corpus que documentan el sistema jurídico mexicano, estandarizados y abiertos.
 :::
 
-::: {.fragment .callout-tip icon="false" .column}
+::: {.fragment .callout-tip icon="false" .column width="32%"}
 ### Modelos especializados
 
 Modelos de lenguaje entrenados con texto jurídico mexicano, liberados abiertamente.
 :::
 
-::: {.fragment .callout-tip icon="false" .column}
+::: {.fragment .callout-tip icon="false" .column width="32%"}
 ### PLN jurídico
 
 Clasificación, resumen y minería de argumentos en los términos del derecho mexicano.
@@ -420,22 +396,10 @@ Cada artículo busca a su "gemelo": el texto más parecido que está en otra ley
 
 ## Texto → números
 
-:::: {.columns}
-::: {.callout-tip icon="false" .column}
-### Un texto, un vector
+![](img/texto_vector.svg){fig-align="center" width="85%"}
 
-![](../TextClassification/img/dense_1.jpeg){height=330}
-:::
-
-::: {.fragment .callout-tip icon="false" .column}
-### Textos parecidos, vectores cercanos
-
-![](../TextClassification/img/dense_2.jpeg){height=325}
-:::
-::::
-
-::: {.fragment style="font-size: 70%; text-align: center;"}
-Modelo Qwen3-Embedding-0.6B: 1,024 dimensiones (alternativa 4B: 2,560)
+::: {.fragment}
+![](img/vectores_cercanos.svg){fig-align="center" width="85%"}
 :::
 
 ## De artículos a instrumentos
@@ -480,7 +444,7 @@ La **vecindad** (4, 8, 16 o 32) cambia el dibujo, no los datos.
 ## El atlas
 
 ```{=html}
-<iframe src="https://ingeotec.github.io/LegalIA/pages/atlas.html" width="100%" height="600"></iframe>
+<iframe src="https://ingeotec.github.io/LegalIA/pages/atlas.html" width="100%" height="540"></iframe>
 ```
 
 ## Cómo leerlo
@@ -609,19 +573,19 @@ Desarrollar y evaluar sistemas explicables de inteligencia artificial que ofrezc
 ## Plan de trabajo {style="font-size: 80%;"}
 
 :::: {.columns}
-::: {.callout-tip icon="false" .column}
+::: {.callout-tip icon="false" .column width="32%"}
 ### PT1. Corpus abiertos
 
 Meses 1–10
 :::
 
-::: {.fragment .callout-tip icon="false" .column}
+::: {.fragment .callout-tip icon="false" .column width="32%"}
 ### PT2. Sistemas híbridos explicables
 
 Meses 4–15
 :::
 
-::: {.fragment .callout-tip icon="false" .column}
+::: {.fragment .callout-tip icon="false" .column width="32%"}
 ### PT3. Evaluación y difusión
 
 Meses 7–18
@@ -638,22 +602,22 @@ Meses 7–18
 * **Mes 18**: protocolo y conjuntos de evaluación
 :::
 
-## Respuestas que citan la ley
+## Respuestas que citan la ley {style="font-size: 85%;"}
 
 :::: {.columns}
-::: {.callout-tip icon="false" .column}
+::: {.callout-tip icon="false" .column width="32%"}
 ### Buscador
 
 Encontrar el artículo correcto, combinando búsqueda por palabras y por significado.
 :::
 
-::: {.fragment .callout-tip icon="false" .column}
+::: {.fragment .callout-tip icon="false" .column width="32%"}
 ### Preguntas
 
 Responder citando las disposiciones, y abstenerse cuando no hay evidencia suficiente.
 :::
 
-::: {.fragment .callout-tip icon="false" .column}
+::: {.fragment .callout-tip icon="false" .column width="32%"}
 ### Resúmenes
 
 Cada afirmación del resumen se vincula con el segmento del documento que la origina.
@@ -698,7 +662,7 @@ Sistemas que priorizan la trazabilidad y la eficiencia sobre el cómputo de alto
 Paquetes en PyPI, releases con licencia Creative Commons, sitio web y código Apache 2.0: <https://ingeotec.github.io/LegalIA/>
 :::
 
-# Referencias
+# Referencias {style="font-size: 50%;"}
 
 ::: {#refs}
 :::
