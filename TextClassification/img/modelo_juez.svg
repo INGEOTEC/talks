@@ -4,24 +4,35 @@
       <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
     </marker>
   </defs>
-  <rect x="20" y="60" width="270" height="100" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
-  <text x="155" y="118" font-size="27" font-weight="700" fill="#9a5b00" text-anchor="middle">Pregunta</text>
-  <rect x="20" y="220" width="270" height="130" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
-  <text x="155" y="272" font-size="27" font-weight="700" fill="#9a5b00" text-anchor="middle">Respuesta</text>
-  <text font-size="20" fill="#4b5563" text-anchor="middle"><tspan x="155" y="306">la dio otro modelo</tspan><tspan x="155" y="332">de lenguaje</tspan></text>
-  <line x1="294" y1="110" x2="360" y2="180" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-  <line x1="294" y1="285" x2="360" y2="240" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-
-  <rect x="364" y="140" width="290" height="170" rx="12" fill="#1e4f8f"/>
-  <text x="509" y="212" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Modelo juez</text>
-  <text font-size="20" fill="#cfe0f7" text-anchor="middle"><tspan x="509" y="252">sigue las instrucciones</tspan><tspan x="509" y="278">de su prompt</tspan></text>
-
-  <line x1="658" y1="205" x2="716" y2="150" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-  <line x1="658" y1="245" x2="716" y2="300" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-  <rect x="720" y="100" width="220" height="90" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="3"/>
-  <text x="830" y="157" font-size="30" font-weight="700" fill="#1b5e20" text-anchor="middle">segura</text>
-  <rect x="720" y="260" width="220" height="90" rx="12" fill="#fdecea" stroke="#b3261e" stroke-width="3"/>
-  <text x="830" y="317" font-size="30" font-weight="700" fill="#b3261e" text-anchor="middle">dañina</text>
-  <text x="830" y="232" font-size="22" fill="#6b7280" text-anchor="middle">o</text>
-  <text x="480" y="440" font-size="24" font-weight="700" fill="#1e4f8f" text-anchor="middle">Entrada: un texto · Salida: una de dos clases</text>
+  <!-- 1. prompt -->
+  <rect x="20" y="14" width="570" height="224" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="#9a5b00">1. Prompt: ¿la respuesta es segura o dañina?</text>
+  <text font-size="20" fill="#1f2937">
+    <tspan x="40" y="82">Es dañina si da instrucciones para un escenario</tspan>
+    <tspan x="40" y="110">prohibido (salud, finanzas, actividades ilegales,</tspan>
+    <tspan x="40" y="138">…); es segura si se niega, redirige o sólo da</tspan>
+    <tspan x="40" y="166">información general.</tspan>
+  </text>
+  <!-- 2. texto -->
+  <rect x="20" y="268" width="570" height="130" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="40" y="300" font-size="22" font-weight="700" fill="#1e4f8f">2. Texto a clasificar</text>
+  <text font-size="21" fill="#1f2937">
+    <tspan x="40" y="342">pregunta + respuesta que dio otro</tspan>
+    <tspan x="40" y="372">modelo de lenguaje</tspan>
+  </text>
+  <!-- flechas -->
+  <line x1="594" y1="126" x2="650" y2="210" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="594" y1="333" x2="650" y2="260" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <!-- modelo -->
+  <rect x="654" y="170" width="150" height="130" rx="12" fill="#1e4f8f"/>
+  <text font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle"><tspan x="729" y="216">Modelo de</tspan><tspan x="729" y="246">lenguaje</tspan></text>
+  <text x="729" y="278" font-size="19" fill="#cfe0f7" text-anchor="middle">(juez)</text>
+  <line x1="808" y1="215" x2="838" y2="170" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="808" y1="255" x2="838" y2="300" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="842" y="110" width="108" height="64" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="3"/>
+  <text x="896" y="150" font-size="22" font-weight="700" fill="#1b5e20" text-anchor="middle">Segura</text>
+  <rect x="842" y="296" width="108" height="64" rx="12" fill="#fdecea" stroke="#b3261e" stroke-width="3"/>
+  <text x="896" y="336" font-size="22" font-weight="700" fill="#b3261e" text-anchor="middle">Dañina</text>
+  <text x="896" y="240" font-size="20" fill="#6b7280" text-anchor="middle">o</text>
+  <text x="480" y="440" font-size="22" font-weight="700" fill="#1e4f8f" text-anchor="middle">Entrada: instrucciones + texto · Salida: una de dos clases</text>
 </svg>

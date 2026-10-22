@@ -4,43 +4,43 @@
       <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
     </marker>
   </defs>
-  <!-- respuesta -->
-  <rect x="330" y="14" width="300" height="56" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
-  <text x="480" y="50" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Una misma respuesta</text>
-  <text font-size="21" fill="#4b5563"><tspan x="652" y="36">se juzga tres veces,</tspan><tspan x="652" y="62">con tres redacciones</tspan></text>
-  <line x1="410" y1="72" x2="250" y2="124" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-  <line x1="550" y1="72" x2="710" y2="124" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <!-- texto -->
+  <rect x="180" y="10" width="600" height="82" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text x="480" y="38" font-size="19" fill="#6b7280" text-anchor="middle">Un mismo texto (ejemplo ilustrativo)</text>
+  <text x="480" y="74" font-size="23" font-style="italic" font-weight="700" fill="#1f2937" text-anchor="middle">«La batería dura todo el día y la cámara es excelente»</text>
+  <line x1="410" y1="95" x2="250" y2="128" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="550" y1="95" x2="710" y2="128" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
 
-  <!-- caso consistente -->
-  <rect x="20" y="128" width="440" height="300" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="2"/>
-  <text x="240" y="168" font-size="25" font-weight="700" fill="#1b5e20" text-anchor="middle">Consistente</text>
+  <!-- consistente -->
+  <rect x="20" y="132" width="440" height="300" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="2"/>
+  <text x="240" y="172" font-size="25" font-weight="700" fill="#1b5e20" text-anchor="middle">Consistente</text>
   <g font-size="21" text-anchor="middle">
-    <text x="90" y="212" fill="#4b5563">redacción 1</text>
-    <rect x="160" y="190" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="290" y="214" font-weight="700" fill="#b3261e">dañina</text>
-    <text x="90" y="266" fill="#4b5563">redacción 2</text>
-    <rect x="160" y="244" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="290" y="268" font-weight="700" fill="#b3261e">dañina</text>
-    <text x="90" y="320" fill="#4b5563">redacción 3</text>
-    <rect x="160" y="298" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="290" y="322" font-weight="700" fill="#b3261e">dañina</text>
+    <text x="90" y="216" fill="#4b5563">redacción 1</text>
+    <rect x="160" y="194" width="260" height="34" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="290" y="218" font-weight="700" fill="#1e4f8f">Positivo</text>
+    <text x="90" y="270" fill="#4b5563">redacción 2</text>
+    <rect x="160" y="248" width="260" height="34" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="290" y="272" font-weight="700" fill="#1e4f8f">Positivo</text>
+    <text x="90" y="324" fill="#4b5563">redacción 3</text>
+    <rect x="160" y="302" width="260" height="34" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="290" y="326" font-weight="700" fill="#1e4f8f">Positivo</text>
   </g>
-  <text x="240" y="380" font-size="22" font-weight="700" fill="#1b5e20" text-anchor="middle">los tres veredictos coinciden</text>
-  <text x="240" y="408" font-size="19" fill="#4b5563" text-anchor="middle">cuenta como consistente</text>
+  <text x="240" y="384" font-size="21" font-weight="700" fill="#1b5e20" text-anchor="middle">las tres redacciones dan</text>
+  <text x="240" y="412" font-size="21" font-weight="700" fill="#1b5e20" text-anchor="middle">la misma clase</text>
 
-  <!-- caso inconsistente -->
-  <rect x="500" y="128" width="440" height="300" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
-  <text x="720" y="168" font-size="25" font-weight="700" fill="#9a5b00" text-anchor="middle">No consistente</text>
+  <!-- inconsistente -->
+  <rect x="500" y="132" width="440" height="300" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="720" y="172" font-size="25" font-weight="700" fill="#9a5b00" text-anchor="middle">Inconsistente</text>
   <g font-size="21" text-anchor="middle">
-    <text x="570" y="212" fill="#4b5563">redacción 1</text>
-    <rect x="640" y="190" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="770" y="214" font-weight="700" fill="#b3261e">dañina</text>
-    <text x="570" y="266" fill="#4b5563">redacción 2</text>
-    <rect x="640" y="244" width="260" height="34" rx="8" fill="#e6f4ea" stroke="#2e7d32" stroke-width="2"/><text x="770" y="268" font-weight="700" fill="#1b5e20">segura</text>
-    <text x="570" y="320" fill="#4b5563">redacción 3</text>
-    <rect x="640" y="298" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="770" y="322" font-weight="700" fill="#b3261e">dañina</text>
+    <text x="570" y="216" fill="#4b5563">redacción 1</text>
+    <rect x="640" y="194" width="260" height="34" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="770" y="218" font-weight="700" fill="#1e4f8f">Positivo</text>
+    <text x="570" y="270" fill="#4b5563">redacción 2</text>
+    <rect x="640" y="248" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="770" y="272" font-weight="700" fill="#b3261e">Negativo</text>
+    <text x="570" y="324" fill="#4b5563">redacción 3</text>
+    <rect x="640" y="302" width="260" height="34" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="770" y="326" font-weight="700" fill="#1e4f8f">Positivo</text>
   </g>
-  <text x="720" y="380" font-size="22" font-weight="700" fill="#9a5b00" text-anchor="middle">un veredicto distinto</text>
-  <text font-size="18" fill="#4b5563" text-anchor="middle"><tspan x="720" y="404">cambió el veredicto sin que</tspan><tspan x="720" y="422">cambiara la respuesta</tspan></text>
+  <text x="720" y="384" font-size="21" font-weight="700" fill="#9a5b00" text-anchor="middle">cambió la clase sin que</text>
+  <text x="720" y="412" font-size="21" font-weight="700" fill="#9a5b00" text-anchor="middle">cambiara el texto</text>
 
   <!-- fórmula -->
-  <rect x="120" y="452" width="720" height="76" rx="12" fill="#1e4f8f"/>
-  <text x="480" y="484" font-size="23" fill="#ffffff" text-anchor="middle">consistencia = respuestas con los tres veredictos iguales</text>
-  <text x="480" y="514" font-size="23" fill="#ffffff" text-anchor="middle">÷ total de respuestas</text>
+  <rect x="90" y="450" width="780" height="76" rx="12" fill="#1e4f8f"/>
+  <text x="480" y="482" font-size="22" fill="#ffffff" text-anchor="middle">consistencia = textos en que las tres redacciones dan la misma clase</text>
+  <text x="480" y="512" font-size="22" fill="#ffffff" text-anchor="middle">÷ total de textos</text>
 </svg>
