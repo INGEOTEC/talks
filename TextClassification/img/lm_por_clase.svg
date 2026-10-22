@@ -4,31 +4,37 @@
       <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
     </marker>
   </defs>
-  <!-- texto -->
-  <rect x="330" y="20" width="300" height="60" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
-  <text x="480" y="59" font-size="26" font-style="italic" fill="#1f2937" text-anchor="middle">«comiendo unos tacos»</text>
-  <line x1="420" y1="84" x2="250" y2="140" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-  <line x1="540" y1="84" x2="710" y2="140" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <!-- paso 1 -->
+  <text font-size="22" font-weight="700" fill="#4b5563"><tspan x="20" y="34">1. Entrenar un modelo</tspan><tspan x="20" y="60">de lenguaje por clase</tspan></text>
+  <rect x="20" y="100" width="280" height="150" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="160" y="150" font-size="25" font-weight="700" fill="#1e4f8f" text-anchor="middle">Modelo México</text>
+  <text x="160" y="190" font-size="20" fill="#4b5563" text-anchor="middle">aprende de tuits de México</text>
+  <rect x="20" y="290" width="280" height="150" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="160" y="340" font-size="25" font-weight="700" fill="#9a5b00" text-anchor="middle">Modelo Argentina</text>
+  <text x="160" y="380" font-size="20" fill="#4b5563" text-anchor="middle">aprende de tuits de Argentina</text>
+  <line x1="304" y1="175" x2="354" y2="175" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="304" y1="365" x2="354" y2="365" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
 
-  <!-- México -->
-  <rect x="20" y="144" width="460" height="190" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
-  <text x="250" y="184" font-size="24" font-weight="700" fill="#1e4f8f" text-anchor="middle">Modelo de lenguaje: México</text>
-  <text x="250" y="212" font-size="18" fill="#4b5563" text-anchor="middle">entrenado sólo con tuits de México</text>
-  <rect x="50" y="244" width="400" height="26" rx="6" fill="#ffffff" stroke="#9ca3af"/>
-  <rect x="50" y="244" width="340" height="26" rx="6" fill="#2f6fbf"/>
-  <text x="250" y="304" font-size="21" fill="#1f2937" text-anchor="middle">probabilidad del texto: <tspan font-weight="700">alta</tspan></text>
+  <!-- paso 2 -->
+  <text font-size="22" font-weight="700" fill="#4b5563"><tspan x="358" y="34">2. Preguntarle a cada uno</tspan><tspan x="358" y="60">qué tan probable es el texto</tspan></text>
+  <rect x="358" y="76" width="280" height="44" rx="10" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text x="498" y="106" font-size="22" font-style="italic" fill="#1f2937" text-anchor="middle">«comiendo unos tacos»</text>
+  <rect x="358" y="140" width="280" height="110" rx="12" fill="#ffffff" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="498" y="172" font-size="20" fill="#1e4f8f" text-anchor="middle" font-weight="700">México</text>
+  <rect x="378" y="190" width="240" height="26" rx="6" fill="#ffffff" stroke="#9ca3af"/>
+  <rect x="378" y="190" width="205" height="26" rx="6" fill="#2f6fbf"/>
+  <text x="498" y="240" font-size="18" fill="#4b5563" text-anchor="middle">muy probable</text>
+  <rect x="358" y="290" width="280" height="150" rx="12" fill="#ffffff" stroke="#d98a00" stroke-width="2"/>
+  <text x="498" y="332" font-size="20" fill="#9a5b00" text-anchor="middle" font-weight="700">Argentina</text>
+  <rect x="378" y="350" width="240" height="26" rx="6" fill="#ffffff" stroke="#9ca3af"/>
+  <rect x="378" y="350" width="55" height="26" rx="6" fill="#d98a00"/>
+  <text x="498" y="410" font-size="18" fill="#4b5563" text-anchor="middle">poco probable</text>
+  <line x1="642" y1="195" x2="692" y2="270" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="642" y1="365" x2="692" y2="300" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
 
-  <!-- Argentina -->
-  <rect x="480" y="144" width="460" height="190" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
-  <text x="710" y="184" font-size="24" font-weight="700" fill="#9a5b00" text-anchor="middle">Modelo de lenguaje: Argentina</text>
-  <text x="710" y="212" font-size="18" fill="#4b5563" text-anchor="middle">entrenado sólo con tuits de Argentina</text>
-  <rect x="510" y="244" width="400" height="26" rx="6" fill="#ffffff" stroke="#9ca3af"/>
-  <rect x="510" y="244" width="90" height="26" rx="6" fill="#d98a00"/>
-  <text x="710" y="304" font-size="21" fill="#1f2937" text-anchor="middle">probabilidad del texto: <tspan font-weight="700">baja</tspan></text>
-
-  <line x1="250" y1="340" x2="430" y2="390" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-  <line x1="710" y1="340" x2="530" y2="390" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-  <rect x="250" y="394" width="460" height="110" rx="12" fill="#1e4f8f"/>
-  <text x="480" y="438" font-size="24" fill="#ffffff" text-anchor="middle">Gana el modelo con mayor probabilidad</text>
-  <text x="480" y="480" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Clase: México</text>
+  <!-- paso 3 -->
+  <text font-size="22" font-weight="700" fill="#4b5563"><tspan x="696" y="26">3. Elegir la clase del</tspan><tspan x="696" y="52">modelo que lo encuentra</tspan><tspan x="696" y="78">más probable</tspan></text>
+  <rect x="696" y="220" width="244" height="130" rx="12" fill="#1e4f8f"/>
+  <text x="818" y="268" font-size="20" fill="#cfe0f7" text-anchor="middle">clase</text>
+  <text x="818" y="316" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">México</text>
 </svg>

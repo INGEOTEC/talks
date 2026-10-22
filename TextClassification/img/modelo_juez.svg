@@ -4,40 +4,24 @@
       <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
     </marker>
   </defs>
-  <!-- entradas -->
-  <rect x="20" y="40" width="210" height="80" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
-  <text x="125" y="88" font-size="23" font-weight="700" fill="#9a5b00" text-anchor="middle">Pregunta</text>
-  <rect x="20" y="150" width="210" height="80" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
-  <text x="125" y="186" font-size="23" font-weight="700" fill="#9a5b00" text-anchor="middle">System prompt</text>
-  <text x="125" y="212" font-size="18" fill="#4b5563" text-anchor="middle">(a veces un jailbreak)</text>
-  <line x1="234" y1="80" x2="290" y2="150" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-  <line x1="234" y1="190" x2="290" y2="170" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="20" y="60" width="270" height="100" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="155" y="118" font-size="27" font-weight="700" fill="#9a5b00" text-anchor="middle">Pregunta</text>
+  <rect x="20" y="220" width="270" height="130" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="155" y="272" font-size="27" font-weight="700" fill="#9a5b00" text-anchor="middle">Respuesta</text>
+  <text font-size="20" fill="#4b5563" text-anchor="middle"><tspan x="155" y="306">la dio otro modelo</tspan><tspan x="155" y="332">de lenguaje</tspan></text>
+  <line x1="294" y1="110" x2="360" y2="180" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="294" y1="285" x2="360" y2="240" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
 
-  <!-- modelo atacado -->
-  <rect x="294" y="100" width="200" height="130" rx="12" fill="#1e4f8f"/>
-  <text x="394" y="156" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Modelo</text>
-  <text x="394" y="186" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">atacado</text>
-  <line x1="498" y1="165" x2="548" y2="165" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="364" y="140" width="290" height="170" rx="12" fill="#1e4f8f"/>
+  <text x="509" y="212" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Modelo juez</text>
+  <text font-size="20" fill="#cfe0f7" text-anchor="middle"><tspan x="509" y="252">sigue las instrucciones</tspan><tspan x="509" y="278">de su prompt</tspan></text>
 
-  <!-- respuesta -->
-  <rect x="552" y="125" width="150" height="80" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
-  <text x="627" y="173" font-size="23" font-weight="700" fill="#1f2937" text-anchor="middle">Respuesta</text>
-  <line x1="627" y1="209" x2="627" y2="272" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-
-  <!-- modelo juez -->
-  <rect x="294" y="276" width="408" height="120" rx="12" fill="#1e4f8f"/>
-  <text x="498" y="326" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">Modelo juez</text>
-  <text font-size="19" fill="#cfe0f7" text-anchor="middle"><tspan x="498" y="358">lee pregunta y respuesta</tspan><tspan x="498" y="382">siguiendo su prompt de evaluación</tspan></text>
-  <rect x="20" y="296" width="210" height="80" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
-  <text x="125" y="332" font-size="23" font-weight="700" fill="#9a5b00" text-anchor="middle">Prompt del juez</text>
-  <text x="125" y="358" font-size="18" fill="#4b5563" text-anchor="middle">(criterios de evaluación)</text>
-  <line x1="234" y1="336" x2="290" y2="336" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-
-  <!-- veredicto -->
-  <line x1="706" y1="336" x2="750" y2="336" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
-  <rect x="754" y="268" width="186" height="64" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="3"/>
-  <text x="847" y="310" font-size="26" font-weight="700" fill="#1b5e20" text-anchor="middle">safe</text>
-  <text x="847" y="356" font-size="22" fill="#6b7280" text-anchor="middle">o</text>
-  <rect x="754" y="368" width="186" height="64" rx="12" fill="#fdecea" stroke="#b3261e" stroke-width="3"/>
-  <text x="847" y="410" font-size="26" font-weight="700" fill="#b3261e" text-anchor="middle">harmful</text>
+  <line x1="658" y1="205" x2="716" y2="150" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="658" y1="245" x2="716" y2="300" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="720" y="100" width="220" height="90" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="3"/>
+  <text x="830" y="157" font-size="30" font-weight="700" fill="#1b5e20" text-anchor="middle">segura</text>
+  <rect x="720" y="260" width="220" height="90" rx="12" fill="#fdecea" stroke="#b3261e" stroke-width="3"/>
+  <text x="830" y="317" font-size="30" font-weight="700" fill="#b3261e" text-anchor="middle">dañina</text>
+  <text x="830" y="232" font-size="22" fill="#6b7280" text-anchor="middle">o</text>
+  <text x="480" y="440" font-size="24" font-weight="700" fill="#1e4f8f" text-anchor="middle">Entrada: un texto · Salida: una de dos clases</text>
 </svg>

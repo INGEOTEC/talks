@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <!-- oración con hueco -->
+  <rect x="20" y="20" width="330" height="130" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text font-size="23" fill="#1f2937"><tspan x="40" y="62">México exporta</tspan><tspan x="200" y="106">que se cultiva</tspan><tspan x="40" y="140">en Michoacán.</tspan></text>
+  <rect x="40" y="78" width="140" height="36" rx="6" fill="#fff4e0" stroke="#d98a00" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="110" y="103" font-size="22" font-weight="700" fill="#9a5b00" text-anchor="middle">_ _ _ _</text>
+  <line x1="354" y1="85" x2="404" y2="85" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <!-- modelo -->
+  <rect x="408" y="40" width="150" height="90" rx="12" fill="#1e4f8f"/>
+  <text x="483" y="94" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">Modelo</text>
+  <line x1="562" y1="85" x2="612" y2="85" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="616" y="52" width="140" height="66" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="686" y="94" font-size="24" font-weight="700" fill="#9a5b00" text-anchor="middle">aguacate</text>
+  <text x="686" y="146" font-size="18" fill="#6b7280" text-anchor="middle">su propuesta</text>
+  <!-- destapada -->
+  <rect x="780" y="20" width="160" height="130" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="2"/>
+  <text x="860" y="58" font-size="19" fill="#4b5563" text-anchor="middle">el texto decía</text>
+  <text x="860" y="98" font-size="26" font-weight="700" fill="#1b5e20" text-anchor="middle">aguacate</text>
+  <text x="860" y="132" font-size="22" font-weight="700" fill="#1b5e20" text-anchor="middle">✓</text>
+  <text x="480" y="190" font-size="22" font-weight="700" fill="#1b5e20" text-anchor="middle">La respuesta correcta estaba en el propio texto</text>
+
+  <!-- más oraciones -->
+  <g font-size="21" fill="#1f2937">
+    <rect x="20" y="226" width="920" height="46" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.5"/>
+    <text x="40" y="257">Los turistas llegaron a la <tspan font-weight="700" fill="#9a5b00">_ _ _ _</tspan> para ver el atardecer.</text>
+    <rect x="20" y="282" width="920" height="46" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.5"/>
+    <text x="40" y="313">El servicio fue <tspan font-weight="700" fill="#9a5b00">_ _ _ _</tspan> y la comida llegó fría.</text>
+    <rect x="20" y="338" width="920" height="46" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.5"/>
+    <text x="40" y="369">La <tspan font-weight="700" fill="#9a5b00">_ _ _ _</tspan> aprobó la ley después de un largo debate.</text>
+  </g>
+  <text x="940" y="410" font-size="26" fill="#6b7280" text-anchor="end">⋮</text>
+  <rect x="20" y="430" width="920" height="90" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="480" y="470" font-size="26" font-weight="700" fill="#1e4f8f" text-anchor="middle">millones de textos → millones de ejemplos</text>
+  <text x="480" y="502" font-size="22" fill="#4b5563" text-anchor="middle">sin que nadie los etiquete</text>
+</svg>
