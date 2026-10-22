@@ -15,3 +15,6 @@ TextClassification/emoji_text.ttf.zip
 # (the published output goes to _site/, not next to the source)
 **/*_files/
 MexLEF2023/_ejemplos-knn-*.html
+
+# Local notebooks, not part of the site
+/ipynb/
