@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <!-- frase 1 -->
+  <text x="20" y="38" font-size="22" font-weight="700" fill="#1e4f8f">«buenos días, bienvenidos al curso…»</text>
+  <g font-size="21" text-anchor="middle" fill="#1f2937">
+    <rect x="20" y="56" width="110" height="72" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+    <text x="75" y="88">[CLS]</text><text x="75" y="116" font-size="19" fill="#6b7280">2</text>
+    <rect x="140" y="56" width="110" height="72" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+    <text x="195" y="88">buenos</text><text x="195" y="116" font-size="19" fill="#6b7280">12658</text>
+    <rect x="260" y="56" width="110" height="72" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+    <text x="315" y="88">días</text><text x="315" y="116" font-size="19" fill="#6b7280">11468</text>
+    <rect x="380" y="56" width="70" height="72" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+    <text x="415" y="88">,</text><text x="415" y="116" font-size="19" fill="#6b7280">16</text>
+    <rect x="460" y="56" width="110" height="72" rx="8" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+    <text x="515" y="88">pieza 1</text><text x="515" y="116" font-size="19" fill="#6b7280">26563</text>
+    <rect x="580" y="56" width="110" height="72" rx="8" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+    <text x="635" y="88">pieza 2</text><text x="635" y="116" font-size="19" fill="#6b7280">5892</text>
+    <text x="720" y="100" font-size="30" fill="#6b7280">…</text>
+    <rect x="770" y="56" width="110" height="72" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+    <text x="825" y="88">[SEP]</text><text x="825" y="116" font-size="19" fill="#6b7280">3</text>
+  </g>
+  <path d="M460,138 v10 h230 v-10" fill="none" stroke="#d98a00" stroke-width="3"/>
+  <text x="575" y="176" font-size="21" font-weight="700" fill="#9a5b00" text-anchor="middle">«bienvenidos»: una palabra, dos piezas</text>
+
+  <!-- frase 2 -->
+  <text x="20" y="262" font-size="22" font-weight="700" fill="#1e4f8f">«buenox días» (con una errata)</text>
+  <g font-size="21" text-anchor="middle" fill="#1f2937">
+    <rect x="20" y="282" width="140" height="72" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+    <text x="90" y="314">[CLS]</text><text x="90" y="342" font-size="19" fill="#6b7280">2</text>
+    <rect x="180" y="282" width="140" height="72" rx="8" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+    <text x="250" y="314">pieza 1</text><text x="250" y="342" font-size="19" fill="#6b7280">11683</text>
+    <rect x="340" y="282" width="140" height="72" rx="8" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+    <text x="410" y="314">pieza 2</text><text x="410" y="342" font-size="19" fill="#6b7280">5896</text>
+    <rect x="500" y="282" width="140" height="72" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+    <text x="570" y="314">días</text><text x="570" y="342" font-size="19" fill="#6b7280">11468</text>
+    <rect x="660" y="282" width="140" height="72" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+    <text x="730" y="314">[SEP]</text><text x="730" y="342" font-size="19" fill="#6b7280">3</text>
+  </g>
+  <path d="M180,364 v10 h300 v-10" fill="none" stroke="#d98a00" stroke-width="3"/>
+  <text x="330" y="402" font-size="21" font-weight="700" fill="#9a5b00" text-anchor="middle">«buenox» no está en el vocabulario: se parte</text>
+  <text x="840" y="320" font-size="40" font-weight="700" fill="#1e4f8f" text-anchor="middle">5</text>
+  <text x="840" y="348" font-size="19" fill="#4b5563" text-anchor="middle">identificadores</text>
+
+  <rect x="20" y="440" width="920" height="80" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="480" y="474" font-size="23" font-weight="700" fill="#1e4f8f" text-anchor="middle">Vocabulario de tamaño fijo: todo texto se escribe con sus piezas</text>
+  <text x="480" y="504" font-size="19" fill="#4b5563" text-anchor="middle">(el segmentador bilmaLAT; cada número es el identificador de una pieza)</text>
+</svg>

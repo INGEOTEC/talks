@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <!-- respuesta -->
+  <rect x="330" y="14" width="300" height="56" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text x="480" y="50" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Una misma respuesta</text>
+  <text font-size="21" fill="#4b5563"><tspan x="652" y="36">se juzga tres veces,</tspan><tspan x="652" y="62">con tres prompts del juez</tspan></text>
+  <line x1="410" y1="72" x2="250" y2="124" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="550" y1="72" x2="710" y2="124" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- caso consistente -->
+  <rect x="20" y="128" width="440" height="300" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="2"/>
+  <text x="240" y="168" font-size="25" font-weight="700" fill="#1b5e20" text-anchor="middle">Consistente</text>
+  <g font-size="21" text-anchor="middle">
+    <text x="90" y="212" fill="#4b5563">prompt A</text>
+    <rect x="160" y="190" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="290" y="214" font-weight="700" fill="#b3261e">harmful</text>
+    <text x="90" y="266" fill="#4b5563">prompt B</text>
+    <rect x="160" y="244" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="290" y="268" font-weight="700" fill="#b3261e">harmful</text>
+    <text x="90" y="320" fill="#4b5563">prompt C</text>
+    <rect x="160" y="298" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="290" y="322" font-weight="700" fill="#b3261e">harmful</text>
+  </g>
+  <text x="240" y="380" font-size="22" font-weight="700" fill="#1b5e20" text-anchor="middle">los tres veredictos coinciden</text>
+  <text x="240" y="408" font-size="19" fill="#4b5563" text-anchor="middle">cuenta como consistente</text>
+
+  <!-- caso inconsistente -->
+  <rect x="500" y="128" width="440" height="300" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="720" y="168" font-size="25" font-weight="700" fill="#9a5b00" text-anchor="middle">No consistente</text>
+  <g font-size="21" text-anchor="middle">
+    <text x="570" y="212" fill="#4b5563">prompt A</text>
+    <rect x="640" y="190" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="770" y="214" font-weight="700" fill="#b3261e">harmful</text>
+    <text x="570" y="266" fill="#4b5563">prompt B</text>
+    <rect x="640" y="244" width="260" height="34" rx="8" fill="#e6f4ea" stroke="#2e7d32" stroke-width="2"/><text x="770" y="268" font-weight="700" fill="#1b5e20">safe</text>
+    <text x="570" y="320" fill="#4b5563">prompt C</text>
+    <rect x="640" y="298" width="260" height="34" rx="8" fill="#fdecea" stroke="#b3261e" stroke-width="2"/><text x="770" y="322" font-weight="700" fill="#b3261e">harmful</text>
+  </g>
+  <text x="720" y="380" font-size="22" font-weight="700" fill="#9a5b00" text-anchor="middle">un veredicto distinto</text>
+  <text x="720" y="408" font-size="19" fill="#4b5563" text-anchor="middle">el juez no es confiable aquí</text>
+
+  <!-- fórmula -->
+  <rect x="120" y="452" width="720" height="76" rx="12" fill="#1e4f8f"/>
+  <text x="480" y="484" font-size="23" fill="#ffffff" text-anchor="middle">consistencia = respuestas con los tres veredictos iguales</text>
+  <text x="480" y="514" font-size="23" fill="#ffffff" text-anchor="middle">÷ total de respuestas</text>
+</svg>

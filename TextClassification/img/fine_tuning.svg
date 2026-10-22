@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <!-- paso 1 -->
+  <text x="170" y="40" font-size="22" font-weight="700" fill="#4b5563" text-anchor="middle">1. Preentrenar</text>
+  <rect x="20" y="56" width="300" height="260" rx="12" fill="#1e4f8f"/>
+  <text x="170" y="130" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">Modelo</text>
+  <text x="170" y="164" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">preentrenado</text>
+  <text x="170" y="214" font-size="19" fill="#cfe0f7" text-anchor="middle">tuits en español</text>
+  <text x="170" y="242" font-size="19" fill="#cfe0f7" text-anchor="middle">sin etiquetas</text>
+  <text x="170" y="270" font-size="19" fill="#cfe0f7" text-anchor="middle">(millones de textos)</text>
+
+  <line x1="326" y1="186" x2="394" y2="186" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- paso 2 -->
+  <text x="560" y="40" font-size="22" font-weight="700" fill="#4b5563" text-anchor="middle">2. Afinar con pocos datos</text>
+  <rect x="400" y="140" width="220" height="176" rx="12" fill="#1e4f8f"/>
+  <text x="510" y="214" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Modelo</text>
+  <text x="510" y="246" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">preentrenado</text>
+  <rect x="400" y="56" width="220" height="70" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="3"/>
+  <text x="510" y="88" font-size="21" font-weight="700" fill="#9a5b00" text-anchor="middle">cabeza de</text>
+  <text x="510" y="112" font-size="21" font-weight="700" fill="#9a5b00" text-anchor="middle">clasificación (nueva)</text>
+  <rect x="640" y="140" width="290" height="176" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="785" y="180" font-size="22" font-weight="700" fill="#1e4f8f" text-anchor="middle">Datos etiquetados</text>
+  <text x="785" y="214" font-size="20" fill="#1f2937" text-anchor="middle">1,000 textos por país</text>
+  <text x="785" y="244" font-size="20" fill="#1f2937" text-anchor="middle">México · Argentina · España</text>
+  <text x="785" y="286" font-size="19" fill="#4b5563" text-anchor="middle">pocos, comparados con</text>
+  <text x="785" y="310" font-size="19" fill="#4b5563" text-anchor="middle">el preentrenamiento</text>
+  <line x1="636" y1="228" x2="624" y2="228" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- resultado -->
+  <line x1="510" y1="322" x2="510" y2="380" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="260" y="384" width="500" height="130" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="2"/>
+  <text x="510" y="426" font-size="26" font-weight="700" fill="#1b5e20" text-anchor="middle">Clasificador de país</text>
+  <text x="510" y="460" font-size="21" fill="#1f2937" text-anchor="middle">mx · ar · es</text>
+  <text x="510" y="494" font-size="19" fill="#4b5563" text-anchor="middle">factor de aprendizaje pequeño: el modelo ya sabe mucho</text>
+</svg>

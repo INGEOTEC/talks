@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <!-- datos etiquetados partidos en dos -->
+  <rect x="20" y="20" width="920" height="110" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text x="480" y="52" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Todos los textos con su etiqueta</text>
+  <rect x="40" y="66" width="640" height="50" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="360" y="100" font-size="22" font-weight="700" fill="#1e4f8f" text-anchor="middle">Entrenamiento</text>
+  <rect x="696" y="66" width="224" height="50" rx="8" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="808" y="100" font-size="22" font-weight="700" fill="#9a5b00" text-anchor="middle">Prueba</text>
+  <!-- flujo -->
+  <line x1="360" y1="130" x2="360" y2="200" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="200" y="204" width="320" height="90" rx="12" fill="#1e4f8f"/>
+  <text x="360" y="244" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Aprender el clasificador</text>
+  <text x="360" y="274" font-size="18" fill="#cfe0f7" text-anchor="middle">(ajustar los pesos)</text>
+  <line x1="524" y1="249" x2="590" y2="249" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="808" y1="130" x2="808" y2="200" stroke="#4b5563" stroke-width="3"/>
+  <line x1="808" y1="200" x2="808" y2="204" stroke="#4b5563" stroke-width="3"/>
+  <rect x="594" y="204" width="326" height="90" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="757" y="244" font-size="24" font-weight="700" fill="#9a5b00" text-anchor="middle">Predecir la clase</text>
+  <text x="757" y="274" font-size="18" fill="#4b5563" text-anchor="middle">de textos que no vio</text>
+  <line x1="757" y1="298" x2="757" y2="340" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="440" y="344" width="480" height="100" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="2"/>
+  <text x="680" y="384" font-size="24" font-weight="700" fill="#1b5e20" text-anchor="middle">Comparar con la etiqueta real</text>
+  <text x="680" y="418" font-size="20" fill="#1f2937" text-anchor="middle">aciertos en cada clase</text>
+  <text x="40" y="400" font-size="22" font-weight="700" fill="#b3261e">Nunca se mide con</text>
+  <text x="40" y="430" font-size="22" font-weight="700" fill="#b3261e">los datos de entrenamiento</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <!-- panel izquierdo: bolsa de palabras -->
+  <rect x="20" y="20" width="440" height="500" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="240" y="62" font-size="26" font-weight="700" fill="#9a5b00" text-anchor="middle">Bolsa de palabras</text>
+  <g font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">
+    <rect x="50" y="100" width="110" height="46" rx="8" fill="#ffffff" stroke="#d98a00" stroke-width="2"/><text x="105" y="132">casa</text>
+    <rect x="185" y="100" width="110" height="46" rx="8" fill="#ffffff" stroke="#d98a00" stroke-width="2"/><text x="240" y="132">hogar</text>
+    <rect x="320" y="100" width="110" height="46" rx="8" fill="#ffffff" stroke="#d98a00" stroke-width="2"/><text x="375" y="132">manzana</text>
+  </g>
+  <g font-size="22" fill="#1f2937">
+    <text x="50" y="220" font-weight="700">casa · hogar = 0</text>
+    <text x="50" y="252" font-size="20" fill="#4b5563">no comparten ningún segmento</text>
+    <text x="50" y="330" font-weight="700">casa · manzana ≠ 0</text>
+    <text x="50" y="362" font-size="20" fill="#4b5563">comparten un segmento de</text>
+    <text x="50" y="388" font-size="20" fill="#4b5563">caracteres, aunque no se</text>
+    <text x="50" y="414" font-size="20" fill="#4b5563">parecen en significado</text>
+  </g>
+  <text x="240" y="480" font-size="22" font-weight="700" fill="#b3261e" text-anchor="middle">Se parecen las letras, no el sentido</text>
+
+  <!-- panel derecho: vectores densos -->
+  <rect x="500" y="20" width="440" height="500" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="720" y="62" font-size="26" font-weight="700" fill="#1e4f8f" text-anchor="middle">Vectores densos</text>
+  <rect x="530" y="86" width="380" height="320" rx="10" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+  <circle cx="650" cy="230" r="16" fill="#2f6fbf"/>
+  <text x="622" y="238" font-size="24" font-weight="700" fill="#1e4f8f" text-anchor="end">casa</text>
+  <circle cx="735" cy="290" r="16" fill="#2f6fbf"/>
+  <text x="760" y="298" font-size="24" font-weight="700" fill="#1e4f8f" text-anchor="start">hogar</text>
+  <circle cx="855" cy="130" r="16" fill="#d98a00"/>
+  <text x="828" y="176" font-size="24" font-weight="700" fill="#9a5b00" text-anchor="end">manzana</text>
+  <line x1="662" y1="240" x2="722" y2="280" stroke="#2f6fbf" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="720" y="456" font-size="22" fill="#1f2937" text-anchor="middle">casa y hogar: cercanas</text>
+  <text x="720" y="488" font-size="22" fill="#1f2937" text-anchor="middle">manzana: lejos</text>
+</svg>

@@ -50,6 +50,10 @@ css: styles.css
     <h3>¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial</h3>
     <span class="talk-meta">LegalIA: corpus abiertos y un atlas de la legislación federal</span>
   </a>
+  <a class="talk-card" href="TextClassification/sentimientos.qmd">
+    <span class="talk-badge">Divulgación</span>
+    <h3>Clasificación de Texto y Análisis de Sentimientos</h3>
+  </a>
 </div>
 
 <div class="section-title">

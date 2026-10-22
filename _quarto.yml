@@ -13,6 +13,7 @@ website:
           - sidebar:plndatos
           - sidebar:ropec2024
           - sidebar:legalia
+          - sidebar:sentimientos
       - text: Text Classification
         menu:
           - sidebar:general
@@ -82,6 +83,10 @@ website:
       title: ¿Qué tan cerca están nuestras leyes?
       contents:
         - LegalIA/index.qmd
+    - id: sentimientos
+      title: Clasificación de Texto y Análisis de Sentimientos
+      contents:
+        - TextClassification/sentimientos.qmd
     - id: quantum
       title: Algoritmos Evolutivos en PLN y Minería de Opinión
       contents:
