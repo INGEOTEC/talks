@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 90 960 270" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <rect x="20" y="110" width="270" height="170" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text font-size="30" font-weight="700" fill="#9a5b00" text-anchor="middle"><tspan x="155" y="186">Bolsa de</tspan><tspan x="155" y="224">palabras</tspan></text>
+  <text x="155" y="326" font-size="22" fill="#4b5563" text-anchor="middle">competitiva y explicable</text>
+  <line x1="294" y1="195" x2="338" y2="195" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="342" y="110" width="276" height="170" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text font-size="30" font-weight="700" fill="#1e4f8f" text-anchor="middle"><tspan x="480" y="186">Modelos</tspan><tspan x="480" y="224">preentrenados</tspan></text>
+  <text x="480" y="326" font-size="22" fill="#4b5563" text-anchor="middle">similitud y contexto</text>
+  <line x1="622" y1="195" x2="666" y2="195" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="670" y="110" width="270" height="170" rx="12" fill="#1e4f8f"/>
+  <text font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle"><tspan x="805" y="170">Modelo de</tspan><tspan x="805" y="204">lenguaje como</tspan><tspan x="805" y="238">clasificador</tspan></text>
+  <text x="805" y="326" font-size="22" fill="#4b5563" text-anchor="middle">la tarea va en el prompt</text>
+</svg>

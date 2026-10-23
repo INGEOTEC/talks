@@ -222,6 +222,10 @@ Tuits del conjunto *Delitos*: cada texto viene con su clase.
 
 ![](img/clasificador_lineal.svg){fig-align="center" height=470}
 
+## Medir el rendimiento
+
+![](img/entrenamiento_prueba.svg){fig-align="center" height=470}
+
 ## El problema: la entrada es texto
 
 ![](../LegalIA/img/texto_vector.svg){fig-align="center" width="95%"}
@@ -232,51 +236,47 @@ Tuits del conjunto *Delitos*: cada texto viene con su clase.
 Un clasificador lineal necesita **números**: hay que convertir cada texto en un vector.
 :::
 
-## Medir el rendimiento
-
-![](img/entrenamiento_prueba.svg){fig-align="center" height=470}
-
 # Bolsa de palabras
 
-## Normalizar y segmentar {style="font-size: 85%;"}
+## Normalizar y segmentar {style="font-size: 62%;"}
 
-```{mermaid}
-%%| echo: false
-%%| fig-align: center
+![](img/normalizar_segmentar.svg){fig-align="center" height=310}
 
-flowchart LR
-    Entrada([Texto]) --> Norm[Normalizador]
-    Norm --> Seg[Segmentador]
-    Seg --> Terminos(tokens)
-```
+:::: {.columns}
+::: {.callout-tip icon="false" .column width="50%"}
+### Normalizar
+
+Para que «Días», «días» y «dias» cuenten como la misma palabra, y para que las direcciones web y los usuarios, que son únicos, no inflen el vocabulario.
+:::
+
+::: {.fragment .callout-tip icon="false" .column width="50%"}
+### Segmentar
+
+En qué unidades se parte el texto: palabras, n-gramas de palabras o q-gramas de caracteres; la siguiente lámina lo muestra.
+:::
+::::
 
 ::: {.fragment .callout-note icon="false"}
-### Normalizaciones
+### Decisiones previas
 
-* Todo a minúsculas
-* Quitar acentos y signos de puntuación
-* Direcciones web y menciones a usuarios como un símbolo único
+Estas decisiones se toman antes de contar nada y cambian el vocabulario y el rendimiento del clasificador.
 :::
 
 ## Palabras, n-gramas y q-gramas
 
 ![](img/segmentacion.svg){fig-align="center" height=450}
 
-## La bolsa de palabras {style="font-size: 80%;"}
+## La bolsa de palabras {style="font-size: 65%;"}
 
-:::: {.columns}
-::: {.column width="60%"}
-![](img/bow_simple.png){fig-align="center" width="95%"}
-:::
+![](img/bolsa_de_palabras.svg){fig-align="center" height=310}
 
-::: {.callout-tip icon="false" .column width="40%"}
+::: {.callout-tip icon="false"}
 ### Un vector por texto
 
 * Cada posición es una palabra del vocabulario
 * El **orden** se pierde
 * Casi todo son ceros
 :::
-::::
 
 ::: {.fragment .callout-note icon="false"}
 ### Pesos TF-IDF
@@ -399,15 +399,7 @@ La misma palabra recibe un vector distinto según la oración: resuelve el orden
 
 ## Un modelo de lenguaje {style="font-size: 85%;"}
 
-```{mermaid}
-%%| echo: false
-%%| fig-align: center
-
-flowchart LR
-    Ctx["Michoacán es el mayor productor de"] --> LM[Modelo de lenguaje]
-    LM --> P1(aguacate)
-    LM --> P2(camarones)
-```
+![](img/modelo_lenguaje.svg){fig-align="center" height=300}
 
 ::: {.callout-note icon="false"}
 ### Modelo $n$-gram
@@ -483,16 +475,9 @@ Se diseña un prompt que el modelo interpreta y después se le da el texto que s
 Prompt del ejemplo (aparece completo en la figura): «Identifica si el siguiente enunciado expresa una opinión positiva hacia el producto que está describiendo. En caso de que la opinión sea positiva contesta con la palabra Positivo, en caso contrario di Negativo.»
 :::
 
-## La tarea está en el prompt {style="font-size: 65%;"}
+## La tarea está en el prompt {style="font-size: 58%;"}
 
-```{mermaid}
-%%| echo: false
-%%| fig-align: center
-
-flowchart LR
-    T1[Instrucciones de delitos] --> M[El mismo modelo de lenguaje]
-    T2[Instrucciones de país] --> M
-```
+![](img/tarea_en_prompt.svg){fig-align="center" height=250}
 
 :::: {.columns}
 ::: {.callout-tip icon="false" .column width="50%"}
@@ -552,12 +537,12 @@ Es el mismo esquema: instrucciones + texto → clase. Para medir su estabilidad 
 
 ## Consistencia contra tamaño del modelo {style="font-size: 58%;"}
 
-![Fuente: proyecto Chimalli, INGEOTEC, trabajo en curso](img/consistencia_tamano.png){fig-align="center" height=250}
+![](img/consistencia_tamano.svg){fig-align="center" height=300}
 
 ::: {.callout-tip icon="false"}
-### Cómo leerla
+### Qué muestra
 
-Modelos de 0.8 a 12 mil millones de parámetros clasificando las mismas respuestas con tres redacciones equivalentes del prompt; un panel por idioma del texto (en-en inglés, en-es español); una línea por familia de modelo y por conjunto de respuestas; punteada: 85 %. Los modelos pequeños cambian de clase en muchos textos; a partir de unos 4 mil millones de parámetros casi siempre dan la misma.
+Con modelos pequeños, cambiar la redacción de las instrucciones cambia la clase en muchos textos; al crecer el modelo la consistencia sube, pero llega a un límite: a partir de cierto tamaño un modelo más grande ya no es más consistente.
 :::
 
 ::: {.fragment .callout-note icon="false"}
@@ -565,6 +550,8 @@ Modelos de 0.8 a 12 mil millones de parámetros clasificando las mismas respuest
 
 Un clasificador que cambia de clase cuando sólo cambia la redacción de las instrucciones no es confiable, por bien que suene su respuesta.
 :::
+
+<span style="font-size: 70%;">Comportamiento observado en experimentos de INGEOTEC con modelos de 0.8 a 12 mil millones de parámetros (proyecto Chimalli).</span>
 
 # Conclusiones
 
@@ -593,16 +580,9 @@ Un clasificador que cambia de clase cuando sólo cambia la redacción de las ins
 :::
 ::::
 
-## Mensaje
+## Mensaje {style="font-size: 70%;"}
 
-```{mermaid}
-%%| echo: false
-%%| fig-align: center
-
-flowchart LR
-    B[Bolsa de palabras] --> P[Modelos preentrenados]
-    P --> J[Modelo de lenguaje como clasificador]
-```
+![](img/mensaje_final.svg){fig-align="center" height=200}
 
 ::: {.callout-tip icon="false"}
 ### Bolsa de palabras

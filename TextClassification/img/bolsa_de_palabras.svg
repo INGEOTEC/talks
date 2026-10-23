@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 95 960 405" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <!-- texto -->
+  <rect x="20" y="170" width="230" height="120" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text x="40" y="198" font-size="18" fill="#6b7280">texto</text>
+  <text font-size="22" fill="#1f2937"><tspan x="40" y="236">buenos días</tspan><tspan x="40" y="266">buenos amigos</tspan></text>
+  <line x1="254" y1="230" x2="314" y2="230" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <!-- bolsa -->
+  <path d="M345,205 C320,260 318,330 345,380 C375,420 495,420 525,380 C552,330 550,260 525,205 Z" fill="#fff4e0" stroke="#d98a00" stroke-width="3"/>
+  <path d="M375,205 L385,160 Q435,138 485,160 L495,205 Z" fill="#fff4e0" stroke="#d98a00" stroke-width="3"/>
+  <ellipse cx="435" cy="206" rx="64" ry="9" fill="#d98a00"/>
+  <g font-size="20" fill="#1f2937" text-anchor="middle">
+    <g transform="rotate(-7 393 262)"><rect x="350" y="245" width="86" height="34" rx="8" fill="#ffffff" stroke="#d98a00" stroke-width="2"/><text x="393" y="269">buenos</text></g>
+    <g transform="rotate(6 487 262)"><rect x="447" y="245" width="80" height="34" rx="8" fill="#ffffff" stroke="#d98a00" stroke-width="2"/><text x="487" y="269">amigos</text></g>
+    <g transform="rotate(5 398 322)"><rect x="366" y="305" width="64" height="34" rx="8" fill="#ffffff" stroke="#d98a00" stroke-width="2"/><text x="398" y="329">dias</text></g>
+    <g transform="rotate(-6 487 322)"><rect x="444" y="305" width="86" height="34" rx="8" fill="#ffffff" stroke="#d98a00" stroke-width="2"/><text x="487" y="329">buenos</text></g>
+  </g>
+  <text font-size="19" font-weight="700" fill="#9a5b00" text-anchor="middle"><tspan x="435" y="450">se pierde el orden; se conserva</tspan><tspan x="435" y="476">cuántas veces aparece cada palabra</tspan></text>
+  <line x1="560" y1="300" x2="612" y2="300" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <!-- vector -->
+  <text x="780" y="120" font-size="22" font-weight="700" fill="#1e4f8f" text-anchor="middle">Vector del texto</text>
+  <g font-size="18" fill="#1f2937" text-anchor="start">
+    <text transform="translate(646,246) rotate(-50)">amigos</text>
+    <text transform="translate(702,246) rotate(-50)">buenos</text>
+    <text transform="translate(758,246) rotate(-50)">curso</text>
+    <text transform="translate(814,246) rotate(-50)">dias</text>
+    <text transform="translate(870,246) rotate(-50)">…</text>
+    <text transform="translate(926,246) rotate(-50)">…</text>
+  </g>
+  <g stroke="#2f6fbf" stroke-width="2" font-size="26" font-weight="700" text-anchor="middle" fill="#ffffff">
+    <rect x="620" y="262" width="56" height="52" fill="#e8f0fb"/><text x="648" y="298" fill="#1e4f8f" stroke="none">1</text>
+    <rect x="676" y="262" width="56" height="52" fill="#e8f0fb"/><text x="704" y="298" fill="#1e4f8f" stroke="none">2</text>
+    <rect x="732" y="262" width="56" height="52"/><text x="760" y="298" fill="#6b7280" stroke="none">0</text>
+    <rect x="788" y="262" width="56" height="52" fill="#e8f0fb"/><text x="816" y="298" fill="#1e4f8f" stroke="none">1</text>
+    <rect x="844" y="262" width="56" height="52"/><text x="872" y="298" fill="#6b7280" stroke="none">0</text>
+    <rect x="900" y="262" width="50" height="52"/><text x="925" y="298" fill="#6b7280" stroke="none">0</text>
+  </g>
+  <text font-size="19" font-weight="700" fill="#1e4f8f" text-anchor="middle"><tspan x="785" y="352">un número por palabra</tspan><tspan x="785" y="378">del vocabulario;</tspan><tspan x="785" y="404">casi todos cero</tspan></text>
+</svg>
