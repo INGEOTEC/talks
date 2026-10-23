@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <text x="480" y="40" font-size="25" font-weight="700" fill="#1f2937" text-anchor="middle">24 tareas de 12 competencias internacionales</text>
+  <text x="480" y="68" font-size="20" fill="#6b7280" text-anchor="middle">(inglés, español e italiano)</text>
+
+  <!-- panel 1 -->
+  <rect x="20" y="92" width="450" height="320" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text x="245" y="130" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Perfilado de autor (7 tareas)</text>
+  <text x="245" y="156" font-size="18" fill="#6b7280" text-anchor="middle">tareas que ganó cada sistema</text>
+  <text x="45" y="206" font-size="22" font-weight="700" fill="#9a5b00">Bolsa de palabras</text>
+  <rect x="45" y="216" width="320" height="40" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+  <rect x="45" y="216" width="274" height="40" rx="8" fill="#d98a00"/>
+  <text x="376" y="246" font-size="25" font-weight="700" fill="#9a5b00">6 de 7</text>
+  <text x="45" y="312" font-size="22" font-weight="700" fill="#1e4f8f">BERT afinado</text>
+  <rect x="45" y="322" width="320" height="40" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+  <rect x="45" y="322" width="46" height="40" rx="8" fill="#2f6fbf"/>
+  <text x="376" y="352" font-size="25" font-weight="700" fill="#1e4f8f">1 de 7</text>
+
+  <!-- panel 2 -->
+  <rect x="490" y="92" width="450" height="320" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text x="715" y="130" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Clasificación general (10 tareas)</text>
+  <text x="715" y="156" font-size="18" fill="#6b7280" text-anchor="middle">tareas en que fue el mejor o equivalente al mejor</text>
+  <text x="515" y="206" font-size="22" font-weight="700" fill="#1e4f8f">BERT afinado</text>
+  <rect x="515" y="216" width="320" height="40" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+  <rect x="515" y="216" width="224" height="40" rx="8" fill="#2f6fbf"/>
+  <text x="846" y="246" font-size="25" font-weight="700" fill="#1e4f8f">7 de 10</text>
+  <text x="515" y="312" font-size="22" font-weight="700" fill="#9a5b00">Bolsa de palabras</text>
+  <rect x="515" y="322" width="320" height="40" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+  <rect x="515" y="322" width="160" height="40" rx="8" fill="#d98a00"/>
+  <text x="846" y="352" font-size="25" font-weight="700" fill="#9a5b00">5 de 10</text>
+
+  <!-- pie -->
+  <rect x="90" y="436" width="780" height="76" rx="12" fill="#1e4f8f"/>
+  <text x="480" y="468" font-size="22" fill="#ffffff" text-anchor="middle">La bolsa de palabras quedó a menos del 10 % del ganador</text>
+  <text x="480" y="498" font-size="22" fill="#ffffff" text-anchor="middle">en la mayoría de las tareas</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <!-- panel 1 -->
+  <rect x="10" y="10" width="300" height="520" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text font-size="23" font-weight="700" fill="#1e4f8f" text-anchor="middle"><tspan x="160" y="48">1. No sabe qué palabras</tspan><tspan x="160" y="76">se parecen</tspan></text>
+  <text x="30" y="150" font-size="22" font-weight="700" fill="#1f2937">casa</text>
+  <g stroke="#2f6fbf" stroke-width="2" fill="#ffffff">
+    <rect x="110" y="128" width="34" height="34"/><rect x="144" y="128" width="34" height="34" fill="#2f6fbf"/><rect x="178" y="128" width="34" height="34"/><rect x="212" y="128" width="34" height="34"/><rect x="246" y="128" width="34" height="34"/>
+  </g>
+  <text x="30" y="210" font-size="22" font-weight="700" fill="#1f2937">hogar</text>
+  <g stroke="#2f6fbf" stroke-width="2" fill="#ffffff">
+    <rect x="110" y="188" width="34" height="34"/><rect x="144" y="188" width="34" height="34"/><rect x="178" y="188" width="34" height="34"/><rect x="212" y="188" width="34" height="34" fill="#d98a00"/><rect x="246" y="188" width="34" height="34"/>
+  </g>
+  <text x="160" y="270" font-size="20" fill="#6b7280" text-anchor="middle">… una posición por palabra …</text>
+  <text font-size="22" fill="#1f2937" text-anchor="middle"><tspan x="160" y="340">«casa» y «hogar» son</tspan><tspan x="160" y="370">posiciones distintas:</tspan><tspan x="160" y="400">sus vectores no tienen</tspan><tspan x="160" y="430">nada en común</tspan></text>
+
+  <!-- panel 2 -->
+  <rect x="330" y="10" width="300" height="520" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="480" y="62" font-size="23" font-weight="700" fill="#9a5b00" text-anchor="middle">2. No sabe el orden</text>
+  <rect x="350" y="100" width="260" height="46" rx="8" fill="#ffffff" stroke="#d98a00" stroke-width="2"/>
+  <text x="480" y="131" font-size="21" fill="#1f2937" text-anchor="middle">el perro muerde al niño</text>
+  <rect x="350" y="166" width="260" height="46" rx="8" fill="#ffffff" stroke="#d98a00" stroke-width="2"/>
+  <text x="480" y="197" font-size="21" fill="#1f2937" text-anchor="middle">el niño muerde al perro</text>
+  <text x="480" y="262" font-size="40" font-weight="700" fill="#9a5b00" text-anchor="middle">↓</text>
+  <rect x="350" y="280" width="260" height="70" rx="8" fill="#9a5b00"/>
+  <text x="480" y="323" font-size="23" font-weight="700" fill="#ffffff" text-anchor="middle">la misma bolsa</text>
+  <text x="480" y="390" font-size="20" fill="#4b5563" text-anchor="middle">{ al, el, muerde, niño, perro }</text>
+  <text font-size="22" fill="#1f2937" text-anchor="middle"><tspan x="480" y="450">Dos frases con significado</tspan><tspan x="480" y="480">distinto producen</tspan><tspan x="480" y="510">exactamente el mismo vector</tspan></text>
+
+  <!-- panel 3 -->
+  <rect x="650" y="10" width="300" height="520" rx="12" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text font-size="23" font-weight="700" fill="#1f2937" text-anchor="middle"><tspan x="800" y="48">3. Cada palabra nueva es</tspan><tspan x="800" y="76">una posición más</tspan></text>
+  <g font-size="22" fill="#1f2937">
+    <text x="670" y="140">buenos</text><text x="670" y="190">buenox <tspan font-size="17" fill="#6b7280">(errata)</tspan></text><text x="670" y="240">buenísimos</text>
+  </g>
+  <g font-size="22" font-weight="700" fill="#1e4f8f" text-anchor="middle">
+    <text x="880" y="140">posición 1</text><text x="880" y="190">posición 2</text><text x="880" y="240">posición 3</text>
+  </g>
+  <g stroke="#6b7280" stroke-width="2" fill="#ffffff">
+    <rect x="670" y="290" width="20" height="30"/><rect x="690" y="290" width="20" height="30"/><rect x="710" y="290" width="20" height="30"/><rect x="730" y="290" width="20" height="30"/><rect x="750" y="290" width="20" height="30"/><rect x="770" y="290" width="20" height="30"/><rect x="790" y="290" width="20" height="30"/><rect x="810" y="290" width="20" height="30"/><rect x="830" y="290" width="20" height="30"/><rect x="850" y="290" width="20" height="30"/><rect x="870" y="290" width="20" height="30"/><rect x="890" y="290" width="20" height="30"/><rect x="910" y="290" width="20" height="30"/>
+    <rect x="730" y="290" width="20" height="30" fill="#2f6fbf"/><rect x="830" y="290" width="20" height="30" fill="#2f6fbf"/>
+  </g>
+  <text x="800" y="352" font-size="20" fill="#6b7280" text-anchor="middle">… decenas de miles de posiciones …</text>
+  <text font-size="22" fill="#1f2937" text-anchor="middle"><tspan x="800" y="420">Un vector enorme, casi</tspan><tspan x="800" y="450">todo en cero, y cada</tspan><tspan x="800" y="480">errata es una posición más</tspan></text>
+</svg>

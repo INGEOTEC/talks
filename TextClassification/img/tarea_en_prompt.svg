@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <rect x="20" y="30" width="440" height="160" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="40" y="64" font-size="22" font-weight="700" fill="#9a5b00">Instrucciones: delitos</text>
+  <text font-size="20" fill="#1f2937"><tspan x="40" y="104">Indica si el siguiente texto informa</tspan><tspan x="40" y="132">de un delito. Contesta Delito o</tspan><tspan x="40" y="160">No delito.</tspan></text>
+  <rect x="20" y="230" width="440" height="160" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="40" y="264" font-size="22" font-weight="700" fill="#9a5b00">Instrucciones: país</text>
+  <text font-size="20" fill="#1f2937"><tspan x="40" y="304">¿De qué país es quien escribió el</tspan><tspan x="40" y="332">siguiente tuit: México, Argentina o</tspan><tspan x="40" y="360">España? Contesta sólo con el país.</tspan></text>
+  <line x1="464" y1="130" x2="520" y2="200" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="464" y1="310" x2="520" y2="260" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="524" y="165" width="150" height="130" rx="12" fill="#1e4f8f"/>
+  <text font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle"><tspan x="599" y="226">Modelo de</tspan><tspan x="599" y="256">lenguaje</tspan></text>
+  <line x1="678" y1="205" x2="728" y2="150" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="678" y1="255" x2="728" y2="310" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="732" y="100" width="208" height="90" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="3"/>
+  <text font-size="22" font-weight="700" fill="#1b5e20" text-anchor="middle"><tspan x="836" y="138">Delito</tspan><tspan x="836" y="168">No delito</tspan></text>
+  <rect x="732" y="270" width="208" height="110" rx="12" fill="#e6f4ea" stroke="#2e7d32" stroke-width="3"/>
+  <text font-size="22" font-weight="700" fill="#1b5e20" text-anchor="middle"><tspan x="836" y="308">México</tspan><tspan x="836" y="336">Argentina</tspan><tspan x="836" y="364">España</tspan></text>
+  <text x="480" y="440" font-size="22" font-weight="700" fill="#1e4f8f" text-anchor="middle">El mismo modelo: la tarea cambia sólo con las instrucciones</text>
+</svg>

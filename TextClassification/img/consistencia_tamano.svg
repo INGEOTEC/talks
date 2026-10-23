@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <!-- ejes -->
+  <line x1="100" y1="420" x2="100" y2="30" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="100" y1="420" x2="700" y2="420" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <text x="400" y="468" font-size="22" fill="#1f2937" text-anchor="middle">parámetros del modelo</text>
+  <text x="140" y="446" font-size="19" fill="#6b7280" text-anchor="middle">pequeño</text>
+  <text x="660" y="446" font-size="19" fill="#6b7280" text-anchor="middle">grande</text>
+  <text font-size="22" fill="#1f2937" text-anchor="middle" transform="translate(36,235) rotate(-90)">consistencia</text>
+  <text x="90" y="68" font-size="19" fill="#6b7280" text-anchor="end">100 %</text>
+  <text x="90" y="424" font-size="19" fill="#6b7280" text-anchor="end">0 %</text>
+  <!-- umbral -->
+  <line x1="100" y1="114" x2="700" y2="114" stroke="#2e7d32" stroke-width="3" stroke-dasharray="10 7"/>
+  <text font-size="21" font-weight="700" fill="#1b5e20"><tspan x="716" y="108">suficiente</tspan><tspan x="716" y="134">para confiar</tspan></text>
+  <!-- curva -->
+  <path d="M100,410 C150,260 220,130 330,100 C420,80 560,72 690,70" fill="none" stroke="#2f6fbf" stroke-width="5"/>
+  <circle cx="330" cy="100" r="9" fill="#d98a00"/>
+  <!-- anotación -->
+  <line x1="400" y1="250" x2="336" y2="112" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="330" y="252" width="330" height="86" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text font-size="20" fill="#1f2937" text-anchor="middle"><tspan x="495" y="284">a partir de aquí, más parámetros</tspan><tspan x="495" y="312">ya no cambian mucho</tspan></text>
+  <text x="716" y="240" font-size="21" font-weight="700" fill="#9a5b00">modelos pequeños:</text>
+  <text font-size="19" fill="#4b5563"><tspan x="716" y="268">la clase cambia con</tspan><tspan x="716" y="294">la redacción</tspan></text>
+</svg>

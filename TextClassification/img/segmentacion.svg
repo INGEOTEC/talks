@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <text x="480" y="40" font-size="24" fill="#1f2937" text-anchor="middle" font-style="italic">«buenos días, bienvenidos al curso de Procesamiento de Lenguaje Natural.»</text>
+  <text x="480" y="68" font-size="17" fill="#6b7280" text-anchor="middle">normalizado: minúsculas, sin acentos ni puntuación · ~ = espacio</text>
+
+  <!-- palabras -->
+  <text x="20" y="116" font-size="22" font-weight="700" fill="#1e4f8f">Palabras (10)</text>
+  <g font-size="19" fill="#1f2937" text-anchor="middle">
+    <rect x="20" y="128" width="84" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="62" y="154">buenos</text>
+    <rect x="110" y="128" width="64" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="142" y="154">dias</text>
+    <rect x="180" y="128" width="134" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="247" y="154">bienvenidos</text>
+    <rect x="320" y="128" width="44" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="342" y="154">al</text>
+    <rect x="370" y="128" width="74" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="407" y="154">curso</text>
+    <rect x="450" y="128" width="44" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="472" y="154">de</text>
+    <rect x="500" y="128" width="164" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="582" y="154">procesamiento</text>
+    <rect x="670" y="128" width="44" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="692" y="154">de</text>
+    <rect x="720" y="128" width="104" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="772" y="154">lenguaje</text>
+    <rect x="830" y="128" width="110" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="885" y="154">natural</text>
+  </g>
+
+  <!-- bigramas -->
+  <text x="20" y="226" font-size="22" font-weight="700" fill="#9a5b00">Bigramas de palabras (9)</text>
+  <g font-size="19" fill="#1f2937" text-anchor="middle">
+    <rect x="20" y="238" width="154" height="40" rx="8" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/><text x="97" y="264">buenos~dias</text>
+    <rect x="182" y="238" width="204" height="40" rx="8" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/><text x="284" y="264">dias~bienvenidos</text>
+    <rect x="394" y="238" width="204" height="40" rx="8" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/><text x="496" y="264">bienvenidos~al</text>
+    <rect x="606" y="238" width="124" height="40" rx="8" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/><text x="668" y="264">al~curso</text>
+    <text x="760" y="264" font-size="24" fill="#6b7280" text-anchor="start">…</text>
+  </g>
+
+  <!-- 4-gramas de caracteres -->
+  <text x="20" y="336" font-size="22" font-weight="700" fill="#1e4f8f">4-gramas de caracteres (68)</text>
+  <g font-family="'DejaVu Sans Mono', Menlo, monospace" font-size="19" fill="#1f2937" text-anchor="middle">
+    <rect x="20" y="348" width="104" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="72" y="374">q:~bue</text>
+    <rect x="132" y="348" width="104" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="184" y="374">q:buen</text>
+    <rect x="244" y="348" width="104" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="296" y="374">q:ueno</text>
+    <rect x="356" y="348" width="104" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="408" y="374">q:enos</text>
+    <rect x="468" y="348" width="104" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="520" y="374">q:nos~</text>
+    <rect x="580" y="348" width="104" height="40" rx="8" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/><text x="632" y="374">q:os~d</text>
+    <text x="704" y="374" font-family="Lato, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#6b7280" text-anchor="start">…</text>
+  </g>
+
+  <!-- total -->
+  <rect x="180" y="430" width="600" height="80" rx="12" fill="#1e4f8f"/>
+  <text x="480" y="480" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">10 + 9 + 68 = 87 segmentos</text>
+</svg>
