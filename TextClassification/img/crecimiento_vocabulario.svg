@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <!-- ejes -->
+  <line x1="80" y1="420" x2="80" y2="30" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="80" y1="420" x2="690" y2="420" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <text x="385" y="462" font-size="22" fill="#1f2937" text-anchor="middle">número de textos procesados</text>
+  <text font-size="22" fill="#1f2937" text-anchor="middle" transform="translate(32,225) rotate(-90)">tamaño del vocabulario</text>
+  <!-- curvas -->
+  <path d="M80,420 C130,190 330,100 670,58" fill="none" stroke="#d98a00" stroke-width="5"/>
+  <path d="M80,420 C150,290 360,230 670,170" fill="none" stroke="#2f6fbf" stroke-width="5"/>
+  <path d="M80,420 C130,330 210,290 300,282 C420,274 560,272 670,270" fill="none" stroke="#2e7d32" stroke-width="5"/>
+  <!-- leyenda -->
+  <g font-size="22" fill="#1f2937">
+    <rect x="720" y="60" width="26" height="8" fill="#d98a00"/><text x="758" y="70">q-gramas</text>
+    <rect x="720" y="110" width="26" height="8" fill="#2f6fbf"/><text x="758" y="120">palabras</text>
+    <rect x="720" y="160" width="26" height="8" fill="#2e7d32"/><text x="758" y="170">vocabulario fijo</text>
+    <text x="758" y="196" font-size="18" fill="#6b7280">(bilmaLAT): se aplana</text>
+  </g>
+  <rect x="716" y="236" width="228" height="120" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text font-size="20" fill="#1f2937">
+    <tspan x="732" y="268" font-weight="700" fill="#1e4f8f">Ley de Herdan</tspan>
+    <tspan x="732" y="298">el vocabulario crece</tspan>
+    <tspan x="732" y="324">como una potencia de</tspan>
+    <tspan x="732" y="350">los textos vistos</tspan>
+  </text>
+</svg>

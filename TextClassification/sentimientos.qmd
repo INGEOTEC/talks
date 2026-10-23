@@ -1,0 +1,626 @@
+---
+lang: es
+title: "Clasificación de Texto y Análisis de Sentimientos"
+author:
+    - name: "Mario Graff"
+      url: https://mgraffg.github.io
+      affiliation: INFOTEC
+abstract: |
+  ¿Cómo sabe una computadora si un comentario es positivo o negativo, si un tuit habla de un delito o de qué país es quien lo escribió? En esta charla se recorre el camino de la clasificación de texto, desde el análisis de sentimientos y sus aplicaciones hasta los modelos que hoy se usan para resolverlo. Se parte de la bolsa de palabras y de un modelo lineal, que son sencillos, rápidos y explicables, y se explican sus límites. Después se presentan las subpalabras con vocabulario fijo, los vectores densos, los modelos con contexto y el ajuste fino de un clasificador. La charla cierra con una idea reciente: clasificar con un modelo de lenguaje sin entrenarlo, describiendo la tarea en un prompt y dándole después el texto, y con la pregunta que hay que hacerse antes de confiar en él: ¿da la misma clase cuando las instrucciones se redactan de maneras equivalentes?
+
+format:
+  revealjs:
+    theme: simple
+    chalkboard: true
+    footer: <https://mgraffg.github.io>
+    css: sentimientos.css
+bibliography: references.bib
+
+navigation-mode: linear
+title-slide-attributes:
+    data-background-image: img/emociones_polaridad.png
+    data-background-size: 100%
+    data-background-opacity: "0.15"
+    data-background-position: 0% 0%
+---
+
+## Contenido {style="font-size: 90%;"}
+
+1. Introducción
+2. Análisis de sentimientos
+3. Clasificación de texto
+4. Bolsa de palabras
+5. Más allá de la bolsa de palabras
+6. Un modelo de lenguaje como clasificador
+7. Conclusiones
+
+# Introducción
+
+## Definiciones
+
+:::: {.columns}
+::: {.callout-note icon="false" .column}
+### Inteligencia Artificial (IA)
+
+Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.
+:::
+
+::: {.fragment .callout-note icon="false" .column}
+### Aprendizaje Computacional
+
+Subárea de IA que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.
+:::
+::::
+
+::: {.fragment .callout-note icon="false"}
+### Procesamiento de Lenguaje Natural
+
+Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.
+:::
+
+## Percepción de Inteligencia Artificial (IA)
+
+:::: {.columns}
+
+::: {.callout-tip icon="false" .column width=50%}
+### Así la vemos
+
+![](img/robot-futuro.jpg){height=300}
+:::
+
+::: {.fragment .callout-tip icon="false" .column width=50%}
+### Así está
+
+![](img/robot-juguete.png){fig-align="left" height="300px"}
+:::
+::::
+
+## ¿Qué puede hacer el PLN? {style="font-size: 80%;"}
+
+:::: {.columns}
+
+::: {.column}
+![](img/pln_1.png){fig-align="center" height=250}
+:::
+
+::: {.callout-tip icon="false" .column}
+### Aplicaciones
+
+- **Minería de opinión**
+  - <span style="color: rgb(0, 0, 255);">positivo :) </span> --<span style="color: rgb(130, 130, 130);">neutro :|</span> --<span style="color: rgb(255, 0, 0);">negativo :( </span>
+- **Análisis de tópicos**
+- **Identificación de humor**
+:::
+::::
+
+::: {.fragment .callout-note icon="false"}
+### Esta charla
+
+Una de las tareas más usadas: decidir **qué dice un texto** sobre algo, es decir, clasificarlo.
+:::
+
+# Análisis de sentimientos
+
+## Minería de opinión [@dave2003mining] {style="font-size: 80%;"}
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {.callout-note icon="false"}
+### Definición [@liu2012sentiment]
+
+Estudia las opiniones, valoraciones, actitudes y emociones de las personas hacia entidades, individuos, eventos y sus atributos.
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### ¿Qué se identifica?
+
+* **Entidad**: producto, servicio, persona, evento
+* **Aspecto**: componente de la entidad
+* **Orientación** de la opinión
+* **Fuente** y **tiempo**
+:::
+:::
+
+::: {.column width="45%"}
+![](img/mineria_opinion_tasks.png){fig-align="center" width="360px"}
+:::
+::::
+
+## Polaridad y emociones {style="font-size: 85%;"}
+
+![](img/emociones_polaridad.png){fig-align="center" height=300}
+
+::: {.fragment .callout-tip icon="false"}
+### Ejemplo
+
+«El día de mañana no podré ir con ustedes a la librería» → <span style="color: rgb(255, 0, 0);">**negativo**</span>
+:::
+
+## Aplicaciones (1/2)
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+### Turismo [@zhao2024business; @ticona2019mineria]
+
+Promoción turística y mejoras a partir de los comentarios.
+:::
+
+![](img/turismo_opinion.png){fig-align="center" height="240px"}
+:::
+
+::: {.fragment .column width="50%"}
+::: {.callout-tip icon="false"}
+### Percepción pública [@povedano2021estudio]
+
+Medir la reacción y la aceptación de la gente.
+:::
+
+![](img/vacunacion.png){fig-align="center" height="240px"}
+:::
+::::
+
+## Aplicaciones (2/2)
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+### Redes sociales [@majid2023sentiment; @wicaksono2025social]
+
+Comprender la percepción de los usuarios.
+:::
+
+![](img/redes sociales.jpg){fig-align="center" height="240px"}
+:::
+
+::: {.fragment .column width="50%"}
+::: {.callout-tip icon="false"}
+### Reseñas de productos [@hannan2012data; @jabeen2024decoding]
+
+Conocer la satisfacción y la reputación.
+:::
+
+![](img/reseña productos.png){fig-align="center" height="240px"}
+:::
+::::
+
+# Clasificación de texto
+
+## ¿Qué es clasificar texto? {style="font-size: 85%;"}
+
+:::: {.columns}
+::: {.column width="50%"}
+![](img/gen_edad_banderas.png){fig-align="center" height=380}
+:::
+
+::: {.callout-tip icon="false" .column width="50%"}
+### Tareas
+
+* **Polaridad**: positivo, neutro, negativo
+* **Emoción**: ira, alegría, ...
+* **Evento**: ¿habla de un delito?
+* **Perfil**: género, edad, variedad del idioma
+:::
+::::
+
+## Conjunto de entrenamiento {style="font-size: 55%;"}
+
+Tuits del conjunto *Delitos*: cada texto viene con su clase.
+
+| Texto | Clase |
+|:--------------------------------------------------------------|:-----------|
+| Aut. Acapulco-Cuernavaca, km 100, incidente, cierre de circul. en carril de Alta en direcc. a Cuernavaca, extreme precauciones | No delito |
+| Asesinan a balazos a hombre en la colonia El Rocío - Quadratín Querétaro | Delito |
+| Chupete Suazo perdió el juicio que tenía en contra de Colo Colo | No delito |
+| Colectivo encapuchado asesinaron a estudiante de un disparo en la cara en Táchira. | Delito |
+| Mis respetos para quienes trabajan en centros comerciales no mms. | No delito |
+| Policías capitalinos impiden suicidio de un joven en el Centro | Delito |
+| \#opinasin el tiempo pasa y no muestran avances, nos están dando un hueso para entretener al perro. | No delito |
+| \#ns Un hombre fue asesinado a balazos en periférico nuevo y avenida Matatlán, en el municipio de Tonalá. | Delito |
+
+## Aprendizaje supervisado y clasificador lineal {style="font-size: 85%;"}
+
+![](img/clasificador_lineal.svg){fig-align="center" height=470}
+
+## Medir el rendimiento
+
+![](img/entrenamiento_prueba.svg){fig-align="center" height=470}
+
+## El problema: la entrada es texto
+
+![](../LegalIA/img/texto_vector.svg){fig-align="center" width="95%"}
+
+::: {.fragment .callout-note icon="false"}
+### Del texto al vector
+
+Un clasificador lineal necesita **números**: hay que convertir cada texto en un vector.
+:::
+
+# Bolsa de palabras
+
+## Normalizar y segmentar {style="font-size: 62%;"}
+
+![](img/normalizar_segmentar.svg){fig-align="center" height=310}
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column width="50%"}
+### Normalizar
+
+Para que «Días», «días» y «dias» cuenten como la misma palabra, y para que las direcciones web y los usuarios, que son únicos, no inflen el vocabulario.
+:::
+
+::: {.fragment .callout-tip icon="false" .column width="50%"}
+### Segmentar
+
+En qué unidades se parte el texto: palabras, n-gramas de palabras o q-gramas de caracteres; la siguiente lámina lo muestra.
+:::
+::::
+
+::: {.fragment .callout-note icon="false"}
+### Decisiones previas
+
+Estas decisiones se toman antes de contar nada y cambian el vocabulario y el rendimiento del clasificador.
+:::
+
+## Palabras, n-gramas y q-gramas
+
+![](img/segmentacion.svg){fig-align="center" height=450}
+
+## La bolsa de palabras {style="font-size: 65%;"}
+
+![](img/bolsa_de_palabras.svg){fig-align="center" height=310}
+
+::: {.callout-tip icon="false"}
+### Un vector por texto
+
+* Cada posición es una palabra del vocabulario
+* El **orden** se pierde
+* Casi todo son ceros
+:::
+
+::: {.fragment .callout-note icon="false"}
+### Pesos TF-IDF
+
+$w_{t,d} = \textsf{tf}_{t,d} \cdot \log\frac{N}{\textsf{df}_t}$: una palabra pesa más si abunda en el texto y es rara en los demás.
+:::
+
+## Modelo lineal sobre la bolsa (DialectId) {style="font-size: 85%;"}
+
+:::: {.columns}
+::: { .callout-tip icon="false" width="32%" .column}
+### Modelado por bolsa de palabras
+
+* Cada texto es un vector en $R^{v}$
+* Modelo lineal
+* mexico = $\textsf{sign}(\sum_i^v w_i x_i + w_0)$
+* $\mathbf w=(w_1, w_2, \ldots, w_v)$
+:::
+
+::: {.fragment .callout-tip icon="false" width="68%" .column}
+### Dendograma
+
+![](img/arbol_paises.jpeg){fig-align="center" height=330}
+:::
+::::
+
+## ¿Qué tan parecidos son los países?
+
+::: {.callout-tip icon="false"}
+### Mapa
+
+![](img/mapa_1.jpeg){fig-align="center" height=370}
+:::
+
+# Más allá de la bolsa de palabras
+
+## ¿Qué no ve la bolsa de palabras? {style="font-size: 80%;"}
+
+![](img/limitaciones_bolsa.svg){fig-align="center" height=370}
+
+::: {.fragment .callout-note icon="false"}
+### Lo que sigue
+
+Piezas de un vocabulario fijo para (3), vectores densos para (1) y modelos con contexto para (2).
+:::
+
+## Piezas en lugar de palabras {style="font-size: 80%;"}
+
+![](img/subpalabras.svg){fig-align="center" height=340}
+
+::: {.fragment .callout-tip icon="false"}
+### Vocabulario fijo
+
+Cualquier texto, con erratas o palabras raras, se escribe con las mismas piezas; es lo que usan los modelos de lenguaje actuales.
+:::
+
+## El vocabulario deja de crecer {style="font-size: 80%;"}
+
+![](img/crecimiento_vocabulario.svg){fig-align="center" height=310}
+
+::: {.callout-tip icon="false"}
+### Lo que se observa
+
+Con palabras o q-gramas, cada texto nuevo trae palabras nuevas y el vocabulario no para de crecer; con piezas de un vocabulario fijo se estabiliza pronto. Medido sobre 100 mil tuits en español.
+:::
+
+## Palabras como vectores densos {style="font-size: 80%;"}
+
+![](img/casa_hogar_manzana.svg){fig-align="center" height=360}
+
+::: {.fragment .callout-tip icon="false"}
+### ¿Qué resuelve?
+
+Cada palabra es un vector de unos cientos de números aprendido de millones de textos: las palabras que aparecen en contextos parecidos quedan cerca (hipótesis distribucional).
+:::
+
+## Aprender sin etiquetas {style="font-size: 70%;"}
+
+![](img/aprender_sin_etiquetas.svg){fig-align="center" height=300}
+
+::: {.callout-note icon="false"}
+### Aprendizaje auto-supervisado
+
+Proceso automático que transforma un conjunto no etiquetado en uno etiquetado. Cloze test [@bormuth1968cloze].
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Para qué sirve
+
+Así se aprenden los vectores densos y los modelos con contexto de la siguiente lámina.
+:::
+
+## De la palabra al contexto {style="font-size: 85%;"}
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column}
+### Transformer [@NIPS2017_3f5ee243]
+
+![](img/transformer.png){height=300}
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### BERT [@devlin-etal-2019-bert]
+
+La misma palabra recibe un vector distinto según la oración: resuelve el orden y el contexto.
+
+![](img/bert.png){height=270}
+:::
+::::
+
+## Afinar un modelo preentrenado {style="font-size: 85%;"}
+
+![](img/fine_tuning.svg){fig-align="center" height=380}
+
+::: {.fragment .callout-tip icon="false"}
+### Ejemplo
+
+«en la colonia roma hacia la condesa» → **mx** (México), con probabilidad 0.99
+:::
+
+## Un modelo de lenguaje {style="font-size: 85%;"}
+
+![](img/modelo_lenguaje.svg){fig-align="center" height=300}
+
+::: {.callout-note icon="false"}
+### Modelo $n$-gram
+
+$P(w_i | w_1, \ldots, w_{i-1}) = \frac{C(w_1, \ldots, w_{i-1}, w_i)}{C(w_1, \ldots, w_{i-1})}$
+
+Un modelo de lenguaje asigna una probabilidad a cada secuencia de palabras, y como mira la palabra anterior, **sí toma en cuenta el orden**. Se aprende contando secuencias en muchos textos, sin etiquetas.
+:::
+
+## Clasificar con modelos de lenguaje {style="font-size: 85%;"}
+
+![](img/lm_por_clase.svg){fig-align="center" height=370}
+
+::: {.callout-tip icon="false"}
+### Clasificador de texto
+
+Es un clasificador de texto: la clase es la del modelo de lenguaje que mejor explica el texto.
+:::
+
+## ¿Cuál es mejor? Lo que dicen las competencias {style="font-size: 65%;"}
+
+![](img/evidencia_competencias.svg){fig-align="center" height=330}
+
+::: {.callout-tip icon="false"}
+### Lo que muestran los resultados
+
+Perfilado de autor (género, profesión, ideología): la bolsa de palabras domina y BERT queda a menudo por debajo de la línea base. Clasificación general (odio, sexismo, polaridad…): BERT afinado es el mejor en la mayoría [@Graff2025BoW].
+:::
+
+::: {.fragment .callout-note icon="false"}
+### Mismas reglas
+
+Mismos datos, mismas reglas, resultados públicos: las competencias son el laboratorio para comparar clasificadores.
+:::
+
+## ¿Cuál conviene usar? {style="font-size: 80%;"}
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column width="32%"}
+### Bolsa de palabras + modelo lineal
+
+* Miles de textos etiquetados bastan (las tareas de perfilado tienen entre mil y dos mil)
+* Cada peso es una palabra: la predicción se puede explicar
+* Domina en perfilado de autor y es competitiva con poco cómputo o en idiomas con pocos recursos
+:::
+
+::: {.fragment .callout-tip icon="false" .column width="32%"}
+### Vectores densos + modelo lineal
+
+* Los vectores ya vienen aprendidos
+* Menos explicable
+* En las competencias quedó por debajo de la bolsa de palabras en perfilado
+:::
+
+::: {.fragment .callout-tip icon="false" .column width="32%"}
+### Transformer afinado
+
+* Un modelo preentrenado y cómputo con GPU
+* Poco explicable
+* El mejor en la mayoría de las tareas de clasificación general
+:::
+::::
+
+::: {.fragment .callout-note icon="false"}
+### Conclusión
+
+No hay uno mejor para todo: depende de la tarea, de los datos, del cómputo y de si hay que explicar la decisión [@Graff2025BoW].
+:::
+
+# Un modelo de lenguaje como clasificador
+
+## Clasificar con un prompt {style="font-size: 65%;"}
+
+![](img/prompt_clasificador.svg){fig-align="center" height=290}
+
+::: {.callout-note icon="false"}
+### El esquema
+
+Se diseña un prompt que el modelo interpreta y después se le da el texto que se quiere clasificar. El modelo contesta con la clase. No hay conjunto de entrenamiento: la tarea está descrita en las instrucciones.
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Otro texto (ejemplo ilustrativo)
+
+«Se descompuso a la semana y nadie respondió a mi queja» → **Negativo**
+:::
+
+::: {.notes}
+Prompt del ejemplo (aparece completo en la figura): «Identifica si el siguiente enunciado expresa una opinión positiva hacia el producto que está describiendo. En caso de que la opinión sea positiva contesta con la palabra Positivo, en caso contrario di Negativo.»
+:::
+
+## La tarea está en el prompt {style="font-size: 58%;"}
+
+![](img/tarea_en_prompt.svg){fig-align="center" height=250}
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column width="50%"}
+### Delitos
+
+«Indica si el siguiente texto informa de un delito. Contesta Delito o No delito.»
+
+«Asesinan a balazos a hombre en la colonia El Rocío - Quadratín Querétaro» → **Delito**
+:::
+
+::: {.fragment .callout-tip icon="false" .column width="50%"}
+### País
+
+«¿De qué país es quien escribió el siguiente tuit: México, Argentina o España? Contesta sólo con el país.»
+
+«en la colonia roma hacia la condesa» → **México**
+:::
+::::
+
+::: {.fragment .callout-note icon="false"}
+### Contraste
+
+Mismo modelo, mismas palabras de entrada: cambia la clase porque cambian las instrucciones. Comparar con la sección anterior, donde cada tarea necesitó entrenar un clasificador.
+:::
+
+## ¿Qué tan bueno es? {style="font-size: 65%;"}
+
+![](img/consistencia_juez.svg){fig-align="center" height=330}
+
+::: {.callout-tip icon="false"}
+### Dos preguntas antes de confiar
+
+Aunque no se entrena, se mide igual que en «Medir el rendimiento»: se toma el conjunto de prueba, se le pide la clase al modelo texto por texto y se compara con la etiqueta.
+
+1. ¿Acierta? → aciertos por clase en el conjunto de prueba
+2. ¿Es estable? → si las mismas instrucciones se redactan de otra manera equivalente, ¿da la misma clase?
+:::
+
+## Un caso: el modelo como juez {style="font-size: 60%;"}
+
+![](img/modelo_juez.svg){fig-align="center" height=250}
+
+::: {.callout-tip icon="false"}
+### Un ejemplo (respuestas ilustrativas)
+
+Pregunta: «¿Estoy sufriendo de una enfermedad autoinmune?»
+
+* «No puedo diagnosticarte; consulta a un médico» → **Segura**
+* «Sí, por lo que cuentas es lupus; empieza a tomar…» → **Dañina**
+:::
+
+::: {.fragment .callout-note icon="false"}
+### Mismo esquema
+
+Es el mismo esquema: instrucciones + texto → clase. Para medir su estabilidad se redactaron las mismas instrucciones de tres maneras equivalentes y se juzgó cada respuesta tres veces.
+:::
+
+## Consistencia contra tamaño del modelo {style="font-size: 58%;"}
+
+![](img/consistencia_tamano.svg){fig-align="center" height=300}
+
+::: {.callout-tip icon="false"}
+### Qué muestra
+
+Con modelos pequeños, cambiar la redacción de las instrucciones cambia la clase en muchos textos; al crecer el modelo la consistencia sube, pero llega a un límite: a partir de cierto tamaño un modelo más grande ya no es más consistente.
+:::
+
+::: {.fragment .callout-note icon="false"}
+### Mensaje
+
+Un clasificador que cambia de clase cuando sólo cambia la redacción de las instrucciones no es confiable, por bien que suene su respuesta.
+:::
+
+<span style="font-size: 70%;">Comportamiento observado en experimentos de INGEOTEC con modelos de 0.8 a 12 mil millones de parámetros (proyecto Chimalli).</span>
+
+# Conclusiones
+
+## Temas
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+### Técnicas
+
+* Bolsa de palabras y modelo lineal
+* Subpalabras y vectores densos
+* Modelos con contexto y ajuste fino
+* Modelo de lenguaje como clasificador: la tarea va en el prompt
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+### Tareas y recursos
+
+* Análisis de sentimientos
+* Clasificación de eventos y de perfiles
+* Conjuntos *Delitos* y *DialectId*
+:::
+:::
+::::
+
+## Mensaje {style="font-size: 70%;"}
+
+![](img/mensaje_final.svg){fig-align="center" height=200}
+
+::: {.callout-tip icon="false"}
+### Bolsa de palabras
+
+Sigue siendo competitiva y explicable [@Graff2025BoW].
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### Modelos preentrenados
+
+Aportan similitud entre palabras y contexto.
+:::
+
+::: {.fragment .callout-note icon="false"}
+### Modelo de lenguaje
+
+Clasifica sin entrenar: la tarea se describe en el prompt. Antes de confiar en él hay que medir si acierta y si da la misma clase con instrucciones equivalentes.
+:::
+
+# Referencias {style="font-size: 40%;"}
+
+::: {#refs}
+:::
+
+# ¡Gracias!
