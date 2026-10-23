@@ -419,15 +419,31 @@ Un modelo de lenguaje asigna una probabilidad a cada secuencia de palabras, y co
 Es un clasificador de texto: la clase es la del modelo de lenguaje que mejor explica el texto.
 :::
 
+## ¿Cuál es mejor? Lo que dicen las competencias {style="font-size: 65%;"}
+
+![](img/evidencia_competencias.svg){fig-align="center" height=330}
+
+::: {.callout-tip icon="false"}
+### Lo que muestran los resultados
+
+Perfilado de autor (género, profesión, ideología): la bolsa de palabras domina y BERT queda a menudo por debajo de la línea base. Clasificación general (odio, sexismo, polaridad…): BERT afinado es el mejor en la mayoría [@Graff2025BoW].
+:::
+
+::: {.fragment .callout-note icon="false"}
+### Mismas reglas
+
+Mismos datos, mismas reglas, resultados públicos: las competencias son el laboratorio para comparar clasificadores.
+:::
+
 ## ¿Cuál conviene usar? {style="font-size: 80%;"}
 
 :::: {.columns}
 ::: {.callout-tip icon="false" .column width="32%"}
 ### Bolsa de palabras + modelo lineal
 
-* Miles de textos etiquetados
-* Cada peso es una palabra: muy explicable
-* Pocos recursos; resultados rápidos y competitivos
+* Miles de textos etiquetados bastan (las tareas de perfilado tienen entre mil y dos mil)
+* Cada peso es una palabra: la predicción se puede explicar
+* Domina en perfilado de autor y es competitiva con poco cómputo o en idiomas con pocos recursos
 :::
 
 ::: {.fragment .callout-tip icon="false" .column width="32%"}
@@ -435,7 +451,7 @@ Es un clasificador de texto: la clase es la del modelo de lenguaje que mejor exp
 
 * Los vectores ya vienen aprendidos
 * Menos explicable
-* Cuando hay pocos textos etiquetados
+* En las competencias quedó por debajo de la bolsa de palabras en perfilado
 :::
 
 ::: {.fragment .callout-tip icon="false" .column width="32%"}
@@ -443,14 +459,14 @@ Es un clasificador de texto: la clase es la del modelo de lenguaje que mejor exp
 
 * Un modelo preentrenado y cómputo con GPU
 * Poco explicable
-* Cuando se busca el mejor rendimiento
+* El mejor en la mayoría de las tareas de clasificación general
 :::
 ::::
 
 ::: {.fragment .callout-note icon="false"}
 ### Conclusión
 
-No hay uno mejor para todo: depende de los datos, del cómputo y de si hay que explicar la decisión.
+No hay uno mejor para todo: depende de la tarea, de los datos, del cómputo y de si hay que explicar la decisión [@Graff2025BoW].
 :::
 
 # Un modelo de lenguaje como clasificador
@@ -587,7 +603,7 @@ Un clasificador que cambia de clase cuando sólo cambia la redacción de las ins
 ::: {.callout-tip icon="false"}
 ### Bolsa de palabras
 
-Sigue siendo competitiva y explicable.
+Sigue siendo competitiva y explicable [@Graff2025BoW].
 :::
 
 ::: {.fragment .callout-tip icon="false"}
