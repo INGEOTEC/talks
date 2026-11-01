@@ -4,7 +4,7 @@ title: "Clasificación de Texto y Análisis de Sentimientos"
 author:
     - name: "Mario Graff"
       url: https://mgraffg.github.io
-      affiliation: "División de Economía Aplicada, Centro de Investigación y Docencia Económicas (CIDE)"
+      affiliation: "División de Economía Aplicada<br>Centro de Investigación y Docencia Económicas (CIDE)"
 abstract: |
   ¿Cómo sabe una computadora si un comentario es positivo o negativo, si un tuit habla de un delito o de qué país es quien lo escribió? En esta charla se recorre el camino de la clasificación de texto, desde el análisis de sentimientos y sus aplicaciones hasta los modelos que hoy se usan para resolverlo. Se parte de la bolsa de palabras y de un modelo lineal, que son sencillos, rápidos y explicables, y se explican sus límites. Después se presentan las subpalabras con vocabulario fijo, los vectores densos, los modelos con contexto y el ajuste fino de un clasificador. La charla cierra con una idea reciente: clasificar con un modelo de lenguaje sin entrenarlo, describiendo la tarea en un prompt y dándole después el texto, y con la pregunta que hay que hacerse antes de confiar en él: ¿da la misma clase cuando las instrucciones se redactan de maneras equivalentes?
 
