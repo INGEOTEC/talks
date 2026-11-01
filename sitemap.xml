@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://INGEOTEC.github.io/talks/MetricSearch/index.html</loc>
-    <lastmod>2026-10-23T03:44:09.295Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/restMex2023.html</loc>
-    <lastmod>2026-10-23T03:44:09.174Z</lastmod>
+    <loc>https://INGEOTEC.github.io/talks/MexLEF2023/index.html</loc>
+    <lastmod>2026-11-01T17:44:13.545Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/IberLEF2023/RestMex2023-10mins.html</loc>
-    <lastmod>2026-10-23T03:44:09.170Z</lastmod>
+    <lastmod>2026-11-01T17:44:13.356Z</lastmod>
   </url>
   <url>
-    <loc>https://INGEOTEC.github.io/talks/TextClassification/ropec2024.html</loc>
-    <lastmod>2026-10-23T03:44:09.434Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/TextClassification/ciencia_datos.html</loc>
-    <lastmod>2026-10-23T03:44:09.316Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/TextClassification/competencias.html</loc>
-    <lastmod>2026-10-23T03:44:09.316Z</lastmod>
+    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/restMex2023.html</loc>
+    <lastmod>2026-11-01T17:44:13.362Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/TextClassification/reclutamiento.html</loc>
-    <lastmod>2026-10-23T03:44:09.434Z</lastmod>
+    <lastmod>2026-11-01T17:44:13.697Z</lastmod>
   </url>
   <url>
-    <loc>https://INGEOTEC.github.io/talks/MexLEF2023/index.html</loc>
-    <lastmod>2026-10-23T03:44:09.314Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/LegalIA/index.html</loc>
-    <lastmod>2026-10-23T03:44:09.191Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/index.html</loc>
-    <lastmod>2026-10-23T03:44:09.473Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/TextClassification/educacion.html</loc>
-    <lastmod>2026-10-23T03:44:09.316Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INGEOTEC.github.io/talks/TextClassification/poornima.html</loc>
-    <lastmod>2026-10-23T03:44:09.434Z</lastmod>
+    <loc>https://INGEOTEC.github.io/talks/TextClassification/competencias.html</loc>
+    <lastmod>2026-11-01T17:44:13.547Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/TextClassification/quantum.html</loc>
-    <lastmod>2026-10-23T03:44:09.434Z</lastmod>
+    <lastmod>2026-11-01T17:44:13.697Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/TextClassification/ciencia_datos.html</loc>
+    <lastmod>2026-11-01T17:44:13.547Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/TextClassification/sentimientos.html</loc>
-    <lastmod>2026-10-23T03:44:09.434Z</lastmod>
+    <lastmod>2026-11-01T17:44:13.697Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/LegalIA/index.html</loc>
+    <lastmod>2026-11-01T17:44:13.384Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/index.html</loc>
+    <lastmod>2026-11-01T17:44:13.747Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/TextClassification/general.html</loc>
-    <lastmod>2026-10-23T03:44:09.316Z</lastmod>
+    <lastmod>2026-11-01T17:44:13.547Z</lastmod>
   </url>
   <url>
-    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/short-davincis2023.html</loc>
-    <lastmod>2026-10-23T03:44:09.174Z</lastmod>
+    <loc>https://INGEOTEC.github.io/talks/TextClassification/ropec2024.html</loc>
+    <lastmod>2026-11-01T17:44:13.697Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/TextClassification/poornima.html</loc>
+    <lastmod>2026-11-01T17:44:13.697Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/TextClassification/educacion.html</loc>
+    <lastmod>2026-11-01T17:44:13.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/MetricSearch/index.html</loc>
+    <lastmod>2026-11-01T17:44:13.520Z</lastmod>
   </url>
   <url>
     <loc>https://INGEOTEC.github.io/talks/IberLEF2023/davincis2023.html</loc>
-    <lastmod>2026-10-23T03:44:09.171Z</lastmod>
+    <lastmod>2026-11-01T17:44:13.358Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INGEOTEC.github.io/talks/IberLEF2023/short-davincis2023.html</loc>
+    <lastmod>2026-11-01T17:44:13.362Z</lastmod>
   </url>
 </urlset>
