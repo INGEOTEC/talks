@@ -416,40 +416,70 @@ La misma palabra recibe un vector distinto según la oración, con lo que resuel
 «en la colonia roma hacia la condesa» → **mx** (México), con probabilidad 0.99
 :::
 
-## Para empezar: afinar bilmaLAT {style="font-size: 55%;"}
+## Para empezar: afinar bilmaLAT {style="font-size: 80%;"}
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column width="52%"}
+### 1. Preparar datos y modelo
 
 ```python
 from datasets import Dataset
-from transformers import (AutoTokenizer, AutoModelForSequenceClassification,
-                          TrainingArguments, Trainer, pipeline)
+from transformers import (
+    AutoTokenizer, AutoModelForSequenceClassification,
+    TrainingArguments, Trainer, pipeline)
 
 MODELO = 'guillermoruiz/bilmaLAT'
 tokenizer = AutoTokenizer.from_pretrained(MODELO)
 
 # datos: lista de dict(text=..., label=...)
-ds = Dataset.from_list(datos).class_encode_column('label')
+ds = Dataset.from_list(datos)
+ds = ds.class_encode_column('label')
 label = ds.features['label']
-id2label = {i: label.int2str(i) for i in range(label.num_classes)}
+id2label = {i: label.int2str(i)
+            for i in range(label.num_classes)}
 label2id = {v: k for k, v in id2label.items()}
 model = AutoModelForSequenceClassification.from_pretrained(
-    MODELO, num_labels=label.num_classes, id2label=id2label, label2id=label2id)
+    MODELO, num_labels=label.num_classes,
+    id2label=id2label, label2id=label2id)
 
-ds = ds.map(lambda x: tokenizer(x['text'], padding="max_length",
-                                max_length=126, truncation=True),
+ds = ds.map(lambda x: tokenizer(
+                x['text'], padding="max_length",
+                max_length=126, truncation=True),
             batched=True, remove_columns=['text'])
-ds = ds.train_test_split(test_size=0.2, seed=0, stratify_by_column='label')
+ds = ds.train_test_split(test_size=0.2, seed=0,
+                         stratify_by_column='label')
+```
+:::
 
-args = TrainingArguments(output_dir="model_mx", learning_rate=7e-5,
-                         num_train_epochs=4, per_device_train_batch_size=64,
-                         report_to='none')
+::: {.column width="48%"}
+::: {.fragment .callout-tip icon="false"}
+### 2. Afinar
+
+```python
+args = TrainingArguments(
+    output_dir="model_mx", learning_rate=7e-5,
+    num_train_epochs=4, report_to='none',
+    per_device_train_batch_size=64)
 trainer = Trainer(model=model, args=args,
-                  train_dataset=ds['train'], eval_dataset=ds['test'])
+                  train_dataset=ds['train'],
+                  eval_dataset=ds['test'])
 trainer.train()
 trainer.save_model("model_mx")
+```
+:::
 
-clasificador = pipeline("text-classification", model="./model_mx", tokenizer=MODELO)
+::: {.fragment .callout-tip icon="false"}
+### 3. Clasificar
+
+```python
+clasificador = pipeline(
+    "text-classification",
+    model="./model_mx", tokenizer=MODELO)
 clasificador("en la colonia roma hacia la condesa")
 ```
+:::
+:::
+::::
 
 ::: {.notes}
 En la libreta se antepone `[MASK] [MASK] [MASK]` a cada texto, un truco propio de bilmaLAT, que aprendió a reconocer país, año y mes. Como aquí sólo interesa el país, se enmascaran los otros dos datos. Para entrenar en un tiempo razonable se necesita GPU. En la libreta se usan 1000 textos por país (México, Argentina y España) del conjunto DialectId.
