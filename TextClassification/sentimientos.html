@@ -31,6 +31,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
@@ -288,7 +354,7 @@
 <p><strong>Esta charla</strong></p>
 </div>
 <div class="callout-content">
-<p>Una de las tareas más usadas: decidir <strong>qué dice un texto</strong> sobre algo, es decir, clasificarlo.</p>
+<p>Se centra en una de las tareas más usadas, decidir <strong>qué dice un texto</strong> sobre algo, es decir, clasificarlo.</p>
 </div>
 </div>
 </div>
@@ -466,7 +532,7 @@
 </section>
 <section id="conjunto-de-entrenamiento" class="slide level2" style="font-size: 55%;">
 <h2>Conjunto de entrenamiento</h2>
-<p>Tuits del conjunto <em>Delitos</em>: cada texto viene con su clase.</p>
+<p>Tuits del conjunto <em>Delitos</em>, donde cada texto viene con su clase.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 84%">
@@ -530,8 +596,8 @@
 </figure>
 </div>
 </section>
-<section id="el-problema-la-entrada-es-texto" class="slide level2">
-<h2>El problema: la entrada es texto</h2>
+<section id="la-entrada-es-texto" class="slide level2">
+<h2>La entrada es texto</h2>
 
 <img data-src="../LegalIA/img/texto_vector.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:95.0%"><div class="fragment">
 <div class="callout callout-note no-icon callout-titled callout-style-default">
@@ -540,7 +606,7 @@
 <p><strong>Del texto al vector</strong></p>
 </div>
 <div class="callout-content">
-<p>Un clasificador lineal necesita <strong>números</strong>: hay que convertir cada texto en un vector.</p>
+<p>Un clasificador lineal necesita <strong>números</strong>, así que hay que convertir cada texto en un vector.</p>
 </div>
 </div>
 </div>
@@ -577,7 +643,7 @@
 <p><strong>Segmentar</strong></p>
 </div>
 <div class="callout-content">
-<p>En qué unidades se parte el texto: palabras, n-gramas de palabras o q-gramas de caracteres; la siguiente lámina lo muestra.</p>
+<p>Decide en qué unidades se parte el texto, que pueden ser palabras, n-gramas de palabras o q-gramas de caracteres. La siguiente lámina lo muestra.</p>
 </div>
 </div>
 </div>
@@ -631,7 +697,7 @@
 <p><strong>Pesos TF-IDF</strong></p>
 </div>
 <div class="callout-content">
-<p><span class="math inline">\(w_{t,d} = \textsf{tf}_{t,d} \cdot \log\frac{N}{\textsf{df}_t}\)</span>: una palabra pesa más si abunda en el texto y es rara en los demás.</p>
+<p><span class="math inline">\(w_{t,d} = \textsf{tf}_{t,d} \cdot \log\frac{N}{\textsf{df}_t}\)</span>. Una palabra pesa más si abunda en el texto y es rara en los demás.</p>
 </div>
 </div>
 </div>
@@ -689,6 +755,27 @@
 </div>
 </div>
 </div>
+</section>
+<section id="clasificando-con-evomsa" class="slide level2" style="font-size: 85%;">
+<h2>Clasificando con EvoMSA</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="co"># pip install EvoMSA   (o: conda install -c conda-forge EvoMSA)</span></span>
+<span id="cb1-2"><a></a><span class="im">from</span> EvoMSA.back_prop <span class="im">import</span> StackBoW</span>
+<span id="cb1-3"><a></a></span>
+<span id="cb1-4"><a></a><span class="co"># D: lista de textos de entrenamiento, y: sus clases</span></span>
+<span id="cb1-5"><a></a>stack <span class="op">=</span> StackBoW(lang<span class="op">=</span><span class="st">'es'</span>, voc_size_exponent<span class="op">=</span><span class="dv">17</span>).fit(D, y)</span>
+<span id="cb1-6"><a></a><span class="co"># G: lista de textos por clasificar</span></span>
+<span id="cb1-7"><a></a>hy <span class="op">=</span> stack.predict(G)</span>
+<span id="cb1-8"><a></a>stack.mixer_value   <span class="co"># peso de cada clasificador en la combinación convexa</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>¿Qué hace <code>StackBoW</code>?</strong></p>
+</div>
+<div class="callout-content">
+<p>Combina, con una combinación convexa, la bolsa de palabras preentrenada (vocabulario de <span class="math inline">\(2^{17}\)</span>), la bolsa de palabras aprendida en el conjunto de entrenamiento y los vectores densos. <code>mixer_value</code> muestra cuánto pesa cada uno, lo que la hace explicable <span class="citation" data-cites="Graff2025BoW">(<a href="#/referencias" role="doc-biblioref" onclick="">Graff et&nbsp;al. 2025</a>)</span>.</p>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="más-allá-de-la-bolsa-de-palabras" class="title-slide slide level1 center">
@@ -729,7 +816,7 @@
 <p><strong>Vocabulario fijo</strong></p>
 </div>
 <div class="callout-content">
-<p>Cualquier texto, con erratas o palabras raras, se escribe con las mismas piezas; es lo que usan los modelos de lenguaje actuales.</p>
+<p>Cualquier texto, con erratas o palabras raras, se escribe con las mismas piezas. Así trabajan los modelos de lenguaje actuales.</p>
 </div>
 </div>
 </div>
@@ -748,7 +835,7 @@
 <p><strong>Lo que se observa</strong></p>
 </div>
 <div class="callout-content">
-<p>Con palabras o q-gramas, cada texto nuevo trae palabras nuevas y el vocabulario no para de crecer; con piezas de un vocabulario fijo se estabiliza pronto. Medido sobre 100 mil tuits en español.</p>
+<p>Con palabras o q-gramas, cada texto nuevo trae palabras nuevas y el vocabulario no para de crecer. Con piezas de un vocabulario fijo, en cambio, se estabiliza pronto. Medido sobre 100 mil tuits en español.</p>
 </div>
 </div>
 </div>
@@ -767,7 +854,7 @@
 <p><strong>¿Qué resuelve?</strong></p>
 </div>
 <div class="callout-content">
-<p>Cada palabra es un vector de unos cientos de números aprendido de millones de textos: las palabras que aparecen en contextos parecidos quedan cerca (hipótesis distribucional).</p>
+<p>Cada palabra es un vector de unos cientos de números aprendido de millones de textos. Las palabras que aparecen en contextos parecidos quedan cerca (hipótesis distribucional).</p>
 </div>
 </div>
 </div>
@@ -824,7 +911,7 @@
 <p><strong>BERT <span class="citation" data-cites="devlin-etal-2019-bert">(<a href="#/referencias" role="doc-biblioref" onclick="">Devlin et&nbsp;al. 2019</a>)</span></strong></p>
 </div>
 <div class="callout-content">
-<p>La misma palabra recibe un vector distinto según la oración: resuelve el orden y el contexto.</p>
+<p>La misma palabra recibe un vector distinto según la oración, con lo que resuelve el orden y el contexto.</p>
 <p><img data-src="img/bert.png" height="270"></p>
 </div>
 </div>
@@ -883,7 +970,7 @@
 <p><strong>Clasificador de texto</strong></p>
 </div>
 <div class="callout-content">
-<p>Es un clasificador de texto: la clase es la del modelo de lenguaje que mejor explica el texto.</p>
+<p>Es un clasificador de texto, porque la clase es la del modelo de lenguaje que mejor explica el texto.</p>
 </div>
 </div>
 </div>
@@ -901,7 +988,7 @@
 <p><strong>Lo que muestran los resultados</strong></p>
 </div>
 <div class="callout-content">
-<p>Perfilado de autor (género, profesión, ideología): la bolsa de palabras domina y BERT queda a menudo por debajo de la línea base. Clasificación general (odio, sexismo, polaridad…): BERT afinado es el mejor en la mayoría <span class="citation" data-cites="Graff2025BoW">(<a href="#/referencias" role="doc-biblioref" onclick="">Graff et&nbsp;al. 2025</a>)</span>.</p>
+<p>En el perfilado de autor (género, profesión, ideología) la bolsa de palabras domina y BERT queda a menudo por debajo de la línea base. En la clasificación general (odio, sexismo, polaridad…) BERT afinado es el mejor en la mayoría <span class="citation" data-cites="Graff2025BoW">(<a href="#/referencias" role="doc-biblioref" onclick="">Graff et&nbsp;al. 2025</a>)</span>.</p>
 </div>
 </div>
 </div>
@@ -912,7 +999,7 @@
 <p><strong>Mismas reglas</strong></p>
 </div>
 <div class="callout-content">
-<p>Mismos datos, mismas reglas, resultados públicos: las competencias son el laboratorio para comparar clasificadores.</p>
+<p>Como las competencias usan los mismos datos y las mismas reglas, y publican los resultados, son el laboratorio para comparar clasificadores.</p>
 </div>
 </div>
 </div>
@@ -930,7 +1017,7 @@
 <div class="callout-content">
 <ul>
 <li>Miles de textos etiquetados bastan (las tareas de perfilado tienen entre mil y dos mil)</li>
-<li>Cada peso es una palabra: la predicción se puede explicar</li>
+<li>Cada peso es una palabra, así que la predicción se puede explicar</li>
 <li>Domina en perfilado de autor y es competitiva con poco cómputo o en idiomas con pocos recursos</li>
 </ul>
 </div>
@@ -979,6 +1066,95 @@
 </div>
 </div>
 </div>
+</section>
+<section id="afinando-bilmalat" class="slide level2" style="font-size: 80%;">
+<h2>Afinando bilmaLAT</h2>
+<div class="columns">
+<div class="column" style="width:52%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>1. Preparar datos y modelo</strong></p>
+</div>
+<div class="callout-content">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="im">from</span> datasets <span class="im">import</span> Dataset</span>
+<span id="cb2-2"><a></a><span class="im">from</span> transformers <span class="im">import</span> (</span>
+<span id="cb2-3"><a></a>    AutoTokenizer, AutoModelForSequenceClassification,</span>
+<span id="cb2-4"><a></a>    TrainingArguments, Trainer, pipeline)</span>
+<span id="cb2-5"><a></a></span>
+<span id="cb2-6"><a></a>MODELO <span class="op">=</span> <span class="st">'guillermoruiz/bilmaLAT'</span></span>
+<span id="cb2-7"><a></a>tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(MODELO)</span>
+<span id="cb2-8"><a></a></span>
+<span id="cb2-9"><a></a><span class="co"># datos: lista de dict(text=..., label=...)</span></span>
+<span id="cb2-10"><a></a>ds <span class="op">=</span> Dataset.from_list(datos)</span>
+<span id="cb2-11"><a></a>ds <span class="op">=</span> ds.class_encode_column(<span class="st">'label'</span>)</span>
+<span id="cb2-12"><a></a>label <span class="op">=</span> ds.features[<span class="st">'label'</span>]</span>
+<span id="cb2-13"><a></a>id2label <span class="op">=</span> {i: label.int2str(i)</span>
+<span id="cb2-14"><a></a>            <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(label.num_classes)}</span>
+<span id="cb2-15"><a></a>label2id <span class="op">=</span> {v: k <span class="cf">for</span> k, v <span class="kw">in</span> id2label.items()}</span>
+<span id="cb2-16"><a></a>model <span class="op">=</span> AutoModelForSequenceClassification.from_pretrained(</span>
+<span id="cb2-17"><a></a>    MODELO, num_labels<span class="op">=</span>label.num_classes,</span>
+<span id="cb2-18"><a></a>    id2label<span class="op">=</span>id2label, label2id<span class="op">=</span>label2id)</span>
+<span id="cb2-19"><a></a></span>
+<span id="cb2-20"><a></a>ds <span class="op">=</span> ds.<span class="bu">map</span>(<span class="kw">lambda</span> x: tokenizer(</span>
+<span id="cb2-21"><a></a>                x[<span class="st">'text'</span>], padding<span class="op">=</span><span class="st">"max_length"</span>,</span>
+<span id="cb2-22"><a></a>                max_length<span class="op">=</span><span class="dv">126</span>, truncation<span class="op">=</span><span class="va">True</span>),</span>
+<span id="cb2-23"><a></a>            batched<span class="op">=</span><span class="va">True</span>, remove_columns<span class="op">=</span>[<span class="st">'text'</span>])</span>
+<span id="cb2-24"><a></a>ds <span class="op">=</span> ds.train_test_split(test_size<span class="op">=</span><span class="fl">0.2</span>, seed<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb2-25"><a></a>                         stratify_by_column<span class="op">=</span><span class="st">'label'</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:48%;">
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>2. Afinar</strong></p>
+</div>
+<div class="callout-content">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>args <span class="op">=</span> TrainingArguments(</span>
+<span id="cb3-2"><a></a>    output_dir<span class="op">=</span><span class="st">"model_mx"</span>, learning_rate<span class="op">=</span><span class="fl">7e-5</span>,</span>
+<span id="cb3-3"><a></a>    num_train_epochs<span class="op">=</span><span class="dv">4</span>, report_to<span class="op">=</span><span class="st">'none'</span>,</span>
+<span id="cb3-4"><a></a>    per_device_train_batch_size<span class="op">=</span><span class="dv">64</span>)</span>
+<span id="cb3-5"><a></a>trainer <span class="op">=</span> Trainer(model<span class="op">=</span>model, args<span class="op">=</span>args,</span>
+<span id="cb3-6"><a></a>                  train_dataset<span class="op">=</span>ds[<span class="st">'train'</span>],</span>
+<span id="cb3-7"><a></a>                  eval_dataset<span class="op">=</span>ds[<span class="st">'test'</span>])</span>
+<span id="cb3-8"><a></a>trainer.train()</span>
+<span id="cb3-9"><a></a>trainer.save_model(<span class="st">"model_mx"</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>3. Clasificar</strong></p>
+</div>
+<div class="callout-content">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>clasificador <span class="op">=</span> pipeline(</span>
+<span id="cb4-2"><a></a>    <span class="st">"text-classification"</span>,</span>
+<span id="cb4-3"><a></a>    model<span class="op">=</span><span class="st">"./model_mx"</span>, tokenizer<span class="op">=</span>MODELO)</span>
+<span id="cb4-4"><a></a>clasificador(<span class="st">"en la colonia roma hacia la condesa"</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<aside class="notes">
+<p>En la libreta se antepone <code>[MASK] [MASK] [MASK]</code> a cada texto, un truco propio de bilmaLAT, que aprendió a reconocer país, año y mes. Como aquí sólo interesa el país, se enmascaran los otros dos datos. Para entrenar en un tiempo razonable se necesita GPU. En la libreta se usan 1000 textos por país (México, Argentina y España) del conjunto DialectId.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="un-modelo-de-lenguaje-como-clasificador" class="title-slide slide level1 center">
@@ -998,7 +1174,7 @@
 <p><strong>El esquema</strong></p>
 </div>
 <div class="callout-content">
-<p>Se diseña un prompt que el modelo interpreta y después se le da el texto que se quiere clasificar. El modelo contesta con la clase. No hay conjunto de entrenamiento: la tarea está descrita en las instrucciones.</p>
+<p>Se diseña un prompt que el modelo interpreta y después se le da el texto que se quiere clasificar. El modelo contesta con la clase. No hay conjunto de entrenamiento, porque la tarea está descrita en las instrucciones.</p>
 </div>
 </div>
 </div>
@@ -1068,7 +1244,7 @@
 <p><strong>Contraste</strong></p>
 </div>
 <div class="callout-content">
-<p>Mismo modelo, mismas palabras de entrada: cambia la clase porque cambian las instrucciones. Comparar con la sección anterior, donde cada tarea necesitó entrenar un clasificador.</p>
+<p>Con el mismo modelo y las mismas palabras de entrada, la clase cambia porque cambian las instrucciones. Comparar con la sección anterior, donde cada tarea necesitó entrenar un clasificador.</p>
 </div>
 </div>
 </div>
@@ -1096,8 +1272,8 @@
 </div>
 </div>
 </section>
-<section id="un-caso-el-modelo-como-juez" class="slide level2" style="font-size: 60%;">
-<h2>Un caso: el modelo como juez</h2>
+<section id="el-modelo-como-juez" class="slide level2" style="font-size: 60%;">
+<h2>El modelo como juez</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/modelo_juez.svg" class="quarto-figure quarto-figure-center" height="250"></p>
@@ -1124,7 +1300,7 @@
 <p><strong>Mismo esquema</strong></p>
 </div>
 <div class="callout-content">
-<p>Es el mismo esquema: instrucciones + texto → clase. Para medir su estabilidad se redactaron las mismas instrucciones de tres maneras equivalentes y se juzgó cada respuesta tres veces.</p>
+<p>Es el mismo esquema, instrucciones + texto → clase. Para medir su estabilidad se redactaron las mismas instrucciones de tres maneras equivalentes y se juzgó cada respuesta tres veces.</p>
 </div>
 </div>
 </div>
@@ -1143,7 +1319,7 @@
 <p><strong>Qué muestra</strong></p>
 </div>
 <div class="callout-content">
-<p>Con modelos pequeños, cambiar la redacción de las instrucciones cambia la clase en muchos textos; al crecer el modelo la consistencia sube, pero llega a un límite: a partir de cierto tamaño un modelo más grande ya no es más consistente.</p>
+<p>Con modelos pequeños, cambiar la redacción de las instrucciones cambia la clase en muchos textos. Al crecer el modelo la consistencia sube, pero llega a un límite, pues a partir de cierto tamaño un modelo más grande ya no es más consistente.</p>
 </div>
 </div>
 </div>
@@ -1180,7 +1356,7 @@
 <li>Bolsa de palabras y modelo lineal</li>
 <li>Subpalabras y vectores densos</li>
 <li>Modelos con contexto y ajuste fino</li>
-<li>Modelo de lenguaje como clasificador: la tarea va en el prompt</li>
+<li>Modelo de lenguaje como clasificador, con la tarea en el prompt</li>
 </ul>
 </div>
 </div>
@@ -1238,7 +1414,7 @@
 <p><strong>Modelo de lenguaje</strong></p>
 </div>
 <div class="callout-content">
-<p>Clasifica sin entrenar: la tarea se describe en el prompt. Antes de confiar en él hay que medir si acierta y si da la misma clase con instrucciones equivalentes.</p>
+<p>Clasifica sin entrenar, pues la tarea se describe en el prompt. Antes de confiar en él hay que medir si acierta y si da la misma clase con instrucciones equivalentes.</p>
 </div>
 </div>
 </div>
