@@ -96,7 +96,7 @@ Conjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sist
 ::: {.fragment .callout-note icon="false"}
 ### Esta charla
 
-Una de las tareas más usadas: decidir **qué dice un texto** sobre algo, es decir, clasificarlo.
+Se centra en una de las tareas más usadas, decidir **qué dice un texto** sobre algo, es decir, clasificarlo.
 :::
 
 # Análisis de sentimientos
@@ -205,7 +205,7 @@ Conocer la satisfacción y la reputación.
 
 ## Conjunto de entrenamiento {style="font-size: 55%;"}
 
-Tuits del conjunto *Delitos*: cada texto viene con su clase.
+Tuits del conjunto *Delitos*, donde cada texto viene con su clase.
 
 | Texto | Clase |
 |:--------------------------------------------------------------|:-----------|
@@ -226,14 +226,14 @@ Tuits del conjunto *Delitos*: cada texto viene con su clase.
 
 ![](img/entrenamiento_prueba.svg){fig-align="center" height=470}
 
-## El problema: la entrada es texto
+## La entrada es texto
 
 ![](../LegalIA/img/texto_vector.svg){fig-align="center" width="95%"}
 
 ::: {.fragment .callout-note icon="false"}
 ### Del texto al vector
 
-Un clasificador lineal necesita **números**: hay que convertir cada texto en un vector.
+Un clasificador lineal necesita **números**, así que hay que convertir cada texto en un vector.
 :::
 
 # Bolsa de palabras
@@ -252,7 +252,7 @@ Para que «Días», «días» y «dias» cuenten como la misma palabra, y para q
 ::: {.fragment .callout-tip icon="false" .column width="50%"}
 ### Segmentar
 
-En qué unidades se parte el texto: palabras, n-gramas de palabras o q-gramas de caracteres; la siguiente lámina lo muestra.
+Decide en qué unidades se parte el texto, que pueden ser palabras, n-gramas de palabras o q-gramas de caracteres. La siguiente lámina lo muestra.
 :::
 ::::
 
@@ -281,7 +281,7 @@ Estas decisiones se toman antes de contar nada y cambian el vocabulario y el ren
 ::: {.fragment .callout-note icon="false"}
 ### Pesos TF-IDF
 
-$w_{t,d} = \textsf{tf}_{t,d} \cdot \log\frac{N}{\textsf{df}_t}$: una palabra pesa más si abunda en el texto y es rara en los demás.
+$w_{t,d} = \textsf{tf}_{t,d} \cdot \log\frac{N}{\textsf{df}_t}$. Una palabra pesa más si abunda en el texto y es rara en los demás.
 :::
 
 ## Modelo lineal sobre la bolsa (DialectId) {style="font-size: 85%;"}
@@ -311,6 +311,25 @@ $w_{t,d} = \textsf{tf}_{t,d} \cdot \log\frac{N}{\textsf{df}_t}$: una palabra pes
 ![](img/mapa_1.jpeg){fig-align="center" height=370}
 :::
 
+## Clasificando con EvoMSA {style="font-size: 85%;"}
+
+```python
+# pip install EvoMSA   (o: conda install -c conda-forge EvoMSA)
+from EvoMSA.back_prop import StackBoW
+
+# D: lista de textos de entrenamiento, y: sus clases
+stack = StackBoW(lang='es', voc_size_exponent=17).fit(D, y)
+# G: lista de textos por clasificar
+hy = stack.predict(G)
+stack.mixer_value   # peso de cada clasificador en la combinación convexa
+```
+
+::: {.callout-note icon="false"}
+### ¿Qué hace `StackBoW`?
+
+Combina, con una combinación convexa, la bolsa de palabras preentrenada (vocabulario de $2^{17}$), la bolsa de palabras aprendida en el conjunto de entrenamiento y los vectores densos. `mixer_value` muestra cuánto pesa cada uno, lo que la hace explicable [@Graff2025BoW].
+:::
+
 # Más allá de la bolsa de palabras
 
 ## ¿Qué no ve la bolsa de palabras? {style="font-size: 80%;"}
@@ -330,7 +349,7 @@ Piezas de un vocabulario fijo para (3), vectores densos para (1) y modelos con c
 ::: {.fragment .callout-tip icon="false"}
 ### Vocabulario fijo
 
-Cualquier texto, con erratas o palabras raras, se escribe con las mismas piezas; es lo que usan los modelos de lenguaje actuales.
+Cualquier texto, con erratas o palabras raras, se escribe con las mismas piezas. Así trabajan los modelos de lenguaje actuales.
 :::
 
 ## El vocabulario deja de crecer {style="font-size: 80%;"}
@@ -340,7 +359,7 @@ Cualquier texto, con erratas o palabras raras, se escribe con las mismas piezas;
 ::: {.callout-tip icon="false"}
 ### Lo que se observa
 
-Con palabras o q-gramas, cada texto nuevo trae palabras nuevas y el vocabulario no para de crecer; con piezas de un vocabulario fijo se estabiliza pronto. Medido sobre 100 mil tuits en español.
+Con palabras o q-gramas, cada texto nuevo trae palabras nuevas y el vocabulario no para de crecer. Con piezas de un vocabulario fijo, en cambio, se estabiliza pronto. Medido sobre 100 mil tuits en español.
 :::
 
 ## Palabras como vectores densos {style="font-size: 80%;"}
@@ -350,7 +369,7 @@ Con palabras o q-gramas, cada texto nuevo trae palabras nuevas y el vocabulario 
 ::: {.fragment .callout-tip icon="false"}
 ### ¿Qué resuelve?
 
-Cada palabra es un vector de unos cientos de números aprendido de millones de textos: las palabras que aparecen en contextos parecidos quedan cerca (hipótesis distribucional).
+Cada palabra es un vector de unos cientos de números aprendido de millones de textos. Las palabras que aparecen en contextos parecidos quedan cerca (hipótesis distribucional).
 :::
 
 ## Aprender sin etiquetas {style="font-size: 70%;"}
@@ -381,7 +400,7 @@ Así se aprenden los vectores densos y los modelos con contexto de la siguiente 
 ::: {.fragment .callout-tip icon="false" .column}
 ### BERT [@devlin-etal-2019-bert]
 
-La misma palabra recibe un vector distinto según la oración: resuelve el orden y el contexto.
+La misma palabra recibe un vector distinto según la oración, con lo que resuelve el orden y el contexto.
 
 ![](img/bert.png){height=270}
 :::
@@ -416,7 +435,7 @@ Un modelo de lenguaje asigna una probabilidad a cada secuencia de palabras, y co
 ::: {.callout-tip icon="false"}
 ### Clasificador de texto
 
-Es un clasificador de texto: la clase es la del modelo de lenguaje que mejor explica el texto.
+Es un clasificador de texto, porque la clase es la del modelo de lenguaje que mejor explica el texto.
 :::
 
 ## ¿Cuál es mejor? Lo que dicen las competencias {style="font-size: 65%;"}
@@ -426,13 +445,13 @@ Es un clasificador de texto: la clase es la del modelo de lenguaje que mejor exp
 ::: {.callout-tip icon="false"}
 ### Lo que muestran los resultados
 
-Perfilado de autor (género, profesión, ideología): la bolsa de palabras domina y BERT queda a menudo por debajo de la línea base. Clasificación general (odio, sexismo, polaridad…): BERT afinado es el mejor en la mayoría [@Graff2025BoW].
+En el perfilado de autor (género, profesión, ideología) la bolsa de palabras domina y BERT queda a menudo por debajo de la línea base. En la clasificación general (odio, sexismo, polaridad…) BERT afinado es el mejor en la mayoría [@Graff2025BoW].
 :::
 
 ::: {.fragment .callout-note icon="false"}
 ### Mismas reglas
 
-Mismos datos, mismas reglas, resultados públicos: las competencias son el laboratorio para comparar clasificadores.
+Como las competencias usan los mismos datos y las mismas reglas, y publican los resultados, son el laboratorio para comparar clasificadores.
 :::
 
 ## ¿Cuál conviene usar? {style="font-size: 80%;"}
@@ -442,7 +461,7 @@ Mismos datos, mismas reglas, resultados públicos: las competencias son el labor
 ### Bolsa de palabras + modelo lineal
 
 * Miles de textos etiquetados bastan (las tareas de perfilado tienen entre mil y dos mil)
-* Cada peso es una palabra: la predicción se puede explicar
+* Cada peso es una palabra, así que la predicción se puede explicar
 * Domina en perfilado de autor y es competitiva con poco cómputo o en idiomas con pocos recursos
 :::
 
@@ -469,6 +488,75 @@ Mismos datos, mismas reglas, resultados públicos: las competencias son el labor
 No hay uno mejor para todo: depende de la tarea, de los datos, del cómputo y de si hay que explicar la decisión [@Graff2025BoW].
 :::
 
+## Afinando bilmaLAT {style="font-size: 80%;"}
+
+:::: {.columns}
+::: {.callout-tip icon="false" .column width="52%"}
+### 1. Preparar datos y modelo
+
+```python
+from datasets import Dataset
+from transformers import (
+    AutoTokenizer, AutoModelForSequenceClassification,
+    TrainingArguments, Trainer, pipeline)
+
+MODELO = 'guillermoruiz/bilmaLAT'
+tokenizer = AutoTokenizer.from_pretrained(MODELO)
+
+# datos: lista de dict(text=..., label=...)
+ds = Dataset.from_list(datos)
+ds = ds.class_encode_column('label')
+label = ds.features['label']
+id2label = {i: label.int2str(i)
+            for i in range(label.num_classes)}
+label2id = {v: k for k, v in id2label.items()}
+model = AutoModelForSequenceClassification.from_pretrained(
+    MODELO, num_labels=label.num_classes,
+    id2label=id2label, label2id=label2id)
+
+ds = ds.map(lambda x: tokenizer(
+                x['text'], padding="max_length",
+                max_length=126, truncation=True),
+            batched=True, remove_columns=['text'])
+ds = ds.train_test_split(test_size=0.2, seed=0,
+                         stratify_by_column='label')
+```
+:::
+
+::: {.column width="48%"}
+::: {.fragment .callout-tip icon="false"}
+### 2. Afinar
+
+```python
+args = TrainingArguments(
+    output_dir="model_mx", learning_rate=7e-5,
+    num_train_epochs=4, report_to='none',
+    per_device_train_batch_size=64)
+trainer = Trainer(model=model, args=args,
+                  train_dataset=ds['train'],
+                  eval_dataset=ds['test'])
+trainer.train()
+trainer.save_model("model_mx")
+```
+:::
+
+::: {.fragment .callout-tip icon="false"}
+### 3. Clasificar
+
+```python
+clasificador = pipeline(
+    "text-classification",
+    model="./model_mx", tokenizer=MODELO)
+clasificador("en la colonia roma hacia la condesa")
+```
+:::
+:::
+::::
+
+::: {.notes}
+En la libreta se antepone `[MASK] [MASK] [MASK]` a cada texto, un truco propio de bilmaLAT, que aprendió a reconocer país, año y mes. Como aquí sólo interesa el país, se enmascaran los otros dos datos. Para entrenar en un tiempo razonable se necesita GPU. En la libreta se usan 1000 textos por país (México, Argentina y España) del conjunto DialectId.
+:::
+
 # Un modelo de lenguaje como clasificador
 
 ## Clasificar con un prompt {style="font-size: 65%;"}
@@ -478,7 +566,7 @@ No hay uno mejor para todo: depende de la tarea, de los datos, del cómputo y de
 ::: {.callout-note icon="false"}
 ### El esquema
 
-Se diseña un prompt que el modelo interpreta y después se le da el texto que se quiere clasificar. El modelo contesta con la clase. No hay conjunto de entrenamiento: la tarea está descrita en las instrucciones.
+Se diseña un prompt que el modelo interpreta y después se le da el texto que se quiere clasificar. El modelo contesta con la clase. No hay conjunto de entrenamiento, porque la tarea está descrita en las instrucciones.
 :::
 
 ::: {.fragment .callout-tip icon="false"}
@@ -516,7 +604,7 @@ Prompt del ejemplo (aparece completo en la figura): «Identifica si el siguiente
 ::: {.fragment .callout-note icon="false"}
 ### Contraste
 
-Mismo modelo, mismas palabras de entrada: cambia la clase porque cambian las instrucciones. Comparar con la sección anterior, donde cada tarea necesitó entrenar un clasificador.
+Con el mismo modelo y las mismas palabras de entrada, la clase cambia porque cambian las instrucciones. Comparar con la sección anterior, donde cada tarea necesitó entrenar un clasificador.
 :::
 
 ## ¿Qué tan bueno es? {style="font-size: 65%;"}
@@ -532,7 +620,7 @@ Aunque no se entrena, se mide igual que en «Medir el rendimiento»: se toma el 
 2. ¿Es estable? → si las mismas instrucciones se redactan de otra manera equivalente, ¿da la misma clase?
 :::
 
-## Un caso: el modelo como juez {style="font-size: 60%;"}
+## El modelo como juez {style="font-size: 60%;"}
 
 ![](img/modelo_juez.svg){fig-align="center" height=250}
 
@@ -548,7 +636,7 @@ Pregunta: «¿Estoy sufriendo de una enfermedad autoinmune?»
 ::: {.fragment .callout-note icon="false"}
 ### Mismo esquema
 
-Es el mismo esquema: instrucciones + texto → clase. Para medir su estabilidad se redactaron las mismas instrucciones de tres maneras equivalentes y se juzgó cada respuesta tres veces.
+Es el mismo esquema, instrucciones + texto → clase. Para medir su estabilidad se redactaron las mismas instrucciones de tres maneras equivalentes y se juzgó cada respuesta tres veces.
 :::
 
 ## Consistencia contra tamaño del modelo {style="font-size: 58%;"}
@@ -558,7 +646,7 @@ Es el mismo esquema: instrucciones + texto → clase. Para medir su estabilidad 
 ::: {.callout-tip icon="false"}
 ### Qué muestra
 
-Con modelos pequeños, cambiar la redacción de las instrucciones cambia la clase en muchos textos; al crecer el modelo la consistencia sube, pero llega a un límite: a partir de cierto tamaño un modelo más grande ya no es más consistente.
+Con modelos pequeños, cambiar la redacción de las instrucciones cambia la clase en muchos textos. Al crecer el modelo la consistencia sube, pero llega a un límite, pues a partir de cierto tamaño un modelo más grande ya no es más consistente.
 :::
 
 ::: {.fragment .callout-note icon="false"}
@@ -581,7 +669,7 @@ Un clasificador que cambia de clase cuando sólo cambia la redacción de las ins
 * Bolsa de palabras y modelo lineal
 * Subpalabras y vectores densos
 * Modelos con contexto y ajuste fino
-* Modelo de lenguaje como clasificador: la tarea va en el prompt
+* Modelo de lenguaje como clasificador, con la tarea en el prompt
 :::
 :::
 
@@ -615,7 +703,7 @@ Aportan similitud entre palabras y contexto.
 ::: {.fragment .callout-note icon="false"}
 ### Modelo de lenguaje
 
-Clasifica sin entrenar: la tarea se describe en el prompt. Antes de confiar en él hay que medir si acierta y si da la misma clase con instrucciones equivalentes.
+Clasifica sin entrenar, pues la tarea se describe en el prompt. Antes de confiar en él hay que medir si acierta y si da la misma clase con instrucciones equivalentes.
 :::
 
 # Referencias {style="font-size: 40%;"}
