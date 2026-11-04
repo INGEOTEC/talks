@@ -303,6 +303,14 @@ $w_{t,d} = \textsf{tf}_{t,d} \cdot \log\frac{N}{\textsf{df}_t}$. Una palabra pes
 :::
 ::::
 
+## ¿Qué tan parecidos son los países?
+
+::: {.callout-tip icon="false"}
+### Mapa
+
+![](img/mapa_1.jpeg){fig-align="center" height=370}
+:::
+
 ## Clasificando con EvoMSA {style="font-size: 85%;"}
 
 ```python
@@ -320,14 +328,6 @@ stack.mixer_value   # peso de cada clasificador en la combinación convexa
 ### ¿Qué hace `StackBoW`?
 
 Combina, con una combinación convexa, la bolsa de palabras preentrenada (vocabulario de $2^{17}$), la bolsa de palabras aprendida en el conjunto de entrenamiento y los vectores densos. `mixer_value` muestra cuánto pesa cada uno, lo que la hace explicable [@Graff2025BoW].
-:::
-
-## ¿Qué tan parecidos son los países?
-
-::: {.callout-tip icon="false"}
-### Mapa
-
-![](img/mapa_1.jpeg){fig-align="center" height=370}
 :::
 
 # Más allá de la bolsa de palabras
