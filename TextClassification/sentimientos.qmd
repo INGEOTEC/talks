@@ -226,7 +226,7 @@ Tuits del conjunto *Delitos*, donde cada texto viene con su clase.
 
 ![](img/entrenamiento_prueba.svg){fig-align="center" height=470}
 
-## El problema: la entrada es texto
+## La entrada es texto
 
 ![](../LegalIA/img/texto_vector.svg){fig-align="center" width="95%"}
 
@@ -303,7 +303,7 @@ $w_{t,d} = \textsf{tf}_{t,d} \cdot \log\frac{N}{\textsf{df}_t}$. Una palabra pes
 :::
 ::::
 
-## Para empezar: bolsa de palabras con EvoMSA {style="font-size: 85%;"}
+## Clasificando con EvoMSA {style="font-size: 85%;"}
 
 ```python
 # pip install EvoMSA   (o: conda install -c conda-forge EvoMSA)
@@ -416,7 +416,7 @@ La misma palabra recibe un vector distinto según la oración, con lo que resuel
 «en la colonia roma hacia la condesa» → **mx** (México), con probabilidad 0.99
 :::
 
-## Para empezar: afinar bilmaLAT {style="font-size: 80%;"}
+## Afinando bilmaLAT {style="font-size: 80%;"}
 
 :::: {.columns}
 ::: {.callout-tip icon="false" .column width="52%"}
@@ -620,7 +620,7 @@ Aunque no se entrena, se mide igual que en «Medir el rendimiento»: se toma el 
 2. ¿Es estable? → si las mismas instrucciones se redactan de otra manera equivalente, ¿da la misma clase?
 :::
 
-## Un caso: el modelo como juez {style="font-size: 60%;"}
+## El modelo como juez {style="font-size: 60%;"}
 
 ![](img/modelo_juez.svg){fig-align="center" height=250}
 
