@@ -5,3 +5,10 @@
 #title-slide .quarto-title-author-name { font-size: 0.8em; }
 #title-slide .quarto-title-affiliation { font-size: 0.7em; margin-top: 0; }
 #referencias h1 { font-size: 1.6em; }
+/* Tamaños de letra por lámina, como clases para que los títulos no lleven
+   «;» (los atributos style= llevarían dos puntos y punto y coma). */
+.reveal .slides section.fs40 { font-size: 40%; }
+.reveal .slides section.fs70 { font-size: 70%; }
+.reveal .slides section.fs75 { font-size: 75%; }
+.reveal .slides section.fs80 { font-size: 80%; }
+.reveal .slides section.fs85 { font-size: 85%; }
