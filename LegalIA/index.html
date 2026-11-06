@@ -146,9 +146,6 @@
       margin-right: 0; 
     }
   </style>
-  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -156,7 +153,7 @@
 
 <section id="title-slide" data-background-image="img/atlas_portada.png" data-background-opacity="0.15" data-background-position="0% 0%" data-background-size="100%" class="quarto-title-block center">
   <h1 class="title">¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial</h1>
-  <p class="subtitle">LegalIA: corpus abiertos y un atlas de la legislación federal</p>
+  <p class="subtitle">LegalIA, un atlas de las leyes, reglamentos, lineamientos y tratados</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -164,7 +161,7 @@
 <a href="https://mgraffg.github.io">Mario Graff</a> 
 </div>
         <p class="quarto-title-affiliation">
-            INFOTEC
+            División de Economía Aplicada<br>Centro de Investigación y Docencia Económicas (CIDE)
           </p>
     </div>
 </div>
@@ -175,7 +172,7 @@
 <h1>Introducción</h1>
 
 </section>
-<section id="definiciones" class="slide level2" style="font-size: 75%;">
+<section id="definiciones" class="slide level2 fs75">
 <h2>Definiciones</h2>
 <div class="columns">
 <div class="column">
@@ -220,7 +217,7 @@
 <p><strong>Derecho y datos</strong></p>
 </div>
 <div class="callout-content">
-<p>La legislación es, ante todo, texto: leyes, reglamentos y decretos escritos en lenguaje natural que se modifican con el tiempo y que se pueden estudiar como datos.</p>
+<p>La legislación es, ante todo, texto. Son leyes, reglamentos y tratados escritos en lenguaje natural, que se modifican con el tiempo y que se pueden estudiar como datos.</p>
 </div>
 </div>
 </div>
@@ -257,7 +254,7 @@
 </div>
 </div></div>
 </section>
-<section id="qué-puede-hacer-el-pln" class="slide level2" style="font-size: 80%;">
+<section id="qué-puede-hacer-el-pln" class="slide level2 fs80">
 <h2>¿Qué puede hacer el PLN?</h2>
 <div class="columns">
 <div class="column">
@@ -293,7 +290,7 @@
 </div>
 <div class="callout-content">
 <ul>
-<li><strong>Buscar leyes</strong>: encontrar el artículo que responde a una necesidad</li>
+<li><strong>Buscar leyes</strong> para encontrar el artículo que responde a una necesidad</li>
 <li><strong>Responder preguntas</strong> sobre la legislación vigente</li>
 <li><strong>Resumir</strong> documentos jurídicos extensos</li>
 </ul>
@@ -315,7 +312,7 @@
 <p><strong>1987</strong></p>
 </div>
 <div class="callout-content">
-<p>Primera Conferencia Internacional de Inteligencia Artificial y Derecho (ICAIL) <span class="citation" data-cites="ICAIL87">(<a href="#/referencias" role="doc-biblioref" onclick=""><em><span>Proceedings of the First International Conference on Artificial Intelligence and Law</span></em> 1987</a>)</span>: el campo se institucionaliza.</p>
+<p>Primera Conferencia Internacional de Inteligencia Artificial y Derecho (ICAIL) <span class="citation" data-cites="ICAIL87">(<a href="#/referencias" role="doc-biblioref" onclick=""><em><span>Proceedings of the First International Conference on Artificial Intelligence and Law</span></em> 1987</a>)</span>. Con ella el campo se institucionaliza.</p>
 </div>
 </div>
 </div>
@@ -344,8 +341,8 @@
 </div>
 </div>
 </section>
-<section id="el-problema-las-alucinaciones" class="slide level2">
-<h2>El problema: las alucinaciones</h2>
+<section id="las-alucinaciones" class="slide level2">
+<h2>Las alucinaciones</h2>
 <div class="columns">
 <div class="column">
 <div class="callout callout-tip no-icon callout-titled callout-style-default">
@@ -377,7 +374,7 @@
 <p><strong>Alucinar</strong></p>
 </div>
 <div class="callout-content">
-<p>Generar una respuesta que suena convincente, pero que cita leyes o casos que no existen o que dicen otra cosa.</p>
+<p>Es generar una respuesta que suena convincente, pero que cita leyes o casos que no existen o que dicen otra cosa.</p>
 </div>
 </div>
 </div>
@@ -391,7 +388,7 @@
 <p><strong>Evidencia concentrada en otros países</strong></p>
 </div>
 <div class="callout-content">
-<p>La validación de los sistemas de IA jurídica se ha concentrado en Estados Unidos y la Unión Europea; para América Latina la evidencia es escasa.</p>
+<p>La validación de los sistemas de IA jurídica se ha concentrado en Estados Unidos y la Unión Europea, así que para América Latina la evidencia es escasa.</p>
 </div>
 </div>
 </div>
@@ -430,7 +427,7 @@
 <p><strong>Cajas negras</strong></p>
 </div>
 <div class="callout-content">
-<p>Los modelos de lenguaje operan como cajas negras: no sabemos por qué responden lo que responden.</p>
+<p>Los modelos de lenguaje operan como cajas negras y no sabemos por qué responden lo que responden.</p>
 </div>
 </div>
 </div>
@@ -464,7 +461,7 @@
 <h1>LegalIA</h1>
 
 </section>
-<section id="el-proyecto" class="slide level2" style="font-size: 85%;">
+<section id="el-proyecto" class="slide level2 fs85">
 <h2>El proyecto</h2>
 <div class="columns">
 <div class="column" style="width:32%;">
@@ -508,7 +505,7 @@
 <p><strong>Todo en abierto (Apache 2.0)</strong></p>
 </div>
 <div class="callout-content">
-<p>Código: <a href="https://github.com/INGEOTEC/LegalIA" class="uri">https://github.com/INGEOTEC/LegalIA</a> Sitio: <a href="https://ingeotec.github.io/LegalIA/" class="uri">https://ingeotec.github.io/LegalIA/</a></p>
+<p>El código está en <a href="https://github.com/INGEOTEC/LegalIA" class="uri">https://github.com/INGEOTEC/LegalIA</a> y el sitio en <a href="https://ingeotec.github.io/LegalIA/" class="uri">https://ingeotec.github.io/LegalIA/</a>.</p>
 </div>
 </div>
 </div>
@@ -524,7 +521,7 @@
 <p><strong>Diario Oficial de la Federación (DOF)</strong></p>
 </div>
 <div class="callout-content">
-<p>Medio oficial donde se publican los decretos, las leyes y sus reformas. Cada reforma aparece como una nota.</p>
+<p>Es el medio oficial donde se publican los decretos, las leyes y sus reformas. Cada reforma aparece como un decreto.</p>
 </div>
 </div>
 </div>
@@ -535,257 +532,133 @@
 <p><strong>Suprema Corte de Justicia de la Nación (SCJN)</strong></p>
 </div>
 <div class="callout-content">
-<p>Publica las leyes, reglamentos y lineamientos federales en su forma consolidada, con sus textos de reforma fechados.</p>
+<p>Publica los textos consolidados y editoriales de las leyes, los reglamentos, los lineamientos y los tratados.</p>
 </div>
 </div>
 </div>
 </div></div>
-</section></section>
-<section>
-<section id="el-diario-oficial-de-la-federación" class="title-slide slide level1 center">
-<h1>El Diario Oficial de la Federación</h1>
-
-</section>
-<section id="un-siglo-de-notas" class="slide level2">
-<h2>Un siglo de notas</h2>
-<div class="columns">
-<div class="column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>El archivo</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li><strong>1,232,802</strong> notas</li>
-<li><strong>30,614</strong> días de publicación</li>
-<li>Del <strong>1917-01-01</strong> al <strong>2026-06-30</strong></li>
-<li>Se actualiza cada mes</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="fragment column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>¿Qué formato tienen?</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>HTML desde los años setenta; universal desde los 2000</li>
-<li>25,500 notas sólo con PDF</li>
-<li>4,308 notas, todas de los 1910, sin contenido</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="cuánto-se-publica" class="slide level2">
-<h2>¿Cuánto se publica?</h2>
-<div class="columns">
-<div class="column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>1999</strong></p>
-</div>
-<div class="callout-content">
-<p>El volumen anual salta de <strong>12,921</strong> a <strong>28,234</strong> notas.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>2014</strong></p>
-</div>
-<div class="callout-content">
-<p>Máximo histórico: <strong>36,041</strong> notas en un año.</p>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="de-qué-habla-el-dof-12" class="slide level2">
-<h2>¿De qué habla el DOF? (1/2)</h2>
-<div class="columns">
-<div class="column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Zedillo</strong></p>
-</div>
-<div class="callout-content">
-<p><img data-src="img/dof_zedillo.png"></p>
-</div>
-</div>
-</div>
-</div><div class="fragment column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Fox</strong></p>
-</div>
-<div class="callout-content">
-<p><img data-src="img/dof_fox.png"></p>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="de-qué-habla-el-dof-22" class="slide level2">
-<h2>¿De qué habla el DOF? (2/2)</h2>
-<div class="columns">
-<div class="column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Calderón</strong></p>
-</div>
-<div class="callout-content">
-<p><img data-src="img/dof_calderon.png"></p>
-</div>
-</div>
-</div>
-</div><div class="fragment column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>AMLO</strong></p>
-</div>
-<div class="callout-content">
-<p><img data-src="img/dof_amlo.png"></p>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="vs-2025" class="slide level2">
-<h2>2019 vs 2025</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/dof_2019_2025.png" class="quarto-figure quarto-figure-center" height="560"></p>
-</figure>
-</div>
-</section>
-<section id="cómo-se-escribe" class="slide level2">
-<h2>¿Cómo se escribe?</h2>
-<div class="columns">
-<div class="column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>El tipo de documento</strong></p>
-</div>
-<div class="callout-content">
-<p>La primera palabra del título indica el tipo de documento. En 2025, “aviso” es el <strong>43.9 %</strong> de las notas.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Títulos más cortos</strong></p>
-</div>
-<div class="callout-content">
-<p>La longitud mediana del título cae de unas <strong>20 palabras</strong> a <strong>5–6</strong>.</p>
-</div>
-</div>
-</div>
-</div></div>
-</section></section>
-<section>
-<section id="las-leyes-federales" class="title-slide slide level1 center">
-<h1>Las leyes federales</h1>
-
-</section>
-<section id="leyes-3724-versiones" class="slide level2">
-<h2>315 leyes, 3,724 versiones</h2>
-<div class="columns">
-<div class="column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Leyes</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li><strong>3,724</strong> versiones fechadas (“textos de reforma”)</li>
-<li>De <strong>315</strong> de los 316 instrumentos federales catalogados</li>
-<li>De 1889 a 2026</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="fragment column">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Enlace con el DOF</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li><strong>87.7 %</strong> enlazadas a su decreto en el DOF</li>
-<li>66.4 % por título, 21.3 % por contenido</li>
-<li>Además: 1,082 reglamentos y 126 lineamientos</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="de-la-nota-al-artículo" class="slide level2">
-<h2>De la nota al artículo</h2>
-<div class="cell" data-reveal="true" data-fig-width="10" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    A[DOF / SIDOF] --&gt; B[dofjson]
-    B --&gt; C[nota2md]
-    B --&gt; D[document2md&lt;br/&gt;OCR]
-    C --&gt; E[md2akn&lt;br/&gt;artículo, fracción]
-    D --&gt; E
-    E --&gt; F[vectores]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<div class="fragment" style="font-size: 70%; text-align: center;">
-<p>Paquetes en PyPI, licencia Apache 2.0</p>
-</div>
-</section>
-<section id="reconstruir-una-ley-a-partir-de-sus-reformas" class="slide level2">
-<h2>Reconstruir una ley a partir de sus reformas</h2>
-<div class="callout callout-note no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>La idea</strong></p>
-</div>
-<div class="callout-content">
-<p>Cada decreto modifica artículos. Con todos los decretos en orden, el texto vigente de una ley se vuelve a armar.</p>
-</div>
-</div>
-</div>
 <div class="fragment">
 <div class="callout callout-tip no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
-<p><strong>Un ejemplo</strong></p>
+<p><strong>El atlas parte de la SCJN</strong></p>
 </div>
 <div class="callout-content">
-<p>La Constitución: <strong>1,328</strong> disposiciones, reconstruidas a partir de sus reformas.</p>
+<p>Sus textos ya traen cada instrumento completo y con su nombre, así que no hace falta reconstruirlos a partir de los decretos.</p>
 </div>
 </div>
 </div>
 </div>
+</section>
+<section id="cuatro-corpus-abiertos" class="slide level2 fs75">
+<h2>Cuatro corpus abiertos</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Colección</th>
+<th style="text-align: right;">En la SCJN</th>
+<th style="text-align: right;">Sin texto</th>
+<th style="text-align: right;">En el mapa</th>
+<th style="text-align: left;">Release</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Leyes</td>
+<td style="text-align: right;">315</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">314</td>
+<td style="text-align: left;"><code>scjn-leyes</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Reglamentos</td>
+<td style="text-align: right;">1,087</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">864</td>
+<td style="text-align: left;"><code>scjn-reglamentos</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Lineamientos</td>
+<td style="text-align: right;">163</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">125</td>
+<td style="text-align: left;"><code>scjn-lineamientos</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tratados</td>
+<td style="text-align: right;">1,455</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">1,367</td>
+<td style="text-align: left;"><code>scjn-tratados</code></td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Un instrumento por nombre</strong></p>
+</div>
+<div class="callout-content">
+<p>Como la Corte reedita los reglamentos y los lineamientos con otro identificador, de los que comparten nombre sólo se conserva el más reciente. Si dos instrumentos tienen exactamente el mismo texto, se queda uno solo. En total son 2,670 instrumentos en el mapa.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment" style="font-size: 80%; text-align: center;">
+<p>Los cuatro releases están en <a href="https://github.com/INGEOTEC/LegalIA/releases" class="uri">https://github.com/INGEOTEC/LegalIA/releases</a>.</p>
+</div>
+</section>
+<section id="del-texto-a-los-fragmentos" class="slide level2">
+<h2>Del texto a los fragmentos</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Bloques con un esquema</strong></p>
+</div>
+<div class="callout-content">
+<p>La SCJN sirve cada instrumento en bloques, y esos bloques se convierten en un árbol con el vocabulario de Akoma Ntoso <span class="citation" data-cites="palmirani2011">(<a href="#/referencias" role="doc-biblioref" onclick="">Palmirani y Vitali 2011</a>)</span>.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>El artículo entero</strong></p>
+</div>
+<div class="callout-content">
+<p>La unidad es el artículo completo, tenga la longitud que tenga, porque es lo que una persona del derecho cita.</p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="columns">
+<div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Cobertura total</strong></p>
+</div>
+<div class="callout-content">
+<p>Unas pruebas comprueban que todo el texto de un bloque cae en algún fragmento y que ninguno se pierde.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>¿Fragmento o disposición?</strong></p>
+</div>
+<div class="callout-content">
+<p>Un encabezado o un preámbulo no es una disposición. Por eso se dice fragmento, que puede ser un artículo, un transitorio o un título.</p>
+</div>
+</div>
+</div>
+</div></div>
 </section></section>
 <section>
 <section id="el-atlas" class="title-slide slide level1 center">
@@ -802,7 +675,7 @@
 <p><strong>La pregunta</strong></p>
 </div>
 <div class="callout-content">
-<p>Cada artículo busca a su “gemelo”: el texto más parecido que está en otra ley.</p>
+<p>Cada fragmento busca a su “gemelo”, que es el texto más parecido fuera de su propio instrumento.</p>
 </div>
 </div>
 </div>
@@ -826,32 +699,34 @@
 <h2>Texto → números</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/texto_vector.svg" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+<p><img data-src="img/texto_vector.svg" class="quarto-figure quarto-figure-center" style="width:75.0%"></p>
 </figure>
 </div>
 <div class="fragment">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/vectores_cercanos.svg" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+<p><img data-src="img/vectores_cercanos.svg" class="quarto-figure quarto-figure-center" style="width:75.0%"></p>
 </figure>
 </div>
 </div>
+<div class="fragment" style="font-size: 60%; text-align: center;">
+<p>Qwen3-Embedding <span class="citation" data-cites="Zhang2025Qwen3Models">(<a href="#/referencias" role="doc-biblioref" onclick="">Zhang et&nbsp;al. 2025</a>)</span> da 2,560 números en el 4B y 1,024 en el 0.6B.</p>
+</div>
 </section>
-<section id="de-artículos-a-instrumentos" class="slide level2">
-<h2>De artículos a instrumentos</h2>
+<section id="qué-se-compara-y-qué-no" class="slide level2 fs85">
+<h2>Qué se compara y qué no</h2>
 <div class="columns">
 <div class="column">
 <div class="callout callout-tip no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
-<p><strong>Disposiciones</strong></p>
+<p><strong>Los fragmentos al 28 de octubre de 2026</strong></p>
 </div>
 <div class="callout-content">
 <ul>
-<li><strong>161,989</strong> disposiciones</li>
-<li>28,568 encabezados y 21,344 transitorios se excluyen</li>
-<li>1,715 textos idénticos compartidos se descartan</li>
-<li><strong>110,362</strong> disposiciones contadas</li>
+<li><strong>227,132</strong> fragmentos en total</li>
+<li>No se comparan 36,137 encabezados, 22,575 transitorios y 10,093 de envoltura</li>
+<li><strong>158,327</strong> fragmentos comparados</li>
 </ul>
 </div>
 </div>
@@ -860,18 +735,30 @@
 <div class="callout callout-tip no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
-<p><strong>Instrumentos</strong></p>
+<p><strong>Los compartidos</strong></p>
 </div>
 <div class="callout-content">
 <ul>
-<li>315 leyes, 863 reglamentos y 125 lineamientos</li>
-<li><strong>1,303</strong> instrumentos únicos (de reglamentos y lineamientos reeditados sólo se conserva el más reciente)</li>
-<li>Matriz dirigida instrumento × instrumento: 32,539 celdas no nulas</li>
+<li>1,895 fragmentos comparados tienen un texto idéntico que varios instrumentos comparten, y no se cuentan</li>
+<li>El artículo 56 del Código Civil Federal se reduce a su etiqueta y coincide con el 56 de otras tres leyes</li>
+<li><strong>156,432</strong> fragmentos contados</li>
 </ul>
 </div>
 </div>
 </div>
 </div></div>
+<div class="fragment">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>La envoltura y la matriz</strong></p>
+</div>
+<div class="callout-content">
+<p>La envoltura es el bloque de título que la Corte imprime y, en un tratado, el decreto de promulgación y su certificación. Con los fragmentos contados se llena una matriz dirigida de 2,670 × 2,670 instrumentos, con 47,157 celdas no nulas, y ningún texto lo comparten más de 14 instrumentos.</p>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="dibujar-el-mapa" class="slide level2">
 <h2>Dibujar el mapa</h2>
@@ -883,9 +770,9 @@
 <p><strong>UMAP</strong></p>
 </div>
 <div class="callout-content">
-<p>“Aplanar” el espacio de 1,024 dimensiones a una hoja, de modo que los instrumentos cercanos queden juntos.</p>
+<p>“Aplana” el espacio de 2,560 dimensiones a una hoja, de modo que los instrumentos cercanos queden juntos <span class="citation" data-cites="McInnes2018UMAPReduction">(<a href="#/referencias" role="doc-biblioref" onclick="">McInnes et&nbsp;al. 2018</a>)</span>.</p>
 <div class="fragment">
-<p>La <strong>vecindad</strong> (4, 8, 16 o 32) cambia el dibujo, no los datos.</p>
+<p>La <strong>vecindad</strong> (4, 8, 16 o 32) cambia el dibujo y no los datos.</p>
 </div>
 </div>
 </div>
@@ -894,6 +781,34 @@
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/atlas_vecindades.png" class="quarto-figure quarto-figure-center" height="520"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="mapas-alineados-y-estelas" class="slide level2 fs75">
+<h2>Mapas alineados y estelas</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Doce mapas, uno solo</strong></p>
+</div>
+<div class="callout-content">
+<p>Tres similitudes por cuatro vecindades dan doce mapas. Cada uno se gira, se refleja y se escala sobre el del 4B a vecindad 16 <span class="citation" data-cites="Grave2019WassersteinProcrustes">(<a href="#/referencias" role="doc-biblioref" onclick="">Grave et&nbsp;al. 2019</a>)</span>.</p>
+<div class="fragment">
+<p>Con la alineación el desplazamiento medio baja de 0.19–0.54 a 0.10–0.28.</p>
+</div>
+<div class="fragment">
+<p>Al cambiar de vecindad, cada instrumento que se mueve 4 px o más deja una estela de su color que se desvanece en 2.5 s.</p>
+</div>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/atlas_estelas.png" class="quarto-figure quarto-figure-center" height="470"></p>
 </figure>
 </div>
 </div></div>
@@ -919,19 +834,59 @@
 </div>
 <div class="callout-content">
 <ul>
-<li><strong>Azul</strong>: leyes (315)</li>
-<li><strong>Verde</strong>: reglamentos (863)</li>
-<li><strong>Magenta</strong>: lineamientos (125)</li>
-<li>El <strong>área</strong> del punto es proporcional al número de disposiciones</li>
-<li>Al elegir un instrumento se ven sus 5 vecinos salientes y 5 entrantes</li>
+<li>Azul, las leyes (314)</li>
+<li>Verde, los reglamentos (864)</li>
+<li>Magenta, los lineamientos (125)</li>
+<li>Amarillo, los tratados (1,367)</li>
+<li>El <strong>área</strong> del punto es proporcional al número de fragmentos contados</li>
+<li>Al elegir un instrumento se ven sus cinco vecinos salientes y cinco entrantes</li>
 </ul>
 </div>
 </div>
 </div>
 </div></div>
 </section>
-<section id="ejemplo-universidad-autónoma-chapingo" class="slide level2">
-<h2>Ejemplo: Universidad Autónoma Chapingo</h2>
+<section id="qué-muestra-el-mapa" class="slide level2 fs80">
+<h2>Qué muestra el mapa</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Dos cuerpos</strong></p>
+</div>
+<div class="callout-content">
+<p>Para 1,298 de los 1,367 tratados el instrumento más cercano es otro tratado. Sólo 10 leyes, 6 reglamentos y 2 lineamientos tienen un tratado como el más cercano.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Islas de familias</strong></p>
+</div>
+<div class="callout-content">
+<p>Hay islas de reglamentos de exámenes de la Armada, de reglamentos de las escuelas militares y de bancos de desarrollo. También las leyes orgánicas de Chapingo, Antonio Narro, la UAM y la UNAM quedan juntas.</p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fragment">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Donde los cuerpos se tocan</strong></p>
+</div>
+<div class="callout-content">
+<p>La Ley General de Salud queda entre sus reglamentos, y la LIGIE junto al protocolo del T-MEC.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="un-ejemplo-chapingo" class="slide level2 fs85">
+<h2>Un ejemplo, Chapingo</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
@@ -947,19 +902,19 @@
 </div>
 <div class="callout-content">
 <ul>
-<li>28 disposiciones, 18 contadas</li>
-<li>10 → Ley Orgánica de la UAM</li>
-<li>7 → Antonio Narro</li>
-<li>1 → IPN</li>
-<li>24 disposiciones ajenas apuntan a ella</li>
+<li>29 fragmentos y 16 contados</li>
+<li>7 van a la Ley Orgánica de la UAM</li>
+<li>6 van a la de Antonio Narro</li>
+<li>1 va a la Ley General de Educación, 1 a la Ley Orgánica de la UNAM y 1 al Convenio de la Universidad para la Paz</li>
+<li>18 fragmentos ajenos apuntan a ella</li>
 </ul>
 </div>
 </div>
 </div>
 </div></div>
 </section>
-<section id="ejemplo-la-constitución" class="slide level2">
-<h2>Ejemplo: la Constitución</h2>
+<section id="otro-ejemplo-la-constitución" class="slide level2 fs85">
+<h2>Otro ejemplo, la Constitución</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
@@ -974,18 +929,19 @@
 <p><strong>CPEUM</strong></p>
 </div>
 <div class="callout-content">
-<p>1,328 disposiciones, 137 contadas. Vecinos más cercanos:</p>
+<p>Tiene 1,347 fragmentos y 136 contados. Sus vecinos más cercanos son</p>
 <ul>
-<li>LGIPE: <strong>15.0</strong></li>
-<li>LOPJF: 9.0</li>
-<li>Ley Orgánica del Congreso: 8.0</li>
+<li>LGIPE, con <strong>16.0</strong></li>
+<li>Ley Orgánica del Congreso, con 9.0</li>
+<li>Ley Orgánica del Poder Judicial, con 9.0</li>
+<li>Convención Americana sobre Derechos Humanos, con 9.0</li>
 </ul>
 </div>
 </div>
 </div>
 </div></div>
 </section>
-<section id="cada-vecindad-se-explica" class="slide level2">
+<section id="cada-vecindad-se-explica" class="slide level2 fs85">
 <h2>Cada vecindad se explica</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
@@ -998,12 +954,12 @@
 <div class="callout callout-tip no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
-<p><strong>Pares de artículos</strong></p>
+<p><strong>Pares de fragmentos</strong></p>
 </div>
 <div class="callout-content">
-<p>Cada peso abre la tabla de pares de artículos que lo explican.</p>
+<p>Cada peso abre la tabla de pares de fragmentos que lo explican. Con la LGIPE hay 16 artículos enteros.</p>
 <div class="fragment">
-<p>Art. 96 CPEUM ↔︎ art. 494 LGIPE: similitud <strong>0.86</strong></p>
+<p>El artículo 96 de la Constitución se parece al 500 de la LGIPE con una similitud de <strong>0.86</strong>, y el 58 al 10 con <strong>0.54</strong>.</p>
 </div>
 </div>
 </div>
@@ -1012,23 +968,40 @@
 </section>
 <section id="quién-recibe-más" class="slide level2">
 <h2>¿Quién recibe más?</h2>
+<div class="columns">
+<div class="column" style="width:62%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/atlas_entrantes.png" class="quarto-figure quarto-figure-center" height="520"></p>
 </figure>
 </div>
+</div><div class="column" style="width:38%;">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Mayor peso entrante</strong></p>
+</div>
+<div class="callout-content">
+<p>Encabeza el Código Nacional de Procedimientos Civiles y Familiares con 1,640.5, sobre todo por el Código Civil Federal. Siguen el Código IMDG, el Protocolo del T-MEC, el Código de Gaseros y el Reglamento de la Ley General de Salud en materia de control sanitario.</p>
+</div>
+</div>
+</div>
+</div></div>
 </section>
-<section id="un-mapa-dos-modelos" class="slide level2">
-<h2>Un mapa, dos modelos</h2>
+<section id="una-pregunta-tres-métodos" class="slide level2 fs85">
+<h2>Una pregunta, tres métodos</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="callout callout-note no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
-<p><strong>0.6B vs 4B</strong></p>
+<p><strong>0.6B, 4B y BM25</strong></p>
 </div>
 <div class="callout-content">
-<p>El modelo de representación cambia qué instrumentos están más cerca, y por tanto cambia las relaciones y el dibujo.</p>
+<p>La misma pregunta se contesta con Qwen3-Embedding en sus tamaños de 0.6B y 4B y con BM25 <span class="citation" data-cites="Robertson2009TheBeyond">(<a href="#/referencias" role="doc-biblioref" onclick="">Robertson y Zaragoza 2009</a>)</span> como línea base de palabras. Cada método cambia qué instrumentos están más cerca y por tanto cambia el dibujo.</p>
+<div class="fragment">
+<p>El mapa abre con el 4B.</p>
+</div>
 </div>
 </div>
 </div>
@@ -1041,161 +1014,149 @@
 </div></div>
 </section></section>
 <section>
+<section id="el-mapa-acierta" class="title-slide slide level1 center">
+<h1>¿El mapa acierta?</h1>
+
+</section>
+<section id="vínculos-fuertes" class="slide level2 fs75">
+<h2>Vínculos fuertes</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Qué son</strong></p>
+</div>
+<div class="callout-content">
+<p>Son vínculos que el texto declara. La señal A es el nombre del instrumento y la señal B es la frase “tiene por objeto”. Dan 277 vínculos de 253 instrumentos, y 62 nombres no se resuelven y se dejan fuera.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Qué se encuentra</strong></p>
+</div>
+<div class="callout-content">
+<p>El más cercano es un vínculo fuerte para 125, 129 y 131 de los 253 (0.6B, 4B y BM25). Uno de ellos está entre los cinco más cercanos para 194, 202 y 196. De los 209 reglamentos, el más cercano es su ley para 121, 122 y 124.</p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Empates y BM25</strong></p>
+</div>
+<div class="callout-content">
+<p>De las 18 comparaciones, 16 son empates y BM25 nunca pierde. Para esta tarea una medida de palabras es tan buena como los modelos.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="citas-fragmento-por-fragmento" class="slide level2 fs80">
+<h2>Citas fragmento por fragmento</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Las citas</strong></p>
+</div>
+<div class="callout-content">
+<p>Hay 3,480 fragmentos que citan exactamente un instrumento, y 1,067 de ellos citan la Constitución. Se mide si el instrumento citado está entre los cinco más cercanos.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment column">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Los resultados</strong></p>
+</div>
+<div class="callout-content">
+<p>Lo está para 0.309, 0.342 y 0.317 de los fragmentos (0.6B, 4B y BM25), y el rango mediano es 18, 14 y 15. El 4B es mejor que el 0.6B en las cinco medidas y que BM25 en tres.</p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="fragment">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Por qué el nivel es bajo</strong></p>
+</div>
+<div class="callout-content">
+<p>Citar un instrumento no es repetir su texto, así que el nivel absoluto es bajo aun cuando la relación existe. Por eso el mapa abre con el 4B y se lee como una descripción y no como una medida.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="leer-cada-instrumento" class="slide level2 fs85">
+<h2>Leer cada instrumento</h2>
+<div class="columns">
+<div class="column" style="width:62%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/instruments.png" class="quarto-figure quarto-figure-center" height="520"></p>
+</figure>
+</div>
+</div><div class="column" style="width:38%;">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>La página Instruments</strong></p>
+</div>
+<div class="callout-content">
+<p>Cada instrumento tiene su esquema, su texto y, para cada fragmento comparado, los cinco textos más cercanos.</p>
+<div class="fragment">
+<p>Además trae un enlace para comentar el instrumento, y así quien lo lee puede señalar un cruce que no le convence.</p>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
 <section id="qué-sigue" class="title-slide slide level1 center">
 <h1>¿Qué sigue?</h1>
 
 </section>
-<section id="objetivos" class="slide level2" style="font-size: 75%;">
-<h2>Objetivos</h2>
-<div class="callout callout-note no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Objetivo general</strong></p>
-</div>
-<div class="callout-content">
-<p>Desarrollar y evaluar sistemas explicables de inteligencia artificial que ofrezcan respuestas trazables y eficientes, apoyados en corpus jurídicos, para tareas del derecho mexicano.</p>
-</div>
-</div>
-</div>
+<section id="trabajo-pendiente-y-límites" class="slide level2 fs80">
+<h2>Trabajo pendiente y límites</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column">
 <div class="callout callout-tip no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
-<p><strong>Objetivos específicos</strong></p>
-</div>
-<div class="callout-content">
-<ol type="1">
-<li>Corpus abiertos del derecho mexicano vigente</li>
-<li>Sistemas híbridos de recuperación y búsqueda semántica</li>
-<li>Respuesta a preguntas sobre códigos vigentes, con citas y abstención</li>
-<li>Resúmenes con trazabilidad al texto original</li>
-</ol>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>&nbsp;</strong></p>
-</div>
-<div class="callout-content">
-<ol start="5" type="1">
-<li>Conjuntos de evaluación y protocolo público</li>
-<li>Análisis de explicabilidad</li>
-<li>Difusión en acceso abierto</li>
-</ol>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="plan-de-trabajo" class="slide level2" style="font-size: 80%;">
-<h2>Plan de trabajo</h2>
-<div class="columns">
-<div class="column" style="width:32%;">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>PT1. Corpus abiertos</strong></p>
-</div>
-<div class="callout-content">
-<p>Meses 1–10</p>
-</div>
-</div>
-</div>
-</div><div class="fragment column" style="width:32%;">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>PT2. Sistemas híbridos explicables</strong></p>
-</div>
-<div class="callout-content">
-<p>Meses 4–15</p>
-</div>
-</div>
-</div>
-</div><div class="fragment column" style="width:32%;">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>PT3. Evaluación y difusión</strong></p>
-</div>
-<div class="callout-content">
-<p>Meses 7–18</p>
-</div>
-</div>
-</div>
-</div></div>
-<div class="fragment">
-<div class="callout callout-note no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Hitos</strong></p>
+<p><strong>Lo que falta</strong></p>
 </div>
 <div class="callout-content">
 <ul>
-<li><strong>Mes 6</strong>: corpus v1 interno</li>
-<li><strong>Mes 10</strong>: corpus público</li>
-<li><strong>Mes 12</strong>: prototipos de recuperación y de respuesta a preguntas, y primer manuscrito</li>
-<li><strong>Mes 15</strong>: resúmenes y explicabilidad, y código liberado</li>
-<li><strong>Mes 18</strong>: protocolo y conjuntos de evaluación</li>
+<li>Un grafo de citas que parta de los decretos del DOF, como el que se construyó para la legislación italiana <span class="citation" data-cites="Colombo2025AnLegislation">(<a href="#/referencias" role="doc-biblioref" onclick="">Colombo et&nbsp;al. 2025</a>)</span></li>
+<li>Atlas temporales a partir de las versiones fechadas</li>
+<li>Legislación estatal y jurisprudencia</li>
+<li>Una evaluación con juristas</li>
 </ul>
 </div>
 </div>
 </div>
-</div>
-</section>
-<section id="respuestas-que-citan-la-ley" class="slide level2" style="font-size: 85%;">
-<h2>Respuestas que citan la ley</h2>
-<div class="columns">
-<div class="column" style="width:32%;">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
+</div><div class="fragment column">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
-<p><strong>Buscador</strong></p>
+<p><strong>El límite</strong></p>
 </div>
 <div class="callout-content">
-<p>Encontrar el artículo correcto, combinando búsqueda por palabras y por significado.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment column" style="width:32%;">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Preguntas</strong></p>
-</div>
-<div class="callout-content">
-<p>Responder citando las disposiciones, y abstenerse cuando no hay evidencia suficiente.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment column" style="width:32%;">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Resúmenes</strong></p>
-</div>
-<div class="callout-content">
-<p>Cada afirmación del resumen se vincula con el segmento del documento que la origina.</p>
+<p>El atlas describe cercanía textual y no mide parentesco jurídico. Es una herramienta para explorar, no una medida validada.</p>
 </div>
 </div>
 </div>
 </div></div>
-<div class="fragment">
-<div class="callout callout-note no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Eficiencia</strong></p>
-</div>
-<div class="callout-content">
-<p>Sistemas que priorizan la trazabilidad y la eficiencia sobre el cómputo de alto desempeño, pensados para las condiciones reales de instituciones y despachos.</p>
-</div>
-</div>
-</div>
-</div>
 </section></section>
 <section>
 <section id="conclusiones" class="title-slide slide level1 center">
@@ -1228,9 +1189,10 @@
 </div>
 <div class="callout-content">
 <ul>
-<li>Corpus del DOF y de las leyes federales</li>
+<li>Cuatro corpus abiertos de la SCJN</li>
+<li>Fragmentos de leyes, reglamentos, lineamientos y tratados</li>
 <li>Atlas de la legislación federal</li>
-<li>Búsqueda, preguntas y resúmenes con citas</li>
+<li>Validación con vínculos fuertes y citas</li>
 </ul>
 </div>
 </div>
@@ -1243,20 +1205,26 @@
 <p><strong>Todo es abierto</strong></p>
 </div>
 <div class="callout-content">
-<p>Paquetes en PyPI, releases con licencia Creative Commons, sitio web y código Apache 2.0: <a href="https://ingeotec.github.io/LegalIA/" class="uri">https://ingeotec.github.io/LegalIA/</a></p>
+<p>Paquetes en PyPI, releases con licencia Creative Commons, sitio web y código Apache 2.0 en <a href="https://ingeotec.github.io/LegalIA/" class="uri">https://ingeotec.github.io/LegalIA/</a></p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
-<section id="referencias" class="title-slide slide level1 smaller scrollable" style="font-size: 50%;">
+<section id="referencias" class="title-slide slide level1 fs40 smaller scrollable">
 <h1>Referencias</h1>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-Atkinson2020ExplanationFuture" class="csl-entry" role="listitem">
 Atkinson, Katie, Trevor Bench-Capon, y Danushka Bollegala. 2020. <span>«<span>Explanation in AI and law: Past, present and future</span>»</span>. <em>Artificial Intelligence</em> 289 (diciembre): 103387. <a href="https://doi.org/10.1016/J.ARTINT.2020.103387">https://doi.org/10.1016/J.ARTINT.2020.103387</a>.
 </div>
+<div id="ref-Colombo2025AnLegislation" class="csl-entry" role="listitem">
+Colombo, Andrea, Anna Bernasconi, y Stefano Ceri. 2025. <span>«<span>An LLM-assisted ETL pipeline to build a high-quality knowledge graph of the Italian legislation</span>»</span>. <em>Information Processing &amp; Management</em> 62 (4): 104082. <a href="https://doi.org/10.1016/j.ipm.2025.104082">https://doi.org/10.1016/j.ipm.2025.104082</a>.
+</div>
 <div id="ref-Dahl2024LargeModels" class="csl-entry" role="listitem">
 Dahl, Matthew, Varun Magesh, Mirac Suzgun, y Daniel E. Ho. 2024. <span>«<span>Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models</span>»</span>. <em>Journal of Legal Analysis</em> 16 (1): 64-93. <a href="https://doi.org/10.1093/JLA/LAAE003">https://doi.org/10.1093/JLA/LAAE003</a>.
+</div>
+<div id="ref-Grave2019WassersteinProcrustes" class="csl-entry" role="listitem">
+Grave, Edouard, Armand Joulin, y Quentin Berthet. 2019. <span>«<span>Unsupervised Alignment of Embeddings with Wasserstein Procrustes</span>»</span>. <em>Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics</em>, Proceedings of Machine Learning Research, vol. 89: 1880-90. <a href="https://proceedings.mlr.press/v89/grave19a.html">https://proceedings.mlr.press/v89/grave19a.html</a>.
 </div>
 <div id="ref-Katz2024GPT-4Exam" class="csl-entry" role="listitem">
 Katz, Daniel Martin, Michael James Bommarito, Shang Gao, y Pablo Arredondo. 2024. <span>«<span>GPT-4 passes the bar exam</span>»</span>. <em>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</em> 382 (2270). <a href="https://doi.org/10.1098/rsta.2023.0254">https://doi.org/10.1098/rsta.2023.0254</a>.
@@ -1267,8 +1235,20 @@ Magesh, Varun, Faiz Surani, Matthew Dahl, Mirac Suzgun, Christopher D. Manning, 
 <div id="ref-Martinez2024Re-evaluatingPerformance" class="csl-entry" role="listitem">
 Martínez, Eric. 2024. <span>«<span>Re-evaluating GPT-4’s bar exam performance</span>»</span>. <em>Artificial Intelligence and Law 2024 33:3</em> 33 (3): 581-604. <a href="https://doi.org/10.1007/s10506-024-09396-9">https://doi.org/10.1007/s10506-024-09396-9</a>.
 </div>
+<div id="ref-McInnes2018UMAPReduction" class="csl-entry" role="listitem">
+McInnes, Leland, John Healy, y James Melville. 2018. <em><span>UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction</span></em>. <a href="https://arxiv.org/abs/1802.03426">https://arxiv.org/abs/1802.03426</a>.
+</div>
+<div id="ref-palmirani2011" class="csl-entry" role="listitem">
+Palmirani, Monica, y Fabio Vitali. 2011. <span>«Akoma-Ntoso for Legal Documents»</span>. En <em>Law, Governance and Technology Series</em>, editado por Giovanni Sartor, Monica Palmirani, Enrico Francesconi, y Maria Angela Biasiotti, vol. 4. Springer Nature. <a href="https://doi.org/10.1007/978-94-007-1887-6_6">https://doi.org/10.1007/978-94-007-1887-6_6</a>.
+</div>
 <div id="ref-ICAIL87" class="csl-entry" role="listitem">
 <em><span>Proceedings of the First International Conference on Artificial Intelligence and Law</span></em>. 1987. Association for Computing Machinery.
+</div>
+<div id="ref-Robertson2009TheBeyond" class="csl-entry" role="listitem">
+Robertson, Stephen, y Hugo Zaragoza. 2009. <span>«<span>The Probabilistic Relevance Framework: BM25 and Beyond</span>»</span>. <em>Foundations and Trends in Information Retrieval</em>, advance online publication. <a href="https://doi.org/10.1561/1500000019">https://doi.org/10.1561/1500000019</a>.
+</div>
+<div id="ref-Zhang2025Qwen3Models" class="csl-entry" role="listitem">
+Zhang, Yanzhao, Mingxin Li, Dingkun Long, et&nbsp;al. 2025. <em><span>Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models</span></em>. <a href="https://arxiv.org/abs/2506.05176">https://arxiv.org/abs/2506.05176</a>.
 </div>
 </div>
 </section>

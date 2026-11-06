@@ -2260,7 +2260,7 @@
     "href": "LegalIA/index.html#definiciones",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "Definiciones",
-    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nSubárea de IA que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.\n\n\n\n\n\n\n\n\nDerecho y datos\n\n\nLa legislación es, ante todo, texto: leyes, reglamentos y decretos escritos en lenguaje natural que se modifican con el tiempo y que se pueden estudiar como datos.",
+    "text": "Definiciones\n\n\n\n\n\nInteligencia Artificial (IA)\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que presentan un comportamiento que sería identificado como inteligente.\n\n\n\n\n\n\n\nAprendizaje Computacional\n\n\nSubárea de IA que estudia el desarrollo e implementación de algoritmos capaces de aprender de datos de manera autónoma sin haber sido explícitamente programados.\n\n\n\n\n\n\n\n\nProcesamiento de Lenguaje Natural\n\n\nConjunto de teorías, métodos y algoritmos para el desarrollo y estudio de sistemas que permitan el entendimiento, generación y manipulación del lenguaje humano.\n\n\n\n\n\n\n\n\nDerecho y datos\n\n\nLa legislación es, ante todo, texto. Son leyes, reglamentos y tratados escritos en lenguaje natural, que se modifican con el tiempo y que se pueden estudiar como datos.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2280,7 +2280,7 @@
     "href": "LegalIA/index.html#qué-puede-hacer-el-pln",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "¿Qué puede hacer el PLN?",
-    "text": "¿Qué puede hacer el PLN?\n\n\n\n\n\n\n\n\n\n\n\nAplicaciones\n\n\n\nMinería de opinión\n\npositivo :)  –neutro :| –negativo :( \n\nAnálisis de tópicos\nIdentificación de humor\n\n\n\n\n\n\n\n\n\nAplicaciones jurídicas\n\n\n\nBuscar leyes: encontrar el artículo que responde a una necesidad\nResponder preguntas sobre la legislación vigente\nResumir documentos jurídicos extensos",
+    "text": "¿Qué puede hacer el PLN?\n\n\n\n\n\n\n\n\n\n\n\nAplicaciones\n\n\n\nMinería de opinión\n\npositivo :)  –neutro :| –negativo :( \n\nAnálisis de tópicos\nIdentificación de humor\n\n\n\n\n\n\n\n\n\nAplicaciones jurídicas\n\n\n\nBuscar leyes para encontrar el artículo que responde a una necesidad\nResponder preguntas sobre la legislación vigente\nResumir documentos jurídicos extensos",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2290,17 +2290,17 @@
     "href": "LegalIA/index.html#un-poco-de-historia",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "Un poco de historia",
-    "text": "Un poco de historia\n\n\n\n1987\n\n\nPrimera Conferencia Internacional de Inteligencia Artificial y Derecho (ICAIL) (Proceedings of the First International Conference on Artificial Intelligence and Law 1987): el campo se institucionaliza.\n\n\n\n\n\n\n\nGPT-4 y el examen de la barra\n\n\nGPT-4 “aprobó” el examen de la barra de Estados Unidos (Katz et al. 2024).\n\n\n\n\n\n\n\n\nUna reevaluación\n\n\nAl repetir la evaluación, las cifras resultaron más conservadoras (Martínez 2024).",
+    "text": "Un poco de historia\n\n\n\n1987\n\n\nPrimera Conferencia Internacional de Inteligencia Artificial y Derecho (ICAIL) (Proceedings of the First International Conference on Artificial Intelligence and Law 1987). Con ella el campo se institucionaliza.\n\n\n\n\n\n\n\nGPT-4 y el examen de la barra\n\n\nGPT-4 “aprobó” el examen de la barra de Estados Unidos (Katz et al. 2024).\n\n\n\n\n\n\n\n\nUna reevaluación\n\n\nAl repetir la evaluación, las cifras resultaron más conservadoras (Martínez 2024).",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#el-problema-las-alucinaciones",
-    "href": "LegalIA/index.html#el-problema-las-alucinaciones",
+    "objectID": "LegalIA/index.html#las-alucinaciones",
+    "href": "LegalIA/index.html#las-alucinaciones",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "El problema: las alucinaciones",
-    "text": "El problema: las alucinaciones\n\n\n\n\n\nModelos generativos públicos\n\n\nAlucinan entre 58 % y 88 % de las veces al preguntar sobre jurisprudencia federal estadounidense (Dahl et al. 2024).\n\n\n\n\n\n\n\nHerramientas comerciales “libres de alucinación”\n\n\nAun así se equivocan entre 17 % y 33 % de las veces (Magesh et al. 2025).\n\n\n\n\n\n\n\n\nAlucinar\n\n\nGenerar una respuesta que suena convincente, pero que cita leyes o casos que no existen o que dicen otra cosa.",
+    "section": "Las alucinaciones",
+    "text": "Las alucinaciones\n\n\n\n\n\nModelos generativos públicos\n\n\nAlucinan entre 58 % y 88 % de las veces al preguntar sobre jurisprudencia federal estadounidense (Dahl et al. 2024).\n\n\n\n\n\n\n\nHerramientas comerciales “libres de alucinación”\n\n\nAun así se equivocan entre 17 % y 33 % de las veces (Magesh et al. 2025).\n\n\n\n\n\n\n\n\nAlucinar\n\n\nEs generar una respuesta que suena convincente, pero que cita leyes o casos que no existen o que dicen otra cosa.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2310,7 +2310,7 @@
     "href": "LegalIA/index.html#y-méxico",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "¿Y México?",
-    "text": "¿Y México?\n\n\n\nEvidencia concentrada en otros países\n\n\nLa validación de los sistemas de IA jurídica se ha concentrado en Estados Unidos y la Unión Europea; para América Latina la evidencia es escasa.\n\n\n\n\n\n\n\nPara México\n\n\nNo se cuenta con puntos de referencia públicos ni con corpus abiertos construidos a partir de las leyes mexicanas vigentes.\n\n\n\n\n\n\n\n\nLeyes dispersas\n\n\nLa legislación vigente está dispersa en fuentes heterogéneas y es de difícil consulta para quien no es especialista.",
+    "text": "¿Y México?\n\n\n\nEvidencia concentrada en otros países\n\n\nLa validación de los sistemas de IA jurídica se ha concentrado en Estados Unidos y la Unión Europea, así que para América Latina la evidencia es escasa.\n\n\n\n\n\n\n\nPara México\n\n\nNo se cuenta con puntos de referencia públicos ni con corpus abiertos construidos a partir de las leyes mexicanas vigentes.\n\n\n\n\n\n\n\n\nLeyes dispersas\n\n\nLa legislación vigente está dispersa en fuentes heterogéneas y es de difícil consulta para quien no es especialista.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2320,7 +2320,7 @@
     "href": "LegalIA/index.html#cajas-negras-y-confianza",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "Cajas negras y confianza",
-    "text": "Cajas negras y confianza\n\n\n\n\n\nCajas negras\n\n\nLos modelos de lenguaje operan como cajas negras: no sabemos por qué responden lo que responden.\n\n\n\n\n\n\n\nConfianza\n\n\nLa confianza depende de que la persona usuaria entienda por qué el sistema recomienda algo (Atkinson et al. 2020).\n\n\n\n\n\n\n\n\nLa respuesta debe remitir al artículo\n\n\nUna respuesta jurídica útil es una que se puede verificar contra el texto vigente de la ley.",
+    "text": "Cajas negras y confianza\n\n\n\n\n\nCajas negras\n\n\nLos modelos de lenguaje operan como cajas negras y no sabemos por qué responden lo que responden.\n\n\n\n\n\n\n\nConfianza\n\n\nLa confianza depende de que la persona usuaria entienda por qué el sistema recomienda algo (Atkinson et al. 2020).\n\n\n\n\n\n\n\n\nLa respuesta debe remitir al artículo\n\n\nUna respuesta jurídica útil es una que se puede verificar contra el texto vigente de la ley.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2330,7 +2330,7 @@
     "href": "LegalIA/index.html#el-proyecto",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "El proyecto",
-    "text": "El proyecto\n\n\n\n\n\nDatos abiertos\n\n\nCorpus que documentan el sistema jurídico mexicano, estandarizados y abiertos.\n\n\n\n\n\n\n\nModelos especializados\n\n\nModelos de lenguaje entrenados con texto jurídico mexicano, liberados abiertamente.\n\n\n\n\n\n\n\nPLN jurídico\n\n\nClasificación, resumen y minería de argumentos en los términos del derecho mexicano.\n\n\n\n\n\n\n\n\nTodo en abierto (Apache 2.0)\n\n\nCódigo: https://github.com/INGEOTEC/LegalIA Sitio: https://ingeotec.github.io/LegalIA/",
+    "text": "El proyecto\n\n\n\n\n\nDatos abiertos\n\n\nCorpus que documentan el sistema jurídico mexicano, estandarizados y abiertos.\n\n\n\n\n\n\n\nModelos especializados\n\n\nModelos de lenguaje entrenados con texto jurídico mexicano, liberados abiertamente.\n\n\n\n\n\n\n\nPLN jurídico\n\n\nClasificación, resumen y minería de argumentos en los términos del derecho mexicano.\n\n\n\n\n\n\n\n\nTodo en abierto (Apache 2.0)\n\n\nEl código está en https://github.com/INGEOTEC/LegalIA y el sitio en https://ingeotec.github.io/LegalIA/.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2340,97 +2340,27 @@
     "href": "LegalIA/index.html#dónde-están-las-leyes",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "¿Dónde están las leyes?",
-    "text": "¿Dónde están las leyes?\n\n\n\n\n\nDiario Oficial de la Federación (DOF)\n\n\nMedio oficial donde se publican los decretos, las leyes y sus reformas. Cada reforma aparece como una nota.\n\n\n\n\n\n\n\nSuprema Corte de Justicia de la Nación (SCJN)\n\n\nPublica las leyes, reglamentos y lineamientos federales en su forma consolidada, con sus textos de reforma fechados.",
+    "text": "¿Dónde están las leyes?\n\n\n\n\n\nDiario Oficial de la Federación (DOF)\n\n\nEs el medio oficial donde se publican los decretos, las leyes y sus reformas. Cada reforma aparece como un decreto.\n\n\n\n\n\n\n\nSuprema Corte de Justicia de la Nación (SCJN)\n\n\nPublica los textos consolidados y editoriales de las leyes, los reglamentos, los lineamientos y los tratados.\n\n\n\n\n\n\n\n\nEl atlas parte de la SCJN\n\n\nSus textos ya traen cada instrumento completo y con su nombre, así que no hace falta reconstruirlos a partir de los decretos.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#un-siglo-de-notas",
-    "href": "LegalIA/index.html#un-siglo-de-notas",
+    "objectID": "LegalIA/index.html#cuatro-corpus-abiertos",
+    "href": "LegalIA/index.html#cuatro-corpus-abiertos",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "Un siglo de notas",
-    "text": "Un siglo de notas\n\n\n\n\n\nEl archivo\n\n\n\n1,232,802 notas\n30,614 días de publicación\nDel 1917-01-01 al 2026-06-30\nSe actualiza cada mes\n\n\n\n\n\n\n\n\n¿Qué formato tienen?\n\n\n\nHTML desde los años setenta; universal desde los 2000\n25,500 notas sólo con PDF\n4,308 notas, todas de los 1910, sin contenido",
+    "section": "Cuatro corpus abiertos",
+    "text": "Cuatro corpus abiertos\n\n\n\nColección\nEn la SCJN\nSin texto\nEn el mapa\nRelease\n\n\n\n\nLeyes\n315\n0\n314\nscjn-leyes\n\n\nReglamentos\n1,087\n5\n864\nscjn-reglamentos\n\n\nLineamientos\n163\n37\n125\nscjn-lineamientos\n\n\nTratados\n1,455\n82\n1,367\nscjn-tratados\n\n\n\n\n\n\n\nUn instrumento por nombre\n\n\nComo la Corte reedita los reglamentos y los lineamientos con otro identificador, de los que comparten nombre sólo se conserva el más reciente. Si dos instrumentos tienen exactamente el mismo texto, se queda uno solo. En total son 2,670 instrumentos en el mapa.\n\n\n\n\n\nLos cuatro releases están en https://github.com/INGEOTEC/LegalIA/releases.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#cuánto-se-publica",
-    "href": "LegalIA/index.html#cuánto-se-publica",
+    "objectID": "LegalIA/index.html#del-texto-a-los-fragmentos",
+    "href": "LegalIA/index.html#del-texto-a-los-fragmentos",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "¿Cuánto se publica?",
-    "text": "¿Cuánto se publica?\n\n\n\n\n\n1999\n\n\nEl volumen anual salta de 12,921 a 28,234 notas.\n\n\n\n\n\n\n\n2014\n\n\nMáximo histórico: 36,041 notas en un año.",
-    "crumbs": [
-      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "LegalIA/index.html#de-qué-habla-el-dof-12",
-    "href": "LegalIA/index.html#de-qué-habla-el-dof-12",
-    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "¿De qué habla el DOF? (1/2)",
-    "text": "¿De qué habla el DOF? (1/2)\n\n\n\n\n\nZedillo\n\n\n\n\n\n\n\n\n\n\nFox",
-    "crumbs": [
-      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "LegalIA/index.html#de-qué-habla-el-dof-22",
-    "href": "LegalIA/index.html#de-qué-habla-el-dof-22",
-    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "¿De qué habla el DOF? (2/2)",
-    "text": "¿De qué habla el DOF? (2/2)\n\n\n\n\n\nCalderón\n\n\n\n\n\n\n\n\n\n\nAMLO",
-    "crumbs": [
-      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "LegalIA/index.html#vs-2025",
-    "href": "LegalIA/index.html#vs-2025",
-    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "2019 vs 2025",
-    "text": "2019 vs 2025",
-    "crumbs": [
-      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "LegalIA/index.html#cómo-se-escribe",
-    "href": "LegalIA/index.html#cómo-se-escribe",
-    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "¿Cómo se escribe?",
-    "text": "¿Cómo se escribe?\n\n\n\n\n\nEl tipo de documento\n\n\nLa primera palabra del título indica el tipo de documento. En 2025, “aviso” es el 43.9 % de las notas.\n\n\n\n\n\n\n\nTítulos más cortos\n\n\nLa longitud mediana del título cae de unas 20 palabras a 5–6.",
-    "crumbs": [
-      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "LegalIA/index.html#leyes-3724-versiones",
-    "href": "LegalIA/index.html#leyes-3724-versiones",
-    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "315 leyes, 3,724 versiones",
-    "text": "315 leyes, 3,724 versiones\n\n\n\n\n\nLeyes\n\n\n\n3,724 versiones fechadas (“textos de reforma”)\nDe 315 de los 316 instrumentos federales catalogados\nDe 1889 a 2026\n\n\n\n\n\n\n\n\nEnlace con el DOF\n\n\n\n87.7 % enlazadas a su decreto en el DOF\n66.4 % por título, 21.3 % por contenido\nAdemás: 1,082 reglamentos y 126 lineamientos",
-    "crumbs": [
-      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "LegalIA/index.html#de-la-nota-al-artículo",
-    "href": "LegalIA/index.html#de-la-nota-al-artículo",
-    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "De la nota al artículo",
-    "text": "De la nota al artículo\n\n\n\n\n\nflowchart LR\n    A[DOF / SIDOF] --&gt; B[dofjson]\n    B --&gt; C[nota2md]\n    B --&gt; D[document2md&lt;br/&gt;OCR]\n    C --&gt; E[md2akn&lt;br/&gt;artículo, fracción]\n    D --&gt; E\n    E --&gt; F[vectores]\n\n\n\n\n\n\n\nPaquetes en PyPI, licencia Apache 2.0",
-    "crumbs": [
-      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
-    ]
-  },
-  {
-    "objectID": "LegalIA/index.html#reconstruir-una-ley-a-partir-de-sus-reformas",
-    "href": "LegalIA/index.html#reconstruir-una-ley-a-partir-de-sus-reformas",
-    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "Reconstruir una ley a partir de sus reformas",
-    "text": "Reconstruir una ley a partir de sus reformas\n\n\n\nLa idea\n\n\nCada decreto modifica artículos. Con todos los decretos en orden, el texto vigente de una ley se vuelve a armar.\n\n\n\n\n\n\n\nUn ejemplo\n\n\nLa Constitución: 1,328 disposiciones, reconstruidas a partir de sus reformas.",
+    "section": "Del texto a los fragmentos",
+    "text": "Del texto a los fragmentos\n\n\n\n\n\nBloques con un esquema\n\n\nLa SCJN sirve cada instrumento en bloques, y esos bloques se convierten en un árbol con el vocabulario de Akoma Ntoso (Palmirani y Vitali 2011).\n\n\n\n\n\n\n\nEl artículo entero\n\n\nLa unidad es el artículo completo, tenga la longitud que tenga, porque es lo que una persona del derecho cita.\n\n\n\n\n\n\n\n\n\nCobertura total\n\n\nUnas pruebas comprueban que todo el texto de un bloque cae en algún fragmento y que ninguno se pierde.\n\n\n\n\n\n\n\n¿Fragmento o disposición?\n\n\nUn encabezado o un preámbulo no es una disposición. Por eso se dice fragmento, que puede ser un artículo, un transitorio o un título.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2440,7 +2370,7 @@
     "href": "LegalIA/index.html#qué-tan-cerca-están-dos-leyes",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "¿Qué tan cerca están dos leyes?",
-    "text": "¿Qué tan cerca están dos leyes?\n\n\n\n\n\nLa pregunta\n\n\nCada artículo busca a su “gemelo”: el texto más parecido que está en otra ley.\n\n\n\n\n\n\n\nEl vecino más cercano\n\n\n\nEl texto más cercano (coseno) fuera de su propio instrumento\nSi ese texto lo comparten m instrumentos, cada uno recibe 1/m",
+    "text": "¿Qué tan cerca están dos leyes?\n\n\n\n\n\nLa pregunta\n\n\nCada fragmento busca a su “gemelo”, que es el texto más parecido fuera de su propio instrumento.\n\n\n\n\n\n\n\nEl vecino más cercano\n\n\n\nEl texto más cercano (coseno) fuera de su propio instrumento\nSi ese texto lo comparten m instrumentos, cada uno recibe 1/m",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2450,17 +2380,17 @@
     "href": "LegalIA/index.html#texto-números",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "Texto → números",
-    "text": "Texto → números",
+    "text": "Texto → números\n\n\n\n\n\n\n\n\n\n\n\n\n\nQwen3-Embedding (Zhang et al. 2025) da 2,560 números en el 4B y 1,024 en el 0.6B.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#de-artículos-a-instrumentos",
-    "href": "LegalIA/index.html#de-artículos-a-instrumentos",
+    "objectID": "LegalIA/index.html#qué-se-compara-y-qué-no",
+    "href": "LegalIA/index.html#qué-se-compara-y-qué-no",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "De artículos a instrumentos",
-    "text": "De artículos a instrumentos\n\n\n\n\n\nDisposiciones\n\n\n\n161,989 disposiciones\n28,568 encabezados y 21,344 transitorios se excluyen\n1,715 textos idénticos compartidos se descartan\n110,362 disposiciones contadas\n\n\n\n\n\n\n\n\nInstrumentos\n\n\n\n315 leyes, 863 reglamentos y 125 lineamientos\n1,303 instrumentos únicos (de reglamentos y lineamientos reeditados sólo se conserva el más reciente)\nMatriz dirigida instrumento × instrumento: 32,539 celdas no nulas",
+    "section": "Qué se compara y qué no",
+    "text": "Qué se compara y qué no\n\n\n\n\n\nLos fragmentos al 28 de octubre de 2026\n\n\n\n227,132 fragmentos en total\nNo se comparan 36,137 encabezados, 22,575 transitorios y 10,093 de envoltura\n158,327 fragmentos comparados\n\n\n\n\n\n\n\n\nLos compartidos\n\n\n\n1,895 fragmentos comparados tienen un texto idéntico que varios instrumentos comparten, y no se cuentan\nEl artículo 56 del Código Civil Federal se reduce a su etiqueta y coincide con el 56 de otras tres leyes\n156,432 fragmentos contados\n\n\n\n\n\n\n\n\n\nLa envoltura y la matriz\n\n\nLa envoltura es el bloque de título que la Corte imprime y, en un tratado, el decreto de promulgación y su certificación. Con los fragmentos contados se llena una matriz dirigida de 2,670 × 2,670 instrumentos, con 47,157 celdas no nulas, y ningún texto lo comparten más de 14 instrumentos.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2470,7 +2400,17 @@
     "href": "LegalIA/index.html#dibujar-el-mapa",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "Dibujar el mapa",
-    "text": "Dibujar el mapa\n\n\n\n\n\nUMAP\n\n\n“Aplanar” el espacio de 1,024 dimensiones a una hoja, de modo que los instrumentos cercanos queden juntos.\n\nLa vecindad (4, 8, 16 o 32) cambia el dibujo, no los datos.",
+    "text": "Dibujar el mapa\n\n\n\n\n\nUMAP\n\n\n“Aplana” el espacio de 2,560 dimensiones a una hoja, de modo que los instrumentos cercanos queden juntos (McInnes et al. 2018).\n\nLa vecindad (4, 8, 16 o 32) cambia el dibujo y no los datos.",
+    "crumbs": [
+      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "LegalIA/index.html#mapas-alineados-y-estelas",
+    "href": "LegalIA/index.html#mapas-alineados-y-estelas",
+    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
+    "section": "Mapas alineados y estelas",
+    "text": "Mapas alineados y estelas\n\n\n\n\n\nDoce mapas, uno solo\n\n\nTres similitudes por cuatro vecindades dan doce mapas. Cada uno se gira, se refleja y se escala sobre el del 4B a vecindad 16 (Grave et al. 2019).\n\nCon la alineación el desplazamiento medio baja de 0.19–0.54 a 0.10–0.28.\n\n\nAl cambiar de vecindad, cada instrumento que se mueve 4 px o más deja una estela de su color que se desvanece en 2.5 s.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2490,27 +2430,37 @@
     "href": "LegalIA/index.html#cómo-leerlo",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "Cómo leerlo",
-    "text": "Cómo leerlo\n\n\n\n\n\n\n\n\n\n\n\nCómo leer el mapa\n\n\n\nAzul: leyes (315)\nVerde: reglamentos (863)\nMagenta: lineamientos (125)\nEl área del punto es proporcional al número de disposiciones\nAl elegir un instrumento se ven sus 5 vecinos salientes y 5 entrantes",
+    "text": "Cómo leerlo\n\n\n\n\n\n\n\n\n\n\n\nCómo leer el mapa\n\n\n\nAzul, las leyes (314)\nVerde, los reglamentos (864)\nMagenta, los lineamientos (125)\nAmarillo, los tratados (1,367)\nEl área del punto es proporcional al número de fragmentos contados\nAl elegir un instrumento se ven sus cinco vecinos salientes y cinco entrantes",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#ejemplo-universidad-autónoma-chapingo",
-    "href": "LegalIA/index.html#ejemplo-universidad-autónoma-chapingo",
+    "objectID": "LegalIA/index.html#qué-muestra-el-mapa",
+    "href": "LegalIA/index.html#qué-muestra-el-mapa",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "Ejemplo: Universidad Autónoma Chapingo",
-    "text": "Ejemplo: Universidad Autónoma Chapingo\n\n\n\n\n\n\n\n\n\n\n\nLey de la UACh\n\n\n\n28 disposiciones, 18 contadas\n10 → Ley Orgánica de la UAM\n7 → Antonio Narro\n1 → IPN\n24 disposiciones ajenas apuntan a ella",
+    "section": "Qué muestra el mapa",
+    "text": "Qué muestra el mapa\n\n\n\n\n\nDos cuerpos\n\n\nPara 1,298 de los 1,367 tratados el instrumento más cercano es otro tratado. Sólo 10 leyes, 6 reglamentos y 2 lineamientos tienen un tratado como el más cercano.\n\n\n\n\n\n\n\nIslas de familias\n\n\nHay islas de reglamentos de exámenes de la Armada, de reglamentos de las escuelas militares y de bancos de desarrollo. También las leyes orgánicas de Chapingo, Antonio Narro, la UAM y la UNAM quedan juntas.\n\n\n\n\n\n\n\n\nDonde los cuerpos se tocan\n\n\nLa Ley General de Salud queda entre sus reglamentos, y la LIGIE junto al protocolo del T-MEC.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#ejemplo-la-constitución",
-    "href": "LegalIA/index.html#ejemplo-la-constitución",
+    "objectID": "LegalIA/index.html#un-ejemplo-chapingo",
+    "href": "LegalIA/index.html#un-ejemplo-chapingo",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "Ejemplo: la Constitución",
-    "text": "Ejemplo: la Constitución\n\n\n\n\n\n\n\n\n\n\n\nCPEUM\n\n\n1,328 disposiciones, 137 contadas. Vecinos más cercanos:\n\nLGIPE: 15.0\nLOPJF: 9.0\nLey Orgánica del Congreso: 8.0",
+    "section": "Un ejemplo, Chapingo",
+    "text": "Un ejemplo, Chapingo\n\n\n\n\n\n\n\n\n\n\n\nLey de la UACh\n\n\n\n29 fragmentos y 16 contados\n7 van a la Ley Orgánica de la UAM\n6 van a la de Antonio Narro\n1 va a la Ley General de Educación, 1 a la Ley Orgánica de la UNAM y 1 al Convenio de la Universidad para la Paz\n18 fragmentos ajenos apuntan a ella",
+    "crumbs": [
+      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "LegalIA/index.html#otro-ejemplo-la-constitución",
+    "href": "LegalIA/index.html#otro-ejemplo-la-constitución",
+    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
+    "section": "Otro ejemplo, la Constitución",
+    "text": "Otro ejemplo, la Constitución\n\n\n\n\n\n\n\n\n\n\n\nCPEUM\n\n\nTiene 1,347 fragmentos y 136 contados. Sus vecinos más cercanos son\n\nLGIPE, con 16.0\nLey Orgánica del Congreso, con 9.0\nLey Orgánica del Poder Judicial, con 9.0\nConvención Americana sobre Derechos Humanos, con 9.0",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2520,7 +2470,7 @@
     "href": "LegalIA/index.html#cada-vecindad-se-explica",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "Cada vecindad se explica",
-    "text": "Cada vecindad se explica\n\n\n\n\n\n\n\n\n\n\n\nPares de artículos\n\n\nCada peso abre la tabla de pares de artículos que lo explican.\n\nArt. 96 CPEUM ↔︎ art. 494 LGIPE: similitud 0.86",
+    "text": "Cada vecindad se explica\n\n\n\n\n\n\n\n\n\n\n\nPares de fragmentos\n\n\nCada peso abre la tabla de pares de fragmentos que lo explican. Con la LGIPE hay 16 artículos enteros.\n\nEl artículo 96 de la Constitución se parece al 500 de la LGIPE con una similitud de 0.86, y el 58 al 10 con 0.54.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2530,47 +2480,57 @@
     "href": "LegalIA/index.html#quién-recibe-más",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "¿Quién recibe más?",
-    "text": "¿Quién recibe más?",
+    "text": "¿Quién recibe más?\n\n\n\n\n\n\n\n\n\n\n\nMayor peso entrante\n\n\nEncabeza el Código Nacional de Procedimientos Civiles y Familiares con 1,640.5, sobre todo por el Código Civil Federal. Siguen el Código IMDG, el Protocolo del T-MEC, el Código de Gaseros y el Reglamento de la Ley General de Salud en materia de control sanitario.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#un-mapa-dos-modelos",
-    "href": "LegalIA/index.html#un-mapa-dos-modelos",
+    "objectID": "LegalIA/index.html#una-pregunta-tres-métodos",
+    "href": "LegalIA/index.html#una-pregunta-tres-métodos",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "Un mapa, dos modelos",
-    "text": "Un mapa, dos modelos\n\n\n\n\n\n0.6B vs 4B\n\n\nEl modelo de representación cambia qué instrumentos están más cerca, y por tanto cambia las relaciones y el dibujo.",
+    "section": "Una pregunta, tres métodos",
+    "text": "Una pregunta, tres métodos\n\n\n\n\n\n0.6B, 4B y BM25\n\n\nLa misma pregunta se contesta con Qwen3-Embedding en sus tamaños de 0.6B y 4B y con BM25 (Robertson y Zaragoza 2009) como línea base de palabras. Cada método cambia qué instrumentos están más cerca y por tanto cambia el dibujo.\n\nEl mapa abre con el 4B.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#objetivos",
-    "href": "LegalIA/index.html#objetivos",
+    "objectID": "LegalIA/index.html#vínculos-fuertes",
+    "href": "LegalIA/index.html#vínculos-fuertes",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "Objetivos",
-    "text": "Objetivos\n\n\n\nObjetivo general\n\n\nDesarrollar y evaluar sistemas explicables de inteligencia artificial que ofrezcan respuestas trazables y eficientes, apoyados en corpus jurídicos, para tareas del derecho mexicano.\n\n\n\n\n\n\n\n\nObjetivos específicos\n\n\n\nCorpus abiertos del derecho mexicano vigente\nSistemas híbridos de recuperación y búsqueda semántica\nRespuesta a preguntas sobre códigos vigentes, con citas y abstención\nResúmenes con trazabilidad al texto original\n\n\n\n\n\n\n\n\n \n\n\n\nConjuntos de evaluación y protocolo público\nAnálisis de explicabilidad\nDifusión en acceso abierto",
+    "section": "Vínculos fuertes",
+    "text": "Vínculos fuertes\n\n\n\n\n\nQué son\n\n\nSon vínculos que el texto declara. La señal A es el nombre del instrumento y la señal B es la frase “tiene por objeto”. Dan 277 vínculos de 253 instrumentos, y 62 nombres no se resuelven y se dejan fuera.\n\n\n\n\n\n\n\nQué se encuentra\n\n\nEl más cercano es un vínculo fuerte para 125, 129 y 131 de los 253 (0.6B, 4B y BM25). Uno de ellos está entre los cinco más cercanos para 194, 202 y 196. De los 209 reglamentos, el más cercano es su ley para 121, 122 y 124.\n\n\n\n\n\n\n\n\nEmpates y BM25\n\n\nDe las 18 comparaciones, 16 son empates y BM25 nunca pierde. Para esta tarea una medida de palabras es tan buena como los modelos.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#plan-de-trabajo",
-    "href": "LegalIA/index.html#plan-de-trabajo",
+    "objectID": "LegalIA/index.html#citas-fragmento-por-fragmento",
+    "href": "LegalIA/index.html#citas-fragmento-por-fragmento",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "Plan de trabajo",
-    "text": "Plan de trabajo\n\n\n\n\n\nPT1. Corpus abiertos\n\n\nMeses 1–10\n\n\n\n\n\n\n\nPT2. Sistemas híbridos explicables\n\n\nMeses 4–15\n\n\n\n\n\n\n\nPT3. Evaluación y difusión\n\n\nMeses 7–18\n\n\n\n\n\n\n\n\nHitos\n\n\n\nMes 6: corpus v1 interno\nMes 10: corpus público\nMes 12: prototipos de recuperación y de respuesta a preguntas, y primer manuscrito\nMes 15: resúmenes y explicabilidad, y código liberado\nMes 18: protocolo y conjuntos de evaluación",
+    "section": "Citas fragmento por fragmento",
+    "text": "Citas fragmento por fragmento\n\n\n\n\n\nLas citas\n\n\nHay 3,480 fragmentos que citan exactamente un instrumento, y 1,067 de ellos citan la Constitución. Se mide si el instrumento citado está entre los cinco más cercanos.\n\n\n\n\n\n\n\nLos resultados\n\n\nLo está para 0.309, 0.342 y 0.317 de los fragmentos (0.6B, 4B y BM25), y el rango mediano es 18, 14 y 15. El 4B es mejor que el 0.6B en las cinco medidas y que BM25 en tres.\n\n\n\n\n\n\n\n\nPor qué el nivel es bajo\n\n\nCitar un instrumento no es repetir su texto, así que el nivel absoluto es bajo aun cuando la relación existe. Por eso el mapa abre con el 4B y se lee como una descripción y no como una medida.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#respuestas-que-citan-la-ley",
-    "href": "LegalIA/index.html#respuestas-que-citan-la-ley",
+    "objectID": "LegalIA/index.html#leer-cada-instrumento",
+    "href": "LegalIA/index.html#leer-cada-instrumento",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "Respuestas que citan la ley",
-    "text": "Respuestas que citan la ley\n\n\n\n\n\nBuscador\n\n\nEncontrar el artículo correcto, combinando búsqueda por palabras y por significado.\n\n\n\n\n\n\n\nPreguntas\n\n\nResponder citando las disposiciones, y abstenerse cuando no hay evidencia suficiente.\n\n\n\n\n\n\n\nResúmenes\n\n\nCada afirmación del resumen se vincula con el segmento del documento que la origina.\n\n\n\n\n\n\n\n\nEficiencia\n\n\nSistemas que priorizan la trazabilidad y la eficiencia sobre el cómputo de alto desempeño, pensados para las condiciones reales de instituciones y despachos.",
+    "section": "Leer cada instrumento",
+    "text": "Leer cada instrumento\n\n\n\n\n\n\n\n\n\n\n\nLa página Instruments\n\n\nCada instrumento tiene su esquema, su texto y, para cada fragmento comparado, los cinco textos más cercanos.\n\nAdemás trae un enlace para comentar el instrumento, y así quien lo lee puede señalar un cruce que no le convence.",
+    "crumbs": [
+      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "LegalIA/index.html#trabajo-pendiente-y-límites",
+    "href": "LegalIA/index.html#trabajo-pendiente-y-límites",
+    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
+    "section": "Trabajo pendiente y límites",
+    "text": "Trabajo pendiente y límites\n\n\n\n\n\nLo que falta\n\n\n\nUn grafo de citas que parta de los decretos del DOF, como el que se construyó para la legislación italiana (Colombo et al. 2025)\nAtlas temporales a partir de las versiones fechadas\nLegislación estatal y jurisprudencia\nUna evaluación con juristas\n\n\n\n\n\n\n\n\nEl límite\n\n\nEl atlas describe cercanía textual y no mide parentesco jurídico. Es una herramienta para explorar, no una medida validada.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2580,7 +2540,7 @@
     "href": "LegalIA/index.html#temas",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "Temas",
-    "text": "Temas\n\n\n\n\n\nTécnicas\n\n\n\nInteligencia artificial\nProcesamiento de lenguaje natural\nRepresentaciones densas y mapas (UMAP)\n\n\n\n\n\n\n\n\nRecursos y tareas\n\n\n\nCorpus del DOF y de las leyes federales\nAtlas de la legislación federal\nBúsqueda, preguntas y resúmenes con citas\n\n\n\n\n\n\n\n\n\nTodo es abierto\n\n\nPaquetes en PyPI, releases con licencia Creative Commons, sitio web y código Apache 2.0: https://ingeotec.github.io/LegalIA/",
+    "text": "Temas\n\n\n\n\n\nTécnicas\n\n\n\nInteligencia artificial\nProcesamiento de lenguaje natural\nRepresentaciones densas y mapas (UMAP)\n\n\n\n\n\n\n\n\nRecursos y tareas\n\n\n\nCuatro corpus abiertos de la SCJN\nFragmentos de leyes, reglamentos, lineamientos y tratados\nAtlas de la legislación federal\nValidación con vínculos fuertes y citas\n\n\n\n\n\n\n\n\n\nTodo es abierto\n\n\nPaquetes en PyPI, releases con licencia Creative Commons, sitio web y código Apache 2.0 en https://ingeotec.github.io/LegalIA/",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
