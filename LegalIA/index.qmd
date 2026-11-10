@@ -304,36 +304,6 @@ La ley tiene 29 fragmentos y 16 de ellos se comparan.
 Cuáles se dejan fuera y por qué se explica más adelante, en «Qué se compara y qué no».
 :::
 
-## Del texto a los fragmentos
-
-:::: {.columns}
-::: {.callout-note icon="false" .column}
-### Bloques con un esquema
-
-La SCJN sirve cada instrumento en bloques, y esos bloques se convierten en un árbol con el vocabulario de Akoma Ntoso [@palmirani2011].
-:::
-
-::: {.fragment .callout-tip icon="false" .column}
-### El artículo entero
-
-La unidad es el artículo completo, tenga la longitud que tenga, porque es lo que una persona del derecho cita.
-:::
-::::
-
-:::: {.columns}
-::: {.fragment .callout-tip icon="false" .column}
-### Cobertura total
-
-Unas pruebas comprueban que todo el texto de un bloque cae en algún fragmento y que ninguno se pierde.
-:::
-
-::: {.fragment .callout-note icon="false" .column}
-### ¿Fragmento o disposición?
-
-Un encabezado o un preámbulo no es una disposición. Por eso se dice fragmento, que puede ser un artículo, un transitorio o un título.
-:::
-::::
-
 # El atlas
 
 ## ¿Qué tan cerca están dos leyes?
