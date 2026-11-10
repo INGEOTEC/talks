@@ -369,11 +369,17 @@ Cada fila de la tabla describe a una ley por los lugares donde están los textos
 UMAP acomoda las filas en una hoja de modo que las leyes con filas parecidas queden cerca [@McInnes2018UMAPReduction]. La **vecindad**, 4, 8, 16 o 32, es cuántas leyes vecinas toma en cuenta UMAP, y cambia el dibujo pero no los datos.
 :::
 
-## Dibujar el mapa {.nostretch}
+## Dibujar el mapa {.nostretch .fs75}
 
 <!-- En review fix-1 de la corrida issues-59 la figura se quedó sola y más grande.
-     El texto de UMAP pasó a «Cada ley, una fila». -->
-![](img/atlas_vecindades.png){fig-align="center" height=590 style="margin-top: -8px;"}
+     El texto de UMAP pasó a «Cada ley, una fila».
+     En review fix-2 de la misma corrida se dejaron sólo las vecindades 4 y 16,
+     lado a lado, para que cada mapa se vea grande. -->
+![](img/atlas_vecindades.png){fig-align="center" width="100%"}
+
+::: {.fragment}
+Con 4 salen muchos grupos pequeños y sueltos. Con 16, regiones amplias.
+:::
 
 ## Mapas alineados y estelas {.fs75}
 
