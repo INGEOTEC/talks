@@ -316,9 +316,9 @@ Cuáles se dejan fuera y por qué se explica más adelante, en «Qué se compara
 
 <!-- Lámina añadida en review fix-3 tras la revisión del dueño. Pesos reales de
      Chapingo en el atlas público del modelo 4B. -->
-![](img/votos_matriz.svg){fig-align="center" width="95%"}
+![](img/votos_matriz.svg){fig-align="center" width="85%"}
 
-::: {.fragment style="font-size: 60%; text-align: center;"}
+::: {.fragment style="font-size: 50%; text-align: center;"}
 Es una heurística, una regla sencilla que acerca a las leyes que comparten textos parecidos. No mide si dos leyes están emparentadas jurídicamente.
 :::
 
