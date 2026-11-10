@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <!-- De artículos a un mapa (review fix-3, añadida tras la revisión del dueño).
+       Datos reales del atlas público, modelo 4B (atlas-qwen3-4b.json), instrumento
+       de Chapingo, campo out = UAM 7, Antonio Narro 6, Ley General de Educación 1,
+       UNAM 1, Universidad para la Paz 1. Suman los 16 artículos que se comparan. -->
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+
+  <!-- PASO 1, las flechas de Chapingo -->
+  <text x="220" y="30" font-size="19" font-weight="700" fill="#1e4f8f" text-anchor="middle">Cada artículo apunta a otra ley</text>
+  <rect x="10" y="185" width="120" height="70" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="3"/>
+  <text x="70" y="216" font-size="18" font-weight="700" fill="#9a5b00" text-anchor="middle">Chapingo</text>
+  <text x="70" y="240" font-size="14" fill="#1f2937" text-anchor="middle">16 artículos</text>
+  <!-- flechas, grosor según el número de artículos -->
+  <line x1="132" y1="210" x2="262" y2="83" stroke="#4b5563" stroke-width="10" marker-end="url(#a)"/>
+  <line x1="132" y1="215" x2="262" y2="153" stroke="#4b5563" stroke-width="9" marker-end="url(#a)"/>
+  <line x1="132" y1="220" x2="264" y2="223" stroke="#4b5563" stroke-width="2.5" marker-end="url(#b)"/>
+  <line x1="132" y1="225" x2="264" y2="293" stroke="#4b5563" stroke-width="2.5" marker-end="url(#b)"/>
+  <line x1="132" y1="230" x2="264" y2="363" stroke="#4b5563" stroke-width="2.5" marker-end="url(#b)"/>
+  <!-- pesos -->
+  <text x="190" y="128" font-size="20" font-weight="700" fill="#9a5b00" text-anchor="middle">7</text>
+  <text x="200" y="173" font-size="20" font-weight="700" fill="#9a5b00" text-anchor="middle">6</text>
+  <text x="210" y="214" font-size="18" font-weight="700" fill="#9a5b00" text-anchor="middle">1</text>
+  <text x="212" y="250" font-size="18" font-weight="700" fill="#9a5b00" text-anchor="middle">1</text>
+  <text x="182" y="300" font-size="18" font-weight="700" fill="#9a5b00" text-anchor="middle">1</text>
+  <!-- las cinco leyes -->
+  <rect x="270" y="60" width="160" height="46" rx="10" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="350" y="89" font-size="16" fill="#1f2937" text-anchor="middle">UAM</text>
+  <rect x="270" y="130" width="160" height="46" rx="10" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="350" y="159" font-size="16" fill="#1f2937" text-anchor="middle">Antonio Narro</text>
+  <rect x="270" y="200" width="160" height="46" rx="10" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="350" y="219" font-size="14" fill="#1f2937" text-anchor="middle">Ley General</text>
+  <text x="350" y="237" font-size="14" fill="#1f2937" text-anchor="middle">de Educación</text>
+  <rect x="270" y="270" width="160" height="46" rx="10" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="350" y="299" font-size="16" fill="#1f2937" text-anchor="middle">UNAM</text>
+  <rect x="270" y="340" width="160" height="46" rx="10" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="350" y="359" font-size="14" fill="#1f2937" text-anchor="middle">Universidad</text>
+  <text x="350" y="377" font-size="14" fill="#1f2937" text-anchor="middle">para la Paz</text>
+  <!-- pie del paso 1 -->
+  <text x="220" y="422" font-size="15" fill="#1f2937" text-anchor="middle">Los 16 artículos de Chapingo que se comparan,</text>
+  <text x="220" y="443" font-size="15" fill="#1f2937" text-anchor="middle">cada uno hacia la ley con su texto más parecido</text>
+
+  <!-- paso de las flechas a la tabla -->
+  <line x1="440" y1="223" x2="480" y2="223" stroke="#4b5563" stroke-width="4" marker-end="url(#b)"/>
+
+  <!-- PASO 2, la tabla -->
+  <text x="720" y="30" font-size="19" font-weight="700" fill="#1e4f8f" text-anchor="middle">Todas las flechas, una tabla</text>
+  <!-- encabezados de columna -->
+  <text x="611" y="96" font-size="12" font-weight="700" fill="#1e4f8f" text-anchor="middle">Chapingo</text>
+  <text x="665" y="96" font-size="12" font-weight="700" fill="#1e4f8f" text-anchor="middle">UAM</text>
+  <text x="719" y="96" font-size="12" font-weight="700" fill="#1e4f8f" text-anchor="middle">Narro</text>
+  <text x="773" y="96" font-size="12" font-weight="700" fill="#1e4f8f" text-anchor="middle">Educación</text>
+  <text x="827" y="96" font-size="12" font-weight="700" fill="#1e4f8f" text-anchor="middle">UNAM</text>
+  <text x="881" y="96" font-size="12" font-weight="700" fill="#1e4f8f" text-anchor="middle">Paz</text>
+  <text x="928" y="96" font-size="16" font-weight="700" fill="#6b7280" text-anchor="middle">…</text>
+  <!-- encabezados de fila -->
+  <text x="578" y="137" font-size="14" font-weight="700" fill="#9a5b00" text-anchor="end">Chapingo</text>
+  <text x="578" y="181" font-size="14" font-weight="700" fill="#1e4f8f" text-anchor="end">UAM</text>
+  <text x="578" y="225" font-size="14" font-weight="700" fill="#1e4f8f" text-anchor="end">Narro</text>
+  <text x="578" y="269" font-size="18" font-weight="700" fill="#6b7280" text-anchor="end">⋮</text>
+  <!-- rejilla -->
+  <rect x="584" y="110" width="324" height="176" fill="#ffffff" stroke="#2f6fbf" stroke-width="2"/>
+  <!-- fila de Chapingo -->
+  <rect x="584" y="110" width="54" height="44" fill="#e5e7eb"/>
+  <rect x="638" y="110" width="54" height="44" fill="#e69500"/>
+  <rect x="692" y="110" width="54" height="44" fill="#f0b54a"/>
+  <rect x="746" y="110" width="54" height="44" fill="#fde7bf"/>
+  <rect x="800" y="110" width="54" height="44" fill="#fde7bf"/>
+  <rect x="854" y="110" width="54" height="44" fill="#fde7bf"/>
+  <rect x="584" y="110" width="324" height="44" fill="none" stroke="#d98a00" stroke-width="3"/>
+  <text x="665" y="139" font-size="20" font-weight="700" fill="#1f2937" text-anchor="middle">7</text>
+  <text x="719" y="139" font-size="20" font-weight="700" fill="#1f2937" text-anchor="middle">6</text>
+  <text x="773" y="139" font-size="20" font-weight="700" fill="#1f2937" text-anchor="middle">1</text>
+  <text x="827" y="139" font-size="20" font-weight="700" fill="#1f2937" text-anchor="middle">1</text>
+  <text x="881" y="139" font-size="20" font-weight="700" fill="#1f2937" text-anchor="middle">1</text>
+  <text x="935" y="139" font-size="16" fill="#6b7280" text-anchor="middle">…</text>
+  <!-- otras filas, apenas sugeridas, la diagonal (la misma ley) en gris -->
+  <rect x="638" y="154" width="54" height="44" fill="#e5e7eb"/>
+  <rect x="692" y="198" width="54" height="44" fill="#e5e7eb"/>
+  <text x="935" y="183" font-size="16" fill="#6b7280" text-anchor="middle">…</text>
+  <text x="935" y="227" font-size="16" fill="#6b7280" text-anchor="middle">…</text>
+  <text x="746" y="272" font-size="18" fill="#6b7280" text-anchor="middle">⋮</text>
+  <g stroke="#cbd5e1" stroke-width="1">
+    <line x1="584" y1="154" x2="908" y2="154"/>
+    <line x1="584" y1="198" x2="908" y2="198"/>
+    <line x1="584" y1="242" x2="908" y2="242"/>
+    <line x1="638" y1="154" x2="638" y2="242"/>
+    <line x1="692" y1="154" x2="692" y2="242"/>
+    <line x1="746" y1="154" x2="746" y2="242"/>
+    <line x1="800" y1="154" x2="800" y2="242"/>
+    <line x1="854" y1="154" x2="854" y2="242"/>
+  </g>
+  <text x="746" y="312" font-size="14" fill="#6b7280" font-style="italic" text-anchor="middle">cada ley tiene su propia fila</text>
+  <!-- pie del paso 2 -->
+  <rect x="510" y="340" width="440" height="100" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="730" y="372" font-size="16" fill="#1f2937" text-anchor="middle">Todas las flechas juntas son una tabla</text>
+  <text x="730" y="396" font-size="18" font-weight="700" fill="#1e4f8f" text-anchor="middle">de 2,670 leyes por 2,670 leyes</text>
+  <text x="730" y="422" font-size="16" fill="#1f2937" text-anchor="middle">y de esa tabla sale el mapa</text>
+</svg>

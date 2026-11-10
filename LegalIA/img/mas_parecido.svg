@@ -7,7 +7,8 @@
       <path d="M0,0 L10,5 L0,10 z" fill="#d98a00"/>
     </marker>
   </defs>
-  <!-- Figura del gemelo fuera de casa (review fix-2). Datos del atlas público,
+  <!-- Figura del artículo más parecido fuera de su ley (review fix-2, sin la palabra
+       que el dueño pidió quitar en review fix-3). Datos del atlas público,
        par Chapingo-UAM del modelo 4B. Extractos literales de los artículos. -->
   <!-- encabezados de las dos leyes -->
   <text x="315" y="24" font-size="17" font-weight="700" fill="#1e4f8f" text-anchor="middle">Ley que crea la Universidad</text>
@@ -34,9 +35,9 @@
   <text x="790" y="260" font-size="15" font-style="italic" fill="#1f2937" text-anchor="middle">de confianza el Rector General …»</text>
   <rect x="630" y="290" width="320" height="40" rx="10" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
   <text x="790" y="316" font-size="17" fill="#1f2937" text-anchor="middle">Artículo 37</text>
-  <!-- el gemelo, fuera de casa -->
+  <!-- el más parecido, en otra ley -->
   <line x1="472" y1="230" x2="622" y2="230" stroke="#d98a00" stroke-width="5" marker-end="url(#o)"/>
-  <text x="549" y="208" font-size="16" font-weight="700" fill="#9a5b00" text-anchor="middle">su gemelo, 0.91</text>
+  <text x="549" y="208" font-size="16" font-weight="700" fill="#9a5b00" text-anchor="middle">el más parecido, 0.91</text>
   <!-- el vecino de casa no cuenta -->
   <path d="M158,215 C88,215 88,150 158,150" fill="none" stroke="#4b5563" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#a)"/>
   <line x1="98" y1="173" x2="118" y2="193" stroke="#c2410c" stroke-width="4"/>

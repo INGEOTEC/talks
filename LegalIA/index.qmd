@@ -306,25 +306,21 @@ Cuáles se dejan fuera y por qué se explica más adelante, en «Qué se compara
 
 # El atlas
 
-## ¿Qué tan cerca están dos leyes? {.fs75 .nostretch}
+## ¿Qué tan cerca están dos leyes? {.nostretch}
 
-<!-- Figura del gemelo fuera de casa (review fix-2, añadida tras la revisión del dueño). -->
-![](img/gemelo.svg){fig-align="center" width="80%"}
+<!-- Figura del artículo más parecido fuera de su ley (review fix-2). En review fix-3
+     se quitaron los recuadros de texto a pedido del dueño y se dejó sólo la figura. -->
+![](img/mas_parecido.svg){fig-align="center" width="95%"}
 
-:::: {.columns}
-::: {.fragment .callout-note icon="false" .column}
-### La pregunta
+## De artículos a un mapa {.nostretch}
 
-Cada fragmento busca a su "gemelo", el texto más parecido fuera de su propio instrumento.
+<!-- Lámina añadida en review fix-3 tras la revisión del dueño. Pesos reales de
+     Chapingo en el atlas público del modelo 4B. -->
+![](img/votos_matriz.svg){fig-align="center" width="95%"}
+
+::: {.fragment style="font-size: 60%; text-align: center;"}
+Es una heurística, una regla sencilla que acerca a las leyes que comparten textos parecidos. No mide si dos leyes están emparentadas jurídicamente.
 :::
-
-::: {.fragment .callout-tip icon="false" .column}
-### El vecino más cercano
-
-* El más cercano por coseno, **fuera** de su propio instrumento
-* Si lo comparten *m* instrumentos, cada uno recibe 1/*m*
-:::
-::::
 
 ## Texto → números
 
