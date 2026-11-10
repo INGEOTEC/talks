@@ -19,7 +19,7 @@ determinista (tamaños fijos, sin aleatoriedad) y con dpi 150:
 
 - atlas_portada.png     el mapa 4B a vecindad 16 sin ejes ni anotaciones (1280x720)
 - atlas.png             el mapa 4B a vecindad 16 con leyenda y anotaciones
-- atlas_vecindades.png  el mapa 4B con vecindades 4, 8, 16 y 32
+- atlas_vecindades.png  el mapa 4B con vecindades 4 y 16, lado a lado
 - atlas_mapa.png        los mapas 0.6B, 4B y BM25 a vecindad 16
 - atlas_entrantes.png   los 15 instrumentos con más peso entrante en el 4B
 
@@ -53,6 +53,9 @@ LABELS = {"leyes": "Leyes", "reglamentos": "Reglamentos",
 COLORS = {"leyes": "#2a78d6", "reglamentos": "#008300", "lineamientos": "#e87ba4",
           "tratados": "#eda100"}
 INK = "#52514e"
+
+# Vecindades que muestra atlas_vecindades.png (review fix-2 de issues-59).
+NEIGHBOURS = ("4", "16")
 
 # Grupos que se anotan en el mapa (Figura 1 del artículo): etiqueta en español,
 # claves (la línea apunta a su centroide), posición del texto en coordenadas del
@@ -224,16 +227,16 @@ def figure_map(atlas, lim, path):
     save(fig, path)
 
 
-def figure_neighbours(atlas, lim, path):
-    keys = [str(n) for n in atlas["meta"]["n_neighbors"]]
-    fig, axes = plt.subplots(2, 2, figsize=(7.2, 7.4))
-    for ax, key in zip(axes.flat, keys):
-        draw_map(ax, atlas, key, lim, scale=0.03)
-        ax.set_title(f"Vecindad {key}", fontsize=11)
-    fig.legend(handles=legend_handles(atlas["meta"]), loc="lower center", ncol=4,
-               frameon=False, fontsize=9)
-    fig.subplots_adjust(left=0.01, right=0.99, bottom=0.06, top=0.95,
-                        wspace=0.03, hspace=0.10)
+def figure_neighbours(atlas, lim, path, keys=NEIGHBOURS):
+    # Review fix-2 de la corrida issues-59 (corrección posterior a la issue 53):
+    # sólo las vecindades 4 y 16, en una fila, para que cada mapa se vea grande.
+    fig, axes = plt.subplots(1, len(keys), figsize=(10.8, 5.4))
+    for ax, key in zip(axes, keys):
+        draw_map(ax, atlas, key, lim, scale=0.04)
+        ax.set_title(f"Vecindad {key}", fontsize=12)
+    fig.legend(handles=legend_handles(atlas["meta"], size=8), loc="lower center", ncol=4,
+               frameon=False, fontsize=10)
+    fig.subplots_adjust(left=0.005, right=0.995, bottom=0.08, top=0.94, wspace=0.02)
     save(fig, path)
 
 
@@ -291,10 +294,9 @@ def main():
 
     setup_matplotlib()
     atlas = atlases["4b"]
-    keys = [str(n) for n in atlas["meta"]["n_neighbors"]]
     figure_portada(atlas, extent([(atlas, "16")]), args.img_dir / "atlas_portada.png")
     figure_map(atlas, MAP_LIM, args.img_dir / "atlas.png")
-    figure_neighbours(atlas, extent([(atlas, k) for k in keys]),
+    figure_neighbours(atlas, extent([(atlas, k) for k in NEIGHBOURS]),
                       args.img_dir / "atlas_vecindades.png")
     figure_models(atlases, extent([(a, "16") for a in atlases.values()]),
                   args.img_dir / "atlas_mapa.png")
