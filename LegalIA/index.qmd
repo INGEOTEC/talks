@@ -270,28 +270,6 @@ Las cuatro colecciones de la SCJN se publican como datos abiertos.
 
 ![](img/texto_arbol_fragmentos.svg){fig-align="center" width="95%"}
 
-## Chapingo, tal como llega {.fs70}
-
-```{=html}
-<pre style="white-space: pre-wrap; font-size: 0.62em; line-height: 1.4; max-height: none; padding: 0.6em;"><code>**LEY QUE CREA LA UNIVERSIDAD AUTONOMA CHAPINGO**
-**ULTIMA REFORMA PUBLICADA EN EL DIARIO OFICIAL DE LA FEDERACION: 30 DE DICIEMBRE DE 1977.**
-Ley publicada en el Diario Oficial de la Federación, el lunes 30 de diciembre de 1974.
-LUIS ECHEVERRIA ALVAREZ, Presidente Constitucional de los Estados Unidos Mexicanos, a sus habitantes, sabed:
-Que el H. Congreso de la Unión se ha servido dirigirme el siguiente
-**D E C R E T O**
-"El Congreso de los Estados Unidos Mexicanos, decreta:
-**LEY QUE CREA LA UNIVERSIDAD AUTONOMA CHAPINGO**
-**CAPITULO I**
-De su Naturaleza, Objetivos y Medios
-**ARTICULO 1o.-** Se crea la Universidad Autónoma Chapingo como organismo descentralizado del Estado, con personalidad jurídica, patrimonio propio y sede de gobierno en Chapingo, Estado de México.</code></pre>
-```
-
-::: {.fragment .callout-note icon="false"}
-### Texto plano
-
-Es una sola tira de texto. Nada en ella dice dónde empieza un capítulo o dónde termina un artículo, más allá de sus líneas.
-:::
-
 ## Chapingo, sus 29 fragmentos {.fs80}
 
 ![](img/chapingo_arbol.svg){fig-align="center" width="85%"}
@@ -350,7 +328,7 @@ Qwen3-Embedding [@Zhang2025Qwen3Models] da 2,560 números en el 4B y 1,024 en el
 
 :::: {.columns}
 ::: {.callout-tip icon="false" .column}
-### Los fragmentos al 28 de octubre de 2026
+### Los fragmentos
 
 * **227,132** fragmentos en total
 * No se comparan
@@ -376,23 +354,26 @@ Qwen3-Embedding [@Zhang2025Qwen3Models] da 2,560 números en el 4B y 1,024 en el
 Con los 156,432 fragmentos contados se arma una tabla de 2,670 × 2,670 instrumentos, una fila y una columna por instrumento. Cada casilla cuenta los fragmentos de un instrumento cuyo texto más parecido está en el otro, y sólo 47,157 casillas tienen valor.
 :::
 
-## Dibujar el mapa
+## Cada ley, una fila {.nostretch}
 
-:::: {.columns}
-::: {.callout-note icon="false" .column width="40%"}
-### UMAP
+<!-- Lámina añadida en review fix-1 de la corrida issues-59, tras la revisión
+     del dueño. Tabla inventada, no son datos del atlas. Explica la entrada de
+     UMAP, que son las filas de la tabla y no los 2,560 números del modelo. -->
+![](img/fila_vector.svg){fig-align="center" width="92%"}
 
-"Aplana" el espacio de 2,560 dimensiones a una hoja, de modo que los instrumentos cercanos queden juntos [@McInnes2018UMAPReduction].
-
-::: {.fragment}
-La **vecindad** (4, 8, 16 o 32) cambia el dibujo y no los datos.
-:::
+::: {.fragment style="font-size: 50%; text-align: center;"}
+Cada fila de la tabla describe a una ley por los lugares donde están los textos más parecidos a los suyos. Esa fila es un vector, una lista de números con una entrada por instrumento, 2,670 en total.
 :::
 
-::: {.column width="60%"}
-![](img/atlas_vecindades.png){fig-align="center" height=520}
+::: {.fragment style="font-size: 50%; text-align: center;"}
+UMAP acomoda las filas en una hoja de modo que las leyes con filas parecidas queden cerca [@McInnes2018UMAPReduction]. La **vecindad**, 4, 8, 16 o 32, es cuántas leyes vecinas toma en cuenta UMAP, y cambia el dibujo pero no los datos.
 :::
-::::
+
+## Dibujar el mapa {.nostretch}
+
+<!-- En review fix-1 de la corrida issues-59 la figura se quedó sola y más grande.
+     El texto de UMAP pasó a «Cada ley, una fila». -->
+![](img/atlas_vecindades.png){fig-align="center" height=590 style="margin-top: -8px;"}
 
 ## Mapas alineados y estelas {.fs75}
 
