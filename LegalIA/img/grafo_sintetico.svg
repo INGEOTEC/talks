@@ -66,5 +66,4 @@
   <line x1="130" y1="545" x2="160" y2="545" stroke="#4b5563" stroke-width="6"/>
   <line x1="175" y1="545" x2="205" y2="545" stroke="#4b5563" stroke-width="10"/>
   <text x="225" y="551" font-size="17" fill="#1f2937">Más gruesa, más fragmentos de una ley con su texto más parecido en la otra</text>
-  <text x="10" y="28" font-size="15" font-style="italic" fill="#6b7280">Ejemplo inventado</text>
 </svg>

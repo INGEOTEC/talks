@@ -346,14 +346,17 @@ Es una heurística, una regla sencilla que acerca a las leyes que comparten text
 Qwen3-Embedding [@Zhang2025Qwen3Models] da 2,560 números en el 4B y 1,024 en el 0.6B.
 :::
 
-## Qué se compara y qué no {.fs85}
+## Qué se compara y qué no {.fs80}
 
 :::: {.columns}
 ::: {.callout-tip icon="false" .column}
 ### Los fragmentos al 28 de octubre de 2026
 
 * **227,132** fragmentos en total
-* No se comparan 36,137 encabezados, 22,575 transitorios y 10,093 de envoltura
+* No se comparan
+    * 36,137 encabezados
+    * 22,575 transitorios
+    * 10,093 de envoltura, el título que imprime la Corte y, en los tratados, el decreto de promulgación y su certificación
 * **158,327** fragmentos comparados
 :::
 
@@ -362,14 +365,15 @@ Qwen3-Embedding [@Zhang2025Qwen3Models] da 2,560 números en el 4B y 1,024 en el
 
 * 1,895 fragmentos comparados tienen un texto idéntico que varios instrumentos comparten, y no se cuentan
 * El artículo 56 del Código Civil Federal se reduce a su etiqueta y coincide con el 56 de otras tres leyes
+* Ningún texto se repite en más de 14 instrumentos
 * **156,432** fragmentos contados
 :::
 ::::
 
 ::: {.fragment .callout-note icon="false"}
-### La envoltura y la matriz
+### La matriz
 
-La envoltura es el bloque de título que la Corte imprime y, en un tratado, el decreto de promulgación y su certificación. Con los fragmentos contados se llena una matriz dirigida de 2,670 × 2,670 instrumentos, con 47,157 celdas no nulas, y ningún texto lo comparten más de 14 instrumentos.
+Con los 156,432 fragmentos contados se arma una tabla de 2,670 × 2,670 instrumentos, una fila y una columna por instrumento. Cada casilla cuenta los fragmentos de un instrumento cuyo texto más parecido está en el otro, y sólo 47,157 casillas tienen valor.
 :::
 
 ## Dibujar el mapa
