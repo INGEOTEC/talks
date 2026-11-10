@@ -563,26 +563,27 @@ Son vínculos que el propio texto declara, y salen de dos fuentes. El nombre de 
 De las 18 comparaciones, 16 son empates y BM25 nunca pierde. Para esta tarea una medida de palabras es tan buena como los modelos.
 :::
 
-## Citas fragmento por fragmento {.fs80}
+## Citas fragmento por fragmento {.fs75}
 
-:::: {.columns}
-::: {.callout-note icon="false" .column}
+::: {.callout-note icon="false"}
 ### Las citas
 
-Hay 3,480 fragmentos que citan exactamente un instrumento, y 1,067 de ellos citan la Constitución. Se mide si el instrumento citado está entre los cinco más cercanos.
+Muchos fragmentos citan otro instrumento por su nombre. Se tomaron los 3,480 fragmentos que citan exactamente un instrumento, y 1,067 de ellos citan la Constitución. La prueba es fragmento por fragmento, y pregunta si el instrumento citado aparece entre los cinco más cercanos a ese fragmento. Las citas también se leyeron del texto, sin ayuda de los métodos que se comparan.
 :::
 
-::: {.fragment .callout-tip icon="false" .column}
+::: {.fragment .callout-tip icon="false"}
 ### Los resultados
 
-Lo está para 0.309, 0.342 y 0.317 de los fragmentos (0.6B, 4B y BM25), y el rango mediano es 18, 14 y 15. El 4B es mejor que el 0.6B en las cinco medidas y que BM25 en tres.
+| | 0.6B | 4B | BM25 |
+|:---|:---:|:---:|:---:|
+| El citado está entre los cinco más cercanos | 30.9 % | 34.2 % | 31.7 % |
+| Posición típica del citado en la lista de cercanos (menos es mejor) | 18 | 14 | 15 |
+
+: {tbl-colwidths="[58,14,14,14]"}
 :::
-::::
 
-::: {.fragment .callout-note icon="false"}
-### Por qué el nivel es bajo
-
-Citar un instrumento no es repetir su texto, así que el nivel absoluto es bajo aun cuando la relación existe. Por eso el mapa abre con el 4B y se lee como una descripción y no como una medida.
+::: {.fragment}
+Aquí sí hay diferencias, y el 4B tiene los mejores números de la tabla. El nivel es bajo porque citar un instrumento no es repetir su texto, así que el mapa abre con el 4B y se lee como una descripción, no como una medida.
 :::
 
 ## Leer cada instrumento {.fs85}
