@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <!-- Cada ley, una fila (review fix-1 de la corrida issues-59, añadida tras la
+       revisión del dueño). Tabla INVENTADA para explicar cómo se usa UMAP, no son
+       datos del atlas. Cada casilla cuenta los fragmentos de la ley de la fila cuyo
+       texto más parecido está en la ley de la columna. La diagonal es 0 porque una
+       ley no se compara consigo misma. Las filas de la Ley A y la Ley B son casi
+       iguales (las dos apuntan al Reglamento C y al Lineamiento D) y por eso sus
+       puntos quedan juntos en el mapa. Lo mismo pasa con C y D. El Tratado E queda
+       lejos de todos. -->
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="0" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+
+  <!-- títulos de los tres pasos -->
+  <text x="210" y="28" font-size="20" font-weight="700" fill="#1e4f8f" text-anchor="middle">1. La tabla</text>
+  <text x="535" y="28" font-size="20" font-weight="700" fill="#1e4f8f" text-anchor="middle">2. La fila de la Ley A</text>
+  <text x="800" y="28" font-size="20" font-weight="700" fill="#1e4f8f" text-anchor="middle">3. Un punto en el mapa</text>
+
+  <!-- paso 1, la tabla de 5 × 5 -->
+  <g font-size="18" fill="#1f2937">
+    <!-- encabezados de columna -->
+    <text x="176" y="78" font-weight="700" text-anchor="middle">A</text>
+    <text x="228" y="78" font-weight="700" text-anchor="middle">B</text>
+    <text x="280" y="78" font-weight="700" text-anchor="middle">C</text>
+    <text x="332" y="78" font-weight="700" text-anchor="middle">D</text>
+    <text x="384" y="78" font-weight="700" text-anchor="middle">E</text>
+    <!-- fila resaltada de la Ley A -->
+    <rect x="8" y="92" width="404" height="46" rx="8" fill="#fde9c8" stroke="#9a5b00" stroke-width="2.5"/>
+    <!-- diagonal, una ley no se compara consigo misma -->
+    <rect x="152" y="94" width="48" height="42" fill="#e5e7eb"/>
+    <rect x="204" y="144" width="48" height="42" fill="#e5e7eb"/>
+    <rect x="256" y="194" width="48" height="42" fill="#e5e7eb"/>
+    <rect x="308" y="244" width="48" height="42" fill="#e5e7eb"/>
+    <rect x="360" y="294" width="48" height="42" fill="#e5e7eb"/>
+    <!-- rejilla -->
+    <g stroke="#9ca3af" stroke-width="1" fill="none">
+      <rect x="150" y="90" width="260" height="250"/>
+      <line x1="202" y1="90" x2="202" y2="340"/>
+      <line x1="254" y1="90" x2="254" y2="340"/>
+      <line x1="306" y1="90" x2="306" y2="340"/>
+      <line x1="358" y1="90" x2="358" y2="340"/>
+      <line x1="150" y1="140" x2="410" y2="140"/>
+      <line x1="150" y1="190" x2="410" y2="190"/>
+      <line x1="150" y1="240" x2="410" y2="240"/>
+      <line x1="150" y1="290" x2="410" y2="290"/>
+    </g>
+    <!-- nombres de las filas -->
+    <text x="140" y="121" font-weight="700" text-anchor="end">Ley A</text>
+    <text x="140" y="171" font-weight="700" text-anchor="end">Ley B</text>
+    <text x="140" y="221" font-weight="700" text-anchor="end">Reglamento C</text>
+    <text x="140" y="271" font-weight="700" text-anchor="end">Lineamiento D</text>
+    <text x="140" y="321" font-weight="700" text-anchor="end">Tratado E</text>
+    <!-- valores, fila por fila -->
+    <g text-anchor="middle">
+      <text x="176" y="121" fill="#6b7280">0</text><text x="228" y="121">2</text><text x="280" y="121">12</text><text x="332" y="121">9</text><text x="384" y="121">0</text>
+      <text x="176" y="171">2</text><text x="228" y="171" fill="#6b7280">0</text><text x="280" y="171">11</text><text x="332" y="171">10</text><text x="384" y="171">0</text>
+      <text x="176" y="221">10</text><text x="228" y="221">9</text><text x="280" y="221" fill="#6b7280">0</text><text x="332" y="221">3</text><text x="384" y="221">1</text>
+      <text x="176" y="271">8</text><text x="228" y="271">9</text><text x="280" y="271">2</text><text x="332" y="271" fill="#6b7280">0</text><text x="384" y="271">1</text>
+      <text x="176" y="321">0</text><text x="228" y="321">1</text><text x="280" y="321">1</text><text x="332" y="321">0</text><text x="384" y="321" fill="#6b7280">0</text>
+    </g>
+  </g>
+
+  <!-- flecha 1 -->
+  <line x1="420" y1="115" x2="462" y2="115" stroke="#4b5563" stroke-width="3" marker-end="url(#flecha)"/>
+
+  <!-- paso 2, la fila como lista de números -->
+  <g font-size="20" fill="#1f2937">
+    <path d="M512,90 h-10 v250 h10" fill="none" stroke="#1f2937" stroke-width="2.5"/>
+    <path d="M578,90 h10 v250 h-10" fill="none" stroke="#1f2937" stroke-width="2.5"/>
+    <rect x="510" y="94" width="70" height="242" rx="8" fill="#fde9c8" stroke="#9a5b00" stroke-width="2"/>
+    <g text-anchor="middle" font-weight="700">
+      <text x="545" y="122" fill="#6b7280">0</text>
+      <text x="545" y="172">2</text>
+      <text x="545" y="222">12</text>
+      <text x="545" y="272">9</text>
+      <text x="545" y="322">0</text>
+    </g>
+    <g font-size="16" fill="#6b7280" text-anchor="end">
+      <text x="494" y="121">A</text>
+      <text x="494" y="171">B</text>
+      <text x="494" y="221">C</text>
+      <text x="494" y="271">D</text>
+      <text x="494" y="321">E</text>
+    </g>
+  </g>
+
+  <!-- flecha 2 -->
+  <line x1="600" y1="215" x2="636" y2="215" stroke="#4b5563" stroke-width="3" marker-end="url(#flecha)"/>
+
+  <!-- paso 3, el mapa -->
+  <rect x="660" y="50" width="290" height="290" rx="14" fill="#ffffff" stroke="#2f6fbf" stroke-width="2" stroke-dasharray="7 5"/>
+  <!-- grupo A y B -->
+  <circle cx="715" cy="125" r="11" fill="#d97706" stroke="#9a5b00" stroke-width="2.5"/>
+  <circle cx="752" cy="148" r="9" fill="#2f6fbf"/>
+  <!-- grupo C y D -->
+  <circle cx="838" cy="118" r="9" fill="#2f6fbf"/>
+  <circle cx="868" cy="150" r="9" fill="#2f6fbf"/>
+  <!-- Tratado E, lejos -->
+  <circle cx="800" cy="292" r="9" fill="#2f6fbf"/>
+  <g font-size="17" font-weight="700" fill="#1f2937">
+    <text x="690" y="102">Ley A</text>
+    <text x="722" y="178">Ley B</text>
+    <text x="838" y="96" text-anchor="middle">Reglamento C</text>
+    <text x="868" y="180" text-anchor="middle">Lineamiento D</text>
+    <text x="800" y="322" text-anchor="middle">Tratado E</text>
+  </g>
+
+  <!-- pies de cada paso -->
+  <g font-size="17" fill="#1f2937" text-anchor="middle">
+    <text x="210" y="380">Cada casilla cuenta fragmentos</text>
+    <text x="535" y="380">Una lista de números</text>
+    <text x="805" y="380">Filas parecidas, puntos cercanos</text>
+  </g>
+</svg>
