@@ -306,20 +306,23 @@ Cuáles se dejan fuera y por qué se explica más adelante, en «Qué se compara
 
 # El atlas
 
-## ¿Qué tan cerca están dos leyes?
+## ¿Qué tan cerca están dos leyes? {.fs75 .nostretch}
+
+<!-- Figura del gemelo fuera de casa (review fix-2, añadida tras la revisión del dueño). -->
+![](img/gemelo.svg){fig-align="center" width="80%"}
 
 :::: {.columns}
-::: {.callout-note icon="false" .column}
+::: {.fragment .callout-note icon="false" .column}
 ### La pregunta
 
-Cada fragmento busca a su "gemelo", que es el texto más parecido fuera de su propio instrumento.
+Cada fragmento busca a su "gemelo", el texto más parecido fuera de su propio instrumento.
 :::
 
 ::: {.fragment .callout-tip icon="false" .column}
 ### El vecino más cercano
 
-* El texto más cercano (coseno) **fuera** de su propio instrumento
-* Si ese texto lo comparten *m* instrumentos, cada uno recibe 1/*m*
+* El más cercano por coseno, **fuera** de su propio instrumento
+* Si lo comparten *m* instrumentos, cada uno recibe 1/*m*
 :::
 ::::
 
