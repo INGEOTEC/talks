@@ -2340,7 +2340,17 @@
     "href": "LegalIA/index.html#dónde-están-las-leyes",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "¿Dónde están las leyes?",
-    "text": "¿Dónde están las leyes?\n\n\n\n\n\nDiario Oficial de la Federación (DOF)\n\n\nEs el medio oficial donde se publican los decretos, las leyes y sus reformas. Cada reforma aparece como un decreto.\n\n\n\n\n\n\n\nSuprema Corte de Justicia de la Nación (SCJN)\n\n\nPublica los textos consolidados y editoriales de las leyes, los reglamentos, los lineamientos y los tratados.\n\n\n\n\n\n\n\n\nEl atlas parte de la SCJN\n\n\nSus textos ya traen cada instrumento completo y con su nombre, así que no hace falta reconstruirlos a partir de los decretos.",
+    "text": "¿Dónde están las leyes?\n\n\n\n\n\nDiario Oficial de la Federación (DOF)\n\n\nEs el medio oficial donde se publican los decretos, las leyes y sus reformas. Cada reforma aparece como un decreto.\n\n\n\n\n\n\n\nSuprema Corte de Justicia de la Nación (SCJN)\n\n\nPublica los textos consolidados y editoriales de las leyes, los reglamentos, los lineamientos y los tratados.\n\n\n\n\n\n\n\n\nLegalIA parte de la SCJN\n\n\nSus textos ya traen cada instrumento completo y con su nombre, así que no hace falta reconstruirlos a partir de los decretos del DOF.",
+    "crumbs": [
+      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "LegalIA/index.html#cómo-se-conectan-las-leyes",
+    "href": "LegalIA/index.html#cómo-se-conectan-las-leyes",
+    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
+    "section": "¿Cómo se conectan las leyes?",
+    "text": "¿Cómo se conectan las leyes?\n\n\n\n\n\n\n\n\n\n\nEl problema\n\n\nLas leyes, los reglamentos, los lineamientos y los tratados están conectados de muchas maneras, pero nadie tiene un mapa de esas conexiones entre miles de instrumentos.\n\n\n\n\n\n\n\nLa meta\n\n\nDibujar ese mapa, un atlas de las leyes, a partir del texto mismo y sin depender de que un instrumento cite a otro.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2350,17 +2360,37 @@
     "href": "LegalIA/index.html#cuatro-corpus-abiertos",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "Cuatro corpus abiertos",
-    "text": "Cuatro corpus abiertos\n\n\n\nColección\nEn la SCJN\nSin texto\nEn el mapa\nRelease\n\n\n\n\nLeyes\n315\n0\n314\nscjn-leyes\n\n\nReglamentos\n1,087\n5\n864\nscjn-reglamentos\n\n\nLineamientos\n163\n37\n125\nscjn-lineamientos\n\n\nTratados\n1,455\n82\n1,367\nscjn-tratados\n\n\n\n\n\n\n\nUn instrumento por nombre\n\n\nComo la Corte reedita los reglamentos y los lineamientos con otro identificador, de los que comparten nombre sólo se conserva el más reciente. Si dos instrumentos tienen exactamente el mismo texto, se queda uno solo. En total son 2,670 instrumentos en el mapa.\n\n\n\n\n\nLos cuatro releases están en https://github.com/INGEOTEC/LegalIA/releases.",
+    "text": "Cuatro corpus abiertos\nLas cuatro colecciones de la SCJN se publican como datos abiertos.\n\n\n\nColección\nInstrumentos en el mapa\n\n\n\n\nLeyes\n314\n\n\nReglamentos\n864\n\n\nLineamientos\n125\n\n\nTratados\n1,367\n\n\nTotal\n2,670",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
   },
   {
-    "objectID": "LegalIA/index.html#del-texto-a-los-fragmentos",
-    "href": "LegalIA/index.html#del-texto-a-los-fragmentos",
+    "objectID": "LegalIA/index.html#lo-que-publica-la-corte",
+    "href": "LegalIA/index.html#lo-que-publica-la-corte",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
-    "section": "Del texto a los fragmentos",
-    "text": "Del texto a los fragmentos\n\n\n\n\n\nBloques con un esquema\n\n\nLa SCJN sirve cada instrumento en bloques, y esos bloques se convierten en un árbol con el vocabulario de Akoma Ntoso (Palmirani y Vitali 2011).\n\n\n\n\n\n\n\nEl artículo entero\n\n\nLa unidad es el artículo completo, tenga la longitud que tenga, porque es lo que una persona del derecho cita.\n\n\n\n\n\n\n\n\n\nCobertura total\n\n\nUnas pruebas comprueban que todo el texto de un bloque cae en algún fragmento y que ninguno se pierde.\n\n\n\n\n\n\n\n¿Fragmento o disposición?\n\n\nUn encabezado o un preámbulo no es una disposición. Por eso se dice fragmento, que puede ser un artículo, un transitorio o un título.",
+    "section": "Lo que publica la Corte",
+    "text": "Lo que publica la Corte",
+    "crumbs": [
+      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "LegalIA/index.html#chapingo-tal-como-llega",
+    "href": "LegalIA/index.html#chapingo-tal-como-llega",
+    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
+    "section": "Chapingo, tal como llega",
+    "text": "Chapingo, tal como llega\n**LEY QUE CREA LA UNIVERSIDAD AUTONOMA CHAPINGO**\n**ULTIMA REFORMA PUBLICADA EN EL DIARIO OFICIAL DE LA FEDERACION: 30 DE DICIEMBRE DE 1977.**\nLey publicada en el Diario Oficial de la Federación, el lunes 30 de diciembre de 1974.\nLUIS ECHEVERRIA ALVAREZ, Presidente Constitucional de los Estados Unidos Mexicanos, a sus habitantes, sabed:\nQue el H. Congreso de la Unión se ha servido dirigirme el siguiente\n**D E C R E T O**\n\"El Congreso de los Estados Unidos Mexicanos, decreta:\n**LEY QUE CREA LA UNIVERSIDAD AUTONOMA CHAPINGO**\n**CAPITULO I**\nDe su Naturaleza, Objetivos y Medios\n**ARTICULO 1o.-** Se crea la Universidad Autónoma Chapingo como organismo descentralizado del Estado, con personalidad jurídica, patrimonio propio y sede de gobierno en Chapingo, Estado de México.\n\n\n\n\nTexto plano\n\n\nEs una sola tira de texto. Nada en ella dice dónde empieza un capítulo o dónde termina un artículo, más allá de sus líneas.",
+    "crumbs": [
+      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "LegalIA/index.html#chapingo-sus-29-fragmentos",
+    "href": "LegalIA/index.html#chapingo-sus-29-fragmentos",
+    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
+    "section": "Chapingo, sus 29 fragmentos",
+    "text": "Chapingo, sus 29 fragmentos\n\n\nLa ley tiene 29 fragmentos y 16 de ellos se comparan.\n\n\nCuáles se dejan fuera y por qué se explica más adelante, en «Qué se compara y qué no».",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
@@ -2370,7 +2400,27 @@
     "href": "LegalIA/index.html#qué-tan-cerca-están-dos-leyes",
     "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
     "section": "¿Qué tan cerca están dos leyes?",
-    "text": "¿Qué tan cerca están dos leyes?\n\n\n\n\n\nLa pregunta\n\n\nCada fragmento busca a su “gemelo”, que es el texto más parecido fuera de su propio instrumento.\n\n\n\n\n\n\n\nEl vecino más cercano\n\n\n\nEl texto más cercano (coseno) fuera de su propio instrumento\nSi ese texto lo comparten m instrumentos, cada uno recibe 1/m",
+    "text": "¿Qué tan cerca están dos leyes?",
+    "crumbs": [
+      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "LegalIA/index.html#el-grafo-de-las-leyes",
+    "href": "LegalIA/index.html#el-grafo-de-las-leyes",
+    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
+    "section": "El grafo de las leyes",
+    "text": "El grafo de las leyes\n\n\n\n\n\n\n\nCon todas las leyes a la vez, las que comparten muchos textos parecidos quedan unidas por flechas gruesas. Cada flecha suma los artículos de una ley que encuentran su texto más parecido en la otra.",
+    "crumbs": [
+      "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
+    ]
+  },
+  {
+    "objectID": "LegalIA/index.html#de-artículos-a-un-mapa",
+    "href": "LegalIA/index.html#de-artículos-a-un-mapa",
+    "title": "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial",
+    "section": "De artículos a un mapa",
+    "text": "De artículos a un mapa\n\n\n\n\n\n\n\nEs una heurística, una regla sencilla que acerca a las leyes que comparten textos parecidos. No mide si dos leyes están emparentadas jurídicamente.",
     "crumbs": [
       "¿Qué tan cerca están nuestras leyes? Explorando el derecho mexicano con inteligencia artificial"
     ]
