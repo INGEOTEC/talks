@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <!-- Ley que crea la Universidad Autónoma Chapingo, sus 29 fragmentos.
+       Azul, los 16 que se comparan. Gris, los 13 que no. -->
+  <!-- raíz -->
+  <text x="480" y="34" font-size="20" font-weight="700" fill="#1e4f8f" text-anchor="middle">Ley que crea la Universidad Autónoma Chapingo</text>
+  <!-- conectores -->
+  <g stroke="#94a3b8" stroke-width="2" fill="none">
+    <path d="M480,44 L480,66"/>
+    <path d="M72,66 L888,66"/>
+    <path d="M72,66 L72,90"/>
+    <path d="M208,66 L208,90"/>
+    <path d="M344,66 L344,90"/>
+    <path d="M480,66 L480,90"/>
+    <path d="M616,66 L616,90"/>
+    <path d="M752,66 L752,90"/>
+    <path d="M888,66 L888,90"/>
+    <path d="M208,126 L208,322"/>
+    <path d="M344,126 L344,286"/>
+    <path d="M480,126 L480,142"/>
+    <path d="M616,126 L616,250"/>
+    <path d="M752,126 L752,286"/>
+    <path d="M888,126 L888,142"/>
+  </g>
+  <!-- fragmentos que no se comparan (13) -->
+  <g fill="#f3f4f6" stroke="#9ca3af" stroke-width="2">
+    <rect x="10" y="90" width="124" height="36" rx="8"/>
+    <rect x="146" y="90" width="124" height="36" rx="8"/>
+    <rect x="282" y="90" width="124" height="36" rx="8"/>
+    <rect x="418" y="90" width="124" height="36" rx="8"/>
+    <rect x="554" y="90" width="124" height="36" rx="8"/>
+    <rect x="690" y="90" width="124" height="36" rx="8"/>
+    <rect x="826" y="90" width="124" height="36" rx="8"/>
+    <rect x="697" y="142" width="110" height="30" rx="6"/>
+    <rect x="697" y="178" width="110" height="30" rx="6"/>
+    <rect x="697" y="214" width="110" height="30" rx="6"/>
+    <rect x="697" y="250" width="110" height="30" rx="6"/>
+    <rect x="697" y="286" width="110" height="30" rx="6"/>
+    <rect x="833" y="142" width="110" height="30" rx="6"/>
+  </g>
+  <g font-size="16" fill="#4b5563" text-anchor="middle">
+    <text x="72" y="114">Preámbulo</text>
+    <text x="208" y="114">Capítulo I</text>
+    <text x="344" y="114">Capítulo II</text>
+    <text x="480" y="114">Capítulo III</text>
+    <text x="616" y="114">Capítulo IV</text>
+    <text x="752" y="114">Transitorios</text>
+    <text x="888" y="114">Reforma 1977</text>
+    <text x="752" y="162">Primero</text>
+    <text x="752" y="198">Segundo</text>
+    <text x="752" y="234">Tercero</text>
+    <text x="752" y="270">Cuarto</text>
+    <text x="752" y="306">Quinto</text>
+    <text x="888" y="162">Cierre</text>
+  </g>
+  <!-- fragmentos que se comparan (16 artículos) -->
+  <g fill="#1e4f8f">
+    <rect x="153" y="142" width="110" height="30" rx="6"/>
+    <rect x="153" y="178" width="110" height="30" rx="6"/>
+    <rect x="153" y="214" width="110" height="30" rx="6"/>
+    <rect x="153" y="250" width="110" height="30" rx="6"/>
+    <rect x="153" y="286" width="110" height="30" rx="6"/>
+    <rect x="153" y="322" width="110" height="30" rx="6"/>
+    <rect x="289" y="142" width="110" height="30" rx="6"/>
+    <rect x="289" y="178" width="110" height="30" rx="6"/>
+    <rect x="289" y="214" width="110" height="30" rx="6"/>
+    <rect x="289" y="250" width="110" height="30" rx="6"/>
+    <rect x="289" y="286" width="110" height="30" rx="6"/>
+    <rect x="425" y="142" width="110" height="30" rx="6"/>
+    <rect x="561" y="142" width="110" height="30" rx="6"/>
+    <rect x="561" y="178" width="110" height="30" rx="6"/>
+    <rect x="561" y="214" width="110" height="30" rx="6"/>
+    <rect x="561" y="250" width="110" height="30" rx="6"/>
+  </g>
+  <g font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <text x="208" y="162">Art. 1o.</text>
+    <text x="208" y="198">Art. 2o.</text>
+    <text x="208" y="234">Art. 3o.</text>
+    <text x="208" y="270">Art. 4o.</text>
+    <text x="208" y="306">Art. 5o.</text>
+    <text x="208" y="342">Art. 6o.</text>
+    <text x="344" y="162">Art. 7o.</text>
+    <text x="344" y="198">Art. 8o.</text>
+    <text x="344" y="234">Art. 9o.</text>
+    <text x="344" y="270">Art. 10</text>
+    <text x="344" y="306">Art. 11</text>
+    <text x="480" y="162">Art. 12</text>
+    <text x="616" y="162">Art. 13</text>
+    <text x="616" y="198">Art. 14</text>
+    <text x="616" y="234">Art. 15</text>
+    <text x="616" y="270">Art. 16</text>
+  </g>
+  <!-- leyenda -->
+  <rect x="250" y="382" width="26" height="22" rx="5" fill="#1e4f8f"/>
+  <text x="286" y="399" font-size="17" fill="#1f2937">se compara (16)</text>
+  <rect x="520" y="382" width="26" height="22" rx="5" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text x="556" y="399" font-size="17" fill="#1f2937">no se compara (13)</text>
+</svg>
