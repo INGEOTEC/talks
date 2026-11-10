@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" font-family="Lato, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <!-- 1. el texto como lo publica la Corte -->
+  <rect x="4" y="10" width="270" height="310" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="139" y="40" font-size="19" font-weight="700" fill="#1e4f8f" text-anchor="middle">1. El texto de la Corte</text>
+  <text x="139" y="62" font-size="14" fill="#6b7280" font-style="italic" text-anchor="middle">una secuencia de bloques</text>
+  <g font-size="16" fill="#1f2937">
+    <rect x="24" y="78" width="230" height="32" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+    <text x="36" y="100">Título y preámbulo</text>
+    <rect x="24" y="116" width="230" height="32" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+    <text x="36" y="138">CAPÍTULO I</text>
+    <rect x="24" y="154" width="230" height="32" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+    <text x="36" y="176">ARTÍCULO 1o. …</text>
+    <rect x="24" y="192" width="230" height="32" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+    <text x="36" y="214">ARTÍCULO 2o. …</text>
+    <rect x="24" y="230" width="230" height="32" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+    <text x="36" y="252">CAPÍTULO II</text>
+    <text x="139" y="290" text-anchor="middle">…</text>
+  </g>
+  <line x1="278" y1="165" x2="328" y2="165" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <!-- 2. el árbol -->
+  <rect x="332" y="10" width="296" height="310" rx="12" fill="#e8f0fb" stroke="#2f6fbf" stroke-width="2"/>
+  <text x="480" y="40" font-size="19" font-weight="700" fill="#1e4f8f" text-anchor="middle">2. El árbol</text>
+  <text x="480" y="62" font-size="14" fill="#6b7280" font-style="italic" text-anchor="middle">unas partes dentro de otras</text>
+  <g stroke="#94a3b8" stroke-width="2" fill="none">
+    <path d="M360,96 L360,280"/>
+    <path d="M360,124 L378,124"/>
+    <path d="M396,136 L396,238"/>
+    <path d="M396,164 L414,164"/>
+    <path d="M432,176 L432,226"/>
+    <path d="M432,202 L450,202"/>
+    <path d="M432,226 L450,226"/>
+    <path d="M396,250 L414,250"/>
+    <path d="M360,280 L378,280"/>
+  </g>
+  <g font-size="16" fill="#1f2937">
+    <text x="350" y="92" font-weight="700" fill="#1e4f8f">Ley</text>
+    <text x="384" y="130">Capítulo I</text>
+    <text x="420" y="170">Artículo 1o.</text>
+    <text x="456" y="208">Fracción I</text>
+    <text x="456" y="232">Fracción II</text>
+    <text x="420" y="256">Artículo 2o.</text>
+    <text x="384" y="286">Capítulo II …</text>
+  </g>
+  <line x1="632" y1="165" x2="682" y2="165" stroke="#4b5563" stroke-width="3" marker-end="url(#a)"/>
+  <!-- 3. los fragmentos -->
+  <rect x="686" y="10" width="270" height="310" rx="12" fill="#fff4e0" stroke="#d98a00" stroke-width="2"/>
+  <text x="821" y="40" font-size="19" font-weight="700" fill="#9a5b00" text-anchor="middle">3. Los fragmentos</text>
+  <text x="821" y="62" font-size="14" fill="#6b7280" font-style="italic" text-anchor="middle">una lista en orden</text>
+  <g font-size="16" fill="#1f2937">
+    <rect x="706" y="78" width="230" height="32" rx="6" fill="#ffffff" stroke="#d98a00"/>
+    <text x="718" y="100">Preámbulo</text>
+    <rect x="706" y="116" width="230" height="32" rx="6" fill="#ffffff" stroke="#d98a00"/>
+    <text x="718" y="138">Encabezado del capítulo I</text>
+    <rect x="706" y="154" width="230" height="32" rx="6" fill="#ffffff" stroke="#d98a00"/>
+    <text x="718" y="176">Artículo 1o. entero</text>
+    <rect x="706" y="192" width="230" height="32" rx="6" fill="#ffffff" stroke="#d98a00"/>
+    <text x="718" y="214">Artículo 2o. entero</text>
+    <rect x="706" y="230" width="230" height="32" rx="6" fill="#ffffff" stroke="#d98a00"/>
+    <text x="718" y="252">Encabezado del capítulo II</text>
+    <text x="821" y="290" text-anchor="middle">…</text>
+  </g>
+</svg>

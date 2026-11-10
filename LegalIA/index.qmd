@@ -231,78 +231,108 @@ Publica los textos consolidados y editoriales de las leyes, los reglamentos, los
 ::::
 
 ::: {.fragment .callout-tip icon="false"}
-### El atlas parte de la SCJN
+### LegalIA parte de la SCJN
 
-Sus textos ya traen cada instrumento completo y con su nombre, así que no hace falta reconstruirlos a partir de los decretos.
+Sus textos ya traen cada instrumento completo y con su nombre, así que no hace falta reconstruirlos a partir de los decretos del DOF.
 :::
 
-## Cuatro corpus abiertos {.fs75}
+## ¿Cómo se conectan las leyes? {.fs85 .nostretch}
 
-| Colección | En la SCJN | Sin texto | En el mapa | Release |
-|:--|--:|--:|--:|:--|
-| Leyes | 315 | 0 | 314 | `scjn-leyes` |
-| Reglamentos | 1,087 | 5 | 864 | `scjn-reglamentos` |
-| Lineamientos | 163 | 37 | 125 | `scjn-lineamientos` |
-| Tratados | 1,455 | 82 | 1,367 | `scjn-tratados` |
+![](img/leyes_conectadas.svg){fig-align="center" width="80%"}
+
+:::: {.columns}
+::: {.fragment .callout-note icon="false" .column}
+### El problema
+
+Las leyes, los reglamentos, los lineamientos y los tratados están conectados de muchas maneras, pero nadie tiene un mapa de esas conexiones entre miles de instrumentos.
+:::
+
+::: {.fragment .callout-tip icon="false" .column}
+### La meta
+
+Dibujar ese mapa, un atlas de las leyes, a partir del texto mismo y sin depender de que un instrumento cite a otro.
+:::
+::::
+
+## Cuatro corpus abiertos
+
+Las cuatro colecciones de la SCJN se publican como datos abiertos.
+
+| Colección | Instrumentos en el mapa |
+|:--|--:|
+| Leyes | 314 |
+| Reglamentos | 864 |
+| Lineamientos | 125 |
+| Tratados | 1,367 |
+| **Total** | **2,670** |
+
+## Lo que publica la Corte
+
+![](img/texto_arbol_fragmentos.svg){fig-align="center" width="95%"}
+
+## Chapingo, tal como llega {.fs70}
+
+```{=html}
+<pre style="white-space: pre-wrap; font-size: 0.62em; line-height: 1.4; max-height: none; padding: 0.6em;"><code>**LEY QUE CREA LA UNIVERSIDAD AUTONOMA CHAPINGO**
+**ULTIMA REFORMA PUBLICADA EN EL DIARIO OFICIAL DE LA FEDERACION: 30 DE DICIEMBRE DE 1977.**
+Ley publicada en el Diario Oficial de la Federación, el lunes 30 de diciembre de 1974.
+LUIS ECHEVERRIA ALVAREZ, Presidente Constitucional de los Estados Unidos Mexicanos, a sus habitantes, sabed:
+Que el H. Congreso de la Unión se ha servido dirigirme el siguiente
+**D E C R E T O**
+"El Congreso de los Estados Unidos Mexicanos, decreta:
+**LEY QUE CREA LA UNIVERSIDAD AUTONOMA CHAPINGO**
+**CAPITULO I**
+De su Naturaleza, Objetivos y Medios
+**ARTICULO 1o.-** Se crea la Universidad Autónoma Chapingo como organismo descentralizado del Estado, con personalidad jurídica, patrimonio propio y sede de gobierno en Chapingo, Estado de México.</code></pre>
+```
 
 ::: {.fragment .callout-note icon="false"}
-### Un instrumento por nombre
+### Texto plano
 
-Como la Corte reedita los reglamentos y los lineamientos con otro identificador, de los que comparten nombre sólo se conserva el más reciente. Si dos instrumentos tienen exactamente el mismo texto, se queda uno solo. En total son 2,670 instrumentos en el mapa.
+Es una sola tira de texto. Nada en ella dice dónde empieza un capítulo o dónde termina un artículo, más allá de sus líneas.
+:::
+
+## Chapingo, sus 29 fragmentos {.fs80}
+
+![](img/chapingo_arbol.svg){fig-align="center" width="85%"}
+
+::: {style="text-align: center;"}
+La ley tiene 29 fragmentos y 16 de ellos se comparan.
 :::
 
 ::: {.fragment style="font-size: 80%; text-align: center;"}
-Los cuatro releases están en <https://github.com/INGEOTEC/LegalIA/releases>.
+Cuáles se dejan fuera y por qué se explica más adelante, en «Qué se compara y qué no».
 :::
-
-## Del texto a los fragmentos
-
-:::: {.columns}
-::: {.callout-note icon="false" .column}
-### Bloques con un esquema
-
-La SCJN sirve cada instrumento en bloques, y esos bloques se convierten en un árbol con el vocabulario de Akoma Ntoso [@palmirani2011].
-:::
-
-::: {.fragment .callout-tip icon="false" .column}
-### El artículo entero
-
-La unidad es el artículo completo, tenga la longitud que tenga, porque es lo que una persona del derecho cita.
-:::
-::::
-
-:::: {.columns}
-::: {.fragment .callout-tip icon="false" .column}
-### Cobertura total
-
-Unas pruebas comprueban que todo el texto de un bloque cae en algún fragmento y que ninguno se pierde.
-:::
-
-::: {.fragment .callout-note icon="false" .column}
-### ¿Fragmento o disposición?
-
-Un encabezado o un preámbulo no es una disposición. Por eso se dice fragmento, que puede ser un artículo, un transitorio o un título.
-:::
-::::
 
 # El atlas
 
-## ¿Qué tan cerca están dos leyes?
+## ¿Qué tan cerca están dos leyes? {.nostretch}
 
-:::: {.columns}
-::: {.callout-note icon="false" .column}
-### La pregunta
+<!-- Figura del artículo más parecido fuera de su ley (review fix-2). En review fix-3
+     se quitaron los recuadros de texto a pedido del dueño y se dejó sólo la figura. -->
+![](img/mas_parecido.svg){fig-align="center" width="95%"}
 
-Cada fragmento busca a su "gemelo", que es el texto más parecido fuera de su propio instrumento.
+## El grafo de las leyes {.nostretch}
+
+<!-- Lámina añadida en review fix-4 tras la revisión del dueño. Grafo inventado,
+     no son datos del atlas. En review fix-5 (hallazgo de revisión posterior) se
+     movió antes de «De artículos a un mapa» y se quitó la mención de la tabla,
+     que aún no se ha mostrado. -->
+![](img/grafo_sintetico.svg){fig-align="center" width="72%"}
+
+::: {.fragment style="font-size: 50%; text-align: center;"}
+Con todas las leyes a la vez, las que comparten muchos textos parecidos quedan unidas por flechas gruesas. Cada flecha suma los artículos de una ley que encuentran su texto más parecido en la otra.
 :::
 
-::: {.fragment .callout-tip icon="false" .column}
-### El vecino más cercano
+## De artículos a un mapa {.nostretch}
 
-* El texto más cercano (coseno) **fuera** de su propio instrumento
-* Si ese texto lo comparten *m* instrumentos, cada uno recibe 1/*m*
+<!-- Lámina añadida en review fix-3 tras la revisión del dueño. Pesos reales de
+     Chapingo en el atlas público del modelo 4B. -->
+![](img/votos_matriz.svg){fig-align="center" width="85%"}
+
+::: {.fragment style="font-size: 50%; text-align: center;"}
+Es una heurística, una regla sencilla que acerca a las leyes que comparten textos parecidos. No mide si dos leyes están emparentadas jurídicamente.
 :::
-::::
 
 ## Texto → números
 
