@@ -7,7 +7,7 @@ author:
       url: https://mgraffg.github.io
       affiliation: "División de Economía Aplicada<br>Centro de Investigación y Docencia Económicas (CIDE)"
 abstract: |
-  Las leyes mexicanas están dispersas en fuentes heterogéneas y hasta ahora no existía una forma abierta de estudiarlas en conjunto. En esta charla se cuenta cómo se reunieron cuatro colecciones de la Suprema Corte de Justicia de la Nación, las leyes, los reglamentos, los lineamientos y los tratados, y cómo se partieron en fragmentos que van de un artículo entero hasta un preámbulo. A cada fragmento se le hace una sola pregunta, dónde vive el texto más cercano fuera de su propio instrumento, y las respuestas se juntan en un mapa navegable de 2,670 instrumentos. Veremos qué muestra el mapa sobre la Constitución, las universidades públicas y los tratados, y cómo se validó contra los vínculos que los propios textos declaran y contra las citas entre fragmentos. La charla termina con lo que el atlas no dice, pues describe cercanía textual y no mide parentesco jurídico.
+  Las leyes mexicanas están dispersas en fuentes heterogéneas y hasta ahora no existía una forma abierta de estudiarlas en conjunto. En esta charla se cuenta cómo se reunieron cuatro colecciones de la Suprema Corte de Justicia de la Nación, las leyes, los reglamentos, los lineamientos y los tratados, y cómo se partieron en fragmentos que van de un artículo entero hasta un preámbulo. A cada fragmento se le hace una sola pregunta, dónde vive el texto más cercano fuera de su propio instrumento, y las respuestas se juntan en un mapa navegable de 2,670 instrumentos. Veremos qué muestra el mapa sobre la Constitución, las universidades públicas y los tratados, y cómo se validó contra los vínculos que los propios textos declaran y contra las citas entre fragmentos. La charla cierra explicando por qué este trabajo constituye la base sobre la que pueden construirse otras tareas de procesamiento de lenguaje natural en el derecho mexicano.
 
 format:
   revealjs:
@@ -541,23 +541,25 @@ El mapa abre con el 4B.
 
 ## Vínculos fuertes {.fs75}
 
-:::: {.columns}
-::: {.callout-note icon="false" .column}
+::: {.callout-note icon="false"}
 ### Qué son
 
-Son vínculos que el texto declara. La señal A es el nombre del instrumento y la señal B es la frase "tiene por objeto". Dan 277 vínculos de 253 instrumentos, y 62 nombres no se resuelven y se dejan fuera.
+Son vínculos que el propio texto declara, y salen de dos fuentes. El nombre de un reglamento nombra la ley que reglamenta, así el Reglamento de la Ley General de Salud en Materia de Investigación para la Salud nombra la Ley General de Salud. La oración que dice para qué existe un instrumento, la que empieza con "tiene por objeto", a menudo nombra otro instrumento. Dan 277 vínculos de 253 instrumentos, y 62 nombres que no se resuelven se dejan fuera. Se leyeron del texto sin usar ningún método de similitud, así que sirven de referencia independiente.
 :::
-
-::: {.fragment .callout-tip icon="false" .column}
-### Qué se encuentra
-
-El más cercano es un vínculo fuerte para 125, 129 y 131 de los 253 (0.6B, 4B y BM25). Uno de ellos está entre los cinco más cercanos para 194, 202 y 196. De los 209 reglamentos, el más cercano es su ley para 121, 122 y 124.
-:::
-::::
 
 ::: {.fragment .callout-tip icon="false"}
-### Empates y BM25
+### Los resultados
 
+| | 0.6B | 4B | BM25 |
+|:---|:---:|:---:|:---:|
+| El más cercano es un vínculo fuerte (de 253) | 125 | 129 | 131 |
+| Un vínculo fuerte está entre los cinco más cercanos (de 253) | 194 | 202 | 196 |
+| Reglamentos cuyo más cercano es su ley (de 209) | 121 | 122 | 124 |
+
+: {tbl-colwidths="[58,14,14,14]"}
+:::
+
+::: {.fragment}
 De las 18 comparaciones, 16 son empates y BM25 nunca pierde. Para esta tarea una medida de palabras es tan buena como los modelos.
 :::
 
@@ -601,27 +603,6 @@ Además trae un enlace para comentar el instrumento, y así quien lo lee puede s
 :::
 ::::
 
-# ¿Qué sigue?
-
-## Trabajo pendiente y límites {.fs80}
-
-:::: {.columns}
-::: {.callout-tip icon="false" .column}
-### Lo que falta
-
-* Un grafo de citas que parta de los decretos del DOF, como el que se construyó para la legislación italiana [@Colombo2025AnLegislation]
-* Atlas temporales a partir de las versiones fechadas
-* Legislación estatal y jurisprudencia
-* Una evaluación con juristas
-:::
-
-::: {.fragment .callout-note icon="false" .column}
-### El límite
-
-El atlas describe cercanía textual y no mide parentesco jurídico. Es una herramienta para explorar, no una medida validada.
-:::
-::::
-
 # Conclusiones
 
 ## Temas
@@ -653,6 +634,18 @@ El atlas describe cercanía textual y no mide parentesco jurídico. Es una herra
 ### Todo es abierto
 
 Paquetes en PyPI, releases con licencia Creative Commons, sitio web y código Apache 2.0 en <https://ingeotec.github.io/LegalIA/>
+:::
+
+## Por qué importa
+
+::: {.callout-important icon="false"}
+### Una base para el PLN jurídico
+
+El corpus abierto, su división en fragmentos y el atlas constituyen la primera pieza de una infraestructura para el procesamiento de lenguaje natural sobre el derecho mexicano. Sobre ella pueden construirse otras tareas, como la búsqueda, la clasificación, la recuperación de textos relacionados o la respuesta a preguntas.
+:::
+
+::: {.fragment}
+Al ser abierta, cualquier grupo puede reproducirla, evaluarla y extenderla.
 :::
 
 # Referencias {.fs40}
