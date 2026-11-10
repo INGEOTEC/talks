@@ -322,6 +322,16 @@ Cuáles se dejan fuera y por qué se explica más adelante, en «Qué se compara
 Es una heurística, una regla sencilla que acerca a las leyes que comparten textos parecidos. No mide si dos leyes están emparentadas jurídicamente.
 :::
 
+## El grafo de las leyes {.nostretch}
+
+<!-- Lámina añadida en review fix-4 tras la revisión del dueño. Grafo inventado,
+     no son datos del atlas. -->
+![](img/grafo_sintetico.svg){fig-align="center" width="72%"}
+
+::: {.fragment style="font-size: 50%; text-align: center;"}
+Con todas las leyes a la vez, las que comparten muchos textos parecidos quedan unidas por flechas gruesas. Este grafo es lo que guarda la tabla.
+:::
+
 ## Texto → números
 
 ![](img/texto_vector.svg){fig-align="center" width="75%"}
