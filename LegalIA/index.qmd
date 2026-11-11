@@ -13,6 +13,8 @@ format:
   revealjs:
     theme: simple
     chalkboard: true
+    slide-number: c/t
+    show-slide-number: all
     footer: <https://mgraffg.github.io>
     css: legalia.css
 bibliography: references.bib
